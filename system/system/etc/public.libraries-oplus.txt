@@ -1,0 +1,2 @@
+libaol_jni.oplus.so
+libbleoffload_jni.oplus.so

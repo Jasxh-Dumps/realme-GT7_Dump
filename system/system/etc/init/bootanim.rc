@@ -1,0 +1,22 @@
+#ifdef OPLUS_FEATURE_BOOTANIMATION
+#Wei.He@ANDROID.BOOT.BOOTANIMATION, 2014/08/05, modify for oplus startup & shutdown animation
+service bootanim /system/bin/bootanimation
+    class core animation
+    user system
+    group graphics audio media
+    capabilities SYS_NICE
+    writepid /dev/cpuset/background/tasks /dev/stune/background/tasks
+    disabled
+    oneshot
+    ioprio rt 0
+    task_profiles MaxPerformance
+service rbootanim /system/bin/bootanimation -r
+    class core animation
+    user graphics
+    group graphics audio media
+    capabilities SYS_NICE
+    disabled
+    oneshot
+    ioprio rt 0
+    task_profiles MaxPerformance
+#endif /* OPLUS_FEATURE_BOOTANIMATION */

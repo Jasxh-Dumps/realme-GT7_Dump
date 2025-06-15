@@ -1,0 +1,12 @@
+#ifndef OPLUS_BUG_COMPATIBILITY
+#//HuXin@MULTIMEDIA.MEDIASERVER.PLAYER, 2024/06/11, MTK_TO_AOSP
+#service media /system/bin/mediaserver64
+#else /* OPLUS_BUG_COMPATIBILITY */
+service media64 /system/bin/mediaserver64
+    disabled
+#endif /* OPLUS_BUG_COMPATIBILITY */
+    class main
+    user media
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance

@@ -1,0 +1,97 @@
+service audioserver /system/bin/audioserver
+    class core
+    user audioserver
+    # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
+    #ifdef OPLUS_BUG_STABILITY
+    #YaJun.Li@MM.AudioServer.Framework, 2019/09/14, add sdcard_rw readproc permission for audioserver,remove qcom_diag it is not exist anymore
+    #group audio camera drmrpc media mediadrm net_bt net_bt_admin net_bw_acct wakelock
+    group audio camera drmrpc media mediadrm net_bt net_bt_admin net_bw_acct wakelock readproc sdcard_rw log system
+    #endif
+    #ifndef OPLUS_FEATURE_AUDIO_BOOST
+    # dongchuancheng@MULTIMEDIA.AUDIOSERVER, 2023/07/29, add for audio boost
+    # capabilities BLOCK_SUSPEND
+    #else /* OPLUS_FEATURE_AUDIO_BOOST */
+    capabilities BLOCK_SUSPEND SYS_NICE
+    #endif /* OPLUS_FEATURE_AUDIO_BOOST */
+    # match rtprio cur / max with sensor service as we handle AR/VR HID sensor data.
+    rlimit rtprio 10 10
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    #ifdef OPLUS_BUG_STABILITY
+    #Liang.Xu@MM.AudioServer.Framework, 2024/08/07, restart dms server if audioserver restart.
+    onrestart restart dms-hal-1-0
+    #endif OPLUS_BUG_STABILITY
+    onrestart restart vendor.audio-hal
+    onrestart restart vendor.audio-hal-aidl
+    onrestart restart vendor.audio-effect-hal-aidl
+    onrestart restart vendor.audio-hal-4-0-msd
+    onrestart restart audio_proxy_service
+
+on property:vts.native_server.on=1
+    stop audioserver
+on property:vts.native_server.on=0
+    start audioserver
+#//ifdef MTK_COMMON_AUDIO_DEBUG
+#[ALPS04217601] restart AudioServer to sync with AudioService
+on property:vold.decrypt=trigger_reset_main
+    restart audioserver
+#//endif MTK_COMMON_AUDIO_DEBUG
+
+on property:init.svc.audioserver=stopped
+    stop vendor.audio-hal
+    stop vendor.audio-hal-aidl
+    stop vendor.audio-effect-hal-aidl
+    stop vendor.audio-hal-4-0-msd
+    stop audio_proxy_service
+    # See b/155364397. Need to have HAL service running for VTS.
+    # Can't use 'restart' because then HAL service would restart
+    # audioserver bringing it back into running state.
+    start vendor.audio-hal
+    start vendor.audio-hal-aidl
+    start vendor.audio-effect-hal-aidl
+    start vendor.audio-hal-4-0-msd
+    start audio_proxy_service
+
+on property:init.svc.audioserver=running
+    start vendor.audio-hal
+    start vendor.audio-hal-aidl
+    start vendor.audio-effect-hal-aidl
+    start vendor.audio-hal-4-0-msd
+    start audio_proxy_service
+
+on property:sys.audio.restart.hal=1
+    # See b/159966243. Avoid restart loop between audioserver and HAL.
+    # Keep the original service names for backward compatibility
+    #//#ifdef OPLUS_BUG_STABILITY
+    #//huangxin@MULTIMEDIA.AUDIOSERVER.FRAMEWOTRK, 2022/12/05, add for st-hal restart agm,audio-hal and audioserver
+    # QCOM AGM service stop
+    stop vendor.agm-1-0
+    #//endif OPLUS_ARCH_EXTENDS
+    stop vendor.audio-hal
+    stop vendor.audio-hal-aidl
+    stop vendor.audio-effect-hal-aidl
+    stop vendor.audio-hal-4-0-msd
+    stop audio_proxy_service
+    stop vendor.audio-hal-2-0
+    stop audio-hal-2-0
+    #//#ifdef OPLUS_BUG_STABILITY
+    #//huangxin@MULTIMEDIA.AUDIOSERVER.FRAMEWOTRK, 2022/12/05, add for st-hal restart agm,audio-hal and audioserver
+    # QCOM AGM service start
+    start vendor.agm-1-0
+    #//endif OPLUS_ARCH_EXTENDS
+    start vendor.audio-hal
+    start vendor.audio-hal-aidl
+    start vendor.audio-effect-hal-aidl
+    start vendor.audio-hal-4-0-msd
+    start audio_proxy_service
+    # reset the property
+    setprop sys.audio.restart.hal 0
+
+on init
+    mkdir /dev/socket/audioserver 0775 audioserver audioserver
+
+#//#ifdef MTK_COMMON_AUDIO_DEBUG
+# MTK DebugLogger Dynamic Settings
+on property:vendor.af.audioserver.restart=1
+    restart audioserver
+#//endif MTK_COMMON_AUDIO_DEBUG

@@ -1,0 +1,31 @@
+on property:init.svc.media=*
+    setprop init.svc.mediadrm ${init.svc.media}
+
+# liuxiaofo@MULTIMEDIA.MEDIASERVER.PLAYER.7308966 2024/05/14,
+# mediahelper has been moved to system_ext
+service media /system_ext/bin/mediahelper
+    class main
+    user media
+#ifndef OPLUS_FEATURE_MM_BOOST
+#li.bao@PSW.MM.MediaServer.Player.5672928, 2023/05/10
+#add readproc for reading C2HW process tid info
+#   group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+#else  /* OPLUS_FEATURE_MM_BOOST */
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm uhid readproc
+    capabilities SYS_NICE
+#endif /* OPLUS_FEATURE_MM_BOOST */
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+#ifdef OPLUS_BUG_STABILITY
+#lichao5@PSW.MM.MediaServer.PLAYER.5381096,2023/04/06
+#Modify for binder thread blocking
+    onrestart restart mediaextractor
+#endif OPLUS_BUG_STABILITY
+#ifdef OPLUS_BUG_STABILITY
+#lichao5@PSW.MM.MediaServer.PLAYER.6002005,2023/08/02
+#Restart C2 when mediaserver restarts
+    onrestart restart android-hardware-media-c2-hal-1-2
+    onrestart restart android-hardware-media-c2-hal
+    onrestart restart media.swcodec
+    onrestart restart dolbycodec2
+#endif OPLUS_BUG_STABILITY

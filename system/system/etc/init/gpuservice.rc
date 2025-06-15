@@ -1,0 +1,11 @@
+#ifdef OPLUS_ARCH_EXTENDS
+#CaoYang@MULTIMEDIA.DISPLAY, 2023/9/18, Add for decoupling
+on late-init
+    chmod 0666 /sys/kernel/tracing/events/kgsl/enable
+    chmod 0666 /sys/kernel/tracing/events/kgsl/kgsl_regwrite/enable
+#endif
+
+service gpu /system/bin/gpuservice
+    class core
+    user gpu_service
+    group graphics readtracefs

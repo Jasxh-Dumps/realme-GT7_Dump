@@ -1,0 +1,131 @@
+#!/system/bin/sh
+
+#
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# This script will run as a postinstall step to drive otapreopt.
+
+
+
+
+#TARGET_SLOT="$1"
+STATUS_FD="$1"
+OPT_TYPE="$2"
+
+# Maximum number of packages/steps.
+MAXIMUM_PACKAGES=1000
+
+# First ensure the system is booted. This is to work around issues when cmd would
+# infinitely loop trying to get a service manager (which will never come up in that
+# mode). b/30797145
+BOOT_PROPERTY_NAME="dev.bootcomplete"
+
+BOOT_COMPLETE=$(getprop $BOOT_PROPERTY_NAME)
+if [ "$BOOT_COMPLETE" != "1" ] ; then
+  echo "Error: boot-complete not detected."
+  # We must return 0 to not block sideload.
+  exit 0
+fi
+
+# only ab device support this feature
+AB_ENABLE=`getprop ro.build.ab_update`
+if [ x"$AB_ENABLE" != x"true" ];then
+  echo "oplus_update_preopt not support in none ab devices"
+  exit 0
+fi
+
+CURRENT_SLOT=`getprop ro.boot.slot_suffix`
+# ota preopt
+if [ x"$OPT_TYPE" = x"ota" ];then
+  echo "ota preopt start!"
+  if [ "$CURRENT_SLOT" = "_a" ] ; then
+    TARGET_SLOT_SUFFIX="_b"
+  elif [ "$CURRENT_SLOT" = "_b" ] ; then
+    TARGET_SLOT_SUFFIX="_a"
+  fi
+  echo "fd:$STATUS_FD, slot_suffix:$TARGET_SLOT_SUFFIX"
+  #/system/bin/oplus_update_preopt ota 0 $STATUS_FD $TARGET_SLOT_SUFFIX >&- 2>&-
+  exit 0
+fi
+
+if [ x"$OPT_TYPE" = x"mainline" ];then
+  echo "mainline preopt start!"
+fi
+
+# when mainline update, target slot is same with current slot when reboot
+TARGET_SLOT_SUFFIX=$CURRENT_SLOT
+echo "target slot : $TARGET_SLOT_SUFFIX"
+
+# dodo
+# debug delete
+# exit 0
+
+umount postinstall/
+mount --bind / postinstall/
+
+#compile boot.oat, needed by compile apps
+#/data/local/tmp/oplus_update_preopt 0 >&- 2>&-
+/system/bin/oplus_update_preopt mainline 0 >&- 2>&-
+if [ $? -ne 0 ]; then
+  echo "odrefresh failed, exit"
+  cmd opluspreodex mainlineupdategetodrefresh
+  exit 1
+fi
+
+PREPARE=$(cmd opluspreodex mainlineupdateprepare)
+# Note: Ignore preparation failures. Step and done will fail and exit this.
+#       This is necessary to support suspends - the OTA service will keep
+#       the state around for us.
+
+# PROGRESS=$(cmd opluspreodex mainlineupdateprogress)
+# print -u${STATUS_FD} "global_progress $PROGRESS"
+# print "global_progress $PROGRESS"
+
+i=0
+while ((i<MAXIMUM_PACKAGES)) ; do
+  DEXOPT_PARAMS=$(cmd opluspreodex mainlineupdatenext)
+  if [[ "$DEXOPT_PARAMS" != *"dexopt"* ]] ; then
+    echo "Command error for : $DEXOPT_PARAMS "
+    break
+  fi
+#   /data/local/tmp/oplus_update_preopt 1 $STATUS_FD $TARGET_SLOT_SUFFIX $DEXOPT_PARAMS >&- 2>&-
+  /system/bin/oplus_update_preopt mainline 1 $STATUS_FD $TARGET_SLOT_SUFFIX $DEXOPT_PARAMS >&- 2>&-
+
+  PROGRESS=$(cmd opluspreodex mainlineupdateprogress)
+  print "global_progress $PROGRESS"
+
+  DONE=$(cmd opluspreodex mainlineupdatedone)
+  if [ "$DONE" = "OTA incomplete." ] ; then
+    sleep 1
+    i=$((i+1))
+    continue
+  fi
+  break
+done
+
+DONE=$(cmd opluspreodex mainlineupdatedone)
+if [ "$DONE" = "OTA incomplete." ] ; then
+  echo "Incomplete."
+else
+  echo "Complete or error."
+fi
+
+#print -u${STATUS_FD} "global_progress 1.0"
+print "global_progress 1.0"
+cmd opluspreodex mainlineupdatecleanup
+umount postinstall/
+
+exit 0

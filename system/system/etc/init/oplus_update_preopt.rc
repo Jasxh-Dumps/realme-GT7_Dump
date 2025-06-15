@@ -1,0 +1,20 @@
+# param:status-fd type
+service oplus_update_preopt_mainline /system/bin/oplus_update_preopt_script 100  mainline
+    user root
+    group root system
+    disabled
+    oneshot
+service oplus_otapreopt_slot /system/bin/oplus_otapreopt_slot
+    user root
+    group root system
+    disabled
+    oneshot
+on post-fs-data
+    mkdir /data/misc/apexdata/com.android.art/ 0771 root system
+    mkdir /data/misc/apexdata/com.android.art/dalvik-cache 0755 root system
+    mkdir /data/misc/apexdata/com.android.art/preodex-ota-pending 0755 root system
+    mkdir /data/misc/apexdata/com.android.art/preodex-mainline-pending 0755 root system
+    restorecon /data/misc/apexdata/com.android.art/
+
+    mkdir /data/oplus/dexopt 0770 root system
+    restorecon /data/oplus/dexopt/
