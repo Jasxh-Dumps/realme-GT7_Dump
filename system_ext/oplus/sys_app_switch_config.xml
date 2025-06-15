@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2024100101</version>
+    <filter-name>sys_app_switch_config</filter-name>
+
+    <!-- monitor all package change notification start -->
+    <matchAppDefault>com.coloros.appswitch.all</matchAppDefault>
+    <matchAppDefault>com.coloros.athena</matchAppDefault>
+    <matchAppDefault>com.nearme.statistics.rom</matchAppDefault>
+    <matchAppDefault>com.coloros.deepthinker</matchAppDefault>
+    <matchAppDefault>com.coloros.safecenter</matchAppDefault>
+    <matchAppDefault>com.coloros.colorfilestand</matchAppDefault>
+    <matchAppDefault>com.coloros.oppoguardelf</matchAppDefault>
+    <matchAppDefault>com.oppo.autotest.themismonitor</matchAppDefault>
+    <matchAppDefault>com.oppo.autotest.memleakmonitor</matchAppDefault>
+    <matchAppDefault>com.oppo.autotest.performance</matchAppDefault>
+    <matchAppDefault>com.coloros.exserviceui</matchAppDefault>
+    <matchAppDefault>android</matchAppDefault>
+    <matchAppDefault>com.coloros.securitypermission</matchAppDefault>
+    <matchAppDefault>com.coloros.otrace</matchAppDefault>
+    <matchAppDefault>com.oplus.linker</matchAppDefault>
+
+    <!-- add for remove oppo related keywords-->
+    <matchAppDefault>com.oplus.deepthinker</matchAppDefault>
+    <matchAppDefault>com.oplus.safecenter</matchAppDefault>
+    <matchAppDefault>com.oplus.securitypermission</matchAppDefault>
+    <matchAppDefault>com.oplus.onetrace</matchAppDefault>
+    <matchAppDefault>com.oplus.obrain</matchAppDefault>
+    <matchAppDefault>com.oplus.battery</matchAppDefault>
+    <matchAppDefault>com.oplus.exserviceui</matchAppDefault>
+    <matchAppDefault>com.oplus.athena</matchAppDefault>
+    <matchAppDefault>com.oplus.autotest.themismonitor</matchAppDefault>
+    <matchAppDefault>com.oplus.autotest.memleakmonitor</matchAppDefault>
+    <matchAppDefault>com.oplus.autotest.performance</matchAppDefault>
+    <matchAppDefault>com.oplus.statistics.rom</matchAppDefault>
+    <matchAppDefault>com.oplus.exsystemservice</matchAppDefault>
+    <matchAppDefault>com.android.systemui</matchAppDefault>
+    <matchAppDefault>com.oplus.pscanvas</matchAppDefault>
+    <!-- monitor all package change notification end -->
+
+    <!-- monitor all Activity change notification start -->
+    <matchActivityDefault>com.coloros.appswitch.all</matchActivityDefault>
+    <matchActivityDefault>com.oplus.deepthinker</matchActivityDefault>
+    <matchActivityDefault>com.oplus.statistics.rom</matchActivityDefault>
+    <!-- monitor all Activity change notification end -->
+
+    <!-- pause in recents animation start -->
+    <matchRecentsAnimApp>com.ss.android.ugc.aweme</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.smile.gifmaker</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.kuaishou.nebula</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.ugc.aweme.lite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.qqlive</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.article.video</matchRecentsAnimApp>
+    <matchRecentsAnimApp>tv.danmaku.bili</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.youku.phone</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.baidu.haokan</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.hunantv.imgo.activity</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.ugc.live</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ximalaya.ting.android</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.xs.fm</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.mobileqq</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.mm</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.xunmeng.pinduoduo</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.sankuai.meituan</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.jingdong.app.mall</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.taobao.taobao</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.achievo.vipshop</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.xingin.xhs</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.baidu.searchbox.lite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.article.news</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ss.android.article.lite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.dragon.read</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.UCMobile</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.baidu.browser.apps</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.lemon.lv</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.sgame</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.snda.wifilocating</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tmri.app.main</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.google.ar.core</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.bankabc</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.baidu.homework</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.mms</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.contacts</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.gallery3d</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.incallui</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.heytap.market</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.weather2</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.alarmclock</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.calculator</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.heytap.music</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.phonemanager</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.phone</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.filemanager</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.note</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.heytap.reader</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.oppo.community</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.heytap.book</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.oppo.music</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.oppo.market</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.soundrecorder</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.calendar</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.calculator2</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.weather</matchRecentsAnimApp>
+    <!-- Second batch -->
+    <matchRecentsAnimApp>com.youku.crazytogether</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.bilibili.bilibililive</matchRecentsAnimApp>
+    <matchRecentsAnimApp>tv.yixia.bobo</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.renren.mobile.android</matchRecentsAnimApp>
+    <matchRecentsAnimApp>air.tv.douyu.android</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.bokecc.dance</matchRecentsAnimApp>
+    <matchRecentsAnimApp>tv.xiaoka.live</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.cc</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.lokinfo.android.gamemarket.mmshow</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.gzlok.gamemarket.yueai.show</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wali.live</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.meelive.ingkee</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.hongren.ui</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.play</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.nice.live</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.showself.ui</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.haixiu.ui</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.huajiao</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.melot.meshow</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.smithereens.android.kan.huaxiu</matchRecentsAnimApp>
+    <matchRecentsAnimApp>org.fungo.a8sport</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tuhao.laosiji</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.now</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.lhzpst.myhs</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.zbhuanleba.app</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.yibasan.lizhifm</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.qzone</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.immomo.momo</matchRecentsAnimApp>
+    <matchRecentsAnimApp>cn.soulapp.android</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.p1.mobile.putong</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.lofter.android</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.lanjingren.ivwen</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wm.dmall</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.mogujie</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.sankuai.youxuan</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.suning.mobile.ebuy</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.jm.android.jumei</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.jd.jdlite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.taobao.live</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.taobao.idlefish</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.taobao.litetao</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.alibaba.wireless</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tmall.wireless</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wuba.zhuanzhuan</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.dianping.v1</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.shizhuang.duapp</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.dewu.akdj</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.baidu.tieba</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.gamehelper.smoba</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.gamehelper.pg</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.hupu.games</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.qihoo.browser</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.ucmobile.lite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.cat.readall</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.quark.browser</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.meitu.meipaimv</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.meitu.meiyancamera</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.xt.retouch</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.yixia.videoeditor</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.kwai.videoeditor</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.kwai.m2u</matchRecentsAnimApp>
+    <matchRecentsAnimApp>cn.xiaoniangao.xngapp</matchRecentsAnimApp>
+    <matchRecentsAnimApp>net.zzlc.tracking</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.anjvision.aicamera</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.pubgmhd</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.yx.hlddz.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.miHoYo.Yuanshen</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.happyelements.AndroidAnimal</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.mc.vivo</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.outfit7.talkingtomgoldrun.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.bairimeng.dmmdzz.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wepie.snake.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wdqy.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.mf.uam</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.m4399.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.jkchess</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.lolm</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.KiHan</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.my.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.dnf</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.party</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.dwrg.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.letsgo</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.moba</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.minitech.miniworld.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>cn.jj</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.mc.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.cf</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.netease.sky.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.cod</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.gnyx</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.speedmobile</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.nearme.gamecenter.ddz.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.kiloo.subwaysurf</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.jd.game.fruitsmasher.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.ig</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wandoujia.phoenix2</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.wuba</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.unionpay.tsmservice</matchRecentsAnimApp>
+    <matchRecentsAnimApp>cn.wps.moffice.lite</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.icbc</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.duowan.live</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.nearme.atlas</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.directui</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.coloros.compass</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.android.email</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.oppo.reader</matchRecentsAnimApp>
+    <!-- Third batch -->
+    <matchRecentsAnimApp>com.phoenix.read</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.sina.weibo</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.cf</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.dz.hmjc</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.tmgp.dfm</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.zengame.zrttddz.nearme.gamecenter</matchRecentsAnimApp>
+    <matchRecentsAnimApp>cn.xuexi.android</matchRecentsAnimApp>
+    <matchRecentsAnimApp>com.tencent.weishi</matchRecentsAnimApp>
+    <switchRecentsAnimApp>1</switchRecentsAnimApp>
+    <!-- pause in recents animation end -->
+
+    <!-- Broadcast notification start-->
+    <rule>
+        <pkg>com.coloros.osecret</pkg>
+         <config>
+            <type>2</type>
+                <name>com.android.packageinstaller</name>
+                <name>com.coloros.gamespace</name>
+                <name>com.oplus.cosa</name>
+                <name>com.coloros.backuprestore</name>
+                <name>com.google.android.packageinstaller</name>
+                <name>com.nearme.gamecenter</name>
+                <name>com.oppo.market</name>
+        </config>
+    </rule>
+    <!-- Broadcast notification end-->
+
+    <!-- forbidden resume when locked start-->
+    <forbiddenResume>com.ss.android.ugc.aweme</forbiddenResume>
+    <forbiddenResume>com.hunantv.imgo.activity</forbiddenResume>
+    <forbiddenResume>tv.danmaku.bili</forbiddenResume>
+    <forbiddenResume>com.oplus.linker</forbiddenResume>
+    <!-- forbidden resume when locked end-->
+
+    <!-- forbidden app relaunch -->
+    <forbiddenAppRelaunch>tv.danmaku.bili</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>tv.danmaku.bilibilihd</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.ss.android.article.video</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.qiyi.video.pad</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.youku.phone</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.tencent.qqlive</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.tencent.mm</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.ss.android.ugc.aweme</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.dada.mobile.android</forbiddenAppRelaunch>
+    <forbiddenAppRelaunch>com.sankuai.meituan.dispatch.crowdsource</forbiddenAppRelaunch>
+    <!-- forbidden app relaunch -->
+
+    <!-- forbideen app predictive gesture animations !-->
+    <PredictBackBlackPkg>com.ytheekshana.deviceinfo</PredictBackBlackPkg>
+    <!-- forbideen app predictive gesture animations !-->
+
+    <!-- EmptyTaskRemove whitelist -->
+    <EmptyTaskRemove>com.tencent.mm.plugin.base.stub.UIEntryStub</EmptyTaskRemove>
+    <!-- EmptyTaskRemove whitelist -->
+
+    <!-- lockforbiddenResume whitelist -->
+    <lockforbiddenResume>com.tencent.qqmusic</lockforbiddenResume>
+    <lockforbiddenResume>com.kugou.android.app</lockforbiddenResume>
+    <lockforbiddenResume>com.ximalaya.ting.android</lockforbiddenResume>
+    <lockforbiddenResume>com.netease.cloudmusic</lockforbiddenResume>
+    <lockforbiddenResume>cn.kuwo.player</lockforbiddenResume>
+    <lockforbiddenResume>com.kuaiyin.player</lockforbiddenResume>
+    <lockforbiddenResume>com.kugou.android.lite</lockforbiddenResume>
+    <lockforbiddenResume>cn.wenyu.bodian</lockforbiddenResume>
+    <lockforbiddenResume>com.kugou.android.elder</lockforbiddenResume>
+    <lockforbiddenResume>cn.kuwo.kwmusichd</lockforbiddenResume>
+    <lockforbiddenResume>com.uxin.kilaaudio</lockforbiddenResume>
+    <lockforbiddenResume>cn.missevan</lockforbiddenResume>
+    <lockforbiddenResume>cmccwm.mobilemusic</lockforbiddenResume>
+    <lockforbiddenResume>fm.qingting.qtradio</lockforbiddenResume>
+    <!-- lockforbiddenResume whitelist -->
+</filter-conf>

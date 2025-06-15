@@ -1,0 +1,52 @@
+<filter-conf>
+    <version>20240821</version>
+    <filter-name>sys_key_layout_config</filter-name>
+
+    <!-- launch package for gimbal power key -->
+    <gimbal_launch_pkg>com.oplus.camera</gimbal_launch_pkg>
+
+    <!-- gimbal device -->
+    <!-- -1 means default config, for those devices without vid, pid -->
+    <device vendor_id="-1" product_id="-1" version_id="-1">
+        <key scancode="115" label="VOLUME_UP" />
+        <!-- New keycode will have keycode attribute, don't define these new keycodes repeatedly.  -->
+        <!-- For example, GIMBAL_SWITCH_CAMERA has defined here, so you should not define it in other places. -->
+        <key scancode="241" label="GIMBAL_SWITCH_CAMERA" keycode="706" />
+        <key scancode="380" label="GIMBAL_POWER" keycode="717"/>
+        <key scancode="418" label="ZOOM_IN" />
+        <key scancode="419" label="ZOOM_OUT" />
+
+        <key scancode="183" label="F13" keycode="718"/>
+        <key scancode="189" label="LASER_LONG_PRESS" keycode="719"/>
+        <key scancode="190" label="LASER_DOUBLE_CLICK" keycode="720"/>
+
+        <key scancode="191" label="F21" keycode="721"/>
+        <key scancode="192" label="F22" keycode="722"/>
+        <key scancode="193" label="F23" keycode="723"/>
+        <key scancode="194" label="F24" keycode="724"/>
+        <key scancode="186" label="F16" keycode="727"/>
+        <key scancode="187" label="F17" keycode="728"/>
+        <key scancode="188" label="F18" keycode="725"/>
+        <key scancode="530" label="KEY_TOUCHPAD_TOGGLE" keycode="726"/>
+        <key scancode="600" label="MOTOR_SWITCH" keycode="750"/>
+        <key scancode="601" label="EXTERNAL_FORCE" keycode="751"/>
+        <key scancode="606" label="PENCIL_BTN1" keycode="756"/>
+
+        <key scancode="720" label="SPRUCE_PRESS_LIGHT" keycode="765"/>
+        <key scancode="721" label="SPRUCE_PRESS_HARD" keycode="766"/>
+        <key scancode="722" label="SPRUCE_PRESS_SHORT" keycode="767"/>
+        <key scancode="723" label="SPRUCE_PRESS_LONG" keycode="768"/>
+        <key scancode="724" label="SPRUCE_DOUBLE_CLICK" keycode="769"/>
+        <key scancode="725" label="SPRUCE_SWIP_UP" keycode="770"/>
+        <key scancode="726" label="SPRUCE_SWIP_DOWN" keycode="771"/>
+        <key scancode="727" label="SPRUCE_REAL_FINGER_ACTION" keycode="772"/>
+
+        <key scancode="735" label="ACTION_BUTTON_CLICK" keycode="780"/>
+        <key scancode="736" label="ACTION_BUTTON_SINGLE_TAP" keycode="781"/>
+        <key scancode="737" label="ACTION_BUTTON_LONG_PRESS" keycode="782"/>
+
+        <key scancode="752" label="SHOULDER_DOWN" keycode="760"/>
+        <key scancode="753" label="SHOULDER_UP" keycode="761"/>
+    </device>
+
+</filter-conf>

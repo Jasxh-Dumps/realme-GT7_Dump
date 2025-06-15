@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LogDict>
+    <!-- id {bit[31:24]:reserve, bit[23:12]:domain, bit[11:0]:seq_no} -->
+    <domain id="0x001" name="android_logs">
+        <path id="0x00001000" dir="/data/log/ap_log" pattern="\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}/boot" option="maxsize=100M|lao" targetpath="common/ap_log" />
+        <path id="0x00001001" dir="/data/log/ap_log" pattern="\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}/kernel_.*" option="mtime=1800|lao" targetpath="common/ap_log" />
+        <path id="0x00001002" dir="/data/log/ap_log" pattern="\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}/android_.*" option="mtime=1800|lao" targetpath="common/ap_log" />
+        <path id="0x00001003" dir="/data/log/ap_log" pattern="\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}/radio_.*" option="mtime=1800|lao" targetpath="common/ap_log" />
+        <path id="0x00001004" dir="/data/log/ap_log" pattern="\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}/events_.*" option="mtime=1800|lao" targetpath="common/ap_log" />
+        <path id="0x00001005" dir="/data/log/ap_log" pattern="\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}/crash_.*" option="mtime=1800|lao" targetpath="common/ap_log" />
+        <path id="0x00001006" dir="/data/persist_log/olc/gaia_tmp" pattern=".*" option="maxsize=100M|delete" targetpath="common/ap_log" />
+    </domain>
+    <domain id="0x002" name="logtool">
+        <!-- reserved:0x00002001、0x00002002、0x00002009 -->
+        <path id="0x00002000" dir="/data/persist_log/olc" pattern="dev_info.txt" option="maxsize=2K" />
+        <path id="0x00002003" dir="/sdcard/Android/data/com.oplus.olc/files/Log" pattern="logkit_transfer.log" option="maxsize=1M" targetpath="LogTool_Log" />
+        <path id="0x00002004" dir="/data/persist_log/postman" pattern="dmabuf_logkit.*" option="maxsize=10M" targetpath="LogTool_Log/Logkit" />
+        <path id="0x00002005" dir="/data/persist_log/postman" pattern="dmabuf_olc.*" option="maxsize=15M" targetpath="LogTool_Log/Olc" />
+        <path id="0x00002006" dir="/data/log/gaia" pattern=".*" option="maxsize=25M" targetpath="LogTool_Log/gaia" />
+        <path id="0x00002007" dir="/system_ext/etc/gaia" pattern="README.txt" option="maxsize=2K" />
+        <path id="0x00002008" dir="/system_ext/etc/gaia" pattern="README.txt" option="maxsize=2K" targetpath="common/00_Android_and_kernel_log_has_been_move_to_aplog_or_minilog" />
+    </domain>
+    <domain id="0x003" name="mtk-mobilelog">
+        <path id="0x00003000" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/pl_lk" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003001" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/boot__normal" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003002" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/last_AndroidLog" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003003" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/last_kmsg" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003004" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/properties" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003005" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/mblog_history" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003006" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/bootprof" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003007" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/scp_log_.*" option="latest=5|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003008" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/vcp_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003009" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/adsp_.*" option="mtime=20m|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x0000300a" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/bsp_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x0000300b" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/apusys_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x0000300c" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/atf_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x0000300d" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/ccci_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x0000300e" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/mcupm_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x0000300f" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/sspm_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+        <path id="0x00003010" dir="/data/debuglogger/mobilelog" pattern="APLog_\d{4}_\d{4}_\d{6}__\d+/gz_log_.*" option="latest=2|lao" targetpath="common/debuglogger/mobilelog" />
+    </domain>
+    <domain id="0x004" name="common">
+        <path id="0x00004000" dir="/data/persist_log/olc/screen_record" pattern=".*" option="maxsize=200M|latest=3|mtime=30m|delete" targetpath="screen_record" />
+        <path id="0x00004002" dir="/data/debugging" pattern="\d{4}-\d{2}-\d{2}.*" option="delete|maxsize=100M" targetpath="common" />
+        <path id="0x00004003" dir="/data/debugging" pattern="anr_binder_info" option="maxsize=10M|delete" targetpath="common" />
+    </domain>
+    <domain id="0x005" name="app_logs">
+        <!-- thirdpart app-->
+        <path id="0x00005000" dir="/sdcard/Android/data/com.tencent.mm/MicroMsg/xlog" pattern=".*" option="mtime=1h|todayTimestampInName" condition="PACKAGE:(com.tencent.mm)" targetpath="thirdpart/com.tencent.mm/xlog" />
+        <path id="0x00005001" dir="/sdcard/Android/data/com.tencent.mm/MicroMsg/crash" pattern=".*" option="mtime=1h|todayTimestampInName" condition="PACKAGE:(com.tencent.mm)" targetpath="thirdpart/com.tencent.mm/crash" />
+        <path id="0x00005002" dir="/storage/emulated/999/Android/data/com.tencent.mm/MicroMsg/xlog" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.mm)" targetpath="thirdpart/com.tencent.mm/xlog" />
+        <path id="0x00005003" dir="/sdcard/Android/data/com.tencent.mobileqq/files/tencent/msflogs/com/tencent/mobileqq" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.mobileqq)" targetpath="thirdpart/com.tencent.mobileqq" />
+        <path id="0x00005004" dir="/storage/emulated/999/Android/data/com.tencent.mobileqq/files/tencent/msflogs/com/tencent" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.mobileqq)" targetpath="thirdpart/com.tencent.mobileqq" />
+        <path id="0x00005005" dir="/sdcard/Android/data/com.tencent.qqlive/files/log" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.qqlive)" targetpath="thirdpart/com.tencent.qqlive/log" />
+        <path id="0x00005006" dir="/sdcard/Android/data/com.tencent.wework/files/src_log" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.wework)" targetpath="thirdpart/com.tencent.wework/log" />
+        <path id="0x00005007" dir="/sdcard/Android/data/com.tencent.wework/files/src_clog" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.wework)" targetpath="thirdpart/com.tencent.wework/clog" />
+        <path id="0x00005008" dir="/sdcard/Android/data/com.tencent.tmgp.cf/cache/Cache/Log/" pattern=".*" option="mtime=1h" condition="PACKAGE:(com.tencent.tmgp.cf)" targetpath="thirdpart/com.tencent.tmgp.cf/" />
+        <path id="0x00005009" dir="/sdcard/kugou/log" pattern=".*" option="mtime=30m" condition="PACKAGE:(com.kugou.android)" targetpath="thirdpart/com.kugou.android" />
+        <path id="0x0000500a" dir="/sdcard/Android/data/com.yx" pattern=".*" option="mtime=30m" condition="PACKAGE:(com.yx)" targetpath="thirdpart/com.yx" />
+        <path id="0x0000500b" dir="/sdcard/Android/data/com.duowan.mobile/files/yymobile/logs" pattern=".*" option="mtime=30m" condition="PACKAGE:(com.duowan.mobile)" targetpath="thirdpart/com.duowan.mobile" />
+        <path id="0x0000500c" dir="/storage/emulated/0/Android/data/com.microsoft.appmanager/files/" pattern=".*" option="maxsize=10M|delete" targetpath="interconnection/ltw" />
+
+        <!-- oplus app-->
+        <path id="0x00005800" dir="/sdcard/Android/data/com.heytap.pictorial/files" pattern="xlog" option="mtime=60m" condition="PACKAGE:(com.heytap.pictorial)" targetpath="systemapp/com.heytap.pictorial" />
+        <path id="0x00005801" dir="/sdcard/Android/data/com.heytap.browser/files" pattern="xlog" option="mtime=60m" condition="PACKAGE:(com.heytap.browser)" targetpath="systemapp/com.heytap.browser" />
+        <path id="0x00005802" dir="/sdcard/Android/data/com.heytap.yoli/files/yoliVideo" pattern="xlog" option="mtime=60m" condition="PACKAGE:(com.heytap.yoli)" targetpath="systemapp/com.heytap.yoli" />
+        <path id="0x00005803" dir="/data/misc/midas/xlog" pattern=".*" option="maxsize=55M|delete" targetpath="systemapp/com.oplus.obrain" />
+        <path id="0x00005804" dir="/data/misc/ostats/xlog" pattern=".*.pb.trace" option="maxsize=42M|delete" targetpath="systemapp/com.oplus.ostats" />
+        <path id="0x00005805" dir="/storage/emulated/0/Android/data/com.oplus.screenshot/files/app_log" pattern=".*" option="latest=9|maxsize=5M|mtime=48h|delete" targetpath="systemapp/com.oplus.screenshot" />
+        <path id="0x00005806" dir="/sdcard/Android/data/com.heytap.quicksearchbox/files/xlog" pattern=".*.xlog" option="maxsize=2M|latest=2|mtime=1h|delete" condition="PACKAGE:(com.heytap.quicksearchbox)" targetpath="systemapp/com.heytap.quicksearchbox" />
+
+        <!-- UIFramework -->
+        <path id="0x00005815" dir="/storage/emulated/0/Android/data/com.oplus.aod/cache" pattern=".*" option="mtime=60m" targetpath="systemapp/com.oplus.aod" />
+        <path id="0x00005816" dir="/storage/emulated/0/Android/data/com.oplus.uxdesign/cache" pattern="uxlogs" option="mtime=60m" targetpath="systemapp/com.oplus.uxdesign" />
+        <path id="0x00005817" dir="/storage/emulated/0/Android/data/com.android.settings/cache" pattern=".*" option="mtime=60m" targetpath="systemapp/com.oplus.settings" />
+        <path id="0x00005818" dir="/storage/emulated/0/Android/data/com.oplus.wallpapers/cache" pattern=".*" option="mtime=60m" targetpath="systemapp/com.oplus.wallpapers" />
+        <path id="0x00005819" dir="/storage/emulated/0/Android/data/com.android.wallpaper.livepicker/cache" pattern=".*" option="mtime=60m" targetpath="systemapp/com.android.wallpaper.livepicker" />
+        <!--Gallery-->
+        <path id="0x00005820" dir="/sdcard/Android/data/com.coloros.gallery3d/cache/Log" pattern=".*" option="maxsize=50M|latest=2|mtime=120m" targetpath="/data/persist_log/gallery" />
+        <path id="0x00005821" dir="/sdcard/Android/data/com.oneplus.gallery/cache/Log" pattern=".*" option="maxsize=50M|latest=2|mtime=120m" targetpath="/data/persist_log/gallery" />
+        <!-- inputmethod app-->
+        <path id="0x00005c01" dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="flog" option="mtime=120m" targetpath="inputmethod/baidu" />
+        <path id="0x00005c02" dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="BALog" option="mtime=120m" targetpath="inputmethod/baidu" />
+        <path id="0x00005c03" dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="ime" option="mtime=120m" targetpath="inputmethod/baidu" />
+        <path id="0x00005c04" dir="/storage/emulated/0/Android/data/com.baidu.input_oppo/files/" pattern="logcat" option="mtime=120m" targetpath="inputmethod/baidu" />
+        <path id="0x00005c05" dir="/data/data/com.baidu.input/shared_prefs" pattern=".*" option="mtime=120m" targetpath="inputmethod/baidu/sp" />
+        <path id="0x00005c06" dir="/data/user/0/com.baidu.input_oppo/databases" pattern="*.db" option="mtime=120m" targetpath="inputmethod/baidu" />
+        <path id="0x00005c07" dir="/data/user/0/com.baidu.input_oppo/databases" pattern="flywheel" option="mtime=120m" targetpath="inputmethod/baidu" />
+        <path id="0x00005c08" dir="/sdcard/Android/data/com.sohu.inputmethod.sogouoem/files/sogou" pattern="corelog" option="mtime=120m" targetpath="inputmethod/sogou" />
+
+        <!-- car app-->
+        <path id="0x00005c09" dir="/sdcard/Android/data/com.oplus.ocar/files/log" pattern=".*" option="maxsize=10M|latest=12|mtime=30m|delete" targetpath="car/ocar/log" />
+        <path id="0x00005c0a" dir="/sdcard/Android/data/com.baidu.carlife.oppo/files/xLog" pattern=".*" option="maxsize=10M|latest=1|mtime=30m|delete" targetpath="car/carlife/xLog" />
+        <path id="0x00005c0b" dir="/sdcard/Android/data/com.oplus.ocar/files/iccoa" pattern=".*" option="maxsize=10M|latest=1|mtime=30m|delete" targetpath="car/ocar/iccoa" />
+        <path id="0x00005c0c" dir="/sdcard/Android/data/com.oplus.ocar/files/audio_dump" pattern=".*" option="maxsize=100M|latest=1|mtime=30m|delete" targetpath="car/ocar/audio_dump" />
+        <path id="0x00005c0d" dir="/sdcard/Android/data/com.oplus.ocar/files/screen" pattern=".*" option="maxsize=10M|latest=1|mtime=30m|delete" targetpath="car/ocar/screen" />
+        <path id="0x00005c0e" dir="/sdcard/BaiduCarlife/video" pattern=".*" option="maxsize=30M|latest=1|mtime=30m|delete" targetpath="car/carlife/video" />
+        <path id="0x00005c0f" dir="/data/persist_log/cast" pattern=".*" option="maxsize=30M|latest=1|mtime=30m|delete" targetpath="car/cast" />
+        <path id="0x00005c10" dir="/sdcard/Android/data/com.oplus.vdc/files" pattern=".*" option="maxsize=10M|latest=1|mtime=30m|delete" targetpath="car/vdc" />
+        <path id="0x00005c11" dir="/sdcard/Android/data/com.baidu.carlife.oppo/files/audioFile" pattern=".*" option="maxsize=100M|latest=1|mtime=30m|delete" targetpath="car/carlife/audioFile" />
+        <path id="0x0000a003" dir="/data/debuglogger/netlog" pattern="NTLog_\d{4}_\d{4}_\d{6}/.*" option="maxsize=20M|latest=5|mtime=30m|delete" targetpath="common/debuglogger/netlog" />
+    </domain>
+    <domain id="0x006" name="system">
+        <path id="0x00006000" dir="/sdcard/Documents/app_dump" pattern="sysui_dump.*.gz" option="maxsize=2M|delete" targetpath="sysui_dump" />
+        <path id="0x00006001" dir="/sdcard/Android/data/com.coloros.assistantscreen/files/xlog" pattern=".*" option="mtime=120m|delete" targetpath="xlog" />
+        <path id="0x00006003" dir="/data/debugging" pattern="wm" option="maxsize=10M|delete" targetpath="common" />
+        <path id="0x00006004" dir="/data/debugging" pattern="layertrace" option="maxsize=200M|latest=2|delete" targetpath="common/wm" />
+        <path id="0x00006005" dir="/data/persist_log" pattern="launcher[0-9]+/BackupRestore/.*" option="latest=2|maxsize=10M" targetpath="launcher" />
+        <path id="0x00006006" dir="/data/persist_log" pattern="launcher[0-9]+/OTA/.*" option="latest=2|maxsize=10M" targetpath="launcher" />
+        <path id="0x00006007" dir="/data/persist_log" pattern="launcher[0-9]+/other/.*" option="maxsize=10M" targetpath="launcher" />
+        <path id="0x00006008" dir="/data/persist_log" pattern="launcher[0-9]+/launcher_dump.*" option="latest=5|maxsize=5M|mtime=30m|delete" targetpath="launcher" />
+        <path id="0x00006009" dir="/data/persist_log" pattern="launcher[0-9]+/common_\d{4}-\d{2}-\d{2}.*" option="latest=5|maxsize=20M" targetpath="launcher" />
+    </domain>
+    <domain id="0x007" name="display">
+        <path id="0x00007000" dir="/data/persist_log/sf" pattern=".*" option="maxsize=200M|mtime=60m|delete" targetpath="display/sf" />
+        <path id="0x00007001" dir="/data/persist_log/sf/raw" pattern="\d{8}_\d{6}" privacy="SENSITIVE" option="maxsize=200M|mtime=60m|delete" targetpath="display/sf/raw" />
+        <path id="0x00007002" dir="/data/persist_log/sf" pattern="SKP/.*" option="maxsize=150M|latest=2|mtime=30m|delete" targetpath="display" />
+        <path id="0x00007003" dir="/data/persist_log/DCS/de/psw_multimedia_perf" pattern=".*" option="maxsize=45M|mtime=30m|latest=4" targetpath="display/psw_multimedia_perf" />  
+    </domain>
+    <domain id="0x008" name="performance">
+        <path id="0x00008000" dir="/data/local/traces" pattern=".*.perfetto-trace" option="latest=1|mtime=48h|delete" targetpath="performance/systrace" />
+        <path id="0x00008001" dir="/data/local/traces" pattern=".*.perfetto-trace.zip" option="maxsize=100M|mtime=48h|lao" targetpath="performance/systrace" />
+        <path id="0x00008002" dir="/data/local/traces" pattern="README.txt" option="maxsize=1M" targetpath="performance/systrace" />
+        <path id="0x00008003" dir="/data/local/traces" pattern="finger.*.perfetto-trace.zip" option="maxsize=100M|latest=2|mtime=30m|lao" targetpath="performance/systrace" />
+    </domain>
+    <domain id="0x009" name="power">
+        <path id="0x00009000" dir="/data/persist_log/TMP" pattern="OTRTA" option="maxsize=130M|delete" targetpath="common/assistlog" />
+        <path id="0x00009001" dir="/data/persist_log/backup" pattern="^((?!OTRTA).)*$" option="maxsize=30M|delete" targetpath="common/assistlog/backup" />
+        <path id="0x00009002" dir="/data/oplus/psw" pattern="powermonitor" option="maxsize=100M" targetpath="power" />
+        <path id="0x00009003" dir="/data/oplus/psw" pattern="powermonitor_backup" option="maxsize=100M" targetpath="power" />
+        <path id="0x00009004" dir="/data/oplus/psw/powermonitor_backup_large" pattern="oloud_log" targetpath="power" />
+        <path id="0x00009005" dir="/data/system/thermal" pattern="dcs" option="maxsize=2M" targetpath="power/thermalrec" />
+        <path id="0x00009006" dir="/data/system" pattern="thermalstats.bin" option="maxsize=10M" targetpath="power/thermalrec" />
+        <path id="0x00009010" dir="/data/persist_log/backup/OTRTA" pattern="^((?!manually_traces).)*$" option="maxsize=130M|delete" targetpath="common/assistlog/backup/OTRTA" />
+    </domain>
+    <domain id="0x00a" name="network">
+        <path id="0x0000a000" dir="/data/debugging/netlog" pattern=".*" option="maxsize=30M|latest=6|lao" targetpath="common/netlog" />
+        <path id="0x0000a001" dir="/data/debugging/tcpdump/netlog" pattern=".*" option="maxsize=500M|delete" targetpath="common/netlog" />
+        <path id="0x0000a002" dir="/data/debugging" pattern="sslog" option="maxsize=2M|delete" targetpath="common" />
+        <path id="0x0000a003" dir="/data/debuglogger/netlog" pattern="NTLog_\d{4}_\d{4}_\d{6}/.*" option="maxsize=500M|delete" targetpath="common/debuglogger/netlog" />
+        <path id="0x0000a004" dir="/data/debuglogger/sslog" pattern=".*" option="maxsize=2M|delete" targetpath="common/debuglogger/sslog" />
+        <path id="0x0000a005" dir="/data/vendor/nicmd" pattern="nicmd.*" option="maxsize=10M" targetpath="common/assistlog/nicmd" />
+        <path id="0x0000a006" dir="/data/vendor/qms_logs/main" pattern=".*" option="maxsize=48M" targetpath="qmslog/main" />
+        <path id="0x0000a007" dir="/data/vendor/qms_logs/other" pattern=".*" option="maxsize=2M" targetpath="qmslog/other" />
+    </domain>
+    <domain id="0x00b" name="stability">
+        <path id="0x0000b000" dir="/data/persist_log" pattern="nfw_info" option="maxsize=4M" targetpath="common/assistlog" />
+        <path id="0x0000b001" dir="/data/vendor/aee_exp" pattern=".*" option="maxsize=50M|delete" targetpath="data_vendor/vendor_aee" />
+        <path id="0x0000b002" dir="/data/aee_exp" pattern=".*" option="maxsize=50M|delete" targetpath="stability/data_aee" />
+        <path id="0x0000b003" dir="/data/persist_log" pattern="oplusreserve" option="maxsize=120M|delete" targetpath="stability/oplusreserve2" />
+        <path id="0x0000b005" dir="/data/persist_log/recovery_log" pattern=".*"  option="maxsize=50M|delete"  targetpath="recovery" />
+        <path id="0x0000b006" dir="/data/persist_log" pattern="hprofdump" option="maxsize=500M|latest=3|mtime=30m" targetpath="stability" />
+        <path id="0x0000b007" dir="/data/persist_log/DCS/de/AEE_DB" pattern=".*" option="maxsize=30M|latest=2|mtime=30m" targetpath="stability/DCS/AEE_DB" />
+        <path id="0x0000b008" dir="/data/persist_log/DCS/de/minidump" pattern=".*" option="maxsize=30M|latest=2|mtime=30m" targetpath="stability/DCS/minidump" />
+        <path id="0x0000b009" dir="/data/persist_log/DCS/de/stability_monitor" pattern=".*" option="maxsize=30M|latest=2|mtime=30m" targetpath="stability/DCS/stability_monitor" />
+        <path id="0x0000b00a" dir="/data/persist_log/expdb" pattern=".*" option="maxsize=50M|latest=2|mtime=30m|delete" targetpath="stability/expdb" />
+        <path id="0x0000b00b" dir="/data/persist_log/oplusreserve1" pattern=".*" option="maxsize=10M|latest=2|mtime=30m|delete" targetpath="stability/oplusreserve1" />
+        <path id="0x0000b00d" dir="/data/persist_log/oplusreserve5" pattern=".*" option="maxsize=65M|latest=2|mtime=30m|delete" targetpath="stability/oplusreserve5" />
+        <path id="0x0000b00e" dir="/data/persist_log" pattern="criticallog" option="maxsize=5M|mtime=30m"  targetpath="common/assistlog" />
+        <path id="0x0000b00f" dir="/data/persist_log/DCS/de/theia" pattern=".*" option="maxsize=35M|latest=3|mtime=5m" targetpath="theia"  />
+    </domain>
+    <domain id="0x00c" name="bsp">
+        <path id="0x0000c000" dir="/data/vendor/touch" pattern=".*" option="maxsize=250M|delete" targetpath="touch" />
+        <path id="0x0000c001" dir="/data/persist_log/touch/tp_debug_info" pattern=".*" option="maxsize=200K|delete" targetpath="touch" />
+        <path id="0x0000c002" dir="/data/persist_log/touch/tp_debug_info1" pattern=".*" option="maxsize=200K|delete" targetpath="touch" />
+        <path id="0x0000c003" dir="/data/persist_log/touch/tri_debug_info" pattern=".*" option="maxsize=200K|delete" targetpath="touch" />
+        <path id="0x0000c004" dir="/data/persist_log/touch/fpga_debug_info" pattern=".*" option="maxsize=200K|delete" targetpath="touch" />
+        <path id="0x0000c005" dir="/sdcard/TpTestReport" pattern=".*" option="maxsize=2M|delete" targetpath="touch" />
+        <path id="0x0000c006" dir="/data/persist_log" pattern="storage" option="maxsize=2M|delete" targetpath="storage" />
+        <path id="0x0000c007" dir="/mnt/oplus/op2" pattern="fs_mgr_log" option="maxsize=2M" targetpath="storage" />
+        <path id="0x0000c008" dir="/mnt/oplus/op2" pattern="kpoc_log" option="maxsize=500M|delete" targetpath="common" />
+        <path id="0x0000c009" dir="/data/vendor/battery" pattern=".*" option="maxsize=100M" targetpath="charge/battery" />
+        <path id="0x0000c00a" dir="/data/vendor/fingerprint" pattern=".*" option="maxsize=315M|delete" targetpath="fingerprint/data" />
+        <path id="0x0000c00b" dir="/mnt/vendor/persist/fingerprint" pattern=".*" option="maxsize=2M" targetpath="fingerprint/mnt" />
+        <path id="0x0000c00c" dir="/data/vendor_de/0/faceunlock" pattern=".*" option="maxsize=315M|delete" targetpath="faceunlock" />
+        <path id="0x0000c00d" dir="/data/debugging" pattern="security" option="maxsize=10M|delete" targetpath="security" />
+        <path id="0x0000c00e" dir="/data/persist_log/camera" pattern=".*" option="maxsize=20M|delete" targetpath="camera" />
+        <path id="0x0000c00f" dir="/data/persist_log/DCS/de/camera" pattern=".*.zip" option="maxsize=70M|latest=2" targetpath="camera/DCS/camera" />
+        <path id="0x0000c010" dir="/data/persist_log/DCS/de/camera_hal" pattern=".*" option="maxsize=50M|latest=2" targetpath="camera/DCS/camera_hal" />
+        <path id="0x0000c011" dir="/data/vendor/cam_ulog" pattern=".*" option="maxsize=150M|delete" targetpath="camera/cam_ulog" />
+        <path id="0x0000c020" dir="/data/vendor/touch/record" pattern=".*" option="maxsize=200M|delete" targetpath="touch/record" />
+    </domain>
+    <domain id="0x00d" name="wifi">
+        <path id="0x0000d000" dir="/data/persist_log/DCS/de/network_logs/wifi" pattern=".*" option="maxsize=35M|latest=2" targetpath="wifi/DCS/wifi" />
+        <path id="0x0000d001" dir="/data/persist_log/DCS/de/network_logs/wifiSwitch" pattern=".*" option="maxsize=20M|latest=2" targetpath="wifi/DCS/wifiSwitch" />
+        <path id="0x0000d002" dir="/data/persist_log/DCS/de/network_logs/wifi_dump" pattern=".*" option="maxsize=50M|latest=2" targetpath="wifi/DCS/wifi_dump" />
+        <path id="0x0000d003" dir="/data/persist_log/DCS/de/network_logs/stp_dump" pattern=".*" option="maxsize=70M|latest=2" targetpath="wifi/DCS/stp_dump" />
+        <path id="0x0000d004" dir="/data/debugging/netconfig" pattern=".*" option="maxsize=10M|latest=2|delete" targetpath="wifi" />
+        <path id="0x0000d005" dir="/data/vendor/wifi/logs" pattern=".*" option="maxsize=540M|delete" targetpath="data_vendor" />
+        <path id="0x0000d006" dir="/data/debuglogger/connsyslog" pattern=".*" option="maxsize=1200M|lao" targetpath="common/debuglogger/connsyslog" />
+    </domain>
+    <domain id="0x00e" name="bluetooth">
+        <!-- reserved:0x0000e004、0x0000e006、0x0000e00b -->
+        <path id="0x0000e000" dir="/data/misc/bluetooth/logs" pattern=".*.log" option="maxsize=400M|latest=11|delete" targetpath="bluetooth/btsnoop_hci/logs" />
+        <path id="0x0000e001" dir="/data/misc/bluetooth/cached_hci" pattern=".*" option="maxsize=10M" targetpath="bluetooth/btsnoop_hci/cached_hci" />
+        <path id="0x0000e002" dir="/data/misc/bluetooth/logs/bthci" pattern="CsLog_.*" option="maxsize=200M|latest=11|delete" targetpath="bluetooth/btsnoop_hci/bthci" />
+        <path id="0x0000e003" dir="/data/misc/bluedroid" pattern="^((?!bt_config\.).)+" option="maxsize=1M" targetpath="bluetooth/bluedroid" />
+        <path id="0x0000e005" dir="/data/user_de/0/com.android.bluetooth/shared_prefs" pattern="absolute_volume_blacklist.*" option="maxsize=1M" targetpath="bluetooth" />
+        <path id="0x0000e007" dir="/data/persist_log/DCS/de/network_logs/bt_switch_log" pattern=".*" option="maxsize=10M|latest=2" targetpath="bluetooth/DCS/bt_switch_log" />
+        <path id="0x0000e008" dir="/data/persist_log/DCS/de/network_logs/bt_fw_dump" pattern=".*" option="maxsize=10M|latest=2" targetpath="bluetooth/DCS/bt_fw_dump" />
+        <path id="0x0000e009" dir="/data/persist_log/DCS/de/network_logs/bt_hci_log" pattern=".*" option="maxsize=10M|latest=2" targetpath="bluetooth/DCS/bt_hci_log" />
+        <path id="0x0000e00a" dir="/data/vendor/ssrdump/" pattern="qcom_hidl*.*" option="maxsize=70M|delete" targetpath="bluetooth/btsnoop_hci" />
+    </domain>
+    <domain id="0x00f" name="audio">
+        <path id="0x0000f000" dir="/data/persist_log/TMP/audio_dumpsys" pattern=".*" option="maxsize=1M|mtime=30m|delete" targetpath="audio/audio_dumpsys" />
+        <path id="0x0000f001" dir="/data/persist_log/TMP/pcm_dump" pattern=".*" option="maxsize=600M|delete" targetpath="audio/pcm_dump" />
+        <path id="0x0000f002" dir="/data/vendor/audiohal/audio_dump" pattern=".*" option="maxsize=500M|delete" targetpath="audio/audio_dump" />
+        <path id="0x0000f003" dir="/data/vendor/audiohal/aurisys_dump" pattern=".*" option="maxsize=100M|delete" targetpath="audio/aurisys_dump" />
+        <path id="0x0000f004" dir="/data/vendor/mmdump/adsp" pattern=".*" option="maxsize=100M" targetpath="audio/mmdump" />
+        <path id="0x0000f005" dir="/data/persist_log/DCS/de/audio" pattern=".*" option="maxsize=100M|latest=2" targetpath="audio/DCS" />
+        <path id="0x0000f006" dir="/data/debuglogger/audio_dump" pattern=".*" option="maxsize=500M|delete" targetpath="common/debuglogger/audio_dump" />
+        <path id="0x0000f007" dir="/data/persist_log" pattern="ovmsAudio" option="maxsize=5M|delete" targetpath="common/assistlog" />
+    </domain>
+    <domain id="0x010" name="video">
+        <path id="0x00010000" dir="/data/vendor/videodump" pattern=".*" option="maxsize=200M|delete" targetpath="video/videodump" />
+        <path id="0x00010001" dir="/data/persist_log/DCS/de/video" pattern=".*" option="maxsize=30M|mtime=30m|latest=2" targetpath="video/DCS" />
+        <path id="0x00010002" dir="/data/persist_log" pattern="video" option="maxsize=10M|latest=2|mtime=30m|delete" targetpath="video" />
+    </domain>
+    <domain id="0x011" name="modem">
+        <path id="0x00011000" dir="/data/debuglogger" pattern="mdlog\d{1}/MDLog.*" option="delete" targetpath="common/debuglogger" />
+        <path id="0x00011001" dir="/data/debuglogger" pattern="mdlog\d{1}_config" option="maxsize=1M|delete" targetpath="common/debuglogger" />
+        <path id="0x00011002" dir="/data/persist_log" pattern="modem_log" option="maxsize=1M|delete" targetpath="common/assistlog" />
+        <path id="0x00011003" dir="/data/vendor/oplus/log/device_log/diag_logs" pattern=".*" option="delete" targetpath="diag_logs" />
+        <path id="0x00011004" dir="/data/debugging/diag_logs" pattern=".*" option="delete" targetpath="diag_logs" />
+        <path id="0x00011005" dir="/data/vendor/oplus/log/tt_log" pattern=".*" option="maxsize=50M|delete" targetpath="tt_log" />
+        <path id="0x00011006" dir="/data/debugging" pattern="EfsFiles" option="maxsize=1M|delete" targetpath="common" />
+        <path id="0x00011007" dir="/data/persist_log/DCS/de/gps" pattern=".*"  option="maxsize=10M|latest=2|mtime=30m" targetpath="gps/DCS" />
+        <path id="0x00011008" dir="/data/debuglogger" pattern="mdlog\d{1}/bootupLog" option="maxsize=150M|delete" targetpath="common/debuglogger" />
+        <path id="0x0001100a" dir="/data/vendor/olog" pattern="diag1?$" option="maxsize=350M|lao" targetpath="modem/olog" />
+    </domain>
+    <domain id="0x012" name="uncategorized">
+        <path id="0x00012001" dir="/data/persist_log" pattern="stamp" option="maxsize=20M" targetpath="common/assistlog" />
+        <path id="0x00012002" dir="/data/vendor/urcc/" pattern=".*" option="maxsize=1M|delete" targetpath="cpu/uah" />
+        <path id="0x00012003" dir="/data/system/users" pattern="0" option="maxsize=20M" targetpath="common/user_0" />
+        <path id="0x00012004" dir="/data/persist_log" pattern="pstore" option="maxsize=1M" targetpath="common/assistlog" />
+        <path id="0x00012005" dir="/data/persist_log/engineermode/auto_aging" pattern=".*" option="maxsize=1M" targetpath="common/assistlog" />
+        <path id="0x00012006" dir="/data/misc/cpu" pattern=".*" option="maxsize=1M|delete" targetpath="cpu/corectl" />
+    </domain>
+</LogDict>

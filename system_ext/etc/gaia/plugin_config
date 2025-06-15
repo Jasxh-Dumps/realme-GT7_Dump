@@ -1,0 +1,39 @@
+plugins:31
+LogWorkManager[thread:logworkmanager]: static
+ApLog[]: static
+DynamicLog[]: static
+ScreenRecord[]: static
+RedScreenAssert[]: static
+BtHciLog[]: static
+MtkLogger[]: static
+StabilityLog[]: static
+CameraLog[]: static
+LogArchiver[thread:log_archiving]: static
+FeedbackLogCollector[thread:feedback_log_collector]: static
+DisplayLog[]: static
+BrightnessLog[]: static
+WlanLogger[]: static
+AudioLog[]: static
+TouchScreenLog[]: static
+GpsLog[]: static
+BiometricsLog[]: static
+RegularLog[]: static
+LogkitSwitch[]: static
+LogkitSwitchCommon[]: static
+Systrace[]: static
+QXDMLog[]: static
+VideoLog[]: static
+ModemLog[]: static
+QxdmCollector[]: static
+LogCollect[pool:log_collect_pool:4]: static
+LogCompress[thread:fault_logger]: static
+MemLeakDetector[thread:memleak_detector]: static
+FaultLogCollector[pool:fault_log_collect_pool:4]: static
+LogPacking[thread:event_logger]: static
+pipelines:3
+logCorePipeline:LogWorkManager LogkitSwitchCommon LogkitSwitch ApLog Systrace ScreenRecord QXDMLog BtHciLog RegularLog DynamicLog BiometricsLog ModemLog RedScreenAssert WlanLogger GpsLog StabilityLog CameraLog BrightnessLog DisplayLog AudioLog VideoLog TouchScreenLog MtkLogger QxdmCollector FeedbackLogCollector LogArchiver
+ExceptionLogPipeLine:LogCollect LogCompress
+FaultLogPipeLine:FaultLogCollector LogPacking
+eventsources:2
+CommonEventSource:logCorePipeline ExceptionLogPipeLine
+FaultLogEventSource:FaultLogPipeLine ExceptionLogPipeLine

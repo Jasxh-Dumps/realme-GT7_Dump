@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>202409050900</version>
+    <isOpen>1</isOpen>
+    <filter-name>bsp_stability_theia_switch</filter-name>
+    <backKey>0</backKey>
+    <bootFailed>0</bootFailed>
+    <appNotResponding>0</appNotResponding>
+    <uiTimeout>1</uiTimeout>
+    <noFocusWindow>1</noFocusWindow>
+    <noFocusWindowToAnr enable_commercial="0" enable_pre="1">
+        <!-- NofocusAnr timeout, unit is ms -->
+        <NofocusAnrTimeout>12000</NofocusAnrTimeout>
+        <toAnrWhiteList>
+            <!-- whitelist, whole or part of package/activity name -->
+            <app name="keyguard" />
+            <app name="systemui" />
+            <app name="com.android.cts" />
+            <app name="LoginActivity" />
+            <app name="ScreenActivity" />
+            <app name="launcher" />
+            <app name="MMIDialogActivity" />
+            <app name="com.qualtop.am" />
+            <app name="com.example.helloworld" />
+            <app name="com.eightbit.samsprung" />
+            <app name="com.store.android.ui.SplashActivity" />
+            <app name="ru.yandex.taxi/.activity.startactivity" />
+            <app name="ru.yandex.taxi/.activity.MainActivity" />
+            <app name="ru.yandex.uber_kz/ru.yandex.taxi.activity.StartActivity" />
+            <app name="ru.yandex.uber_kz/ru.yandex.taxi.activity.MainActivity" />
+            <app name="com.bcp.innovacxion.yapeapp/com.tns.NativeScriptActivity" />
+            <app name="com.android.settings/com.oplus.settings.feature.othersettings.timepower.PowerOffPromptActivity" />
+            <!-- <app name="com.oppotest.test1" /> -->
+        </toAnrWhiteList>
+    </noFocusWindowToAnr>
+    <uiTimeoutToKill enable_commercial="0" enable_pre="1">
+        <UITimeoutKillThreshold>10000</UITimeoutKillThreshold>
+        <uiTimeoutKillWhiteList>
+        <!-- whitelist -->
+        <utk_whitelist_app name="android.server.wm.app" />
+        <utk_whitelist_app name="android.camera.cts" />
+        <utk_whitelist_app name="android.media.cts" />
+        <utk_whitelist_app name="android.opengl.cts" />
+        <utk_whitelist_app name="com.facebook.katana" />
+        <utk_whitelist_app name="com.facebook.orca" />
+        <utk_whitelist_app name="com.grindrapp.android" />
+        <utk_whitelist_app name="com.ztgame.yyzy" />
+        <utk_whitelist_app name="com.instagram.android" />
+        <utk_whitelist_app name="com.smart.consumer.app" />
+        <utk_whitelist_app name="com.yyzy.nearme.gamecenter" />
+        <utk_whitelist_app name="com.android.cts.verifier" />
+        <utk_whitelist_app name="androidx.camera.integration.extensions" />
+        <!-- <utk_whitelist_app name="com.oplustest.test1" /> -->
+        </uiTimeoutKillWhiteList>
+    </uiTimeoutToKill>
+    <userPanicMinInterval>30000</userPanicMinInterval>
+    <appBootTimeoutEvent>1</appBootTimeoutEvent>
+    <activityPauseTimedoutEvent>0</activityPauseTimedoutEvent>
+    <transparentWindowEvent>1</transparentWindowEvent>
+    <transitionTimeoutEvent>1</transitionTimeoutEvent>
+    <winDrawTimeoutEvent>1</winDrawTimeoutEvent>
+    <halfWatchdogEvent>1</halfWatchdogEvent>
+    <launcherCrashEvent>1</launcherCrashEvent>
+    <launcherAnrEvent>1</launcherAnrEvent>
+    <systemuiCrashEvent>1</systemuiCrashEvent>
+    <commonAppCrashEvent>1</commonAppCrashEvent>
+    <commonAppAnrEvent>1</commonAppAnrEvent>
+    <systemuiAnrEvent>1</systemuiAnrEvent>
+    <screenFreezeTimeoutEvent>1</screenFreezeTimeoutEvent>
+    <eyeFrameworkBlockEvent>1</eyeFrameworkBlockEvent>
+    <eyeFrameworkBlockInterval>6000</eyeFrameworkBlockInterval>
+    <backKeyEvent>0</backKeyEvent>
+    <powerKeyEvent>0</powerKeyEvent>
+    <homeKeyEvent>0</homeKeyEvent>
+    <pointEvent>1</pointEvent>
+    <screenShotEvent>1</screenShotEvent>
+    <systemuiUiTimeoutStatusBarEvent>1</systemuiUiTimeoutStatusBarEvent>
+    <systemuiUiTimeoutWhenUnlockEvent>1</systemuiUiTimeoutWhenUnlockEvent>
+    <systemuiHungWhenUnlockEvent>1</systemuiHungWhenUnlockEvent>
+
+    <!-- new version configuration format -->
+    <!--
+    reportfreq:
+    1800000: 30min
+    900000: 15min
+
+    logtype:
+	THEIA_LOGINFO_NULL: 0x00000000
+	THEIA_LOGINFO_ANDROID_LOG: 0x00000001
+	THEIA_LOGINFO_KERNEL_LOG: 0x00000002
+	THEIA_LOGINFO_ANR_TRACES: 0x00000004
+	THEIA_LOGINFO_DUMPSYS_SF: 0x00000008
+	THEIA_LOGINFO_DUMPSYS_MEMINFO: 0x00000010
+	THEIA_LOGINFO_BINDER_INFO: 0x00000020
+	THEIA_LOGINFO_DUMPSYS_POWER: 0x00000040
+	THEIA_LOGINFO_APP_CRASH_HISTORY: 0x00000080
+	THEIA_LOGINFO_CPU_INFO: 0x00000100
+	THEIA_LOGINFO_CPU_INFO_NUM_RAW: 0x00000200
+	THEIA_LOGINFO_CPU_INFO_OVERALL_RAW: 0x00000400
+	THEIA_LOGINFO_CPU_INFO_PER_PROCESS_RAW: 0x00000800
+	THEIA_LOGINFO_EVENTS_LOG: 0x00001000
+	THEIA_LOGINFO_FROZEN_INFO: 0x00002000
+	THEIA_LOGINFO_INTERRUPTS_LOG: 0x00004000
+	THEIA_LOGINFO_IO_INFO: 0x00008000
+	THEIA_LOGINFO_IRQ_INFO: 0x00010000
+	THEIA_LOGINFO_PACKAGE_INFO: 0x00020000
+	THEIA_LOGINFO_PROC_MEM_INFO: 0x00040000
+	THEIA_LOGINFO_PROP_LOG: 0x00080000
+	THEIA_LOGINFO_RADIO_LOG: 0x00100000
+	THEIA_LOGINFO_SF_BACKTRACE: 0x00200000
+	THEIA_LOGINFO_DUMPSYS_INPUT: 0x00400000
+	THEIA_LOGINFO_THREAD_LIST_INFO: 0x00800000
+	THEIA_LOGINFO_TOP_INFO: 0x01000000
+	THEIA_LOGINFO_VMALLOC_INFO: 0x02000000
+	THEIA_LOGINFO_DUMPSYS_ACTIVITY: 0x04000000
+	THEIA_LOGINFO_DUMPSYS_WINDOW: 0x08000000
+	THEIA_LOGINFO_ANR_TRACES_ONLY_CP: 0x10000000
+	THEIA_LOGINFO_SYSTRACE: 0x20000000
+	THEIA_LOGINFO_SYSTEM_SERVER_TRACES = 0x40000000;
+
+    condition:
+    public static final long CHECK_LOCK_SCREEN = 1;
+    public static final long CHECK_SCREEN_OFF = 1 << 1;
+
+    logtype: default event log type
+    triallogtype: internal version logtype
+    commlogtype: commerical version logtype
+    -->
+    <eventpoint id="0x00000001" name="appBootTimeout"          enable="false" type="java" reportfreq="1800000" triallogtype="0x1003" commlogtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000002" name="activityPauseTimeout"   enable="false" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000003" name="anr"                       enable="true" type="java" reportfreq="900000" logtype="0x10001003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000004" name="uiTimeout"               enable="true" type="java" reportfreq="900000" triallogtype="0x2018100B" commlogtype="0x20181003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000005" name="appCrash"                     enable="false" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000101" name="noFocusWindow"       enable="true" type="java" reportfreq="900000" triallogtype="0x2CD8100B" commlogtype="0x2CD81003" delay="30000" condition="3"></eventpoint>
+    <eventpoint id="0x00000102" name="transparentWindow"   enable="false" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000103" name="transitionTimeout"   enable="false" type="java" reportfreq="1800000" logtype="0x0C001003" delay="30000" condition="3"></eventpoint>
+    <eventpoint id="0x00000104" name="allWinDrawTimeout"      enable="false" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000105" name="screenFrozen" enable="true" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000106" name="winStateTimeout" enable="false" type="java" reportfreq="900000" logtype="0x0C001003" delay="30000" condition="7">5000</eventpoint>
+
+    <eventpoint id="0x00000201" name="pwkLightUpMonitor"          enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000202" name="pwkShutdownMonitor"          enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000203" name="pSensorNear"  enable="false" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000204" name="pSensorFar"   enable="false" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000301" name="ssHalfWatchdog"   enable="true" type="java" reportfreq="900000" logtype="0x10081003" delay="60000" condition="0"></eventpoint>
+    <eventpoint id="0x00000302" name="frameworkBlock"   enable="true" type="java" reportfreq="900000" logtype="0x40001003" delay="30000" condition="0">12000</eventpoint>
+
+    <eventpoint id="0x00000401" name="sfHangWarning"  enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000402" name="sfHang"          enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000411" name="hecatePixel"           enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000412" name="hecateVisibleRect"           enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000501" name="hungtask"     enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000503" name="initHung"    enable="false" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000601" name="launcherCrash"   enable="true" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000602" name="launcherAnr"     enable="true" type="java" reportfreq="900000" logtype="0x10001003" delay="30000" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000701" name="systemuiCrash"               enable="true" type="java" reportfreq="1800000" logtype="0x1003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000702" name="systemuiAnr"                 enable="true" type="java" reportfreq="900000" logtype="0x10001003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000703" name="statusBarUiTimeout"  enable="true" type="java" reportfreq="" logtype="0x20001001" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000704" name="unlockUiTimeout" enable="true" type="java" reportfreq="900000" triallogtype="0x2000100B" commlogtype="0x20001003" delay="30000" condition="0"></eventpoint>
+    <eventpoint id="0x00000705" name="unlockHung"      enable="true" type="java" reportfreq="900000" logtype="0x20001001" delay="30000" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000801" name="ptrTimeoutHang"   enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000802" name="ptrTimeoutBlackscreen"   enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000803" name="fdleak"   enable="false" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000804" name="reboot"   enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000812" name="hardwareError"   enable="true" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000F01" name="pwkPanic"    enable="false" type="java" reportfreq="" logtype="0x1003" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000F02" name="homekeyPanic" enable="false" type="java" reportfreq="" logtype="0x1003" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000F03" name="backkeyPanic" enable="false" type="java" reportfreq="" logtype="0x1003" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000F04" name="pwkLongpress" enable="false" type="native" reportfreq="" logtype="" delay="0" condition="0"></eventpoint>
+    <eventpoint id="0x00000F05" name="touchpanelPanic"   enable="false" type="java" reportfreq="900000" logtype="0x0C001003" delay="0" condition="0"></eventpoint>
+
+    <eventpoint id="0x00000E01" name="triggerErrorUpload"  enable="false" type="java" reportfreq="900000" logtype="0x1003" delay="0" condition="0"></eventpoint>
+
+    <eventpoint id="0x10000001" name="appBootTimeoutRecovery"   enable="true" type="java" reportfreq="" logtype="0" delay="0" condition="0" recoveryid="1">10000,com.ss.android.ugc.aweme,com.tencent.mm,com.test.theiatest</eventpoint>
+    <eventpoint id="0x10000201" name="pwkSystemMonitorRecovery"   enable="true" type="java" reportfreq="" logtype="0" delay="0" condition="0" recoveryid="2">20000</eventpoint>
+    <eventpoint id="0x10000202" name="pwkKernelMonitorRecovery"   enable="true" type="java" reportfreq="" logtype="0" delay="0" condition="0" recoveryid="3">20000</eventpoint>
+    <eventpoint id="0x10000203" name="allowShowBfs" enable="true" type="java" reportfreq="" logtype="0" delay="0" condition="0" recoveryid="0"></eventpoint>
+    <eventpoint id="0x20000001" name="cpuHighLoad"   enable="true" type="java" reportfreq="" logtype="0" delay="0" condition="0" recoveryid="1"></eventpoint>
+</filter-conf>

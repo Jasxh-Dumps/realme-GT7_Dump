@@ -1,0 +1,140 @@
+<filter-conf>
+    <version>20250227</version>
+    <isOpen>1</isOpen>
+    <!-- added for notification start -->
+    <notification pkg="com.tianyancha.skyeye"/>
+    <notification pkg="com.zhaopin.social"/>
+    <notification pkg="com.tencent.tmgp.cf"/>
+    <notification pkg="cn.jj"/>
+    <notification pkg="com.taobao.trip"/>
+    <notification pkg="com.tencent.tmgp.harrypotter"/>
+    <notification pkg="com.meitu.meiyancamera"/>
+    <notification pkg="com.mfp.jelly.oppo"/>
+    <!-- update at 20230725 -->
+    <notification pkg="com.shopee.my"/>
+    <notification pkg="com.celcom.mycelcom"/>
+    <notification pkg="com.shopee.th"/>
+    <notification pkg="com.roblox.client"/>
+    <notification pkg="com.garena.game.kgth"/>
+    <notification pkg="com.alibaba.aliexpresshd"/>
+    <notification pkg="com.shopee.sg"/>
+    <notification pkg="com.flipkart.android"/>
+    <notification pkg="com.myntra.android"/>
+    <notification pkg="com.dts.freefiremax"/>
+    <notification pkg="com.shopee.id"/>
+    <notification pkg="com.kwai.bulldog"/>
+    <notification pkg="com.zhiliaoapp.musically.go"/>
+    <notification pkg="com.shopee.tw"/>
+    <notification pkg="com.pxmart.android"/>
+    <notification pkg="jp.co.ponos.battlecatstw"/>
+    <notification pkg="com.accuweather.android"/>
+    <notification pkg="com.dts.freefireth"/>
+    <notification pkg="com.vuclip.viu"/>
+    <notification pkg="com.ea.game.pvzfree_row"/>
+    <notification pkg="com.blizzard.diablo.immortal"/>
+    <notification pkg="com.neptune.domino"/>
+    <notification pkg="com.ea.gp.fifamobile"/>
+    <notification pkg="com.eco.note"/>
+    <notification pkg="com.bestbuy.android"/>
+    <notification pkg="com.shopee.vn"/>
+    <notification pkg="com.garena.game.kgvn"/>
+    <notification pkg="bubbleshooter.orig"/>
+    <notification pkg="com.vzw.hss.myverizon"/>
+    <notification pkg="org.xbmc.kodi"/>
+    <!-- update at 20230825 -->
+    <notification pkg="com.facebook.lite"/>
+    <notification pkg="com.epicgames.fortnite"/>
+    <notification pkg="com.iexceed.CBS"/>
+    <!-- update at 20231204 -->
+    <notification pkg="com.alibaba.wireless"/>
+    <notification pkg="com.netease.mc.nearme.gamecenter"/>
+    <notification pkg="com.taobao.idlefish"/>
+    <!-- update at 20240130 -->
+    <notification pkg="com.chucklefish.stardewvalley"/>
+    <!-- update at 20241120 -->
+    <notification pkg="com.pazugames.avatarworld"/>
+    <!-- added for notification end -->
+
+    <!-- added for lifeCycle start -->
+    <!-- update at 20231031 -->
+    <lifeCycle pkg="com.jt.indonesiaexpress" camera="0"/>
+    <lifeCycle pkg="com.tencent.tmgp.speedmobile" camera="1"/>
+    <!-- update at 20240925 -->
+    <lifeCycle activity="com.tencent.mm/.plugin.recordvideo.activity.MMRecordUI" camera="0"/>
+    <lifeCycle activity="com.taobao.idlefish/com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity" camera="0"/>
+    <!-- update at 20241224 -->
+    <lifeCycle activity="com.taobao.idlefish/.maincontainer.activity.MainActivity" camera="0"/>
+    <!-- update at 20241012 -->
+    <lifeCycle activity="com.msd.JTClient/.ui.home.CaptureActivity" camera="0"/>
+    <!-- update at 20241017 -->
+    <lifeCycle activity="com.ss.android.ugc.aweme/.shortvideo.ui.VideoRecordNewActivity" camera="0"/>
+    <!-- update at 20241111, bugfix 8228151 -->
+    <lifeCycle activity="com.netease.uurouter/.activity.QrcodeScanActivity" camera="0"/>
+    <!-- update at 20241113, bugfix 8233664 -->
+    <lifeCycle activity="com.UCMobile/com.ali.uc.webvision.WebVisionActivity" camera="0"/>
+    <!-- update at 20241119, bugfix 8282892 -->
+    <lifeCycle activity="com.smile.gifmaker/com.yxcorp.gifshow.camera.record.CameraActivity" camera="0"/>
+    <!-- update at 20241205, bugfix 8389445 -->
+    <lifeCycle activity="com.fenbi.android.kyzz/com.fenbi.android.module.ocr.base.CaptureActivity" camera="0"/>
+    <lifeCycle activity="com.tencent.mm/.plugin.voip.ui.VideoActivity" camera="0"/>
+    <!-- add for 8391426 in AVActivity but top activity is SplashActivity-->
+    <lifeCycle activity="com.tencent.mobileqq/com.tencent.av.ui.AVActivity" camera="0"/>
+    <lifeCycle activity="com.tencent.mobileqq/.activity.SplashActivity" camera="0"/>
+    <!-- update at 20241216, bugfix 8439824 -->
+    <lifeCycle activity="com.larus.nova/com.larus.camera.impl.ui.activity.CameraCaptureActivity" camera="0"/>
+    <!-- update at 20241226, bugfix 8488785 -->
+    <lifeCycle activity="com.jingdong.app.mall/com.jd.lib.scan.lib.zxing.client.android.NewCaptureActivity" camera="0"/>
+    <!-- update at 20241231, bugfix 8528151 -->
+    <lifeCycle pkg="com.tencent.mm" camera="0"/>
+    <!-- update at 20250116, bugfix 8612580 -->
+    <lifeCycle activity="com.dangdang.buy2/com.dangdang.business.activity.PhotoShopActivity" camera="0"/>
+    <!-- update at 20250122, bugfix 8651803 -->
+    <lifeCycle activity="ctrip.android.view/ctrip.business.pic.album.ui.CameraFilterActivity" camera="0"/>
+    <lifeCycle activity="ctrip.android.view/ctrip.android.imkit.ChatActivity" camera="0"/>
+    <!-- update at 20250122, bugfix 8597513 -->
+    <lifeCycle activity="com.tencent.qqsports/.videorecord.CameraActivity" camera="0"/>
+    <!-- update at 20250227, bugfix 8793823 -->
+    <lifeCycle activity="com.xingin.xhs/com.xingin.capa.lib.entrance.CapaEntranceActivity" camera="0"/>
+    <!-- added for lifeCycle end -->
+
+    <!-- added for windowDrawn start -->
+    <!-- update at 20231031 -->
+    <windowDrawn pkg="com.oplus.secondaryhome"/>
+    <!-- added for windowDrawn end -->
+
+    <!-- added for visibility start -->
+    <!-- update at 20231031 -->
+    <visibility pkg="com.google.android.apps.photos"/>
+    <visibility pkg="com.google.android.youtube"/>
+    <visibility pkg="org.videolan.vlc"/>
+    <visibility pkg="com.leoao.fitness"/>
+    <!-- added for visibility end -->
+
+    <!-- added for hintmask start -->
+    <!-- update at 20231031 -->
+    <hintmask activity="com.tencent.mm/.plugin.voip.ui.VideoActivity"/>
+    <hintmask activity="com.tencent.mobileqq/com.tencent.av.ui.VideoInviteFull"/>
+    <hintmask activity="com.tencent.mobileqq/com.tencent.av.ui.AVActivity"/>
+    <hintmask activity="com.tencent.mobileqq/com.tencent.av.ui.VideoInviteLock"/>
+    <hintmask activity="com.tencent.mobileqq/com.tencent.av.ui.VideoInviteActivity"/>
+    <hintmask activity="com.android.incallui/.OplusInCallActivity"/>
+    <!-- added for hintmask end -->
+
+    <!-- added for relaunch start -->
+    <!-- update at 20241011 -->
+    <relaunch activity="com.realmecomm.app/com.android.realme2.home.view.MainActivity" force="0"/>
+    <relaunch activity="com.tencent.qqlivei18n/com.tencent.qqliveinternational.videodetail.activity.VideoDetailActivity" force="0"/>
+    <!-- update at 20241012 -->
+    <relaunch activity="com.campmobile.snowcamera/com.linecorp.b612.android.activity.ActivityCamera" force="0"/>
+    <!-- update at 20241031 -->
+    <relaunch activity="com.campmobile.snow/com.linecorp.b612.android.activity.ActivityCamera" force="0"/>
+    <relaunch activity="com.smile.gifmaker/com.yxcorp.gifshow.v3.EditorActivity" force="0"/>
+    <!-- update at 20241212 -->
+    <relaunch activity="com.happyelements.AndroidClover.nearme.gamecenter/com.happyelements.AndroidClover.MainActivity" force="1"/>
+    <!-- update at 20250116, bugfix 8614252 -->
+    <relaunch activity="com.dianping.v1/.NovaMainActivity" force="0"/>
+    <!-- update at 20250116, bugfix 8604012、8603861-->
+    <relaunch activity="com.shuqi.controller/com.shuqi.community.PublishPostActivity" force="1"/>
+    <!-- added for relaunch end -->
+
+</filter-conf>

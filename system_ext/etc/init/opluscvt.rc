@@ -1,0 +1,103 @@
+service opluscvtmanager /system_ext/bin/opluscvtmanager
+    capabilities CHOWN SYS_ADMIN NET_ADMIN SETGID SETUID
+    user root
+    group root system readproc
+    socket opluscvtmanager seqpacket+passcred 0660 system system u:object_r:opluscvt_socket:s0
+    oneshot
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.manager=1 && property:ro.oplus.cvt.manager="" && property:ro.oplus.bpf.region.support=""
+    start opluscvtmanager
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.manager=1 && property:ro.oplus.cvt.manager=1 && property:ro.oplus.bpf.region.support=""
+    start opluscvtmanager
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.manager=1 && property:ro.oplus.cvt.manager="" && property:ro.oplus.bpf.region.support=1
+    start opluscvtmanager
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.manager=1 && property:ro.oplus.cvt.manager=1 && property:ro.oplus.bpf.region.support=1
+    start opluscvtmanager
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.manager=1 && property:ro.oplus.cvt.manager="" && property:ro.oplus.bpf.region.support=2
+    start opluscvtmanager
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.manager=1 && property:ro.oplus.cvt.manager=1 && property:ro.oplus.bpf.region.support=2
+    start opluscvtmanager
+
+on post-fs-data
+    mkdir /data/opluscvtmanager 0770 root system encryption=Require
+    mkdir /data/opluscvtmanager/.build-id 0770 root system encryption=Require
+    mkdir /data/misc/cpu 0770 system system
+
+# min kernel version should be >= 5.15
+on property:sys.oplus.cvt.manager=1 && property:ro.kernel.version=4.9
+    setprop sys.oplus.cvt.manager 0
+on property:sys.oplus.cvt.manager=1 && property:ro.kernel.version=4.14
+    setprop sys.oplus.cvt.manager 0
+on property:sys.oplus.cvt.manager=1 && property:ro.kernel.version=4.19
+    setprop sys.oplus.cvt.manager 0
+
+# product can disable when set ro.oplus.cvt.manager=0
+on property:ro.oplus.cvt.manager=0 && property:sys.oplus.cvt.manager=1
+    setprop sys.oplus.cvt.manager 0
+
+# for RUS or debug
+on property:persist.sys.oplus.cvt.manager=1 && property:ro.kernel.version=5.4
+    setprop sys.oplus.cvt.manager 1
+
+on property:persist.sys.oplus.cvt.manager=1 && property:ro.kernel.version=5.10
+    setprop sys.oplus.cvt.manager 1
+
+on property:persist.sys.oplus.cvt.manager=1 && property:ro.kernel.version=5.15
+    setprop sys.oplus.cvt.manager 1
+
+on property:persist.sys.oplus.cvt.manager=1 && property:ro.kernel.version=6.1
+    setprop sys.oplus.cvt.manager 1
+
+on property:persist.sys.oplus.cvt.manager=1 && property:ro.kernel.version=6.6
+    setprop sys.oplus.cvt.manager 1
+
+# disable in manager, but allow rus service
+on property:persist.sys.oplus.cvt.manager=0 && property:sys.oplus.cvt.manager=1
+    setprop sys.oplus.cvt.manager 0
+    setprop sys.oplus.cvt.enable 0
+    stop opluscvtmanager
+    stop opluscvtunwind
+    stop opluscvttraced
+
+# do not start manager and ocvt_system_service
+on property:persist.sys.oplus.cvt.manager=-1 && property:sys.oplus.cvt.manager=1
+    setprop sys.oplus.cvt.manager 0
+
+# disable in rus
+on property:persist.sys.oplus.cvt.manager=-2 && property:sys.oplus.cvt.manager=1
+    setprop sys.oplus.cvt.manager 0
+    setprop sys.oplus.cvt.enable 0
+    stop opluscvtmanager
+    stop opluscvtunwind
+    stop opluscvttraced
+
+service opluscvtunwind /system_ext/bin/opluscvtunwind
+    capabilities SYS_PTRACE
+    user system
+    group system readproc
+    socket opluscvtunwind seqpacket+passcred 0660 root system
+    oneshot
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.unwind=1
+    start opluscvtunwind
+
+on property:persist.sys.oplus.cvt.unwind=1
+    setprop sys.oplus.cvt.unwind 1
+
+service opluscvttraced /system_ext/bin/opluscvttraced
+    user system
+    group root system
+    socket opluscvttraced seqpacket+passcred 0660 root system
+    oneshot
+
+on property:sys.boot_completed=1 && property:sys.oplus.cvt.traced=1
+    start opluscvttraced
+
+on property:persist.sys.oplus.cvt.traced=1
+    setprop sys.oplus.cvt.traced 1
+

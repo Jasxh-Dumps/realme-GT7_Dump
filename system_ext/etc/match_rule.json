@@ -1,0 +1,105 @@
+{
+    "version": "1.0.0",
+    "segmentFrame":[
+        {"name":"segStatus", "keyWords":"tid=\\d+ (.*)", "desc":""}
+    ],
+    "featureFrame1":{
+        "dirOrFile":"/data/persist_log/backup/",
+        "subcataLog":"SYSTEM_LAST_KMSG.txt",
+        "featureId":"01_PANIC_00",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"Unhandled fault:@|@Unable to handle kernel@|@kernel BUG at@|@BUG: failure at@|@Bad mode in@|@DPM device timeout    @|@invoked oom-killer@|@Synchronous External Abort:@|@,init]potentially unexpected fatal signal@|@Internal error:@|@NoC Error Probe:@|@mali gpu: Unhandled Page@|@    CFI failure@|@Kernel panic - not syncing:", "v_info":".*\\]([\\w@ ].*)"},
+            {"name":"BasicParam", "keyWords":"page dumped because:@|@CHP_WARN_ON@|@BUG: Bad page map in process@|@Fixme - corrupted cont_pte@|@@isolate_lru_pages@|@@Fixme- partially writable@|@free_pages_prepare freeing subpage-mapped", "v_hugepage":".*\\]([\\w ].*)"},
+            {"name":"BasicParam", "depend":"BasicParam.v_info", "keyWords":"PC is at ", "v_pc":"PC is at ([^\\+ ]+.*)"},
+            {"name":"BasicParam", "depend":"BasicParam.v_info", "keyWords":"CPU: ", "v_comm":"CPU: \\d PID: \\d+ Comm: (.*) Tainted:"},
+            {"name":"MainCallTrace", "depend":"BasicParam", "keyWords":"Call trace:@|@stack backtrace:", "v_trace":"@T@[0-9a-zA-Z_.]+\\+0x[0-9a-f]+/0x[0-9a-f]+(.*)"}
+        ]
+    },
+    "featureFrame2":{
+        "dirOrFile":"/sys/fs/pstore/",
+        "subcataLog":"console-ramoops-0",
+        "featureId":"01_PANIC_01",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"Unhandled fault:@|@Unable to handle kernel@|@kernel BUG at@|@BUG: failure at@|@Bad mode in@|@DPM device timeout    @|@invoked oom-killer@|@Synchronous External Abort:@|@,init]potentially unexpected fatal signal@|@Internal error:@|@NoC Error Probe:@|@mali gpu: Unhandled Page@|@    CFI failure@|@Kernel panic - not syncing:", "v_info":".*\\]([\\w@ ].*)"},
+            {"name":"BasicParam", "keyWords":"page dumped because:@|@CHP_WARN_ON@|@BUG: Bad page map in process@|@Fixme - corrupted cont_pte@|@@isolate_lru_pages@|@@Fixme- partially writable@|@free_pages_prepare freeing subpage-mapped", "v_hugepage":".*\\]([\\w ].*)"},
+            {"name":"BasicParam", "keyWords":"Violation - master:", "v_devapc":".*\\]: ([\\w ].*)"},
+            {"name":"BasicParam", "depend":"BasicParam.v_info", "keyWords":"PC is at ", "v_pc":"PC is at ([^\\+ ]+.*)"},
+            {"name":"BasicParam", "depend":"BasicParam.v_info", "keyWords":"CPU: ", "v_comm":"CPU: \\d PID: \\d+ Comm: (.*) Tainted:"},
+            {"name":"MainCallTrace", "depend":"BasicParam", "keyWords":"Call trace:@|@stack backtrace:", "v_trace":"@T@[0-9a-zA-Z_.]+\\+0x[0-9a-f]+/0x[0-9a-f]+(.*)"}
+        ]
+    },
+    "featureFrame3":{
+        "dirOrFile":"/data/oplusbootstats/olc_phoenix/",
+        "subcataLog":"ERROR_HANG_OPLUS",
+        "featureId":"02_HANGOPLUS_00",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"boot", "v_time":"(boot_time:.*)", "v_stage":"(boot_stage:.*)", "v_bootfrom":"(is_boot_from_ota:.*)"},
+            {"name":"BasicParam", "keyWords":"ERROR_HANG_OPLUS", "v_error":"(ERROR_\\w+)"}
+        ]
+    },
+    "featureFrame4":{
+        "dirOrFile":"/data/oplusbootstats/olc_phoenix/",
+        "subcataLog":"last_kmsg@|@ERROR_KERNEL_EXCEPTION",
+        "featureId":"02_HANGOPLUS_01",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"Unhandled fault:@|@Unable to handle kernel@|@kernel BUG at@|@BUG: failure at@|@Bad mode in@|@DPM device timeout    @|@invoked oom-killer@|@Synchronous External Abort:@|@,init]potentially unexpected fatal signal@|@Internal error:@|@NoC Error Probe:@|@mali gpu: Unhandled Page@|@    CFI failure@|@Kernel panic - not syncing:", "v_common":".*\\]([\\w@ ].*)"},
+            {"name":"BasicParam", "keyWords":"ERROR_KERNEL_EXCEPTION", "v_error":"(ERROR_\\w+)"}
+        ]
+    },
+    "featureFrame5":{
+        "dirOrFile":"/data/oplusbootstats/olc_phoenix/",
+        "subcataLog":"android.txt@|@ERROR_CRITICAL_SERVICE_CRASHED_4_TIMES",
+        "featureId":"02_HANGOPLUS_02",
+        "rules":[
+            {"name":"BasicParam", "keyWords":">>> @&@ <<<", "v_process":">>> (.*) <<<", "v_name":"name: (.*?)[: ]", "v_pid":"pid: ([0-9]+),"},
+            {"name":"BasicParam", "keyWords":"Abort message: ", "v_abortmsg":"Abort message: (.*)"},
+            {"name":"SignalParam", "keyWords":"signal ", "v_sigmsg":"signal ([0-9]+).*","v_sicode":"code ([-0-9]+).*"},
+            {"name":"ExceptionReason", "depend":"SignalParam", "keyWords":"Cause: ","v_cause":"Cause: (.*)"},
+            {"name":"BasicParam", "keyWords":"ERROR_CRITICAL_SERVICE_CRASHED_4_TIMES", "v_error":"(ERROR_\\w+)"}
+        ]
+    },
+    "featureFrame6":{
+        "dirOrFile":"/data/oplusbootstats/olc_phoenix/",
+        "subcataLog":"ERROR_NATIVE_REBOOT_INTO_RECOVERY@|@ERROR_SYSTEM_SERVER_WATCHDOG@|@ERROR_GATEKEEPER_ERROR_OPLUS@|@ERROR_LAST_BOOT_HANG_BOOTLOADER@|@ERROR_LAST_BOOT_COMPLETED_FAIL",
+        "featureId":"02_HANGOPLUS_03",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"ERROR_NATIVE_REBOOT_INTO_RECOVERY", "v_error1":"(ERROR_\\w+)"},
+            {"name":"BasicParam", "keyWords":"ERROR_SYSTEM_SERVER_WATCHDOG", "v_error2":"(ERROR_\\w+)"},
+            {"name":"BasicParam", "keyWords":"ERROR_GATEKEEPER_ERROR_OPLUS", "v_error3":"(ERROR_\\w+)"},
+            {"name":"BasicParam", "keyWords":"ERROR_LAST_BOOT_HANG_BOOTLOADER", "v_error4":"(ERROR_\\w+)"},
+            {"name":"BasicParam", "keyWords":"ERROR_LAST_BOOT_COMPLETED_FAIL", "v_error5":"(ERROR_\\w+)"}
+        ]
+    },
+    "featureFrame7":{
+        "dirOrFile":"/data/tombstones/",
+        "subcataLog":"tombstone_\\d{2}$",
+        "featureId":"03_NATIVECRASH_00",
+        "rules":[
+            {"name":"BasicParam", "keyWords":">>> @&@ <<<", "v_process":">>> (.*) <<<", "v_name":"name: (.*?)[: ]", "v_pid":"pid: ([0-9]+),"},
+            {"name":"BasicParam", "keyWords":"Abort message: ", "v_abortmsg":"Abort message: (.*)"},
+            {"name":"SignalParam", "keyWords":"signal ", "v_sigmsg":"signal ([0-9]+).*","v_sicode":"code ([-0-9]+).*"},
+            {"name":"ExceptionReason", "depend":"SignalParam", "keyWords":"Cause: ","v_cause":"Cause: (.*)"},
+            {"name":"MainCallTrace", "keyWords":"backtrace:", "v_trace":"@T@\\s+#\\d+(.*)"}
+        ]
+    },
+    "featureFrame8":{
+        "dirOrFile":"/data/system/dropbox/",
+        "subcataLog":"system_server_crash@\\d+.txt",
+        "featureId":"03_NATIVECRASH_01",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"Process: ", "v_process":"Process:\\s(.*)"},
+            {"name":"BasicParam", "keyWords":"Abort message: ", "v_abortmsg":"Abort message: (.*)"},
+            {"name":"SignalParam", "keyWords":"signal ", "v_sigmsg":"signal ([0-9]+).*","v_sicode":"code ([-0-9]+).*"},
+            {"name":"MainCallTrace", "keyWords":"@R@^\\s+at (.*)\\(.*", "v_trace":"@T@^\\s+at (.*)\\).*"}
+        ]
+    },
+    "featureFrame9":{
+        "dirOrFile":"/data/system/dropbox/",
+        "subcataLog":"system_server_watchdog@\\d+.txt",
+        "featureId":"03_NATIVECRASH_02",
+        "rules":[
+            {"name":"BasicParam", "keyWords":"Process: ", "v_process":"Process: (.*)"},
+            {"name":"BasicParam", "keyWords":"Subject: Blocked in monitor@|@Subject: Blocked in handler on", "v_block_reason":"Blocked in (.*?)\\(", "v_thread":"\\((.*?)\\)"}
+        ]
+    }
+}

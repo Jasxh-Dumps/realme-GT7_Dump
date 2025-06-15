@@ -1,0 +1,39 @@
+##########################################################
+# Copyright (C), 2008-2018, OPLUS Mobile Comm Corp., Ltd
+# OPLUS_FEATURE_THEIA
+# File: oplus_trace.rc
+#
+# Description:
+#	Definitions for oplus_trace service.
+#
+# Version: 1.0
+# Date created: 2023/07/19
+# Author: qianliguo@oppo.com
+#
+# --------------------------- Revision History: ------------------------------------
+# <version>         <date>      <author>            <desc>
+# Revision 1.0      2023/07/19  LiGuo.Qian          Created
+#######################################################
+
+service oplus_trace /system_ext/bin/oplus_trace
+    class late_start
+    disabled
+    user system
+    group system
+    capabilities SETUID SETGID
+    socket oplus_trace_socket stream 666 system system
+
+on property:ro.oplus.image.my_engineering.type=release
+    setprop persist.sys.oplus_trace 0
+
+on property:sys.boot_completed=1 && property:persist.traced.enable=1 && property:persist.sys.oplus_trace=""
+    start oplus_trace
+
+on property:sys.boot_completed=1 && property:persist.traced.enable=1 && property:persist.sys.oplus_trace=1
+    start oplus_trace
+
+on property:persist.traced.enable=0
+    stop oplus_trace
+
+on property:persist.sys.oplus_trace=0
+    stop oplus_trace

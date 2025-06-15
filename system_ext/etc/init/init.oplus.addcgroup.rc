@@ -1,0 +1,23 @@
+service oplus_addcgroup_normal /system/system_ext/bin/init.oplus.addcgroup.sh oplus_addcgroup_normal
+    class core
+    user root
+    seclabel u:r:dumpstate:s0
+    group root system
+    disabled
+    oneshot
+
+service oplus_addcgroup_special /system/system_ext/bin/init.oplus.addcgroup.sh oplus_addcgroup_special
+    class core
+    user root
+    seclabel u:r:dumpstate:s0
+    group root system
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1 && property:sys.oplus.cpuctl_extension=true
+    write /dev/kmsg "sys.boot_completed=1, start oplus_addcgroup_normal"
+    start oplus_addcgroup_normal
+
+on property:persist.sys.oplus.hybridswap_app_memcg=true && property:sys.oplus.cpuctl_extension=true
+    write /dev/kmsg "persist.sys.oplus.hybridswap_app_memcg=true, start oplus_addcgroup_special"
+    start oplus_addcgroup_special

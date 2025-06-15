@@ -1,0 +1,14 @@
+service mem_test_tools /system_ext/bin/mem_test_tools
+    class core
+    user root
+    group root system wakelock graphics
+    disabled
+    oneshot
+
+on property:sys.oplus.mem_test_tools.enable=1
+    start mem_test_tools
+
+on property:sys.oplus.mem_test_tools.enable=0
+    stop mem_test_tools
+
+

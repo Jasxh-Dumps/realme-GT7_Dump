@@ -1,0 +1,14 @@
+service ostats_tpd /system_ext/bin/ostats_tpd
+    user system
+    group root system readtracefs
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.ostats_tpd.enable=0
+    stop ostats_tpd
+
+on property:sys.boot_completed=1 && property:persist.sys.ostats_tpd.enable=1
+    start ostats_tpd
+
+on post-fs-data
+    # Create directory for ostats_tpd.
+    mkdir /data/misc/ostats_tpd 0770 root system

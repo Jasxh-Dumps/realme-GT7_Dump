@@ -1,0 +1,13 @@
+service mempressured /system_ext/bin/mempressured "some 150 500" "some 70 500" 100 200 50
+    class core
+    user root
+    group system readproc
+    capabilities SYS_RESOURCE
+    socket mempressured seqpacket+passcred 0660 system system
+    disabled
+
+on property:sys.boot_completed=1 && property:sys.osense.mem_pressured.enable=true
+    start mempressured
+
+on property:sys.boot_completed=1 && property:sys.osense.mem_pressured.enable=false
+    stop mempressured

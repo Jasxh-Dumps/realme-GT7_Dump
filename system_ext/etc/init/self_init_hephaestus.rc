@@ -1,0 +1,14 @@
+service hephaestus /system_ext/bin/hephaestus
+    seclabel u:r:hephaestus:s0
+    class late_start
+    user system
+    group system root media_rw ext_data_rw
+    oneshot
+    disabled
+
+on property:oplus.sau.hephaestus=1
+    start hephaestus
+
+on property:oplus.sau.hephaestus=0
+    stop hephaestus
+

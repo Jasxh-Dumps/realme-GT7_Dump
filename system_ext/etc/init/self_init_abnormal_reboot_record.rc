@@ -1,0 +1,34 @@
+##########################################################
+# Copyright (C), 2008-2018, OPLUS Mobile Comm Corp., Ltd
+# File: self_init_abnormal_reboot_record.rc
+#
+# Description:
+#	Definitions for oplus_abnormal_reboot_record service.
+#
+# Version: 1.0
+# Date created: 2021/12/23
+#
+# --------------------------- Revision History: ------------------------------------
+# <version>		<date>		<author>		<desc>
+# Revision 1.0		2021/12/23	xutongyang	Created
+#######################################################
+
+
+on property:sys.boot_completed=1 && property:sys.oplus.abnormal_reboot_record=1
+    restorecon /system/system_ext/bin/oplus_abnormal_reboot_record
+    start oplus_abnormal_reboot_records
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus.clear_abnormalreboot=factory
+    restorecon /system/system_ext/bin/oplus_abnormal_reboot_record
+    start oplus_abnormal_reboot_records
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus.clear_abnormalreboot=total
+    restorecon /system/system_ext/bin/oplus_abnormal_reboot_record
+    start oplus_abnormal_reboot_records
+
+service oplus_abnormal_reboot_records /system/system_ext/bin/oplus_abnormal_reboot_record
+    class core
+    user system
+    group root system
+    disabled
+    oneshot

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<networkpolicyromupdate>
+    <version>2024121717</version>
+    <isOpen>1</isOpen>
+    <ALLOWED_NETWORK_WHILE_BACKGROUND_ENABLED>true</ALLOWED_NETWORK_WHILE_BACKGROUND_ENABLED>
+    <ALLOWED_NETWORK_WHILE_BACKGROUND_APPS>com.tencent.mm,com.tencent.mobileqq,tv.danmaku.bili,com.smile.gifmaker,com.kuaishou.nebula,com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.lite,
+                                           ,com.tencent.tmgp.sgame,com.netease.gl,com.taptap,com.microsoft.emmx,com.google.android.apps.maps,com.google.android.apps.dynamite,com.coulombtech,
+                                           ,com.ss.android.ugc.live,com.oplus.location,com.geely.consumer,com.geely.newenergy,com.chehejia.oc.m01,com.niu.cloud,com.xiaopeng.mycarinfo,
+                                           ,cn.com.weilaihui3,com.shanghaigm.android.mycadillac,com.buick,com.saicmaxus.maxuslife,cn.ninebot.ninebot,com.zeekrlife.mobile,com.immotors.lapp,
+                                           ,com.cfmoto,com.teslamotors.tesla,com.smart.cnapp,deepal.com.cn.app,com.yadea.smartmoto,com.dahua.leapmotor,com.geelygalaxy.customer,com.chery.exeed,
+                                           ,com.changan.uni,com.szlanyou.iov,com.byd.denzadilink,com.quark.browser,com.netease.wyclx,
+                                           ,com.coloros.screenrecorder,com.redteamobile.roaming,com.oplus.melody,com.unionpay.tsmservice,com.heytap.uwbconnect,com.oplus.onet,com.oplus.screenrecorder,
+                                           ,com.coloros.oppopods,com.oplus.caseflash,com.edith.os,com.color.otaassistant,cn.xuexi.android,com.kuaidi.daijia.driver,com.sdu.didi.gsui,com.ubercab.driver,
+                                           ,cn.edaijia.android.driverclient,com.funcity.taxi.driver,com.newgame.padtool,com.sdu.didi.gui,com.sankuai.meituan.dispatch.homebrew,
+                                           ,com.sankuai.meituan.meituanwaimaibusiness,me.ele.napos,com.samsung.android.app.watchmanager,com.xtc.watch,com.cxyw.suyun.ui,com.google.android.marvin.talkback,
+                                           ,com.android.email,com.hp.android.printservice,,com.xunmeng.merchant,com.lalamove.huolala.driver,com.sankuai.meituan.merchant,com.google.android.talk,
+                                           ,com.sankuai.meituan.dispatch.crowdsource,com.microsoft.windowsintune.companyportal,com.microsoft.teams,com.oppo.ubeauty,com.nearme.note,com.coloros.note,
+                                           ,com.nearme.gamecenter,com.redteamobile.oppo.roaming,com.iflytek.vflynote,com.coloros.accegamesdk,com.oplus.melody,com.oneplus.twspods,com.coloros.flashnote,
+                                           ,com.coloros.favorite,com.coloros.colorfilestand,com.oppo.im,com.standardar.service,com.coloros.personalassistant,com.coloros.securityguard,
+                                           ,com.coloros.digitalwellbeing,com.coloros.familyguard,com.heytap.health,com.heytap.smarthome,com.color.otaassistant,com.oneplus.note,com.oneplus.modem.test,
+                                           ,com.oneplus.test.modemmonitor,com.oneplus.tracetest,com.oneplus.memzero,com.oneplus.screentest,com.oneplus.batterymonitor,com.oneplus.ApkTestTool,
+                                           ,com.example.cameraautotestlite,com.oneplus.standbypre,com.github.uiautomator,com.oneplus.ctsprepare,com.oneplus.adbheart.test,com.coloros.screenrecorder,
+                                           ,com.oplus.screenrecorder,com.oneplus.screenrecord,com.coloros.calculator,com.oneplus.calculator,com.realme.link,com.realme.linkcn,com.bbm2,com.bbm3,com.bbm4,
+                                           ,com.bbm5,com.bbm6,com.bbm7,com.jb.gokeyboard.handwrite.zh,com.android.email,com.google.android.marvin.talkback,com.samsung.android.app.watchmanager,
+                                           ,jp.uqmobile.umodialapp,com.usescotty.driver.app,com.google.android.talk,jp.co.daj.consumer.ifilter,jp.co.daj.consumer.ifilter.mb,jp.co.daj.consumer.ifilter.shop,
+                                           ,jp.netstar.familysmile,com.kddi.familysmile.mvno,jp.softbank.mb.parentalcontrols,product.clicklabs.jugnoo.driver,com.disha.quickride,
+                                           ,com.carthero.driver.apk</ALLOWED_NETWORK_WHILE_BACKGROUND_APPS>
+</networkpolicyromupdate>

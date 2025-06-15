@@ -1,0 +1,16 @@
+service oplus_defrag /system/system_ext/bin/oplus_defrag
+    interface aidl DefragService
+    interface aidl CompressScanService
+    disabled
+    user root
+    group root system
+    oneshot
+
+on property:oplus.defragservice.status=1
+    start oplus_defrag
+
+on property:oplus.defragservice.status=0
+    stop oplus_defrag
+
+on property:persist.oplus.compr.ext=*
+    update_f2fs_compr_ext ${persist.oplus.compr.ext}

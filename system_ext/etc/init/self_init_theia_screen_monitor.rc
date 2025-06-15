@@ -1,0 +1,19 @@
+#ifdef OPLUS_FEATURE_THEIA_SCREEN_MONITOR
+#ifdef OPLUS_FEATURE_CWB
+service theia_screen_monitor /system/system_ext/bin/theia_screen_monitor
+    user system
+    group root system readproc
+    disabled
+    oneshot
+
+on property:ro.oplus.image.my_engineering.type=release && property:ro.debuggable=0
+    setprop persist.sys.oplus.theia_screen_monitor.disabled 1
+
+on property:persist.oplus.display.fold.support=1
+    setprop persist.sys.oplus.theia_screen_monitor.disabled 1
+
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.display.cwb.display_id=0 && property:persist.sys.oplus.theia_screen_monitor.disabled=""
+    start theia_screen_monitor
+
+#endif /* OPLUS_FEATURE_CWB */
+#endif /* OPLUS_FEATURE_THEIA_SCREEN_MONITOR */

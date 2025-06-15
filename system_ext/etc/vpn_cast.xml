@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<vpnlist>
+    <package>com.oplus.linker</package>
+    <package>com.oplus.ocar</package>
+    <package>com.oplus.pantaconnect</package>
+    <package>com.oplus.cast</package>
+    <package>com.heytap.accessory</package>
+</vpnlist>

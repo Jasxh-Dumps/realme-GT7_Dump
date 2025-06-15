@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmdConfig>
+    <!-- add version for xml, it should be updated when file changed -->
+    <version>20240925001</version>
+    <item id="Log">
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys activity preload" targetpath="dumpsys_proload.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys -t 60 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="top -n -1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+    </item>
+    <item id="system_experience">
+        <cmd command="dumpsys notification" targetpath="dumpsys_notification.xml"></cmd>
+        <cmd command="cat /data/system/notification_policy.xml" targetpath="notification_policy.xml"></cmd>
+        <cmd command="dumpsys activity service com.oplus.notificationmanager" targetpath="dumpsys_notificationmanager.txt"></cmd>
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys activity service com.android.systemui" targetpath="dumpsys_systemUi.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="dumpsys_meidia_session.txt"></cmd>
+        <cmd command="dumpsys telephony.registry" targetpath="dumpsys_telephony_registry.txt"></cmd>
+        <cmd command="dumpsys battery" targetpath="dumpsys_battery.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="dumpsys_audio.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys statusbar" targetpath="dumpsys_statusbar.xml"></cmd>
+        <cmd command="dumpsys media.player" targetpath="dumpsys_media_player.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="cat /proc/oplus_freqreq_monitor/fqm_dump" targetpath="cpu_freqreq_monitor.csv"></cmd>
+    </item>
+    <item id="launcher">
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys activity com.android.launcher" targetpath="dumpsys_launcher.txt"></cmd>
+        <cmd command="dumpsys activity service com.android.quickstep.TouchInteractionService" targetpath="dumpsys_touchInteractionService.txt"></cmd>
+        <cmd command="dumpsys appwidget" targetpath="dumpsys_appwidget.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="screen_shot">
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="clock">
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys package com.heytap.speechassist" targetpath="dumpsys_com_heytap_speechassist.txt"></cmd>
+        <cmd command="dumpsys package com.coloros.weather.service" targetpath="dumpsys_weather_service.txt"></cmd>
+        <cmd command="wm size" targetpath="wm_size.txt"></cmd>
+        <cmd command="wm density" targetpath="wm_density.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+    </item>
+    <item id="negative_screen">
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+    </item>
+    <item id="vibration">
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+    </item>
+    <item id="note">
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys window windows" targetpath="dumpsys_windows.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+    </item>
+    <item id="thirdpart">
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys activity preload" targetpath="dumpsys_proload.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys -t 60 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="inputmethod">
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="touch">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="display">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dmabuf_dump" targetpath="dmabuf_dump.txt"></cmd>
+        <cmd command="cat /proc/bootloader_log" targetpath="bootloader.txt"></cmd>
+        <cmd command="cat /proc/mtkfb" targetpath="mtkfb.txt"></cmd>
+        <cmd command="cat /proc/pl_lk" targetpath="mtk_lk.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="dumpsys_media_player.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof dolbycodec2)" targetpath="dolbycodec2.txt"></cmd>
+    </item>
+    <item id="brightness">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dmabuf_dump" targetpath="dmabuf_dump.txt"></cmd>
+        <cmd command="cat /proc/bootloader_log" targetpath="bootloader.txt"></cmd>
+        <cmd command="cat /proc/mtkfb" targetpath="mtkfb.txt"></cmd>
+        <cmd command="cat /proc/pl_lk" targetpath="mtk_lk.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="dumpsys_media_player.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+    </item>
+    <item id="call">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys netd" targetpath="dumpsys_netd.txt"></cmd>
+        <cmd command="dumpsys netd tcp_socket_info" targetpath="dumpsys_tcp_socket_info.txt"></cmd>
+        <cmd command="dumpsys oplusnetd" targetpath="dumpsys_oplusnetd.txt"></cmd>
+        <cmd command="dumpsys oplusnetd datalimit" targetpath="dumpsys_oplusnetd_datalimit.txt"></cmd>
+        <cmd command="dumpsys oplusnetd oplustraffic" targetpath="dumpsys_oplusnetd_oplustraffic.txt"></cmd>
+        <cmd command="dumpsys oplusnetd firewall" targetpath="dumpsys_oplusnetd_firewall.txt"></cmd>
+        <cmd command="dumpsys connectivity" targetpath="dumpsys_connectivity.txt"></cmd>
+        <cmd command="dumpsys connectivity tethering" targetpath="dumpsys_connectivity_tethering.txt"></cmd>
+        <cmd command="dumpsys connectivity trafficcontroller" targetpath="dumpsys_connectivity_trafficcontroller.txt"></cmd>
+        <cmd command="dumpsys oplusnetworkstats olk bpfmap" targetpath="bpfmap.txt"></cmd>
+        <cmd command="dumpsys appops --history" targetpath="dumpsys_appops_history.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys carrier_config" targetpath="dumpsys_carrier_config.txt"></cmd>
+        <cmd command="ip -s addr" targetpath="ip_addr.txt"></cmd>
+        <cmd command="ip -s link" targetpath="ip_link.txt"></cmd>
+        <cmd command="ip -s neigh" targetpath="ip_neigh.txt"></cmd>
+        <cmd command="ip -s tunnel" targetpath="ip_tunnel.txt"></cmd>
+        <cmd command="ip -s tuntap" targetpath="ip_tuntap.txt"></cmd>
+        <cmd command="ip -s maddress" targetpath="ip_maddress.txt"></cmd>
+        <cmd command="ip -s mroute" targetpath="ip_mroute.txt"></cmd>
+        <cmd command="ip -s rule" targetpath="ip_rule.txt"></cmd>
+        <cmd command="ip -s route show table all" targetpath="ip_route_show_table_all.txt"></cmd>
+        <cmd command="iptables -nvL" targetpath="iptables.txt"></cmd>
+        <cmd command="iptables-save" targetpath="iptables_save.txt"></cmd>
+        <cmd command="ip6tables -nvL" targetpath="ip6tables.txt"></cmd>
+        <cmd command="ip6tables-save" targetpath="ip6tables_save.txt"></cmd>
+        <cmd command="tc filter show dev ccmni0 parent ffff:fff2" targetpath="tc_filter_ccmni0.txt"></cmd>
+        <cmd command="tc filter show dev ccmni1 parent ffff:fff2" targetpath="tc_filter_ccmni1.txt"></cmd>
+        <cmd command="tc filter show dev ccmni2 parent ffff:fff2" targetpath="tc_filter_ccmni2.txt"></cmd>
+        <cmd command="tc filter show dev ccmni3 parent ffff:fff2" targetpath="tc_filter_ccmni3.txt"></cmd>
+        <cmd command="tc filter show dev ccmni4 parent ffff:fff2" targetpath="tc_filter_ccmni4.txt"></cmd>
+        <cmd command="tc filter show dev ccmni5 parent ffff:fff2" targetpath="tc_filter_ccmni5.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data0 parent ffff:fff2" targetpath="tc_filter_rmnet_data0.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data1 parent ffff:fff2" targetpath="tc_filter_rmnet_data1.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data2 parent ffff:fff2" targetpath="tc_filter_rmnet_data2.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data3 parent ffff:fff2" targetpath="tc_filter_rmnet_data3.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data4 parent ffff:fff2" targetpath="tc_filter_rmnet_data4.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data5 parent ffff:fff2" targetpath="tc_filter_rmnet_data5.txt"></cmd>
+        <cmd command="tc filter show dev wlan0 parent ffff:fff2" targetpath="tc_filter_wlan0.txt"></cmd>
+        <cmd command="tc filter show dev wlan1 parent ffff:fff2" targetpath="tc_filter_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni0" targetpath="tc_class_ccmni0.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni1" targetpath="tc_class_ccmni1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni2" targetpath="tc_class_ccmni2.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni3" targetpath="tc_class_ccmni3.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni4" targetpath="tc_class_ccmni4.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni5" targetpath="tc_class_ccmni5.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data0" targetpath="tc_class_rmnet_data0.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data1" targetpath="tc_class_rmnet_data1.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data2" targetpath="tc_class_rmnet_data2.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data3" targetpath="tc_class_rmnet_data3.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data4" targetpath="tc_class_rmnet_data4.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data5" targetpath="tc_class_rmnet_data5.txt"></cmd>
+        <cmd command="tc -s class show dev wlan0" targetpath="tc_class_wlan0.txt"></cmd>
+        <cmd command="tc -s class show dev wlan1" targetpath="tc_class_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb0" targetpath="tc_class_ifb0.txt"></cmd>
+        <cmd command="tc -s class show dev ifb1" targetpath="tc_class_ifb1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb2" targetpath="tc_class_ifb2.txt"></cmd>
+        <cmd command="tc -s class show dev ifb3" targetpath="tc_class_ifb3.txt"></cmd>
+        <cmd command="tc -s qdisc" targetpath="tc_qdisc.txt"></cmd>
+        <cmd command="dumpsys notification" targetpath="dumpsys_notification.xml"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+    </item>
+    <item id="network">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys netd" targetpath="dumpsys_netd.txt"></cmd>
+        <cmd command="dumpsys netd tcp_socket_info" targetpath="dumpsys_tcp_socket_info.txt"></cmd>
+        <cmd command="dumpsys oplusnetd" targetpath="dumpsys_oplusnetd.txt"></cmd>
+        <cmd command="dumpsys oplusnetd datalimit" targetpath="dumpsys_oplusnetd_datalimit.txt"></cmd>
+        <cmd command="dumpsys oplusnetd oplustraffic" targetpath="dumpsys_oplusnetd_oplustraffic.txt"></cmd>
+        <cmd command="dumpsys oplusnetd firewall" targetpath="dumpsys_oplusnetd_firewall.txt"></cmd>
+        <cmd command="dumpsys connectivity" targetpath="dumpsys_connectivity.txt"></cmd>
+        <cmd command="dumpsys connectivity tethering" targetpath="dumpsys_connectivity_tethering.txt"></cmd>
+        <cmd command="dumpsys connectivity trafficcontroller" targetpath="dumpsys_connectivity_trafficcontroller.txt"></cmd>
+        <cmd command="dumpsys oplusnetworkstats olk bpfmap" targetpath="bpfmap.txt"></cmd>
+        <cmd command="dumpsys appops --history" targetpath="dumpsys_appops_history.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys carrier_config" targetpath="dumpsys_carrier_config.txt"></cmd>
+        <cmd command="ip -s addr" targetpath="ip_addr.txt"></cmd>
+        <cmd command="ip -s link" targetpath="ip_link.txt"></cmd>
+        <cmd command="ip -s neigh" targetpath="ip_neigh.txt"></cmd>
+        <cmd command="ip -s tunnel" targetpath="ip_tunnel.txt"></cmd>
+        <cmd command="ip -s tuntap" targetpath="ip_tuntap.txt"></cmd>
+        <cmd command="ip -s maddress" targetpath="ip_maddress.txt"></cmd>
+        <cmd command="ip -s mroute" targetpath="ip_mroute.txt"></cmd>
+        <cmd command="ip -s rule" targetpath="ip_rule.txt"></cmd>
+        <cmd command="ip -s route show table all" targetpath="ip_route_show_table_all.txt"></cmd>
+        <cmd command="iptables -nvL" targetpath="iptables.txt"></cmd>
+        <cmd command="iptables-save" targetpath="iptables_save.txt"></cmd>
+        <cmd command="ip6tables -nvL" targetpath="ip6tables.txt"></cmd>
+        <cmd command="ip6tables-save" targetpath="ip6tables_save.txt"></cmd>
+        <cmd command="tc filter show dev ccmni0 parent ffff:fff2" targetpath="tc_filter_ccmni0.txt"></cmd>
+        <cmd command="tc filter show dev ccmni1 parent ffff:fff2" targetpath="tc_filter_ccmni1.txt"></cmd>
+        <cmd command="tc filter show dev ccmni2 parent ffff:fff2" targetpath="tc_filter_ccmni2.txt"></cmd>
+        <cmd command="tc filter show dev ccmni3 parent ffff:fff2" targetpath="tc_filter_ccmni3.txt"></cmd>
+        <cmd command="tc filter show dev ccmni4 parent ffff:fff2" targetpath="tc_filter_ccmni4.txt"></cmd>
+        <cmd command="tc filter show dev ccmni5 parent ffff:fff2" targetpath="tc_filter_ccmni5.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data0 parent ffff:fff2" targetpath="tc_filter_rmnet_data0.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data1 parent ffff:fff2" targetpath="tc_filter_rmnet_data1.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data2 parent ffff:fff2" targetpath="tc_filter_rmnet_data2.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data3 parent ffff:fff2" targetpath="tc_filter_rmnet_data3.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data4 parent ffff:fff2" targetpath="tc_filter_rmnet_data4.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data5 parent ffff:fff2" targetpath="tc_filter_rmnet_data5.txt"></cmd>
+        <cmd command="tc filter show dev wlan0 parent ffff:fff2" targetpath="tc_filter_wlan0.txt"></cmd>
+        <cmd command="tc filter show dev wlan1 parent ffff:fff2" targetpath="tc_filter_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni0" targetpath="tc_class_ccmni0.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni1" targetpath="tc_class_ccmni1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni2" targetpath="tc_class_ccmni2.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni3" targetpath="tc_class_ccmni3.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni4" targetpath="tc_class_ccmni4.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni5" targetpath="tc_class_ccmni5.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data0" targetpath="tc_class_rmnet_data0.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data1" targetpath="tc_class_rmnet_data1.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data2" targetpath="tc_class_rmnet_data2.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data3" targetpath="tc_class_rmnet_data3.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data4" targetpath="tc_class_rmnet_data4.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data5" targetpath="tc_class_rmnet_data5.txt"></cmd>
+        <cmd command="tc -s class show dev wlan0" targetpath="tc_class_wlan0.txt"></cmd>
+        <cmd command="tc -s class show dev wlan1" targetpath="tc_class_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb0" targetpath="tc_class_ifb0.txt"></cmd>
+        <cmd command="tc -s class show dev ifb1" targetpath="tc_class_ifb1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb2" targetpath="tc_class_ifb2.txt"></cmd>
+        <cmd command="tc -s class show dev ifb3" targetpath="tc_class_ifb3.txt"></cmd>
+        <cmd command="tc -s qdisc" targetpath="tc_qdisc.txt"></cmd>
+    </item>
+    <item id="wifi">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys wifinl80211" targetpath="dumpsys_wifinl80211.txt"></cmd>
+        <cmd command="dumpsys wifip2p" targetpath="dumpsys_wifip2p.txt"></cmd>
+        <cmd command="dumpsys wifiscanner" targetpath="dumpsys_wifiscanner.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys netd" targetpath="dumpsys_netd.txt"></cmd>
+        <cmd command="dumpsys netd tcp_socket_info" targetpath="dumpsys_tcp_socket_info.txt"></cmd>
+        <cmd command="dumpsys oplusnetd" targetpath="dumpsys_oplusnetd.txt"></cmd>
+        <cmd command="dumpsys oplusnetd datalimit" targetpath="dumpsys_oplusnetd_datalimit.txt"></cmd>
+        <cmd command="dumpsys oplusnetd oplustraffic" targetpath="dumpsys_oplusnetd_oplustraffic.txt"></cmd>
+        <cmd command="dumpsys oplusnetd firewall" targetpath="dumpsys_oplusnetd_firewall.txt"></cmd>
+        <cmd command="dumpsys connectivity" targetpath="dumpsys_connectivity.txt"></cmd>
+        <cmd command="dumpsys connectivity tethering" targetpath="dumpsys_connectivity_tethering.txt"></cmd>
+        <cmd command="dumpsys connectivity trafficcontroller" targetpath="dumpsys_connectivity_trafficcontroller.txt"></cmd>
+        <cmd command="dumpsys oplusnetworkstats olk bpfmap" targetpath="bpfmap.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="ip -s addr" targetpath="ip_addr.txt"></cmd>
+        <cmd command="ip -s link" targetpath="ip_link.txt"></cmd>
+        <cmd command="ip -s neigh" targetpath="ip_neigh.txt"></cmd>
+        <cmd command="ip -s tunnel" targetpath="ip_tunnel.txt"></cmd>
+        <cmd command="ip -s tuntap" targetpath="ip_tuntap.txt"></cmd>
+        <cmd command="ip -s maddress" targetpath="ip_maddress.txt"></cmd>
+        <cmd command="ip -s mroute" targetpath="ip_mroute.txt"></cmd>
+        <cmd command="ip -s rule" targetpath="ip_rule.txt"></cmd>
+        <cmd command="ip -s route show table all" targetpath="ip_route_show_table_all.txt"></cmd>
+        <cmd command="iptables -nvL" targetpath="iptables.txt"></cmd>
+        <cmd command="iptables-save" targetpath="iptables_save.txt"></cmd>
+        <cmd command="ip6tables -nvL" targetpath="ip6tables.txt"></cmd>
+        <cmd command="ip6tables-save" targetpath="ip6tables_save.txt"></cmd>
+        <cmd command="tc filter show dev ccmni0 parent ffff:fff2" targetpath="tc_filter_ccmni0.txt"></cmd>
+        <cmd command="tc filter show dev ccmni1 parent ffff:fff2" targetpath="tc_filter_ccmni1.txt"></cmd>
+        <cmd command="tc filter show dev ccmni2 parent ffff:fff2" targetpath="tc_filter_ccmni2.txt"></cmd>
+        <cmd command="tc filter show dev ccmni3 parent ffff:fff2" targetpath="tc_filter_ccmni3.txt"></cmd>
+        <cmd command="tc filter show dev ccmni4 parent ffff:fff2" targetpath="tc_filter_ccmni4.txt"></cmd>
+        <cmd command="tc filter show dev ccmni5 parent ffff:fff2" targetpath="tc_filter_ccmni5.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data0 parent ffff:fff2" targetpath="tc_filter_rmnet_data0.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data1 parent ffff:fff2" targetpath="tc_filter_rmnet_data1.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data2 parent ffff:fff2" targetpath="tc_filter_rmnet_data2.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data3 parent ffff:fff2" targetpath="tc_filter_rmnet_data3.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data4 parent ffff:fff2" targetpath="tc_filter_rmnet_data4.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data5 parent ffff:fff2" targetpath="tc_filter_rmnet_data5.txt"></cmd>
+        <cmd command="tc filter show dev wlan0 parent ffff:fff2" targetpath="tc_filter_wlan0.txt"></cmd>
+        <cmd command="tc filter show dev wlan1 parent ffff:fff2" targetpath="tc_filter_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni0" targetpath="tc_class_ccmni0.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni1" targetpath="tc_class_ccmni1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni2" targetpath="tc_class_ccmni2.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni3" targetpath="tc_class_ccmni3.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni4" targetpath="tc_class_ccmni4.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni5" targetpath="tc_class_ccmni5.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data0" targetpath="tc_class_rmnet_data0.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data1" targetpath="tc_class_rmnet_data1.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data2" targetpath="tc_class_rmnet_data2.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data3" targetpath="tc_class_rmnet_data3.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data4" targetpath="tc_class_rmnet_data4.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data5" targetpath="tc_class_rmnet_data5.txt"></cmd>
+        <cmd command="tc -s class show dev wlan0" targetpath="tc_class_wlan0.txt"></cmd>
+        <cmd command="tc -s class show dev wlan1" targetpath="tc_class_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb0" targetpath="tc_class_ifb0.txt"></cmd>
+        <cmd command="tc -s class show dev ifb1" targetpath="tc_class_ifb1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb2" targetpath="tc_class_ifb2.txt"></cmd>
+        <cmd command="tc -s class show dev ifb3" targetpath="tc_class_ifb3.txt"></cmd>
+        <cmd command="tc -s qdisc" targetpath="tc_qdisc.txt"></cmd>
+    </item>
+    <item id="bluetooth">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="debuggerd -j $(pidof com.android.bluetooth)" targetpath="bluetooth.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="ip -s rule" targetpath="ip_rule.txt"></cmd>
+        <cmd command="ip -s route show table all" targetpath="ip_route_show_table_all.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+    </item>
+    <item id="gps">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+    </item>
+    <item id="signal">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys carrier_config" targetpath="dumpsys_carrier_config.txt"></cmd>
+    </item>
+    <item id="nfc">
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys nfc" targetpath="dumpsys_nfc.txt"></cmd>
+        <cmd command="dumpsys secure_element" targetpath="dumpsys_secure_element.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="media">
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="cat data/system/packages.xml" targetpath="packages.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="debuggerd -j $(pidof com.android.bluetooth)" targetpath="bluetooth.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+    </item>
+    <item id="video">
+        <cmd command="dumpsys -t 30 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="cat /proc/dma_buf/bufinfo" targetpath="dma_buf_bufinfo.txt"></cmd>
+        <cmd command="cat /proc/osvelte/dma_buf/bufinfo" targetpath="dma_buf_bufinfo.txt"></cmd>
+        <cmd command="cat /proc/osvelte/dma_buf/procinfo" targetpath="dma_buf_procinfo.txt.txt"></cmd>
+        <cmd command="cat /proc/dma_heap/stats" targetpath="dma_heap_stats.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof dolbycodec2)" targetpath="dolbycodec2.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+    </item>
+    <item id="heat">
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys activity preload" targetpath="dumpsys_proload.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="dumpsys activity service StatsManagerService file -la" targetpath="onetrace_file_list.txt" />
+        <cmd command="dumpsys activity service StatsManagerService perf --caller" targetpath="dumpsys_onetrace_caller.txt" />
+        <cmd command="dumpsys activity service StatsManagerService log --export gaia --count 10 --size 134217728" targetpath="dumpsys_OTRTA.txt" />
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys -t 60 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys device_policy" targetpath="dumpsys_devicepolicy.txt"></cmd>
+        <cmd command="dumpsys netstats" targetpath="dumpsys_netstats.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="cat /proc/oplus_freqreq_monitor/fqm_dump" targetpath="cpu_freqreq_monitor.csv"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/state" targetpath="binder_state.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/stats" targetpath="binder_stats.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transactions" targetpath="binder_transactions.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transaction_log" targetpath="binder_transaction_log.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/failed_transaction_log" targetpath="binder_failed_transaction_log.txt"></cmd>
+    </item>
+    <item id="power">
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys activity preload" targetpath="dumpsys_proload.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="dumpsys activity service StatsManagerService file -la" targetpath="onetrace_file_list.txt" />
+        <cmd command="dumpsys activity service StatsManagerService perf --caller" targetpath="dumpsys_onetrace_caller.txt" />
+        <cmd command="dumpsys activity service StatsManagerService log --export gaia --count 10 --size 134217728" targetpath="dumpsys_OTRTA.txt" />
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys -t 60 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys device_policy" targetpath="dumpsys_devicepolicy.txt"></cmd>
+        <cmd command="dumpsys netstats" targetpath="dumpsys_netstats.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="cat /proc/oplus_freqreq_monitor/fqm_dump" targetpath="cpu_freqreq_monitor.csv"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/state" targetpath="binder_state.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/stats" targetpath="binder_stats.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transactions" targetpath="binder_transactions.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transaction_log" targetpath="binder_transaction_log.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/failed_transaction_log" targetpath="binder_failed_transaction_log.txt"></cmd>
+    </item>
+    <item id="charge">
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys batterystats -c" targetpath="dumpsys_battersystats_for_bh.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+    </item>
+    <item id="junk">
+        <cmd command="dumpsys ostatsd --dump_trace" targetpath="common/alwaya_on_trace/midas.pb.trace"></cmd>
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys activity preload" targetpath="dumpsys_proload.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="dumpsys osensemanager uaf_log" targetpath="dumpsys_uaf_log.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys -t 60 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="dumpsys activity service StatsManagerService file -la" targetpath="onetrace_file_list.txt" />
+        <cmd command="dumpsys activity service StatsManagerService perf --caller" targetpath="dumpsys_onetrace_caller.txt" />
+        <cmd command="dumpsys activity service StatsManagerService log --export gaia --count 10 --size 134217728" targetpath="dumpsys_OTRTA.txt" />
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof dolbycodec2)" targetpath="dolbycodec2.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="debuggerd -j $(pidof com.android.bluetooth)" targetpath="bluetooth.txt"></cmd>
+        <cmd command="cat /proc/oplus_freqreq_monitor/fqm_dump" targetpath="cpu_freqreq_monitor.csv"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/state" targetpath="binder_state.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/stats" targetpath="binder_stats.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transactions" targetpath="binder_transactions.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transaction_log" targetpath="binder_transaction_log.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/failed_transaction_log" targetpath="binder_failed_transaction_log.txt"></cmd>
+    </item>
+    <item id="storage">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="dumpsys vold" targetpath="dumpsys_vold.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="cat /proc/storage/buf_log" targetpath="storage_buf_log.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="lsof" targetpath="lsof.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys -t 30 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+    </item>
+    <item id="camera">
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof dolbycodec2)" targetpath="dolbycodec2.txt"></cmd>
+        <cmd command="cat /proc/oplus_freqreq_monitor/fqm_dump" targetpath="cpu_freqreq_monitor.csv"></cmd>
+    </item>
+    <item id="fingerprint">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys engineer --execute_check_key_status2" targetpath="security_key_status.txt"></cmd>
+        <cmd command="cat /d/tzdbg/qsee_log" targetpath="qsee_log.txt"></cmd>
+        <cmd command="cat /d/tzdbg/log" targetpath="tzlog.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys lock_settings" targetpath="dumpsys_lock_settings.xml"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="cat data/system/packages.xml" targetpath="packages.txt"></cmd>
+    </item>
+    <item id="sensor">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="interconnection">
+        <cmd command="cat /data/system/critical_event.log" targetpath="critical_event.log"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="content call --uri content://com.microsoft.appmanager.ExportDataProvider --method dump_log" targetpath="dumpsys_ltw.txt"></cmd>
+    </item>
+    <item id="interconnection_car_wired_abnormal">
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys package com.oplus.ocar" targetpath="dumpsys_package_ocar.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="interconnection_car_wireless_abnormal">
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys wifinl80211" targetpath="dumpsys_wifinl80211.txt"></cmd>
+        <cmd command="dumpsys wifip2p" targetpath="dumpsys_wifip2p.txt"></cmd>
+        <cmd command="dumpsys wifiscanner" targetpath="dumpsys_wifiscanner.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys package com.oplus.ocar" targetpath="dumpsys_package_ocar.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="interconnection_car_sound_abnormal">
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys wifinl80211" targetpath="dumpsys_wifinl80211.txt"></cmd>
+        <cmd command="dumpsys wifip2p" targetpath="dumpsys_wifip2p.txt"></cmd>
+        <cmd command="dumpsys wifiscanner" targetpath="dumpsys_wifiscanner.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys package com.oplus.ocar" targetpath="dumpsys_package_ocar.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="interconnection_car_app_abnormal">
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys wifinl80211" targetpath="dumpsys_wifinl80211.txt"></cmd>
+        <cmd command="dumpsys wifip2p" targetpath="dumpsys_wifip2p.txt"></cmd>
+        <cmd command="dumpsys wifiscanner" targetpath="dumpsys_wifiscanner.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys package com.oplus.ocar" targetpath="dumpsys_package_ocar.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="interconnection_car_freezes_abnormal">
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys wifinl80211" targetpath="dumpsys_wifinl80211.txt"></cmd>
+        <cmd command="dumpsys wifip2p" targetpath="dumpsys_wifip2p.txt"></cmd>
+        <cmd command="dumpsys wifiscanner" targetpath="dumpsys_wifiscanner.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys package com.oplus.ocar" targetpath="dumpsys_package_ocar.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="interconnection_car_other_abnormal">
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="dumpsys wifi" targetpath="dumpsys_wifi.txt"></cmd>
+        <cmd command="dumpsys wifinl80211" targetpath="dumpsys_wifinl80211.txt"></cmd>
+        <cmd command="dumpsys wifip2p" targetpath="dumpsys_wifip2p.txt"></cmd>
+        <cmd command="dumpsys wifiscanner" targetpath="dumpsys_wifiscanner.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys package com.oplus.ocar" targetpath="dumpsys_package_ocar.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="interconnection_car_key_control">
+         <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+         <cmd command="dumpsys meminfo" targetpath="dumpsys_meminfo.txt"></cmd>
+        <cmd command="dumpsys package oplus-features" targetpath="dumpsys_oplusFeature_config.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+    </item>
+    <item id="fold_screen">
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys oplusscreenmode" targetpath="dumpsys_oplusscreenmode.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+    </item>
+    <item id="stability">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="cat /proc/zoneinfo" targetpath="zoneinfo.txt"></cmd>
+        <cmd command="cat /proc/slabinfo" targetpath="slabinfo.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys engineer --execute_check_key_status2" targetpath="security_key_status.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys -t 30 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys oplusscreenmode" targetpath="dumpsys_oplusscreenmode.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="dumpsys device_policy" targetpath="dumpsys_devicepolicy.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="cat /proc/osvelte/dma_buf/procinfo" targetpath="dma_buf_procinfo.txt.txt"></cmd>
+        <cmd command="cat /proc/dma_buf/bufinfo" targetpath="dma_buf_bufinfo.txt"></cmd>
+        <cmd command="cat /proc/osvelte/dma_buf/bufinfo" targetpath="dma_buf_bufinfo.txt"></cmd>
+        <cmd command="cat /proc/dma_heap/stats" targetpath="dma_heap_stats.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history " targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="cat /proc/last_boot_reason" targetpath="last_boot_reason.txt"></cmd>
+        <cmd command="cat /data/system/critical_event.log" targetpath="critical_event.log"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="dumpsys activity service StatsManagerService file -la" targetpath="onetrace_file_list.txt" />
+        <cmd command="dumpsys activity service StatsManagerService perf --caller" targetpath="dumpsys_onetrace_caller.txt" />
+        <cmd command="dumpsys activity service StatsManagerService log --export gaia --count 10 --size 134217728" targetpath="dumpsys_OTRTA.txt" />
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof dolbycodec2)" targetpath="dolbycodec2.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="debuggerd -j $(pidof com.android.bluetooth)" targetpath="bluetooth.txt"></cmd>
+        <cmd command="cat /proc/oplus_freqreq_monitor/fqm_dump" targetpath="cpu_freqreq_monitor.csv"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/state" targetpath="binder_state.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/stats" targetpath="binder_stats.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transactions" targetpath="binder_transactions.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/transaction_log" targetpath="binder_transaction_log.txt"></cmd>
+        <cmd command="cat /dev/binderfs/binder_logs/failed_transaction_log" targetpath="binder_failed_transaction_log.txt"></cmd>
+    </item>
+    <item id="other">
+        <cmd command="ps -T -A" targetpath="ps.txt"></cmd>
+        <cmd command="getprop" targetpath="prop.txt"></cmd>
+        <cmd command="top -n 1 -s 10" targetpath="top.txt"></cmd>
+        <cmd command="cat /proc/zoneinfo" targetpath="zoneinfo.txt"></cmd>
+        <cmd command="cat /proc/slabinfo" targetpath="slabinfo.txt"></cmd>
+        <cmd command="dumpsys window -a" targetpath="dumpsys_window.txt"></cmd>
+        <cmd command="dumpsys activity activities" targetpath="dumpsys_activities.txt"></cmd>
+        <cmd command="dumpsys engineer --execute_check_key_status2" targetpath="security_key_status.txt"></cmd>
+        <cmd command="dumpsys -t 20 package" targetpath="dumpsys_package.txt"></cmd>
+        <cmd command="dumpsys SurfaceFlinger" targetpath="dumpsys_surfaceFlinger.txt"></cmd>
+        <cmd command="dumpsys oplusscreenmode" targetpath="dumpsys_oplusscreenmode.txt"></cmd>
+        <cmd command="dumpsys cpuinfo" targetpath="dumpsys_cpuinfo.txt"></cmd>
+        <cmd command="dumpsys power" targetpath="dumpsys_power.txt"></cmd>
+        <cmd command="dumpsys alarm" targetpath="dumpsys_alarm.txt"></cmd>
+        <cmd command="dumpsys batterystats" targetpath="dumpsys_batterystats.txt"></cmd>
+        <cmd command="dumpsys -t 30 meminfo -S" targetpath="dumpsys_mem.txt"></cmd>
+        <cmd command="dumpsys dropbox --print" targetpath="dumpsys_dropbox_all.txt"></cmd>
+        <cmd command="dumpsys sensorservice" targetpath="dumpsys_sensorservice.txt"></cmd>
+        <cmd command="dumpsys vibrator_manager" targetpath="dumpsys_vibrator_manager.txt"></cmd>
+        <cmd command="dumpsys user" targetpath="dumpsys_user.txt"></cmd>
+        <cmd command="dumpsys accessibility" targetpath="dumpsys_accessibility.txt"></cmd>
+        <cmd command="dumpsys appops -a" targetpath="dumpsys_appops.xml"></cmd>
+        <cmd command="dumpsys activity hans history" targetpath="dumpsys_hans_history.txt"></cmd>
+        <cmd command="dumpsys mount" targetpath="dumpsys_mount.txt"></cmd>
+        <cmd command="dumpsys activity provider com.android.providers.media.module" targetpath="dumpsys_media_providers.txt"></cmd>
+        <cmd command="df" targetpath="df.txt"></cmd>
+        <cmd command="mount" targetpath="mount.txt"></cmd>
+        <cmd command="dumpsys storaged" targetpath="dumpsys_storaged.txt"></cmd>
+        <cmd command="dumpsys devicestoragemonitor" targetpath="dumpsys_devicestoragemonitor.txt"></cmd>
+        <cmd command="dumpsys media.audio_flinger" targetpath="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" targetpath="audio_policy.txt"></cmd>
+        <cmd command="dumpsys media.metrics" targetpath="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" targetpath="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" targetpath="media_router.txt"></cmd>
+        <cmd command="dumpsys audio" targetpath="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.player" targetpath="media_player.txt"></cmd>
+        <cmd command="dumpsys media.resource_manager" targetpath="media.resource_manager.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof audioserver)" targetpath="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" targetpath="audiohal.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof atlasservice)" targetpath="atlasservice.txt"></cmd>
+        <cmd command="debuggerd -j $(pgrep -f -o persist.multimedia)" targetpath="multimedia.txt"></cmd>
+        <cmd command="dumpsys location" targetpath="dumpsys_location.txt"></cmd>
+        <cmd command="dumpsys media.extractor" targetpath="dumpsys_media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof mediaserver)" targetpath="mediaserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.extractor)" targetpath="media_extractor.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.codec)" targetpath="media_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.swcodec)" targetpath="media_swcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.oplusswcodec)" targetpath="media_oplusswcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof media.hwcodec)" targetpath="media_hwcodec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2@1.2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec.txt"></cmd>
+        <cmd command="debuggerd -b $(pidof android.hardware.media.c2-mediatek-64b)" timeoutMs="5000" targetpath="mtk_c2_codec_v.txt"></cmd>
+        <cmd command="dumpsys settings --no-config --all-history" targetpath="dumpsys_settings_no_config_all_history.txt"></cmd>
+        <cmd command="dumpsys notification" targetpath="dumpsys_notification.xml"></cmd>
+        <cmd command="cat /data/system/notification_policy.xml" targetpath="notification_policy.xml"></cmd>
+        <cmd command="dumpsys activity service com.android.systemui" targetpath="dumpsys_systemUi.txt"></cmd>
+        <cmd command="dumpsys activity exit-info" targetpath="dumpsys_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em exit_info h=150" targetpath="dumpsys_athena_exit_info.txt"></cmd>
+        <cmd command="dumpsys activity service com.oplus.athena em node_info" targetpath="dumpsys_osvelte_meminfo.txt"></cmd>
+        <cmd command="dumpsys osensemanager log" targetpath="dumpsys_osense_log.txt"></cmd>
+        <cmd command="cat /proc/meminfo" targetpath="proc_meminfo.txt"></cmd>
+        <cmd command="cat /data/system/critical_event.log" targetpath="critical_event.log"></cmd>
+        <cmd command="dumpsys activity processes" targetpath="dumpsys_processes.txt"></cmd>
+        <cmd command="dumpsys activity broadcasts" targetpath="dumpsys_broadcasts.txt"></cmd>
+        <cmd command="dumpsys activity providers" targetpath="dumpsys_providers.txt"></cmd>
+        <cmd command="dumpsys activity services" targetpath="dumpsys_services.txt"></cmd>
+        <cmd command="dumpsys activity actpreload" targetpath="dumpsys_activity_preload_log.txt"></cmd>
+        <cmd command="dumpsys activity preload" targetpath="dumpsys_proload.txt"></cmd>
+        <cmd command="dumpsys jobscheduler" targetpath="dumpsys_jobscheduler.txt"></cmd>
+        <cmd command="dumpsys activity service StatsManagerService file -la" targetpath="onetrace_file_list.txt" />
+        <cmd command="dumpsys activity service StatsManagerService perf --caller" targetpath="dumpsys_onetrace_caller.txt" />
+        <cmd command="dumpsys activity service StatsManagerService log --export gaia --count 8 --size 67108864" targetpath="dumpsys_OTRTA.txt" />
+        <cmd command="dumpsys oplusnetd" targetpath="dumpsys_oplusnetd.txt"></cmd>
+        <cmd command="dumpsys oplusnetd datalimit" targetpath="dumpsys_oplusnetd_datalimit.txt"></cmd>
+        <cmd command="dumpsys oplusnetd oplustraffic" targetpath="dumpsys_oplusnetd_oplustraffic.txt"></cmd>
+        <cmd command="dumpsys oplusnetd firewall" targetpath="dumpsys_oplusnetd_firewall.txt"></cmd>
+        <cmd command="dumpsys connectivity" targetpath="dumpsys_connectivity.txt"></cmd>
+        <cmd command="dumpsys connectivity tethering" targetpath="dumpsys_connectivity_tethering.txt"></cmd>
+        <cmd command="dumpsys connectivity trafficcontroller" targetpath="dumpsys_connectivity_trafficcontroller.txt"></cmd>
+        <cmd command="dumpsys oplusnetworkstats olk bpfmap" targetpath="bpfmap.txt"></cmd>
+        <cmd command="dumpsys bluetooth_manager" targetpath="dumpsys_bluetooth_manager.txt"></cmd>
+        <cmd command="debuggerd -j $(pidof com.android.bluetooth)" targetpath="bluetooth.txt"></cmd>
+        <cmd command="ip -s addr" targetpath="ip_addr.txt"></cmd>
+        <cmd command="ip -s link" targetpath="ip_link.txt"></cmd>
+        <cmd command="ip -s neigh" targetpath="ip_neigh.txt"></cmd>
+        <cmd command="ip -s tunnel" targetpath="ip_tunnel.txt"></cmd>
+        <cmd command="ip -s tuntap" targetpath="ip_tuntap.txt"></cmd>
+        <cmd command="ip -s maddress" targetpath="ip_maddress.txt"></cmd>
+        <cmd command="ip -s mroute" targetpath="ip_mroute.txt"></cmd>
+        <cmd command="ip -s rule" targetpath="ip_rule.txt"></cmd>
+        <cmd command="ip -s route show table all" targetpath="ip_route_show_table_all.txt"></cmd>
+        <cmd command="iptables -nvL" targetpath="iptables.txt"></cmd>
+        <cmd command="iptables-save" targetpath="iptables_save.txt"></cmd>
+        <cmd command="ip6tables -nvL" targetpath="ip6tables.txt"></cmd>
+        <cmd command="ip6tables-save" targetpath="ip6tables_save.txt"></cmd>
+        <cmd command="tc filter show dev ccmni0 parent ffff:fff2" targetpath="tc_filter_ccmni0.txt"></cmd>
+        <cmd command="tc filter show dev ccmni1 parent ffff:fff2" targetpath="tc_filter_ccmni1.txt"></cmd>
+        <cmd command="tc filter show dev ccmni2 parent ffff:fff2" targetpath="tc_filter_ccmni2.txt"></cmd>
+        <cmd command="tc filter show dev ccmni3 parent ffff:fff2" targetpath="tc_filter_ccmni3.txt"></cmd>
+        <cmd command="tc filter show dev ccmni4 parent ffff:fff2" targetpath="tc_filter_ccmni4.txt"></cmd>
+        <cmd command="tc filter show dev ccmni5 parent ffff:fff2" targetpath="tc_filter_ccmni5.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data0 parent ffff:fff2" targetpath="tc_filter_rmnet_data0.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data1 parent ffff:fff2" targetpath="tc_filter_rmnet_data1.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data2 parent ffff:fff2" targetpath="tc_filter_rmnet_data2.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data3 parent ffff:fff2" targetpath="tc_filter_rmnet_data3.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data4 parent ffff:fff2" targetpath="tc_filter_rmnet_data4.txt"></cmd>
+        <cmd command="tc filter show dev rmnet_data5 parent ffff:fff2" targetpath="tc_filter_rmnet_data5.txt"></cmd>
+        <cmd command="tc filter show dev wlan0 parent ffff:fff2" targetpath="tc_filter_wlan0.txt"></cmd>
+        <cmd command="tc filter show dev wlan1 parent ffff:fff2" targetpath="tc_filter_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni0" targetpath="tc_class_ccmni0.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni1" targetpath="tc_class_ccmni1.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni2" targetpath="tc_class_ccmni2.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni3" targetpath="tc_class_ccmni3.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni4" targetpath="tc_class_ccmni4.txt"></cmd>
+        <cmd command="tc -s class show dev ccmni5" targetpath="tc_class_ccmni5.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data0" targetpath="tc_class_rmnet_data0.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data1" targetpath="tc_class_rmnet_data1.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data2" targetpath="tc_class_rmnet_data2.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data3" targetpath="tc_class_rmnet_data3.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data4" targetpath="tc_class_rmnet_data4.txt"></cmd>
+        <cmd command="tc -s class show dev rmnet_data5" targetpath="tc_class_rmnet_data5.txt"></cmd>
+        <cmd command="tc -s class show dev wlan0" targetpath="tc_class_wlan0.txt"></cmd>
+        <cmd command="tc -s class show dev wlan1" targetpath="tc_class_wlan1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb0" targetpath="tc_class_ifb0.txt"></cmd>
+        <cmd command="tc -s class show dev ifb1" targetpath="tc_class_ifb1.txt"></cmd>
+        <cmd command="tc -s class show dev ifb2" targetpath="tc_class_ifb2.txt"></cmd>
+        <cmd command="tc -s class show dev ifb3" targetpath="tc_class_ifb3.txt"></cmd>
+        <cmd command="tc -s qdisc" targetpath="tc_qdisc.txt"></cmd>
+        <cmd command="cat /d/tzdbg/qsee_log" targetpath="qsee_log.txt"></cmd>
+        <cmd command="cat /d/tzdbg/log" targetpath="tzlog.txt"></cmd>
+    </item>
+</cmdConfig>

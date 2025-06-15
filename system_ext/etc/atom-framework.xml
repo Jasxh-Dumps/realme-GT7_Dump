@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<atom-config>
+    <atom-events>
+        <event name="charger" package="com.oplus.epa.WiredChargerEvent" />
+        <event name="timer" package="com.oplus.epa.TimerEvent" />
+        <event name="screen" package="com.oplus.epa.ScreenEvent" />
+        <event name="userflightmode" package="com.oplus.epa.UserAirplaneModeEvent" />
+        <event name="userwifistate" package="com.oplus.epa.UserWifiStateEvent" />
+        <event name="userdatastate" package="com.oplus.epa.UserCellularDataStateEvent" />
+        <event name="userroamingstate" package="com.oplus.epa.UserDataRoamingStateEvent" />
+        <event name="callstate1" package="com.oplus.epa.CallStateEvent1" />
+        <event name="callstate2" package="com.oplus.epa.CallStateEvent2" />
+        <event name="simstate" package="com.oplus.epa.SimStateEvent" />
+        <event name="radiostate" package="com.oplus.epa.RadioStateEvent" />
+        <event name="dataregstate" package="com.oplus.epa.DataRegStateEvent" />
+        <event name="voiceregstate" package="com.oplus.epa.VoiceRegStateEvent" />
+        <event name="datachannel" package="com.oplus.epa.DataChannelEvent" />
+        <event name="expectedssid" package="com.oplus.epa.ExpectedSsidEvent" />
+        <event name="frontapp" package="com.oplus.epa.FrontAppsEvent" />
+        <event name="passivegps" package="com.oplus.epa.PassiveGpsEvent" />
+        <event name="cellchange" package="com.oplus.epa.CellChangeEvent" />
+        <event name="wificonnection" package="com.oplus.epa.WifiConnectionEvent" />
+        <event name="gamelatency" package="com.oplus.epa.GameLatencyEvent" />
+        <event name="borderport" package="com.oplus.epa.BorderPortEvent"/>
+        <event name="regmccchange" package="com.oplus.epa.RegistedMccChangeEvent"/>
+        <event name="ltenrpingpong" package="com.oplus.epa.LteNrPingPongEvent"/>
+        <event name="subwayscene" package="com.oplus.epa.SubwaySceneEvent" />
+        <event name="vehnav" package="com.oplus.epa.VehNavEvent" />
+        <event name="indoor" package="com.oplus.epa.IndoorEvent" />
+        <event name="exitgaragefilter" package="com.oplus.epa.ExitGarageFilterEvent" />
+        <event name="gpsfirstfix" package="com.oplus.epa.GpsFirstFixEvent" />
+        <event name="exitgarage" package="com.oplus.epa.ExitGarageEvent" />
+        <event name="nearexit" package="com.oplus.epa.NearExitEvent" />
+        <event name="exitgaragesensor" package="com.oplus.epa.ExitGarageSensorEvent" />
+        <event name="nearexitdelay" package="com.oplus.epa.NearExitDelayEvent" />
+        <event name="nogpsfixtimer" package="com.oplus.epa.NoGpsFixTimerEvent" />
+        <event name="weaksignal" package="com.oplus.epa.WeakSignalEvent" />
+        <event name="quickchangeapm" package="com.oplus.epa.QuickChangeAirplaneModeEvent" />
+        <event name="apmsetting" package="com.oplus.epa.ApmSettingEvent" />
+        <event name="dataconnection" package="com.oplus.epa.DataConnectionEvent" />
+        <event name="connectivitychange" package="com.oplus.epa.ConnectivityChangeEvent" />
+        <event name="networktype" package="com.oplus.epa.NetworkTypeEvent" />
+        <event name="datechange" package="com.oplus.epa.DateChangeEvent" />
+        <event name="wifistate" package="com.oplus.epa.WifiStateEvent" />
+        <event name="duplexmode" package="com.oplus.epa.DuplexModeEvent" />
+        <event name="channelnumber" package="com.oplus.epa.ChannelNumberEvent" />
+        <event name="voiceroaming" package="com.oplus.epa.VoiceRoamingEvent" />
+        <event name="dataroaming" package="com.oplus.epa.DataRoamingEvent" />
+        <event name="operatornumeric" package="com.oplus.epa.OperatorNumericEvent" />
+        <event name="networkscore" package="com.oplus.epa.NetworkScoreEvent" />
+        <event name="ratchange" package="com.oplus.epa.RatChangeEvent" />
+    </atom-events>
+    <atom-data>
+        <data id="21000" package="com.oplus.epa.AtomWifiStateInfo" />
+        <data id="21001" package="com.oplus.epa.AtomWifiScanInfo" />
+        <data id="21002" package="com.oplus.epa.AtomDataLinkInfo" />
+        <data id="21003" package="com.oplus.epa.AtomRailStationInfo" />
+        <data id="21004" package="com.oplus.epa.AtomPassiveLocationInfo" />
+        <data id="21005" package="com.oplus.epa.AtomNetworkLocationInfo" />
+        <data id="21006" package="com.oplus.epa.AtomGameLatencyInfo" />
+        <data id="21007" package="com.oplus.epa.AtomAccelerometerInfo" />
+        <data id="21008" package="com.oplus.epa.AtomGnssStatusInfo" />
+        <data id="21009" package="com.oplus.epa.AtomGyroscopeInfo" />
+        <data id="21010" package="com.oplus.epa.AtomMagnetometerInfo" />
+        <data id="21011" package="com.oplus.epa.AtomSensorVendorInfo" />
+        <data id="21012" package="com.oplus.epa.AtomActiveWifiScanInfo" />
+        <data id="21013" package="com.oplus.epa.AtomBluetoothInfo" />
+        <data id="21014" package="com.oplus.epa.AtomQuickApmChangedInfo" />
+        <data id="21015" package="com.oplus.epa.AtomWeakSignalInfo" />
+        <data id="21016" package="com.oplus.epa.AtomLocationDeviationInfo" />
+        <data id="21017" package="com.oplus.epa.AtomKpiStaticsInfo" />
+        <data id="21018" package="com.oplus.epa.AtomDeviceConfigInfo" />
+        <data id="21019" package="com.oplus.epa.AtomNetworkScoreInfo" />
+        <data id="21020" package="com.oplus.epa.AtomGpsLocationInfo" />
+        <data id="21021" package="com.oplus.epa.AtomApnSettingInfo" />
+        <data id="21022" package="com.oplus.epa.AtomSmart5gSwitchInfo" />
+        <data id="21023" package="com.oplus.epa.AtomWifiOnInfo" />
+        <data id="21024" package="com.oplus.epa.Atom5GPreferModeInfo" />
+        <data id="21025" package="com.oplus.epa.AtomPreferNetworkModeInfo" />
+        <data id="21026" package="com.oplus.epa.AtomSimModuleInfo" />
+        <data id="21027" package="com.oplus.epa.AtomCallModuleInfo" />
+
+    </atom-data>
+    <atom-action>
+        <action name="DcdcSleep" package="com.oplus.rfevent.DcdcSleepAction" />
+        <action name="LogAction" package="com.oplus.log.LogAction" />
+    </atom-action>
+</atom-config>

@@ -1,0 +1,238 @@
+on property:sys.oplus.high.performance.spec=1
+    start thpon
+
+on property:sys.oplus.high.performance.spec=0
+    start thpoff
+    start default_cpuset
+    start bmcpu_openmp_disable
+
+on property:sys.oplus.high.performance.spec=10005
+    start random_read_cpuset_sm8550
+
+on property:sys.oplus.high.performance.spec=10006
+    start random_write_cpuset_sm8550
+
+on property:sys.oplus.high.performance.spec=10007
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10025
+    start random_read_cpuset_mt6895
+
+on property:sys.oplus.high.performance.spec=10026
+    start random_write_cpuset_mt6895
+
+on property:sys.oplus.high.performance.spec=10027
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10045
+    start random_read_cpuset_sm6225
+
+on property:sys.oplus.high.performance.spec=10046
+    start random_write_cpuset_sm6225
+
+on property:sys.oplus.high.performance.spec=10047
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10065
+    start random_read_cpuset_sm6375
+
+on property:sys.oplus.high.performance.spec=10066
+    start random_write_cpuset_sm6375
+
+on property:sys.oplus.high.performance.spec=10067
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10085
+    start random_read_cpuset_mt6983
+
+on property:sys.oplus.high.performance.spec=10086
+    start random_write_cpuset_mt6983
+
+on property:sys.oplus.high.performance.spec=10087
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10105
+    start random_read_cpuset_sm8250
+
+on property:sys.oplus.high.performance.spec=10106
+    start random_write_cpuset_sm8250
+
+on property:sys.oplus.high.performance.spec=10107
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10125
+    start random_read_cpuset_sm7325
+
+on property:sys.oplus.high.performance.spec=10126
+    start random_write_cpuset_sm7325
+
+on property:sys.oplus.high.performance.spec=10127
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=10145
+    start random_read_cpuset_sm7675
+
+on property:sys.oplus.high.performance.spec=10146
+    start random_write_cpuset_sm7675
+
+on property:sys.oplus.high.performance.spec=10147
+    start default_cpuset
+
+on property:sys.oplus.high.performance.spec=30005
+    start bmcpu_openmp_enable
+
+on property:sys.oplus.high.performance.spec=35003
+    start bmcpu_openmp_disable
+
+on property:sys.oplus.high.performance.spec=30025
+    start bmcpu_openmp_enable
+
+on property:sys.oplus.high.performance.spec=35023
+    start bmcpu_openmp_disable
+
+service thpon /system/system_ext/bin/oplus_performance_bench.sh "thp_enable"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service thpoff /system/system_ext/bin/oplus_performance_bench.sh "thp_disable"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_sm8550 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_sm8550"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_sm8550 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_sm8550"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_mt6895 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_mt6895"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_mt6895 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_mt6895"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_sm6225 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_sm6225"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_sm6225 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_sm6225"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_sm6375 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_sm6375"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_sm6375 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_sm6375"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_mt6983 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_mt6983"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_mt6983 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_mt6983"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_sm8250 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_sm8250"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_sm8250 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_sm8250"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_sm7325 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_sm7325"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_sm7325 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_sm7325"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_read_cpuset_sm7675 /system/system_ext/bin/oplus_performance_bench.sh "random_read_cpuset_sm7675"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service random_write_cpuset_sm7675 /system/system_ext/bin/oplus_performance_bench.sh "random_write_cpuset_sm7675"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service bmcpu_openmp_enable /system/system_ext/bin/oplus_performance_bench.sh "bmcpu_openmp_enable"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service bmcpu_openmp_disable /system/system_ext/bin/oplus_performance_bench.sh "bmcpu_openmp_disable"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+service default_cpuset /system/system_ext/bin/oplus_performance_bench.sh "default_cpuset"
+    class core
+    user root
+    group system root shell
+    disabled
+    oneshot

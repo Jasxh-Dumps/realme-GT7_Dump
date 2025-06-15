@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+  <version>20240409</version>
+  <isOpen>1</isOpen>
+  <filter-name>theia_resolver_config</filter-name>
+  <rules>
+    <rule id="1" win="60" trigger_event_id="101450">   <!-- PWK_LONGPRESS 0x00000001-->
+      <links type="wp">
+        <event id="101211" log_id="0x00000101"> <!-- hungtask 0x00000100 -->
+          <result code="101178" name="TheiaResolverHungtask" action="none"/> <!-- report TheiaResolverHungtask -->
+        </event>
+        <event id="101209" log_id="0x00000201">   <!-- soft lockup 0x00000200-->
+         <result code="101179" name="TheiaResolverSoftLockup" action="none"/>   <!-- report TheiaResolverSoftLockup -->
+        </event>
+        <event id="101210" log_id="0x00000401">   <!-- hard lockup 0x00000400-->
+           <result code="101180" name="TheiaResolverHardLockup" action="none"/>   <!-- report TheiaResolverHardLockup -->
+        </event>
+        <event id="100138" log_id="0x00000801">	<!-- LCD 0x00000800-->
+           <result code="101181" name="TheiaResolverLcd" action="none"/> <!-- report TheiaResolverLcd -->
+        </event>
+        <event id="101287" log_id="0x00001001">	<!-- GPU 0x00001000-->
+           <result code="101182" name="TheiaResolverGpu" action="none"/> <!-- report TheiaResolverGpu -->
+        </event>
+      </links>
+    </rule>
+    <rule id="2" win="60" trigger_event_id="101448">   <!-- HOMEKEY_PANIC 0x00000002-->
+      <links type="wp">
+        <event id="101445" log_id="0x00008002">   <!-- UITIMEOUT 0x00008000-->
+          <result code="101185" name="TheiaResolverUiTimeOut" action="none"/> <!-- report TheiaResolverUiTimeOut -->
+        </event>
+        <event id="101054" log_id="0x00010002">   <!-- noFocusWindow 0x00010000-->
+          <result code="101186" name="TheiaResolverNoFocusWindow" action="none"/>   <!-- report TheiaResolverNoFocusWindow -->
+        </event>
+        <event id="101053" log_id="0x00020002">   <!-- Transparent_WINDOW 0x00020000-->
+          <result code="101187" name="TheiaResolverTransparentWindow" action="none"/>   <!-- report TheiaResolverTransparentWindow -->
+        </event>
+      </links>
+    </rule>
+    <rule id="3" win="60" trigger_event_id="101449">   <!-- BACKKEY_PANIC 0x00000004-->
+      <links type="wp">
+        <event id="101445" log_id="0x00008004">   <!-- UITIMEOUT 0x00008000-->
+          <result code="101185" name="TheiaResolverUiTimeOut" action="none"/>   <!-- report TheiaResolverUiTimeOut -->
+        </event>
+        <event id="101054" log_id="0x00010004">   <!-- noFocusWindow 0x00010000-->
+          <result code="101186" name="TheiaResolverNoFocusWindow" action="none"/>   <!-- report TheiaResolverNoFocusWindow -->
+        </event>
+      </links>
+    </rule>
+    <rule id="4" win="60" trigger_event_id="101440"> <!-- TheiaCommonAnr 0x00400000-->
+      <links type="wp">
+        <event id="101361" log_id="0x00400000">	<!-- barrier_monitor no_log -->
+          <result code="101194" name="TheiaResolverBarrierMonitor" action="none"/> <!-- report TheiaResolverBarrierMonitor -->
+        </event>
+      </links>
+    </rule>
+    <rule id="5" win="60" trigger_event_id="101108"> <!-- TheiaResolverDetectedBlankScreen 0x00800000-->
+      <links type="wp">
+        <event id="101051" log_id="0x00400080">	<!-- surfaceNotDrawn 0x00000080 -->
+          <result code="101196" name="TheiaResolverSurfaceNotDrawn" action="none"/> <!-- report TheiaResolverSurfaceNotDrawn -->
+        </event>
+        <event id="101054" log_id="0x00810000"> <!-- noFocusWindow 0x00010000 -->
+          <result code="101186" name="TheiaResolverNoFocusWindow" action="none"/> <!-- report TheiaResolverNoFocusWindow -->
+        </event>
+      </links>
+    </rule>
+    <rule id="6" win="0" trigger_event_id="101442"> <!-- launcherAnr 0x00100000-->
+      <links type="wp">
+        <event id="101442" log_id="0x00100000">	<!-- launcherAnr 0x00100000-->
+          <result code="101189" name="TheiaResolverLauncherAnr" action="none"/> <!-- report TheiaResolverLauncherAnr -->
+        </event>
+      </links>
+    </rule>
+    <rule id="7" win="0" trigger_event_id="101109"> <!-- OplusSFHang  0x01000000-->
+      <links type="wp">
+        <event id="101109" log_id="0x01000000">	<!-- OplusSFHang  -->
+          <result code="101191" name="TheiaResolverOplusSFHang" action="none"/> <!-- report TheiaResolverOplusSFHang -->
+        </event>
+      </links>
+    </rule>
+    <rule id="8" win="0" trigger_event_id="101441"> <!-- systemuiAnr 0x00200000-->
+      <links type="wp">
+        <event id="101441" log_id="0x00200000"> <!-- systemuiAnr  -->
+          <result code="101190" name="TheiaResolverSystemuiAnr" action="none"/> <!-- report TheiaResolverSystemuiAnr -->
+        </event>
+      </links>
+    </rule>
+    <rule id="9" win="0" trigger_event_id="101226"> <!-- SSPreWatchdog  0x00080000-->
+      <links type="wp">
+        <event id="101226" log_id="0x00080000"> <!-- SSPreWatchdog  -->
+          <result code="101193" name="TheiaResolverSSPreWatchdog" action="none"/> <!-- report TheiaResolverSSPreWatchdog -->
+        </event>
+      </links>
+    </rule>
+    <rule id="10" win="0" trigger_event_id="101446"> <!-- pwkLightUpMonitor 0x00002000-->
+      <links type="wp">
+        <event id="101446" log_id="0x00002000"> <!-- pwkLightUpMonitor  -->
+          <result code="101183" name="TheiaResolverPwkLightUpMonitor" action="none"/> <!-- report TheiaResolverPwkLightUpMonitor -->
+        </event>
+      </links>
+    </rule>
+    <rule id="11" win="0" trigger_event_id="101447"> <!-- pwkShutdownMonitor 0x00004000-->
+      <links type="wp">
+        <event id="101447" log_id="0x00004000"> <!-- pwkShutdownMonitor  -->
+          <result code="101184" name="TheiaResolverPwkShutDownMonitor" action="none"/> <!-- report TheiaResolverPwkShutDownMonitor -->
+        </event>
+      </links>
+    </rule>
+    <!-- reserve display:  0x02000000-->
+    <!-- reserve launcher: 0x08000000-->
+    <!-- reserve camera:   0x10000000-->
+    <!-- reserve touch:    0x20000000-->
+    <!-- reserve video:    0x40000000-->
+  </rules>
+</filter-conf>

@@ -1,0 +1,14 @@
+service ostats_pullerd /system_ext/bin/ostats_pullerd
+    user root
+    group root system
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.ostats_pullerd.enable=0
+    stop ostats_pullerd
+
+on property:sys.boot_completed=1 && property:persist.sys.ostats_pullerd.enable=1
+    start ostats_pullerd
+
+on post-fs-data
+    # Create directory for ostats_pullerd.
+    mkdir /data/misc/ostats_pullerd 0770 root system

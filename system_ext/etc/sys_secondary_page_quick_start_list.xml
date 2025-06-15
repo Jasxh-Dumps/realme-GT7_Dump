@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>20250114</version>
+    <filter-name>sys_secondary_page_quick_start_list</filter-name>
+    <func_switch value="1"/>
+    <activity cmp_name="com.oplus.wirelesssettings/com.android.settings.SettingsActivity#WIFI_SETTINGS" type="2"/>
+    <activity cmp_name="com.oplus.wirelesssettings/com.android.settings.SettingsActivity#BLUETOOTH_SETTINGS" type="1"/>
+    <activity cmp_name="com.oplus.wirelesssettings/com.android.settings.SettingsActivity#WIRELESS_SETTINGS" type="1"/>
+    <activity cmp_name="com.android.phone/com.android.simsettings.activity.OplusSimSettingsActivity" type="1"/>
+    <activity cmp_name="com.oplus.wallpapers/.personal.PersonalActivity" type="0"/>
+    <activity cmp_name="com.android.launcher/.settings.LauncherSettingsActivity" type="2"/>
+    <activity cmp_name="com.oplus.notificationmanager/.NotificationCenterActivity" type="1" delayTime="30"/>
+    <activity cmp_name="com.oplus.securitypermission/com.oplusos.securitypermission.privacy.PrivacySettingsDashboardActivity" type="1" delayTime="30"/>
+    <activity cmp_name="com.oplus.sos/.ui.SOSHelperSettingActivity" type="1"/>
+    <activity cmp_name="com.android.settings/com.oplus.settings.OplusSettingsActivity$EmergencySettingsActivity" type="1"/>
+    <activity cmp_name="com.coloros.digitalwellbeing/.ui.activity.PhoneUseTimeActivity" type="2"/>
+    <activity cmp_name="com.oplus.battery/com.oplus.powermanager.fuelgaue.PowerConsumptionActivity" type="1"/>
+    <activity cmp_name="com.android.settings/com.oplus.settings.OplusSettingsActivity$DeviceInfoSettingsActivity" type="1" delayTime="50"/>
+    <activity cmp_name="com.coloros.sceneservice/.settings.SettingsActivity" type="1"/>
+    <activity cmp_name="com.coloros.operationManual/.feedbackandtips.view.activity.MainActivity" type="1"/>
+</filter-conf>

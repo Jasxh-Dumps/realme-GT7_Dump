@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ********************************************************************************
+ ** Copyright (C) 2018-2020 Oplus. All rights reserved.
+ ** All rights reserved.
+ **
+ ** File: - privapp-permission-oplus.xml
+ ** Description:
+ **     Customization of Android privapp-permission-platform.xml
+ **
+ ** Version: 1.0
+ ** Date: 2019-07-18
+ ** Author: sijiaquan@ANDROID.PMS
+ **
+ ** <author>                        <data>       <version>   <desc>
+  ** sijiaquan@ANDROID.PMS       2019-07-18   1.0         Create this file
+ ********************************************************************************/
+  -->
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+This file contains the customization of Android privapp-permission-platform.xml,we should
+not add logic in privapp-permission-platform.xml directly.
+-->
+<permissions>
+    <privapp-permissions package="com.oneplus.membership">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+    <privapp-permissions package="net.oneplus.launcher">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.DEVICE_POWER"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.WRITE_SETTINGS"/>
+        <permission name="android.permission.STATUS_BAR_SERVICE"/>
+        <permission name="android.permission.GRANT_RUNTIME_PERMISSIONS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.android.emergency">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.CALL_PRIVILEGED" />
+        <permission name="android.permission.MANAGE_USERS" />
+    </privapp-permissions>
+    <privapp-permissions package="com.android.phone">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="net.oneplus.commonlogtool">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.DUMP"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.oneplus.opshelf">
+        <permission name="android.permission.PACKAGE_USAGE_STATS" />
+        <permission name="android.permission.BIND_APPWIDGET" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.GRANT_RUNTIME_PERMISSIONS" />
+        <permission name="android.permission.WRITE_SETTINGS" />
+    </privapp-permissions>
+</permissions>

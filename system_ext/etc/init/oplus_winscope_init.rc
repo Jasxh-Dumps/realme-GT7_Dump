@@ -1,0 +1,35 @@
+on property:persist.traced.enable=1
+    mkdir /data/misc/perfetto-traces/oplus 0773 root shell
+
+service start_layer_trace /system_ext/bin/oplus_winscope_manager.sh "startLayerTrace"
+    class core
+    user root
+    seclabel u:r:shell:s0
+    group root system everybody shell
+    disabled
+    oneshot
+
+service dump_layer_trace /system_ext/bin/oplus_winscope_manager.sh "dumpLayerTrace"
+    class core
+    user root
+    seclabel u:r:shell:s0
+    group root system everybody shell
+    disabled
+    oneshot
+
+service stop_layer_trace /system_ext/bin/oplus_winscope_manager.sh "stopLayerTrace"
+    class core
+    user root
+    seclabel u:r:shell:s0
+    group root system everybody shell
+    disabled
+    oneshot
+
+on property:persist.sys.debug.layer_trace.enable=true && property:persist.sys.debuglog.config=other
+    start start_layer_trace
+
+on property:persist.sys.debug.layer_trace.enable=true && property:persist.sys.layertrace.dump=true
+    start dump_layer_trace
+
+on property:persist.sys.debug.layer_trace.enable=false
+    start stop_layer_trace

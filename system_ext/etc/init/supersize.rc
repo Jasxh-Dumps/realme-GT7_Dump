@@ -1,0 +1,9 @@
+service supersize /system/bin/sh /system_ext/bin/getsuperlayoutsize.sh
+    class core
+    user root
+    group root system log
+    seclabel u:r:shell:s0
+    disabled
+    oneshot
+on property:sys.boot_completed=1
+    start supersize

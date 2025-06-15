@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qxdm>
+  <SupportPlatforms>
+    <platform name="SM8450" />
+    <platform name="SM8475" />
+    <platform name="SM8550" />
+    <platform name="SM8650" />
+  </SupportPlatforms>
+
+  <PdList CombinedConfigFile="/vendor/odm/etc/default.cfg">
+    <PD label="sensors" mask="0x4000" configFile="/vendor/odm/etc/sensor.cfg" />
+    <PD label="charger" mask="0x8000" configFile="/vendor/odm/etc/charge.cfg" />
+  </PdList>
+</qxdm>

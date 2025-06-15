@@ -1,0 +1,489 @@
+<filter-conf>
+    <version>20241204</version>
+    <pkg>com.coloros.onekeylockscreen</pkg><!-- 一键解锁-->
+    <pkg>com.realmecomm.app</pkg><!-- realme社区-->
+    <pkg>com.realme.linkcn</pkg><!--  realme link-->
+    <pkg>com.realme.link</pkg><!-- realme link-->
+    <pkg>com.realmestore.app</pkg><!-- realme商城-->
+    <pkg>com.realme.storecn</pkg><!-- realme商城-->
+    <pkg>com.coloros.note</pkg><!-- 便签-->
+    <pkg>com.google.android.apps.adm</pkg> <!--查找我的设备-->
+    <pkg>com.coloros.backuprestore</pkg><!-- 手机搬家-->
+    <pkg>com.oplus.matter</pkg><!-- matter-->
+    <pkg>cn.wps.moffice.lite</pkg><!-- wps文档查看器-->
+    <pkg>com.oneplus.brickmode</pkg><!-- 禅定空间-->
+    <pkg>com.redteamobile.roaming</pkg><!-- 国际上网-->
+    <pkg>com.coloros.calculator</pkg><!-- 计算器-->
+    <pkg>com.coloros.familyguard</pkg><!-- 家庭空间-->
+    <pkg>com.coloros.soundrecorder</pkg><!-- 录音-->
+    <pkg>com.finshell.wallet</pkg><!-- 钱包-->
+    <pkg>com.oplus.game.empowerment.folder</pkg><!-- 热门推荐-->
+    <pkg>com.coloros.calendar</pkg><!-- 日历-->
+    <pkg>com.coloros.alarmclock</pkg><!-- 时钟-->
+    <pkg>com.heytap.yoli</pkg><!-- 视频-->
+    <pkg>com.heytap.book</pkg><!-- 书城-->
+    <pkg>com.coloros.weather2</pkg><!-- 天气-->
+    <pkg>com.coloros.filemanager</pkg><!-- 文件管理-->
+    <pkg>com.heytap.member</pkg><!-- 我的realme-->
+    <pkg>com.oplus.melody</pkg><!-- 无线耳机-->
+    <pkg>com.coloros.shortcuts</pkg><!-- 小布指令-->
+    <pkg>com.oplus.play</pkg><!-- 小游戏-->
+    <pkg>com.heytap.music</pkg><!-- 音乐-->
+    <pkg>com.unionpay.tsmservice</pkg><!-- 银联可信服务安全组件-->
+    <pkg>com.android.email</pkg><!-- 邮件-->
+    <pkg>com.nearme.gamecenter</pkg><!-- 游戏中心-->
+    <pkg>com.oplus.games</pkg><!-- 游戏助手-->
+    <pkg>com.coloros.translate</pkg><!-- 语音翻译-->
+    <pkg>com.coloros.compass2</pkg><!-- 指南针-->
+    <pkg>com.heytap.smarthome</pkg><!-- 智能家居-->
+    <pkg>com.heytap.themestore</pkg><!-- 主题商店-->
+    <pkg>com.coloros.favorite</pkg><!-- 自由收藏-->
+    <pkg>com.google.android.apps.walletnfcrel</pkg><!-- google pay-->
+    <pkg>com.google.android.videos</pkg><!-- googleTV-->
+    <pkg>com.oplus.consumerIRApp</pkg><!-- 红外遥控-->
+    <pkg>com.google.android.apps.chromecast.app</pkg><!--google Home -->
+    <pkg>com.opluskgd.onetaplocking</pkg><!--一键锁屏 -->
+    <!--  非系统应用  -->
+    <pkg>com.baidu.tieba</pkg><!-- 百度贴吧-->
+    <pkg>com.hicorenational.antifraud</pkg><!-- 国家反诈中心-->
+    <pkg>com.cloudflare.onedotonedotonedotone</pkg><!-- onedotonedotonedotone vpn-->
+    <pkg>net.mobcup.android</pkg><!-- mobcup-->
+    <pkg>com.cmcc.cmvideo</pkg><!-- 咪咕视频-->
+    <pkg>io.faceapp</pkg><!-- faceapp-->
+    <pkg>com.baidu.input</pkg><!-- 百度输入法-->
+    <pkg>com.android.bankabc</pkg><!-- 农行-->
+    <pkg>llbt.ccb.lnga</pkg><!-- 辽事通-->
+    <pkg>com.rt.market.fresh</pkg><!-- 大润发优鲜-->
+    <pkg>com.redrcd.ylxf</pkg><!-- 云岭先锋-->
+    <pkg>com.spdbccc.app</pkg><!-- 浦大喜奔-->
+    <pkg>cn.gov.pbc.dcep</pkg><!-- 数字人民币-->
+    <pkg>com.csii.zybk.ui</pkg><!-- 中原银行-->
+    <pkg>com.ccb.fintech.app.productions.xybga</pkg><!-- 湘易办-->
+    <pkg>com.able.wisdomtree</pkg><!-- 知到-->
+    <pkg>com.chinatelecom.bestpayclient</pkg><!-- 翼支付-->
+    <pkg>com.xhey.xcamera</pkg><!-- 今日水印相机-->
+    <pkg>com.yyyfs.wallpaper</pkg><!-- 元宇宙壁纸-->
+    <pkg>com.sitech.ac</pkg><!-- 中国移动安徽-->
+    <pkg>com.pupumall.customer</pkg><!-- 朴朴超市-->
+    <pkg>com.csii.gdnx.mobilebank</pkg><!-- 广东农信-->
+    <pkg>com.szzc</pkg><!-- 广东农信-->
+
+    <pkg>com.alicloud.databox</pkg>
+    <pkg>com.estrongs.android.pop</pkg>
+    <pkg>com.shoujiduoduo.ringtone</pkg>
+    <pkg>com.chaozh.iReader.dj</pkg>
+    <pkg>com.mogu.go</pkg>
+    <pkg>com.baidu.netdisk</pkg>
+    <pkg>com.tencent.mtt</pkg>
+    <pkg>com.dragon.read</pkg>
+    <pkg>com.kuaiduizuoye.scan</pkg>
+    <pkg>com.microsoft.emmx</pkg>
+    <pkg>com.baidu.searchbox</pkg>
+    <pkg>com.taptap</pkg>
+    <pkg>com.moutai.mall</pkg>
+    <pkg>mark.via</pkg>
+    <pkg>com.tencent.tmgp.cod</pkg>
+    <pkg>com.ss.android.article.search</pkg>
+    <pkg>com.miHoYo.Yuanshen</pkg>
+    <pkg>com.miHoYo.hkrpg</pkg>
+    <pkg>com.taobao.qianniu</pkg>
+    <pkg>com.jd.jdlite</pkg>
+    <pkg>com.microsoft.teams</pkg>
+    <pkg>com.qihoo.browser</pkg>
+    <pkg>com.taobao.trip</pkg>
+    <pkg>com.tencent.qt.qtl</pkg>
+    <pkg>com.tencent.tmgp.djsy</pkg>
+    <pkg>cn.gyyx.phonekey</pkg>
+    <pkg>com.sofunny.Sausage</pkg>
+    <pkg>com.kiloo.subwaysurf</pkg>
+
+    <pkg>com.oplus.cameradetection</pkg>
+
+    <pkg>cn.com.changan.cvim</pkg>
+    <pkg>com.geely.consumer</pkg>
+    <pkg>com.lynkco.customer</pkg>
+    <pkg>com.geely.newenergy</pkg>
+    <pkg>com.chehejia.oc.m01</pkg>
+    <pkg>com.niu.cloud</pkg>
+    <pkg>com.xiaopeng.mycarinfo</pkg>
+    <pkg>com.shanghaigm.android.mycadillac</pkg>
+    <pkg>com.buick</pkg>
+    <pkg>com.saicmotor.mg</pkg>
+    <pkg>com.saicmaxus.maxuslife</pkg>
+    <pkg>cn.ninebot.ninebot</pkg>
+    <pkg>com.zeekrlife.mobile</pkg>
+    <pkg>com.immotors.lapp</pkg>
+    <pkg>com.cfmoto</pkg>
+    <pkg>com.teslamotors.tesla</pkg>
+    <pkg>com.smart.cnapp</pkg>
+    <pkg>cn.com.changan.nev</pkg>
+    <pkg>com.shanghaigm.nev.mycadillac</pkg>
+    <pkg>deepal.com.cn.app</pkg>
+    <pkg>com.szlanyou.iov</pkg>
+    <pkg>com.bmw.myBMW.preseries.cn.univde.bmw.connected.mobile20.cn</pkg>
+    <pkg>com.dahua.leapmotor</pkg>
+    <pkg>com.geelygalaxy.customer</pkg>
+    <pkg>com.chery.iCarProdAndroid</pkg>
+    <pkg>com.mini.myBMW.preseries.cn.univde.mini.connected.mobile20.cn</pkg>
+    <pkg>com.chery.exeed</pkg>
+    <pkg>com.byd.aeri.caranywhere</pkg>
+    <pkg>com.saicmotor.tocapp</pkg>
+    <pkg>com.byd.denzadilink</pkg>
+    <pkg>com.niutron.cloud</pkg>
+    <pkg>com.byd.revolution</pkg>
+    <pkg>com.byd.sf</pkg>
+    <pkg>com.jiuyu.sptcc.cordova</pkg>
+    <pkg>com.cmf.cqwallet</pkg>
+    <pkg>com.jieyisoft.weex.yktApp</pkg>
+    <pkg>com.szt.pay</pkg>
+    <pkg>com.bestwehotel.app.bigshanghai.china.inner</pkg>
+    <pkg>com.chinarainbow.tft</pkg>
+    <pkg>sz.szsmk.citizencard</pkg>
+    <pkg>com.weconex.jscizizen</pkg>
+    <pkg>com.lingnanpass</pkg>
+    <pkg>com.umpay.qingdaonfc</pkg>
+    <pkg>com.bsit.coband</pkg>
+    <pkg>com.yzsmk.minsheng</pkg>
+    <pkg>com.zhszcn.zhsmk</pkg>
+    <pkg>cn.com.bmac.nfc</pkg>
+    <pkg>cn.com.whty.cqt</pkg>
+    <pkg>com.example.meijiahui</pkg>
+    <pkg>com.citywithincity.ecard</pkg>
+    <pkg>com.futurefleet.dongguantongbus.ui.dg</pkg>
+    <pkg>com.psbc.citizencard</pkg>
+    <pkg>com.finshell.wallet</pkg>
+    <pkg>com.coloros.wallet</pkg>
+    <pkg>com.heytap.tas</pkg>
+
+    <pkg>com.sanmaoyou123.sanmaoyou123</pkg>
+    <pkg>com.tongcheng.android</pkg>
+    <pkg>com.Qunar</pkg>
+    <pkg>ctrip.android.view</pkg>
+    <pkg>com.redteamobile.roaming</pkg>
+    <pkg>com.crgt.ilife</pkg>
+    <pkg>com.tripadvisor.tripadvisor.daodao</pkg>
+    <pkg>com.umetrip.android.msky.app</pkg>
+
+    <pkg>com.oplus.owork</pkg>
+
+    <pkg>com.coloros.relax</pkg>
+
+    <pkg>com.heytap.health</pkg>
+    <pkg>com.oplus.melody</pkg>
+    <pkg>com.realme.link</pkg>
+    <pkg>com.realme.linkcn</pkg>
+
+    <pkg>com.baidu.BaiduMap</pkg>
+    <pkg>com.autonavi.minimap</pkg>
+    <pkg>com.heytap.speechassist</pkg>
+    <pkg>com.android.contacts</pkg>
+    <pkg>com.kugou.android</pkg>
+    <pkg>com.baidu.carlife.oppo</pkg>
+    <pkg>com.heytap.music</pkg>
+    <pkg>com.autonavi.amapauto</pkg>
+    <pkg>com.coloros.weather2</pkg>
+    <pkg>com.tencent.qqmusiccar</pkg>
+    <pkg>com.kugou.android.auto</pkg>
+    <pkg>cn.kuwo.kwmusichd</pkg>
+    <pkg>com.tencent.wecarflow</pkg>
+    <pkg>com.baidu.carlife</pkg>
+    <pkg>net.easyconn.carman</pkg>
+
+    <pkg>com.application.zomato</pkg>
+    <pkg>in.swiggy.android</pkg>
+
+    <!--银行类，应产品意见统一加黑-->
+    <pkg>com.chinamworld.bocmbci</pkg>
+    <pkg>com.icbc</pkg>
+    <pkg>com.chinamworld.main</pkg>
+    <pkg>com.yitong.mbank.psbc</pkg>
+    <pkg>cmb.pb</pkg>
+    <pkg>com.pingan.paces.ccms</pkg>
+    <pkg>com.bankcomm.Bankcomm</pkg>
+    <pkg>com.ccb.longjiLife</pkg>
+    <pkg>com.ecitic.bank.mobile</pkg>
+    <pkg>com.cib.cibmb</pkg>
+    <pkg>cn.com.spdb.mobilebank.per</pkg>
+    <pkg>com.android.clock.sd</pkg>
+    <pkg>com.cs_credit_bank</pkg>
+    <pkg>com.nxy.sc</pkg>
+    <pkg>com.yitong.mbank</pkg>
+    <pkg>cn.com.cmbc.newmbank</pkg>
+    <pkg>com.ebank.creditcard</pkg>
+    <pkg>com.cebbank.mobile.cemb</pkg>
+    <pkg>com.yitong.mbank.psbc.creditcard</pkg>
+    <pkg>com.csii.mobilebank</pkg>
+    <pkg>com.cmbc.cc.mbank</pkg>
+    <pkg>com.cgbchina.xpt</pkg>
+    <pkg>com.magicpoint.mobile.bank</pkg>
+    <pkg>com.jxnxs.mobile.bank</pkg>
+    <pkg>com.cn.froad.mobileplatform</pkg>
+    <pkg>com.icbc.elife</pkg>
+    <pkg>com.sxnxs.mbank</pkg>
+    <pkg>com.android.corpormbank</pkg>
+    <pkg>com.yitong.fjnx.mbank.android</pkg>
+    <pkg>com.hnnx.pmbank</pkg>
+    <pkg>cn.com.nxy.mbank.hebei</pkg>
+    <pkg>com.cib.xyk</pkg>
+    <pkg>cn.jsb.china</pkg>
+    <pkg>com.nxy.gs</pkg>
+    <pkg>com.mybank.android.phone</pkg>
+    <pkg>com.ccb.leye</pkg>
+    <pkg>com.hxb.mobile.client</pkg>
+    <pkg>com.psbcubank.mbank</pkg>
+    <pkg>com.hsbank.mobilebank</pkg>
+    <pkg>com.nbbank</pkg>
+    <pkg>com.softbank.mbank.xjnx</pkg>
+    <pkg>com.nxy.mobilebank.gx</pkg>
+    <pkg>com.ccb.companybank</pkg>
+    <pkg>cn.com.csbank</pkg>
+    <pkg>com.icbc.wapc</pkg>
+    <pkg>com.icbc.rspbank</pkg>
+    <pkg>cn.com.nxy.mbank.hb</pkg>
+    <pkg>com.bankofbeijing.mobilebanking</pkg>
+    <pkg>com.hnnx.eBank.android</pkg>    <!--湖南农信-->
+    <pkg>com.ahrcu.mobilebank</pkg>    <!--安徽农金-->
+    <pkg>com.nxy.hn</pkg>    <!--海南农商银行-->
+    <pkg>com.boc.bocsoft.phone.enterprise</pkg>    <!--中行企业银行-->
+    <pkg>com.hebbank.mob</pkg>    <!--河北银行-->
+    <pkg>cn.com.shbank.mper</pkg>    <!--上海银行-->
+    <pkg>com.jlmobile</pkg>    <!--吉林银行-->
+    <pkg>com.bocop.cbsp</pkg>    <!--中银跨境GO-->
+    <pkg>cn.com.nxy.mbank.neimeng</pkg>    <!--内蒙古农信-->
+    <pkg>com.hundsun.mobile.hsbrowsertest</pkg>    <!--东莞农商银行-->
+    <pkg>com.ionicframework.cgbank122507</pkg>    <!--天府手机银行-->
+    <pkg>com.qdccb.bank</pkg>    <!--青岛银行-->
+    <pkg>com.scrcu.ebap.mer</pkg>    <!--惠支付商户版-->
+    <pkg>com.yitong.gansu.mobilebank</pkg>    <!--甘肃银行-->
+    <pkg>com.yitong.mbank.gy</pkg>    <!--贵阳银行-->
+    <pkg>cn.com.lzb.mobilebank.per</pkg>    <!--兰州银行-->
+    <pkg>com.csii.sns.ui</pkg>    <!--深圳农商银行-->
+    <pkg>cn.com.nxy.mbank.ln</pkg>    <!--辽宁农信-->
+    <pkg>com.webank.wemoney</pkg>    <!--微众银行-->
+    <pkg>com.cdrcbperson.mobilebank</pkg>    <!--成都农商银行-->
+    <pkg>com.gzrcb.mobilebank</pkg>    <!--广州农商银行-->
+    <pkg>cn.com.bjns.mbank</pkg>    <!--北京农商银行-->
+    <pkg>cn.com.nxy.mbank.jilin</pkg>    <!--吉林农信-->
+    <pkg>com.glyh.mbank.pro</pkg>    <!--桂林银行-->
+    <pkg>com.iss.qilubank</pkg>    <!--齐鲁银行-->
+    <pkg>com.yitong.hrb.people.android</pkg>    <!--哈尔滨银行-->
+    <pkg>com.yt.sz.szbank</pkg>    <!--苏州银行-->
+    <pkg>cn.com.hzb.mobilebank.per</pkg>    <!--杭州银行-->
+    <pkg>cn.dongguanbank.mbank.prd</pkg>    <!--东莞银行-->
+    <pkg>com.csii.guizhou</pkg>    <!--贵州银行-->
+    <pkg>com.cdb.sla</pkg>    <!--国家助学贷款-->
+    <pkg>com.bank</pkg>    <!--黄河银行-->
+    <pkg>com.forms</pkg>    <!--缤纷生活-->
+    <pkg>cn.com.njcb.android.mobilebank</pkg>    <!--南京银行-->
+    <pkg>cn.com.gzbank.mbank</pkg>    <!--广银信用卡-->
+    <pkg>com.zzbank.pibp</pkg>    <!--郑州银行-->
+    <pkg>com.tlbank</pkg>    <!--泰隆银行-->
+    <pkg>com.csii.tianjin.mobilebank</pkg>    <!--天津银行-->
+    <pkg>com.czbank.mbank</pkg>    <!--浙商银行-->
+    <pkg>com.shengjingbank.mobile.cust</pkg>    <!--盛京银行-->
+    <pkg>com.csii.hrxj</pkg>    <!--湖南银行-->
+    <pkg>com.qhrc.mbank</pkg>    <!--青海农信-->
+    <pkg>com.jjccb.mobilebank</pkg>    <!--九江银行-->
+    <pkg>com.hfbank.mobile</pkg>    <!--恒丰银行-->
+    <pkg>com.csii.yuxi.mobilebank</pkg>    <!--云南红塔银行-->
+    <pkg>com.fdbank.newmobile</pkg>    <!--富滇银行APP-->
+    <pkg>com.yitong.cd.mbank.android</pkg>    <!--成都银行-->
+    <pkg>com.yitong.mbank.pzh_ps</pkg>    <!--四川银行-->
+    <pkg>com.chinapost.life</pkg>    <!--中邮保险-->
+    <pkg>com.tzb.mobilehub</pkg>    <!--台州银行-->
+    <pkg>cn.com.cqb.mobilecqcbank.per</pkg>    <!--重庆银行-->
+    <pkg>com.jzbank</pkg>    <!--锦州银行-->
+    <pkg>com.sunyard.arcu2b</pkg>    <!--金农信e付-->
+    <pkg>cn.com.cbhb.mbank.per</pkg>    <!--渤海银行-->
+    <pkg>com.czcb.mbank</pkg>    <!--稠州银行-->
+    <pkg>com.jxbank.mbank</pkg>    <!--江西银行-->
+    <pkg>com.yitong.bbw.mbank.android</pkg>    <!--广西北部湾银行-->
+    <pkg>cn.com.yusys.app.HuBeiBank</pkg>    <!--湖北银行-->
+    <pkg>com.srcb.pmbank</pkg>    <!--上海农商银行-->
+    <pkg>com.yitong.xian.mbank</pkg>    <!--西安银行-->
+    <pkg>com.csii.jiangnan</pkg>    <!--江南农商行-->
+    <pkg>cn.com.msbank.mbank</pkg>    <!--蒙商银行-->
+    <pkg>com.iss.weihaibank</pkg>    <!--威海银行-->
+    <pkg>com.csii.tiannongshang.mobilebank</pkg>    <!--天津农商银行-->
+    <pkg>com.iss.jiningbank</pkg>    <!--济宁银行-->
+    <pkg>com.ShundeRCB.mobilebank</pkg>    <!--顺德农商银行-->
+    <pkg>com.csii.mobile.iap.bodl</pkg>    <!--大连银行手机银行-->
+    <pkg>cn.com.sf.tsbank</pkg>    <!--唐山银行-->
+    <pkg>com.webank.cfa</pkg>    <!--微众银行企业金融-->
+    <pkg>com.ccicnet.customer</pkg>    <!--大地时贷险-->
+    <pkg>com.csii.jsnx</pkg>    <!--农商行收银宝-->
+    <pkg>com.csii.wrcb</pkg>    <!--无锡农商银行-->
+    <pkg>com.csii.newfd</pkg>    <!--中银富登-->
+    <pkg>com.iss.weifangbank</pkg>    <!--潍坊银行-->
+    <pkg>com.xwbank.ebank</pkg>    <!--新网银行-->
+    <pkg>com.jshbank.enterprise</pkg>    <!--晋商银行-->
+    <pkg>com.csii.hkb</pkg>    <!--汉口银行-->
+    <pkg>com.iss.rizhaobank</pkg>    <!--日照银行-->
+    <pkg>com.csii.yzbank</pkg>    <!--鄞州银行-->
+    <pkg>com.iss.changanbank</pkg>    <!--长安bank-->
+    <pkg>com.sxb.mobilebank.per</pkg>    <!--重庆三峡银行-->
+    <pkg>com.csii.nxbank</pkg>    <!--宁夏银行-->
+    <pkg>com.csii.csbank</pkg>    <!--常熟农商银行-->
+    <pkg>com.psbc.youenterprise</pkg>    <!--邮储企业银行-->
+    <pkg>com.jybank.jynsbank</pkg>    <!--江阴农商银行-->
+    <pkg>com.csii.xm</pkg>    <!--厦门银行-->
+    <pkg>com.cmb.ubank.UBUI</pkg>    <!--招行企业银行-->
+    <pkg>com.iss.dongyingbank</pkg>    <!--东营银行-->
+    <pkg>com.longj.android.ljbank</pkg>    <!--龙江银行-->
+    <pkg>com.gzbank.mbank.externalpk</pkg>    <!--广州银行-->
+    <pkg>cn.com.shbank.pension</pkg>    <!--上银美好生活-->
+    <pkg>cn.com.hrcrb.mobilebank.per</pkg>    <!--华润银行-->
+    <pkg>com.mtb</pkg>    <!--民泰银行-->
+    <pkg>com.whrcbank.mbank</pkg>    <!--武汉农商银行-->
+    <pkg>com.hnnx.trade.android</pkg>    <!--福祥e支付-->
+    <pkg>com.baixin.mobilebank</pkg>    <!--百信银行-->
+    <pkg>com.iss.qishangbank</pkg>    <!--齐商银行-->
+    <pkg>com.klb.bank</pkg>    <!--昆仑银行-->
+    <pkg>com.csii.gzbank</pkg>    <!--赣州银行-->
+    <pkg>com.haixia</pkg>    <!--海峡银行-->
+    <pkg>cn.com.huishangbank.mbank</pkg>    <!--徽行信用卡-->
+    <pkg>com.abchina.ebizbtob</pkg>    <!--农银e管家-->
+    <pkg>com.csii.bj.ui</pkg>    <!--掌上京彩-->
+    <pkg>com.csii_qzbank</pkg>    <!--泉州银行-->
+    <pkg>cn.bolz.mobilebank.liuzhou</pkg>    <!--柳州银行-->
+    <pkg>com.suning.mobile.snbank</pkg>    <!--苏商银行-->
+    <pkg>com.cmbchina.zhaodai</pkg>    <!--招贷-->
+    <pkg>com.uccb.mobile</pkg>    <!--乌鲁木齐银行-->
+    <pkg>com.seaway.bank.xingtai</pkg>    <!--邢台银行-->
+    <pkg>com.yitong.ksrcb.mbank.android</pkg>    <!--昆山农商银行-->
+    <pkg>cn.wzbank.mobilebank</pkg>    <!--温州银行-->
+    <pkg>cn.com.csshop</pkg>    <!--长沙银行呼啦-->
+    <pkg>cn.com.nxy.mbank.gx</pkg>    <!--广西农信-->
+    <pkg>com.shxibank.mobile</pkg>    <!--山西银行-->
+    <pkg>com.iss.laishangbank</pkg>    <!--莱商手机银行-->
+    <pkg>com.yitong.szsbank</pkg>    <!--石嘴山银行-->
+    <pkg>com.czb.mobilehub</pkg>    <!--银座银行-->
+    <pkg>com.zrcbank.mobilebank</pkg>    <!--张家港农商银行-->
+    <pkg>com.bank.nanhairuralcommercial.mobile</pkg>    <!--南海农商银行-->
+    <pkg>com.sccba.neimgbank</pkg>    <!--内蒙古银行-->
+    <pkg>com.iss.linshangbank</pkg>    <!--临商银行-->
+    <pkg>com.csii.sx.ui</pkg>    <!--绍兴银行-->
+    <pkg>com.cangzhou.bank</pkg>    <!--沧州银行-->
+    <pkg>com.csii.wjnsbank</pkg>    <!--苏州农商银行-->
+    <pkg>com.gdnybank.m</pkg>    <!--广东南粤银行-->
+    <pkg>com.csii.zijin</pkg>    <!--紫金农商银行-->
+    <pkg>com.leiming.jinzu</pkg>    <!--华夏金租-->
+    <pkg>com.yitong.mbank.xy</pkg>    <!--兴业管家-->
+    <pkg>com.zjrc.cba</pkg>    <!--企业互联-->
+    <pkg>cn.com.sjbank.mbank</pkg>    <!--刷新生活-->
+    <pkg>com.urthinker.langfangbank.lfbank</pkg>    <!--廊坊银行-->
+    <pkg>com.nxy.mobilebank.shanxi</pkg>    <!--山西农信-->
+    <pkg>cn.com.nxy.mbank.shanxi</pkg>    <!--山西农信-->
+    <pkg>com.csii.ahrcu.entmbank</pkg>    <!--安徽农金企业手机银行-->
+    <pkg>com.sccba.ordosbank</pkg>    <!--鄂尔多斯银行-->
+    <pkg>com.csii.pab</pkg>    <!--平安数字口袋-->
+    <pkg>com.yhmobilebank</pkg>    <!--辽沈银行-->
+    <pkg>com.cloudcore.beeb.directbank</pkg>    <!--蜜蜂银行-->
+    <pkg>com.hnnx.mmbank</pkg>    <!--金燕e商-->
+    <pkg>com.jiuyingtec.mianyangbank.pmbs</pkg>    <!--绵阳市商业银行-->
+    <pkg>com.jsrcu.directbank</pkg>    <!--E路有我-->
+    <pkg>cn.handanbank.apk</pkg>    <!--邯郸银行-->
+    <pkg>com.bochk.app.aos</pkg>    <!--BOCHK 中银香港-->
+    <pkg>com.csii.jinhua.mobilebank</pkg>    <!--金华银行-->
+    <pkg>com.cn.froad.ahnx.sh</pkg>    <!--社区e银行-->
+    <pkg>com.csii.zbdirect</pkg>    <!--众邦银行-->
+    <pkg>com.csii.xfczbank</pkg>    <!--兴福村镇银行-->
+    <pkg>cn.srbank.zyx</pkg>    <!--上饶银行-->
+    <pkg>com.csii.changjiang.mobilebank</pkg>    <!--江苏长江商业银行-->
+    <pkg>com.xjbank.mbk</pkg>    <!--新疆银行手机银行-->
+    <pkg>cn.com.hebbank.mbank</pkg>    <!--哈行信用卡-->
+    <pkg>com.iss.dezhoubank</pkg>    <!--德州银行-->
+    <pkg>com.yilianbank.yilian</pkg>    <!--亿联银行-->
+    <pkg>com.chengde.mbank</pkg>    <!--承德银行-->
+    <pkg>com.whrcbank.mcjrb</pkg>    <!--长江村镇银行-->
+    <pkg>com.yitong.mbank.lzccb</pkg>    <!--泸州银行-->
+    <pkg>com.dzccb.mbank</pkg>    <!--达州银行-->
+    <pkg>com.iss.taianbank</pkg>    <!--泰安银行-->
+    <pkg>com.xinruan.dbank.app.android</pkg>    <!--青岛农商银行直销银行-->
+    <pkg>cn.com.scnxbank.mbank</pkg>    <!--兴川信用卡-->
+    <pkg>cn.com.yusys.dlrcbmb</pkg>    <!--大连农商银行-->
+    <pkg>com.activity.qhbank</pkg>    <!--青海银行-->
+    <pkg>com.wxsbank.mbank</pkg>    <!--锡商银行-->
+
+    <!--外销兼容问题应用-->
+    <pkg>com.google.android.apps.youtube.music</pkg>
+    <pkg>com.mxtech.videoplayer.ad</pkg>
+    <pkg>com.jio.media.jiobeats</pkg>
+    <pkg>com.picsart.studio</pkg>
+    <pkg>in.mohalla.video</pkg>
+    <pkg>com.dts.freefireth</pkg>
+    <pkg>com.meesho.supply</pkg>
+    <pkg>com.lemon.lvoverseas</pkg>
+    <pkg>com.lenovo.anyshare.gps</pkg>
+    <pkg>in.mohalla.sharechat</pkg>
+    <pkg>com.intsig.camscanner</pkg>
+    <pkg>com.olacabs.customer</pkg>
+    <pkg>com.google.android.apps.docs.editors.sheets</pkg>
+    <pkg>com.dubox.drive</pkg>
+    <pkg>com.eterno.shortvideos</pkg>
+    <pkg>com.shopee.ph</pkg>
+    <pkg>com.miniclip.eightballpool</pkg>
+    <pkg>com.xiaomi.midrop</pkg>
+    <pkg>com.pubg.imobile</pkg>
+    <pkg>com.google.android.apps.meetings</pkg>
+    <pkg>com.adobe.reader</pkg>
+    <pkg>org.altruist.BajajExperia</pkg>
+    <pkg>com.UCMobile.intl</pkg>
+    <pkg>com.booking</pkg>
+    <pkg>com.mventus.selfcare.activity</pkg>
+    <pkg>com.google.android.apps.docs.editors.docs</pkg>
+    <pkg>com.dream11.fantasy.cricket.football.kabaddi</pkg>
+    <pkg>com.rapido.passenger</pkg>
+    <pkg>com.miniclip.carrom</pkg>
+    <pkg>com.adobe.lrmobile</pkg>
+    <pkg>com.shopee.th</pkg>
+    <pkg>com.google.android.apps.youtube.creator</pkg>
+    <pkg>com.ixigo.train.ixitrain</pkg>
+    <pkg>com.opera.mini.native</pkg>
+    <pkg>sinet.startup.inDriver</pkg>
+    <pkg>com.bstar.intl</pkg>
+    <pkg>com.discord</pkg>
+    <pkg>id.co.bri.brimo</pkg>
+    <pkg>com.microsoft.office.outlook</pkg>
+    <pkg>com.shopee.vn</pkg>
+    <pkg>com.tokopedia.tkpd</pkg>
+    <pkg>com.calculator.hideu</pkg>
+    <pkg>net.zedge.android</pkg>
+    <pkg>com.telkom.tracencare</pkg>
+    <pkg>com.vnid</pkg>
+    <pkg>com.sonyliv</pkg>
+    <pkg>com.nexstreaming.app.kinemasterfree</pkg>
+    <pkg>com.pure.indosat.care</pkg>
+    <pkg>com.tencent.ig</pkg>
+    <pkg>free.vpn.unblock.proxy.turbovpn</pkg>
+    <pkg>com.nextbillion.groww</pkg>
+    <pkg>com.msd.JTClient</pkg>
+    <pkg>co.brainly</pkg>
+    <pkg>com.global.foodpanda.android</pkg>
+    <pkg>com.bca</pkg>
+    <pkg>com.daraz.android</pkg>
+    <pkg>com.Dominos</pkg>
+    <pkg>ridmik.keyboard</pkg>
+    <pkg>com.outfit7.mytalkingtomfriends</pkg>
+    <pkg>com.snapwork.hdfc</pkg>
+    <pkg>com.sharekaro.app</pkg>
+    <pkg>com.fugo.wow</pkg>
+    <pkg>com.google.android.apps.classroom</pkg>
+    <pkg>com.nic.mparivahan</pkg>
+    <pkg>com.waze</pkg>
+    <pkg>com.spotify.music</pkg>
+
+    <pkg>com.ophone.reader.ui</pkg><!--咪咕阅读-分身闪退-->
+    <pkg>com.neusoft.iln</pkg>  <!--和生活爱辽宁，bugid7241324-->
+    <pkg>com.dlxx.mam.Internal</pkg>  <!--I国网-bugid7291001-->
+    <pkg>com.chaoxing.mobile</pkg>  <!--学习通，bugid7506892-->
+    <pkg>com.sgcc.wsgw.cn</pkg>  <!--网上国网，bugid7736731-->
+    <pkg>com.huachenjie.shandong_school</pkg>  <!--闪动校园，bugid7543682-->
+    <pkg>com.zjkccb.mbank</pkg>  <!--张家口银行，VOC反馈-->
+    <pkg>com.gof.china</pkg>  <!--无尽冬日，bugid7525212-->
+    <pkg>air.com.jiamm.homedraw</pkg>  <!--美家量房，bugid7870875-->
+    <pkg>com.fcbox.hiveconsumer</pkg>  <!--丰巢，卡在启动界面-->
+    <pkg>com.fcbox.hivebox</pkg>  <!--丰巢管家，卡在启动界面-->
+    <pkg>cn.gov.shopkeeper</pkg>  <!--中国体育彩票代销者，bugid7916195-->
+
+</filter-conf>

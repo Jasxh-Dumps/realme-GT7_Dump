@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exceptionLogCheckPolicy>
+    <!-- add version for xml, it should be updated when file changed -->
+    <version>20241121001</version>
+    <commercial>
+        <!-- defualt daily total size: 5G-->
+        <dailyTotalSizeLimit>5368709120</dailyTotalSizeLimit>
+        <!-- defualt interval 5(min) daily count: 0-->
+        <item id="default" interval="5" dailyReportCountLimit="0"/>
+        <item id="101002" interval="5" dailyReportCountLimit="1"/>
+        <item id="101051" interval="5" dailyReportCountLimit="5"/>
+        <item id="101052" interval="5" dailyReportCountLimit="1"/>
+        <item id="101053" interval="5" dailyReportCountLimit="1"/>
+        <item id="101054" interval="5" dailyReportCountLimit="5"/>
+        <item id="101109" interval="5" dailyReportCountLimit="1"/>
+        <item id="101178" interval="5" dailyReportCountLimit="5"/>
+        <item id="101181" interval="5" dailyReportCountLimit="1"/>
+        <item id="101182" interval="5" dailyReportCountLimit="1"/>
+        <item id="101183" interval="5" dailyReportCountLimit="5"/>
+        <item id="101184" interval="5" dailyReportCountLimit="5"/>
+        <item id="101185" interval="5" dailyReportCountLimit="1"/>
+        <item id="101186" interval="5" dailyReportCountLimit="1"/>
+        <item id="101187" interval="5" dailyReportCountLimit="1"/>
+        <item id="101189" interval="5" dailyReportCountLimit="5"/>
+        <item id="101190" interval="5" dailyReportCountLimit="5"/>
+        <item id="101191" interval="5" dailyReportCountLimit="1"/>
+        <item id="101192" interval="5" dailyReportCountLimit="5"/>
+        <item id="101211" interval="5" dailyReportCountLimit="5"/>
+        <item id="101226" interval="5" dailyReportCountLimit="5"/>
+        <item id="101227" interval="5" dailyReportCountLimit="5"/>
+        <item id="101229" interval="5" dailyReportCountLimit="5"/>
+        <item id="101312" interval="5" dailyReportCountLimit="1"/>
+        <item id="101313" interval="5" dailyReportCountLimit="1"/>
+        <item id="101316" interval="5" dailyReportCountLimit="1"/>
+        <item id="101317" interval="5" dailyReportCountLimit="1"/>
+        <item id="101381" interval="5" dailyReportCountLimit="1"/>
+        <item id="101382" interval="5" dailyReportCountLimit="1"/>
+        <item id="101391" interval="5" dailyReportCountLimit="1"/>
+        <item id="101440" interval="5" dailyReportCountLimit="5"/>
+        <item id="101441" interval="5" dailyReportCountLimit="5"/>
+        <item id="101442" interval="5" dailyReportCountLimit="5"/>
+        <item id="101443" interval="5" dailyReportCountLimit="5"/>
+        <item id="101446" interval="5" dailyReportCountLimit="5"/>
+        <item id="101447" interval="5" dailyReportCountLimit="5"/>
+        <item id="101450" interval="5" dailyReportCountLimit="5"/>
+        <item id="101228" interval="5" dailyReportCountLimit="5"/>
+        <item id="101193" interval="5" dailyReportCountLimit="5"/>
+        <item id="101188" interval="5" dailyReportCountLimit="5"/>
+        <item id="20277001900" interval="5" dailyReportCountLimit="10"/>
+        <item id="20277001001" interval="1" dailyReportCountLimit="5"/>
+        <item id="20277001099" interval="1" dailyReportCountLimit="10"/>
+    </commercial>
+    <other>
+        <!-- defualt daily total size: 5G-->
+        <dailyTotalSizeLimit>5368709120</dailyTotalSizeLimit>
+        <!-- defualt interval 5(min) daily count: 0-->
+        <item id="default" interval="5" dailyReportCountLimit="0"/>
+        <item id="101002" interval="5" dailyReportCountLimit="1"/>
+        <item id="101051" interval="5" dailyReportCountLimit="5"/>
+        <item id="101052" interval="5" dailyReportCountLimit="1"/>
+        <item id="101053" interval="5" dailyReportCountLimit="1"/>
+        <item id="101054" interval="5" dailyReportCountLimit="5"/>
+        <item id="101109" interval="5" dailyReportCountLimit="1"/>
+        <item id="101178" interval="5" dailyReportCountLimit="5"/>
+        <item id="101181" interval="5" dailyReportCountLimit="1"/>
+        <item id="101182" interval="5" dailyReportCountLimit="1"/>
+        <item id="101183" interval="5" dailyReportCountLimit="5"/>
+        <item id="101184" interval="5" dailyReportCountLimit="5"/>
+        <item id="101185" interval="5" dailyReportCountLimit="1"/>
+        <item id="101186" interval="5" dailyReportCountLimit="1"/>
+        <item id="101187" interval="5" dailyReportCountLimit="1"/>
+        <item id="101189" interval="5" dailyReportCountLimit="5"/>
+        <item id="101190" interval="5" dailyReportCountLimit="5"/>
+        <item id="101191" interval="5" dailyReportCountLimit="1"/>
+        <item id="101192" interval="5" dailyReportCountLimit="5"/>
+        <item id="101211" interval="5" dailyReportCountLimit="5"/>
+        <item id="101226" interval="5" dailyReportCountLimit="5"/>
+        <item id="101227" interval="5" dailyReportCountLimit="5"/>
+        <item id="101229" interval="5" dailyReportCountLimit="5"/>
+        <item id="101312" interval="5" dailyReportCountLimit="1"/>
+        <item id="101313" interval="5" dailyReportCountLimit="1"/>
+        <item id="101316" interval="5" dailyReportCountLimit="1"/>
+        <item id="101317" interval="5" dailyReportCountLimit="1"/>
+        <item id="101381" interval="5" dailyReportCountLimit="5"/>
+        <item id="101382" interval="5" dailyReportCountLimit="1"/>
+        <item id="101391" interval="5" dailyReportCountLimit="1"/>
+        <item id="101440" interval="5" dailyReportCountLimit="5"/>
+        <item id="101441" interval="5" dailyReportCountLimit="5"/>
+        <item id="101442" interval="5" dailyReportCountLimit="5"/>
+        <item id="101443" interval="5" dailyReportCountLimit="5"/>
+        <item id="101446" interval="5" dailyReportCountLimit="5"/>
+        <item id="101447" interval="5" dailyReportCountLimit="5"/>
+        <item id="101450" interval="5" dailyReportCountLimit="5"/>
+        <item id="101228" interval="5" dailyReportCountLimit="5"/>
+        <item id="101193" interval="5" dailyReportCountLimit="5"/>
+        <item id="101188" interval="5" dailyReportCountLimit="5"/>
+        <item id="20277001900" interval="5" dailyReportCountLimit="10"/>
+        <item id="20277001001" interval="1" dailyReportCountLimit="5"/>
+        <item id="20277001099" interval="1" dailyReportCountLimit="10"/>
+    </other>
+</exceptionLogCheckPolicy>

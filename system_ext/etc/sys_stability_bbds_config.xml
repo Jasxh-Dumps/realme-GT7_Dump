@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>2023061601</version>
+    <filter-name>sys_stability_bbds_config</filter-name>
+    <resource type="1" name="PendingIntentRecord" enable="true" threshold="10000" action="none"       logswitch="true"></resource>
+    <resource type="2" name="ServiceConnection"   enable="true" threshold="2000"  action="none"       logswitch="true"></resource>
+    <resource type="3" name="Receivers"           enable="true" threshold="900"   action="none"       logswitch="true"></resource>
+    <resource type="4" name="Alarms"              enable="true" threshold="500"   action="none"       logswitch="true"></resource>
+    <resource type="5" name="BinderThread"        enable="true" threshold="500"   action="none"       logswitch="true"></resource>
+    <resource type="6" name="BinderParcelSize"    enable="true" threshold="200"   action="none"       logswitch="true"></resource>
+    <resource type="7" name="BinderBufferSize"    enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="8" name="OutOfResource"       enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="9" name="Thread"              enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="10" name="Lowmem"             enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+</filter-conf>

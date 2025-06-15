@@ -1,0 +1,10 @@
+libSloganJni.oplus.so
+libsuperNight.oplus.so
+libAPSClient-cmd-jni-extension.oplus.so
+libsatellite_audio_jni.oplus.so
+libortc_so.oplus.so
+libsoundtouch.oplus.so
+libsoundtouch_jni.oplus.so
+libOplusStringJNI-extension.oplus.so
+libsatellite_ostx_jni.oplus.so
+libapssuspend-jni.oplus.so

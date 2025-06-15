@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsys-config>
+    <plugins>
+        <plugin name="com.oplus.subsys.OcloudPlugin" module="ocloud" loaded="false" path="/system_ext/priv-app/OcloudApp/OcloudApp.apk"/>
+        <plugin name="com.oplus.scene.ScenePlugin" module="scene-plugin" loaded="false" path="/system_ext/framework/subsys-scene-plugin.jar"/>
+        <plugin name="com.oplus.wifi.WifiPlugin" module="wifi-plugin" loaded="false" path="/system_ext/framework/subsys-wifi-plugin.jar"/>
+        <plugin name="com.oplus.plugin.InterfacePlugin" module="interface-plugin" loaded="false" path="/system_ext/priv-app/SubsysInterfacePlugin/SubsysInterfacePlugin.apk"/>
+    </plugins>
+    <components>
+        <component name="com.oplus.subsys.SubsysInterfaceLoader" category = "base"/>
+        <component name="com.oplus.virtualcomm2.VirtualCommServiceLoader" category="base" path="/system_ext/priv-app/VirtualCommService/VirtualCommService.apk"/>
+        <component name="com.oplus.tai.ModelRunner" category="base" module="telecom-ai" loaded="true"/>
+        <component name="com.oplus.tcs.CloudSyncLoader" category="base"/>
+        <component name="com.oplus.netlinkutil.NetlinkUtilLoader" category="qti"/>
+        <component name="com.oplus.diagnose.DiagnoserLoader" category = "base"/>
+        <component name="com.oplus.scene.SceneService" category = "base"/>
+        <component name="com.oplus.atom.AtomAppManagerLoader" category = "base"/>
+        <component name="com.oplus.call.CallManagerLoader" category="base" module="call-manager" loaded="false" policy="simReady"/>
+        <component name="com.oplus.reg.RegManagerLoader" category="base"/>
+        <component name="com.oplus.data.DataManagerLoader" category="base"/>
+        <component name="com.oplus.os.OSManagerLoader" category="base"/>
+    </components>
+    <cluster>
+        <module name="com.oplus.clusters.tgs.GuardSystemManager" category="base"/>
+        <module name="com.oplus.subsys.omacp.OmacpExecuter" category="base"/>
+        <module name="com.oplus.dcdcSleep.UpdateDcdcSleepState" category="base"/>
+        <module name="com.oplus.cluster.rfdesense.RFDesenseManager" category="qti"/>
+        <module name="com.oplus.cluster.rfdesense.RFDesenseManager" category="mtk"/>
+        <module name="com.oplus.rus.RusServer" category="base"/>
+        <module name="com.oplus.ustCarrierConfig.UstCarrierConfig" category="base"/>
+        <module name="com.oplus.ustCarrierConfig.UstSimLock" category="base"/>
+        <module name="com.oplus.msimsubmode.MsimSubModeManager" category="base" module="msim-sub-mode-manager" loaded="false" policy="simReady"/>
+        <module name="com.oplus.chinaroaming.ChinaRoamingControl" category="base"/>
+        <module name="com.oplus.extremecomm.ExtremeCommService" category="base" module="extreme-comm-service" loaded="false" policy="simReady"/>
+        <module name="com.oplus.wifi.WifiSarService" category="base" module="wifi-sar-service" loaded="false" policy="simReady"/>
+        <module name="com.oplus.hardware.OplusFoldingAngleSarManager" category="base"/>
+        <module name="com.oplus.cluster.aol.AolSceneNotifer" category="base"/>
+        <module name="com.oplus.rus.BwpRusControlLoader" category="base"/>
+        <module name="com.oplus.rus.NrcaRusControlLoader" category="base"/>
+        <module name="com.oplus.call.CallControl" category="base" module="call-control" loaded="false" policy="simReady"/>
+        <module name="com.oplus.engineer.NetworkFloatBallLoader" category="base"/>
+        <module name="com.oplus.cluster.AntOp.AntOptimization" category="qti"/>
+        <module name="com.oplus.cluster.omcf.OmcfService" category="qti"/>
+        <module name="com.oplus.cluster.ustvt.UstVtController" category="qti"/>
+        <module name="com.oplus.cluster.modemDumpUtil.ModemDumpStateService" category="qti"/>
+        <module name="com.oplus.cluster.modemDumpUtil.ModemDumpFilePackager" category="qti"/>
+        <module name="com.oplus.telephony.QtiRadioFrequency" category="qti"/>
+        <module name="com.oplus.diagnose.DiagnoseService" category="qti"/>
+        <module name="com.oplus.cota.MdmFeatureUpdate" category="qti"/>
+        <module name="com.oplus.call.GameSpaceMtOptimization" category="qti" module="game-mt-optimization" loaded="false" policy="simReady"/>
+        <module name="com.oplus.fold.FoldStateTracker" category = "qti"/>
+        <module name="com.oplus.coex.CoexRfService" category="base"/>
+        <module name="com.oplus.imsrtpduplicate.ImsRtpDuplicator" category="qti" module="ims-rtp-duplicator" loaded="false" policy="simReady"/>
+        <module name="com.oplus.rfpowerboost.RFPowerBoostManager" category="base"/>
+        <!-- <module name="com.oplus.guard.TestGuard" category="base"/> -->
+        <module name="com.oplus.rfevent.RfEventManager" category="base"/>
+        <module name="com.oplus.log.LogServiceLoader" category="base"/>
+    </cluster>
+    <aiservices>
+        <service name="com.oplus.tai.wifiqoe.WifiAppQoeModel" path="/system_ext/app/SubsysPlugins_plugin_WifiQoe/WifiQoe.apk" package="com.oplus.tai.wifiqoe" detectName="wifi_qoe"/>
+    </aiservices>
+    <tcsservices>
+        <!-- <service name="com.oplus.tcs.cybersense.CellDataSyncService"/> -->
+        <service name="com.oplus.tcs.extremecomm.ExtremeCommSyncService" module="extreme-comm-sync-service" loaded="false" policy="simReady"/>
+        <!-- <service name="com.oplus.tcs.imsrtp.ImsRtpOpushService"/> -->
+        <service name="com.oplus.tcs.concert.ConcertSyncService" module="concert-detect-sync-service" loaded="false" policy="simReady"/>
+        <service name="com.oplus.tcs.exhibition.ExhibitionSyncService" module="exhibition-detect-sync-service" loaded="false" policy="simReady"/>
+    </tcsservices>
+</subsys-config>

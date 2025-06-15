@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <!-- global config -->
+    <version>20241022</version>
+    <!-- 1:open 0:close -->
+    <isOpen>1</isOpen>
+    <filter-name>sys_clipboard_user_clip</filter-name>
+    <package>
+        <pkgName>default</pkgName>
+        <class>
+            <name>android.widget.TextView</name>
+            <method>onTextContextMenuItem</method>
+        </class>
+        <class>
+            <name>android.widget.Editor</name>
+            <method>onClick|onActionItemClicked</method>
+        </class>
+        <class>
+            <name>com.android.internal.widget.floatingtoolbar.LocalFloatingToolbarPopup</name>
+            <method>onMenuItemClick</method>
+        </class>
+        <class>
+            <name>org.chromium.ui.base.Clipboard</name>
+            <method>?</method>
+        </class>
+    </package>
+
+    <package>
+        <pkgName>com.UCMobile</pkgName>
+        <class>
+            <name>android.widget.AbsListView</name>
+            <method>performItemClick</method>
+        </class>
+    </package>
+
+    <package>
+        <pkgName>com.xunlei.downloadprovider</pkgName>
+        <class>
+            <name>android.view.View</name>
+            <method>performLongClick|performClick</method>
+        </class>
+    </package>
+
+    <package>
+        <pkgName>com.tencent.mtt</pkgName>
+        <class>
+            <name>android.view.View</name>
+            <method>performLongClick|performClick</method>
+        </class>
+    </package>
+</filter-conf>

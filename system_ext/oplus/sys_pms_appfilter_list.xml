@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ ********************************************************************************
+ ** Copyright (C) 2024-2124 Oplus. All rights reserved.
+ ** All rights reserved.
+ **
+ ** File: - sys_pms_appfilter_list.xml
+ ** Description:
+ **     local attributes of pms sys_pms_appfilter_list.xml
+ **
+ ** Version: 1.0
+ ** Date: 2024-08-13
+ ** Author: Binwang.Xu@ANDROID.PMS
+ **
+ ** <author>                        <data>       <version>   <desc>
+  ** Binwang.Xu@ANDROID.PMS        2024-08-13   1.0         Create this file
+ ********************************************************************************/
+  -->
+
+<!--  #Binwang.Xu@ANDROID.PMS, 2024/08/13, Add for store appsfilter local list -->
+<filter-conf>
+    <version>20241216</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_pms_appfilter_list</filter-name>
+    <featureOption>off</featureOption>
+    <minTargetSDK>15</minTargetSDK>
+    <forceQueryablePackage>com.tencent.mm</forceQueryablePackage>
+    <forceQueryablePackage>com.tencent.mobileqq</forceQueryablePackage>
+    <forceQueryablePackage>com.sina.weibo</forceQueryablePackage>
+    <forceQueryablePackage>com.eg.android.AlipayGphone</forceQueryablePackage>
+    <forceQueryablePackage>com.eg.android.AlipayGphoneRC</forceQueryablePackage>
+    <forceQueryablePackage>hk.alipay.wallet</forceQueryablePackage>
+    <forceQueryablePackage>com.unionpay</forceQueryablePackage>
+    <forbidAction>android.intent.action.MAIN</forbidAction>
+    <forbidAction>com.huawei.hms.core.aidlservice</forbidAction>
+    <forbidAction>com.huawei.hms.core</forbidAction>
+    <forbidAction>com.getui.sdk.action</forbidAction>
+    <forbidAction>android.intent.action.VIEW</forbidAction>
+    <forbidAction>com.umeng.message.action.notify</forbidAction>
+    <forbidAction>com.hihonor.push.action.BIND_PUSH_SERVICE</forbidAction>
+    <forbidAction>com.apptouch.intent.action.update_hms</forbidAction>
+    <forbidAction>com.huawei.appmarket.intent.action.AppDetail</forbidAction>
+    <forbidAction>com.getui.vendor.action.push</forbidAction>
+    <forbidAction>com.huawei.appmarket.intent.action.ThirdUpdateAction</forbidAction>
+    <forbidAction>cn.jpush.android.intent.PushService</forbidAction>
+    <forbidAction>*</forbidAction>
+</filter-conf>

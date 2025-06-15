@@ -1,0 +1,25 @@
+service kswapdstatd /system_ext/bin/kswapdstatd -t 720
+    class late_start
+    user root
+    group system
+    capabilities DAC_OVERRIDE KILL
+    disabled
+    oneshot
+
+on post-fs-data
+    mkdir /data/opluscvtmanager/memory
+    chmod 0775 /data/opluscvtmanager/memory
+    chown root system /data/opluscvtmanager/memory
+    mkdir /data/opluscvtmanager/memory/kswapdstat
+    chmod 0775 /data/opluscvtmanager/memory/kswapdstat
+    chown root system /data/opluscvtmanager/memory/kswapdstat
+    mkdir /data/persist_log/DCS/de/mm
+    chmod 0775 /data/persist_log/DCS/de/mm
+    chown root system /data/persist_log/DCS/de/mm
+    mkdir /data/persist_log/DCS/de/mm/high_order_kswapd_load
+    chmod 0775 /data/persist_log/DCS/de/mm/high_order_kswapd_load
+    chown root system /data/persist_log/DCS/de/mm/high_order_kswapd_load
+
+#current do not use this high order alloc stack profile, so do not start it
+#on property:sys.boot_completed=1
+#    start kswapdstatd

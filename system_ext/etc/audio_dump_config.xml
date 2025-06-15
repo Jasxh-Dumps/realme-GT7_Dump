@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <item dumpType="audio_anr">
+        <cmd command="debuggerd -b $(pidof audioserver)" fileName="audioserver.txt"></cmd>
+        <cmd command="debuggerd -b $(pgrep -f -o audio.service)" fileName="audiohal.txt"></cmd>
+    </item>
+    <item dumpType="audio_log">
+        <cmd command="dumpsys media.audio_flinger" fileName="audio_flinger.txt"></cmd>
+        <cmd command="dumpsys media.audio_policy" fileName="audio_policy.txt"></cmd>
+        <cmd command="dumpsys audio" fileName="audioservice.txt"></cmd>
+        <cmd command="dumpsys media.metrics" fileName="media_metrics.txt"></cmd>
+        <cmd command="dumpsys media_session" fileName="media_session.txt"></cmd>
+        <cmd command="dumpsys media_router" fileName="media_router.txt"></cmd>
+        <cmd command="dumpsys media.player" fileName="media.player.txt"></cmd>
+    </item>
+</config>

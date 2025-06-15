@@ -1,0 +1,12 @@
+service oplus_kswapd_profile /system_ext/bin/oplus_kswapd_profile.sh
+    class late_start
+    user root
+    group system shell
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    chown root system /proc/oplus_mem/kswapd_load_stat
+    chown root system /proc/oplus_mem/alloc_adjust_ctrl
+    start oplus_kswapd_profile
+

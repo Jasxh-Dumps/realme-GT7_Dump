@@ -1,0 +1,485 @@
+{
+  "localVersion": 100,
+  "packList": [
+    {
+      "pack": "com.dahua.leapmotor",
+      "model": "浙江零跑科技股份有限公司",
+      "name": "零跑汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "cn.com.changan.cvim",
+      "model": "长安",
+      "name": "长安汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.geely.consumer",
+      "model": "吉利",
+      "name": "吉利汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.lynkco.customer",
+      "model": "吉利领克",
+      "name": "吉利领克汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.geely.newenergy",
+      "model": "吉利几何",
+      "name": "几何汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "长城哈佛",
+      "name": "长城哈佛",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "长城魏派",
+      "name": "长城魏派",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "长城欧拉",
+      "name": "长城欧拉",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.chehejia.oc.m01",
+      "model": "理想",
+      "name": "理想汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "威马",
+      "name": "威马",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "广汽传祺",
+      "name": "广汽传祺",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.gacne.www",
+      "model": "广汽新能源",
+      "name": "广汽新能源",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.saicmotor.tocapp",
+      "model": "上汽荣威",
+      "name": "上汽荣威汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.sunao.qm.qm_android",
+      "model": "一汽红旗",
+      "name": "一汽红旗",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.niu.cloud",
+      "model": "小牛电动车",
+      "name": "小牛电动车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "雅迪电动车",
+      "name": "雅迪电动车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "绿源电动车",
+      "name": "绿源电动车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.cloudy.jun",
+      "model": "五菱新宝骏",
+      "name": "五菱新宝骏",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.xiaopeng.mycarinfo",
+      "model": "小鹏",
+      "name": "小鹏汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "东风小康",
+      "name": "东风小康",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.saicmaxus.maxuslife",
+      "model": "上汽大通",
+      "name": "上汽大通汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "cn.com.weilaihui3",
+      "model": "蔚来",
+      "name": "蔚来汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.shanghaigm.android.mycadillac",
+      "model": "凯迪拉克(油车）",
+      "name": "凯迪拉克汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.buick",
+      "model": "别克",
+      "name": "别克汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "雪佛兰",
+      "name": "雪佛兰",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.saicmotor.mg",
+      "model": "上汽名爵",
+      "name": "上汽名爵汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.saicmaxus.maxuslife",
+      "model": "上汽大通（正式）",
+      "name": "上汽大通（正式）",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.byd.aeri.caranywhere",
+      "model": "比亚迪",
+      "name": "比亚迪",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "cn.ninebot.ninebot",
+      "model": "九号电动车",
+      "name": "九号电动车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.zeekrlife.mobile",
+      "model": "吉利极氪",
+      "name": "极氪汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.immotors.lapp",
+      "model": "智己汽车",
+      "name": "智己汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.cfmoto",
+      "model": "春风动力（摩托）zeeho",
+      "name": "ZEEHO极核电动车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.teslamotors.enterpriseapp",
+      "model": "特斯拉",
+      "name": "特斯拉",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.teslamotors.tesla",
+      "model": "特斯拉",
+      "name": "特斯拉汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.niutron.cloud",
+      "model": "niutron",
+      "name": "NIUTRON汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.smart.cnapp",
+      "model": "smart",
+      "name": "smart汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.shanghaigm.nev.mycadillac",
+      "model": "凯迪拉克IQ",
+      "name": "凯迪拉克IQ",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "deepal.com.cn.app",
+      "model": "长安深蓝",
+      "name": "深蓝汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.szlanyou.iov",
+      "model": "东风日产",
+      "name": "东风日产",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.lincoln.lincolnwaycn",
+      "model": "林肯",
+      "name": "林肯",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.ford.fordpasscn",
+      "model": "福特",
+      "name": "福特",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.ford.cnevapp.prod",
+      "model": "MustangMach-E",
+      "name": "MustangMach-E",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "宝马",
+      "name": "宝马",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.geelygalaxy.customer",
+      "model": "吉利银河",
+      "name": "吉利银河",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.chery.iCarProdAndroid",
+      "model": "奇瑞新能源",
+      "name": "奇瑞新能源",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "MINI",
+      "name": "MINI",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.chery.exeed",
+      "model": "奇瑞-星途",
+      "name": "星途星纪元",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.saicmotor.r",
+      "model": "飞凡",
+      "name": "飞凡",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "启源",
+      "name": "启源",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "引力域",
+      "name": "引力域",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.ingeek.key.debugger",
+      "model": "银基",
+      "name": "银基",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.uaes.sgmw",
+      "model": "上海联合汽车电子",
+      "name": "上海联合汽车电子",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "cn.com.ecarx.digitalkey",
+      "model": "亿咖通",
+      "name": "亿咖通",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.trustkernel.kpp.sdkdemo",
+      "model": "上海瓶钵信息科技有限公司",
+      "name": "瓶钵",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "寰福",
+      "name": "寰福",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.saicmotor.zone",
+      "model": "零束",
+      "name": "零束",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "亿连",
+      "name": "亿连",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "",
+      "model": "Cariad",
+      "name": "Cariad",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.changan.uni",
+      "model": "引力域",
+      "name": "长安汽车",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    },
+    {
+      "pack": "com.heytap.opluscarlink.demo",
+      "model": "CarAppDemo",
+      "name": "DEMO",
+      "typeFlag": "车钥匙",
+      "nearRssi": -50,
+      "farRssi": -70
+    }
+  ]
+}

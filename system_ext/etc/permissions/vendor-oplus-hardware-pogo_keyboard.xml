@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <library name="vendor.oplus.hardware.pogo_keyboard"
+          file="/system/framework/vendor.oplus.hardware.pogo_keyboard-V1-java.jar"/>
+</permissions>
+

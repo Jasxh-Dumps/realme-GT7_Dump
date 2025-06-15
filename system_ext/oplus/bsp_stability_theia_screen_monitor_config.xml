@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+  <version>20240409</version>
+  <isOpen>1</isOpen>
+  <filter-name>theia_screen_monitor_config</filter-name>
+  <rules>
+    <rule window="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity">
+      <portrait xcenter="0.5" ycenter="0.5" width="0.2" height="0.1">
+      </portrait>
+    </rule>
+    <rule window="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.detail.ui.DetailActivity">
+      <portrait xcenter="0.5" ycenter="0.5" width="0.2" height="0.1">
+      </portrait>
+    </rule>
+    <rule window="com.oplus.camera/com.oplus.camera.Camera">
+      <portrait xcenter="0.5" ycenter="0.5" width="0.2" height="0.1">
+      </portrait>
+      <landscape xcenter="0.5" ycenter="0.5" width="0.1" height="0.2">
+      </landscape>
+    </rule>
+  </rules>
+</filter-conf>

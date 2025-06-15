@@ -1,0 +1,16 @@
+service oplus_gaia /system/system_ext/bin/oplus_gaia
+    class main
+    user root
+    group system root log ext_data_rw media_rw readproc cache radio bluetooth net_bt wifi everybody audio sdcard_rw
+    oom_score_adjust -800
+    socket postmand stream 0666 system system
+
+on post-fs-data
+    mkdir /data/log 0770 system system
+    mkdir /data/log/gaia 0770 system system
+    mkdir /data/log/ap_log 0770 system system
+    mkdir /data/persist_log/olc/com.oplus.crashbox 0770 system system
+    mkdir /data/persist_log/gaia 0770 system system
+    mkdir /data/persist_log/gaia/config 0770 system system
+    mkdir /data/persist_log/postman 0777 system system
+

@@ -1,0 +1,7 @@
+service audiodumpinfo /system_ext/bin/audioDumpInfo
+    class main
+    user root
+    group root system everybody sdcard_rw
+    seclabel u:r:dumpstate:s0
+    disabled
+    oneshot

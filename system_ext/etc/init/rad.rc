@@ -1,0 +1,14 @@
+service rad /system_ext/bin/rad
+    user root
+    group root system
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.rad.enable=0
+    stop rad
+
+on property:sys.boot_completed=1 && property:persist.sys.rad.enable=1
+    start rad
+
+on post-fs-data
+    # Create directory for rad.
+    mkdir /data/misc/rad 0770 root system

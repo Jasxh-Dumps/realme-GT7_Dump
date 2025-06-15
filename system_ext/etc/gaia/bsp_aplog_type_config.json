@@ -1,0 +1,7 @@
+{
+  "version": 2024091201,
+  "filterName": "bsp_aplog_type_config",
+  "apLogType": "proto",
+  "archiveType": "tar",
+  "compressType": "zstd"
+}

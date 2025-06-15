@@ -1,0 +1,12 @@
+on property:init.svc.media=*
+    setprop init.svc.mediadrm ${init.svc.media}
+
+#ifdef OPLUS_BUG_COMPATIBILITY
+#//HuXin@MULTIMEDIA.MEDIASERVER.PLAYER, 2024/06/11, Update the Android.bp of mediaserver
+on property:ro.soc.manufacturer=QTI
+    import /system/etc/init/hw/mediaserverwrapper.rc
+on property:ro.soc.manufacturer=Mediatek
+    import /system/etc/init/hw/mediaserver_mtk.rc
+#endif /* OPLUS_BUG_COMPATIBILITY */
+
+import /system/etc/init/hw/mediaserver.${ro.zygote}.rc

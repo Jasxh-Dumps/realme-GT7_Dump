@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <group>
+        <child id="1" name="Green">
+            <color name="couiBlueFifthNormal">#FF368645</color>
+            <color name="couiBlueFifthLightNormal">#FF368645</color>
+            <color name="couiGreenTintControlNormal">#FF368645</color>
+            <color name="couiGreenTintControlPressed">#FF0D914F</color>
+            <color name="pb_color_theme_green">#FF368645</color>
+            <color name="couiRedFifthNormal">#FFD53733</color>
+            <color name="couiRedFifthLightNormal">#26D53733</color>
+            <color name="couiYellowFifthNormal">#FF996A11</color>
+            <color name="couiYellowFifthLightNormal">#26996A11</color>
+            <color name="couiYellowTintControlNormal">#FF996A11</color>
+            <color name="couiYellowTintControlPressed">#FFB3751C</color>
+            <color name="couiOrangeFifthNormal">#FFC05730</color>
+            <color name="couiOrangeFifthLightNormal">#26C05730</color>
+        </child>
+    </group>
+</resources>

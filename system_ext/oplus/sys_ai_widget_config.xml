@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2024061201</version>
+    <filter-name>ai_widget_config</filter-name>
+
+    <scheduler>
+        <pkg>com.oplus.aiwidgets</pkg>
+        <job>
+            <widgetType>101</widgetType>
+            <startupType>2</startupType>
+            <monitorType>2</monitorType>
+            <component>com.oplus.aiwidgets.service.AIWidgetProviderService</component>
+            <action>
+                <actionName>ACTION_NOTIFY_APP_MONITOR</actionName>
+            </action>
+            <monitorApp>
+                <name>com.tencent.mm</name>
+                <Activity>com.tencent.mm.pluginsdk.ui.tools.MiniQBReaderUI</Activity>
+            </monitorApp>
+        </job>
+    </scheduler>
+
+</filter-conf>
+

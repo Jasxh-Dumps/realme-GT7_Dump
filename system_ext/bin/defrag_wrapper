@@ -1,0 +1,3 @@
+#!/system/bin/sh
+export CLASSPATH=/system_ext/framework/defrag_wrapper.jar
+exec app_process /system_ext/bin com.oplus.commands.defrag_wrapper.DefragWrapper "$@"

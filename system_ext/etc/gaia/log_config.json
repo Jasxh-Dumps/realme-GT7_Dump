@@ -1,0 +1,1117 @@
+{
+  "system_experience": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "launcher": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    }
+  },
+  "negative_screen": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "vibration": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "screen_shot": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    }
+  },
+  "clock": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "note": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "thirdpart": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    },
+    "XLogModel": {
+      "moveXLog": true
+    }
+  },
+  "inputmethod": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    },
+    "DynamicModel": {
+      "windowWindow": true,
+      "windowFresh":true,
+      "windowAnim": true,
+      "windowInput": true,
+      "windowScreen": true,
+      "windowApptoken": true,
+      "windowWallpaper": true,
+      "windowConfig": true,
+      "windowTrace": true,
+      "windowSurface": true,
+      "windowLayer": true,
+      "windowPolicy": true,
+      "windowLocal": true,
+      "inputMethodAll": true,
+      "surfaceFlingerAll": true
+    }
+  },
+  "touch": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "ScreenRecordModel": {
+      "enable": true,
+      "resolution": 1
+    },
+    "TouchScreenModel": {
+      "pointerLocation": true,
+      "tpLogLevel": 1,
+      "dataLimit": false,
+      "catTpInfoByScreenshot": true
+    }
+  },
+  "display": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "DisplayModel": {
+      "enable": true
+    }
+  },
+  "brightness": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BrightnessModel": {
+      "brightnessDumpLog": true,
+      "sensorDumpLog": true
+    }
+  },
+  "call": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "modem_custom",
+      "NRTMode": false
+    },
+    "ModemModel": {
+      "MTKEnable": "ON",
+      "MTKMd1LogMode": 1,
+      "MTKSaveLocationInfo": "OFF",
+      "MTKObserveException": "ON",
+      "MTKResetAutoRun": "OFF"
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 4,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "network": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "modem_custom",
+      "NRTMode": false
+    },
+    "ModemModel": {
+      "MTKEnable": "ON",
+      "MTKMd1LogMode": 1,
+      "MTKSaveLocationInfo": "OFF",
+      "MTKObserveException": "ON",
+      "MTKResetAutoRun": "OFF"
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 4,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "wifi": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    },
+    "BluetoothModel": {
+      "QCOMBTProtocolLog": true
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 5,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "bluetooth": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "none",
+      "NRTMode": false
+    },
+    "BluetoothModel": {
+      "QCOMBTProtocolLog": true,
+      "MTKBTAdvanceLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 3,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    },
+    "AudioModel": {
+      "enable": true,
+      "QCOMPCMDump": true,
+      "QCOMPrePCMDumpType": 2047,
+      "MTKPCM3rdParty": "ON",
+      "MTKManualPCMType": {
+        "StreaminPCM": "ON",
+        "StreaminDsp": "ON",
+        "StreamOutPCM": "ON",
+        "StreamOutDsp": "ON",
+        "AduioHalAurisys": "ON"
+      }
+    }
+  },
+  "gps": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "gps",
+      "NRTMode": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 5,
+      "QCOMEnable": true,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    }
+  },
+  "signal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "modem_custom",
+      "NRTMode": false
+    },
+    "ModemModel": {
+      "MTKEnable": "ON",
+      "MTKMd1LogMode": 1,
+      "MTKSaveLocationInfo": "OFF",
+      "MTKObserveException": "ON",
+      "MTKResetAutoRun": "OFF"
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 4,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "nfc": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "media": {
+    "ApLog": {
+      "enable": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "audio",
+      "NRTMode": false
+    },
+    "BluetoothModel": {
+       "QCOMBTProtocolLog": true,
+       "MTKBTAdvanceLog": true
+     },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "ModemModel": {
+      "MTKEnable": "ON",
+      "MTKMd1LogMode": 1,
+      "MTKSaveLocationInfo": "OFF",
+      "MTKObserveException": "ON",
+      "MTKResetAutoRun": "ON"
+    },
+    "AudioModel": {
+      "enable": true,
+      "QCOMPCMDump": true,
+      "QCOMPrePCMDumpType": 2047,
+      "MTKPCM3rdParty": "ON",
+      "MTKManualPCMType": {
+        "StreaminPCM": "ON",
+        "StreaminDsp": "ON",
+        "StreamOutPCM": "ON",
+        "StreamOutDsp": "ON",
+        "AduioHalAurisys": "ON"
+      }
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 3,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "video": {
+    "ApLog": {
+      "enable": true
+    },
+    "SystraceModel": {
+       "enable": true,
+       "duration": 10
+     },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "VideoModel": {
+      "enable": true
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    }
+  },
+  "heat": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    }
+  },
+  "power": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "WLanModel": {
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    }
+  },
+  "charge": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "power",
+      "NRTMode": false
+    }
+  },
+  "junk": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    }
+  },
+  "storage": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "camera": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "CameraModel": {
+      "DumpYuv": 0,
+      "AecLog": 1,
+      "AwbLog": 1,
+      "AfLog": 1,
+      "HalLog": 3,
+      "MciLog": 3,
+      "JepgLog": 3,
+      "IFaceLog": 1,
+      "CppLog": 0,
+      "MultiFrameLog": 0,
+      "MTKCameralogd": true
+    }
+  },
+  "fingerprint": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BiometricsModel": {
+      "enable": true
+    },
+    "TouchScreenModel": {
+      "pointerLocation": false,
+      "tpLogLevel": 1,
+      "dataLimit": false,
+      "catTpInfoByScreenshot": true
+    },
+    "DisplayModel": {
+      "enable": true
+    }
+  },
+  "sensor": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BiometricsModel": {
+      "enable": true
+    },
+    "QXDMModel": {
+      "deviceType": "sensor",
+      "NRTMode": false
+    },
+    "DynamicModel": {
+      "fusionLightDebug": true
+    }
+  },
+  "interconnection": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "audio",
+      "NRTMode": false
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 4,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "interconnection_car_wired_abnormal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "QXDMModel": {
+      "deviceType": "power",
+      "NRTMode": false
+    }
+  },
+  "interconnection_car_wireless_abnormal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    }
+  },
+  "interconnection_car_sound_abnormal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    },
+    "AudioModel": {
+      "enable": true,
+      "QCOMPCMDump": true,
+      "QCOMPrePCMDumpType": 2047,
+      "MTKPCM3rdParty": "ON",
+      "MTKManualPCMType": {
+        "StreaminPCM": "ON",
+        "StreaminDsp": "ON",
+        "StreamOutPCM": "ON",
+        "StreamOutDsp": "ON",
+        "AduioHalAurisys": "ON"
+      }
+    }
+  },
+  "interconnection_car_app_abnormal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    }
+  },
+  "interconnection_car_freezes_abnormal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "SystraceModel": {
+      "enable": true,
+      "duration": 10
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    }
+  },
+  "interconnection_car_other_abnormal": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    },
+    "QXDMModel": {
+      "deviceType": "power",
+      "NRTMode": false
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": true,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": true
+    }
+  },
+  "interconnection_car_key_control": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BtHciLog": {
+      "MTKEnable": true,
+      "QCOMEnable": true
+    }
+  },
+  "fold_screen": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    }
+  },
+  "stability": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": false,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 3,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "other": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "BiometricsModel": {
+      "enable": true
+    },
+    "WLanModel": {
+      "QCOMVerboseLog": false,
+      "QCOMPacketLog": true,
+      "QCOMPacketBufferSize": 0,
+      "MTKEnable": true,
+      "MTKNetworkPing": true,
+      "MTKLimitPkg": false,
+      "MTKLimitPkgSize": 100,
+      "MTKWIFILogSize": 600,
+      "MTKVerboseLog": false
+    },
+    "GPSModel": {
+      "GpsDebugLevel": 3,
+      "MTKEnable": true,
+      "MTKLogPath": 0
+    }
+  },
+  "aging": {
+    "ApLog": {
+      "enable": true
+    },
+    "RegularModel": {
+      "MTKMobileLog": true,
+      "MTKAndroidLog": false,
+      "MTKKernelLog": false,
+      "MTKATFLog": true,
+      "MTKBSPLog": false,
+      "MTKMediaLog": true,
+      "MTKSSPMLog": true,
+      "MTKSCPLog": true
+    },
+    "ModemModel": {
+      "MTKEnable": "ON",
+      "MTKMd1LogMode": 1,
+      "MTKSaveLocationInfo": "OFF",
+      "MTKObserveException": "ON",
+      "MTKResetAutoRun": "OFF"
+    },
+    "BiometricsModel": {
+        "enable": true
+    }
+  }
+}

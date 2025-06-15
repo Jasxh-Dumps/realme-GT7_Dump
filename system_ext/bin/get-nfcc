@@ -1,0 +1,4 @@
+#!/system/bin/sh
+base=/system/system_ext
+export CLASSPATH=$base/framework/getnfcc.jar
+exec app_process $base/bin com.android.commands.getnfcc.GetNfcc

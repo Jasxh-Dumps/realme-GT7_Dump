@@ -1,0 +1,8 @@
+<window-policy>
+    <version>20220105</version>
+    <filter-name>sys_flexiblewindow_policy_list</filter-name>
+    <policy scenario="1" scale="0.85" cornerRadius="20" shadowRadiusFocused="200" shadowRadiusUnfocused="200" isAlwaysOnTop="true" needDefaultAnimation="true" hasCaption="false" captionName="com.android.server.wm.FlexibleTaskCaptionView" ignoreSystemBar="true" maxScale="0.95" minScale="0.2" maintainTaskState="false" supportRatios="16:9|4:3" maxWinNum="1"/>
+    <policy scenario="2" scale="1" cornerRadius="33" supportEmbedded="true" isAlwaysOnTop="true" ignoreSystemBar="true" />
+    <!-- Don't config scale -->
+    <policy scenario="3" simulatedWidth="960" />
+</window-policy>

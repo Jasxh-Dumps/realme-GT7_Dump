@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logCollectConfig>
+    <!-- add version for xml, it should be updated when file changed -->
+    <version>20240620001</version>
+    <template id="101" desc="main log">
+        <androidLog sublog="main"/>
+    </template>
+    <template id="102" desc="radio log">
+        <androidLog sublog="radio"/>
+    </template>
+    <template id="103" desc="events log">
+        <androidLog sublog="events"/>
+    </template>
+    <template id="104" desc="system log">
+        <androidLog sublog="system"/>
+    </template>
+    <template id="105" desc="crash log">
+        <androidLog sublog="crash"/>
+    </template>
+    <template id="106" desc="kernel log">
+        <androidLog sublog="kernel"/>
+    </template>
+    <template id="110" desc="default android log">
+        <androidLog sublog="main"/>
+        <androidLog sublog="system"/>
+        <androidLog sublog="crash"/>
+    </template>
+    <template id="111" desc="android log and kernel log">
+        <androidLog sublog="main"/>
+        <androidLog sublog="system"/>
+        <androidLog sublog="crash"/>
+        <androidLog sublog="radio"/>
+        <androidLog sublog="events"/>
+        <androidLog sublog="kernel"/>
+    </template>
+
+    <item id="20277001001-20277001099" level="2" desc="example 1">
+        <import template="111"/>
+        <cmdLog cmd="ps -A -T" timeoutMs="5000" output="ps.txt"/>
+        <systraceLog />
+        <dumpsysLog cmd="dumpsys activity a" output="dumpsys_activity.txt"/>
+        <fileLog dir="/data/persist_log/olc/test" pattern=".*\.txt$" option="latest=2|nodelete|maxsize=100M"/>
+        <fileLog dir="/data/persist_log/olc/test" pattern=".*\.log$" option="latest=2|nodelete|maxsize=100M|mtime=300" delayTime="10"/>
+        <!-- path:  Required field, it should be the same with EAP -->
+        <!-- pathSizeLimit: The max size of path, the default size is 1G. The unit is Byte when filled -->
+        <!-- zipSizeLimit: The max size of final log file, ther default size is 10M. The Unit is Byte when filled -->
+        <!-- namePrefix: prefix of the final log file name -->
+        <!-- method: the compress methd, include the following three types: gz zip none, zip is the default-->
+        <compressConfig path="/data/persist_log/DCS/de/olc" pathSizeLimit="1073741824" zipSizeLimit="104857600" namePrefix="test" method="zip"/>
+    </item>
+    <item id="20277001801,20277001809" level="2" desc="example 2" condition="pre">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/olc" pathSizeLimit="1073741824" zipSizeLimit="10485760" namePrefix="xxx" method="zip"/>
+    </item>
+    <item id="20277001900" level="2" desc="example 3" condition="commercial">
+        <import template="101"/>
+        <compressConfig path="/data/persist_log/DCS/de/olc" pathSizeLimit="1073741824" zipSizeLimit="104857600" namePrefix="xxx" method="none"/>
+    </item>
+    <item id="101311" desc="systemui render thread blocked">
+        <import template="111" />
+        <cmdLog cmd="pgrep -L 3 -f ^com.android.systemui$" timeoutMs="30000"/>
+        <fileLog dir="/data/anr" pattern="trace_.*" option="delete|mtime=35" delayTime="30"/>
+        <compressConfig path="/data/persist_log/DCS/de/systemui" pathSizeLimit="1073741824" zipSizeLimit="104857600" namePrefix="render_blocked" method="zip"/>
+    </item>
+    <item id="101312,101313,101314" desc="systemui keyguard black screen event">
+        <import template="111" />
+        <systraceLog />
+        <androidLog sublog="main"/>
+        <androidLog sublog="system"/>
+        <androidLog sublog="events"/>
+        <compressConfig path="/data/persist_log/DCS/de/systemui" pathSizeLimit="1073741824" zipSizeLimit="104857600" namePrefix="keyguard_black_screen" method="zip"/>
+    </item>
+    <item id="101316,101317" desc="systemui keyguard block event">
+        <import template="111" />
+        <cmdLog cmd="kill -3 $(pidof com.android.systemui)" timeoutMs="30000"/>
+        <systraceLog />
+        <androidLog sublog="main"/>
+        <androidLog sublog="system"/>
+        <androidLog sublog="events"/>
+        <fileLog dir="/data/anr" pattern="trace_.*" option="latest=1|delete|mtime=30" delayTime="30"/>
+        <compressConfig path="/data/persist_log/DCS/de/systemui" pathSizeLimit="1073741824" zipSizeLimit="104857600" namePrefix="keyguard_block" method="zip"/>
+    </item>
+    <item id="101000" level="2" desc="example 4">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/olc" method="gz"/>
+    </item>
+    <item id="101001" desc="launcher:Swipe up gesture does not respond">
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/launcher/" namePrefix="swipeup_noresp" method="zip"/>
+    </item>
+    <item id="101002" desc="launcher: Clicking icon to open app, but app does not respond">
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/launcher/" namePrefix="click_noresp" method="zip"/>
+    </item>
+    <item id="101051,101052,101054" desc="wms_surface_not_drawn|wms_surface_invisible|wms_no_focus_window" >
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/wm/" method="zip" zipSizeLimit="104857600"/>
+        <dumpsysLog cmd="dumpsys activity -v top" output="activity_top.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys activity a" output="activities.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys window -a" output="window.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys input" output="input.txt" timeoutMs="5000" />
+        <cmdLog cmd="ps -A -T" timeoutMs="5000" output="ps.txt"/>
+        <fileLog dir="/data/debugging/wm/black" pattern=".*" option="nodelete|latest=2|mtime=60|maxsize=2M" delayTime="5"/>
+    </item>
+    <item id="101373" desc="theia_no_buffer_commit">
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="no_buffer_commit" method="zip"/>
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger --oplus" output="sf_oplus.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys activity -v top" output="top.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys activity a" output="activity.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys window -a" output="window.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys display" output="display.txt" timeoutMs="5000" />
+    </item>
+    <item id="101157-101176" desc="TpStatsFault">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/touch/" zipSizeLimit="104857600"  namePrefix="tp_stats_fault" method="zip"/>
+        <fileLog dir="/data/vendor/touch" pattern=".*" option="nodelete|mtime=300"/>
+        <cmdLog cmd="odm/bin/touchHidlTest -c ro 0 20" timeoutMs="100" output="tp_healthinfo.txt"/>
+    </item>
+    <item id="101372" desc="TheiaScreenBlack">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaScreenBlack" method="zip"/>
+        <import template="111" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger --oplus" output="sf_oplus.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys activity -v top" output="top.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys activity a" output="activity.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys window -a" output="window.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys display" output="display.txt" timeoutMs="5000" />
+    </item>
+    <item id="101211" desc="hungtask">
+        <import template="111" />
+        <systraceLog />
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="theia_hungtask" zipSizeLimit="104857600" method="gz"/>
+    </item>
+    <item id="101226" desc="ssPreWatchdogReport">
+        <compressConfig path="/data/persist_log/DCS/de/theia" pathSizeLimit="1073741824" zipSizeLimit="10485760" namePrefix="theia_ssPreWatchdog_system" method="zip"/>
+        <fileLog dir="/data/persist_log/pre_watchdog" pattern="theia_ssPreWatchdog_system.*\.zip$" option="latest=1|delete" delayTime="20"/>
+        <cmdLog cmd="cat /data/anr/anr_`pidof system_server`*" timeoutMs="5000" output="traces_SystemServer_prewatchdog.txt"/>
+    </item>
+    <item id="101227">
+        <import template="111" desc="oplus init hung"/>
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="init_hung" method="zip"/>
+        <cmdLog cmd="ps -A -T" timeoutMs="5000" output="ps.txt"/>
+    </item>
+    <item id="101229" desc="ssPreWatchdogInfo">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/pre_watchdog" namePrefix="theia_ssPreWatchdog_system" method="zip"/>
+        <systraceLog />
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/state" timeoutMs="5000" output="state"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/stats" timeoutMs="5000" output="stats"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/transaction_log" timeoutMs="5000" output="transaction_log"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/transactions" timeoutMs="5000" output="transactions"/>
+        <cmdLog cmd="ps -A -T" timeoutMs="5000" output="ps.txt"/>
+    </item>
+    <item id="101286" desc="renderthreadNoDraw">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/gpu/" namePrefix="renderthreadNoDraw" method="zip"/>
+        <systraceLog />
+    </item>
+    <item id="101287" desc="gpuFenceTimeout">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/gpu/" namePrefix="gpuFenceTimeout" method="zip"/>
+        <systraceLog />
+    </item>
+    <item id="101178-101208" desc="theia_resolver_fault">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/theia/" zipSizeLimit="104857600" method="zip"/>
+        <fileLog dir="/data/persist_log/theia30" pattern="resolver_history.txt" option="latest=1|nodelete|mtime=300"/>
+        <fileLog dir="/data/persist_log/theia30" pattern="resolver_link.txt" option="latest=1|nodelete|mtime=300"/>
+        <fileLog dir="/data/persist_log/DCS/de/display" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x02000000"/>
+        <fileLog dir="/data/persist_log/DCS/en/display" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x02000000"/>
+        <fileLog dir="/data/persist_log/DCS/de/gpu" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x00001000"/>
+        <!-- noFocusWindow 101054 logId=0x0001000-->
+        <fileLog dir="/data/persist_log/DCS/de/wm" pattern=".*101051.*\.zip$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x00010000"/>
+        <fileLog dir="/data/persist_log/DCS/de/wm" pattern=".*101054.*\.zip$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x00010000"/>
+        <fileLog dir="/data/persist_log/DCS/de/launcher" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x08000000"/>
+        <fileLog dir="/data/persist_log/DCS/de/camera" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x10000000"/>
+        <fileLog dir="/data/persist_log/DCS/de/touch" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x20000000"/>
+        <fileLog dir="/data/persist_log/DCS/de/video" pattern=".*" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x40000000"/>
+        <!-- OplusSFHang 101109 logId=0x01000000-->
+        <fileLog dir="/data/persist_log/DCS/de/psw_multimedia_perf" pattern=".*sf_hang.*\.gz$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x01000000"/>
+        <fileLog dir="/data/persist_log/DCS/de/psw_multimedia_perf" pattern=".*app_hang.*\.gz$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x01000000"/>
+        <fileLog dir="/data/persist_log/DCS/de/psw_multimedia_perf" pattern=".*reboot.*\.gz$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x01000000"/>
+        <!-- PWK_LONGPRESS 101450 logId=0x00000001-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101450.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000001"/>
+        <!-- hungtask id=101211 logId=0x00000100-->
+        <fileLog  dir="/data/persist_log/DCS/de/theia" pattern=".*101211.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000100"/>
+        <!-- soft lockup id=101209 logId=0x00000200-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101209.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000200"/>
+        <!-- hard lockup id=101210 logId=0x00000400-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101210.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000400"/>
+        <!-- LCD id=100138 logId=0x00000800-->
+        <fileLog dir="/data/persist_log/DCS/de/display" pattern=".*100138.*\.zip$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x00000800"/>
+        <!-- pwkLightUpMonitor id=101446 logId=0x00002000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101446.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00002000"/>
+        <!-- pwkShutdownMonitor id=101447 logId=0x00004000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101447.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00004000"/>
+        <!-- HOMEKEY_PANIC id=101448 logId=0x00000002-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101448.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000002"/>
+        <!-- UITIMEOUT id=101445 logId=0x00008000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101445.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00008000"/>
+        <!-- Transparent_WINDOW id=101053 logId=0x00020000-->
+        <fileLog dir="/data/persist_log/DCS/de/wm" pattern=".*101053.*\.zip$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x00020000"/>
+        <!-- FrameworkBlock id=101228 logId=0x00040000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101228.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00040000"/>
+        <!-- BACKKEY_PANIC id=101449 logId=0x00000004-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101449.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000004"/>
+        <!-- launcherAnr id=101442 logId=0x00100000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101442.*\.zip$" option="latest=1|delete|mtime=340" delayTime="40" conditionLogId="0x00100000"/>
+        <!-- systemuiAnr id=101441 logId=0x00200000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101441.*\.zip$" option="latest=1|delete|mtime=340" delayTime="40" conditionLogId="0x00200000"/>
+        <!-- TheiaCommonAnr id=101440 logId=0x00400000-->
+        <fileLog dir="/data/persist_log/DCS/de/theia" pattern=".*101440.*\.zip$" option="latest=1|delete|mtime=340" delayTime="40" conditionLogId="0x00400000"/>
+        <!-- init hung id=101227 logId=0x04000000-->
+        <fileLog  dir="/data/persist_log/DCS/de/theia" pattern=".*101227.*\.zip$" option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x04000000"/>
+        <!-- SSPreWatchdog id=101226 logId=0x00080000-->
+        <fileLog  dir="/data/persist_log/DCS/de/theia" pattern="theia_ssPreWatchdog_system.*\.zip$"  option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00080000"/>
+        <!-- TheiaNoBufferCommit id=101373 logId=0x00000080-->
+        <fileLog  dir="/data/persist_log/DCS/de/theia" pattern=".*101373.*\.zip$"  option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00000080"/>
+        <!-- DetectedBlankScreen id=101108 logId=0x00800000-->
+        <fileLog  dir="/data/persist_log/DCS/de/theia" pattern=".*101108.*\.zip$"  option="latest=1|delete|mtime=330" delayTime="30" conditionLogId="0x00800000"/>
+        <!-- surfaceNotDrawn id=101051 logId=0x00000080-->
+        <fileLog dir="/data/persist_log/DCS/de/wm" pattern=".*101051.*\.zip$" option="latest=1|nodelete|mtime=330" delayTime="30" conditionLogId="0x00000080"/>
+    </item>
+    <item id="101391" desc="oplus_video_binder_blocked">
+        <import template="111"/>
+        <compressConfig path="/data/persist_log/DCS/de/video" pathSizeLimit="1073741824" zipSizeLimit="10485760" namePrefix="video_binder_blocked" method="zip"/>
+        <cmdLog cmd="debuggerd -b `pidof media.extractor`" timeoutMs="5000" output="backtrace_mediaextractor.txt"/>
+        <cmdLog cmd="debuggerd -b `pidof mediaserver`" timeoutMs="5000" output="backtrace_mediaserver.txt"/>
+        <cmdLog cmd="debuggerd -b `pidof com.android.providers.media.module`" timeoutMs="5000" output="backtrace_mediaprovider.txt"/>
+        <cmdLog cmd="debuggerd -b `pidof android.hardware.media.c2@1.2-mediatek-64b`" timeoutMs="5000" output="backtrace_media_c2.txt"/>
+        <cmdLog cmd="debuggerd -b `pidof android.hardware.media.c2-mediatek-64b`" timeoutMs="5000" output="backtrace_media_c2_v.txt"/>
+        <cmdLog cmd="debuggerd -b `pidof media.hwcodec`" timeoutMs="5000" output="backtrace_mediahwcodec.txt"/>
+        <cmdLog cmd="debuggerd -b `pidof media.swcodec`" timeoutMs="5000" output="backtrace_media.swcodec.txt"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/state" timeoutMs="5000" output="binder_state"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/stats" timeoutMs="5000" output="binder_stats"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/transactions" timeoutMs="5000" output="binder_transactions"/>
+        <cmdLog cmd="ps -A -T" timeoutMs="5000" output="ps.txt"/>
+    </item>
+    <item id="101247" desc="viewport_not_found" >
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/input/" zipSizeLimit="104857600" method="zip" />
+        <dumpsysLog cmd="dumpsys activity a" output="activities.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys window -a" output="window.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys input" output="input.txt" timeoutMs="5000" />
+        <systraceLog />
+    </item>
+    <item id="101177" desc="theia_cpu_high_load">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaCpuHighLoad" zipSizeLimit="104857600" method="zip"/>
+        <import template="111" />
+        <systraceLog />
+    </item>
+    <item id="101448" desc="theia_home_key_panic">
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaHomeKeyPanic" zipSizeLimit="104857600" method="zip" />
+        <dumpsysLog cmd="dumpsys input" output="input.txt" timeoutMs="5000" />
+    </item>
+    <item id="101449" desc="theia_back_key_panic">
+        <import template="111" />
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaBackKeyPanic" zipSizeLimit="104857600" method="zip" />
+        <dumpsysLog cmd="dumpsys input" output="input.txt" timeoutMs="5000" />
+    </item>
+    <item id="101441" desc="TheiaSystemuiAnr">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaSystemuiAnr" zipSizeLimit="104857600" method="zip"/>
+        <import template="111" />
+        <fileLog dir="/data/anr" pattern="trace_.*" option="latest=1|nodelete|mtime=30" delayTime="15"/>
+        <fileLog dir="/data/anr" pattern="anr_.*" option="latest=1|nodelete|mtime=30" delayTime="15"/>
+        <fileLog dir="/data/local/traces" pattern=".*perfetto-trace.*" option="latest=1|nodelete|mtime=30" delayTime="15"/>
+    </item>
+    <item id="101442" desc="TheiaLauncherAnr">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaLauncherAnr" zipSizeLimit="104857600" method="zip"/>
+        <import template="111" />
+        <fileLog dir="/data/anr" pattern="trace_.*" option="latest=1|nodelete|mtime=30" delayTime="15"/>
+        <fileLog dir="/data/anr" pattern="anr_.*" option="latest=1|nodelete|mtime=30" delayTime="15"/>
+        <fileLog dir="/data/local/traces" pattern=".*perfetto-trace.*" option="latest=1|nodelete|mtime=30" delayTime="15"/>
+    </item>
+    <item id="101443" desc="TheiaSystemuiCrash">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaSystemuiCrash" method="zip"/>
+        <import template="111" />
+    </item>
+    <item id="101444" desc="TheiaLauncherCrash">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="TheiaLauncherCrash" method="zip"/>
+        <import template="111" />
+    </item>
+    <item id="101446" desc="black_screen_monitor">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="pwkLightUpMonitor" zipSizeLimit="104857600" method="zip"/>
+        <import template="111" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger --oplus" output="sf_oplus.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys display" output="display.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys power" output="power.txt" timeoutMs="5000" />
+        <cmdLog cmd="debuggerd -j `pidof system_server`" timeoutMs="5000" output="SystemServer_trace.txt"/>
+        <systraceLog />
+    </item>
+    <item id="101447" desc="bright_screen_monitor">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="pwkShutdownMonitor" zipSizeLimit="104857600" method="zip"/>
+        <import template="111" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger --oplus" output="sf_oplus.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys display" output="display.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys power" output="power.txt" timeoutMs="5000" />
+        <cmdLog cmd="debuggerd -j `pidof system_server`" timeoutMs="5000" output="SystemServer_trace.txt"/>
+        <systraceLog />
+    </item>
+    <item id="101451" desc="pwk_panic_press">
+        <compressConfig path="/data/persist_log/DCS/de/theia/" namePrefix="pwkPanicPress" method="zip"/>
+        <import template="111" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger" output="sf.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys SurfaceFlinger --oplus" output="sf_oplus.txt" timeoutMs="5000" />
+        <dumpsysLog cmd="dumpsys display" output="display.txt" timeoutMs="5000" />
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/transaction_log" timeoutMs="5000" output="transaction_log"/>
+        <cmdLog cmd="cat /dev/binderfs/binder_logs/transactions" timeoutMs="5000" output="transactions"/>
+    </item>
+    <item id="101381" desc="oplus_game_jank_fault">
+        <compressConfig path="/data/persist_log/DCS/de/game_systrace/" namePrefix="OplusGameJankSystrace" zipSizeLimit="104857600" method="zip"/>
+        <fileLog dir="/storage/emulated/0/Android/data/com.oplus.cosa/files/jank" pattern="jank.*" option="latest=5" delayTime="5"/>
+        <systraceLog />
+    </item>
+    <item id="101382" desc="oplus_game_key_message">
+        <compressConfig path="/data/persist_log/DCS/de/game/" namePrefix="OplusGameKeyMessage" method="zip"/>
+        <fileLog dir="/storage/emulated/0/Android/data/com.oplus.cosa/files/record" pattern="game_log.*" option="nodelete|maxsize=3M" delayTime="10"/>
+        <dumpsysLog cmd="dumpsys activity service com.oplus.cosa.service.CosaService dump_game_info 1" output="dumpsys_game_info.log" timeoutMs="5000" />
+    </item>
+</logCollectConfig>

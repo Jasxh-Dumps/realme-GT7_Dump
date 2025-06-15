@@ -1,0 +1,55 @@
+/********************************************************************************
+ ** Copyright (C), 2024, OPLUS Mobile Comm Corp., Ltd
+ ** All rights reserved.
+ **
+ ** File: - init.otranslator.zygote.rc
+ ** Description:
+ **     Add for universal zygote dynamic start
+ **
+ ** Version: 1.0
+ ** Date: 2024-10-21
+ ** Author: WangZiren@ANDROID.PMS
+ **
+ ** ------------------------------- Revision History: ----------------------------
+ ** <author>    <date>    <version>    <desc>
+ ** ------------------------------------------------------------------------------
+ ** WangZiren@ANDROID.PMS    2024/10/21    1.0   Create for universal zygote dynamic start
+ ********************************************************************************/
+service zygote_tango /system/bin/app_process32 -Xzygote /system/bin --zygote --socket-name=zygote_secondary
+    class main
+    priority -20
+    user root
+    group root readproc reserved_disk
+    socket zygote_secondary stream 660 root system
+    socket usap_pool_secondary stream 660 root system
+    task_profiles ProcessCapacityHigh MaxPerformance
+    disabled
+
+#This trigger part is for qcom tango, when devices has ro.vendor.oplus.tango_binfmt_misc_support and ro.vendor.oplus.app32_boost_support, this part will work
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.tango_binfmt_misc_support=1 && property:ro.vendor.oplus.app32_boost_support=1
+    mkdir /data/dalvik-cache/arm
+
+on zygote-start && property:ro.vendor.oplus.tango_binfmt_misc_support=1 && property:ro.vendor.oplus.app32_boost_support=1 && property:persist.sys.tango_zygote32.start=1
+    write /proc/bootprof "INIT:zygote_tango_start"
+    start zygote_tango
+
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.tango_binfmt_misc_support=1 && property:ro.vendor.oplus.app32_boost_support=1 && property:persist.sys.tango_zygote32.start=1
+    start zygote_tango
+
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.tango_binfmt_misc_support=1 && property:ro.vendor.oplus.app32_boost_support=1 && property:persist.sys.tango_zygote32.start=0
+    stop zygote_tango
+
+#This trigger part is for otranslator, when devices has ro.vendor.oplus.otranslator_64only_chip, this part will work
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.otranslator_64only_chip=1
+    mkdir /data/dalvik-cache/arm
+
+on zygote-start && property:ro.vendor.oplus.otranslator_64only_chip=1 && property:persist.sys.tango_zygote32.start=1
+    write /proc/bootprof "INIT:zygote_tango_start"
+    start zygote_tango
+
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.otranslator_64only_chip=1 && property:persist.sys.tango_zygote32.start=1
+    start zygote_tango
+
+on property:sys.boot_completed=1 && property:ro.vendor.oplus.otranslator_64only_chip=1 && property:persist.sys.tango_zygote32.start=0
+    stop zygote_tango
+

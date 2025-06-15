@@ -1,0 +1,62 @@
+{
+    "version": "1.0.0",
+    "PANIC": {
+        "01_PANIC_00":{
+            "KEYINFO":"BasicParam.v_info",
+            "HUGEPAGE":"BasicParam.v_hugepage",
+            "PC":"BasicParam.v_pc",
+            "COMM":"BasicParam.v_comm",
+            "STACK":"MainCallTrace.v_trace"
+       },
+       "01_PANIC_01":{
+            "KEYINFO":"BasicParam.v_info",
+            "HUGEPAGE":"BasicParam.v_hugepage",
+            "DEVAPC":"BasicParam.v_devapc",
+            "PC":"BasicParam.v_pc",
+            "COMM":"BasicParam.v_comm",
+            "STACK":"MainCallTrace.v_trace"
+       }
+    },
+    "HANGOPLUS": {
+        "02_HANGOPLUS_00":{
+            "KEYINFO":"BasicParam.v_time+BasicParam.v_stage+BasicParam.v_bootfrom",
+            "ERRTYPE":"BasicParam.v_error"
+        },
+        "02_HANGOPLUS_01":{
+            "KEYINFO":"BasicParam.v_common",
+            "ERRTYPE":"BasicParam.v_error"
+        },
+        "02_HANGOPLUS_02":{
+            "PNAME":"BasicParam.v_process",
+            "SUBNAME":"BasicParam.v_name",
+            "SUBTYPE":"BasicParam.v_abortmsg",
+            "ERRTYPE":"BasicParam.v_error"
+        },
+        "02_HANGOPLUS_03":{
+            "ERRTYPE1":"BasicParam.v_error1",
+            "ERRTYPE2":"BasicParam.v_error2",
+            "ERRTYPE3":"BasicParam.v_error3",
+            "ERRTYPE4":"BasicParam.v_error4",
+            "ERRTYPE5":"BasicParam.v_error5"
+        }
+    },
+    "NATIVECRASH": {
+        "03_NATIVECRASH_00":{
+            "PNAME":"BasicParam.v_process",
+            "SUBNAME":"BasicParam.v_name",
+            "SUBTYPE":"BasicParam.v_abortmsg",
+            "SIGMSG":"SignalParam.v_sigmsg+SignalParam.v_sicode",
+            "STACK":"MainCallTrace.v_trace"
+        },
+        "03_NATIVECRASH_01":{
+            "PNAME":"BasicParam.v_process",
+            "SUBTYPE":"BasicParam.v_abortmsg",
+            "SIGMSG":"SignalParam.v_sigmsg+SignalParam.v_sicode",
+            "STACK":"MainCallTrace.v_trace"
+        },
+        "03_NATIVECRASH_02":{
+            "PNAME":"BasicParam.v_process",
+            "BLOCKIN":"BasicParam.v_thread+BasicParam.v_block_reason"
+        }
+    }
+}

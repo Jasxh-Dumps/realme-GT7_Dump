@@ -1,0 +1,18 @@
+service ostatsd /system_ext/bin/ostatsd
+    user system
+    group system readproc root media_rw
+    capabilities SYS_NICE
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.ostatsd.enable=0
+    stop ostatsd
+
+on property:sys.boot_completed=1 && property:persist.sys.ostatsd.enable=1
+    start ostatsd
+
+on post-fs-data
+    # Create directory for ostatsd.
+    mkdir /data/misc/ostats  0777 root system
+    mkdir /data/misc/ostats/packet_files 0777 root system
+    mkdir /data/misc/ostats/database 0770 root system
+    mkdir /data/misc/ostats/database/thermal_analysis 0777 root system

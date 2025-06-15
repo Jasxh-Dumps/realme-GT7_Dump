@@ -1,0 +1,12 @@
+service mem_corruption_check_test /system_ext/bin/sys.oplus.mcc.test.sh
+    class core
+    user root
+    group root system shell
+    disabled
+    oneshot
+
+on property:sys.oplus.mem_corruption_check.enable=1
+    start mem_corruption_check_test
+
+on property:sys.oplus.mem_corruption_check.enable=0
+    stop mem_corruption_check_test

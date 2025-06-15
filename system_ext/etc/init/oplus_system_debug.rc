@@ -1,0 +1,168 @@
+
+service oplus_system_debug_get /system_ext/bin/oplus_system_debug.sh "system_debug_get"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_system_debug_clear /system_ext/bin/oplus_system_debug.sh "system_debug_clear"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_page_owner_get /system_ext/bin/oplus_system_debug.sh "page_owner_get"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_page_owner_enable /system_ext/bin/oplus_system_debug.sh "page_owner_enable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_page_owner_disable /system_ext/bin/oplus_system_debug.sh "page_owner_disable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_fulldump_get /system_ext/bin/oplus_system_debug.sh "fulldump_get"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_fulldump_enable /system_ext/bin/oplus_system_debug.sh "fulldump_enable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_fulldump_disable /system_ext/bin/oplus_system_debug.sh "fulldump_disable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_cpuctl_extension_enable /system_ext/bin/oplus_system_debug.sh "cpuctl_extension_enable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_cpuctl_extension_disable /system_ext/bin/oplus_system_debug.sh "cpuctl_extension_disable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_cpuctl_extension_get /system_ext/bin/oplus_system_debug.sh "cpuctl_extension_get"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_binder_async_ux_enable /system_ext/bin/oplus_system_debug.sh "binder_async_ux_enable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+service oplus_binder_async_ux_disable /system_ext/bin/oplus_system_debug.sh "binder_async_ux_disable"
+	user root
+	group root system log
+	disabled
+	oneshot
+
+#init mount debufs selinux denied
+#on property:persist.sys.oplus_mount_debugfs=1
+#	setprop ro.product.debugfs_restrictions.enabled false
+#	mount debugfs debugfs /sys/kernel/debug
+#	chmod 0755 /sys/kernel/debug
+#	setprop persist.dbg.keep_debugfs_mounted true
+
+#on property:persist.sys.oplus_mount_debugfs=0
+#	setprop persist.dbg.keep_debugfs_mounted false
+#	umount /sys/kernel/debug
+
+#on property:persist.sys.oplus_mount_debugfs=1
+#    exec u:object_r:oplus_system_debug_exec:s0 -- /system/bin/sh /system_ext/bin/oplus_system_debug.sh "mount_debugfs"
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=system_debug_get
+    start oplus_system_debug_get
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=system_debug_clear
+    start oplus_system_debug_clear
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=page_owner_get
+    start oplus_page_owner_get
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=page_owner_enable
+    start oplus_page_owner_enable
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=page_owner_disable
+    start oplus_page_owner_disable
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=fulldump_get
+    start oplus_fulldump_get
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=fulldump_enable
+    start oplus_fulldump_enable
+
+on property:sys.boot_completed=1 && property:persist.sys.oplus_system_debug_data=fulldump_disable
+    start oplus_fulldump_disable
+
+on property:sys.boot_completed=1 && property:sys.cpuctl.oplus_system_debug_data=cpuctl_extension_enable
+    start oplus_cpuctl_extension_enable
+
+on property:sys.boot_completed=1 && property:sys.cpuctl.oplus_system_debug_data=cpuctl_extension_disable
+    start oplus_cpuctl_extension_disable
+
+on zygote-start
+    start oplus_cpuctl_extension_get
+
+on property:sys.boot_completed=1 && property:sys.binder.oplus_system_debug_data=binder_async_ux_enable
+    start oplus_binder_async_ux_enable
+
+on property:sys.boot_completed=1 && property:sys.binder.oplus_system_debug_data=binder_async_ux_disable
+    start oplus_binder_async_ux_disable
+
+#zhr@oppo.com,add a boot prop to trigger oplus.autotest.skipguide and qemu.sf.lcd_density
+on property:ro.boot.oplus_skipguide=true
+   setprop oplus.autotest.skipguide true
+
+#to stop seriallogging
+on property:property:ro.boot.no_logcat=1
+   stop seriallogging
+#to skip dex2oat at first boot
+on property:ro.boot.skip_dex2oat=1
+   setprop pm.dexopt.post-boot skip
+   setprop pm.dexopt.shared skip
+   setprop pm.dexopt.first-boot skip
+#add for cuttlefish runtime overlay some files
+on post-fs-data && property:ro.soc.model=vsoc_arm64
+   exec u:object_r:oplus_system_debug_exec:s0 -- /system/bin/sh /system_ext/bin/oplus_system_debug.sh "cf_overlay"
+#end
+
+#add to fix bug about oplus mediaserver
+on property:ro.build.flavor=qssi-user && property:ro.soc.model=vsoc_arm64
+  setprop ro.mediaserver.64b.enable true
+
+#add for oplus foldable device
+on property:sys.boot_completed=1 && property:ro.soc.model=vsoc_arm64
+ exec u:object_r:oplus_system_debug_exec:s0 -- /system/bin/sh /odm/etc/displayconfig/set_base_state.sh
+#
+
+on property:ro.build.flavor=qssi-userdebug && property:ro.soc.model=vsoc_arm64
+  setprop ro.mediaserver.64b.enable true
+#end
+
+#to use zram swap
+on boot && property:ro.soc.model=vsoc_arm64
+   insmod /system_dlkm/lib/modules/zsmalloc.ko
+   insmod /system_dlkm/lib/modules/zram.ko
+   swapon_all /system_ext/etc/fstab.zram.50p
+#end

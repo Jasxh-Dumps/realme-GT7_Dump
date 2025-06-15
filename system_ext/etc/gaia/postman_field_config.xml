@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fieldConfig>
+    <field id="1" rotate_size="4" filename="/data/persist_log/postman/postman_test.txt"></field>
+    <field id="1000" rotate_size="4" filename="/data/persist_log/postman/dmabuf_olc_main.txt"></field>
+    <field id="1001" rotate_size="4" filename="/data/persist_log/postman/dmabuf_logkit.txt"></field>
+    <field id="1002" rotate_size="4" filename="/data/persist_log/postman/dmabuf_olc_svc.txt"></field>
+</fieldConfig>

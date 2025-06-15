@@ -1,0 +1,11 @@
+
+service voldraise2olc system/system_ext/bin/voldraise2olc
+    class main
+    user root
+    group system root shell
+    disabled
+    oneshot
+
+on property:sys.olc.service.on=true && property:sys.oplus.voldraise2olc=true
+    start voldraise2olc
+    setprop sys.oplus.voldraise2olc false

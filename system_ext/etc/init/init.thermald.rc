@@ -1,0 +1,20 @@
+service thermald /system_ext/bin/thermald
+    class main
+    user system
+    group system
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24054
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24053
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24311
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24312
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24313
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24314
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24315
+    stop thermald
+on property:sys.boot_completed=1 && property:ro.vendor.config.oplus.low_ram=true && property:ro.boot.prjname=24316
+    stop thermald
