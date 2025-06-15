@@ -1,0 +1,33 @@
+#!/system/bin/sh
+prop_fg_protect="persist.sys.oplus.fg.protect"
+prop_fg_protect_condition="persist.sys.oplus.fg.protect.condition"
+fg_protect_enable=false
+fg_protect_condition=false
+mem_total=0
+mapped_protect_has_insmod=0
+
+function fg_protect_init()
+{
+	if [ $fg_protect_condition -eq 1 ]; then
+		echo 1 > /proc/fg_protect_enable
+	else
+		echo 0 > /proc/fg_protect_enable
+	fi
+}
+
+function main()
+{
+	mem_total_str=`cat /proc/meminfo |grep MemTotal`
+	mem_total=${mem_total_str:16:8}
+	fg_protect_enable=`getprop $prop_fg_protect`
+	fg_protect_condition=`getprop $prop_fg_protect_condition`
+
+	if [ -f /proc/fg_protect_enable ]; then
+		fg_protect_has_insmod=1
+	fi
+	if [ "$fg_protect_enable" == "true" -a $fg_protect_has_insmod -eq 1 ]; then
+		fg_protect_init
+	fi
+}
+
+main

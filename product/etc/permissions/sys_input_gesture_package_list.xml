@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20241108</version>
+    <filter-name>gesture_switch_list</filter-name>
+    <allowpackage>com.tencent.tmgp.speedmobile</allowpackage>
+    <allowpackage>com.taiwanmobile.wali</allowpackage>
+    <allowpackage>com.gamestar.perfectpiano</allowpackage>
+    <allowpackage>com.yasigani_ni.multitouchchecker</allowpackage>
+    <allowpackage>com.dmitrybrant.android.multitouch</allowpackage>
+    <allowpackage>com.feeuniversalradio.multitouch</allowpackage>
+    <allowpackage>com.ferretking.testtouch</allowpackage>
+    <allowpackage>redpi.apps.touchscreencounter</allowpackage>
+    <allowpackage>org.amrgames.touchcounter</allowpackage>
+    <allowpackage>com.the511plus.MultiTouchTester</allowpackage>
+    <allowpackage>com.spencerstudios.screentest</allowpackage>
+    <allowpackage>multitouchpro.tests</allowpackage>
+    <allowpackage>com.jurajkusnier.multitouchtest</allowpackage>
+    <allowpackage>com.easylabs.multitouch</allowpackage>
+    <allowpackage>ru.griphondev.multitouch</allowpackage>
+    <allowpackage>com.gameloft.android.ANMP.GloftDMHM</allowpackage>
+    <allowpackage>com.antutu.ABenchMark</allowpackage>
+    <allowpackage>com.tencent.tmgp.pubgmhd</allowpackage>
+    <allowpackage>com.tencent.tmgp.cf</allowpackage>
+    <allowpackage>com.tencent.tmgp.sgame</allowpackage>
+    <allowpackage>com.tencent.mf.uam</allowpackage>
+    <allowpackage>org.flos.phira</allowpackage>
+    <allowpackage>com.roblox.client</allowpackage>
+    <allowpackage>com.PigeonGames.Phigros</allowpackage>
+    <allowpackage>com.x1y9.probe</allowpackage>
+    <penscreenshotallowpackage>net.huanci.hsjpro</penscreenshotallowpackage>
+    <penscreenshotallowpackage>air.tv.douyu.android</penscreenshotallowpackage>
+    <penscreenshotallowpackage>com.tencent.tmgp.dnf</penscreenshotallowpackage>
+    <sprucedoubletapdisallowpackage>com.google.android.googlequicksearchbox</sprucedoubletapdisallowpackage>
+    <sprucedoubletapdisallowpackage>com.coloros.ocrscanner</sprucedoubletapdisallowpackage>
+    <sprucedoubletapdisallowpackage>com.oplus.camera</sprucedoubletapdisallowpackage>
+    <prenoticetostartscreenshot>1</prenoticetostartscreenshot>
+</filter-conf>

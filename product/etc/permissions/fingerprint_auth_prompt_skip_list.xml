@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20240622</version>
+    <filter-name>fingerprint_switch_list</filter-name>
+    <allowpackage>com.oplus.safecenter</allowpackage>
+    <allowpackage>com.oplus.securitypermission</allowpackage>
+    <allowpackage>com.fido.asm</allowpackage>
+    <allowpackage>com.fido.fido2client</allowpackage>
+    <allowpackage>com.tencent.mm</allowpackage>
+    <allowpackage>com.eg.android.AlipayGphone</allowpackage>
+    <allowpackage>com.ss.android.ugc.aweme</allowpackage>
+    <allowpackage>com.taobao.taobao</allowpackage>
+    <allowpackage>com.finshell.wallet</allowpackage>
+    <allowpackage>com.heytap.tas</allowpackage>
+    <allowpackage>com.baidu.searchbox</allowpackage>
+    <allowpackage>com.android.settings</allowpackage>
+    <allowpackage>com.MobileTicket</allowpackage>
+    <allowpackage>com.taobao.etao</allowpackage>
+    <allowpackage>com.antfortune.wealth</allowpackage>
+    <allowpackage>cn.anicert.ctid</allowpackage>
+    <allowpackage>com.yitong.ksrcb.mbank.android</allowpackage>
+    <forceUsePackage>com.alicloud.databox</forceUsePackage>
+    <forceUsePackage>com.qiyi.video</forceUsePackage>
+    <forceUsePackage>com.hexin.plat.android</forceUsePackage>
+    <forceUsePackage>com.greenpoint.android.mc10086.activity</forceUsePackage>
+    <forceUsePackage>chuxin.shimo.shimowendang</forceUsePackage>
+    <forceUsePackage>com.coloros.codebook</forceUsePackage>
+    <forceUsePackage>com.summer_app</forceUsePackage>
+    <forceUsePackage>com.csii.yuxi.mobilebank</forceUsePackage>
+    <forceUsePackage>de.bmw.connected.mobile20.cn</forceUsePackage>
+    <forceUsePackage>com.android.settings</forceUsePackage>
+    <forceUsePackage>cmb.pb</forceUsePackage>
+    <forceUsePackage>com.cmbchina.zhaodai</forceUsePackage>
+    <isFingerprintPay>com.eg.android.AlipayGphone</isFingerprintPay>
+    <isFingerprintPay>com.tencent.mm</isFingerprintPay>
+    <isFingerprintPay>com.taobao.taobao</isFingerprintPay>
+</filter-conf>

@@ -1,0 +1,17 @@
+service init.fg.protect.sh /product/bin/init.fg.protect.sh
+	class late_start
+	user root
+	disabled
+	oneshot
+
+on post-fs-data
+	restorecon /product/bin/init.fg.protect.sh
+
+on property:persist.sys.oplus.fg.protect.condition=*
+	write /proc/fg_protect_enable ${persist.sys.oplus.fg.protect.condition}
+
+on property:sys.boot_completed=1
+	restorecon /proc/fg_protect_enable
+	restorecon /product/bin/init.fg.protect.sh
+
+	start init.fg.protect.sh

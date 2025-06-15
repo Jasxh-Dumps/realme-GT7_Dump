@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20240910</version>
+    <filter-name>accessibility_switch_list</filter-name>
+    <disabledpackageingame>hello.litiaotiao.app</disabledpackageingame>
+    <disabledpackageingame>cn.litiaotiao.app</disabledpackageingame>
+</filter-conf>
