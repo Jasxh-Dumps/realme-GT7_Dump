@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<storage_feature>
+    <version>2024-01-11-01-01-01</version>
+    <feature_path ismulti="0" addr="/sys/devices/platform/soc/112b0000.ufshci/ufssid/">
+        <stream_id_enabled>1</stream_id_enabled>
+    </feature_path>
+    <feature_resctrl_io_v1 enable="1" read_bps="1500000000">
+        <iocost read_lat="1000"></iocost>
+    </feature_resctrl_io_v1>
+    <feature_path ismulti="1" addr="/sys/fs/f2fs/">
+        <device_copy_enable>0</device_copy_enable>
+        <appboost>0</appboost>
+    </feature_path>
+    <compress_cfg>
+        <app_enable>1</app_enable>
+        <dedup_enable>1</dedup_enable>
+        <may_compress>1</may_compress>
+    </compress_cfg>
+</storage_feature>

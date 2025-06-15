@@ -1,0 +1,101 @@
+{
+	"spectrum_test_data" :
+	{
+		"test_3000k_data" :
+		{
+			"cct_mean" : "2982",
+			"f1_data" : "56",
+			"f2_data" : "289",
+			"f3_data" : "849",
+			"f4_data" : "1468",
+			"f5_data" : "747",
+			"f6_data" : "3988",
+			"f7_data" : "2241",
+			"f8_data" : "240",
+			"gain" : "256",
+			"lux_mean" : "705",
+			"nir_data" : "238",
+			"vis_data" : "4032",
+			"xl_data" : "3932",
+			"y_data" : "3345",
+			"z_data" : "931"
+		},
+		"test_4500k_data" :
+		{
+			"cct_mean" : "4482",
+			"f1_data" : "57",
+			"f2_data" : "546",
+			"f3_data" : "1200",
+			"f4_data" : "1747",
+			"f5_data" : "876",
+			"f6_data" : "2915",
+			"f7_data" : "1597",
+			"f8_data" : "198",
+			"gain" : "256",
+			"lux_mean" : "702",
+			"nir_data" : "195",
+			"vis_data" : "3794",
+			"xl_data" : "3422",
+			"y_data" : "3351",
+			"z_data" : "1644"
+		},
+		"test_5000k_data" :
+		{
+			"cct_mean" : "5039",
+			"f1_data" : "353",
+			"f2_data" : "1126",
+			"f3_data" : "1870",
+			"f4_data" : "2732",
+			"f5_data" : "916",
+			"f6_data" : "3814",
+			"f7_data" : "2929",
+			"f8_data" : "372",
+			"gain" : "256",
+			"lux_mean" : "761",
+			"nir_data" : "244",
+			"vis_data" : "4888",
+			"xl_data" : "3546",
+			"y_data" : "3696",
+			"z_data" : "1928"
+		},
+		"test_6000k_data" :
+		{
+			"cct_mean" : "6022",
+			"f1_data" : "58",
+			"f2_data" : "696",
+			"f3_data" : "1383",
+			"f4_data" : "1904",
+			"f5_data" : "927",
+			"f6_data" : "2239",
+			"f7_data" : "1235",
+			"f8_data" : "175",
+			"gain" : "512",
+			"lux_mean" : "698",
+			"nir_data" : "174",
+			"vis_data" : "3633",
+			"xl_data" : "3102",
+			"y_data" : "3337",
+			"z_data" : "2058"
+		},
+		"test_6500k_data" :
+		{
+			"cct_mean" : "6364",
+			"f1_data" : "790",
+			"f2_data" : "1266",
+			"f3_data" : "2042",
+			"f4_data" : "2703",
+			"f5_data" : "870",
+			"f6_data" : "2728",
+			"f7_data" : "3042",
+			"f8_data" : "1312",
+			"gain" : "256",
+			"lux_mean" : "669",
+			"nir_data" : "1317",
+			"vis_data" : "5067",
+			"xl_data" : "2872",
+			"y_data" : "3284",
+			"z_data" : "1999"
+		},
+		"ver" : "30"
+	}
+}

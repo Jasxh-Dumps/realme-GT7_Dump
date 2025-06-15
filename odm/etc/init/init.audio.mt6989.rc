@@ -1,0 +1,10 @@
+#================================audio related start========================================
+#ifdef OPLUS_BUG_COMPATIBILITY
+#Fan.Zhao@PSW.MM.AudioDriver, 2023/02/01, Add for SIXTH
+on post-fs-data
+    chown system audio /dev/sipa_cmd
+    chmod 0666 /dev/sipa_cmd
+    chown system audio /dev/sipa_tool
+    chmod 0666 /dev/sipa_tool
+#enif
+#================================audio related end==========================================

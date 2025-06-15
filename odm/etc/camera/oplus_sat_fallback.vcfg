@@ -1,0 +1,175 @@
+/*****************************************************************************************************************
+* This file include all the policys of fallback(short of FB):
+* "sensorList": Include all the sensors and their maps relationship:
+*    "sensorName": The name of the sensor;
+*    "id": The id of the sensor, it master be int type;
+*    "zoomRange": The zoomRange of the sensor, it master be float, a minus value means infinite;
+*    "disThreshold[0/5]": The min/max value of disThreshold;
+*    "disThreshold[1~4]": The value if disThreshold for T1~T4;
+* "case": Describe the scenario for this policy, which can be any string you like;
+* "opModes": The operation mode while current policy applys to(the opModes must write by Dec);
+* "targetId": The cameraId which you want to set as master;
+* "fbCamId": The sensor which while be set as fb state;
+* "zoomRange": Describe the zoomratio range to enable FB in current case; And two minus value means not enable;
+* "fallbackThreshold": Describe the AF distance to enable FB in current case; And two minus value means not enable;
+* "fallBackLuxThreshold": Describe the Lux value to enable FB in current case; And a minus value means not enable;
+* The following diagram provides a brief overview of the fallback strategy.
+* ----------------------------------------------------------------------------------------------------->
+*                        |      |                         |      |
+* 0                      T1     T2                        T3     T4
+******************************************************************************************************************/
+{
+    "sensorLists": [
+        {
+            "sensorName": "MAIN",
+            "id": 2,
+            "zoomRange": [1.0, 2.0],
+            "disThreshold": [-1.0, 2.8, 2.9, 7.2, 8.2, 100000.0],
+            "disThresSpecial": [-1.0, 2.8, 2.9, 6.3, 6.5, 100000.0],
+            "NotifyToStreamOnThre": 6.0
+        },
+        {
+            "sensorName": "UWIDE",
+            "id": 3,
+            "zoomRange": [0.6, 1.0],
+            "disThreshold": [-1.0, 2.23, 2.24, 10.3, 12.0, 100000.0],
+            "disThresSpecial": [-1.0, 2.23, 2.24, 10.3, 12.0, 100000.0],
+            "NotifyToStreamOnThre": 3.1
+        },
+        {
+            "sensorName": "TELE",
+            "id": 4,
+            "zoomRange": [2.0, 10000.0],
+            "disThreshold": [-1.0, 2.6, 2.65, 3.8, 3.85, 100000.0],
+            "disThresSpecial": [-1.0, 2.6, 2.65, 3.8, 3.85, 100000.0],
+            "NotifyToStreamOnThre": 7.5
+        }
+    ],
+    "UWIDE": [
+        {
+            "case": "KeepInUWide",
+            "opModes": [32769],
+            "targetId": 3,
+            "fbCamId": 2,
+            "zoomRange": [0.5999, 2.0],
+            "fallbackThreshold": [2, 5],
+            "fallbackThresSpecail": [2, 5],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 0
+        },
+        {
+            "case": "UWideFbOff",
+            "opModes": [32769],
+            "targetId": 2,
+            "fbCamId": -1,
+            "zoomRange": [1.0, 2.0],
+            "fallbackThreshold": [0, 1],
+            "fallbackThresSpecail": [0, 1],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 0
+        }
+    ],
+    "MAIN": [
+        {
+            "case": "KeepInWideWhileZoomSwitchInLowDistance",
+            "opModes": [32769, 32793],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [1.0, 2.0],
+            "fallbackThreshold": [2, 5],
+            "fallbackThresSpecail": [2, 5],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 0
+        },
+        {
+            "case": "KeepInWideWhileTeleFbToWide",
+            "opModes": [32769, 32793],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [2.0, 10.0],
+            "fallbackThreshold": [2, 5],
+            "fallbackThresSpecail": [2, 5],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 0
+        },
+        {
+            "case": "Wide2UWide",
+            "opModes": [32769],
+            "targetId": 3,
+            "fbCamId": 2,
+            "zoomRange": [1.0, 2.0],
+            "fallbackThreshold": [4, 5],
+            "fallbackThresSpecail": [4, 5],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 1
+        },
+        {
+            "case": "WideFbOff",
+            "opModes": [32769, 32793],
+            "targetId": 4,
+            "fbCamId": -1,
+            "zoomRange": [2.0, 10.0],
+            "fallbackThreshold": [0, 1],
+            "fallbackThresSpecail": [0, 1],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 0
+        },
+        {
+            "case": "KeepInWideWhileInDark",
+            "opModes": [32769],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [1.25, 10.0],
+            "fallbackThreshold": [0, 0],
+            "fallbackThresSpecail": [0, 0],
+            "fallBackLuxThreshold": [450, 100000],
+            "needNotifyToStreamOn": 0
+        },
+        {
+            "case": "KeepInWideWhileInDark",
+            "opModes": [32935, 32779, 32801],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [1.25, 18.1],
+            "fallbackThreshold": [0, 0],
+            "fallbackThresSpecail": [0, 0],
+            "fallBackLuxThreshold": [435, 100000],
+            "needNotifyToStreamOn": 0
+        }
+    ],
+    "TELE": [
+        {
+            "case": "Tele2Wide",
+            "opModes": [32769, 32793],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [2.0, 10.0],
+            "fallbackThreshold": [4, 5],
+            "fallbackThresSpecail": [4, 5],
+            "fallBackLuxThreshold": [-1.0, 420],
+            "needNotifyToStreamOn": 1
+        },
+        {
+            "case": "Tele2WideWhileInDark",
+            "opModes": [32769, 32793],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [2.0, 10.0],
+            "fallbackThreshold": [0, 0],
+            "fallbackThresSpecail": [0, 0],
+            "fallBackLuxThreshold": [470, 100000],
+            "needNotifyToStreamOn": 0
+        },
+        {
+            "case": "Tele2WideWhileInDark",
+            "opModes": [32935, 32779, 32801],
+            "targetId": 2,
+            "fbCamId": 4,
+            "zoomRange": [2.0, 18.1],
+            "fallbackThreshold": [0, 0],
+            "fallbackThresSpecail": [0, 0],
+            "fallBackLuxThreshold": [450, 100000],
+            "needNotifyToStreamOn": 0
+        }
+    ]
+}

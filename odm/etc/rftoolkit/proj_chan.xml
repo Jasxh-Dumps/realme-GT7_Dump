@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT version="V2">
+    <GeneralMode>
+        <RAT name="LTE">
+            <Band number="28">
+                <Channel type="Low">27235</Channel>
+                <Channel type="Mid">27360</Channel>
+                <Channel type="High">27485</Channel>
+            </Band>
+            <Band number="41">
+                <Channel type="Low">39700</Channel>
+                <Channel type="Mid">40620</Channel>
+                <Channel type="High">41540</Channel>
+            </Band>
+        </RAT>
+        <RAT name="NR5G">
+            <Band number="28">
+                <Channel type="Low">144600</Channel>
+                <Channel type="Mid">145600</Channel>
+                <Channel type="High">146600</Channel>
+            </Band>
+            <Band number="41">
+                <Channel type="Low">501204</Channel>
+                <Channel type="Mid">518600</Channel>
+                <Channel type="High">535995</Channel>
+            </Band>
+        </RAT>
+    </GeneralMode>
+    <GeneralMode mode="NPT">
+        <RAT name="LTE">
+            <Band number="13">
+                <Channel type="Low">23230</Channel>
+                <Channel type="Mid">23230</Channel>
+                <Channel type="High">23230</Channel>
+            </Band>
+            <Band number="28">
+                <Channel type="Low">27260</Channel>
+                <Channel type="Mid">27360</Channel>
+                <Channel type="High">27409</Channel>
+            </Band>
+            <Band number="41">
+                <Channel type="Low">39700</Channel>
+                <Channel type="Mid">40620</Channel>
+                <Channel type="High">41540</Channel>
+            </Band>
+        </RAT>
+        <RAT name="NR5G">
+            <Band number="28">
+                <Channel type="Low">144600</Channel>
+                <Channel type="Mid">145600</Channel>
+                <Channel type="High">146600</Channel>
+            </Band>
+            <Band number="41">
+                <Channel type="Low">501204</Channel>
+                <Channel type="Mid">518600</Channel>
+                <Channel type="High">535995</Channel>
+            </Band>
+        </RAT>
+    </GeneralMode>
+</RFTOOLKIT>

@@ -1,0 +1,4 @@
+#audiozoom_1.txt use for 3D recording.
+
+#MIN   MAX       EFFECTLEVEL      VF    AngleWidth     Gain1~~~Gain8
+0        1.099      	 0                 0       180             	    0    0  0   0   0  0  0 0

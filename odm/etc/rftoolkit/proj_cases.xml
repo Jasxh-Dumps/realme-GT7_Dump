@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+    <TestCase mode="NPT">
+        <RAT name="GSM" pwrcheck="false">
+            <Band number="850,900,1800,1900">
+                <Channel type="Mid">
+                    <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna><!--ant0、1/ant0、4 -->
+                </Channel>
+            </Band>
+        </RAT>
+        <RAT name="LTE">
+           <Band number="1,3,4,7,38,40,41,66,71">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,202,303 </Antenna> <!--ant0、4、5、1-->
+                </Channel>
+            </Band>
+           <Band number="2,39">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101</Antenna> <!--ant0、4/5-->
+                </Channel>
+            </Band>
+            <Band number="5,8,12,13,17,18,19,20,26,28">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna> <!--ant0、1-->
+                </Channel>
+            </Band>
+        </RAT>
+        <RAT name="NR5G">
+             <Band number="1,3,7,38,40,41,66,71">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,202,303 </Antenna> <!--ant0、4、5、1-->
+                </Channel>
+            </Band>
+           <Band number="2">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101</Antenna> <!--ant0、4-->
+                </Channel>
+            </Band>
+             <Band number="5,8,20,26,28">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna> <!--ant0、1-->
+                </Channel>
+            </Band>
+            <Band number="77,78">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 001,201,301,401 </Antenna> <!--ant8、9、10、11-->
+                </Channel>
+            </Band>
+        </RAT>
+    </TestCase>
+    <TestCase mode="QtTest, Expert, Factory, RSETEST, CLSS">
+        <RAT name="GSM" pwrcheck="false">
+            <Band type="Any">
+                <Channel type="Mid">
+                    <SubBand>0</SubBand>
+                </Channel>
+            </Band>
+        </RAT>
+        <RAT name="LTE">
+            <Band type="Any">
+                <Channel type="Low">
+                    <SubBand>0</SubBand>
+                </Channel>
+                <Channel type="High">
+                    <SubBand>0</SubBand>
+                </Channel>
+            </Band>
+        </RAT>
+         <RAT name="NR5G">
+             <Band number="28">
+                 <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                 </Channel>
+                 <Channel type="High">
+                     <SubBand>1</SubBand>
+                 </Channel>
+             </Band>
+         </RAT>
+    </TestCase>
+    <TestCase mode="CustomService, Diagnostic">
+        <RAT name="GSM" pwrcheck="false">
+            <Band type="Any">
+                <Channel type="Mid">
+                    <SubBand>0</SubBand>
+                </Channel>
+            </Band>
+        </RAT>
+        <RAT name="LTE">
+            <Band number="4,17,18,19,26,38,66"></Band>
+            <Band type="Any">
+                <Channel type="Mid">
+                    <SubBand>0</SubBand>
+                </Channel>
+            </Band>
+        </RAT>
+        <RAT name="NR5G">
+            <Band number="1,5,8,12,26,38,66,77"></Band>
+            <Band type="Any">
+                <Channel type="Mid">
+                    <SubBand>0</SubBand>
+                </Channel>
+            </Band>
+        </RAT>
+    </TestCase>
+</RFTOOLKIT>

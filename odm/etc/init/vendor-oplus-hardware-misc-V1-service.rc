@@ -1,0 +1,13 @@
+on post-fs-data
+    chmod 0666 /mnt/vendor/persist/data/ec2_aging_data.txt
+service vendor.misc-aidl-1  /odm/bin/hw/vendor-oplus-hardware-misc-V1-service
+    class hal
+    capabilities SYS_PTRACE
+    user system
+    group system readproc
+    interface aidl vendor.oplus.hardware.misc.IOplusMisc/default
+on boot
+    chown system system /proc/pogopin/kbd_battery_power_level
+    chmod 0644 /proc/pogopin/kbd_battery_power_level
+    chown system system /proc/pogopin/kbd_battery_charge_current
+    chmod 0644 /proc/pogopin/kbd_battery_charge_current

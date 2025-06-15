@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<power_save_config_list>
+    <version>2027012919</version>
+    <filter-name>power_save_perf_config_list</filter-name>
+    <featureConfigItem>
+        <feature_enable_item booleanVal="true"/>
+    </featureConfigItem>
+
+    <feature name="level">
+        <config name="power_save_cpulevel">
+            <level index="0" maxCpuCore="-1,-1,-1" maxCpuFreq="1300000,1300000,1300000"/>
+            <level index="1" maxCpuCore="-1,-1,-1" maxCpuFreq="1200000,1200000,1300000"/>
+            <level index="2" maxCpuCore="-1,-1,-1" maxCpuFreq="1100000,1100000,1200000"/>
+            <level index="3" maxCpuCore="-1,-1,-1" maxCpuFreq="1000000,1100000,1100000"/>
+            <level index="4" maxCpuCore="-1,-1,-1" maxCpuFreq="900000,1000000,1000000"/>
+            <level index="5" maxCpuCore="-1,-1,-1" maxCpuFreq="800000,900000,900000"/>
+            <level index="6" maxCpuCore="-1,-1,-1" maxCpuFreq="700000,800000,800000"/>
+            <level index="7" maxCpuCore="-1,-1,-1" maxCpuFreq="600000,700000,700000"/>
+            <level index="8" maxCpuCore="-1,-1,0"  maxCpuFreq="500000,700000,-1"/>
+            <level index="9" maxCpuCore="-1,2,0"   maxCpuFreq="500000,600000,-1"/>
+            <level index="10" maxCpuCore="-1,-1,-1" maxCpuFreq="1400000,1600000,1600000"/>
+            <level index="11" maxCpuCore="-1,-1,-1" maxCpuFreq="1800000,1800000,1800000"/>
+            <level index="12" maxCpuCore="-1,-1,-1" maxCpuFreq="1000000,1100000,1100000"/>
+            <level index="13" maxCpuCore="-1,-1,-1" maxCpuFreq="1600000,2600000,2800000"/>
+            <level index="14" maxCpuCore="-1,-1,-1" maxCpuFreq="1500000,2500000,2700000"/>
+            <level index="15" maxCpuCore="-1,-1,-1" maxCpuFreq="1400000,2400000,2600000"/>
+            <level index="16" maxCpuCore="-1,-1,-1" maxCpuFreq="1300000,1700000,1600000"/>
+        </config>
+
+        <config name="power_save_gpulevel">
+            <level index="0" maxGpuCore="-1" maxGpuFreq="936000000"/>
+            <level index="1" maxGpuCore="-1" maxGpuFreq="728000000"/>
+            <level index="2" maxGpuCore="-1" maxGpuFreq="572000000"/>
+            <level index="3" maxGpuCore="-1" maxGpuFreq="364000000"/>
+            <level index="4" maxGpuCore="-1" maxGpuFreq="260000000"/>
+        </config>
+
+        <config name="power_save_level">
+            <level index="0" value="0,1,2,3,4,5,6,7,8"/>
+            <level index="1" value="9"/>
+            <level index="2" value="10,11,12,13,14,15,16,17,18,19"/>
+        </config>
+        <config name="power_save_scene">
+            <level index="0" value="default" cpu="14" gpu="2" restrict="1300"/>
+            <level index="1" value="screen_off" cpu="16" gpu="4" restrict="1300"/>
+            <level index="2" value="browser" cpu="16" gpu="4" restrict="1300"/>
+            <level index="3" value="game" cpu="13" gpu="0" restrict="0"/>
+            <level index="4" value="office" cpu="16" gpu="4" restrict="1300"/>
+            <level index="5" value="video" cpu="15" gpu="3" restrict="1300"/>
+            <level index="6" value="launcher" cpu="15" gpu="3" restrict="1300"/>
+            <level index="7" value="navigate" cpu="16" gpu="4" restrict="1300"/>
+            <level index="8" value="super_app" cpu="15" gpu="3" restrict="1300"/>
+            <level index="9" value="read" cpu="16" gpu="4" restrict="1300"/>
+            <level index="10" value="community" cpu="16" gpu="4" restrict="1300"/>
+            <level index="11" value="news" cpu="16" gpu="4" restrict="1300"/>
+            <level index="12" value="short_video" cpu="15" gpu="3" restrict="1300"/>
+            <level index="13" value="un_know" cpu="13" gpu="0" restrict="0"/>
+        </config>
+    </feature>
+    <superApp>com.tencent.mm</superApp>
+    <superApp>com.tencent.mobile.qq</superApp>
+    <superApp>com.ss.android.ugc.aweme</superApp>
+    <superApp>com.ss.android.ugc.aweme.lite</superApp>
+    <superApp>com.ss.android.article.news</superApp>
+    <superApp>com.taobao.taobao</superApp>
+    <superApp>com.tencent.qqlive</superApp>
+    <superApp>com.baidu.searchbox</superApp>
+    <superApp>tv.danmaku.bili</superApp>
+    <superApp>com.smile.gifmaker</superApp>
+    <superApp>com.sina.weibo</superApp>
+    <superApp>com.xingin.xhs</superApp>
+    <superApp>com.qiyi.video</superApp>
+    <superApp>com.autonavi.minimap</superApp>
+    <superApp>com.UCMobile</superApp>
+    <superApp>com.ss.android.article.lite</superApp>
+    <superApp>com.youku.phone</superApp>
+    <superApp>com.kuaishou.nebula</superApp>
+    <superApp>com.tencent.mtt</superApp>
+    <superApp>com.xunmeng.pinduoduo</superApp>
+    <superApp>com.jingdong.app.mall</superApp>
+    <superApp>com.zhihu.android</superApp>
+</power_save_config_list>

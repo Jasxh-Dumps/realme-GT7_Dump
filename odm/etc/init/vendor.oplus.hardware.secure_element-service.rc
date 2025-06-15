@@ -1,0 +1,4 @@
+service secure_element-1-0 /odm/bin/hw/vendor.oplus.hardware.secure_element-service
+    class hal
+    user secure_element
+    group secure_element system

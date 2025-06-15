@@ -1,0 +1,318 @@
+{
+  "algoTraversalRely": {
+    "rely": [
+      {
+        "relyId": 1,
+        "condition": {
+          "or": {
+            "eq": [
+              "tripodEnable",
+              1
+            ],
+            "not_eq": [
+              "tripodEnable",
+              0
+            ]
+          }
+        },
+        "relyResult": {
+          "eq": [
+            "captureMode",
+            "APS_CAPMODE_REAR_NIGHT"
+          ]
+        }
+      },
+      {
+        "relyId": 1,
+        "condition": {
+          "and": {
+            "eq": [
+              "captureMode",
+              "APS_CAPMODE_REAR_NORMAL"
+            ],
+            "or1": {
+              "eq": [
+                "highPicSizeEnable",
+                1
+              ],
+              "not_eq": [
+                "highPicSizeEnable",
+                0
+              ]
+            }
+          }
+        },
+        "relyResult": {
+          "eq": [
+            "multiCameraMode",
+            "USE_SINGLE_MODE"
+          ]
+        }
+      },
+      {
+        "relyId": 1,
+        "condition": {
+          "or": {
+            "eq": [
+              "paramsHolder->open_supertext",
+              1
+            ],
+            "not_eq": [
+              "paramsHolder->open_supertext",
+              0
+            ]
+          }
+        },
+        "relyResult": {
+          "eq": [
+            "captureMode",
+            "APS_CAPMODE_SUPER_TEXT"
+          ]
+        }
+      },
+      {
+        "relyId": 1,
+        "condition": {
+          "or": {
+            "eq": [
+              "highPicSizeEnable",
+              1
+            ],
+            "not_eq": [
+              "highPicSizeEnable",
+              0
+            ]
+          }
+        },
+        "relyResult": {
+          "eq": [
+            "captureMode",
+            "APS_CAPMODE_REAR_NORMAL"
+          ]
+        }
+      },
+      {
+        "relyId": 1,
+        "condition": {
+          "eq": [
+            "isSupportTurboRaw2Dol",
+            true
+          ]
+        },
+        "relyResult": {
+          "eq": [
+            "captureMode",
+            "APS_CAPMODE_REAR_NORMAL"
+          ]
+        }
+      },
+      {
+        "relyId": 1,
+        "condition": {
+          "eq": [
+            "currentPipeline",
+            0
+          ]
+        },
+        "relyResult": {
+          "lt": [
+            "zoomRatio",
+            1.0
+          ]
+        }
+      },
+      {
+        "relyId": 1,
+        "condition": {
+          "eq": [
+            "currentPipeline",
+            2
+          ]
+        },
+        "relyResult": {
+          "gt": [
+            "zoomRatio",
+            3.0
+          ]
+        }
+      },
+      {
+        "relyId": 0,
+        "condition": {
+          "eq": [
+            "currentPipeline",
+            0
+          ]
+        },
+        "relyResult": {
+          "lt": [
+            "zoomRatio",
+            1.0
+          ]
+        }
+      },
+      {
+        "relyId": 0,
+        "condition": {
+          "eq": [
+            "currentPipeline",
+            2
+          ]
+        },
+        "relyResult": {
+          "gt": [
+            "zoomRatio",
+            10.0
+          ]
+        }
+      }
+    ],
+    "conditionalFilter": [
+      {
+        "condition": {
+          "and": {
+            "or": {
+              "eq": [
+                "currentPipeline",
+                0
+              ],
+              "eq1": [
+                "currentPipeline",
+                1
+              ],
+              "eq2": [
+                "currentPipeline",
+                2
+              ],
+              "eq3": [
+                "currentPipeline",
+                3
+              ],
+              "not_eq": [
+                "currentPipeline",
+                0
+              ],
+              "not_eq1": [
+                "currentPipeline",
+                1
+              ],
+              "not_eq2": [
+                "currentPipeline",
+                2
+              ],
+              "not_eq3": [
+                "currentPipeline",
+                3
+              ]
+            },
+            "or1": {
+              "eq": [
+                "cameraId",
+                1
+              ],
+              "not_eq": [
+                "cameraId",
+                0
+              ],
+              "eq1": [
+                "highPicSizeEnable",
+                1
+              ],
+              "not_eq1": [
+                "highPicSizeEnable",
+                0
+              ],
+              "eq2": [
+                "multiCameraMode",
+                0
+              ],
+              "eq3": [
+                "captureMode",
+                "APS_CAPMODE_REAR_BOKEH"
+              ],
+              "eq4": [
+                "captureMode",
+                "APS_CAPMODE_FRONT_BOKEH"
+              ]
+            }
+          }
+        },
+        "filterResult": false
+      },
+      {
+        "condition": {
+          "or": {
+            "and": {
+              "eq": [
+                "currentPipeline",
+                0
+              ],
+              "gt": [
+                "zoomRatio",
+                3.0
+              ]
+            },
+            "and1": {
+              "eq": [
+                "currentPipeline",
+                1
+              ],
+              "lt": [
+                "zoomRatio",
+                1.0
+              ]
+            },
+            "and2": {
+              "eq": [
+                "currentPipeline",
+                2
+              ],
+              "lt": [
+                "zoomRatio",
+                3.0
+              ]
+            }
+          }
+        },
+        "filterResult": false
+      },
+      {
+        "condition": {
+          "or": {
+            "eq": [
+              "isFromMainMenu",
+              false
+            ],
+            "not_eq": [
+              "isFromMainMenu",
+              true
+            ]
+          }
+        },
+        "filterResult": false
+      },
+      {
+        "condition": {
+          "egt": [
+              "currentPipeline",
+              3
+            ]
+        },
+        "filterResult": false
+      },
+      {
+        "condition": {
+          "eq": [
+              "notNeedTest",
+              true
+            ]
+        },
+        "filterResult": false
+      }
+    ]
+  },
+  "fallBackThreshold": {
+    "wide": 1.0,
+    "tele": 3.0
+  }
+}

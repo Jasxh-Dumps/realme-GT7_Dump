@@ -1,0 +1,1170 @@
+{
+  "file_version": 14.014,
+  "file_data": [
+
+{
+  "VendorTag": "FRONT_AUTO_HDR_OUTDOOR_LUX_HIGH_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -14, -24"
+},
+
+{
+  "Key": "CUSTOM_AE_ALGO_ENABLE",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "FRONT_AUTO_HDR_OUTDOOR_LUX_OTHER_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -15, -24"
+},
+
+{
+  "VendorTag": "FRONT_OPEN_HDR_OUTDOOR_LUX_HIGH_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -12, -24"
+},
+
+{
+  "VendorTag": "FRONT_OPEN_HDR_OUTDOOR_LUX_LOW_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -15, -24"
+},
+
+{
+  "VendorTag": "FRONT_OPEN_HDR_OUTDOOR_LUX_OTHER_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -15, -24"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_HDR_ENABLE",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_AUTO_HDR_OUTDOOR_LUX_HIGH_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -10, -16"
+},
+
+{
+  "VendorTag": "FRONT_AUTO_HDR_OUTDOOR_LUX_LOW_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -12, -18"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_AUTO_HDR_OUTDOOR_LUX_LOW_EV",
+  "Type": "Int32",
+  "Count": "5",
+  "Value": "0, -10, -15, -22, -36"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_AUTO_HDR_OUTDOOR_LUX_OTHER_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -18, -26"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_OPEN_HDR_OUTDOOR_LUX_HIGH_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -10, -18"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_OPEN_HDR_OUTDOOR_LUX_LOW_EV",
+  "Type": "Int32",
+  "Count": "5",
+  "Value": "0, -10, -20, -27, -36"
+},
+
+{
+  "VendorTag": "FRONT_FIVE_OPEN_HDR_OUTDOOR_LUX_OTHER_EV",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "0, -12, -18"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_OUTDOOR_ISO",
+  "Value": "160"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_OUTDOOR_FACE_ISO",
+  "Value": "200"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_INDOOR_ISO",
+  "Value": "400"
+},
+
+{
+  "Key": "NORMAL_RAWHDR_INDOOR_FACE_ISO",
+  "Value": "500"
+},
+
+{
+  "Key": "REAR_LOWLIGHT_YUVHDR_ISO",
+  "Value": "1100"
+},
+
+{
+  "Key": "REAR_LOWLIGHT_MFNR_ISO",
+  "Value": "6400"
+},
+
+{
+  "Key": "NIGHT_SCENE_LUX_INDEX_NIGHT_MIN",
+  "Value": "300"
+},
+
+{
+  "Key": "NIGHT_SCENE_LUX_INDEX_NIGHT_MAX",
+  "Value": "495"
+},
+
+{
+  "Key": "FACE_QUADCFA_ISO_TRRIGGER",
+  "Value": "200"
+},
+
+{
+  "Key": "NORMAL_QUADCFA_ISO_TRRIGGER",
+  "Value": "400"
+},
+
+{
+  "Key": "NIGHT_SCENE_LUX_INDEX_NIGHT_1S",
+  "Value": "500"
+},
+
+{
+  "Key": "NIGHT_SCENE_SENSOR_BAYER_PATTERN",
+  "Value": "1"
+},
+
+{
+  "Key": "NORMAL_FRONT_NIGHT_SCENE_LUX_INDEX_TRRIGGER",
+  "Type": "Int32",
+  "Count": "2",
+  "Value": "310, 335"
+},
+
+{
+  "Key": "NORMAL_SCENE_NIGHT_DELAY_SWITCH",
+  "Type": "Int32",
+  "Count": "2",
+  "Value": "340, 350"
+},
+
+{
+  "Key": "PORTRAIT_TURBO_NIGHT_ENABLE",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "1, 340, 350",
+  "Comment": "portrait mode turbonight enbale, daytime lux trigger, turbo night lux trigger"
+},
+
+{
+  "Key": "NIGHT_AI_PURERAW_ENABLE_LSC",
+  "Value": "1"
+},
+
+{
+  "Key": "NIGHT_SCENE_CAMERA_MODE_V7",
+  "Value": "12577"
+},
+
+{
+  "Key": "SCENE_GRF_CAMERA_FOCUS",
+  "Value": "3"
+},
+
+{
+  "Key": "SUPER_NIGHT_GAMMAY",
+  "Type": "Float",
+  "Count": "65",
+  "Value": "0,64,108,144,176,205,232,258,282,304,326,347,367,386,405,423,441,458,475,491,
+            507,523,538,553,568,583,597,611,625,638,651,665,678,690,703,715,728,740,752,764,
+            775,787,798,810,821,832,843,854,865,875,886,896,907,917,927,937,947,957,967,977,
+            987,996,1006,1015,1023"
+},
+
+{
+  "Key": "SUPER_NIGHT_GAMMA",
+  "Type": "Float",
+  "Count": "65",
+  "Value": "0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,
+            320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,
+            640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,
+            960,976,992,1008,1023"
+},
+
+{
+  "Key": "TURBO_RAW_IPE_GAMMAY_PORTRAIT",
+  "Type": "Float",
+  "Count": "257",
+  "Value": "0,20,40,60,80,100,119,139,158,178,197,216,235,252,269,284,298,312,324,336,348,360,371,383,394,405,415,
+            426,437,447,456,466,475,483,491,498,504,511,517,523,530,536,542,549,555,561,567,573,579,586,592,598,
+            604,609,615,619,624,628,633,637,642,646,652,656,660,664,668,672,676,680,683,687,690,694,698,702,705,
+            709,712,716,719,722,725,729,732,735,738,741,744,747,749,752,755,757,760,763,766,769,771,774,776,779,
+            781,784,786,789,791,794,796,798,801,803,805,807,810,812,814,817,819,821,823,825,827,828,830,832,833,
+            836,836,838,840,842,845,848,850,852,854,856,858,860,862,864,866,868,870,872,874,876,878,880,881,883,
+            885,886,888,890,892,894,895,897,899,900,902,904,906,908,909,911,913,914,916,918,920,922,923,924,926,
+            928,930,932,933,934,936,938,939,940,942,944,945,946,948,949,950,952,953,954,956,958,959,960,961,962,
+            964,965,966,968,969,970,971,972,973,974,976,977,978,980,981,982,983,984,986,987,988,989,990,991,992,
+            993,994,996,997,998,999,1000,1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1012,1013,
+            1014,1015,1016,1016,1017,1018,1020,1022,1023"
+},
+
+{
+  "Key": "TURBO_RAW_IPE_GAMMAY",
+  "Type": "Float",
+  "Count": "257",
+  "Value": "0,20,40,60,80,100,119,139,158,178,197,216,235,252,269,284,298,312,324,336,348,360,371,383,394,405,415,
+            426,437,447,456,466,475,483,491,498,504,511,517,523,530,536,542,549,555,561,567,573,579,586,592,598,
+            604,609,615,619,624,628,633,637,642,646,652,656,660,664,668,672,676,680,683,687,690,694,698,702,705,
+            709,712,716,719,722,725,729,732,735,738,741,744,747,749,752,755,757,760,763,766,769,771,774,776,779,
+            781,784,786,789,791,794,796,798,801,803,805,807,810,812,814,817,819,821,823,825,827,828,830,832,833,
+            836,836,838,840,842,845,848,850,852,854,856,858,860,862,864,866,868,870,872,874,876,878,880,881,883,
+            885,886,888,890,892,894,895,897,899,900,902,904,906,908,909,911,913,914,916,918,920,922,923,924,926,
+            928,930,932,933,934,936,938,939,940,942,944,945,946,948,949,950,952,953,954,956,958,959,960,961,962,
+            964,965,966,968,969,970,971,972,973,974,976,977,978,980,981,982,983,984,986,987,988,989,990,991,992,
+            993,994,996,997,998,999,1000,1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1012,1013,
+            1014,1015,1016,1016,1017,1018,1020,1022,1023"
+},
+
+{
+  "Key": "TURBO_RAW_IPE_GAMMAX",
+  "Type": "Float",
+  "Count": "257",
+  "Value": "0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72,76,80,84,88,92,96,100,104,108,112,116,120,124,
+            128,132,136,140,144,148,152,156,160,164,168,172,176,180,184,188,192,196,200,204,208,212,216,220,224,
+            228,232,236,240,244,248,252,256,260,264,268,272,276,280,284,288,292,296,300,304,308,312,316,320,324,
+            328,332,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,396,400,404,408,412,416,420,424,
+            428,432,436,440,444,448,452,456,460,464,468,472,476,480,484,488,492,496,500,504,508,512,516,520,524,
+            528,532,536,540,544,548,552,556,560,564,568,572,576,580,584,588,592,596,600,604,608,612,616,620,624,
+            628,632,636,640,644,648,652,656,660,664,668,672,676,680,684,688,692,696,700,704,708,712,716,720,724,
+            728,732,736,740,744,748,752,756,760,764,768,772,776,780,784,788,792,796,800,804,808,812,816,820,824,
+            828,832,836,840,844,848,852,856,860,864,868,872,876,880,884,888,892,896,900,904,908,912,916,920,924,
+            928,932,936,940,944,948,952,956,960,964,968,972,976,980,984,988,992,996,1000,1004,1008,1012,1016,1020,1023"
+},
+
+{
+  "Key": "TURBORAW_SUB_LOW_EXP_EV_THRESH",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "-18"
+},
+
+{
+  "Key": "TURBORAW_ICE_EXP_EV_THRESH",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "-18"
+},
+
+{
+  "VendorTag": "REMOSAIC_FACE_LUMA_RATIO_THRESH",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "1.5"
+},
+
+{
+  "Key": "CHDR_FOR_NEON_SUPPORT",
+  "Value": "1",
+  "Comment": "1:support"
+},
+
+{
+  "Key": "BOKEH_ROTATION_VALUE",
+  "Value": "180"
+},
+
+{
+  "Key": "NORMAL_AINR_AIS_ISO",
+  "Value": "30000.00"
+},
+
+{
+  "Key": "NORMAL_SCENE_ISO_AINR_TRRIGGER",
+  "Value": "6400.00"
+},
+
+{
+  "Key": "AISHUTTER_SCENE_ISO_AINR_TRRIGGER",
+  "Value": "2400.00"
+},
+
+{
+  "Key": "NORMAL_SCENE_LUX_INDEX_AINR_TRRIGGER",
+  "Value": "450.00"
+},
+
+{
+  "Key": "SENSOR_PHYSICAL_ID",
+  "Value": "1"
+},
+
+{
+  "Key": "TURBO_HDR_RAW_WIDTH",
+  "Value": "3264"
+},
+
+{
+  "Key": "TURBO_HDR_RAW_HEIGHT",
+  "Value": "2448"
+},
+
+{
+  "VendorTag": "SENSOR_BLACK_LEVEL_ISDYNAMIC",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "SUPER_NIGHT_OB_OFFSET",
+  "Type": "Int32",
+  "Count": "26",
+  "Value": "
+            30000, 1036,
+            24000, 1036,
+            19200, 1036,
+            16000, 1045,
+            12800, 1045,
+            9600, 1040,
+            6400, 1036,
+            3200, 1032,
+            1600, 1028,
+            800,  1028,
+            400, 1024,
+            200, 1024,
+            99, 1024",
+  "Comment":"isoValue,oboffset"
+},
+
+{
+  "Key": "ASD_REAR_LOWLIGHT_MFNR_ISO",
+  "Value": "6400.00"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.hdr",
+  "Type": "Float",
+  "Count": "168",
+  "Value": "
+            0 /* needNcf */,
+
+            10 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            6400/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 7/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index1*/,
+            4000/*iso*/, 200/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 7/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index2*/,
+            3200/*iso*/, 150/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index3*/,
+            2000/*iso*/, 100/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index4*/,
+            1600/*iso*/, 100/*LuminDenoiseLevel*/, 100/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index5*/,
+            1000/*iso*/, 50/*LuminDenoiseLevel*/, 100/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index6*/,
+            640/*iso*/, 30/*LuminDenoiseLevel*/, 100/*ColorDenoiseLevel*/, 25/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 7/*Brightness*/, 2/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index7*/,
+            320/*iso*/, 25/*LuminDenoiseLevel*/, 100/*ColorDenoiseLevel*/, 25/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index8*/,
+            160/*iso*/, 25/*LuminDenoiseLevel*/, 75/*ColorDenoiseLevel*/, 12/*SharpLevel*/, 3/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index9*/,
+            0/*iso*/, 25/*LuminDenoiseLevel*/, 75/*ColorDenoiseLevel*/, 12/*SharpLevel*/, 3/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, -5/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            ",
+  "Comment": "arcsoft_hdr_sensor_param_t"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.hdr.fiveframe",
+  "Type": "Float",
+  "Count": "168",
+  "Value": "
+            0 /* needNcf */,
+
+            10 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            6400/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 2/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index1*/,
+            4000/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 2/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index2*/,
+            3200/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 2/*Saturation*/,1/*SceneType*/, 0/*Contrast*/
+
+            /*index3*/,
+            2000/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 2/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index4*/,
+            1600/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 2/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index5*/,
+            1000/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 2/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index6*/,
+            640/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 2/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index7*/,
+            320/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 0/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index8*/,
+            160/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 0/*Saturation*/, 1/*SceneType*/, 0/*Contrast*/
+
+            /*index9*/,
+            100/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 5/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            ",
+  "Comment": "arcsoft_hdr_sensor_param_t"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.llhdr",
+  "Type": "Float",
+  "Count": "168",
+  "Value": "
+            0 /* needNcf */,
+
+            6 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            3600/*iso*/, 500/*LuminDenoiseLevel*/, 250/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 2/*SceneType*/, 0/*Contrast*/
+
+            /*index1*/,
+            1600/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 2/*SceneType*/, 0/*Contrast*/
+
+            /*index2*/,
+            1200/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 2/*SceneType*/, 0/*Contrast*/
+
+            /*index3*/,
+            800/*iso*/, 350/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index4*/,
+            300/*iso*/, 150/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index5*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index6*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index7*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index8*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index9*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            ",
+  "Comment": "arcsoft_llhdr_param_t"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.llhdr.face",
+  "Type": "Float",
+  "Count": "168",
+  "Value": "
+            0 /* needNcf */,
+
+            6 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            3600/*iso*/, 500/*LuminDenoiseLevel*/, 250/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 2/*SceneType*/, 0/*Contrast*/
+
+            /*index1*/,
+            1600/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 2/*SceneType*/, 0/*Contrast*/
+
+            /*index2*/,
+            1200/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 2/*SceneType*/, 0/*Contrast*/
+
+            /*index3*/,
+            800/*iso*/, 350/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index4*/,
+            300/*iso*/, 150/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 50/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index5*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index6*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index7*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index8*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index9*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            ",
+  "Comment": "arcsoft_llhdr_param_t"
+},
+
+{
+  "Key": "MERGE_HDR_EFFECT_PARAMETERS",
+  "Type": "Float",
+  "Count": "4",
+  "Value": "210       /* outdoorLux */,
+            265       /* indoorLux  */,
+            300       /* nightLux   */,
+            0.6       /* irRatio    */",
+  "Comment": "Scenetype decision parameters"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.hdrultra",
+  "Type": "Float",
+  "Count": "168",
+  "Value": "
+            0 /* needNcf */,
+            10 /*isoZoneNumber*/,
+            0 /*denoiseEnable*/
+            /*index0*/,
+            6400/*iso*/, 500/*LuminDenoiseLevel*/, 250/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/, 10/*Contrast*/
+            /*index1*/,
+            4000/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/, 10/*Contrast*/
+            /*index2*/,
+            3200/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/, 10/*Contrast*/
+            /*index3*/,
+            2000/*iso*/, 350/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index4*/,
+            1600/*iso*/, 150/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index5*/,
+            1000/*iso*/, 120/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index6*/,
+            640/*iso*/, 100/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 25/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index7*/,
+            320/*iso*/, 100/*LuminDenoiseLevel*/, 120/*ColorDenoiseLevel*/, 12/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 3/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index8*/,
+            160/*iso*/, 80/*LuminDenoiseLevel*/, 120/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 2/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index9*/,
+            0/*iso*/, 55/*LuminDenoiseLevel*/, 100/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 2/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            ",
+  "Comment": "arcsoft_hdr_ultra_sensor_param_t"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.hdrultra.face",
+  "Type": "Float",
+  "Count": "168",
+  "Value": "
+            0 /* needNcf */,
+            10 /*isoZoneNumber*/,
+            0 /*denoiseEnable*/
+            /*index0*/,
+            6400/*iso*/, 500/*LuminDenoiseLevel*/, 250/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/, 10/*Contrast*/
+            /*index1*/,
+            4000/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/, 10/*Contrast*/
+            /*index2*/,
+            3200/*iso*/, 400/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/, 10/*Contrast*/
+            /*index3*/,
+            2000/*iso*/, 350/*LuminDenoiseLevel*/, 200/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index4*/,
+            1600/*iso*/, 150/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index5*/,
+            1000/*iso*/, 120/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index6*/,
+            640/*iso*/, 100/*LuminDenoiseLevel*/, 150/*ColorDenoiseLevel*/, 25/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index7*/,
+            320/*iso*/, 100/*LuminDenoiseLevel*/, 120/*ColorDenoiseLevel*/, 12/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 10/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 10/*Contrast*/
+            /*index8*/,
+            160/*iso*/, 80/*LuminDenoiseLevel*/, 120/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 7/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 8/*Contrast*/
+            /*index9*/,
+            0/*iso*/, 55/*LuminDenoiseLevel*/, 100/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 20/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 5/*Contrast*/
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/,   0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/, 0/*Contrast*/
+            ",
+  "Comment": "arcsoft_hdr_ultra_sensor_param_t"
+},
+
+{
+  "Key": "PORTRAIT_REPAIR_TRIGGER",
+  "Type": "Int32",
+  "Count": "5",
+  "Value": "1     /*1:enable 0:disable */,
+            2400  /*min iso threshold*/,
+            30000 /*max iso threshold*/,
+            1     /*min face number*/,
+            6     /*max face number*/",
+  "Comment": "portrait repair trigger params"
+},
+
+{
+  "VendorTag": "aps.params.portrait.repair.byiso",
+  "Type": "Float",
+  "Count": "150",
+  "Value": "
+            20000 /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            16000 /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            12800 /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            9600  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            6400  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            3200  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            1600  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            800   /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            400   /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            100   /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7/*blenderWeightBorder*/, 0.65 /*blendweighjaw*/",
+  "Comment": "portrait_repair_process_params"
+},
+
+{
+  "VendorTag": "aps.params.portrait.repair.nightbyiso",
+  "Type": "Float",
+  "Count": "150",
+  "Value": "
+            20000 /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            16000 /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            12800 /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            9600  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            6400  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            3200  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            1600  /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            800   /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            400   /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/,
+            100   /*iso*/, 0.8 /*alpha*/, 0.1 /*beta*/, 0.45 /*mouth*/, 0.4 /*eye*/, 0.45 /*eyebrow*/, 1.0 /*smoothness*/, 0 /*quality_strength*/, 0 /*quality_debug*/, 600 /*runtimememsize*/, 0.6 /* blendWeightMouth */, 0.45 /*blendWeightEye*/, 0.75 /*blenderWeightEyebrow*/, 0.5 /*blenderWeightFace*/, 0.7 /*blenderWeightBorder*/, 0.65 /*blendweighjaw*/",
+  "Comment": "portrait_repair_process_params"
+},
+
+{
+  "VendorTag": "aps.params.portrait.repair.iso",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "3600",
+  "Comment": "portrait_repair_process_params_iso_thres"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.singleportraitllhdr",
+  "Type": "Float",
+  "Count": "43",
+  "Value": "
+            6 /*isoZoneNumber*/
+            /*index0*/,
+            9600/*iso*/, 80/*Intensity*/, 8/*LightIntensity*/, 53/*Saturation*/, 20/*SharpenIntensity*/,
+            0/*YReprocIntensity*/, 20/*UVReprocIntensity*/
+            /*index1*/,
+            6400/*iso*/, 55/*Intensity*/, 8/*LightIntensity*/, 53/*Saturation*/, 20/*SharpenIntensity*/,
+            0/*YReprocIntensity*/, 20/*UVReprocIntensity*/
+            /*index2*/,
+            4800/*iso*/, 35/*Intensity*/, 8/*LightIntensity*/, 53/*Saturation*/, 15/*SharpenIntensity*/,
+            0/*YReprocIntensity*/, 20/*UVReprocIntensity*/
+            /*index3*/,
+            1600/*iso*/, 20/*Intensity*/, 8/*LightIntensity*/, 53/*Saturation*/, 15/*SharpenIntensity*/,
+            0/*YReprocIntensity*/, 20/*UVReprocIntensity*/
+            /*index4*/,
+            800/*iso*/, 15/*Intensity*/, 8/*LightIntensity*/, 53/*Saturation*/, 10/*SharpenIntensity*/,
+            0/*YReprocIntensity*/, 20/*UVReprocIntensity*/
+            /*index5*/,
+            0/*iso*/, 8/*Intensity*/, 8/*LightIntensity*/, 53/*Saturation*/, 10/*SharpenIntensity*/,
+            0/*YReprocIntensity*/, 20/*UVReprocIntensity*/
+            ",
+  "Comment": "arcsoft_singleportraitllhdr"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.singleportrait.couplehdr",
+  "Type": "Float",
+  "Count": "153",
+  "Value": "
+            0 /* needNcf */,
+
+            10 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            6400/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index1*/,
+            4000/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index2*/,
+            3200/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 100/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index3*/,
+            2000/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index4*/,
+            1600/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index5*/,
+            1000/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index6*/,
+            640/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index7*/,
+            320/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index8*/,
+            160/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 3/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index9*/,
+            0/*iso*/, 15/*LuminDenoiseLevel*/, 40/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 3/*RingNoiseLevel*/,
+            0/*lux*/, 1/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index10*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+            ",
+  "Comment": "arcsoft_chdr_sensor_param_t"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.couplehdr",
+  "Type": "Float",
+  "Count": "153",
+  "Value": "
+            0 /* needNcf */,
+
+            11 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            6400/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -4/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index1*/,
+            4000/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -4/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index2*/,
+            3200/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -4/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index3*/,
+            2000/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -4/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index4*/,
+            1600/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            350/*lux*/, 25/*ToneLength*/, -4/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index5*/,
+            1000/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            300/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index6*/,
+            640/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            230/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 1/*SceneType*/
+
+            /*index7*/,
+            320/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            190/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 1/*SceneType*/
+
+            /*index8*/,
+            160/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            165/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index9*/,
+            110/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            120/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index10*/,
+            0/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+            ",
+  "Comment": "arcsoft_couplehdr_sensor_param_t"
+},
+
+{
+  "VendorTag": "aps.params.snapshot.couplehdr.face",
+  "Type": "Float",
+  "Count": "153",
+  "Value": "
+            0 /* needNcf */,
+
+            11 /*isoZoneNumber*/,
+
+            0 /*denoiseEnable*/
+
+            /*index0*/,
+            6400/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index1*/,
+            4000/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index2*/,
+            3200/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index3*/,
+            2000/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            550/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index4*/,
+            1600/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            370/*lux*/, 25/*ToneLength*/, -3/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index5*/,
+            1000/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            300/*lux*/, 25/*ToneLength*/, -2/*Brightness*/, 0/*Saturation*/, 2/*SceneType*/
+
+            /*index6*/,
+            640/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            230/*lux*/, 25/*ToneLength*/, -2/*Brightness*/, 0/*Saturation*/, 1/*SceneType*/
+
+            /*index7*/,
+            320/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            190/*lux*/, 25/*ToneLength*/, -2/*Brightness*/, 0/*Saturation*/, 1/*SceneType*/
+
+            /*index8*/,
+            160/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            165/*lux*/, 25/*ToneLength*/, -1/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index9*/,
+            0/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            120/*lux*/, 25/*ToneLength*/, -1/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index10*/,
+            0/*iso*/, 50/*LuminDenoiseLevel*/, 20/*ColorDenoiseLevel*/, 50/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 25/*ToneLength*/, -1/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index11*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index12*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index13*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+
+            /*index14*/,
+            0/*iso*/, 0/*LuminDenoiseLevel*/, 0/*ColorDenoiseLevel*/, 0/*SharpLevel*/, 0/*RingNoiseLevel*/,
+            0/*lux*/, 0/*ToneLength*/, 0/*Brightness*/, 0/*Saturation*/, 0/*SceneType*/
+            ",
+  "Comment": "arcsoft_couplehdr_sensor_param_t"
+},
+
+{
+  "Key": "MERGE_HDR_VERSION_SUPPORT",
+  "Type": "Int32",
+  "Count": "2",
+  "Value": "7       /* hdrVersion */,
+            2       /* cHdrVersion */",
+  "Comment": "hdrVersion; cHdrVersion"
+},
+
+{
+  "Key": "MERGE_HDR_SUPPORT",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "aps.params.draw.text.info",
+  "Type": "Int32",
+  "Count": "8",
+  "Value": "1   /*cap origin coordinate*/,
+            1   /*cap paint direct 0:y-axis 1:x-axis**/,
+            5   /*cap x-axis ratio*/,
+            5   /*cap y-axis ratio*/,
+            1   /*font ratio*/,
+            0   /*font color 0:black 255:white*/,
+            200 /*backgroup color 0:black 255:white*/,
+            0   /*disable align*/"
+},
+
+{
+  "Key": "TURBO_HDR_CROP_STATUS",
+  "Value": "1",
+  "Comment": "isp crop for turboraw, upscale crop for zoom"
+},
+
+{
+  "Key": "COUPLE_HDR_FACE_LUMA_RATIO_THRESHOLD",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "0.35",
+  "Comment": "face luma retio threshold for quick jpeg chdr"
+},
+
+{
+  "Key": "COUPLE_HDR_LUX_INDEX_THRESHOLD",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "280",
+  "Comment": "lux index threshold for quick jpeg chdr"
+},
+
+{
+  "Key": "IS_SUPPORT_TURBORAW_FRAMELESS",
+  "Type": "Int32",
+  "Count": "6",
+  "Value": "1,0,0,0,0,0",
+  "Comment": "enable or disable turboraw frameless of each sensorMode
+              sensorMode: BINNING, IZOOM, 1DOL, 2DOL, IZOOM_2DOL,IZOOM_QBC"
+},
+
+{
+  "Key": "SHADING_TABLE_FIX_NUM_PARAM",
+  "Type": "Int32",
+  "Count": "3",
+  "Value": "1,
+            2  /*begin 0 -1:each frame index */,
+            2  /*begin 0 -1:each frame index */",
+  "Comment": "enable, ev0FixNum, evMinusFixNum"
+},
+
+{
+  "Key": "SENSOR_ROLE_TYPE",
+  "Value": "3",
+  "Comment": "0:main 1:wide 2:tele 3:front"
+}
+]
+}

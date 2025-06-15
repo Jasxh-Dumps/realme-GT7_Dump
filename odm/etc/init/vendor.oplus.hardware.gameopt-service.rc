@@ -1,0 +1,69 @@
+service gameopt_hal_service-1-0 /odm/bin/hw/vendor.oplus.hardware.gameopt-service
+    class hal
+    user root
+    group system readproc root
+    capabilities SYS_NICE
+    interface aidl vendor.oplus.hardware.gameopt.IGameOptHalService/default
+
+on property:sys.boot_completed=1
+    chmod 0660 /proc/game_opt/cpu_load
+    chmod 0664 /proc/game_opt/cpu_max_freq
+    chmod 0664 /proc/game_opt/cpu_min_freq
+    chmod 0660 /proc/game_opt/render_thread_info
+    chmod 0660 /proc/game_opt/rt_info
+    chmod 0660 /proc/game_opt/rt_num
+    chmod 0660 /proc/game_opt/game_pid
+    chmod 0660 /proc/game_opt/heavy_task_info
+    chmod 0660 /proc/game_opt/key_tasks
+    chmod 0660 /proc/game_opt/dstate/dump_enable
+    chmod 0660 /proc/game_opt/dstate/duration
+    chmod 0660 /proc/game_opt/dstate/interested_tids
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/bus_nolimit
+    chmod 0664 /proc/sys/walt/sched_pipeline_pids
+    chmod 0664 /proc/aoss_send_message
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:silver/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:silver/max_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:gold/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:gold/max_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime/max_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime-compute/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime-compute/max_freq
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/gpu_available_frequencies
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/max_pwrlevel
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/min_pwrlevel
+    chmod 0662 /sys/class/kgsl/kgsl-3d0/perfcounter
+    chmod ug+w /sys/devices/system/cpu/cpufreq/policy?/scaling_governor
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/dvcs_tuning_mincap
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/dvcs_tuning_numbusy
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/dvcs_tuning_penalty
+
+on property:ro.product.model=PKW110
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=PKW120
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2733
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2735
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2751
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2753
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2759
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2727
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2725
+    stop gameopt_hal_service-1-0
+
+on property:ro.product.model=CPH2755
+    stop gameopt_hal_service-1-0

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <prjname>24749></prjname>
+    <!-- memory 8g -->
+    <memory_8g>
+        <!-- zram0 configuration -->
+        <zram0>
+            <comp_algorithm>zstd</comp_algorithm>
+        </zram0>
+        <!-- zram_opt configuration -->
+        <zram_opt>
+            <vm_swappiness>100</vm_swappiness>
+        </zram_opt>
+    </memory_8g>
+</config>

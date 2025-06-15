@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+    <TestCase mode="QtTest">
+        <Combo>
+            <Band rat="LTE" number="1">
+                <Channel type="Mid"></Channel>
+            </Band>
+            <Band rat="NR5G" number="78">
+                <Channel type="Mid"></Channel>
+            </Band>
+        </Combo>
+        <Combo>
+            <Band rat="LTE" number="3">
+                <Channel type="Mid"></Channel>
+            </Band>
+            <Band rat="NR5G" number="78">
+                <Channel type="Mid"></Channel>
+            </Band>
+        </Combo>
+        <Combo>
+            <Band rat="LTE" number="7">
+                <Channel type="Mid"></Channel>
+            </Band>
+            <Band rat="NR5G" number="78">
+                <Channel type="Mid"></Channel>
+            </Band>
+        </Combo>
+        <Combo>
+            <Band rat="LTE" number="40">
+                <Channel type="Mid"></Channel>
+            </Band>
+            <Band rat="NR5G" number="78">
+                <Channel type="Mid"></Channel>
+            </Band>
+        </Combo>
+        <Combo>
+            <Band rat="LTE" number="41">
+                <Channel type="Mid"></Channel>
+            </Band>
+            <Band rat="NR5G" number="78">
+                <Channel type="Mid"></Channel>
+            </Band>
+        </Combo>
+        <Combo>
+            <Band rat="LTE" number="20">
+                <Channel type="Mid"></Channel>
+            </Band>
+            <Band rat="NR5G" number="28">
+                <Channel type="Mid"></Channel>
+            </Band>
+        </Combo>
+    </TestCase>
+</RFTOOLKIT>

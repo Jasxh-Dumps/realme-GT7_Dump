@@ -1,0 +1,431 @@
+{
+    "file_version": 2025012022,
+    "default": {
+        "third_mfnr_config": [
+            "com.linecorp.b612.android",
+            "com.commsource.beautyplus",
+            "com.tencent.mobileqq",
+            "com.tencent.mm",
+            "com.snapchat.android",
+            "vStudio.Android.Camera360",
+            "com.gorgeous.lite",
+            "com.tencent.wework",
+            "com.whatsapp",
+            "com.mt.mtxx.mtxx",
+            "com.facebook.katana",
+            "com.facebook.orca",
+            "com.facebook.mlite",
+            "com.instagram.android",
+            "com.meitu.meiyancamera",
+            "com.ss.android.ugc.aweme",
+            "com.smile.gifmaker",
+            "com.zhiliaoapp.musically",
+            "com.google.android.apps.tachyo",
+            "com.gorgeous.lite",
+            "com.kwai.m2u",
+            "com.linecorp.b612.android",
+            "com.intsig.camscanner",
+            "com.itc.wts88051_autotest",
+            "com.cyberlink.youperfect",
+            "com.benqu.wuta",
+            "com.alibaba.android.rimet",
+            "com.tencent.zebra",
+            "com.xhey.xcamera",
+            "com.lemon.faceu",
+            "com.meitu.wheecam",
+            " com.dianping.v1",
+            "com.campmobile.snowcamera",
+            "com.gorgeous.liteinternational",
+            "com.alibaba.dingtalk.global",
+            "com.joeware.android.gpulumera"
+        ],
+        "third_SkipOsensConfigByActivity": [
+            "com.tencent.mm.plugin.scanner.ui.BaseScanUI"
+        ],
+        "third_sensormodeByPackage": [
+            1,       -1,       -1,       -1,       -1,       1280,       -1,       0
+       ],
+       "custom_rrzosize": [
+            2,      32932,        0,     4096,       2304,
+            3,      32932,        0,     4096,       2304,
+            4,      32932,        0,     4096,       2304,
+            1,      32811,        0,     2286,       1286,
+            2,      32779,        0,     2400,       1352,
+            3,      32779,        0,     2400,       1352,
+            2,      32808,        0,     2752,       2064,
+            3,      32808,        0,     3264,       1836,
+            1,      32779,        0,     2110,       1186,
+            1,      32935,        0,     2110,       1186,
+            1,      32935,        2,     3264,       1856,
+            1,      32779,        2,     3264,       1856,
+            4,      32779,        3,     4096,       2304,
+            4,      32935,        3,     4096,       2304,
+            3,      32779,        3,     4080,       2295,
+            3,      32935,        3,     4080,       2295,
+            2,      32779,        3,     4096,       2304,
+            2,      32935,        3,     4096,       2304,
+            2,      32935,        1,     2400,       1352,
+            3,      32935,        1,     2400,       1352,
+            4,      32935,        1,     2400,       1352,
+            2,      32779,        1,     2400,       1352,
+            3,      32779,        1,     2400,       1352,
+            4,      32779,        1,     2400,       1352,
+            2,      32801,        1,     2400,       1352,
+            3,      32801,        1,     2400,       1352,
+            4,      32801,        1,     2400,       1352,
+            2,      32780,        1,     2400,       1352,
+            3,      32780,        1,     2400,       1352,
+            4,      32780,        1,     2400,       1352,
+            2,      32801,        3,     3840,       2160,
+            3,      32801,        3,     3840,       2160,
+            4,      32801,        3,     3840,       2160,
+            2,      32801,        64,     2400,       1352,
+            2,      32801,        70,     3840,       2160,
+            2,      32935,        2,     2400,       1352,
+            3,      32935,        3,     2400,       1352,
+            4,      32935,        4,     2400,       1352,
+            2,      32935,        2,     4096,       2304,
+            3,      32935,        3,     4080,       2295,
+            4,      32935,        4,     4096,       2304
+        ]
+    },
+    "OplusSysCam": {
+        "customFpsByThermal": [
+                 32801,   -1,  3840,    2160,     -1,       60,         39,          60,        41,         50,          45
+        ]
+    },
+    "android.camera.cts": {
+        "third_sensormodeByPackage": [
+            2,       -1,       -1,       -1,       -1,      -1,       -1,       0,
+            1,       -1,       -1,       -1,       -1,    1280,       -1,       0,
+            1,       -1,       -1,      570,       -1,      -1,       -1,       0,
+            1,       -1,       -1,       -1,       -1,      -1,       -1,       2
+       ]
+    },
+    "com.android.cts.verifier": {
+        "third_sensormodeByPackage": [
+            2,       -1,       -1,       570,       -1,      -1,       -1,       1,
+            1,       -1,       -1,       -1,        -1,    1280,       -1,       0,
+            1,       -1,       -1,       570,       -1,      -1,       -1,       0
+       ],
+       "third_osense": [
+           "OSENSE_ACTION_CAMERA_3RD_PARTY",
+           "OSENSE_ACTION_CAMERA_3RD_PARTY"
+       ]
+    },
+    "com.tencent.mm": {
+        "third_osense": [
+            "OSENSE_ACTION_CAMERA_3RD_PARTY_LOW_POWER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.tencent.mm.plugin.recordvideo.activity.MMRecordUI": {
+        "third_sensormodeByActivity": [
+            2,       1,       -1,       -1,       -1,      -1,       -1,       -1,       -1,
+            2,       2,       -1,       -1,       -1,      -1,       -1,       -1,       -1
+        ],
+        "custom_rrzosize": [
+            2,      -1,        0,      1920,    1080,
+            1,      -1,        0,      1920,    1080
+        ]
+    },
+    "com.tencent.mm.plugin.scanner.ui.BaseScanUI": {
+        "third_sensormodeByActivity": [
+            2,       -1,       -1,       -1,       -1,      -1,       -1,       -1,       2
+        ],
+        "third_osenseByActivity": [
+            "OSENSE_ACTION_CAMERA_3RD_PARTY_LOW_POWER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_MIDPERF",
+            "OSENSE_ACTION_CAMERA_3RD_PARTY_LOW_POWER",
+            "OSENSE_ACTION_CAMERA_3RD_PARTY"
+        ]
+    },
+    "com.tencent.mm.plugin.voip.ui.VideoActivity": {
+        "third_sensormodeByActivity": [
+            2,      -1,       -1,       -1,       -1,      -1,       -1,       -1,       2,
+            1,      -1,       -1,       -1,       -1,      -1,       -1,       -1,       7
+        ],
+        "custom_rrzosize": [
+            2,      -1,        0,      1600,    900,
+            1,      -1,        0,      1600,    900
+        ],
+        "third_osenseByActivity": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_CALL",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_CALL",
+            "",
+            ""
+        ]
+    },
+    "com.tencent.mm.ui.LauncherUI": {
+        "third_sensormodeByActivity": [
+            1,      -1,       -1,       -1,       -1,      -1,       -1,       -1,       7
+        ],
+        "custom_rrzosize": [
+            1,      -1,        0,      1600,    900
+        ]
+    },
+    "com.tencent.mm.ui.chatting.ChattingUI": {
+        "third_sensormodeByActivity": [
+            1,      -1,       -1,       -1,       -1,      -1,       -1,       -1,       7
+        ],
+        "custom_rrzosize": [
+            1,      -1,        0,      1600,    900
+        ]
+    },
+    "com.tencent.mm.ui.SingleChatInfoUI": {
+        "third_sensormodeByActivity": [
+            1,      -1,       -1,       -1,       -1,      -1,       -1,       -1,       7
+        ],
+        "custom_rrzosize": [
+            1,      -1,        0,      1600,    900
+        ]
+    },
+    "com.tencent.mm.plugin.profile.ui.ContactInfoUI": {
+        "third_sensormodeByActivity": [
+            1,      -1,       -1,       -1,       -1,      -1,       -1,       -1,       7
+        ],
+        "custom_rrzosize": [
+            1,      -1,        0,      1600,    900
+        ]
+    },
+    "com.tencent.mm.plugin.multitalk.ui.MultiTalkMainUI": {
+        "third_sensormodeByActivity": [
+            -1,       1,       -1,      -1,       -1,       -1,       -1,       -1,       2
+        ]
+    },
+    "com.tencent.mobileqq": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ],
+        "third_OrmsRunDelayframes": 90
+    },
+    "com.tencent.ig": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.tencent.wework": {
+        "third_sensormodeByPackage": [
+            1,       -1,       -1,       -1,       -1,       -1,       -1,       0
+       ]
+    },
+    "com.ss.android.ugc.aweme": {
+        "third_sensormodeByPackage": [
+            -1,       -1,       -1,       -1,       -1,       -1,       -1,       2
+       ],
+       "third_OrmsRunDelayframes": 30
+    },
+    "com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity": {
+        "third_sensormodeByActivity": [
+            1,        -1,       -1,      -1,       -1,       -1,       -1,       -1,       2
+        ],
+        "custom_rrzosize": [
+            2,   32779,        0,      2304,    1296,
+            3,   32779,        0,      2304,    1296
+        ],
+        "customFpsByThermal": [
+            -1,    1,    -1,    -1,    -1,    30,    39,    26,    41,    26,    45
+        ]
+    },
+    "com.ss.android.ugc.aweme.closefriends.CloseFriendsActivity": {
+        "third_sensormodeByActivity": [
+            3,        -1,       -1,      -1,       -1,       -1,       -1,       -1,       0
+        ],
+        "custom_rrzosize": [
+            3,        -1,        0,      1445,    1088
+        ]
+    },
+    "com.smile.gifmaker": {
+        "third_sensormodeByPackage": [
+            2,       -1,       -1,       -1,       -1,       -1,       -1,       2,
+            3,       -1,       -1,       -1,       -1,       -1,       -1,       2,
+            1,       -1,       -1,       -1,       -1,       -1,       -1,       2
+       ],
+       "third_osense": [
+           "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+           "OSENSE_ACTION_CAMERA_FRONT_PREVIEW"
+       ]
+    },
+    "com.kuaishou.nebula": {
+        "third_sensormodeByPackage": [
+            2,       -1,       -1,       -1,       -1,       -1,       -1,       2,
+            3,       -1,       -1,       -1,       -1,       -1,       -1,       2
+       ],
+       "third_osense": [
+           "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+           "OSENSE_ACTION_CAMERA_FRONT_PREVIEW"
+       ]
+    },
+    "com.alibaba.android.rimet": {
+        "third_sensormodeByPackage": [
+            1,       -1,       -1,       -1,       -1,       -1,       -1,       0
+       ]
+    },
+    "jp.naver.line.android": {
+        "third_sensormodeByPackage": [
+            1,       -1,       -1,       -1,       -1,       1280,       -1,       2
+       ]
+    },
+    "ru.yandex.searchplugin": {
+        "third_sensormodeByPackage": [
+            2,       -1,       -1,       -1,       -1,       -1,       -1,       0
+       ]
+    },
+    "autotest.oplus.com.simulatedlivebroadcast": {
+        "third_sensormodeByPackage": [
+            2,       -1,       -1,       -1,       -1,       -1,       -1,       0
+       ]
+    },
+    "com.tencent.av.ui.AVActivity": {
+        "third_sensormodeByActivity": [
+            1,       -1,       -1,      -1,       -1,       -1,       -1,       -1,       2
+        ],
+        "custom_rrzosize": [
+            2,      -1,        0,      1600,    1200,
+            1,      -1,        0,      1600,    900
+        ]
+    },
+    "com.alipay.mobile.scan.as.main.MainCaptureActivity": {
+        "third_sensormodeByActivity": [
+            2,       -1,       -1,      -1,       -1,       -1,       -1,       -1,       2
+        ]
+    },
+    "com.dw.btime": {
+        "third_sensormodeByPackage": [
+            -1,       -1,       -1,       -1,       -1,       -1,       -1,       2
+       ]
+    },
+    "com.yxcorp.gifshow.camera.record.CameraActivity": {
+        "custom_rrzosize": [
+            2,      32808,        0,      2752,    2064,
+            3,      32808,        0,      3264,    1836,
+            2,      32811,        0,      4096,    2304,
+            3,      32811,        0,      4080,    2296,
+            -1,        -1,        0,      1920,    1080
+        ]
+    },
+    "com.kuaishou.live.anchor.basic.activity.LivePushActivity": {
+        "custom_rrzosize": [
+            -1,      -1,        0,      1920,    1080
+        ]
+    },
+    "com.tencent.aelight.camera.aebase.QIMCameraCaptureActivity": {
+        "custom_rrzosize": [
+            -1,      -1,        0,      1600,    1200
+        ]
+    },
+    "com.tencent.mobileqq.olympic.activity.ScanTorchActivity": {
+        "custom_rrzosize": [
+            2,      -1,        0,      1280,    960
+        ]
+    },
+    " com.android.cts.verifier.camera.its.ItsTestActivity": {
+        "third_MTKEISConfig": [
+            1,      1,
+            0,      1,
+            2,      1,
+            3,      1
+        ]
+    },
+    "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity": {
+        "third_MTKEISConfig": [
+            1,      1,
+            0,      1,
+            2,      1,
+            3,      1
+        ]
+    },
+    " com.android.cts.verifier.TestListActivity": {
+        "third_MTKEISConfig": [
+            1,      1,
+            0,      1,
+            2,      1,
+            3,      1
+        ]
+    },
+    "com.eg.android.AlipayGphone": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.eg.android.AlipayGphone.AlipayLogin": {
+        "third_sensormodeByActivity": [
+            2,       -1,       -1,      -1,       -1,       -1,       -1,       -1,       2
+        ]
+    },
+    "com.snapchat.android": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.android.incallui": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.zhiliaoapp.musically": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.facebook.katana": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.whatsapp": {
+        "third_osense": [
+            "OSENSE_ACTION_CAMERA_VIDEO_FHD30",
+            "OSENSE_ACTION_CAMERA_VIDEO_FHD30"
+        ]
+    },
+    "com.whatsapp.voipcalling.VoipActivityV2": {
+        "third_osenseByActivity": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_CALL",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_CALL",
+            "",
+            ""
+        ]
+    },
+    "com.instagram.android": {
+        "third_sensormodeByPackage":[
+                2,       -1,       -1,       -1,       -1,       -1,       -1,       0,
+                3,       -1,       -1,       -1,       -1,       -1,       -1,       0,
+                4,       -1,       -1,       -1,       -1,       -1,       -1,       0
+        ],
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ]
+    },
+    "com.google.android.youtube": {
+        "third_osense": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_HIGHPERF"
+        ],
+        "third_osenseBycallPackage": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER"
+        ]
+    },
+    "com.google.android.libraries.youtube.edit.gallery.GalleryActivity": {
+        "third_osenseByActivity": [
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER",
+            "OSENSE_ACTION_3RD_CAM_VIDEO_RECORDER",
+            "",
+            ""
+        ]
+    },
+    "com.zeku.camera2tool": {
+        "third_sensormodeByPackage": [
+            1,       -1,       -1,       -1,       -1,       -1,       -1,       0
+       ]
+    }
+}

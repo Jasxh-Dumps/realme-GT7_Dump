@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sixth_wrapper_config>
+    <config_element name="hpf" enable="0" frq1="109" frq2="53" 
+        description="set hpf req"/>
+    <config_element name="vdd" enable="1" battery_node="/sys/devices/platform/soc/soc:oplus,mms_gauge/oplus_mms/gauge/battery/voltage_now" 
+        vdd_step="10" description="read vdd and set limit gain, vdd_step(mv)">
+        <value_map_0 threshold="3800" ratio_value ="7200000,7600000" description="limit ratio"/>
+        <value_map_0 threshold="3720" ratio_value ="6100000,6500000" description="limit ratio"/>
+        <value_map_0 threshold="3600" ratio_value ="5200000,5600000" description="limit ratio"/>
+        <value_map_0 threshold="3450" ratio_value ="4100000,4500000" description="limit ratio"/>
+        <value_map_0 threshold="3350" ratio_value ="3300000,3700000" description="limit ratio"/>
+        <value_map_0 threshold="0" ratio_value ="3050000,3450000" description="limit ratio"/>
+        <value_map_1 threshold="3800" ratio_value ="1000000,3450000" description="limit ratio"/>
+        <value_map_1 threshold="3720" ratio_value ="1000000,3450000" description="limit ratio"/>
+        <value_map_1 threshold="3600" ratio_value ="1000000,3450000" description="limit ratio"/>
+        <value_map_1 threshold="3450" ratio_value ="1000000,3450000" description="limit ratio"/>
+        <value_map_1 threshold="3350" ratio_value ="1000000,3450000" description="limit ratio"/>
+        <value_map_1 threshold="0" ratio_value ="1000000,3450000" description="limit ratio"/>
+    </config_element> 
+    <config_element name="timer_cfg" enable="1" description="turn on/off timer"/>
+    <config_element name="debug_cfg" enable="0" description="turn on/off debug msg"/>
+    <config_element name="pvdd_limit_cfg" enable="0" description="turn on/off pvdd limit"/>
+    <config_element name="lp_protect_cfg" enable="1" description="turn on/off interval set lp value"/>
+    <config_element name="algo_val_set" enable="1" description="set algo param, eg, r0, f0"/>
+    <config_element name="lp_set" enable="1" description="Is init lp value"/>
+</sixth_wrapper_config>

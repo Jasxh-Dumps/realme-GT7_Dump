@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_config>
+    <feature name="USB_SPEECH_ECHO_DELAY" config="yes"/>
+    <feature name="GOODIX_LVACFS" config="All"/>
+    <feature name="OPLUS_KTV" config="KTV_V2_PCM"/>
+    <feature name="OPLUS_IV_DATA_SUPPORT" config="yes"/>
+    <feature name="OPLUS_RECORD_MUTE_TIME_MS" config="120"/>
+	<feature name="OPLUS_ADC_AGING_SUPPORT" config="HDR1"/>
+	<feature name="OPLUS_HDR_RUS" config="yes"/>
+    <feature name="OPLUS_USB_KTV_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AEC_RECORD_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AGING_CALIB_RETRY_SUPPORT" config="yes"/>
+    <feature name="OPLUS_RECORD_FADE_IN_TIME_MS" config="60"/>
+    <feature name="OPLUS_SURROUND_RECORD_TYPE" config="lvacfs"/>
+    <feature name="OPLUS_SMARTPA_PM_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AUDIO_DETECT_SUPPORT" config="yes"/>
+    <feature name="OPLUS_PCM_OPEN_WORKAROUND" config="yes"/>
+    <feature name="OPLUS_BYPASS_MICSWAP_SUPPORT" config="no"/>
+    <feature name="gvoice_adsp_supoort_mode" config="0011"/>
+    <feature name="oplus_lvve_err_fb" config="yes"/>
+    <feature name="oplus_voice_call_fb" config="yes"/>
+    <feature name="OPLUS_USE_OLD_DUMP_VERSION" config="yes"/>
+    <feature name="OPLUS_FEEDBACK_DEBUG_SUPPORT" config="yes"/>
+    <feature name="OPLUS_MMI_MAINHL_ID" config="13"/>
+    <feature name="OPLUS_EM_MMI_NO_TINYPLAY" config="yes"/>
+    <feature name="OPLUS_EM_CALIBRATED_RESULT_CHECK" config="yes"/>
+    <!-- adsp load monitor config start -->
+    <feature name="OPLUS_ADSP_LOAD_MONITOR_SUPPORT" config="yes"/>
+    <!-- default value 500ms -->
+    <feature name="OPLUS_ADSP_LOAD_MONITOR_SET_PERIOD" config="500"/>
+    <!-- default value 90 -->
+    <feature name="OPLUS_ADSP_LOAD_MONITOR_SET_LOAD_THRESHOLD" config="90"/>
+    <!-- default value 2 -->
+    <feature name="OPLUS_ADSP_LOAD_MONITOR_SET_FB_COUNT_THRESHOLD" config="2"/>
+    <!-- bit mask: 0x1:SMARTPA_PM, 0x02:AUD_DET -->
+    <feature name="OPLUS_ADSP_LOAD_MONITOR_DYNAMIC_BYPASS_ALGO" config="3"/>
+    <!-- adsp load monitor config end -->
+    <feature name="OPLUS_AUDIO_DAEMON_HAL" config="yes"/>
+    <feature name="SKIP_PLAYBACK_NORMAL_INTERRUPT_RATE_ADAPTION" config="yes"/>
+    <feature name="SKIP_CAPTURE_NORMAL_INTERRUPT_RATE_ADAPTION" config="yes"/>
+    <feature name="FTM_SPK_SgenMode" config="58"/>
+    <feature name="OPLUS_AUDIO_VOCAL_HIGHLIGH_DEV_MASK" config="0x3"/>
+    <feature name="OPLUS_RECORD_MIC_NUM" config="2"/>
+    <feature name="OPLUS_RECORD_MIC_REF_NUM" config="2"/>
+    <feature name="OPLUS_RECORD_ALGO_TYPE" config="LVACFS"/>
+    <feature name="OPLUS_FEATURE_VOICE_SUPER_VOLUME" config="SUPPORT"/> 
+    <feature name="SKIP_PLAYBACK_NORMAL_INTERRUPT_RATE_ADAPTE" config="yes"/>
+    <feature name="OPLUS_AUDIO_FEATURE_ULTRASOUND_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AUDIO_UAD_SUPPORT" config="yes"/>
+    <feature name="OPLUS_SIA_PA_SUPPORT" config="true"/>
+    <feature name="voice_isolation_enable" config="true"/>
+    <!-- oplus_check_speaker only for sia91xx smartpa (20240327) -->
+    <feature name="oplus_check_speaker" config="yes"/>
+    <feature name="OPLUS_FEATURE_DUALHEADPHONE" config="yes"/>
+    <feature name="OPLUS_SIXTHPA_USE_NEW_WAY_CREATE" config="no"/>
+</audio_config>

@@ -1,0 +1,25 @@
+battery_property_table_start
+4=col
+0x75160833=crc
+2, 2, 1, 2
+battery_property_table_end
+dchg_volt_up_table_start
+3=col
+0xfc8ce0c0=crc
+3.0, 0.04, 3.45
+dchg_volt_up_table_end
+cap_loss_rate_max_table_start
+2=col
+0x814d6dd5=crc
+0.15, 0.36
+cap_loss_rate_max_table_end
+cap_cell_max_table_start
+2=col
+0xb2090fed=crc
+2750.0, 2750.0
+cap_cell_max_table_end
+cc_ratio_table_start
+2=col
+0x37bc50eb=crc
+0.85, 0.85
+cc_ratio_table_end

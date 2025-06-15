@@ -1,0 +1,5 @@
+service oplus.engineer-1-0 /odm/bin/hw/vendor-oplus-hardware-engineer-V1-service
+    class main
+    user root
+    group root system graphics
+    interface aidl vendor.oplus.hardware.engineer.IEngineer/default

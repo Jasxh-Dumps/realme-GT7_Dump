@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sys_thermal_zoom_window_restrict_list>
+
+    <version>2023031601</version>
+
+    <array name="restrict_packages">
+        <!-- 悬浮窗 -->
+        <value policy="2">com.tencent.mm</value>
+        <value policy="2">com.tencent.mobileqq</value>
+
+        <value policy="1">com.ss.android.ugc.aweme</value>
+        <value policy="1">com.smile.gifmaker</value>
+        <value policy="1">air.tv.douyu.android</value>
+        <value policy="1">com.duowan.kiwi</value>
+        <value policy="1">com.taobao.taobao</value>
+        <value policy="1">com.jingdong.app.mall</value>
+        <value policy="1">com.tmall.wireless</value>
+        <value policy="1">tv.danmaku.bili</value>
+        <value policy="1">com.youku.phone</value>
+        <value policy="1">com.qiyi.video</value>
+        <value policy="1">com.tencent.qqlive</value>
+    </array>
+
+    <array name="restrict_activities">
+        <!-- 自由浮窗 -->
+        <value policy="1">com.ss.android.ugc.aweme/.splash.SplashActivity</value>
+        <value policy="1">com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity</value>
+        <value policy="1">air.tv.douyu.android/tv.douyu.view.activity.PlayerActivity</value>
+        <value policy="1">com.duowan.kiwi/.liveroom.ChannelPage</value>
+        <value policy="1">com.taobao.taobao/com.taobao.taolive.room.TaoLiveVideoActivity</value>
+        <value policy="1">com.jingdong.app.mall/com.jd.lib.mylive.view.activity.VideoLiveRoomActivity</value>
+        <value policy="1">com.tmall.wireless/.livePlay.room.TaoLiveVideoActivity</value>
+        <value policy="1">tv.danmaku.bili/.ui.video.VideoDetailsActivity</value>
+        <value policy="1">tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity</value>
+        <value policy="1">tv.danmaku.bili/com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3</value>
+        <value policy="1">tv.danmaku.bili/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3</value>
+        <value policy="1">tv.danmaku.bili/com.bilibili.video.videodetail.VideoDetailsActivity</value>
+
+        <value policy="1">com.tencent.tmgp.sgame/.SGameActivity</value>
+        <value policy="1">com.tencent.tmgp.pubgmhd/com.epicgames.ue4.GameActivity</value>
+
+        <!-- 画中画 -->
+        <value policy="1">com.youku.phone/com.youku.ui.activity.DetailActivity</value>
+        <value policy="1">com.qiyi.video/org.iqiyi.video.activity.PlayerActivity</value>
+        <value policy="1">com.tencent.qqlive/.ona.activity.VideoDetailActivity</value>
+
+        <value policy="1">us.zoom.videomeetings/com.zipow.videobox.conference.ui.ZmConfPipActivity</value>
+    </array>
+
+    <array name="restrict_windows">
+    </array>
+</sys_thermal_zoom_window_restrict_list>

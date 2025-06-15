@@ -1,0 +1,97 @@
+{
+    "ENABLE_INTERPOLATION": true,
+    "VAINR_INFO": [
+    {
+        "camera_name": "front",
+        "camera_id": 1,
+        "luxindex_threshold": [350, 380],
+        "drcgain_idx":[200, 400, 800],
+        "par_lut":[
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9600, 12800, 16000],
+            "nr_strength":[0, 10, 20, 30, 40, 50],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9600, 12800, 16000],
+            "nr_strength":[0, 10, 20, 30, 40, 50],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9600, 12800, 16000],
+            "nr_strength":[0, 10, 20, 30, 40, 50],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        }
+        ]
+    },
+    {
+        "camera_name": "main",
+        "camera_id": 0,
+        "luxindex_threshold": [480, 500],
+        "drcgain_idx":[200, 400, 800],
+        "par_lut":[
+        {
+            "ISO_idx":   [6400, 10000, 13200, 17200, 21600, 24800],
+            "nr_strength":[0, 0, 3, 13, 21, 27],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [6400, 10000, 13200, 17200, 21600, 24800],
+            "nr_strength":[0, 0, 3, 13, 21, 27],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [6400, 10000, 13200, 17200, 21600, 24800],
+            "nr_strength":[0, 0, 3, 13, 21, 27],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        }
+        ]
+    },
+    {
+        "camera_name": "uwide",
+        "camera_id": 2,
+        "luxindex_threshold": [320, 350],
+        "drcgain_idx":[200, 400, 800],
+        "par_lut":[
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9000, 12800, 16000],
+            "nr_strength":[5, 15, 30, 35, 40, 45],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9000, 12800, 16000],
+            "nr_strength":[10, 20, 35, 35, 40, 45],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9000, 12800, 16000],
+            "nr_strength":[10, 20, 35, 35, 40, 45],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        }
+        ]
+    },
+    {
+        "camera_name": "tele",
+        "camera_id": 3,
+        "luxindex_threshold": [320, 350],
+        "drcgain_idx":[200, 400, 800],
+        "par_lut":[
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9000, 12800, 16000],
+            "nr_strength":[10, 30, 40, 50, 60, 70],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9000, 12800, 16000],
+            "nr_strength":[10, 30, 40, 50, 60, 70],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        },
+        {
+            "ISO_idx":   [1600, 3200, 6400, 9000, 12800, 16000],
+            "nr_strength":[10, 30, 40, 50, 60, 70],
+            "ee_strength":[0, 0, 0, 0, 0, 0]
+        }
+        ]
+    }
+    ]
+}

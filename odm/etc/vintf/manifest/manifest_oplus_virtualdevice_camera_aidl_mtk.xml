@@ -1,0 +1,18 @@
+<manifest version="2.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.camera.provider</name>
+        <version>1</version>
+        <interface>
+            <name>ICameraProvider</name>
+            <instance>oplus/0</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.virtual_device.camera.manager</name>
+        <version>1</version>
+        <interface>
+            <name>IVirtualCameraManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

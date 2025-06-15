@@ -1,0 +1,4 @@
+#audiozoom_3.txt use for tracking recording.
+
+#MIN   MAX       EFFECTLEVEL      VF    AngleWidth     Gain1~~~Gain8
+0       1.099      	100              100    20                    2  0  0   0   0  0  0 0

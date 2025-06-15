@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mipc_device_config>
+    <platform name="mt6983" mipc_device="/dev/ttyCMIPC8"/>
+</mipc_device_config>
