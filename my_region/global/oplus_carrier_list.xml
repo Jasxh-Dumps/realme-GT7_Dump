@@ -1,0 +1,2532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oplus_carriers version="107">
+	<!--timestamp 20241204150000-->
+	<carrier carrier_id="1001S1DT_CMCC" country_region_code="CN">
+		<siminfo mccmnc="46099"/>
+	</carrier>
+	<carrier carrier_id="1001_CMCC" country_region_code="CN">
+		<siminfo mccmnc="46000"/>
+		<siminfo mccmnc="46002"/>
+		<siminfo mccmnc="46004"/>
+		<siminfo mccmnc="46007"/>
+		<siminfo mccmnc="46008"/>
+	</carrier>
+	<carrier carrier_id="1002_CU" country_region_code="CN">
+		<siminfo mccmnc="46001"/>
+		<siminfo mccmnc="46006"/>
+		<siminfo mccmnc="46009"/>
+		<siminfo mccmnc="46030"/>
+	</carrier>
+	<carrier carrier_id="1003_CT" country_region_code="CN">
+		<siminfo mccmnc="46003"/>
+		<siminfo mccmnc="46005"/>
+		<siminfo mccmnc="46011"/>
+		<siminfo mccmnc="46012"/>
+	</carrier>
+	<carrier carrier_id="1004_CBN" country_region_code="CN">
+		<siminfo mccmnc="46015"/>
+	</carrier>
+	<carrier carrier_id="1005_3-HK" country_region_code="HK">
+		<siminfo mccmnc="45403"/>
+		<siminfo mccmnc="45414"/>
+	</carrier>
+	<carrier carrier_id="1006_CMHK" country_region_code="HK">
+		<siminfo mccmnc="45412"/>
+		<siminfo mccmnc="45413"/>
+	</carrier>
+	<carrier carrier_id="1007_CMHKairport" country_region_code="HK">
+		<siminfo mccmnc="45430"/>
+	</carrier>
+	<carrier carrier_id="1009_CTG" country_region_code="HK">
+		<siminfo mccmnc="45431"/>
+	</carrier>
+	<carrier carrier_id="1010_CMHKgov" country_region_code="HK">
+		<siminfo mccmnc="454299"/>
+	</carrier>
+	<carrier carrier_id="1011_KT" country_region_code="KR">
+		<siminfo mccmnc="45002"/>
+		<siminfo mccmnc="45004"/>
+		<siminfo mccmnc="45008"/>
+	</carrier>
+	<carrier carrier_id="1012_LGUplus" country_region_code="KR">
+		<siminfo mccmnc="45006"/>
+	</carrier>
+	<carrier carrier_id="1013_SKTelecom" country_region_code="KR">
+		<siminfo mccmnc="45005"/>
+	</carrier>
+	<carrier carrier_id="1014_Virgin" country_region_code="SA">
+		<siminfo mccmnc="42005"/>
+	</carrier>
+	<carrier carrier_id="1015_GTA" country_region_code="GU">
+		<siminfo mccmnc="310140"/>
+	</carrier>
+	<carrier carrier_id="1016_iConnect" country_region_code="GU">
+		<siminfo mccmnc="310480"/>
+	</carrier>
+	<carrier carrier_id="1017_ITE" country_region_code="GU">
+		<siminfo mccmnc="310110"/>
+	</carrier>
+	<carrier carrier_id="1018_Lebara" country_region_code="SA">
+		<siminfo mccmnc="42006"/>
+	</carrier>
+	<carrier carrier_id="1019_Teletok" country_region_code="TK">
+		<siminfo mccmnc="55401"/>
+	</carrier>
+	<carrier carrier_id="1020_TelecomNiue" country_region_code="NU">
+		<siminfo mccmnc="55501"/>
+	</carrier>
+	<carrier carrier_id="1021_Swisscom-CH" country_region_code="CH">
+		<siminfo mccmnc="22801"/>
+	</carrier>
+	<carrier carrier_id="1022S1Sunrise_SunriseUPC" country_region_code="CH">
+		<siminfo mccmnc="22802"/>
+	</carrier>
+	<carrier carrier_id="1022_SunriseUPC" country_region_code="CH">
+		<siminfo mccmnc="22853" gid1="75"/>
+		<siminfo mccmnc="22853"/>
+	</carrier>
+	<carrier carrier_id="1023_Salt-CH" country_region_code="CH">
+		<siminfo mccmnc="22803"/>
+	</carrier>
+	<carrier carrier_id="1024S1Euskaltel_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" imsi_prefix="2140423"/>
+		<siminfo mccmnc="21404" spn="EUSKALTEL"/>
+		<siminfo mccmnc="21404" spn="Euskaltel"/>
+	</carrier>
+	<carrier carrier_id="1024S2Lycamobile_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" imsi_prefix="2140426"/>
+	</carrier>
+	<carrier carrier_id="1024S3MASMOVIL_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" spn="MASMOVIL"/>
+	</carrier>
+	<carrier carrier_id="1024S4R_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" spn="R"/>
+		<siminfo mccmnc="21404" spn="mobilR"/>
+	</carrier>
+	<carrier carrier_id="1024S5Telecable_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" spn="telecable"/>
+	</carrier>
+	<carrier carrier_id="1024S6Yoigo_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" spn="Yoigo"/>
+	</carrier>
+	<carrier carrier_id="1024S7MASORANGE_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404" spn="ES-MasOrange-COTA"/>
+	</carrier>
+	<carrier carrier_id="1024_Yoigo" country_region_code="ES">
+		<siminfo mccmnc="21404"/>
+	</carrier>
+	<carrier carrier_id="1025_Lycamobile-PT" country_region_code="PT">
+		<siminfo mccmnc="26804"/>
+	</carrier>
+	<carrier carrier_id="1026_Digi-ES" country_region_code="ES">
+		<siminfo mccmnc="21422"/>
+	</carrier>
+	<carrier carrier_id="1027_Bouygues" country_region_code="FR">
+		<siminfo mccmnc="20820"/>
+		<siminfo mccmnc="20821"/>
+		<siminfo mccmnc="20888"/>
+	</carrier>
+	<carrier carrier_id="1028S1LaPoste_SFR" country_region_code="FR">
+		<siminfo mccmnc="20810" gid1="4C"/>
+	</carrier>
+	<carrier carrier_id="1028_SFR" country_region_code="FR">
+		<siminfo mccmnc="20809"/>
+		<siminfo mccmnc="20810"/>
+		<siminfo mccmnc="20813"/>
+	</carrier>
+	<carrier carrier_id="1029_Free" country_region_code="FR">
+		<siminfo mccmnc="20815"/>
+		<siminfo mccmnc="20816"/>
+	</carrier>
+	<carrier carrier_id="1030_EITelecom" country_region_code="FR">
+		<siminfo mccmnc="20826"/>
+	</carrier>
+	<carrier carrier_id="1031_Coriolis" country_region_code="FR">
+		<siminfo mccmnc="20827"/>
+	</carrier>
+	<carrier carrier_id="1033_FreeReunion" country_region_code="FR">
+		<siminfo mccmnc="64703"/>
+	</carrier>
+	<carrier carrier_id="1034_FreeOutermer" country_region_code="FR">
+		<siminfo mccmnc="64702"/>
+	</carrier>
+	<carrier carrier_id="1035_Outremer" country_region_code="FR">
+		<siminfo mccmnc="34002"/>
+	</carrier>
+	<carrier carrier_id="1036_FreeCarabies" country_region_code="FR">
+		<siminfo mccmnc="34004"/>
+		<siminfo mccmnc="34009"/>
+	</carrier>
+	<carrier carrier_id="1037_VITI" country_region_code="FR">
+		<siminfo mccmnc="54705"/>
+	</carrier>
+	<carrier carrier_id="1038_ZEOP" country_region_code="FR">
+		<siminfo mccmnc="64704"/>
+	</carrier>
+	<carrier carrier_id="1039_SFRReunion" country_region_code="FR">
+		<siminfo mccmnc="64710"/>
+	</carrier>
+	<carrier carrier_id="1040_Monacotelecom" country_region_code="MC">
+		<siminfo mccmnc="21210"/>
+	</carrier>
+	<carrier carrier_id="1041S1JAZZTEL_Orange-ES" country_region_code="ES">
+		<siminfo mccmnc="21403" spn="JAZZTEL"/>
+	</carrier>
+	<carrier carrier_id="1041S2SIMYO_Orange-ES" country_region_code="ES">
+		<siminfo mccmnc="21403" spn="simyo"/>
+	</carrier>
+	<carrier carrier_id="1041_Orange-ES" country_region_code="ES">
+		<siminfo mccmnc="21403"/>
+		<siminfo mccmnc="21403" spn="Orange"/>
+	</carrier>
+	<carrier carrier_id="1042_APTRoam" country_region_code="TW">
+		<siminfo mccmnc="52505" gid1="0A"/>
+	</carrier>
+	<carrier carrier_id="1043_JioRoam" country_region_code="IN">
+		<siminfo mccmnc="22201" iccid_prefix="8991864"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991855"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991856"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991874"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991865"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991872"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991840"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991873"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991863"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991854"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991871"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991861"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991870"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991862"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991868"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991859"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991869"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991860"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991866"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991857"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991867"/>
+		<siminfo mccmnc="22201" iccid_prefix="8991858"/>
+	</carrier>
+	<carrier carrier_id="1044_Jio" country_region_code="IN">
+		<siminfo mccmnc="405840"/>
+		<siminfo mccmnc="405854"/>
+		<siminfo mccmnc="405855"/>
+		<siminfo mccmnc="405856"/>
+		<siminfo mccmnc="405857"/>
+		<siminfo mccmnc="405858"/>
+		<siminfo mccmnc="405859"/>
+		<siminfo mccmnc="405860"/>
+		<siminfo mccmnc="405861"/>
+		<siminfo mccmnc="405862"/>
+		<siminfo mccmnc="405863"/>
+		<siminfo mccmnc="405864"/>
+		<siminfo mccmnc="405865"/>
+		<siminfo mccmnc="405866"/>
+		<siminfo mccmnc="405867"/>
+		<siminfo mccmnc="405868"/>
+		<siminfo mccmnc="405869"/>
+		<siminfo mccmnc="405870"/>
+		<siminfo mccmnc="405871"/>
+		<siminfo mccmnc="405872"/>
+		<siminfo mccmnc="405873"/>
+		<siminfo mccmnc="405874"/>
+	</carrier>
+	<carrier carrier_id="1045_Movistar-ES" country_region_code="ES">
+		<siminfo mccmnc="21405"/>
+		<siminfo mccmnc="21407"/>
+		<siminfo mccmnc="21438"/>
+	</carrier>
+	<carrier carrier_id="1046S1Netcom_Orange-FR" country_region_code="FR">
+		<siminfo mccmnc="20801" spn="Netcom Mobile"/>
+	</carrier>
+	<carrier carrier_id="1046_Orange-FR" country_region_code="FR">
+		<siminfo mccmnc="20801"/>
+		<siminfo mccmnc="20801" spn="Orange F"/>
+	</carrier>
+	<carrier carrier_id="1047_ORM" country_region_code="FR">
+		<siminfo mccmnc="64700" spn="Orange Re"/>
+		<siminfo mccmnc="64700"/>
+	</carrier>
+	<carrier carrier_id="1048_OCA" country_region_code="FR">
+		<siminfo mccmnc="34001" spn="Orange"/>
+		<siminfo mccmnc="34001"/>
+	</carrier>
+	<carrier carrier_id="1049_OrangeSPM" country_region_code="FR">
+		<siminfo mccmnc="30803"/>
+	</carrier>
+	<carrier carrier_id="1050_TIM" country_region_code="IT">
+		<siminfo mccmnc="22201"/>
+	</carrier>
+	<carrier carrier_id="1051_KENA" country_region_code="IT">
+		<siminfo mccmnc="22207"/>
+	</carrier>
+	<carrier carrier_id="1052_Iliad" country_region_code="IT">
+		<siminfo mccmnc="22250"/>
+	</carrier>
+	<carrier carrier_id="1053_Vianova" country_region_code="IT">
+		<siminfo mccmnc="22249"/>
+	</carrier>
+	<carrier carrier_id="1054_Lycamobile" country_region_code="IT">
+		<siminfo mccmnc="22235"/>
+	</carrier>
+	<carrier carrier_id="1055_Digi-IT" country_region_code="IT">
+		<siminfo mccmnc="22236"/>
+	</carrier>
+	<carrier carrier_id="1056_Plintron" country_region_code="IT">
+		<siminfo mccmnc="22254"/>
+	</carrier>
+	<carrier carrier_id="1057_Postemobile" country_region_code="IT">
+		<siminfo mccmnc="22233"/>
+	</carrier>
+	<carrier carrier_id="1058_Coopvoce" country_region_code="IT">
+		<siminfo mccmnc="22253"/>
+	</carrier>
+	<carrier carrier_id="1059_RGSM" country_region_code="SA">
+		<siminfo mccmnc="42021"/>
+	</carrier>
+	<carrier carrier_id="1060_Spusu-IT" country_region_code="IT">
+		<siminfo mccmnc="22256"/>
+	</carrier>
+	<carrier carrier_id="1061_Epic" country_region_code="MT">
+		<siminfo mccmnc="27801"/>
+	</carrier>
+	<carrier carrier_id="1062_Meltia" country_region_code="MT">
+		<siminfo mccmnc="27877"/>
+	</carrier>
+	<carrier carrier_id="1063_GO" country_region_code="MT">
+		<siminfo mccmnc="27821"/>
+	</carrier>
+	<carrier carrier_id="1064_Spusu-GB" country_region_code="GB">
+		<siminfo mccmnc="23440"/>
+	</carrier>
+	<carrier carrier_id="1065_MEO" country_region_code="PT">
+		<siminfo mccmnc="26806"/>
+	</carrier>
+	<carrier carrier_id="1066S1NOSLab_NOS" country_region_code="PT">
+		<siminfo mccmnc="26893"/>
+		<siminfo mccmnc="26897"/>
+		<siminfo mccmnc="26898"/>
+		<siminfo mccmnc="26899"/>
+	</carrier>
+	<carrier carrier_id="1066_NOS" country_region_code="PT">
+		<siminfo mccmnc="26803"/>
+	</carrier>
+	<carrier carrier_id="1068S1KPNlab_KPN" country_region_code="NL">
+		<siminfo mccmnc="20469"/>
+	</carrier>
+	<carrier carrier_id="1068_KPN" country_region_code="NL">
+		<siminfo mccmnc="20408"/>
+	</carrier>
+	<carrier carrier_id="1069_Telenet" country_region_code="BE">
+		<siminfo mccmnc="20601" imsi_prefix="20601889"/>
+		<siminfo mccmnc="20605"/>
+	</carrier>
+	<carrier carrier_id="1070_Base" country_region_code="BE">
+		<siminfo mccmnc="20620"/>
+	</carrier>
+	<carrier carrier_id="1071_Proximus" country_region_code="BE">
+		<siminfo mccmnc="20601"/>
+	</carrier>
+	<carrier carrier_id="1072_JOIN" country_region_code="BE">
+		<siminfo mccmnc="20640"/>
+	</carrier>
+	<carrier carrier_id="1073_MobileVikings" country_region_code="BE">
+		<siminfo mccmnc="20630"/>
+	</carrier>
+	<carrier carrier_id="1074_VOO" country_region_code="BE">
+		<siminfo mccmnc="20608"/>
+	</carrier>
+	<carrier carrier_id="1075_Swisscom-LS" country_region_code="LS">
+		<siminfo mccmnc="29501"/>
+	</carrier>
+	<carrier carrier_id="1076_Salt-LS" country_region_code="LS">
+		<siminfo mccmnc="29502"/>
+	</carrier>
+	<carrier carrier_id="1077_Spusu-AT" country_region_code="AT">
+		<siminfo mccmnc="23217"/>
+		<siminfo mccmnc="23228"/>
+	</carrier>
+	<carrier carrier_id="1078_TDC" country_region_code="DK">
+		<siminfo mccmnc="23801"/>
+		<siminfo mccmnc="23810"/>
+	</carrier>
+	<carrier carrier_id="1079_3-DK" country_region_code="DK">
+		<siminfo mccmnc="23806"/>
+	</carrier>
+	<carrier carrier_id="1080_Telia-DK" country_region_code="DK">
+		<siminfo mccmnc="23820"/>
+	</carrier>
+	<carrier carrier_id="1081_Telenor-DK" country_region_code="DK">
+		<siminfo mccmnc="23802"/>
+	</carrier>
+	<carrier carrier_id="1082_Telia-EE" country_region_code="EE">
+		<siminfo mccmnc="24801"/>
+	</carrier>
+	<carrier carrier_id="1083_Elisa-EE" country_region_code="EE">
+		<siminfo mccmnc="24802"/>
+	</carrier>
+	<carrier carrier_id="1084_Tele2-EE" country_region_code="EE">
+		<siminfo mccmnc="24803"/>
+	</carrier>
+	<carrier carrier_id="1085_DNA" country_region_code="FI">
+		<siminfo mccmnc="24403"/>
+		<siminfo mccmnc="24404"/>
+		<siminfo mccmnc="24412"/>
+		<siminfo mccmnc="24413"/>
+		<siminfo mccmnc="24436"/>
+	</carrier>
+	<carrier carrier_id="1086_Telia-FI" country_region_code="FI">
+		<siminfo mccmnc="24491"/>
+	</carrier>
+	<carrier carrier_id="1087_LMT" country_region_code="LV">
+		<siminfo mccmnc="24701"/>
+		<siminfo mccmnc="24710"/>
+	</carrier>
+	<carrier carrier_id="1088_BITE-LV" country_region_code="LV">
+		<siminfo mccmnc="24705"/>
+	</carrier>
+	<carrier carrier_id="1089_Tele2-LV" country_region_code="LV">
+		<siminfo mccmnc="24702"/>
+	</carrier>
+	<carrier carrier_id="1090_Telia-LT" country_region_code="LT">
+		<siminfo mccmnc="24601"/>
+	</carrier>
+	<carrier carrier_id="1091_BITE-LT" country_region_code="LT">
+		<siminfo mccmnc="24602"/>
+	</carrier>
+	<carrier carrier_id="1092_Tele2-LT" country_region_code="LT">
+		<siminfo mccmnc="24603"/>
+	</carrier>
+	<carrier carrier_id="1093_Telia-NO" country_region_code="NO">
+		<siminfo mccmnc="24202"/>
+		<siminfo mccmnc="24205"/>
+	</carrier>
+	<carrier carrier_id="1094_Telenor-NO" country_region_code="NO">
+		<siminfo mccmnc="24201"/>
+	</carrier>
+	<carrier carrier_id="1095_ICE" country_region_code="NO">
+		<siminfo mccmnc="24206"/>
+		<siminfo mccmnc="24214"/>
+	</carrier>
+	<carrier carrier_id="1096_Tele2-NO" country_region_code="NO">
+		<siminfo mccmnc="24204"/>
+	</carrier>
+	<carrier carrier_id="1097_Telenor-SE" country_region_code="SE">
+		<siminfo mccmnc="24008"/>
+	</carrier>
+	<carrier carrier_id="1098_Telia-SE" country_region_code="SE">
+		<siminfo mccmnc="24001"/>
+	</carrier>
+	<carrier carrier_id="1099_Tele2-SE" country_region_code="SE">
+		<siminfo mccmnc="24007"/>
+	</carrier>
+	<carrier carrier_id="1100_3-SE" country_region_code="SE">
+		<siminfo mccmnc="24002"/>
+	</carrier>
+	<carrier carrier_id="1101_Vimla" country_region_code="SE">
+		<siminfo mccmnc="24006"/>
+	</carrier>
+	<carrier carrier_id="1102_Nova" country_region_code="IS">
+		<siminfo mccmnc="27411"/>
+	</carrier>
+	<carrier carrier_id="1103_Vodafone" country_region_code="IS">
+		<siminfo mccmnc="27402"/>
+	</carrier>
+	<carrier carrier_id="1104_IcelandTelecom" country_region_code="IS">
+		<siminfo mccmnc="27401"/>
+	</carrier>
+	<carrier carrier_id="1105_HTERONET" country_region_code="BA">
+		<siminfo mccmnc="21803"/>
+	</carrier>
+	<carrier carrier_id="1106_AlbaniaTelecom" country_region_code="AL">
+		<siminfo mccmnc="27601"/>
+	</carrier>
+	<carrier carrier_id="1107_Beeling" country_region_code="AM">
+		<siminfo mccmnc="28301"/>
+	</carrier>
+	<carrier carrier_id="1108_Ucom" country_region_code="AM">
+		<siminfo mccmnc="28310"/>
+	</carrier>
+	<carrier carrier_id="1109_Beeling" country_region_code="GE">
+		<siminfo mccmnc="28204"/>
+	</carrier>
+	<carrier carrier_id="1110_Geocell" country_region_code="GE">
+		<siminfo mccmnc="28201"/>
+	</carrier>
+	<carrier carrier_id="1111_MagtiCom" country_region_code="GE">
+		<siminfo mccmnc="28202"/>
+	</carrier>
+	<carrier carrier_id="1112_Azercell" country_region_code="AZ">
+		<siminfo mccmnc="40001"/>
+	</carrier>
+	<carrier carrier_id="1113_Velcom" country_region_code="BY">
+		<siminfo mccmnc="25701"/>
+	</carrier>
+	<carrier carrier_id="1114_MTS" country_region_code="TM">
+		<siminfo mccmnc="43801"/>
+	</carrier>
+	<carrier carrier_id="1115S1Metro_TMUS" country_region_code="US">
+		<siminfo mccmnc="00101" gid1="6D38"/>
+		<siminfo mccmnc="310160" gid1="6D38"/>
+		<siminfo mccmnc="310200" gid1="6D38"/>
+		<siminfo mccmnc="310210" gid1="6D38"/>
+		<siminfo mccmnc="310220" gid1="6D38"/>
+		<siminfo mccmnc="310230" gid1="6D38"/>
+		<siminfo mccmnc="310240" gid1="6D38"/>
+		<siminfo mccmnc="310250" gid1="6D38"/>
+		<siminfo mccmnc="310260" gid1="6D38"/>
+		<siminfo mccmnc="310270" gid1="6D38"/>
+		<siminfo mccmnc="310490" gid1="6D38"/>
+		<siminfo mccmnc="310660" gid1="6D38"/>
+		<siminfo mccmnc="310800" gid1="6D38"/>
+	</carrier>
+	<carrier carrier_id="1115S2Assurance_TMUS" country_region_code="US">
+		<siminfo mccmnc="00101" gid1="1A53"/>
+		<siminfo mccmnc="310160" gid1="1A53"/>
+		<siminfo mccmnc="310200" gid1="1A53"/>
+		<siminfo mccmnc="310210" gid1="1A53"/>
+		<siminfo mccmnc="310220" gid1="1A53"/>
+		<siminfo mccmnc="310230" gid1="1A53"/>
+		<siminfo mccmnc="310240" gid1="1A53"/>
+		<siminfo mccmnc="310250" gid1="1A53"/>
+		<siminfo mccmnc="310260" gid1="1A53"/>
+		<siminfo mccmnc="310270" gid1="1A53"/>
+		<siminfo mccmnc="310490" gid1="1A53"/>
+		<siminfo mccmnc="310660" gid1="1A53"/>
+		<siminfo mccmnc="310800" gid1="1A53"/>
+	</carrier>
+	<carrier carrier_id="1115_TMUS" country_region_code="US">
+		<siminfo mccmnc="00101" gid1="544D"/>
+		<siminfo mccmnc="310160" gid1="544D"/>
+		<siminfo mccmnc="310200" gid1="544D"/>
+		<siminfo mccmnc="310210" gid1="544D"/>
+		<siminfo mccmnc="310220" gid1="544D"/>
+		<siminfo mccmnc="310230" gid1="544D"/>
+		<siminfo mccmnc="310240" gid1="544D"/>
+		<siminfo mccmnc="310250" gid1="544D"/>
+		<siminfo mccmnc="310260" gid1="544D"/>
+		<siminfo mccmnc="310270" gid1="544D"/>
+		<siminfo mccmnc="310310"/>
+		<siminfo mccmnc="310490" gid1="544D"/>
+		<siminfo mccmnc="310660" gid1="544D"/>
+		<siminfo mccmnc="310800" gid1="544D"/>
+		<siminfo mccmnc="311490"/>
+		<siminfo mccmnc="311660"/>
+		<siminfo mccmnc="311882"/>
+		<siminfo mccmnc="312250"/>
+	</carrier>
+	<carrier carrier_id="1116_mtel" country_region_code="BA">
+		<siminfo mccmnc="21805"/>
+	</carrier>
+	<carrier carrier_id="1117_Telecom-BA" country_region_code="BA">
+		<siminfo mccmnc="21890"/>
+	</carrier>
+	<carrier carrier_id="1118S1Cricket_ATT-US" country_region_code="US">
+		<siminfo mccmnc="310150"/>
+	</carrier>
+	<carrier carrier_id="1118_ATT-US" country_region_code="US">
+		<siminfo mccmnc="310030"/>
+		<siminfo mccmnc="310090"/>
+		<siminfo mccmnc="310170"/>
+		<siminfo mccmnc="310280"/>
+		<siminfo mccmnc="310380"/>
+		<siminfo mccmnc="310410"/>
+		<siminfo mccmnc="310560"/>
+		<siminfo mccmnc="310950"/>
+		<siminfo mccmnc="311180"/>
+	</carrier>
+	<carrier carrier_id="1119_ZtarATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="4102"/>
+		<siminfo mccmnc="310410" gid1="4102"/>
+		<siminfo mccmnc="310950" gid1="4102"/>
+		<siminfo mccmnc="311180" gid1="4102"/>
+	</carrier>
+	<carrier carrier_id="1120_RedPocketATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="4201"/>
+		<siminfo mccmnc="310410" gid1="4201"/>
+		<siminfo mccmnc="310950" gid1="4201"/>
+		<siminfo mccmnc="311180" gid1="4201"/>
+	</carrier>
+	<carrier carrier_id="1121_AirVoiceATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="44FF"/>
+		<siminfo mccmnc="310410" gid1="44FF"/>
+		<siminfo mccmnc="310950" gid1="44FF"/>
+		<siminfo mccmnc="311180" gid1="44FF"/>
+	</carrier>
+	<carrier carrier_id="1122_PureTalkATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="62FF"/>
+		<siminfo mccmnc="310410" gid1="62FF"/>
+		<siminfo mccmnc="310950" gid1="62FF"/>
+		<siminfo mccmnc="311180" gid1="62FF"/>
+	</carrier>
+	<carrier carrier_id="1123_KOREWirelessATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="69FF"/>
+		<siminfo mccmnc="310410" gid1="69FF"/>
+		<siminfo mccmnc="310950" gid1="69FF"/>
+		<siminfo mccmnc="311180" gid1="69FF"/>
+	</carrier>
+	<carrier carrier_id="1124_ConsumerCellularATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="2AC9"/>
+		<siminfo mccmnc="310410" gid1="2AC9"/>
+		<siminfo mccmnc="310950" gid1="2AC9"/>
+		<siminfo mccmnc="311180" gid1="2AC9"/>
+	</carrier>
+	<carrier carrier_id="1125_TracfoneATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" gid1="DEFF"/>
+		<siminfo mccmnc="310280" gid1="DDFF"/>
+		<siminfo mccmnc="310410" gid1="DDFF"/>
+		<siminfo mccmnc="310410" gid1="DEFF"/>
+		<siminfo mccmnc="310950" gid1="DEFF"/>
+		<siminfo mccmnc="310950" gid1="DDFF"/>
+		<siminfo mccmnc="311180" gid1="DEFF"/>
+		<siminfo mccmnc="311180" gid1="DDFF"/>
+	</carrier>
+	<carrier carrier_id="1126_DishGenMobileATT-US" country_region_code="US">
+		<siminfo mccmnc="310410" gid1="3430" gid2="3431"/>
+		<siminfo mccmnc="310410" gid1="3442" gid2="3443"/>
+		<siminfo mccmnc="311180" gid1="3442" gid2="3443"/>
+		<siminfo mccmnc="311180" gid1="3430" gid2="3431"/>
+	</carrier>
+	<carrier carrier_id="1127_DishRepublicWirelessATT-US" country_region_code="US">
+		<siminfo mccmnc="310410" gid1="3448" gid2="3449"/>
+		<siminfo mccmnc="310410" gid1="3436" gid2="3437"/>
+		<siminfo mccmnc="311180" gid1="3448" gid2="3449"/>
+		<siminfo mccmnc="311180" gid1="3436" gid2="3437"/>
+	</carrier>
+	<carrier carrier_id="1128_DishUniversalATT-US" country_region_code="US">
+		<siminfo mccmnc="310410" gid1="3438" gid2="3439"/>
+		<siminfo mccmnc="311180" gid1="3438" gid2="3439"/>
+	</carrier>
+	<carrier carrier_id="1129_DishBoostInfiniteATT-US" country_region_code="US">
+		<siminfo mccmnc="310410" gid1="3434" gid2="3435"/>
+		<siminfo mccmnc="310410" gid1="3446" gid2="3447"/>
+		<siminfo mccmnc="311180" gid1="3434" gid2="3435"/>
+		<siminfo mccmnc="311180" gid1="3446" gid2="3447"/>
+	</carrier>
+	<carrier carrier_id="1129_DishGenesisATT-US" country_region_code="US">
+		<siminfo mccmnc="310410" gid1="3440" gid2="3441"/>
+		<siminfo mccmnc="311180" gid1="3440" gid2="3441"/>
+	</carrier>
+	<carrier carrier_id="1130_DishBoostMobileATT-US" country_region_code="US">
+		<siminfo mccmnc="310410" gid1="3432" gid2="3433"/>
+		<siminfo mccmnc="310410" gid1="3444" gid2="3445"/>
+		<siminfo mccmnc="311180" gid1="3432" gid2="3433"/>
+		<siminfo mccmnc="311180" gid1="3444" gid2="3445"/>
+	</carrier>
+	<carrier carrier_id="1131_ReachMobileATT" country_region_code="US">
+		<siminfo mccmnc="310410" spn="Mobile" gid1="20FF" gid2="FFFF"/>
+		<siminfo mccmnc="311180" gid1="20FF" gid2="FFFF"/>
+	</carrier>
+	<carrier carrier_id="1131_ReachMobileATT-US" country_region_code="US">
+		<siminfo mccmnc="310280" spn="Mobile" gid1="20FF" gid2="FFFF"/>
+		<siminfo mccmnc="310950" spn="Mobile" gid1="20FF" gid2="FFFF"/>
+	</carrier>
+	<carrier carrier_id="1134S1Visible_Verizon" country_region_code="US">
+		<siminfo mccmnc="310590" gid1="BAE2000000000000" gid2="1C00000000000000"/>
+		<siminfo mccmnc="311480" gid1="BAE2000000000000" gid2="1C00000000000000"/>
+		<siminfo mccmnc="311480" gid1="BAE1000000000000" gid2="1A00000000000000"/>
+	</carrier>
+	<carrier carrier_id="1134_Verizon" country_region_code="US">
+		<siminfo mccmnc="310590"/>
+		<siminfo mccmnc="310599"/>
+		<siminfo mccmnc="311270"/>
+		<siminfo mccmnc="311280"/>
+		<siminfo mccmnc="311480"/>
+	</carrier>
+	<carrier carrier_id="1136_Mint" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="756D"/>
+		<siminfo mccmnc="310260" gid1="756D"/>
+	</carrier>
+	<carrier carrier_id="1137_Ultra" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6132"/>
+		<siminfo mccmnc="310240" gid1="364D"/>
+		<siminfo mccmnc="310240" gid1="7601"/>
+		<siminfo mccmnc="310240" gid1="354D"/>
+		<siminfo mccmnc="310240" gid1="4154"/>
+		<siminfo mccmnc="310240" gid1="4155"/>
+		<siminfo mccmnc="310240" gid1="4153"/>
+		<siminfo mccmnc="310240" gid1="6903"/>
+		<siminfo mccmnc="310260" gid1="4153"/>
+		<siminfo mccmnc="310260" gid1="354D"/>
+		<siminfo mccmnc="310260" gid1="364D"/>
+		<siminfo mccmnc="310260" gid1="6132"/>
+		<siminfo mccmnc="310260" gid1="6903"/>
+		<siminfo mccmnc="310260" gid1="4155"/>
+		<siminfo mccmnc="310260" gid1="7601"/>
+		<siminfo mccmnc="310260" gid1="4154"/>
+	</carrier>
+	<carrier carrier_id="1138_GCI" country_region_code="US">
+		<siminfo mccmnc="311370"/>
+	</carrier>
+	<carrier carrier_id="1139_TracfoneTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="DDFF"/>
+		<siminfo mccmnc="310240" gid1="DEFF"/>
+		<siminfo mccmnc="310260" gid1="DDFF"/>
+		<siminfo mccmnc="310260" gid1="DEFF"/>
+	</carrier>
+	<carrier carrier_id="1140_CSpire" country_region_code="US">
+		<siminfo mccmnc="311230"/>
+		<siminfo mccmnc="311630"/>
+	</carrier>
+	<carrier carrier_id="1141_Cellcom" country_region_code="US">
+		<siminfo mccmnc="311840"/>
+	</carrier>
+	<carrier carrier_id="1142_Altice" country_region_code="US">
+		<siminfo mccmnc="313390"/>
+	</carrier>
+	<carrier carrier_id="1143_UScelluar" country_region_code="US">
+		<siminfo mccmnc="311220"/>
+		<siminfo mccmnc="311221"/>
+		<siminfo mccmnc="311222"/>
+		<siminfo mccmnc="311223"/>
+		<siminfo mccmnc="311224"/>
+		<siminfo mccmnc="311225"/>
+		<siminfo mccmnc="311226"/>
+		<siminfo mccmnc="311227"/>
+		<siminfo mccmnc="311228"/>
+		<siminfo mccmnc="311229"/>
+		<siminfo mccmnc="311580"/>
+		<siminfo mccmnc="311581"/>
+		<siminfo mccmnc="311582"/>
+		<siminfo mccmnc="311583"/>
+		<siminfo mccmnc="311584"/>
+		<siminfo mccmnc="311585"/>
+		<siminfo mccmnc="311586"/>
+		<siminfo mccmnc="311587"/>
+		<siminfo mccmnc="311588"/>
+		<siminfo mccmnc="311589"/>
+	</carrier>
+	<carrier carrier_id="1144_Viaero" country_region_code="US">
+		<siminfo mccmnc="310450"/>
+	</carrier>
+	<carrier carrier_id="1145_Rogers" country_region_code="CA">
+		<siminfo mccmnc="302720"/>
+	</carrier>
+	<carrier carrier_id="1146_Telus" country_region_code="CA">
+		<siminfo mccmnc="302220"/>
+		<siminfo mccmnc="302220" gid1="54"/>
+		<siminfo mccmnc="302220" gid1="55"/>
+		<siminfo mccmnc="302221" gid1="55"/>
+		<siminfo mccmnc="302221"/>
+		<siminfo mccmnc="302221" gid1="54"/>
+		<siminfo mccmnc="302222" gid1="54"/>
+		<siminfo mccmnc="302222" gid1="55"/>
+		<siminfo mccmnc="302222"/>
+	</carrier>
+	<carrier carrier_id="1147S1Virgin_Bell" country_region_code="CA">
+		<siminfo mccmnc="302610" gid1="3E"/>
+	</carrier>
+	<carrier carrier_id="1147S2Solo_Bell" country_region_code="CA">
+		<siminfo mccmnc="302610" gid1="3F"/>
+	</carrier>
+	<carrier carrier_id="1147S3PC_Bell" country_region_code="CA">
+		<siminfo mccmnc="302610" gid1="40"/>
+	</carrier>
+	<carrier carrier_id="1147S4Lucky_Bell" country_region_code="CA">
+		<siminfo mccmnc="302610" gid1="42"/>
+	</carrier>
+	<carrier carrier_id="1147S5BellMTS_Bell" country_region_code="CA">
+		<siminfo mccmnc="302370" gid1="2C"/>
+	</carrier>
+	<carrier carrier_id="1147S6Jasper_Bell" country_region_code="CA">
+		<siminfo mccmnc="302690" gid1="41"/>
+	</carrier>
+	<carrier carrier_id="1147_Bell" country_region_code="CA">
+		<siminfo mccmnc="302370"/>
+		<siminfo mccmnc="302610"/>
+		<siminfo mccmnc="302610" gid1="3D"/>
+		<siminfo mccmnc="302640"/>
+		<siminfo mccmnc="302690"/>
+	</carrier>
+	<carrier carrier_id="1148_Freedom" country_region_code="CA">
+		<siminfo mccmnc="302490"/>
+	</carrier>
+	<carrier carrier_id="1149_Shaw" country_region_code="CA">
+		<siminfo mccmnc="302490" gid1="53"/>
+	</carrier>
+	<carrier carrier_id="1150_Sprint" country_region_code="US">
+		<siminfo mccmnc="310120"/>
+		<siminfo mccmnc="312530"/>
+	</carrier>
+	<carrier carrier_id="1151_Multibyte" country_region_code="HK">
+		<siminfo mccmnc="45424"/>
+	</carrier>
+	<carrier carrier_id="1152_HKBN" country_region_code="HK">
+		<siminfo mccmnc="45432"/>
+	</carrier>
+	<carrier carrier_id="1156_EastLink" country_region_code="CA">
+		<siminfo mccmnc="302270"/>
+	</carrier>
+	<carrier carrier_id="1157_Videotron" country_region_code="CA">
+		<siminfo mccmnc="302500"/>
+		<siminfo mccmnc="302510"/>
+		<siminfo mccmnc="302520"/>
+	</carrier>
+	<carrier carrier_id="1158S1Qtmobile_KDDI" country_region_code="JP">
+		<siminfo mccmnc="44051"/>
+	</carrier>
+	<carrier carrier_id="1158_KDDI" country_region_code="JP">
+		<siminfo mccmnc="44050" gid1="10"/>
+		<siminfo mccmnc="44051" gid1="10"/>
+		<siminfo mccmnc="44052" gid1="10"/>
+		<siminfo mccmnc="44054" gid1="10"/>
+	</carrier>
+	<carrier carrier_id="1159_UQ" country_region_code="JP">
+		<siminfo mccmnc="44050" gid1="20"/>
+		<siminfo mccmnc="44051" gid1="20"/>
+		<siminfo mccmnc="44054" gid1="20"/>
+	</carrier>
+	<carrier carrier_id="1160_Povo" country_region_code="JP">
+		<siminfo mccmnc="44051" gid1="26"/>
+		<siminfo mccmnc="44054" gid1="26"/>
+	</carrier>
+	<carrier carrier_id="1161S1RakutenRoaming_Rakuten" country_region_code="JP">
+		<siminfo mccmnc="20801" iccid_prefix="8981090"/>
+	</carrier>
+	<carrier carrier_id="1161_Rakuten" country_region_code="JP">
+		<siminfo mccmnc="44011" iccid_prefix="8981090"/>
+	</carrier>
+	<carrier carrier_id="1162S1DocomoMain_DocomoOCN" country_region_code="JP">
+		<siminfo mccmnc="44010" gid1="00FFFF"/>
+	</carrier>
+	<carrier carrier_id="1162_DocomoOCN" country_region_code="JP">
+		<siminfo mccmnc="44010"/>
+		<siminfo mccmnc="44010"/>
+	</carrier>
+	<carrier carrier_id="1165S1Y!Mobile_Softbank" country_region_code="JP">
+		<siminfo mccmnc="44020" gid1="16ffff"/>
+		<siminfo mccmnc="44020" gid1="01ffff"/>
+	</carrier>
+	<carrier carrier_id="1165S2Softbank4G_Softbank" country_region_code="JP">
+		<siminfo mccmnc="44020" gid1="30FFFF"/>
+	</carrier>
+	<carrier carrier_id="1165S3Softbank5G_Softbank" country_region_code="JP">
+		<siminfo mccmnc="44020" gid1="19FFFF"/>
+	</carrier>
+	<carrier carrier_id="1165S4SoftbankCompatible_Softbank" country_region_code="JP">
+		<siminfo mccmnc="44020" gid1="00FFFF"/>
+	</carrier>
+	<carrier carrier_id="1165_Softbank" country_region_code="JP">
+		<siminfo mccmnc="44020"/>
+	</carrier>
+	<carrier carrier_id="1166_CSL" country_region_code="HK">
+		<siminfo mccmnc="45400"/>
+		<siminfo mccmnc="45402"/>
+		<siminfo mccmnc="45410"/>
+		<siminfo mccmnc="45416"/>
+		<siminfo mccmnc="45418"/>
+		<siminfo mccmnc="45419"/>
+		<siminfo mccmnc="45420"/>
+	</carrier>
+	<carrier carrier_id="1167_SmarTone-HK" country_region_code="HK">
+		<siminfo mccmnc="45406"/>
+		<siminfo mccmnc="45415"/>
+		<siminfo mccmnc="45417"/>
+	</carrier>
+	<carrier carrier_id="1168_CUHK" country_region_code="HK">
+		<siminfo mccmnc="45407" iccid_prefix="8985207"/>
+	</carrier>
+	<carrier carrier_id="1169_FET" country_region_code="TW">
+		<siminfo mccmnc="46601"/>
+		<siminfo mccmnc="46602"/>
+		<siminfo mccmnc="46603"/>
+	</carrier>
+	<carrier carrier_id="1170_TWM" country_region_code="TW">
+		<siminfo mccmnc="46697"/>
+		<siminfo mccmnc="46699"/>
+	</carrier>
+	<carrier carrier_id="1171_TSTAR" country_region_code="TW">
+		<siminfo mccmnc="46689"/>
+	</carrier>
+	<carrier carrier_id="1172_APT" country_region_code="TW">
+		<siminfo mccmnc="46605"/>
+	</carrier>
+	<carrier carrier_id="1173_CTM" country_region_code="MO">
+		<siminfo mccmnc="45501"/>
+		<siminfo mccmnc="45504"/>
+	</carrier>
+	<carrier carrier_id="1174_CTMO" country_region_code="MO">
+		<siminfo mccmnc="45502"/>
+		<siminfo mccmnc="45507"/>
+	</carrier>
+	<carrier carrier_id="1175_SmarTone-MO" country_region_code="MO">
+		<siminfo mccmnc="45500"/>
+	</carrier>
+	<carrier carrier_id="1176_3-MO" country_region_code="MO">
+		<siminfo mccmnc="45503"/>
+		<siminfo mccmnc="45505"/>
+	</carrier>
+	<carrier carrier_id="1177_SingTel" country_region_code="SG">
+		<siminfo mccmnc="52501"/>
+		<siminfo mccmnc="52502"/>
+		<siminfo mccmnc="52598"/>
+	</carrier>
+	<carrier carrier_id="1178S1Giga_StarHub" country_region_code="SG">
+		<siminfo mccmnc="52505" spn="giga"/>
+	</carrier>
+	<carrier carrier_id="1178S2MyRepublic_StarHub" country_region_code="SG">
+		<siminfo mccmnc="52505" spn="MyRepublic" gid1="FFFFFFFF" gid2="FFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1178_StarHub" country_region_code="SG">
+		<siminfo mccmnc="52505"/>
+	</carrier>
+	<carrier carrier_id="1179_APT" country_region_code="TW">
+		<siminfo mccmnc="46612"/>
+	</carrier>
+	<carrier carrier_id="1180_M1" country_region_code="SG">
+		<siminfo mccmnc="52503"/>
+	</carrier>
+	<carrier carrier_id="1181_TPGSimba" country_region_code="SG">
+		<siminfo mccmnc="52510"/>
+	</carrier>
+	<carrier carrier_id="1182S1Very_WindTre" country_region_code="IT">
+		<siminfo mccmnc="22288" gid1="0000000099"/>
+		<siminfo mccmnc="22299" gid1="0000000099"/>
+	</carrier>
+	<carrier carrier_id="1182_WindTre" country_region_code="IT">
+		<siminfo mccmnc="22288"/>
+		<siminfo mccmnc="22299" gid1="0000000000"/>
+		<siminfo mccmnc="22299"/>
+	</carrier>
+	<carrier carrier_id="1183_Fastweb" country_region_code="IT">
+		<siminfo mccmnc="22208" gid1="D8FFFFFFFFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1184_Smartfren" country_region_code="ID">
+		<siminfo mccmnc="51009"/>
+		<siminfo mccmnc="51028"/>
+	</carrier>
+	<carrier carrier_id="1185_Telkomsel" country_region_code="ID">
+		<siminfo mccmnc="51010"/>
+	</carrier>
+	<carrier carrier_id="1186_Indosat" country_region_code="ID">
+		<siminfo mccmnc="51001"/>
+	</carrier>
+	<carrier carrier_id="1187_XL" country_region_code="ID">
+		<siminfo mccmnc="51008"/>
+		<siminfo mccmnc="51011"/>
+	</carrier>
+	<carrier carrier_id="1188_3-ID" country_region_code="ID">
+		<siminfo mccmnc="51089"/>
+	</carrier>
+	<carrier carrier_id="1189_Viettel" country_region_code="VN">
+		<siminfo mccmnc="45204"/>
+	</carrier>
+	<carrier carrier_id="1190_Vietnamobile" country_region_code="VN">
+		<siminfo mccmnc="45205"/>
+	</carrier>
+	<carrier carrier_id="1191_Vinaphone" country_region_code="VN">
+		<siminfo mccmnc="45202"/>
+	</carrier>
+	<carrier carrier_id="1192_Mobifone" country_region_code="VN">
+		<siminfo mccmnc="45201"/>
+	</carrier>
+	<carrier carrier_id="1193_Gmobile" country_region_code="VN">
+		<siminfo mccmnc="45207"/>
+	</carrier>
+	<carrier carrier_id="1194_Globe" country_region_code="PH">
+		<siminfo mccmnc="51502"/>
+	</carrier>
+	<carrier carrier_id="1195_Smart" country_region_code="PH">
+		<siminfo mccmnc="51503"/>
+	</carrier>
+	<carrier carrier_id="1196_Dito" country_region_code="PH">
+		<siminfo mccmnc="51566"/>
+	</carrier>
+	<carrier carrier_id="1197_DTAC" country_region_code="TH">
+		<siminfo mccmnc="52005"/>
+		<siminfo mccmnc="52018"/>
+	</carrier>
+	<carrier carrier_id="1198_TRUEMoveH" country_region_code="TH">
+		<siminfo mccmnc="52000"/>
+		<siminfo mccmnc="52004"/>
+	</carrier>
+	<carrier carrier_id="1199_AIS" country_region_code="TH">
+		<siminfo mccmnc="52001"/>
+		<siminfo mccmnc="52003"/>
+	</carrier>
+	<carrier carrier_id="1200_NTMobile" country_region_code="TH">
+		<siminfo mccmnc="52017"/>
+	</carrier>
+	<carrier carrier_id="1201_Digi-MY" country_region_code="MY">
+		<siminfo mccmnc="50210"/>
+		<siminfo mccmnc="502143"/>
+		<siminfo mccmnc="502146"/>
+		<siminfo mccmnc="50216"/>
+	</carrier>
+	<carrier carrier_id="1202_YES" country_region_code="MY">
+		<siminfo mccmnc="502152"/>
+	</carrier>
+	<carrier carrier_id="1203_Unifi" country_region_code="MY">
+		<siminfo mccmnc="50211"/>
+		<siminfo mccmnc="502153"/>
+	</carrier>
+	<carrier carrier_id="1204_Celcom" country_region_code="MY">
+		<siminfo mccmnc="50213"/>
+		<siminfo mccmnc="50219"/>
+	</carrier>
+	<carrier carrier_id="1205_Redone" country_region_code="MY">
+		<siminfo mccmnc="50219" imsi_prefix="5021959"/>
+		<siminfo mccmnc="50219" imsi_prefix=" 5021958"/>
+	</carrier>
+	<carrier carrier_id="1206_Tunetalk" country_region_code="MY">
+		<siminfo mccmnc="50219" imsi_prefix="5021955"/>
+	</carrier>
+	<carrier carrier_id="1207_XOX" country_region_code="MY">
+		<siminfo mccmnc="50219" imsi_prefix="5021957"/>
+		<siminfo mccmnc="50219" imsi_prefix="5021956"/>
+	</carrier>
+	<carrier carrier_id="1208_Mtrade" country_region_code="MY">
+		<siminfo mccmnc="50219" imsi_prefix="5021952"/>
+		<siminfo mccmnc="50219" imsi_prefix="5021953"/>
+	</carrier>
+	<carrier carrier_id="1209_Yoodoo" country_region_code="MY">
+		<siminfo mccmnc="50219" imsi_prefix="5021964"/>
+	</carrier>
+	<carrier carrier_id="1210_Altel" country_region_code="MY">
+		<siminfo mccmnc="50219" imsi_prefix="5021962"/>
+		<siminfo mccmnc="50219" imsi_prefix="5921963"/>
+	</carrier>
+	<carrier carrier_id="1211_UMobile" country_region_code="MY">
+		<siminfo mccmnc="50218"/>
+	</carrier>
+	<carrier carrier_id="1212_Maxis" country_region_code="MY">
+		<siminfo mccmnc="50212"/>
+		<siminfo mccmnc="50217"/>
+	</carrier>
+	<carrier carrier_id="1213_Smart" country_region_code="KH">
+		<siminfo mccmnc="45605"/>
+		<siminfo mccmnc="45606"/>
+	</carrier>
+	<carrier carrier_id="1214_Seatel" country_region_code="KH">
+		<siminfo mccmnc="45611"/>
+	</carrier>
+	<carrier carrier_id="1215_Cellcard" country_region_code="KH">
+		<siminfo mccmnc="45601"/>
+	</carrier>
+	<carrier carrier_id="1216_Metfone" country_region_code="KH">
+		<siminfo mccmnc="45608"/>
+	</carrier>
+	<carrier carrier_id="1217_LTCI" country_region_code="LA">
+		<siminfo mccmnc="45701"/>
+	</carrier>
+	<carrier carrier_id="1218_Unitel" country_region_code="LA">
+		<siminfo mccmnc="45703"/>
+	</carrier>
+	<carrier carrier_id="1219_ETL" country_region_code="LA">
+		<siminfo mccmnc="45702"/>
+	</carrier>
+	<carrier carrier_id="1220_TPlus" country_region_code="LA">
+		<siminfo mccmnc="45708"/>
+	</carrier>
+	<carrier carrier_id="1221_Airtel" country_region_code="IN">
+		<siminfo mccmnc="40400"/>
+		<siminfo mccmnc="40402"/>
+		<siminfo mccmnc="40403"/>
+		<siminfo mccmnc="40410"/>
+		<siminfo mccmnc="40416"/>
+		<siminfo mccmnc="40431"/>
+		<siminfo mccmnc="40440"/>
+		<siminfo mccmnc="40445"/>
+		<siminfo mccmnc="40449"/>
+		<siminfo mccmnc="40470"/>
+		<siminfo mccmnc="40490"/>
+		<siminfo mccmnc="40492"/>
+		<siminfo mccmnc="40493"/>
+		<siminfo mccmnc="40494"/>
+		<siminfo mccmnc="40495"/>
+		<siminfo mccmnc="40496"/>
+		<siminfo mccmnc="40497"/>
+		<siminfo mccmnc="40498"/>
+		<siminfo mccmnc="40551"/>
+		<siminfo mccmnc="40552"/>
+		<siminfo mccmnc="40553"/>
+		<siminfo mccmnc="40554"/>
+		<siminfo mccmnc="40555"/>
+		<siminfo mccmnc="40556"/>
+	</carrier>
+	<carrier carrier_id="1223_Idea" country_region_code="IN">
+		<siminfo mccmnc="40404"/>
+		<siminfo mccmnc="40407"/>
+		<siminfo mccmnc="40412"/>
+		<siminfo mccmnc="40414"/>
+		<siminfo mccmnc="40419"/>
+		<siminfo mccmnc="40422"/>
+		<siminfo mccmnc="40424"/>
+		<siminfo mccmnc="40444"/>
+		<siminfo mccmnc="40456"/>
+		<siminfo mccmnc="40478"/>
+		<siminfo mccmnc="40482"/>
+		<siminfo mccmnc="40487"/>
+		<siminfo mccmnc="40489"/>
+		<siminfo mccmnc="40570"/>
+		<siminfo mccmnc="405799"/>
+		<siminfo mccmnc="405845"/>
+		<siminfo mccmnc="405846"/>
+		<siminfo mccmnc="405847"/>
+		<siminfo mccmnc="405848"/>
+		<siminfo mccmnc="405849"/>
+		<siminfo mccmnc="405850"/>
+		<siminfo mccmnc="405851"/>
+		<siminfo mccmnc="405852"/>
+		<siminfo mccmnc="405853"/>
+		<siminfo mccmnc="405908"/>
+		<siminfo mccmnc="405909"/>
+		<siminfo mccmnc="405910"/>
+		<siminfo mccmnc="405911"/>
+	</carrier>
+	<carrier carrier_id="1224_BSNL" country_region_code="IN">
+		<siminfo mccmnc="40434"/>
+		<siminfo mccmnc="40438"/>
+		<siminfo mccmnc="40439"/>
+		<siminfo mccmnc="40451"/>
+		<siminfo mccmnc="40453"/>
+		<siminfo mccmnc="40454"/>
+		<siminfo mccmnc="40455"/>
+		<siminfo mccmnc="40457"/>
+		<siminfo mccmnc="40458"/>
+		<siminfo mccmnc="40459"/>
+		<siminfo mccmnc="40462"/>
+		<siminfo mccmnc="40464"/>
+		<siminfo mccmnc="40465"/>
+		<siminfo mccmnc="40466"/>
+		<siminfo mccmnc="40471"/>
+		<siminfo mccmnc="40472"/>
+		<siminfo mccmnc="40473"/>
+		<siminfo mccmnc="40474"/>
+		<siminfo mccmnc="40475"/>
+		<siminfo mccmnc="40476"/>
+		<siminfo mccmnc="40477"/>
+		<siminfo mccmnc="40479"/>
+		<siminfo mccmnc="40480"/>
+		<siminfo mccmnc="40481"/>
+	</carrier>
+	<carrier carrier_id="1225_ATOM" country_region_code="MM">
+		<siminfo mccmnc="41406"/>
+	</carrier>
+	<carrier carrier_id="1226_MyTel" country_region_code="MM">
+		<siminfo mccmnc="41409"/>
+	</carrier>
+	<carrier carrier_id="1227_MPT" country_region_code="MM">
+		<siminfo mccmnc="41401"/>
+	</carrier>
+	<carrier carrier_id="1228_Ooredoo" country_region_code="MM">
+		<siminfo mccmnc="41405"/>
+	</carrier>
+	<carrier carrier_id="1229_Dialog" country_region_code="LK">
+		<siminfo mccmnc="41302"/>
+	</carrier>
+	<carrier carrier_id="1230_Mobitel" country_region_code="LK">
+		<siminfo mccmnc="41301"/>
+	</carrier>
+	<carrier carrier_id="1231_Airtel" country_region_code="LK">
+		<siminfo mccmnc="41305"/>
+	</carrier>
+	<carrier carrier_id="1232_Hutch" country_region_code="LK">
+		<siminfo mccmnc="41308"/>
+	</carrier>
+	<carrier carrier_id="1233_Robi" country_region_code="BD">
+		<siminfo mccmnc="47002"/>
+	</carrier>
+	<carrier carrier_id="1234_Airtel" country_region_code="BD">
+		<siminfo mccmnc="47007"/>
+	</carrier>
+	<carrier carrier_id="1235_Grameenphone" country_region_code="BD">
+		<siminfo mccmnc="47001"/>
+	</carrier>
+	<carrier carrier_id="1236_Banglalink" country_region_code="BD">
+		<siminfo mccmnc="47003"/>
+	</carrier>
+	<carrier carrier_id="1237_Teletalk" country_region_code="BD">
+		<siminfo mccmnc="47004"/>
+	</carrier>
+	<carrier carrier_id="1238_NepalTelecom" country_region_code="NP">
+		<siminfo mccmnc="42901"/>
+	</carrier>
+	<carrier carrier_id="1239_Ncell" country_region_code="NP">
+		<siminfo mccmnc="42902"/>
+	</carrier>
+	<carrier carrier_id="1240_SmartTelecom" country_region_code="NP">
+		<siminfo mccmnc="42904"/>
+	</carrier>
+	<carrier carrier_id="1241_Zong" country_region_code="PK">
+		<siminfo mccmnc="41004"/>
+	</carrier>
+	<carrier carrier_id="1242_Telenor" country_region_code="PK">
+		<siminfo mccmnc="41006"/>
+	</carrier>
+	<carrier carrier_id="1243_Jazz" country_region_code="PK">
+		<siminfo mccmnc="41001"/>
+		<siminfo mccmnc="41007"/>
+		<siminfo mccmnc="41008"/>
+	</carrier>
+	<carrier carrier_id="1244_Warid" country_region_code="PK">
+		<siminfo mccmnc="41007"/>
+	</carrier>
+	<carrier carrier_id="1245_Ufone" country_region_code="PK">
+		<siminfo mccmnc="41003"/>
+	</carrier>
+	<carrier carrier_id="1246_BhutanTelecom" country_region_code="BT">
+		<siminfo mccmnc="40211"/>
+	</carrier>
+	<carrier carrier_id="1247_Ooredoo" country_region_code="MV">
+		<siminfo mccmnc="47202"/>
+	</carrier>
+	<carrier carrier_id="1248_Dhiraagu" country_region_code="MV">
+		<siminfo mccmnc="47201"/>
+	</carrier>
+	<carrier carrier_id="1249_Etisalat" country_region_code="AE">
+		<siminfo mccmnc="42402"/>
+	</carrier>
+	<carrier carrier_id="1250_Du" country_region_code="AE">
+		<siminfo mccmnc="42403"/>
+	</carrier>
+	<carrier carrier_id="1251_Virgin" country_region_code="AE">
+		<siminfo mccmnc="42403" imsi_prefix="42403022"/>
+	</carrier>
+	<carrier carrier_id="1252_STC" country_region_code="SA">
+		<siminfo mccmnc="42001"/>
+	</carrier>
+	<carrier carrier_id="1253_Zain" country_region_code="SA">
+		<siminfo mccmnc="42004"/>
+		<siminfo mccmnc="42019"/>
+	</carrier>
+	<carrier carrier_id="1254_Mobily" country_region_code="SA">
+		<siminfo mccmnc="42003"/>
+	</carrier>
+	<carrier carrier_id="1255_Salam" country_region_code="SA">
+		<siminfo mccmnc="42009"/>
+	</carrier>
+	<carrier carrier_id="1256_Ooredoo" country_region_code="QA">
+		<siminfo mccmnc="42701"/>
+	</carrier>
+	<carrier carrier_id="1257_Etisalat" country_region_code="EG">
+		<siminfo mccmnc="60203"/>
+	</carrier>
+	<carrier carrier_id="1258_WE" country_region_code="EG">
+		<siminfo mccmnc="60204"/>
+	</carrier>
+	<carrier carrier_id="1259_Ooredoo" country_region_code="KW">
+		<siminfo mccmnc="41903"/>
+	</carrier>
+	<carrier carrier_id="1260_Zain" country_region_code="KW">
+		<siminfo mccmnc="41902"/>
+	</carrier>
+	<carrier carrier_id="1261_STC" country_region_code="KW">
+		<siminfo mccmnc="41904"/>
+	</carrier>
+	<carrier carrier_id="1262_Virgin" country_region_code="KW">
+		<siminfo mccmnc="41909"/>
+	</carrier>
+	<carrier carrier_id="1263_Batelco" country_region_code="BH">
+		<siminfo mccmnc="42601"/>
+		<siminfo mccmnc="42605"/>
+	</carrier>
+	<carrier carrier_id="1264_LankaBell" country_region_code="LK">
+		<siminfo mccmnc="41304"/>
+	</carrier>
+	<carrier carrier_id="1265_STC" country_region_code="BH">
+		<siminfo mccmnc="42604"/>
+	</carrier>
+	<carrier carrier_id="1266_Zain" country_region_code="BH">
+		<siminfo mccmnc="42602"/>
+	</carrier>
+	<carrier carrier_id="1267_Ooredoo" country_region_code="OM">
+		<siminfo mccmnc="42203"/>
+	</carrier>
+	<carrier carrier_id="1268_Omantel" country_region_code="OM">
+		<siminfo mccmnc="42202"/>
+	</carrier>
+	<carrier carrier_id="1269_Mobilis" country_region_code="DZ">
+		<siminfo mccmnc="60301"/>
+	</carrier>
+	<carrier carrier_id="1270_Djezzy" country_region_code="DZ">
+		<siminfo mccmnc="60302"/>
+	</carrier>
+	<carrier carrier_id="1271_Ooredoo" country_region_code="DZ">
+		<siminfo mccmnc="60303"/>
+	</carrier>
+	<carrier carrier_id="1272_Asiacell" country_region_code="IQ">
+		<siminfo mccmnc="41805"/>
+	</carrier>
+	<carrier carrier_id="1273_Korek" country_region_code="IQ">
+		<siminfo mccmnc="41840"/>
+	</carrier>
+	<carrier carrier_id="1274_Zain" country_region_code="IQ">
+		<siminfo mccmnc="41820"/>
+	</carrier>
+	<carrier carrier_id="1275_Umniah" country_region_code="JO">
+		<siminfo mccmnc="41603"/>
+	</carrier>
+	<carrier carrier_id="1276_Zain" country_region_code="JO">
+		<siminfo mccmnc="41601"/>
+	</carrier>
+	<carrier carrier_id="1278_Ntel" country_region_code="NG">
+		<siminfo mccmnc="62140"/>
+	</carrier>
+	<carrier carrier_id="1279_Smile" country_region_code="NG">
+		<siminfo mccmnc="62127"/>
+	</carrier>
+	<carrier carrier_id="1280_MTN" country_region_code="NG">
+		<siminfo mccmnc="62130"/>
+	</carrier>
+	<carrier carrier_id="1281_Airtel" country_region_code="NG">
+		<siminfo mccmnc="62120"/>
+	</carrier>
+	<carrier carrier_id="1282_Globacom" country_region_code="NG">
+		<siminfo mccmnc="62150"/>
+	</carrier>
+	<carrier carrier_id="1283_9Mobile" country_region_code="NG">
+		<siminfo mccmnc="62160"/>
+	</carrier>
+	<carrier carrier_id="1284_MTN" country_region_code="ZA">
+		<siminfo mccmnc="65510"/>
+		<siminfo mccmnc="65512"/>
+	</carrier>
+	<carrier carrier_id="1285_Telkom" country_region_code="ZA">
+		<siminfo mccmnc="65502"/>
+	</carrier>
+	<carrier carrier_id="1286_Vodacom-ZA" country_region_code="ZA">
+		<siminfo mccmnc="65501"/>
+	</carrier>
+	<carrier carrier_id="1287_CellC" country_region_code="ZA">
+		<siminfo mccmnc="65507"/>
+	</carrier>
+	<carrier carrier_id="1288_Rain" country_region_code="ZA">
+		<siminfo mccmnc="65519"/>
+		<siminfo mccmnc="65538"/>
+		<siminfo mccmnc="65573"/>
+		<siminfo mccmnc="65574"/>
+	</carrier>
+	<carrier carrier_id="1289_Neotel" country_region_code="ZA">
+		<siminfo mccmnc="65513"/>
+		<siminfo mccmnc="65514"/>
+	</carrier>
+	<carrier carrier_id="1290_MTNIrancell" country_region_code="IR">
+		<siminfo mccmnc="43235"/>
+	</carrier>
+	<carrier carrier_id="1291_MCI" country_region_code="IR">
+		<siminfo mccmnc="43211"/>
+	</carrier>
+	<carrier carrier_id="1292_Rightel" country_region_code="IR">
+		<siminfo mccmnc="43220"/>
+	</carrier>
+	<carrier carrier_id="1293_Partner" country_region_code="IL">
+		<siminfo mccmnc="42501"/>
+		<siminfo mccmnc="42510"/>
+	</carrier>
+	<carrier carrier_id="1294_Pelephone" country_region_code="IL">
+		<siminfo mccmnc="42503"/>
+	</carrier>
+	<carrier carrier_id="1295_Cellcom" country_region_code="IL">
+		<siminfo mccmnc="42502"/>
+	</carrier>
+	<carrier carrier_id="1296_HotMobile" country_region_code="IL">
+		<siminfo mccmnc="42507"/>
+	</carrier>
+	<carrier carrier_id="1297_We4G" country_region_code="IL">
+		<siminfo mccmnc="42509"/>
+	</carrier>
+	<carrier carrier_id="1298_Alfa" country_region_code="LB">
+		<siminfo mccmnc="41501"/>
+	</carrier>
+	<carrier carrier_id="1299_Touch" country_region_code="LB">
+		<siminfo mccmnc="41503"/>
+	</carrier>
+	<carrier carrier_id="1300_Jawwal" country_region_code="PS">
+		<siminfo mccmnc="42505"/>
+	</carrier>
+	<carrier carrier_id="1301_Wataniya" country_region_code="PS">
+		<siminfo mccmnc="42506"/>
+	</carrier>
+	<carrier carrier_id="1302S1Nju_Orange-PL" country_region_code="PL">
+		<siminfo mccmnc="26003" spn="nju"/>
+	</carrier>
+	<carrier carrier_id="1302_Orange-PL" country_region_code="PL">
+		<siminfo mccmnc="26003"/>
+		<siminfo mccmnc="26003" spn="Orange"/>
+	</carrier>
+	<carrier carrier_id="1303_Orange-RO" country_region_code="RO">
+		<siminfo mccmnc="22610" spn="orange"/>
+		<siminfo mccmnc="22610"/>
+	</carrier>
+	<carrier carrier_id="1304_Orange-BE" country_region_code="BE">
+		<siminfo mccmnc="20610"/>
+		<siminfo mccmnc="20610" spn="Orange B"/>
+	</carrier>
+	<carrier carrier_id="1305_Orange-LU" country_region_code="LU">
+		<siminfo mccmnc="27099"/>
+		<siminfo mccmnc="27099" spn="Orange"/>
+	</carrier>
+	<carrier carrier_id="1306_Orange-MD" country_region_code="MD">
+		<siminfo mccmnc="25901" spn="Orange"/>
+		<siminfo mccmnc="25901"/>
+	</carrier>
+	<carrier carrier_id="1307_Orange-SK" country_region_code="SK">
+		<siminfo mccmnc="23101"/>
+		<siminfo mccmnc="23101" spn="Orange"/>
+	</carrier>
+	<carrier carrier_id="1308_Orange-EG" country_region_code="EG">
+		<siminfo mccmnc="60201"/>
+		<siminfo mccmnc="60201" spn="Orange EG"/>
+	</carrier>
+	<carrier carrier_id="1309_Orange-MA" country_region_code="MA">
+		<siminfo mccmnc="60400"/>
+		<siminfo mccmnc="60400" spn="Orange MA"/>
+	</carrier>
+	<carrier carrier_id="1310_Orange-TN" country_region_code="TN">
+		<siminfo mccmnc="60501" spn="Orange TN"/>
+		<siminfo mccmnc="60501"/>
+	</carrier>
+	<carrier carrier_id="1311_Orange-JO" country_region_code="JO">
+		<siminfo mccmnc="41677" spn="Orange JO"/>
+		<siminfo mccmnc="41677"/>
+	</carrier>
+	<carrier carrier_id="1312_Lyca Mobile-TN" country_region_code="TN">
+		<siminfo mccmnc="60506"/>
+	</carrier>
+	<carrier carrier_id="1323_Kyivstar" country_region_code="UA">
+		<siminfo mccmnc="25503"/>
+	</carrier>
+	<carrier carrier_id="1324_Lifecell" country_region_code="UA">
+		<siminfo mccmnc="25506"/>
+	</carrier>
+	<carrier carrier_id="1325_Kcell" country_region_code="KZ">
+		<siminfo mccmnc="40102"/>
+	</carrier>
+	<carrier carrier_id="1326_Beeline" country_region_code="KZ">
+		<siminfo mccmnc="40101"/>
+	</carrier>
+	<carrier carrier_id="1327_Tele2-KE" country_region_code="KZ">
+		<siminfo mccmnc="40107"/>
+		<siminfo mccmnc="40177"/>
+	</carrier>
+	<carrier carrier_id="1328_Digi-RO" country_region_code="RO">
+		<siminfo mccmnc="22605"/>
+	</carrier>
+	<carrier carrier_id="1329_MTN" country_region_code="CY">
+		<siminfo mccmnc="28010"/>
+	</carrier>
+	<carrier carrier_id="1330_Primetel" country_region_code="CY">
+		<siminfo mccmnc="28020"/>
+	</carrier>
+	<carrier carrier_id="1331_Moldcell" country_region_code="MD">
+		<siminfo mccmnc="25902"/>
+	</carrier>
+	<carrier carrier_id="1332_Unite" country_region_code="MD">
+		<siminfo mccmnc="25905"/>
+	</carrier>
+	<carrier carrier_id="1333_IDC" country_region_code="MD">
+		<siminfo mccmnc="25915"/>
+	</carrier>
+	<carrier carrier_id="1334_Moldtelecom" country_region_code="MD">
+		<siminfo mccmnc="25903"/>
+	</carrier>
+	<carrier carrier_id="1335_Mtel" country_region_code="BG">
+		<siminfo mccmnc="28401"/>
+	</carrier>
+	<carrier carrier_id="1336_Vivacom" country_region_code="BG">
+		<siminfo mccmnc="28403"/>
+	</carrier>
+	<carrier carrier_id="1337_Yettel-BG" country_region_code="BG">
+		<siminfo mccmnc="28405"/>
+	</carrier>
+	<carrier carrier_id="1338_A1-HR" country_region_code="HR">
+		<siminfo mccmnc="21910"/>
+	</carrier>
+	<carrier carrier_id="1339_Tele2-HR" country_region_code="HR">
+		<siminfo mccmnc="21902"/>
+	</carrier>
+	<carrier carrier_id="1340_O2-CZ" country_region_code="CZ">
+		<siminfo mccmnc="23002"/>
+	</carrier>
+	<carrier carrier_id="1341_Wind" country_region_code="GR">
+		<siminfo mccmnc="20209"/>
+		<siminfo mccmnc="20210"/>
+	</carrier>
+	<carrier carrier_id="1342_Digi-HU" country_region_code="HU">
+		<siminfo mccmnc="21603"/>
+	</carrier>
+	<carrier carrier_id="1343_Yettel-HU" country_region_code="HU">
+		<siminfo mccmnc="21601"/>
+	</carrier>
+	<carrier carrier_id="1344_O2-SK" country_region_code="SK">
+		<siminfo mccmnc="23106"/>
+	</carrier>
+	<carrier carrier_id="1345_4KA" country_region_code="SK">
+		<siminfo mccmnc="23103"/>
+	</carrier>
+	<carrier carrier_id="1346_A1-RS" country_region_code="RS">
+		<siminfo mccmnc="22005"/>
+	</carrier>
+	<carrier carrier_id="1347_Telenor" country_region_code="RS">
+		<siminfo mccmnc="22001"/>
+	</carrier>
+	<carrier carrier_id="1348_MTS" country_region_code="RS">
+		<siminfo mccmnc="22003"/>
+	</carrier>
+	<carrier carrier_id="1349_Beeline-UZ" country_region_code="UZ">
+		<siminfo mccmnc="43404"/>
+	</carrier>
+	<carrier carrier_id="1350_3-AT" country_region_code="AT">
+		<siminfo mccmnc="23205"/>
+		<siminfo mccmnc="23210"/>
+		<siminfo mccmnc="23214"/>
+	</carrier>
+	<carrier carrier_id="1351_A1-AT" country_region_code="AT">
+		<siminfo mccmnc="23201"/>
+		<siminfo mccmnc="23202"/>
+		<siminfo mccmnc="23211"/>
+		<siminfo mccmnc="23212"/>
+	</carrier>
+	<carrier carrier_id="1352_A1-MK" country_region_code="MK">
+		<siminfo mccmnc="29403"/>
+	</carrier>
+	<carrier carrier_id="1353_Telenor-ME" country_region_code="ME">
+		<siminfo mccmnc="29701"/>
+	</carrier>
+	<carrier carrier_id="1354_SLOTelekom" country_region_code="SI">
+		<siminfo mccmnc="29341"/>
+	</carrier>
+	<carrier carrier_id="1355_A1-SI" country_region_code="SI">
+		<siminfo mccmnc="29340"/>
+	</carrier>
+	<carrier carrier_id="1356_Telemach" country_region_code="SI">
+		<siminfo mccmnc="29370"/>
+	</carrier>
+	<carrier carrier_id="1357_Orange-CI" country_region_code="CI">
+		<siminfo mccmnc="61203"/>
+	</carrier>
+	<carrier carrier_id="1358S1Konec_Telstra" country_region_code="AU">
+		<siminfo mccmnc="50501" imsi_prefix="505015615"/>
+	</carrier>
+	<carrier carrier_id="1358_Telstra" country_region_code="AU">
+		<siminfo mccmnc="50501"/>
+		<siminfo mccmnc="50571"/>
+		<siminfo mccmnc="50572"/>
+	</carrier>
+	<carrier carrier_id="1360_Optus" country_region_code="AU">
+		<siminfo mccmnc="50502"/>
+		<siminfo mccmnc="50590"/>
+	</carrier>
+	<carrier carrier_id="1361S1Warehouse_2degrees" country_region_code="NZ">
+		<siminfo mccmnc="53024" imsi_prefix="5302410"/>
+	</carrier>
+	<carrier carrier_id="1361_2degrees" country_region_code="NZ">
+		<siminfo mccmnc="53024"/>
+	</carrier>
+	<carrier carrier_id="1363S1Skinny_Spark" country_region_code="NZ">
+		<siminfo mccmnc="53005" imsi_prefix="53005204"/>
+	</carrier>
+	<carrier carrier_id="1363_Spark" country_region_code="NZ">
+		<siminfo mccmnc="53005" imsi_range="530051100000000,530051999999999"/>
+		<siminfo mccmnc="53005" imsi_range=" 530052100000000,530059999999999"/>
+		<siminfo mccmnc="53099"/>
+	</carrier>
+	<carrier carrier_id="1365_Truphone-AU" country_region_code="AU">
+		<siminfo mccmnc="50538"/>
+	</carrier>
+	<carrier carrier_id="1366S1Kogan_One" country_region_code="NZ">
+		<siminfo mccmnc="53001" imsi_prefix="5300114006"/>
+		<siminfo mccmnc="53001" spn="KOGAN MOBILE"/>
+		<siminfo mccmnc="53001" imsi_prefix="5300114007"/>
+	</carrier>
+	<carrier carrier_id="1366_One" country_region_code="NZ">
+		<siminfo mccmnc="53001" spn="One NZ"/>
+		<siminfo mccmnc="53001" spn="vodafone NZ"/>
+		<siminfo mccmnc="53001"/>
+	</carrier>
+	<carrier carrier_id="1367_EE" country_region_code="GB">
+		<siminfo mccmnc="23430"/>
+		<siminfo mccmnc="23433"/>
+	</carrier>
+	<carrier carrier_id="1368S1iD_3-GB" country_region_code="GB">
+		<siminfo mccmnc="23420" gid1="0305"/>
+	</carrier>
+	<carrier carrier_id="1368S2Lab_3-GB" country_region_code="GB">
+		<siminfo mccmnc="23594"/>
+	</carrier>
+	<carrier carrier_id="1368_3-GB" country_region_code="GB">
+		<siminfo mccmnc="23420"/>
+	</carrier>
+	<carrier carrier_id="1369_TuAtea" country_region_code="NZ">
+		<siminfo mccmnc="53011"/>
+	</carrier>
+	<carrier carrier_id="1370_Tigo" country_region_code="PA">
+		<siminfo mccmnc="714020"/>
+	</carrier>
+	<carrier carrier_id="1371S1Tesco_O2-GB" country_region_code="GB">
+		<siminfo mccmnc="23410" gid1="0A"/>
+	</carrier>
+	<carrier carrier_id="1371S2GiffGaff_O2-GB" country_region_code="GB">
+		<siminfo mccmnc="23410" gid1="508"/>
+	</carrier>
+	<carrier carrier_id="1371_O2-GB" country_region_code="GB">
+		<siminfo mccmnc="23410" gid1="67"/>
+		<siminfo mccmnc="23410" gid1="85"/>
+		<siminfo mccmnc="23410" gid1="519"/>
+		<siminfo mccmnc="23410" gid1="99"/>
+		<siminfo mccmnc="23410" gid1="61"/>
+		<siminfo mccmnc="23410" gid1="537"/>
+		<siminfo mccmnc="23410"/>
+	</carrier>
+	<carrier carrier_id="1378_Virgin" country_region_code="GB">
+		<siminfo mccmnc="23438"/>
+		<siminfo mccmnc="23438" gid1="2800000000000000"/>
+	</carrier>
+	<carrier carrier_id="1380_Sky" country_region_code="GB">
+		<siminfo mccmnc="23457" gid1="0C"/>
+		<siminfo mccmnc="23457"/>
+		<siminfo mccmnc="24007" gid1="0c"/>
+	</carrier>
+	<carrier carrier_id="1382_Eir" country_region_code="IE">
+		<siminfo mccmnc="27203"/>
+	</carrier>
+	<carrier carrier_id="1383_Three" country_region_code="IE">
+		<siminfo mccmnc="27202"/>
+		<siminfo mccmnc="27205"/>
+	</carrier>
+	<carrier carrier_id="1384_Virgin" country_region_code="IE">
+		<siminfo mccmnc="27215"/>
+	</carrier>
+	<carrier carrier_id="1385_Tesco-IE" country_region_code="IE">
+		<siminfo mccmnc="27211" gid1="0A"/>
+	</carrier>
+	<carrier carrier_id="1386_48-IE" country_region_code="IE">
+		<siminfo mccmnc="27211" spn="48"/>
+	</carrier>
+	<carrier carrier_id="1387_Telfort" country_region_code="NL">
+		<siminfo mccmnc="20412"/>
+	</carrier>
+	<carrier carrier_id="1389_TurkTelekom" country_region_code="TR">
+		<siminfo mccmnc="28603"/>
+	</carrier>
+	<carrier carrier_id="1390_Beeline-RU" country_region_code="RU">
+		<siminfo mccmnc="25099"/>
+	</carrier>
+	<carrier carrier_id="1391S1Yota_Megafon" country_region_code="RU">
+		<siminfo mccmnc="25011"/>
+	</carrier>
+	<carrier carrier_id="1391_Megafon" country_region_code="RU">
+		<siminfo mccmnc="25002"/>
+	</carrier>
+	<carrier carrier_id="1392_MTS" country_region_code="RU">
+		<siminfo mccmnc="25001"/>
+	</carrier>
+	<carrier carrier_id="1393_Tele2-RU" country_region_code="RU">
+		<siminfo mccmnc="25020"/>
+	</carrier>
+	<carrier carrier_id="1394_Telekom-RO" country_region_code="RO">
+		<siminfo mccmnc="22603" spn="MTV Mobile"/>
+		<siminfo mccmnc="22603" spn="frog"/>
+		<siminfo mccmnc="22603" spn="COSMOTE"/>
+		<siminfo mccmnc="22603" spn="TELEKOM.RO"/>
+		<siminfo mccmnc="22603"/>
+		<siminfo mccmnc="22606" spn="MTV Mobile"/>
+		<siminfo mccmnc="22606" spn="frog"/>
+		<siminfo mccmnc="22606" spn="COSMOTE"/>
+		<siminfo mccmnc="22606" spn="TELEKOM.RO"/>
+		<siminfo mccmnc="22606"/>
+	</carrier>
+	<carrier carrier_id="1395_Motiv" country_region_code="RU">
+		<siminfo mccmnc="25035"/>
+	</carrier>
+	<carrier carrier_id="1396S1Tele2_T-Mobile-NL" country_region_code="NL">
+		<siminfo mccmnc="20416" gid1="8F"/>
+		<siminfo mccmnc="20416" spn="Tele2 NL"/>
+		<siminfo mccmnc="20416" gid1="4E4C"/>
+	</carrier>
+	<carrier carrier_id="1396S2Ben_T-Mobile-NL" country_region_code="NL">
+		<siminfo mccmnc="20416" spn="Ben NL"/>
+		<siminfo mccmnc="20416" gid1="5F"/>
+	</carrier>
+	<carrier carrier_id="1396S3Simpel_T-Mobile-NL" country_region_code="NL">
+		<siminfo mccmnc="20416" gid1="2F"/>
+		<siminfo mccmnc="20416" spn="Simpel"/>
+	</carrier>
+	<carrier carrier_id="1396S4Odido_T-Mobile-NL" country_region_code="NL">
+		<siminfo mccmnc="20416" spn="Odido" gid1="4E4C"/>
+		<siminfo mccmnc="20416" spn="Odido" gid1="8F"/>
+		<siminfo mccmnc="20416" spn="Odido" gid1="FF"/>
+	</carrier>
+	<carrier carrier_id="1396_T-Mobile-NL" country_region_code="NL">
+		<siminfo mccmnc="20416" gid1="FF"/>
+		<siminfo mccmnc="20416" spn="T-Mobile NL"/>
+		<siminfo mccmnc="20416"/>
+	</carrier>
+	<carrier carrier_id="1397S1Heyah_T-Mobile-PL" country_region_code="PL">
+		<siminfo mccmnc="26002" spn="heyah"/>
+	</carrier>
+	<carrier carrier_id="1397_T-Mobile-PL" country_region_code="PL">
+		<siminfo mccmnc="26002" gid1="17"/>
+		<siminfo mccmnc="26002" gid1="12"/>
+		<siminfo mccmnc="26002" gid1="16"/>
+		<siminfo mccmnc="26002" gid1="23"/>
+		<siminfo mccmnc="26002" gid1="24"/>
+		<siminfo mccmnc="26002" gid1="21"/>
+		<siminfo mccmnc="26002" gid1="22"/>
+		<siminfo mccmnc="26002" spn="T-Mobile.pl Q"/>
+		<siminfo mccmnc="26002"/>
+		<siminfo mccmnc="26002" spn="tu biedronka"/>
+		<siminfo mccmnc="26002" gid1="11"/>
+		<siminfo mccmnc="26002" gid1="26"/>
+		<siminfo mccmnc="26002" spn="T-Mobile.pl"/>
+	</carrier>
+	<carrier carrier_id="1398_Sbermobile" country_region_code="RU">
+		<siminfo mccmnc="25050"/>
+	</carrier>
+	<carrier carrier_id="1400_Turkcell" country_region_code="TR">
+		<siminfo mccmnc="28601"/>
+	</carrier>
+	<carrier carrier_id="1401S1Congstar_Telekom-DE" country_region_code="DE">
+		<siminfo mccmnc="26201" gid1="44"/>
+		<siminfo mccmnc="26201" spn="congstar.de"/>
+		<siminfo mccmnc="26201" spn="congstar"/>
+		<siminfo mccmnc="26206" gid1="44"/>
+		<siminfo mccmnc="26206" spn="congstar"/>
+		<siminfo mccmnc="26206" spn="congstar.de"/>
+	</carrier>
+	<carrier carrier_id="1401_Telekom-DE" country_region_code="DE">
+		<siminfo mccmnc="26201" spn="T-Mobile D"/>
+		<siminfo mccmnc="26201" spn="Business"/>
+		<siminfo mccmnc="26201" spn="Privat"/>
+		<siminfo mccmnc="26201" spn="T-Campus"/>
+		<siminfo mccmnc="26201"/>
+		<siminfo mccmnc="26201" gid1="01"/>
+		<siminfo mccmnc="26201" gid1="02"/>
+		<siminfo mccmnc="26201" gid1="03"/>
+		<siminfo mccmnc="26201" gid1="04"/>
+		<siminfo mccmnc="26201" gid1="99"/>
+		<siminfo mccmnc="26201" gid1="4B"/>
+		<siminfo mccmnc="26201" spn="Telekom.de"/>
+		<siminfo mccmnc="26206" spn="Business"/>
+		<siminfo mccmnc="26206" spn="Privat"/>
+		<siminfo mccmnc="26206" spn="Telekom.de"/>
+		<siminfo mccmnc="26206"/>
+		<siminfo mccmnc="26206" spn="T-Mobile D"/>
+		<siminfo mccmnc="26206" spn="T-Campus"/>
+		<siminfo mccmnc="26206" gid1="02"/>
+		<siminfo mccmnc="26206" gid1="01"/>
+		<siminfo mccmnc="26206" gid1="99"/>
+		<siminfo mccmnc="26206" gid1="4B"/>
+		<siminfo mccmnc="26206" gid1="03"/>
+		<siminfo mccmnc="26206" gid1="04"/>
+	</carrier>
+	<carrier carrier_id="1403_1AND1" country_region_code="DE">
+		<siminfo mccmnc="26223"/>
+	</carrier>
+	<carrier carrier_id="1404_Spusu-DE" country_region_code="DE">
+		<siminfo mccmnc="26221"/>
+	</carrier>
+	<carrier carrier_id="1405S1Bonbon_Telekom-HR" country_region_code="HR">
+		<siminfo mccmnc="21901" spn="bonbon"/>
+		<siminfo mccmnc="21901" gid1="12"/>
+		<siminfo mccmnc="21901" gid1="11"/>
+		<siminfo mccmnc="21901" gid1="10"/>
+		<siminfo mccmnc="21920" spn="bonbon"/>
+		<siminfo mccmnc="21920" gid1="11"/>
+		<siminfo mccmnc="21920" gid1="12"/>
+		<siminfo mccmnc="21920" gid1="10"/>
+	</carrier>
+	<carrier carrier_id="1405_Telekom-HR" country_region_code="HR">
+		<siminfo mccmnc="21901" spn="HT HR"/>
+		<siminfo mccmnc="21901" spn="T-Mobile HR"/>
+		<siminfo mccmnc="21901" spn="R&amp;D Network"/>
+		<siminfo mccmnc="21901" gid1="03"/>
+		<siminfo mccmnc="21901" gid1="02"/>
+		<siminfo mccmnc="21901" gid1="FF"/>
+		<siminfo mccmnc="21901" gid1="99"/>
+		<siminfo mccmnc="21901" spn="HT-Campus"/>
+		<siminfo mccmnc="21901" gid1="01"/>
+		<siminfo mccmnc="21901"/>
+		<siminfo mccmnc="21920" gid1="99"/>
+		<siminfo mccmnc="21920" gid1="03"/>
+		<siminfo mccmnc="21920" spn="T-Mobile HR"/>
+		<siminfo mccmnc="21920" gid1="FF"/>
+		<siminfo mccmnc="21920"/>
+		<siminfo mccmnc="21920" gid1="02"/>
+		<siminfo mccmnc="21920" gid1="01"/>
+		<siminfo mccmnc="21920" spn="R&amp;D Network"/>
+		<siminfo mccmnc="21920" spn="HT HR"/>
+		<siminfo mccmnc="21920" spn="HT-Campus"/>
+	</carrier>
+	<carrier carrier_id="1407_T-Mobile-CZ" country_region_code="CZ">
+		<siminfo mccmnc="23001"/>
+		<siminfo mccmnc="23001" spn="T-Mobile CZ"/>
+	</carrier>
+	<carrier carrier_id="1408_Cosmote" country_region_code="GR">
+		<siminfo mccmnc="20201"/>
+		<siminfo mccmnc="20201" gid1="FFFF"/>
+	</carrier>
+	<carrier carrier_id="1409_MagyarTelekom" country_region_code="HU">
+		<siminfo mccmnc="21630"/>
+		<siminfo mccmnc="21630" spn="T-Mobile H"/>
+		<siminfo mccmnc="21630" spn="Telekom HU"/>
+	</carrier>
+	<carrier carrier_id="1410_SlovakTelekom" country_region_code="SK">
+		<siminfo mccmnc="23102" spn="Juro.sk"/>
+		<siminfo mccmnc="23102"/>
+		<siminfo mccmnc="23102" spn="Telekom SK"/>
+	</carrier>
+	<carrier carrier_id="1411_T-Mobile-AT" country_region_code="AT">
+		<siminfo mccmnc="23203"/>
+		<siminfo mccmnc="23203" gid1="01"/>
+		<siminfo mccmnc="23203" gid1="31"/>
+		<siminfo mccmnc="23203" gid1="32"/>
+		<siminfo mccmnc="23204"/>
+		<siminfo mccmnc="23207" gid1="07"/>
+		<siminfo mccmnc="23207" gid1="30"/>
+		<siminfo mccmnc="23207"/>
+		<siminfo mccmnc="23207" gid1="FF"/>
+	</carrier>
+	<carrier carrier_id="1413_Telekom-MK" country_region_code="MK">
+		<siminfo mccmnc="29401" spn="T-Mobile MK"/>
+		<siminfo mccmnc="29401" spn="Telekom MK"/>
+		<siminfo mccmnc="29401" gid1="FF"/>
+		<siminfo mccmnc="29401" spn="Telekom.mk"/>
+		<siminfo mccmnc="29401"/>
+	</carrier>
+	<carrier carrier_id="1414_Telekom-ME" country_region_code="ME">
+		<siminfo mccmnc="29702" spn="Telekom.me"/>
+		<siminfo mccmnc="29702"/>
+	</carrier>
+	<carrier carrier_id="1415_INWI" country_region_code="MA">
+		<siminfo mccmnc="60402"/>
+	</carrier>
+	<carrier carrier_id="1416_MarocTelecom" country_region_code="MA">
+		<siminfo mccmnc="60401"/>
+	</carrier>
+	<carrier carrier_id="1417_Ooredoo-TN" country_region_code="TN">
+		<siminfo mccmnc="60503"/>
+	</carrier>
+	<carrier carrier_id="1418_TunisieTelecom" country_region_code="TN">
+		<siminfo mccmnc="60502"/>
+	</carrier>
+	<carrier carrier_id="1419_Safaricom" country_region_code="KE">
+		<siminfo mccmnc="63902"/>
+	</carrier>
+	<carrier carrier_id="1420_JTL" country_region_code="KE">
+		<siminfo mccmnc="63910"/>
+	</carrier>
+	<carrier carrier_id="1421_Telkom" country_region_code="KE">
+		<siminfo mccmnc="63907"/>
+	</carrier>
+	<carrier carrier_id="1422_Airtel" country_region_code="KE">
+		<siminfo mccmnc="63903"/>
+	</carrier>
+	<carrier carrier_id="1423_MTN-CI" country_region_code="CI">
+		<siminfo mccmnc="61205"/>
+	</carrier>
+	<carrier carrier_id="1424_Airtel" country_region_code="GH">
+		<siminfo mccmnc="62006"/>
+	</carrier>
+	<carrier carrier_id="1425_Globacom" country_region_code="GH">
+		<siminfo mccmnc="62007"/>
+	</carrier>
+	<carrier carrier_id="1426_MTN-CM" country_region_code="CM">
+		<siminfo mccmnc="62401"/>
+	</carrier>
+	<carrier carrier_id="1426_MTN-GH" country_region_code="GH">
+		<siminfo mccmnc="62001"/>
+	</carrier>
+	<carrier carrier_id="1427_Unitel" country_region_code="AO">
+		<siminfo mccmnc="63102"/>
+	</carrier>
+	<carrier carrier_id="1428_Movicel" country_region_code="AO">
+		<siminfo mccmnc="63104"/>
+	</carrier>
+	<carrier carrier_id="1429_Smile" country_region_code="TZ">
+		<siminfo mccmnc="64011"/>
+	</carrier>
+	<carrier carrier_id="1430_Airtel" country_region_code="TZ">
+		<siminfo mccmnc="64005"/>
+	</carrier>
+	<carrier carrier_id="1431_Tigo" country_region_code="TZ">
+		<siminfo mccmnc="64002"/>
+	</carrier>
+	<carrier carrier_id="1432_Zantel" country_region_code="TZ">
+		<siminfo mccmnc="64003"/>
+	</carrier>
+	<carrier carrier_id="1433_GabonTelecom" country_region_code="GA">
+		<siminfo mccmnc="62801"/>
+	</carrier>
+	<carrier carrier_id="1434_Airtel" country_region_code="GA">
+		<siminfo mccmnc="62803"/>
+	</carrier>
+	<carrier carrier_id="1435_CableWireless" country_region_code="SC">
+		<siminfo mccmnc="63301"/>
+	</carrier>
+	<carrier carrier_id="1436_MTN-YE" country_region_code="YE">
+		<siminfo mccmnc="42102"/>
+	</carrier>
+	<carrier carrier_id="1437_MauritiusTelecom" country_region_code="MU">
+		<siminfo mccmnc="61701"/>
+	</carrier>
+	<carrier carrier_id="1438_Emtel" country_region_code="MU">
+		<siminfo mccmnc="61710"/>
+	</carrier>
+	<carrier carrier_id="1439S1Playlab_Play" country_region_code="PL">
+		<siminfo mccmnc="26098"/>
+	</carrier>
+	<carrier carrier_id="1439_Play" country_region_code="PL">
+		<siminfo mccmnc="26006"/>
+	</carrier>
+	<carrier carrier_id="1441_PLUS" country_region_code="PL">
+		<siminfo mccmnc="26001"/>
+	</carrier>
+	<carrier carrier_id="1442_o2-DE" country_region_code="DE">
+		<siminfo mccmnc="26203"/>
+		<siminfo mccmnc="26203" gid1="010301FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+		<siminfo mccmnc="26203" gid1="010901FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+		<siminfo mccmnc="26207" gid1="010301FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+		<siminfo mccmnc="26207" gid1="010901FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+		<siminfo mccmnc="26207"/>
+	</carrier>
+	<carrier carrier_id="1443_PLUS" country_region_code="PL">
+		<siminfo mccmnc="26004"/>
+		<siminfo mccmnc="26007"/>
+		<siminfo mccmnc="26012"/>
+		<siminfo mccmnc="26015"/>
+		<siminfo mccmnc="26016"/>
+		<siminfo mccmnc="26017"/>
+	</carrier>
+	<carrier carrier_id="1444_o2-DE" country_region_code="DE">
+		<siminfo mccmnc="26211"/>
+	</carrier>
+	<carrier carrier_id="1445_TelcelOUI-MX" country_region_code="MX">
+		<siminfo mccmnc="334020"/>
+		<siminfo mccmnc="334020" spn="OUI"/>
+	</carrier>
+	<carrier carrier_id="1446_ATT-MX" country_region_code="MX">
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX0XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX2XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX4XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX5XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX6XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX7XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX8XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX9XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090"/>
+	</carrier>
+	<carrier carrier_id="1447S1Unefon_Unefon-MX" country_region_code="MX">
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX1XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX3XXXXXXXXXXX"/>
+	</carrier>
+	<carrier carrier_id="1447_Unefon-MX" country_region_code="MX">
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX1XXXXXXXXXXX"/>
+		<siminfo mccmnc="334090" iccid_prefix="XXXXXXXX3XXXXXXXXXXX"/>
+	</carrier>
+	<carrier carrier_id="1448_izzi-MX" country_region_code="MX">
+		<siminfo mccmnc="334160" imsi_prefix="334160"/>
+	</carrier>
+	<carrier carrier_id="1449_Megamovil" country_region_code="MX">
+		<siminfo mccmnc="334050" gid1="4D454741FFFFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1450_BLUE" country_region_code="MX">
+		<siminfo mccmnc="334050" gid1="424C5545FFFFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1451_UBIX" country_region_code="MX">
+		<siminfo mccmnc="334050" gid1="55424958FFFFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1452_Movistar" country_region_code="MX">
+		<siminfo mccmnc="33403"/>
+		<siminfo mccmnc="334030"/>
+	</carrier>
+	<carrier carrier_id="1453_ALTAN" country_region_code="MX">
+		<siminfo mccmnc="334140"/>
+	</carrier>
+	<carrier carrier_id="1454_ASM" country_region_code="MX">
+		<siminfo mccmnc="334130"/>
+	</carrier>
+	<carrier carrier_id="1455_Virgin" country_region_code="MX">
+		<siminfo mccmnc="33430"/>
+	</carrier>
+	<carrier carrier_id="1457_Claro-PA" country_region_code="PA">
+		<siminfo mccmnc="71403"/>
+	</carrier>
+	<carrier carrier_id="1458_Digicel" country_region_code="PA">
+		<siminfo mccmnc="71404"/>
+	</carrier>
+	<carrier carrier_id="1459_CableWireless" country_region_code="PA">
+		<siminfo mccmnc="71401"/>
+	</carrier>
+	<carrier carrier_id="1460_Movistar-PA" country_region_code="PA">
+		<siminfo mccmnc="71402"/>
+	</carrier>
+	<carrier carrier_id="1461_Claro-SV" country_region_code="SV">
+		<siminfo mccmnc="70601"/>
+	</carrier>
+	<carrier carrier_id="1462_Tigo-SV" country_region_code="SV">
+		<siminfo mccmnc="70603"/>
+	</carrier>
+	<carrier carrier_id="1463_Movistar-SV" country_region_code="SV">
+		<siminfo mccmnc="70604"/>
+	</carrier>
+	<carrier carrier_id="1464_Digicel" country_region_code="SV">
+		<siminfo mccmnc="70602"/>
+	</carrier>
+	<carrier carrier_id="1465_Claro-GT" country_region_code="GT">
+		<siminfo mccmnc="70401"/>
+	</carrier>
+	<carrier carrier_id="1466_Tigo-GT" country_region_code="GT">
+		<siminfo mccmnc="70402"/>
+	</carrier>
+	<carrier carrier_id="1467_Movistar-GT" country_region_code="GT">
+		<siminfo mccmnc="70403"/>
+	</carrier>
+	<carrier carrier_id="1468_Claro-HN" country_region_code="HN">
+		<siminfo mccmnc="708001"/>
+	</carrier>
+	<carrier carrier_id="1469_Claro-DO" country_region_code="DO">
+		<siminfo mccmnc="37002"/>
+	</carrier>
+	<carrier carrier_id="1470_Tigo" country_region_code="HN">
+		<siminfo mccmnc="70802"/>
+		<siminfo mccmnc="708020"/>
+	</carrier>
+	<carrier carrier_id="1471_Claro-NI" country_region_code="NI">
+		<siminfo mccmnc="71021"/>
+	</carrier>
+	<carrier carrier_id="1472_Movistar-NI" country_region_code="NI">
+		<siminfo mccmnc="71030"/>
+	</carrier>
+	<carrier carrier_id="1473_Claro-CR" country_region_code="CR">
+		<siminfo mccmnc="71203"/>
+	</carrier>
+	<carrier carrier_id="1474_ICE" country_region_code="CR">
+		<siminfo mccmnc="71201"/>
+		<siminfo mccmnc="71202"/>
+	</carrier>
+	<carrier carrier_id="1476_Movistar-CR" country_region_code="CR">
+		<siminfo mccmnc="71204"/>
+	</carrier>
+	<carrier carrier_id="1477_Claro-PR" country_region_code="PR">
+		<siminfo mccmnc="330110"/>
+	</carrier>
+	<carrier carrier_id="1478_Openmobile" country_region_code="PR">
+		<siminfo mccmnc="330000"/>
+		<siminfo mccmnc="330120"/>
+	</carrier>
+	<carrier carrier_id="1480_WOM" country_region_code="CL">
+		<siminfo mccmnc="73009"/>
+	</carrier>
+	<carrier carrier_id="1481_Movistar-CL" country_region_code="CL">
+		<siminfo mccmnc="73002"/>
+		<siminfo mccmnc="73007"/>
+	</carrier>
+	<carrier carrier_id="1483_Entel" country_region_code="CL">
+		<siminfo mccmnc="73001"/>
+	</carrier>
+	<carrier carrier_id="1484_Claro-CL" country_region_code="CL">
+		<siminfo mccmnc="73003"/>
+		<siminfo mccmnc="73023"/>
+	</carrier>
+	<carrier carrier_id="1486_VTR" country_region_code="CL">
+		<siminfo mccmnc="73008"/>
+	</carrier>
+	<carrier carrier_id="1487_Movistar-CO" country_region_code="CO">
+		<siminfo mccmnc="732123"/>
+	</carrier>
+	<carrier carrier_id="1488_Tigo-CO" country_region_code="CO">
+		<siminfo mccmnc="732103"/>
+		<siminfo mccmnc="732111"/>
+	</carrier>
+	<carrier carrier_id="1490_Avantel" country_region_code="CO">
+		<siminfo mccmnc="732130"/>
+	</carrier>
+	<carrier carrier_id="1491_Claro-CO" country_region_code="CO">
+		<siminfo mccmnc="732101"/>
+	</carrier>
+	<carrier carrier_id="1492_WOM" country_region_code="CO">
+		<siminfo mccmnc="732360"/>
+	</carrier>
+	<carrier carrier_id="1493_Movistar-EC" country_region_code="EC">
+		<siminfo mccmnc="74000"/>
+	</carrier>
+	<carrier carrier_id="1494_Claro" country_region_code="EC">
+		<siminfo mccmnc="74001"/>
+	</carrier>
+	<carrier carrier_id="1495_Tigo-BO" country_region_code="BO">
+		<siminfo mccmnc="73603"/>
+	</carrier>
+	<carrier carrier_id="1496_Entel" country_region_code="PE">
+		<siminfo mccmnc="71617"/>
+	</carrier>
+	<carrier carrier_id="1497_Bitel" country_region_code="PE">
+		<siminfo mccmnc="71615"/>
+	</carrier>
+	<carrier carrier_id="1498_Movistar-PE" country_region_code="PE">
+		<siminfo mccmnc="71606"/>
+	</carrier>
+	<carrier carrier_id="1499_Claro" country_region_code="PE">
+		<siminfo mccmnc="71610"/>
+	</carrier>
+	<carrier carrier_id="1500_Vivo" country_region_code="BR">
+		<siminfo mccmnc="72406"/>
+		<siminfo mccmnc="72410"/>
+		<siminfo mccmnc="72411"/>
+		<siminfo mccmnc="72423"/>
+	</carrier>
+	<carrier carrier_id="1504_Claro-BR" country_region_code="BR">
+		<siminfo mccmnc="72405"/>
+		<siminfo mccmnc="72438"/>
+	</carrier>
+	<carrier carrier_id="1506_TIM-BR" country_region_code="BR">
+		<siminfo mccmnc="72402"/>
+		<siminfo mccmnc="72403"/>
+		<siminfo mccmnc="72404"/>
+	</carrier>
+	<carrier carrier_id="1509_OI" country_region_code="BR">
+		<siminfo mccmnc="72431"/>
+	</carrier>
+	<carrier carrier_id="1510_Digicel" country_region_code="JM">
+		<siminfo mccmnc="338050"/>
+	</carrier>
+	<carrier carrier_id="1511_Flow" country_region_code="JM">
+		<siminfo mccmnc="338020"/>
+	</carrier>
+	<carrier carrier_id="1512_Altice" country_region_code="DO">
+		<siminfo mccmnc="37001"/>
+	</carrier>
+	<carrier carrier_id="1513_Claro" country_region_code="AR">
+		<siminfo mccmnc="722310"/>
+	</carrier>
+	<carrier carrier_id="1514_Movistar-AR" country_region_code="AR">
+		<siminfo mccmnc="72207"/>
+	</carrier>
+	<carrier carrier_id="1515_Personal" country_region_code="AR">
+		<siminfo mccmnc="72234"/>
+		<siminfo mccmnc="722341"/>
+	</carrier>
+	<carrier carrier_id="1516_Digicel" country_region_code="BB">
+		<siminfo mccmnc="342750"/>
+	</carrier>
+	<carrier carrier_id="1517_Flow" country_region_code="BB">
+		<siminfo mccmnc="342600"/>
+	</carrier>
+	<carrier carrier_id="1518_Aliv" country_region_code="BS">
+		<siminfo mccmnc="36449"/>
+	</carrier>
+	<carrier carrier_id="1519_BTC" country_region_code="BS">
+		<siminfo mccmnc="36439"/>
+	</carrier>
+	<carrier carrier_id="1520_Telesur" country_region_code="SR">
+		<siminfo mccmnc="74602"/>
+	</carrier>
+	<carrier carrier_id="1521_Digicel" country_region_code="SR">
+		<siminfo mccmnc="74603"/>
+	</carrier>
+	<carrier carrier_id="1522_Antel" country_region_code="UY">
+		<siminfo mccmnc="74801"/>
+	</carrier>
+	<carrier carrier_id="1523_Movistar-UY" country_region_code="UY">
+		<siminfo mccmnc="74807"/>
+	</carrier>
+	<carrier carrier_id="1524_Tigo-PY" country_region_code="PY">
+		<siminfo mccmnc="74404"/>
+	</carrier>
+	<carrier carrier_id="1525_Personal" country_region_code="PY">
+		<siminfo mccmnc="74405"/>
+	</carrier>
+	<carrier carrier_id="1526S1Lebara_Vodafone-AU" country_region_code="AU">
+		<siminfo mccmnc="50503" gid1="01F"/>
+	</carrier>
+	<carrier carrier_id="1526_Vodafone-AU" country_region_code="AU">
+		<siminfo mccmnc="50503"/>
+		<siminfo mccmnc="50506"/>
+	</carrier>
+	<carrier carrier_id="1528S1HoMobile_Vodafone-IT" country_region_code="IT">
+		<siminfo mccmnc="22210" spn="ho."/>
+	</carrier>
+	<carrier carrier_id="1528S2VodafoneLab_Vodafone-IT" country_region_code="IT">
+		<siminfo mccmnc="00101" gid1="DE" gid2="0A"/>
+		<siminfo mccmnc="00101" iccid_prefix="893910"/>
+	</carrier>
+	<carrier carrier_id="1528_Vodafone-IT" country_region_code="IT">
+		<siminfo mccmnc="22206"/>
+		<siminfo mccmnc="22210"/>
+		<siminfo mccmnc="22210" spn="Vodafone"/>
+		<siminfo mccmnc="22210" spn="vodafone IT"/>
+	</carrier>
+	<carrier carrier_id="1529_Digi-PT" country_region_code="PT">
+		<siminfo mccmnc="26802"/>
+	</carrier>
+	<carrier carrier_id="1530_Vodafone-GB" country_region_code="GB">
+		<siminfo mccmnc="23415"/>
+	</carrier>
+	<carrier carrier_id="1531S1HollandsNieuwe_Vodafone-NL" country_region_code="NL">
+		<siminfo mccmnc="20404" spn="hollandsnieuwe"/>
+	</carrier>
+	<carrier carrier_id="1531_Vodafone-NL" country_region_code="NL">
+		<siminfo mccmnc="20404"/>
+		<siminfo mccmnc="20404" spn="vodafone NL"/>
+		<siminfo mccmnc="20404" spn="Vodafone"/>
+	</carrier>
+	<carrier carrier_id="1532_Vodafone-UA" country_region_code="UA">
+		<siminfo mccmnc="25501" spn="Vodafone UA"/>
+		<siminfo mccmnc="25501"/>
+	</carrier>
+	<carrier carrier_id="1533_Vodafone-ES" country_region_code="ES">
+		<siminfo mccmnc="21401"/>
+	</carrier>
+	<carrier carrier_id="1534_Vodafone-ES" country_region_code="ES">
+		<siminfo mccmnc="21424"/>
+	</carrier>
+	<carrier carrier_id="1535_Vodafone-TR" country_region_code="TR">
+		<siminfo mccmnc="28602"/>
+	</carrier>
+	<carrier carrier_id="1536_Vodafone-RO" country_region_code="RO">
+		<siminfo mccmnc="22601"/>
+		<siminfo mccmnc="22601" spn="Vodafone RO"/>
+	</carrier>
+	<carrier carrier_id="1537_Vodafone-PT" country_region_code="PT">
+		<siminfo mccmnc="26801"/>
+		<siminfo mccmnc="26801" spn="vodafone P"/>
+		<siminfo mccmnc="26801" spn="Vodafone"/>
+	</carrier>
+	<carrier carrier_id="1538_Vodafone-PT" country_region_code="PT">
+		<siminfo mccmnc="26891"/>
+	</carrier>
+	<carrier carrier_id="1539_Vodafonelab-PT" country_region_code="PT">
+		<siminfo mccmnc="26889"/>
+	</carrier>
+	<carrier carrier_id="1540S1VodafoneLab_Vodafone-DE" country_region_code="DE">
+		<siminfo mccmnc="26209"/>
+	</carrier>
+	<carrier carrier_id="1540S2MVNO_Vodafone-DE" country_region_code="DE">
+		<siminfo mccmnc="26202" spn="XXXXXX"/>
+	</carrier>
+	<carrier carrier_id="1540_Vodafone-DE" country_region_code="DE">
+		<siminfo mccmnc="26202"/>
+		<siminfo mccmnc="26202" spn="vodafone"/>
+		<siminfo mccmnc="26202" spn="Vodafone"/>
+	</carrier>
+	<carrier carrier_id="1541_MSDVDF-DE" country_region_code="DE">
+		<siminfo mccmnc="26202" imsi_range="262021915688022,262021915689721"/>
+		<siminfo mccmnc="26202" imsi_range="262021916728922,262021916753921"/>
+		<siminfo mccmnc="26202" imsi_range="262021916844422,262021916869421"/>
+		<siminfo mccmnc="26202" imsi_range="262021505517152,262021505518151"/>
+		<siminfo mccmnc="26202" imsi_range="262021605721605,262021605722104"/>
+	</carrier>
+	<carrier carrier_id="1542_LIDLVDF-DE" country_region_code="DE">
+		<siminfo mccmnc="26202" imsi_range="262021913520022,262021914085021"/>
+		<siminfo mccmnc="26202" imsi_range=" 262021914583022,262021914843021"/>
+		<siminfo mccmnc="26202" imsi_range=" 262021704060033,262021704075032"/>
+		<siminfo mccmnc="26202" imsi_range=" 262021705178075,262021705185574"/>
+		<siminfo mccmnc="26202" imsi_range=" 262021706006477,262021706046476"/>
+	</carrier>
+	<carrier carrier_id="1543_Vodafone-IE" country_region_code="IE">
+		<siminfo mccmnc="27201"/>
+		<siminfo mccmnc="27201" spn="vodafone IE"/>
+	</carrier>
+	<carrier carrier_id="1544_Vodafone-CY" country_region_code="CY">
+		<siminfo mccmnc="28001" spn="CytaVoda"/>
+		<siminfo mccmnc="28001"/>
+	</carrier>
+	<carrier carrier_id="1545_Vodafone-CZ" country_region_code="CZ">
+		<siminfo mccmnc="23003" spn="Vodafone CZ"/>
+		<siminfo mccmnc="23003"/>
+	</carrier>
+	<carrier carrier_id="1546_VodafoneLab-CZ" country_region_code="CZ">
+		<siminfo mccmnc="23099"/>
+	</carrier>
+	<carrier carrier_id="1547_Vodafone-GR" country_region_code="GR">
+		<siminfo mccmnc="20205" spn="CU-X"/>
+		<siminfo mccmnc="20205"/>
+		<siminfo mccmnc="20205" spn="vodafone GR"/>
+		<siminfo mccmnc="20205" spn="CU"/>
+	</carrier>
+	<carrier carrier_id="1548_Vodafone-HU" country_region_code="HU">
+		<siminfo mccmnc="21670" spn="vodafone HU"/>
+		<siminfo mccmnc="21670"/>
+	</carrier>
+	<carrier carrier_id="1549_Vodafone-IN" country_region_code="IN">
+		<siminfo mccmnc="40401"/>
+		<siminfo mccmnc="40405"/>
+		<siminfo mccmnc="40411"/>
+		<siminfo mccmnc="40413"/>
+		<siminfo mccmnc="40415"/>
+		<siminfo mccmnc="40420"/>
+		<siminfo mccmnc="40427"/>
+		<siminfo mccmnc="40430"/>
+		<siminfo mccmnc="40443"/>
+		<siminfo mccmnc="40446"/>
+		<siminfo mccmnc="40460"/>
+		<siminfo mccmnc="40484"/>
+		<siminfo mccmnc="40486"/>
+		<siminfo mccmnc="40488"/>
+		<siminfo mccmnc="40566"/>
+		<siminfo mccmnc="40567"/>
+		<siminfo mccmnc="405750"/>
+		<siminfo mccmnc="405751"/>
+		<siminfo mccmnc="405752"/>
+		<siminfo mccmnc="405753"/>
+		<siminfo mccmnc="405754"/>
+		<siminfo mccmnc="405755"/>
+		<siminfo mccmnc="405756"/>
+	</carrier>
+	<carrier carrier_id="1550S1_Vodafone-QA" country_region_code="QA">
+		<siminfo mccmnc="42707"/>
+	</carrier>
+	<carrier carrier_id="1550_Vodafone-QA" country_region_code="QA">
+		<siminfo mccmnc="42702"/>
+		<siminfo mccmnc="42702" spn="Vodafone Qatar"/>
+	</carrier>
+	<carrier carrier_id="1551_Vodafone-EG" country_region_code="EG">
+		<siminfo mccmnc="60202"/>
+		<siminfo mccmnc="60202" spn="vodafone"/>
+	</carrier>
+	<carrier carrier_id="1552_Vodafone-OM" country_region_code="OM">
+		<siminfo mccmnc="42206"/>
+	</carrier>
+	<carrier carrier_id="1553_Vodacom-TZ" country_region_code="TZ">
+		<siminfo mccmnc="64004" spn="VodaCom Tanzania"/>
+		<siminfo mccmnc="64004"/>
+	</carrier>
+	<carrier carrier_id="1554_Tango" country_region_code="LU">
+		<siminfo mccmnc="27077"/>
+	</carrier>
+	<carrier carrier_id="1555_POST" country_region_code="LU">
+		<siminfo mccmnc="27001"/>
+	</carrier>
+	<carrier carrier_id="1556_Orange-CM" country_region_code="CM">
+		<siminfo mccmnc="62402"/>
+	</carrier>
+	<carrier carrier_id="1585_Elisa-FI" country_region_code="FI">
+		<siminfo mccmnc="24405"/>
+		<siminfo mccmnc="24421"/>
+	</carrier>
+	<carrier carrier_id="1600S1Newww_ATT-MX" country_region_code="MX">
+		<siminfo mccmnc="334050" gid1="4E45575757FFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1600S2Yomobile_ATT-MX" country_region_code="MX">
+		<siminfo mccmnc="334050" gid1="594FFFFFFFFFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1600S3ONE_ATT-MX" country_region_code="MX">
+		<siminfo mccmnc="334050" gid1="4F4E45FFFFFFFFFFFF"/>
+	</carrier>
+	<carrier carrier_id="1600_ATT-MX" country_region_code="MX">
+		<siminfo mccmnc="334050"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX0XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX2XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX4XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX5XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX6XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX7XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX8XXXXXXXXXXX"/>
+		<siminfo mccmnc="334050" iccid_prefix="XXXXXXXX9XXXXXXXXXXX"/>
+	</carrier>
+	<carrier carrier_id="1601_ATT-MX" country_region_code="MX">
+		<siminfo mccmnc="334070"/>
+	</carrier>
+	<carrier carrier_id="1602_CHT" country_region_code="TW">
+		<siminfo mccmnc="46611"/>
+		<siminfo mccmnc="46692"/>
+	</carrier>
+	<carrier carrier_id="1603_TelloTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6941"/>
+		<siminfo mccmnc="310260" gid1="6941"/>
+	</carrier>
+	<carrier carrier_id="1604_QlinkTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="514C"/>
+		<siminfo mccmnc="310260" gid1="514C"/>
+	</carrier>
+	<carrier carrier_id="1605_iWirelessTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6957"/>
+		<siminfo mccmnc="310260" gid1="6957"/>
+	</carrier>
+	<carrier carrier_id="1606_PWGTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="7531"/>
+		<siminfo mccmnc="310240" gid1="4358"/>
+		<siminfo mccmnc="310240" gid1="6901"/>
+		<siminfo mccmnc="310240" gid1="6909"/>
+		<siminfo mccmnc="310260" gid1="4358"/>
+		<siminfo mccmnc="310260" gid1="6901"/>
+		<siminfo mccmnc="310260" gid1="6909"/>
+		<siminfo mccmnc="310260" gid1="7531"/>
+	</carrier>
+	<carrier carrier_id="1607_GoogleTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="4276"/>
+		<siminfo mccmnc="310240" gid1="4E45"/>
+		<siminfo mccmnc="310260" gid1="4E45"/>
+		<siminfo mccmnc="310260" gid1="4276"/>
+	</carrier>
+	<carrier carrier_id="1608_PlintronTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6902"/>
+		<siminfo mccmnc="310240" gid1="7032"/>
+		<siminfo mccmnc="310240" gid1="7031"/>
+		<siminfo mccmnc="310260" gid1="7032"/>
+		<siminfo mccmnc="310260" gid1="7031"/>
+		<siminfo mccmnc="310260" gid1="6902"/>
+	</carrier>
+	<carrier carrier_id="1609_RepublicWirelessTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6134"/>
+		<siminfo mccmnc="310240" gid1="6905"/>
+		<siminfo mccmnc="310260" gid1="6905"/>
+		<siminfo mccmnc="310260" gid1="6134"/>
+	</carrier>
+	<carrier carrier_id="1610_ConsumerCellularTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="2AC9"/>
+		<siminfo mccmnc="310260" gid1="2AC9"/>
+	</carrier>
+	<carrier carrier_id="1611_LycaMobileTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6C79"/>
+		<siminfo mccmnc="310260" gid1="6C79"/>
+	</carrier>
+	<carrier carrier_id="1612_NovaLabsTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6907"/>
+		<siminfo mccmnc="310260" gid1="6907"/>
+	</carrier>
+	<carrier carrier_id="1613_RadiateTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6911"/>
+		<siminfo mccmnc="310260" gid1="6911"/>
+	</carrier>
+	<carrier carrier_id="1614_MVNOConnectTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6910"/>
+		<siminfo mccmnc="310260" gid1="6910"/>
+	</carrier>
+	<carrier carrier_id="1615_TMUS" country_region_code="US">
+		<siminfo mccmnc="310160"/>
+		<siminfo mccmnc="310200"/>
+		<siminfo mccmnc="310210"/>
+		<siminfo mccmnc="310220"/>
+		<siminfo mccmnc="310230"/>
+		<siminfo mccmnc="310240"/>
+		<siminfo mccmnc="310250"/>
+		<siminfo mccmnc="310260"/>
+		<siminfo mccmnc="310270"/>
+		<siminfo mccmnc="310490"/>
+		<siminfo mccmnc="310660"/>
+		<siminfo mccmnc="310800"/>
+	</carrier>
+	<carrier carrier_id="1616_Vodafone-AL" country_region_code="AL">
+		<siminfo mccmnc="27602"/>
+	</carrier>
+	<carrier carrier_id="1617_VEE" country_region_code="ES">
+		<siminfo mccmnc="21406" spn="Lowi"/>
+		<siminfo mccmnc="21406" spn="finetwork"/>
+		<siminfo mccmnc="21406" spn="Mi Operador"/>
+		<siminfo mccmnc="21406" spn="Olephone"/>
+	</carrier>
+	<carrier carrier_id="1618_Truphone" country_region_code="ES">
+		<siminfo mccmnc="21427"/>
+	</carrier>
+	<carrier carrier_id="1619_T2" country_region_code="SI">
+		<siminfo mccmnc="29364"/>
+	</carrier>
+	<carrier carrier_id="1620_321CommunicationsTMO" country_region_code="US">
+		<siminfo mccmnc="310240" gid1="6912"/>
+		<siminfo mccmnc="310260" gid1="6912"/>
+	</carrier>
+	<carrier carrier_id="1621_Ucell-UZ" country_region_code="UZ">
+		<siminfo mccmnc="43405"/>
+	</carrier>
+	<carrier carrier_id="1623_Unifique" country_region_code="BR">
+		<siminfo mccmnc="72429"/>
+	</carrier>
+	<carrier carrier_id="1624_AmericanNet" country_region_code="BR">
+		<siminfo mccmnc="72426"/>
+	</carrier>
+	<carrier carrier_id="1625_Redbull" country_region_code="SA">
+		<siminfo mccmnc="42010"/>
+	</carrier>
+	<carrier carrier_id="1626_Koodo" country_region_code="CA">
+		<siminfo mccmnc="302220" gid1="4B"/>
+	</carrier>
+	<carrier carrier_id="1627_PublicMobile" country_region_code="CA">
+		<siminfo mccmnc="302220" gid1="4D"/>
+	</carrier>
+	<carrier carrier_id="1628_Telavox" country_region_code="SE">
+		<siminfo mccmnc="24050"/>
+	</carrier>
+	<carrier carrier_id="1630_Pioneer" country_region_code="US">
+		<siminfo mccmnc="312280"/>
+	</carrier>
+	<carrier carrier_id="1631_Inland" country_region_code="US">
+		<siminfo mccmnc="310580"/>
+	</carrier>
+	<carrier carrier_id="1632_JamesValleyWireless" country_region_code="US">
+		<siminfo mccmnc="310920"/>
+	</carrier>
+	<carrier carrier_id="1633_CopperValley" country_region_code="US">
+		<siminfo mccmnc="312380" gid1="BA000000000004C43C"/>
+	</carrier>
+	<carrier carrier_id="1634_ThumbCellular" country_region_code="US">
+		<siminfo mccmnc="310630"/>
+		<siminfo mccmnc="311050"/>
+		<siminfo mccmnc="311830"/>
+	</carrier>
+	<carrier carrier_id="1635_IllinoisValleyCellular" country_region_code="US">
+		<siminfo mccmnc="311340"/>
+	</carrier>
+	<carrier carrier_id="1636_UnitedWireless" country_region_code="US">
+		<siminfo mccmnc="311650"/>
+	</carrier>
+	<carrier carrier_id="1637_Claro-PY" country_region_code="PY">
+		<siminfo mccmnc="74402"/>
+	</carrier>
+	<carrier carrier_id="1638_Claro-UY" country_region_code="UY">
+		<siminfo mccmnc="74810"/>
+	</carrier>
+	<carrier carrier_id="1639_SpeakOut" country_region_code="MY">
+		<siminfo mccmnc="50216" imsi_prefix="502161081"/>
+	</carrier>
+	<carrier carrier_id="1640_gomo" country_region_code="TH">
+		<siminfo mccmnc="52003" imsi_prefix="520030908"/>
+	</carrier>
+	<carrier carrier_id="1641_FINN" country_region_code="TH">
+		<siminfo mccmnc="52005" imsi_prefix="520053020"/>
+	</carrier>
+	<carrier carrier_id="1642_Penguin" country_region_code="TH">
+		<siminfo mccmnc="52000" imsi_prefix="520001941"/>
+	</carrier>
+	<carrier carrier_id="1643_SCO" country_region_code="PK">
+		<siminfo mccmnc="41005"/>
+	</carrier>
+	<carrier carrier_id="1644_Jambotel" country_region_code="KE">
+		<siminfo mccmnc="63911"/>
+	</carrier>
+	<carrier carrier_id="1645_Truphone" country_region_code="GB">
+		<siminfo mccmnc="23425"/>
+	</carrier>
+	<carrier carrier_id="1646_Spectranet" country_region_code="NG">
+		<siminfo mccmnc="62124"/>
+	</carrier>
+	<carrier carrier_id="1647_BlueWireless" country_region_code="US">
+		<siminfo mccmnc="312570" spn="BlueWireless"/>
+	</carrier>
+	<carrier carrier_id="1648_CellOne" country_region_code="US">
+		<siminfo mccmnc="312570" spn="CellOne"/>
+	</carrier>
+	<carrier carrier_id="1649_BestTelecom" country_region_code="LA">
+		<siminfo mccmnc="45707"/>
+	</carrier>
+	<carrier carrier_id="1650_Bakcell" country_region_code="AZ">
+		<siminfo mccmnc="40002"/>
+	</carrier>
+	<carrier carrier_id="1651_Azerfon" country_region_code="AZ">
+		<siminfo mccmnc="40004"/>
+	</carrier>
+	<carrier carrier_id="1652_Spusu" country_region_code="CH">
+		<siminfo mccmnc="22871"/>
+	</carrier>
+	<carrier carrier_id="1653_PTVTelecom" country_region_code="ES">
+		<siminfo mccmnc="21415"/>
+	</carrier>
+	<carrier carrier_id="1654_Miatel" country_region_code="RU">
+		<siminfo mccmnc="25016"/>
+	</carrier>
+	<carrier carrier_id="1655_Lycamobile-DK" country_region_code="DK">
+		<siminfo mccmnc="23812"/>
+	</carrier>
+	<carrier carrier_id="1656_Lycamobile-SE" country_region_code="SE">
+		<siminfo mccmnc="24012"/>
+	</carrier>
+	<carrier carrier_id="1657_Telavox-NO" country_region_code="NO">
+		<siminfo mccmnc="24215"/>
+	</carrier>
+	<carrier carrier_id="1658_Telavox-BE" country_region_code="BE">
+		<siminfo mccmnc="20614"/>
+	</carrier>
+	<carrier carrier_id="1660_VnSky" country_region_code="VN">
+		<siminfo mccmnc="45206"/>
+	</carrier>
+</oplus_carriers>

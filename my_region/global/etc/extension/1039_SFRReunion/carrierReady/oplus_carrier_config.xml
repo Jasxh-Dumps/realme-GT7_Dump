@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+</carrier_config>

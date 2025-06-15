@@ -1,0 +1,27 @@
+{
+  "group": "ColorOS15",
+  "title": "ColorOS15",
+  "version": 2,
+  "wallpapers": [
+    {
+      "thumbPath": "./ColorOS1501.webp",
+      "originPath": "./ColorOS1501.webp"
+    },
+    {
+      "thumbPath": "./ColorOS1502.webp",
+      "originPath": "./ColorOS1502.webp"
+    },
+    {
+      "thumbPath": "./ColorOS1503.webp",
+      "originPath": "./ColorOS1503.webp"
+    },
+    {
+      "thumbPath": "./ColorOS1504.webp",
+      "originPath": "./ColorOS1504.webp"
+    },
+    {
+      "thumbPath": "./ColorOS1505.webp",
+      "originPath": "./ColorOS1505.webp"
+    }
+  ]
+}

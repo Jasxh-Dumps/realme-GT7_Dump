@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20220412</version>
+    <isOpen>1</isOpen>
+    <filter-name>multimedia_display_perf_list</filter-name>
+
+    <name>sf.dps.feature</name>
+    <flag>0x20F64C3,0,0,0x1,0,0xF0,0,0</flag>
+    <!--eFeatureRv + eFeatureDpp + eFeatureHecate + eFeatureDC + eFeatureDisableToneMapping-->
+    <!--eFeatureMaskKtv + eFeatureMaskAD + eFeatureMaskDFps + eFeatureMaskOnline-->
+    <!--eFeatureGift + eFeatureCurtainAnimation-->
+
+    <name>com.android.settings</name>
+    <flag>0,0x1,0,0,0,0,0,0,0,0</flag>
+
+    <!--disable mms's OTI -->
+    <name>com.android.mms</name>
+    <flag>0,0x1,0,0,0,0,0,0,0,0</flag>
+
+    <name>system_server</name>
+    <flag>0,0,0,0,0,0,0,0,0,0</flag>
+    <scene>ScreenshotSurface#0</scene>
+    <flag>0,0x1,0,0,0,0,0,0,0,0</flag>
+
+    <name>/system/bin/mediaserver</name>
+    <flag>0,0x1,0,0,0,0,0,0,0,0</flag>
+
+    <name>com.coloros.video</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>128,0x1,0,0,0,0,0,0,131073,131072</flag>
+    <!--eMdssFeature-->
+
+    <name>com.oppo.camera</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>128,0,0,0,0,0,0,0,131073,131072</flag>
+    <!--eMdssFeature-->
+
+    <name>com.coloros.gallery3d</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>128,0,0,0,0,0,0,0,131073,131072</flag>
+    <!--eMdssFeature-->
+
+    <name>com.tencent.tvoem</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0x1,0,0,0,0,0,0</flag>
+    <!--eOnlineEnable-->
+
+    <name>tv.danmaku.bili</name>
+    <flag>268435456,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView[tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity]</scene>
+    <flag>268435456,0,0x401,0,0,0,0,0</flag>
+    <scene>SurfaceView[tv.danmaku.bili/com.bilibili.video.videodetail.VideoDetailsActivity]</scene>
+    <flag>268435456,0,0x401,0,0,0,0,0</flag>
+    <scene>SurfaceView[tv.danmaku.bili/com.bilibili.bililive.videoliveplayer.ui.roomv3.LiveRoomActivityV3]</scene>
+    <scene>SurfaceView[tv.danmaku.bili/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3]</scene>
+    <flag>268435456,0,0x400,0,0,0,0,0</flag>
+    <scene>SurfaceView[tv.danmaku.bili/com.bilibili.video.story.StoryVideoActivity]</scene>
+    <flag>268435456,0,0x400,0,0,0,0,0</flag>
+
+    <name>com.hunantv.imgo.activity</name>
+    <flag>268435456,0,0,0,0,0,0,0</flag>
+    <scene>com.hunantv.imgo.activity/com.mgtv.ui.videoclips.damang.DaMangPlayerActivity</scene>
+    <flag>268435456,0,0x800,0,0,0,0,0</flag>
+    <scene>com.hunantv.imgo.activity/com.mgtv.ui.channel.immersive.ImmersivePlayActivity</scene>
+    <flag>268435456,0,0x800,0,0,0,0,0</flag>
+    <scene>SurfaceView[com.hunantv.imgo.activity/com.mgtv.ui.player.VodPlayerPageActivity]</scene>
+    <flag>268435456,0,0x800,0,0,0,0,0</flag>
+
+    <name>com.tencent.qqlive</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>402653200,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView[com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity]</scene>
+    <flag>268435456,0,0x400,0,0,0,0,0</flag>
+
+    <name>com.sohu.sohuvideo</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0,0,0,0,0,0,0</flag>
+    <!--eOnlineEnable-->
+
+    <name>com.youku.phone</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>268435472,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView[com.youku.phone/com.youku.ui.activity.DetailActivity]</scene>
+    <flag>268435456,0,0x400,0,0,0,0,0</flag>
+
+    <name>com.tudou.android</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0,0,0,0,0,0,0</flag>
+    <!--eOnlineEnable-->
+
+    <name>com.qiyi.video</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>16,0,0,0,0,0,0,0</flag>
+    <!-- eOnlineEnable-->
+
+    <name>com.tencent.mobileqq:video</name>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,3</flag>
+    <scene>SurfaceView[com.tencent.mobileqq/com.tencent.av.ui.AVActivity]</scene>
+    <scene>com.tencent.mobileqq/com.tencent.av.ui.AVActivity</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>0,0,0,0,0,0,0,5</flag>
+
+    <name>com.tencent.mobileqq</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,0,0,1</flag>
+    <!--eSceneAudioAtlas-->
+
+    <name>com.tencent.mm</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <para>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>0,0,0,0,0,1,0,3</flag>
+    <scene>com.tencent.mm.plugin.sns.ui.SnsTimeLineUI</scene>
+    <scene>com.tencent.mm.plugin.sns.ui.SnsBrowseUI</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>33555456,0,0,0,0,1,0,3</flag>
+    <!--eCpuBurst + eSceneFussy-->
+    <scene>com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsGalleryUI</scene>
+    <fps>60,60,60,60,60</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <para>0.36,0.00885,0.0285,0.5,1.5,0.0,0.0,0.0</para>
+    <flag>33555456,0,0,0,0,1,0,3</flag>
+    <!--eCpuBurst + eSceneFussy-->
+
+    <name>com.tencent.tmgp.speedmobile</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.tencent.af</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps -->
+
+    <name>com.tencent.tmgp.projectg</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.blqx.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.lztg.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.pwrd.xxajh.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.blqx</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.lztg</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.pwrd.xxajh</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.pwrd.smdl</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.tencent.ig</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.mc.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.denachina.g13002010.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.xsmdl.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.moba.early</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.palmpi.hcollege.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.yokaikoya.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.tencent.LEGOCUBE</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.pwrd.xsmdl.laohu</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.tencent.YiRen</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.yingxiong.dftk.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.Lilith.Abi.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.yunbu.rehtona.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.volvapps.ef5.x.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.ztgame.bob</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.tencent.game.rhythmmaster</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.netease.moba.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.tencent.KiHan</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <name>com.youzu.bs.nearme.gamecenter</name>
+    <flag>4,0,0,0,0,0,0,0</flag>
+    <!--eAppFrameRateFps-->
+
+    <!-- Add for audio KTV -->
+    <name>com.changba</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.tencent.karaoke</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.vv51.mvbox</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.kuwo.sing</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.banshenggua.aichang</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>cn.banshenggua.aichang:aichang</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.app.hero.ui</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>sg.bigo.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.cmcm.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.cwj.hsing</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.anhlt.karaokeonline</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.sroksrae.kskara</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.machipopo.media17</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>chat.meme.inke</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>chat.meme.china</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.asiainno.uplive</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.wali.live</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+
+    <name>com.nice.tutulive</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+    <!-- Add for audio KTV end -->
+
+    <name>tv.tutulive.plus</name>
+    <fps>50,50,50,60,60</fps>
+    <vsync>50,50,50,60,60</vsync>
+    <flag>0,0,0,1,0,0,0,0</flag>
+    <!-- Add for audio KTV end -->
+
+    <!-- Add for audio tmgp sgame scence -->
+    <name>com.tencent.tmgp.sgame</name>
+    <fps>62,62,62,62,62</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>4,0,0,2,0,0,0,1</flag>
+    <!-- Add for audio tmgp sgame scence end -->
+
+    <!-- Add for audio effect game scence -->
+    <name>com.tencent.tmgp.cf</name>
+    <flag>0,0,0,4,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.pubgmhd</name>
+    <fps>62,62,62,62,62</fps>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>4,0,0,4,0,0,0,1</flag>
+
+    <name>com.miHoYo.Yuanshen</name>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>4,1,0,0,0,0,0,0</flag>
+
+    <name>com.miHoYo.bh3.nearme.gamecenter</name>
+    <vsync>60,60,60,60,60</vsync>
+    <flag>4,1,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.tmgp.pubgm</name>
+    <flag>0,0,0,4,0,0,0,0</flag>
+
+    <name>com.netease.hyxd.nearme.gamecenter</name>
+    <flag>4,0,0,4,0,0,0,0</flag>
+    <!--eAppFrameRateFps | Add for audio effect game scence end-->
+
+    <name>com.netease.dwrg.nearme.gamecenter</name>
+    <flag>0,0,0,4,0,0,0,0</flag>
+    <!-- Add for audio effect game scence end -->
+
+    <name>cn.lcsw.lcpay</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,0,0,1</flag>
+
+    <name>com.soufun</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,0,0,1</flag>
+
+    <name>com.zbx.ct.tvzhibo</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>org.fungo.fungolive</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>org.fungo.fungoliveallstar</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>cn.cntv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>dopool.player</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.sjdszb.oppova</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.indiatv.livetv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>com.nbs.useetv</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,1,0,0</flag>
+
+    <name>SmartVolume.Wechat.DB.Level</name>
+    <fps>0,0,0,0,0</fps>
+    <vsync>0,0,0,0,0</vsync>
+    <flag>0,0,0,0,0,19,1,0</flag>
+
+    <!-- mx player -->
+    <name>com.mxtech.videoplayer.ad</name>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>512,0,0,0,0,0,0,0</flag>
+    <scene>SurfaceView</scene>
+    <fps>30,30,30,60,60</fps>
+    <vsync>30,30,30,60,60</vsync>
+    <flag>1040,0,0,0,0,0,0,0</flag>
+
+    <!-- add for gift by Yongxing.Chen start -->
+    <name>com.happyelements.AndroidAnimal</name>
+    <hname>kai xin xiao xiao le</hname>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.brianbaek.popstar</name>
+    <giftp>0x1b 0x05 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>wb.gc.xmxx.zxb</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.carrot.iceworld</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.rovio.angrybirds.op</name>
+    <giftp>0x13 0x0c 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.ty.fishing.nearme.gamecenter</name>
+    <giftp>0x1b 0x05 0.50 0.50 0.53 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.jiami.quickmj.nearme.gamecenter</name>
+    <hname>shen shou ma jiang</hname>
+    <giftp>0x13 0x00 0.46 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.qqgame.xq</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.ustwo.monumentvalleyzz</name>
+    <giftp>0x1b 0x05 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.teayelp.whereareyou</name>
+    <giftp>0x1b 0x01 0.56 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.sparklingsociety.cias.oppo</name>
+    <hname>mo ni dao yu</hname>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.maoxian.myzoo</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.scmjzrb.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.zengame.ttmjscb.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.k7k7.shengjihd.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.JohnCullen.loop</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.minus.lovershouse</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 45 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.esenthel.rts</name>
+    <giftp>0x13 0x00 0.20 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.wedobest.xiangqi.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.tencent.game.SSGame</name>
+    <giftp>0x1b 0x01 0.50 0.60 0.70 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.zzlt.pet.oppo</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.sinyee.babybus.duibi</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.arthisoft.princessnailart</name>
+    <giftp>0x13 0x00 0.6 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.cdbabyjoy.pinyin</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.outfit7.mytalkingtomfree.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.east2west.monzo.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.5 0.32 0.48 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.supercell.clashofclans.nearme.gamecenter</name>
+    <giftp>0x13 0x04 0.75 0.99 0.99 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.supercell.clashofclans</name>
+    <giftp>0x13 0x04 0.75 0.99 0.99 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.supercell.boombeach.nearme.gamecenter</name>
+    <giftp>0x13 0x04 0.75 0.99 0.99 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.supercell.boombeach</name>
+    <giftp>0x13 0x04 0.75 0.99 0.99 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+
+    <name>com.pape.nuannew.nearme.gamecenter</name>
+    <giftp>0x13 0x00 0.53 0.36 0.36 30 60</giftp>
+    <flag>32768,0,0,0,0,0,0,0</flag>
+    <!-- add for gift by Yongxing.Chen end -->
+</filter-conf>

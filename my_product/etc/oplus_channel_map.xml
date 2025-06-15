@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--
+   Android S
+   Version: 50331659
+-->
+<channel_map cid="10003" oplus_region_name= "de" oplus_carrier_name="ca-virgin_cid_10003">
+
+
+<channel_map cid="10003" oplus_region_name= "de" oplus_carrier_name="de-o2">
+<channel_map cid="1453" oplus_region_name= "de" oplus_carrier_name="de-o2">
+<channel_map cid="1454" oplus_region_name= "de" oplus_carrier_name="de-o2">
+<channel_map cid="1456" oplus_region_name= "de" oplus_carrier_name="de-o2">
+<channel_map cid="2360" oplus_region_name= "de" oplus_carrier_name="de-o2">
+<channel_map cid="2361" oplus_region_name= "de" oplus_carrier_name="de-o2">
+<channel_map cid="1633" oplus_region_name= "my" oplus_carrier_name="my-celcom">
+<channel_map cid="1630" oplus_region_name= "my" oplus_carrier_name="my-digi">
+<channel_map cid="1628" oplus_region_name= "my" oplus_carrier_name="my-maxis">
+<channel_map cid="1097" oplus_region_name= "th" oplus_carrier_name="th-ais_cid_1097">
+<channel_map cid="1098" oplus_region_name= "th" oplus_carrier_name="th-ais_cid_1098">
+<channel_map cid="1896" oplus_region_name= "th" oplus_carrier_name="th-dtac_cid_1896">
+<channel_map cid="1897" oplus_region_name= "th" oplus_carrier_name="th-dtac_cid_1897">
+<channel_map cid="1898" oplus_region_name= "th" oplus_carrier_name="th-truemove_cid1898">
+<channel_map cid="1997" oplus_region_name= "th" oplus_carrier_name="th-truemove_cid1997">
+<channel_map cid="1882" oplus_region_name= "tw" oplus_carrier_name="tw-apt">
+<channel_map cid="1888" oplus_region_name= "tw" oplus_carrier_name="tw-twm">
+<channel_map cid="1884" oplus_region_name= "tw" oplus_carrier_name="tw-cht">
+<channel_map cid="1881" oplus_region_name= "tw" oplus_carrier_name="tw-fet">
+<channel_map cid="1886" oplus_region_name= "tw" oplus_carrier_name="tw-tstar">
+<channel_map cid="1970" oplus_region_name= "ae" oplus_carrier_name="ae-du">
+<channel_map cid="451" oplus_region_name= "ae" oplus_carrier_name="ae-etisalat">
+<channel_map cid="14" oplus_region_name= "at" oplus_carrier_name="at-a1">
+<channel_map cid="4" oplus_region_name= "at" oplus_carrier_name="at-tmobile">
+<channel_map cid="2094" oplus_region_name= "at" oplus_carrier_name="at-tmobile">
+<channel_map cid="15" oplus_region_name= "au" oplus_carrier_name="au-vodafone">
+<channel_map cid="1348" oplus_region_name= "au" oplus_carrier_name="au-vodafone">
+<channel_map cid="30" oplus_region_name= "au" oplus_carrier_name="au-optus">
+<channel_map cid="1345" oplus_region_name= "au" oplus_carrier_name="au-telstra">
+<channel_map cid="2145" oplus_region_name= "au" oplus_carrier_name="au-virgin">
+<channel_map cid="1366" oplus_region_name= "be" oplus_carrier_name="be-orange">
+<channel_map cid="2150" oplus_region_name= "be" oplus_carrier_name="be-telenet_cid_2150">
+<channel_map cid="2270" oplus_region_name= "be" oplus_carrier_name="be-telenet_cid_2270">
+<channel_map cid="1367" oplus_region_name= "be" oplus_carrier_name="be-base">
+<channel_map cid="1365" oplus_region_name= "be" oplus_carrier_name="be-proximus">
+<channel_map cid="1370" oplus_region_name= "bg" oplus_carrier_name="bg-a1">
+<channel_map cid="1371" oplus_region_name= "bg" oplus_carrier_name="bg-telenor">
+<channel_map cid="1999" oplus_region_name= "bg" oplus_carrier_name="bg-vivacom">
+
+<!--
+   add for Bahrain_80263052_20211203_begin
+-->
+<!--
+<channel_map cid="2015" oplus_carrier_name="bh-stc">
+-->
+<channel_map cid="1372" oplus_region_name= "bh" oplus_carrier_name="bh-batelco">
+<channel_map cid="2014" oplus_region_name= "bh" oplus_carrier_name="bh-zain">
+<channel_map cid="2015" oplus_region_name= "bh" oplus_carrier_name="bh-stc">
+<!--
+   add for Bahrain_80263052_20211203_end
+-->
+<channel_map cid="529" oplus_region_name= "br" oplus_carrier_name="br-claro">
+
+
+<channel_map cid="1414" oplus_region_name= "ch" oplus_carrier_name="ch-salt">
+<channel_map cid="2366" oplus_region_name= "ch" oplus_carrier_name="ch-swisscom">
+<channel_map cid="2507" oplus_region_name= "ch" oplus_carrier_name="ch-upc">
+<channel_map cid="1429" oplus_region_name= "cl" oplus_carrier_name="cl-claro">
+<channel_map cid="1430" oplus_region_name= "cl" oplus_carrier_name="cl-wow">
+<channel_map cid="1435" oplus_region_name= "cn" oplus_carrier_name="cn-cmcc">
+<channel_map cid="2237" oplus_region_name= "cn" oplus_carrier_name="cn-ct">
+<channel_map cid="1436" oplus_region_name= "cn" oplus_carrier_name="cn-cu">
+<channel_map cid="624" oplus_region_name= "co" oplus_carrier_name="co-movil">
+<channel_map cid="625" oplus_region_name= "co" oplus_carrier_name="co-movistar">
+<channel_map cid="626" oplus_region_name= "co" oplus_carrier_name="co-wom">
+<channel_map cid="1438" oplus_region_name= "co" oplus_carrier_name="co-telecom">
+<channel_map cid="1439" oplus_region_name= "co" oplus_carrier_name="co-edatel">
+<channel_map cid="1440" oplus_region_name= "co" oplus_carrier_name="co-emtelsa">
+<channel_map cid="1441" oplus_region_name= "co" oplus_carrier_name="co-emcali">
+<channel_map cid="1442" oplus_region_name= "co" oplus_carrier_name="co-claro">
+<channel_map cid="1443" oplus_region_name= "co" oplus_carrier_name="co-bellsouth">
+<channel_map cid="2218" oplus_region_name= "co" oplus_carrier_name="co-etb4g">
+<channel_map cid="2337" oplus_region_name= "co" oplus_carrier_name="co-exito">
+<channel_map cid="2338" oplus_region_name= "co" oplus_carrier_name="co-une">
+<channel_map cid="2339" oplus_region_name= "co" oplus_carrier_name="co-virgin">
+<channel_map cid="1953" oplus_region_name= "cr" oplus_carrier_name="cr-claro">
+<channel_map cid="1449" oplus_region_name= "cz" oplus_carrier_name="cz-o2">
+<channel_map cid="2394" oplus_region_name= "cz" oplus_carrier_name="cz-tmobile">
+<channel_map cid="1452" oplus_region_name= "cz" oplus_carrier_name="cz-vodafone">
+<channel_map cid="2398" oplus_region_name= "cz" oplus_carrier_name="cz-vodafone">
+<channel_map cid="2092" oplus_region_name= "de" oplus_carrier_name="de-congstar">
+<channel_map cid="3" oplus_region_name= "de" oplus_carrier_name="de-telekom_cid_3">
+<channel_map cid="2395" oplus_region_name= "de" oplus_carrier_name="de-telekom_cid_2395">
+<channel_map cid="2397" oplus_region_name= "de" oplus_carrier_name="de-vodafone">
+<channel_map cid="25" oplus_region_name= "de" oplus_carrier_name="de-vodafone">
+<channel_map cid="2147" oplus_region_name= "de" oplus_carrier_name="de-vodafoneLab">
+<channel_map cid="1466" oplus_region_name= "dk" oplus_carrier_name="dk-3">
+<channel_map cid="2285" oplus_region_name= "dk" oplus_carrier_name="dk-callme">
+<channel_map cid="1463" oplus_region_name= "dk" oplus_carrier_name="dk-tdc">
+<channel_map cid="656" oplus_region_name= "dk" oplus_carrier_name="dk-telia">
+<channel_map cid="1464" oplus_region_name= "dk" oplus_carrier_name="dk-telenor">
+<channel_map cid="1467" oplus_region_name= "do" oplus_carrier_name="do-claro">
+<channel_map cid="1968" oplus_region_name= "eg" oplus_carrier_name="eg-etisalat">
+<channel_map cid="2380" oplus_region_name= "eg" oplus_carrier_name="eg-vodafone">
+<channel_map cid="676" oplus_region_name= "eg" oplus_carrier_name="eg-vodafone">
+<channel_map cid="675" oplus_region_name= "eg" oplus_carrier_name="eg-orange">
+<channel_map cid="1909" oplus_region_name= "es" oplus_carrier_name="es-euskatel_cid_1909">
+<channel_map cid="2111" oplus_region_name= "es" oplus_carrier_name="es-euskatel_cid_2111">
+<channel_map cid="34" oplus_region_name= "es" oplus_carrier_name="es-movistar">
+<channel_map cid="678" oplus_region_name= "es" oplus_carrier_name="es-orange">
+<channel_map cid="2369" oplus_region_name= "es" oplus_carrier_name="es-orange">
+<channel_map cid="26" oplus_region_name= "es" oplus_carrier_name="es-vodafone">
+<channel_map cid="679" oplus_region_name= "es" oplus_carrier_name="es-yoigo">
+<channel_map cid="2125" oplus_region_name= "es" oplus_carrier_name="es-simyo">
+<channel_map cid="1473" oplus_region_name= "ec" oplus_carrier_name="ec-claro">
+
+<!--
+   add for Jazztel_80263052_20210914_begin
+-->
+<channel_map cid="1974" oplus_region_name= "es" oplus_carrier_name="es-jazztel">
+<!--
+   add for Jazztel_80263052_20210914_end
+-->
+
+<!--
+   add for Tmobile_20220913_begin
+-->
+<channel_map cid="6" oplus_region_name= "cz" oplus_carrier_name="cz-tmobile">
+<!--
+   add for Tmobile_20220913_end
+-->
+
+<channel_map cid="1904" oplus_region_name= "fi" oplus_carrier_name="fi-dna">
+<channel_map cid="1475" oplus_region_name= "fi" oplus_carrier_name="fi-elisa">
+<channel_map cid="1480" oplus_region_name= "fi" oplus_carrier_name="fi-telia">
+<channel_map cid="1487" oplus_region_name= "fr" oplus_carrier_name="fr-bouygues">
+<channel_map cid="2135" oplus_region_name= "fr" oplus_carrier_name="fr-coriolis">
+<channel_map cid="1958" oplus_region_name= "fr" oplus_carrier_name="fr-free">
+<channel_map cid="2274" oplus_region_name= "fr" oplus_carrier_name="fr-laposte">
+<channel_map cid="32" oplus_region_name= "fr" oplus_carrier_name="fr-orange">
+<channel_map cid="27" oplus_region_name= "fr" oplus_carrier_name="fr-sfr">
+<channel_map cid="747" oplus_region_name= "gr" oplus_carrier_name="gr-cosmote">
+<channel_map cid="18" oplus_region_name= "gr" oplus_carrier_name="gr-vodafone">
+<channel_map cid="2399" oplus_region_name= "gr" oplus_carrier_name="gr-vodafone">
+<channel_map cid="1520" oplus_region_name= "gt" oplus_carrier_name="gt-claro">
+
+<channel_map cid="760" oplus_region_name= "hk" oplus_carrier_name="hk-3hk">
+<channel_map cid="767" oplus_region_name= "hk" oplus_carrier_name="hk-cmhk">
+<channel_map cid="759" oplus_region_name= "hk" oplus_carrier_name="hk-csl">
+<channel_map cid="770" oplus_region_name= "hk" oplus_carrier_name="hk-csl">
+<channel_map cid="1526" oplus_region_name= "hk" oplus_carrier_name="hk-csl">
+<channel_map cid="761" oplus_region_name= "hk" oplus_carrier_name="hk-smartone">
+
+
+<channel_map cid="762" oplus_region_name= "hk" oplus_carrier_name="hk-cu">
+<channel_map cid="763" oplus_region_name= "hk" oplus_carrier_name="hk-trident">
+<channel_map cid="764" oplus_region_name= "hk" oplus_carrier_name="hk-cm">
+<channel_map cid="765" oplus_region_name= "hk" oplus_carrier_name="hk-nw">
+<channel_map cid="766" oplus_region_name= "hk" oplus_carrier_name="hk-chktl">
+<channel_map cid="769" oplus_region_name= "hk" oplus_carrier_name="hk-pccw">
+<channel_map cid="772" oplus_region_name= "hk" oplus_carrier_name="hk-pm">
+<channel_map cid="1527" oplus_region_name= "hk" oplus_carrier_name="hk-citic">
+<channel_map cid="1960" oplus_region_name= "hk" oplus_carrier_name="hk-3">
+<channel_map cid="1989" oplus_region_name= "hk" oplus_carrier_name="hk-gfi">
+<channel_map cid="2450" oplus_region_name= "hk" oplus_carrier_name="hk-sun">
+<channel_map cid="10018" oplus_region_name= "hk" oplus_carrier_name="hk-gfi3hk">
+<!--
+   modify for HK from each operator to all_80263052_20211021_begin
+
+<channel_map cid="760" oplus_carrier_name="hk-all">
+<channel_map cid="767" oplus_carrier_name="hk-all">
+<channel_map cid="759" oplus_carrier_name="hk-all">
+<channel_map cid="770" oplus_carrier_name="hk-all">
+<channel_map cid="1526" oplus_carrier_name="hk-all">
+<channel_map cid="761" oplus_carrier_name="hk-all">
+
+   modify for HK from each operator to all_80263052_20211021_end
+-->
+<!--
+   modify for HK from each operator to all_80263052_20211021_begin
+-->
+<!--
+<channel_map cid="762" oplus_carrier_name="hk-all">
+<channel_map cid="763" oplus_carrier_name="hk-all">
+<channel_map cid="764" oplus_carrier_name="hk-all">
+<channel_map cid="765" oplus_carrier_name="hk-all">
+<channel_map cid="766" oplus_carrier_name="hk-all">
+<channel_map cid="769" oplus_carrier_name="hk-all">
+<channel_map cid="772" oplus_carrier_name="hk-all">
+<channel_map cid="1527" oplus_carrier_name="hk-all">
+<channel_map cid="1960" oplus_carrier_name="hk-all">
+<channel_map cid="1989" oplus_carrier_name="hk-all">
+<channel_map cid="2450" oplus_carrier_name="hk-all">
+<channel_map cid="10018" oplus_carrier_name="hk-all">
+-->
+<!--
+   modify for HK from each operator to all_80263052_20211021_end
+-->
+
+<channel_map cid="773" oplus_region_name= "hn" oplus_carrier_name="hn-claro">
+<channel_map cid="1530" oplus_region_name= "hr" oplus_carrier_name="hr-a1">
+<channel_map cid="2091" oplus_region_name= "hr" oplus_carrier_name="hr-bb">
+<channel_map cid="2365" oplus_region_name= "hr" oplus_carrier_name="hr-telekom">
+<channel_map cid="9" oplus_region_name= "hr" oplus_carrier_name="hr-telekom">
+<channel_map cid="8" oplus_region_name= "hr" oplus_carrier_name="hu-telekom">
+<channel_map cid="2401" oplus_region_name= "hu" oplus_carrier_name="hu-telekom">
+<channel_map cid="1534" oplus_region_name= "hu" oplus_carrier_name="hu-telenor">
+<channel_map cid="1535" oplus_region_name= "hu" oplus_carrier_name="hu-vodafone">
+<channel_map cid="789" oplus_region_name= "id" oplus_carrier_name="id-indosat">
+<channel_map cid="1978" oplus_region_name= "id" oplus_carrier_name="id-smartfren">
+<channel_map cid="787" oplus_region_name= "id" oplus_carrier_name="id-telkomsel">
+<channel_map cid="788" oplus_region_name= "id" oplus_carrier_name="id-xl">
+<channel_map cid="794" oplus_region_name= "ie" oplus_carrier_name="ie-eir">
+<channel_map cid="792" oplus_region_name= "ie" oplus_carrier_name="ie-three">
+<channel_map cid="1903" oplus_region_name= "ie" oplus_carrier_name="ie-three">
+<channel_map cid="19" oplus_region_name= "ie" oplus_carrier_name="ie-vodafone">
+<channel_map cid="2387" oplus_region_name= "ie" oplus_carrier_name="ie-vodafone">
+<channel_map cid="797" oplus_region_name= "il" oplus_carrier_name="il-cellcom">
+<channel_map cid="1991" oplus_region_name= "il" oplus_carrier_name="il-hotmobile">
+<channel_map cid="796" oplus_region_name= "il" oplus_carrier_name="il-parnter">
+<channel_map cid="798" oplus_region_name= "il" oplus_carrier_name="il-pelephone">
+<channel_map cid="1961" oplus_region_name= "in" oplus_carrier_name="in-airtel">
+<channel_map cid="1543" oplus_region_name= "in" oplus_carrier_name="in-jio">
+<channel_map cid="2018" oplus_region_name= "in" oplus_carrier_name="in-jio">
+<channel_map cid="33" oplus_region_name= "it" oplus_carrier_name="it-tim">
+<channel_map cid="29" oplus_region_name= "it" oplus_carrier_name="it-vodafone">
+<channel_map cid="1573" oplus_region_name= "it" oplus_carrier_name="it-windtre">
+<channel_map cid="1575" oplus_region_name= "it" oplus_carrier_name="it-windtre">
+<channel_map cid="2439" oplus_region_name= "it" oplus_carrier_name="it-very">
+<channel_map cid="849" oplus_region_name= "jo" oplus_carrier_name="jo-orange">
+<channel_map cid="1581" oplus_region_name= "jp" oplus_carrier_name="jp-au">
+<channel_map cid="850" oplus_region_name= "jp" oplus_carrier_name="jp-docomo_cid_850">
+<channel_map cid="10007" oplus_region_name= "jp" oplus_carrier_name="jp-docomo_cid_10007">
+<channel_map cid="10026" oplus_region_name= "jp" oplus_carrier_name="jp-docomo_cid_10026">
+<channel_map cid="2407" oplus_region_name= "jp" oplus_carrier_name="jp-ocn">
+<channel_map cid="2109" oplus_region_name= "jp" oplus_carrier_name="jp-rakuten">
+<channel_map cid="2429" oplus_region_name= "jp" oplus_carrier_name="jp-rakuten">
+<channel_map cid="1894" oplus_region_name= "jp" oplus_carrier_name="jp-softbank">
+<channel_map cid="2110" oplus_region_name= "jp" oplus_carrier_name="jp-uq">
+<channel_map cid="2100" oplus_region_name= "jp" oplus_carrier_name="jp-ymobile">
+<channel_map cid="865" oplus_region_name= "ke" oplus_carrier_name="ke-safaricom">
+
+<!--
+   add for KW_80263052_20211203_begin
+-->
+
+<channel_map cid="1992" oplus_region_name= "kw" ooplus_carrier_name="kw-stc">
+<channel_map cid="1585" oplus_region_name= "kw" oplus_carrier_name="kw-zain">
+<channel_map cid="1586" oplus_region_name= "kw" oplus_carrier_name="kw-Ooredoo">
+<!--
+<channel_map cid="1992" oplus_carrier_name="kw-all">
+<channel_map cid="1585" oplus_carrier_name="kw-all">
+<channel_map cid="1586" oplus_carrier_name="kw-all">
+-->
+<!--
+   add for KW_80263052_20211203_end
+-->
+<!--
+   add for KH_80263052_20210926_begin
+-->
+
+<channel_map cid="868" oplus_region_name= "kh" oplus_carrier_name="kh-mobitel">
+<channel_map cid="869" oplus_region_name= "kh" oplus_carrier_name="kh-smart">
+<channel_map cid="870" oplus_region_name= "kh" oplus_carrier_name="kh-st">
+<channel_map cid="871" oplus_region_name= "kh" oplus_carrier_name="kh-camshin">
+<channel_map cid="2180" oplus_region_name= "kh" oplus_carrier_name="kh-qb">
+<channel_map cid="2181" oplus_region_name= "kh" oplus_carrier_name="kh-metfone">
+<channel_map cid="2236" oplus_region_name= "kh" oplus_carrier_name="kh-seatel">
+
+<!--
+   add for KH_80263052_20210926_end
+-->
+<!--
+   modify for KH from each operator to all_80263052_20211021_begin
+-->
+<!--
+<channel_map cid="868" oplus_carrier_name="kh-all">
+<channel_map cid="869" oplus_carrier_name="kh-all">
+<channel_map cid="870" oplus_carrier_name="kh-all">
+<channel_map cid="871" oplus_carrier_name="kh-all">
+<channel_map cid="2180" oplus_carrier_name="kh-all">
+<channel_map cid="2181" oplus_carrier_name="kh-all">
+<channel_map cid="2236" oplus_carrier_name="kh-all">
+-->
+<!--
+   modify for KH from each operator to all_80263052_20211021_end
+-->
+
+<!--
+   add for LA_80263052_20211203_begin
+-->
+
+<channel_map cid="1590" oplus_region_name= "la" oplus_carrier_name="la-ltc">
+<channel_map cid="1591" oplus_region_name= "la" oplus_carrier_name="la-etl">
+<channel_map cid="1592" oplus_region_name= "la" oplus_carrier_name="la-millicom">
+<channel_map cid="2346" oplus_region_name= "la" oplus_carrier_name="la-unitel">
+
+<!--
+<channel_map cid="1590" oplus_carrier_name="la-all">
+<channel_map cid="1591" oplus_carrier_name="la-all">
+<channel_map cid="1592" oplus_carrier_name="la-all">
+<channel_map cid="2346" oplus_carrier_name="la-all">
+-->
+<!--
+   add for LA_80263052_20211203_end
+-->
+
+<channel_map cid="1932" oplus_region_name= "lk" oplus_carrier_name="lk-airtel">
+<channel_map cid="1599" oplus_region_name= "lk" oplus_carrier_name="lk-dialog">
+<channel_map cid="1931" oplus_region_name= "lk" oplus_carrier_name="lk-mobitel">
+<channel_map cid="897" oplus_region_name= "lu" oplus_carrier_name="lu-orange">
+<channel_map cid="895" oplus_region_name= "lu" oplus_carrier_name="lu-post">
+<channel_map cid="896" oplus_region_name= "lu" oplus_carrier_name="lu-tango">
+<channel_map cid="903" oplus_region_name= "ma" oplus_carrier_name="ma-maroc">
+<channel_map cid="902" oplus_region_name= "ma" oplus_carrier_name="ma-orange">
+<channel_map cid="905" oplus_region_name= "md" oplus_carrier_name="md-moldcell">
+<channel_map cid="904" oplus_region_name= "md" oplus_carrier_name="md-orange">
+<channel_map cid="2363" oplus_region_name= "me" oplus_carrier_name="me-crnogorski">
+<channel_map cid="1608" oplus_region_name= "mk" oplus_carrier_name="mk-a1_cid_1608">
+<channel_map cid="1609" oplus_region_name= "mk" oplus_carrier_name="mk-a1_cid_1609">
+<!--
+<channel_map cid="1912" oplus_region_name= "mx" oplus_carrier_name="mx-att_cid_1912">
+-->
+<channel_map cid="1915" oplus_region_name= "mx" oplus_carrier_name="mx-att_cid_1915">
+<channel_map cid="2506" oplus_region_name= "mx" oplus_carrier_name="mx-att_cid_2506">
+<channel_map cid="2495" oplus_region_name= "mx" oplus_carrier_name="mx-oui">
+<channel_map cid="1913" oplus_region_name= "mx" oplus_carrier_name="mx-telcel">
+<channel_map cid="1632" oplus_region_name= "my" oplus_carrier_name="my-umobile">
+<channel_map cid="2017" oplus_region_name= "my" oplus_carrier_name="my-yes">
+<channel_map cid="1639" oplus_region_name= "ng" oplus_carrier_name="ng-mtn">
+<channel_map cid="1644" oplus_region_name= "nl" oplus_carrier_name="nl-kpn">
+<channel_map cid="2095" oplus_region_name= "nl" oplus_carrier_name="nl-ben">
+<channel_map cid="1643" oplus_region_name= "nl" oplus_carrier_name="nl-tele2">
+<channel_map cid="2468" oplus_region_name= "nl" oplus_carrier_name="nl-tele2">
+<channel_map cid="2386" oplus_region_name= "nl" oplus_carrier_name="nl-tmobile">
+<channel_map cid="5" oplus_region_name= "nl" oplus_carrier_name="nl-tmobile">
+<channel_map cid="20" oplus_region_name= "nl" oplus_carrier_name="nl-vodafone">
+<channel_map cid="1900" oplus_region_name= "no" oplus_carrier_name="no-onecall">
+<channel_map cid="958" oplus_region_name= "no" oplus_carrier_name="no-telenor">
+<channel_map cid="959" oplus_region_name= "no" oplus_carrier_name="no-telia">
+<channel_map cid="969" oplus_region_name= "nz" oplus_carrier_name="nz-2degrees">
+<channel_map cid="2105" oplus_region_name= "nz" oplus_carrier_name="nz-skinny">
+<channel_map cid="968" oplus_region_name= "nz" oplus_carrier_name="nz-spark">
+<channel_map cid="21" oplus_region_name= "nz" oplus_carrier_name="nz-vodafone">
+<channel_map cid="2364" oplus_region_name= "nz" oplus_carrier_name="nz-vodafone">
+
+<!--
+   add for Bahrain_80263052_20211203_begin
+-->
+<!--
+<channel_map cid="970" oplus_carrier_name="om-omantel">
+-->
+<!--
+<channel_map cid="970" oplus_carrier_name="om-all">
+<channel_map cid="971" oplus_carrier_name="om-all">
+-->
+<!--
+   add for Bahrain_80263052_20211203_end
+-->
+
+<channel_map cid="1925" oplus_region_name= "pa" oplus_carrier_name="pa-claro">
+<channel_map cid="1647" oplus_region_name= "pe" oplus_carrier_name="pe-claro">
+<channel_map cid="1653" oplus_region_name= "ph" oplus_carrier_name="ph-globe">
+<channel_map cid="1654" oplus_region_name= "ph" oplus_carrier_name="ph-smart">
+<channel_map cid="1975" oplus_region_name= "pk" oplus_carrier_name="pk-telenor">
+<channel_map cid="1657" oplus_region_name= "pk" oplus_carrier_name="pk-ufone">
+<channel_map cid="1659" oplus_region_name= "pl" oplus_carrier_name="pl-orange">
+<channel_map cid="1662" oplus_region_name= "pl" oplus_carrier_name="pl-play">
+<channel_map cid="1658" oplus_region_name= "pl" oplus_carrier_name="pl-plus">
+<channel_map cid="7" oplus_region_name= "pl" oplus_carrier_name="pl-tmobile_cid_7">
+<channel_map cid="2367" oplus_region_name= "pl" oplus_carrier_name="pl-tmobile_cid_2367">
+<channel_map cid="1670" oplus_region_name= "pt" oplus_carrier_name="pt-meo">
+<channel_map cid="1668" oplus_region_name= "pt" oplus_carrier_name="pt-nos">
+<channel_map cid="22" oplus_region_name= "pt" oplus_carrier_name="pt-vodafone">
+
+<!--
+   add for Qatar_80263052_20211203_begin
+-->
+<channel_map cid="1675" oplus_region_name= "qa" oplus_carrier_name="qa-ooredoo">
+<channel_map cid="2001" oplus_region_name= "qa" oplus_carrier_name="qa-vodafone">
+<channel_map cid="2393" oplus_region_name= "qa" oplus_carrier_name="qa-vodafone">
+<!--
+<channel_map cid="1675" oplus_carrier_name="qa-all">
+<channel_map cid="2001" oplus_carrier_name="qa-all">
+<channel_map cid="2393" oplus_carrier_name="qa-all">
+
+   add for Qatar_80263052_20211203_end
+-->
+
+<channel_map cid="1959" oplus_region_name= "ro" oplus_carrier_name="ro-digimobil">
+<channel_map cid="1011" oplus_region_name= "ro" oplus_carrier_name="ro-orange">
+<channel_map cid="1010" oplus_region_name= "ro" oplus_carrier_name="ro-telekom">
+<channel_map cid="23" oplus_region_name= "ro" oplus_carrier_name="ro-vodafone">
+<channel_map cid="2391" oplus_region_name= "ro" oplus_carrier_name="ro-vodafone">
+<channel_map cid="1678" oplus_region_name= "ru" oplus_carrier_name="ru-mts">
+<channel_map cid="1681" oplus_region_name= "ru" oplus_carrier_name="ru-beeline">
+<channel_map cid="1028" oplus_region_name= "ru" oplus_carrier_name="ru-tele2">
+<channel_map cid="1684" oplus_region_name= "sa" oplus_carrier_name="sa-mobily">
+<channel_map cid="1683" oplus_region_name= "sa" oplus_carrier_name="sa-stc">
+<channel_map cid="1972" oplus_region_name= "sa" oplus_carrier_name="sa-zain">
+<channel_map cid="1691" oplus_region_name= "se" oplus_carrier_name="se-3">
+<channel_map cid="2287" oplus_region_name= "se" oplus_carrier_name="se-halebop">
+<channel_map cid="1696" oplus_region_name= "se" oplus_carrier_name="se-tele2">
+<channel_map cid="1695" oplus_region_name= "se" oplus_carrier_name="se-telenor">
+<channel_map cid="1690" oplus_region_name= "se" oplus_carrier_name="se-telia">
+<channel_map cid="2434" oplus_region_name= "sg" oplus_carrier_name="sg-giga">
+<channel_map cid="1706" oplus_region_name= "sg" oplus_carrier_name="sg-m1">
+<channel_map cid="31" oplus_region_name= "sg" oplus_carrier_name="sg-singtel">
+<channel_map cid="1707" oplus_region_name= "sg" oplus_carrier_name="sg-starhub">
+<channel_map cid="1709" oplus_region_name= "si" oplus_carrier_name="si-a1">
+<channel_map cid="1713" oplus_region_name= "sk" oplus_carrier_name="sk-orange">
+<channel_map cid="1715" oplus_region_name= "sk" oplus_carrier_name="sk-orange">
+<channel_map cid="11" oplus_region_name= "sk" oplus_carrier_name="sk-telekom">
+<channel_map cid="2385" oplus_region_name= "sk" oplus_carrier_name="sk-telekom">
+<channel_map cid="1086" oplus_region_name= "st" oplus_carrier_name="st-telekom">
+<channel_map cid="1954" oplus_region_name= "sv" oplus_carrier_name="sv-claro">
+<channel_map cid="1732" oplus_region_name= "tn" oplus_carrier_name="tn-ooredoo">
+<channel_map cid="1936" oplus_region_name= "tn" oplus_carrier_name="tn-orange">
+<channel_map cid="1735" oplus_region_name= "tr" oplus_carrier_name="tr-turkcell">
+<channel_map cid="1737" oplus_region_name= "tr" oplus_carrier_name="tr-turktelekom">
+<channel_map cid="1736" oplus_region_name= "tr" oplus_carrier_name="tr-vodafone">
+
+
+<channel_map cid="2" oplus_region_name= "gb" oplus_carrier_name="gb-ee-consumer">
+<channel_map cid="2101" oplus_region_name= "gb" oplus_carrier_name="gb-bt">
+<channel_map cid="2102" oplus_region_name= "gb" oplus_carrier_name="gb-bt-business">
+<channel_map cid="2419" oplus_region_name= "gb" oplus_carrier_name="gb-ee-business">
+<channel_map cid="718" oplus_region_name= "gb" oplus_carrier_name="gb-ee">
+<channel_map cid="2118" oplus_region_name= "gb" oplus_carrier_name="gb-giffgaff">
+<channel_map cid="2425" oplus_region_name= "gb" oplus_carrier_name="gb-id">
+<channel_map cid="1492" oplus_region_name= "gb" oplus_carrier_name="gb-o2">
+<channel_map cid="10002" oplus_region_name= "gb" oplus_carrier_name="gb-o2prepaid">
+<channel_map cid="2139" oplus_region_name= "gb" oplus_carrier_name="gb-sky">
+<channel_map cid="2093" oplus_region_name= "gb" oplus_carrier_name="gb-tesco">
+<channel_map cid="1505" oplus_region_name= "gb" oplus_carrier_name="gb-three">
+<channel_map cid="10017" oplus_region_name= "gb" oplus_carrier_name="gb-three">
+<channel_map cid="717" oplus_region_name= "gb" oplus_carrier_name="gb-virgin">
+<channel_map cid="28" oplus_region_name= "gb" oplus_carrier_name="gb-vodafone">
+<channel_map cid="1187" oplus_region_name= "us" oplus_carrier_name="us-att">
+<channel_map cid="10021" oplus_region_name= "us" oplus_carrier_name="us-att">
+<channel_map cid="1779" oplus_region_name= "us" oplus_carrier_name="us-cricket">
+<channel_map cid="1788" oplus_region_name= "us" oplus_carrier_name="us-sprint_cid_1788">
+<channel_map cid="2128" oplus_region_name= "us" oplus_carrier_name="us-sprint_cid_2128">
+<channel_map cid="10004" oplus_region_name= "us" oplus_carrier_name="us-sprint_cid_10004">
+<channel_map cid="10015" oplus_region_name= "us" oplus_carrier_name="us-sprint_cid_10015">
+
+<channel_map cid="1166" oplus_region_name= "us" oplus_carrier_name="us-telcom">
+
+<!--
+<channel_map cid="1" oplus_region_name= "us" oplus_carrier_name="us-tmobile">
+-->
+<channel_map cid="1299" oplus_region_name= "vn" oplus_carrier_name="vn-mobifone">
+<channel_map cid="1899" oplus_region_name= "vn" oplus_carrier_name="vn-viettel">
+<channel_map cid="2179" oplus_region_name= "vn" oplus_carrier_name="vn-viettel">
+<channel_map cid="1300" oplus_region_name= "vn" oplus_carrier_name="vn-vinaphone">
+<channel_map cid="1308" oplus_region_name= "za" oplus_carrier_name="za-cellc">
+<channel_map cid="1309" oplus_region_name= "za" oplus_carrier_name="za-mtn">
+<channel_map cid="2445" oplus_region_name= "za" oplus_carrier_name="za-rain">
+<channel_map cid="1965" oplus_region_name= "za" oplus_carrier_name="za-telkom">
+<channel_map cid="24" oplus_region_name= "za" oplus_carrier_name="za-vodacom">
+<channel_map cid="576" oplus_region_name= "us" oplus_carrier_name="us-bell">
+<channel_map cid="2021" oplus_region_name= "us" oplus_carrier_name="us-virgin">
+
+<!--
+<channel_map cid="1949" oplus_region_name= "us" oplus_carrier_name="us-metropcs">
+<channel_map cid="2433" oplus_region_name= "us" oplus_carrier_name="us-assurance">
+-->
+
+<!--
+   add for US operator 20221014_begin
+-->
+<channel_map cid="2498" oplus_region_name= "us" oplus_carrier_name="us-altice">
+<!--
+   add for US operator 20221014_end
+-->
+
+
+<!--
+    </carrier_config>
+    <carrier_config cid="25">
+        <string name="oplus_carrier_name">vdf_gb</string>
+    </carrier_config>
+    <carrier_config cid="1492">
+        <string name="oplus_carrier_name">o2_gb</string>
+    </carrier_config>
+    <carrier_config cid="1881">
+        <string name="oplus_carrier_name">tw_fet</string>
+    </carrier_config> 
+-->

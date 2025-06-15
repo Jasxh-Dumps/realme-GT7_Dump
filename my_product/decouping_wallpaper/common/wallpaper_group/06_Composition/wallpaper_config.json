@@ -1,0 +1,19 @@
+{
+  "group": "Composition",
+  "title": "构成之美",
+  "version": 2,
+  "wallpapers": [
+    {
+      "thumbPath": "./Composition01.webp",
+      "originPath": "./Composition01.webp"
+    },
+    {
+      "thumbPath": "./Composition02.webp",
+      "originPath": "./Composition02.webp"
+    },
+    {
+      "thumbPath": "./Composition03.webp",
+      "originPath": "./Composition03.webp"
+    }
+  ]
+}

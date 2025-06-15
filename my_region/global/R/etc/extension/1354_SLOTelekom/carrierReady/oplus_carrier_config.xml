@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="smart5g_status" value="0"/>
+	<int name="smart5g_visible" value="0"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<int name="vowifi_roaming_preferred_mode" value="2"/>
+	<int name="volte_visible" value="0"/>
+	<boolean name="config_oplus_hide_4g_3g_2g" value="true"/>
+	<boolean name="config_oplus_hide_3g_2g" value="true"/>
+</carrier_config>
+<!-- Timestamp 2024-11-13T18:16:01 #265234 -->

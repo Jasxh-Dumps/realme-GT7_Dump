@@ -1,0 +1,23 @@
+{
+  "group": "Calm",
+  "title": "舒缓因子",
+  "version": 1,
+  "wallpapers": [
+    {
+      "thumbPath": "./Calm01.webp",
+      "originPath": "./Calm01.webp"
+    },
+    {
+      "thumbPath": "./Calm02.webp",
+      "originPath": "./Calm02.webp"
+    },
+    {
+      "thumbPath": "./Calm03.webp",
+      "originPath": "./Calm03.webp"
+    },
+    {
+      "thumbPath": "./Calm04.webp",
+      "originPath": "./Calm04.webp"
+    }
+  ]
+}

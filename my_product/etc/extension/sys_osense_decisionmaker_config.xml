@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <!-- <project>8350R</project> -->
+        <version>2022030501</version>
+        <filter-name>sys_osense_decisionmaker_config</filter-name>
+    </filter-conf>
+
+
+
+    <!-- memory_config include memory_config and clear_policy level! -->
+    <config name="memory_config">
+        <!-- refer to clearlevelmanager memory_level_threshold -->
+        <!--triggerMemory-purposeMemory-appcareThreshold|trigger-pupose-appcare|...|...-->
+        <!-- level4-critical |level3-low|level2-moderate|level1-normal"-->
+        <mem total="2" value="400-500-79|500-600-59|600-800-39"/>
+        <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19"/>
+        <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19"/>
+        <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19"/>
+        <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2000-2200-19"/>
+        <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19"/>
+        <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19"/>
+    </config>
+
+    <config name="cpuload_config">
+        <level index="1" name="low" value="25"/>
+        <level index="2" name="mid" value="45"/>
+        <level index="3" name="high" value="75"/>
+    </config>
+
+<!--<config name="cpuload_config">
+    <cpu soc="8250" value="20|40|70(low|mid|high)"/>
+    <cpu soc="8350" value="30|40|60"/>
+    <cpu soc="mt" value="30|60|90"/>
+</config>-->
+
+    <!--<config name="temperature_config">
+        <temp soc="8250" value="?|?|?(low|mid|high)"/>
+        <temp soc="8350" value="?|?|?"/>
+        <temp soc="mt" value="?|?|?"/>
+    </config>-->
+
+    <config name="clear_level">
+        <!--triggerMemory-purposeMemory-appcareThreshold|trigger-pupose-appcare|...|...-->
+        <!-- level4-critical |level3-low|level2-moderate|level1-normal"-->
+        <!-- scene normal move to memory_config -->
+        <!--<scene name="normal">
+        </scene>-->
+        <!-- currently, scene_launcher is same to normal-->
+        <scene name="launcher">
+            <mem total="2" value="400-500-79|500-600-59|600-800-39"/>
+            <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19"/>
+            <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19"/>
+            <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19"/>
+            <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2000-2200-19"/>
+            <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19"/>
+            <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19"/>
+        </scene>
+        <!--triggerMemory-remainingCount|trigger-count|...|...-->
+        <scene name="bigApp">
+            <mem total="2" value="400-1|500-3|600-5"/>
+            <mem total="3" value="400-1|600-1|800-3|1000-5"/>
+            <mem total="4" value="400-1|700-1|1100-3|1400-5"/>
+            <mem total="6" value="600-1|1000-1|1300-3|1600-5"/>
+            <mem total="8" value="1000-1|1500-1|2000-3|2300-5"/>
+            <mem total="12" value="1400-1|2200-1|2800-3|3300-5"/>
+            <mem total="16" value="1400-1|2200-1|2800-3|3300-5"/>
+        </scene>
+        <scene name="lowmem">
+            <mem total="2" value="400-600-79|500-600-59"/>
+            <mem total="3" value="500-700-79|600-700-59"/>
+            <mem total="4" value="600-800-79|700-900-59"/>
+            <mem total="6" value="800-1000-79|900-1100-59"/>
+            <mem total="8" value="1000-1300-79|1200-1400-59"/>
+            <mem total="12" value="1000-1300-79|1200-1400-59"/>
+            <mem total="16" value="1000-1300-79|1200-1400-59"/>
+        </scene>
+        <scene name="bigAppPSI">
+            <mem total="2" value="600-800-69"/>
+            <mem total="3" value="1000-1200-69"/>
+            <mem total="4" value="1100-1300-69"/>
+            <mem total="6" value="1300-1500-69"/>
+            <mem total="8" value="1500-1600-69"/>
+            <mem total="12" value="1500-1600-69"/>
+            <mem total="16" value="1500-1600-69"/>
+        </scene>
+	<scene name="quickBoot">
+            <mem total="2" value="400-500-79|500-600-59|600-800-39"/>
+            <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19"/>
+            <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19"/>
+            <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19"/>
+            <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2000-2200-19"/>
+            <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|2300-2700-19"/>
+            <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19"/>
+        </scene>
+    </config>
+
+    <config name="freezer_level">
+    </config>
+
+
+    <!--
+    <config name="temperature_level">
+        <level index="1" name="normal" value="0,1,2,3,4,5"/>
+        <level index="2" name="warm" value="6,7,8"/>
+        <level index="3" name="hot" value="9,10,11,12,13,14,15,16,17,18,19"/>
+    </config>-->
+
+    <!--
+    <config name="ioload_level">
+        <level index="1" name="low" value="?"/>
+        <level index="2" name="mid" value="?"/>
+        <level index="3" name="high" value="?"/>
+    </config>-->
+
+    <config name="rules_engine">
+        <!-- used for orms only
+        <scene id="13" name="OSENSE_HW_SCENE_MTP_BOOST">
+        </scene>
+        <scene id="17" name="OSENSE_HW_SCENE_CAMERA_PREVIEW">
+        </scene>
+        <scene id="115" name="OSENSE_HW_SCENE_CAMERA_3RD_PARTY_WECHAT_SMALL_WINDOW">
+        </scene>
+        -->
+        <scene id="1000" name="SCENE_APP_SWITCH">
+            <!-- tag: multi means multi conditions
+                skip: if conditions matched, skip some tag's rules, (all means skip all, the rule matched, just return)
+                if a policy should consider multi conditions, using this rule,
+                if a policy only consider single condition, using single tag(memory,cpuload,ioload) rule.
+                Also, multi tag rule, can resolve policies conflict/coordination problem-->
+
+            <!--clear Policy, now, may just consider memory condition, so using tag "memory"-->
+            <!--freezer Policy, now, may just consider cpuload condition, so using tag "cpuload"-->
+            <!--preload Policy, has 5000ms delay, special!!!! consider condition after 5000ms? -->
+            <!--compress Policy, may consider memory and cpuload -->
+            <!--pkg_disable Policy -->
+            <!--dropCache Policy, using when big app lunch, no conditions? -->
+            <rule index = "4" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory="4"/>
+                <policy name="clear" type="force-speed" level="4"/>
+            </rule>
+            <rule index = "3" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory="3"/>
+                <policy name="clear" type="force-speed" level="3"/>
+            </rule>
+            <rule index = "2" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory="2"/>
+                <policy name="clear" type="smart-force" level="2"/>
+            </rule>
+            <rule index = "1" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory="1"/>
+                <policy name="clear" type="smart-force" level="1"/>
+            </rule>
+        </scene>
+        <scene id="1001" name="SCENE_LAUNCHER">
+            <rule index = "4" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" memory="4"/>
+                <policy name="clear" type="force-speed" level_scene="launcher" level="4" />
+            </rule>
+            <rule index = "3" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" memory="3"/>
+                <policy name="clear" type="force-speed" level_scene="launcher" level="3"/>
+            </rule>
+            <rule index = "2" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" memory="2"/>
+                <policy name="clear" type="smart-force" level_scene="launcher" level="2"/>
+            </rule>
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" memory="1"/>
+                <policy name="clear" type="smart-force" level_scene="launcher" level="1"/>
+            </rule>
+        </scene>
+        <scene id="1001" name="SCENE_BIG_APP_SWITCH">
+            <rule index = "4" tag = "memory" skip="memory">
+                <condition memory_scene="bigApp" memory="4"/>
+                <policy name="clear" type="speed" level_scene="bigApp" level="4"/>
+            </rule>
+            <rule index = "3" tag = "memory" skip="memory">
+                <condition memory_scene="bigApp" memory="3"/>
+                <policy name="clear" type="speed" level_scene="bigApp" level="3"/>
+            </rule>
+            <rule index = "2" tag = "memory" skip="memory">
+                <condition memory_scene="bigApp" memory="2"/>
+                <policy name="clear" type="speed" level_scene="bigApp" level="2"/>
+            </rule>
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="bigApp" memory="1"/>
+                <policy name="clear" type="speed" level_scene="bigApp" level="1"/>
+            </rule>
+        </scene>
+    <!-- MEMORY_CRITICAL scene means psi or memory guard, can be used when in running app.-->
+        <scene id="1002" name="SCENE_LOW_MEMORY">
+            <rule index = "2" tag = "memory" skip="memory">
+                <condition memory_scene="lowmem" memory="2"/>
+                <policy name="clear" type="force-speed" level_scene="lowmem" level="2"/>
+            </rule>
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="lowmem" memory="1"/>
+                <policy name="clear" type="force-speed" level_scene="lowmem" level="1"/>
+            </rule>
+        </scene>
+        <scene id="1008" name="SCENE_BIGAPP_RUNTIME">
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="bigAppPSI" memory="1"/>
+                <policy name="clear" type="smart-force" level_scene="bigAppPSI" level="1"/>
+            </rule>
+        </scene>
+        <scene id="1009" name="SCENE_QUICK_BOOT_ENTER">
+            <rule index = "5" tag = "quickboot" skip="quickboot">
+                <policy name="scenecontrol" type="enable"/>
+                <policy name="clear" type="performance_quick_start" level="1"/>
+            </rule>
+            <rule index = "4" tag = "memory" skip="memory">
+                <condition memory_scene="quickBoot" memory="4"/>
+                <policy name="clear" type="smart-force" level_scene="quickBoot" level="4"/>
+            </rule>
+            <rule index = "3" tag = "memory" skip="memory">
+		<condition memory_scene="quickBoot" memory="3"/>
+		<policy name="clear" type="smart-force" level_scene="quickBoot" level="3"/>
+	    </rule>
+	    <rule index = "2" tag = "memory" skip="memory">
+		<condition memory_scene="quickBoot" memory="2"/>
+		<policy name="clear" type="smart-force" level_scene="quickBoot" level="2"/>
+	    </rule>
+	    <rule index = "1" tag = "memory" skip="memory">
+	        <condition memory_scene="quickBoot" memory="1"/>
+		<policy name="clear" type="smart-force" level_scene="quickBoot" level="1"/>
+	    </rule>
+        </scene>
+        <scene id="1009" name="SCENE_QUICK_BOOT_EXIT">
+            <rule index = "1">
+                <policy name="scenecontrol" type="disable"/>
+                <policy name="clear" type="performance_quick_start" level="2"/>
+            </rule>
+        </scene>
+    </config>
+</resources>

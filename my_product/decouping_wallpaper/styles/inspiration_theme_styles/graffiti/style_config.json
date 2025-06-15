@@ -1,0 +1,72 @@
+[
+  {
+    "themeName": "graffiti",
+    "styleName": "cute",
+    "rank": "0",
+    "depth": "graffiti/cute/depth_cute.webp",
+    "sticky": "graffiti/cute/sticky_cute.webp",
+    "aod": "graffiti/cute/aod_cute.webp",
+    "pattern": "graffiti/cute/thumbnail_cute.webp",
+    "patternDark": "graffiti/cute/thumbnail_cute_dark.webp",
+    "lock2AodVideo": "graffiti/cute/lock2aod_cute.mp4",
+    "aod2LockVideo": "graffiti/cute/aod2lock_cute.mp4",
+    "height": "175",
+    "stickyAnimConfig": "{\"special\":\"cute_new\"}"
+  },
+  {
+    "themeName": "graffiti",
+    "styleName": "brilliant",
+    "rank": "1",
+    "depth": "graffiti/brilliant/depth_brilliant.webp",
+    "sticky": "",
+    "aod": "graffiti/brilliant/aod_brilliant.webp",
+    "pattern": "graffiti/brilliant/thumbnail_brilliant.webp",
+    "patternDark": "graffiti/brilliant/thumbnail_brilliant_dark.webp",
+    "lock2AodVideo": "graffiti/brilliant/lock2aod_brilliant.mp4",
+    "aod2LockVideo": "graffiti/brilliant/aod2lock_brilliant.mp4",
+    "height": "141",
+    "stickyAnimConfig": "{\"special\":\"brilliant\"}"
+  },
+  {
+    "themeName": "graffiti",
+    "styleName": "keep_moving",
+    "rank": "2",
+    "depth": "graffiti/keep_moving/depth_keep_moving.webp",
+    "sticky": "",
+    "aod": "graffiti/keep_moving/aod_keep_moving.webp",
+    "pattern": "graffiti/keep_moving/thumbnail_keep_moving.webp",
+    "patternDark": "graffiti/keep_moving/thumbnail_keep_moving_dark.webp",
+    "lock2AodVideo": "graffiti/keep_moving/lock2aod_keep_moving.mp4",
+    "aod2LockVideo": "graffiti/keep_moving/aod2lock_keep_moving.mp4",
+    "height": "320",
+    "stickyAnimConfig": "{\"special\":\"keep\"}"
+  },
+  {
+    "themeName": "graffiti",
+    "styleName": "game_on",
+    "rank": "3",
+    "depth": "graffiti/game_on/depth_game_on.webp",
+    "sticky": "",
+    "aod": "graffiti/game_on/aod_game_on.webp",
+    "pattern": "graffiti/game_on/thumbnail_game_on.webp",
+    "patternDark": "graffiti/game_on/thumbnail_game_on_dark.webp",
+    "lock2AodVideo": "graffiti/game_on/lock2aod_game_on.mp4",
+    "aod2LockVideo": "graffiti/game_on/aod2lock_game_on.mp4",
+    "height": "198",
+    "stickyAnimConfig": "{\"special\":\"gameon\"}"
+  },
+  {
+    "themeName": "graffiti",
+    "styleName": "fast",
+    "rank": "4",
+    "depth": "graffiti/fast/depth_fast.webp",
+    "sticky": "",
+    "aod": "graffiti/fast/aod_fast.webp",
+    "pattern": "graffiti/fast/thumbnail_fast.webp",
+    "patternDark": "graffiti/fast/thumbnail_fast_dark.webp",
+    "lock2AodVideo": "graffiti/fast/lock2aod_fast.mp4",
+    "aod2LockVideo": "graffiti/fast/aod2lock_fast.mp4",
+    "height": "396",
+    "stickyAnimConfig": "{\"special\":\"fast\"}"
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:hide"/>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:hide"/>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_title_dynamic" args="StringList:value">
+		<StringList name="value" args="key_vowifi_language;zh;key_vowifi_title;wifi_call_title_for_zh"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2024-06-17T19:16:38 #142019 -->

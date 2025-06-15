@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+	<app_feature name="com.android.systemui.show.pinpuk_func_support_carrier" args="String:vodafone"/>
+	<app_feature name="com.android.systemui.show_g_for_2g"/>
+	<app_feature name="com.android.systemui.keyguard_show_pinpukremains"/>
+	<app_feature name="com.android.systemui.keyguard_show_operatornotice"/>
+	<app_feature name="com.android.systemui.show_g_for_gprs"/>
+</extend_features>
+<!-- Timestamp 2023-09-19T11:04:06 #47302 -->

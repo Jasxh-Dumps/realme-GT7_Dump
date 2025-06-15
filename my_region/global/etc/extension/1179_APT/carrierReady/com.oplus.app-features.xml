@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.ignore_network_translate">
+		<StringList args="46601"/>
+		<StringList args="46602"/>
+		<StringList args="46603"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2024-08-14T17:34:14 #186682 -->

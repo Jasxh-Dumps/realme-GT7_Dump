@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="oplus_sim_switch_parameter" args="StringList:carrier">
+        <StringList name="carrier" args="name=Vodafone|display_name=Vodafone|switch_model=everytime|complete_notification=disable_all"/>
+        <StringList name="carrier" args="name=Orange|display_name=Orange|switch_model=everytime|complete_notification=disable_all"/>
+        <StringList name="carrier" args="name=MASORANGE|display_name=MASORANGE|switch_model=everytime|complete_notification=disable_all"/>
+    </app_feature>
+</extend_features>

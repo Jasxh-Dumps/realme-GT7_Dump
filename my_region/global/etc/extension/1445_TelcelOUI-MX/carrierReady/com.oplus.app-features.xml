@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.show_vowifi_tile_in_control_center_dynamic"/>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.customize_network_name_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_5g_4g_3g_2g_auto;oplus_4g_3g_2g_auto;oplus_3g_2g_auto;oplus_3g_only;oplus_2g_only"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_name_list_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_4g_3g_2g_auto;oplus_3g_2g_auto;oplus_3g_only;oplus_2g_only"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="33;9;0;2;1"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_dynamic" args="StringList:type">
+		<StringList name="type" args="9;0;2;1"/>
+	</app_feature>
+	<app_feature name="com.android.systemui.show_3g_for_h"/>
+	<app_feature name="com.android.systemui.show_4dot5g_for_4gplus"/>
+	<app_feature name="com.android.systemui.show_g_for_gprs"/>
+	<app_feature name="com.android.phone.disable_editing_vm_number_dynamic"/>
+</extend_features>
+<!-- Timestamp 2024-05-28T11:30:34 #132565 -->

@@ -1,0 +1,23 @@
+{
+  "group": "Nature",
+  "title": "自然风景",
+  "version": 2,
+  "wallpapers": [
+    {
+      "thumbPath": "./Nature01.webp",
+      "originPath": "./Nature01.webp"
+    },
+    {
+      "thumbPath": "./Nature02.webp",
+      "originPath": "./Nature02.webp"
+    },
+    {
+      "thumbPath": "./Nature03.webp",
+      "originPath": "./Nature03.webp"
+    },
+    {
+      "thumbPath": "./Nature04.webp",
+      "originPath": "./Nature04.webp"
+    }
+  ]
+}

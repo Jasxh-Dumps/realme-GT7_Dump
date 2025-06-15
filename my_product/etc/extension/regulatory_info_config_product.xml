@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LegalInfos version="1.0">
+     <MODEL_RMX5061>
+        <CE r_new_style="true"/>
+        <MEX r_old_style="true"/>
+		<INA number="109646" year="2025" made_in_number="6813" made_in_place="none" is_djid="true"/>
+		<IMG drawable="@drawable/regulatory_image_indonesia_qbcode"/>
+		<INA_FIXED/>
+		<KSA number="2025-642" new_style="true"/>
+    </MODEL_RMX5061>
+</LegalInfos>

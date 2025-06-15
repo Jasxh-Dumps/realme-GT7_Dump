@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <!-- <project>8350R</project> -->
+        <version>2023121201</version>
+        <filter-name>sys_osense_memory_decisionmaker_config</filter-name>
+    </filter-conf>
+
+    <!-- conditions ! -->
+    <!-- available_memory_config ! -->
+    <config name="memory_config">
+        <scene name="lowmem">
+            <!-- level3-critical |level2-low|level1-normal"-->
+            <mem total="2" value="400|500|800"/>
+            <mem total="3" value="500|600|900"/>
+            <mem total="4" value="600|700|1000"/>
+            <mem total="6" value="800|900|1200"/>
+            <mem total="8" value="1000|1200|1600"/>
+            <mem total="12" value="1000|1200|2000"/>
+            <mem total="16" value="1000|1200|2200"/>
+            <mem total="24" value="1000|1700|2700"/>
+        </scene>
+        <scene name="lowmem_zram">
+            <!-- level3-critical |level2-low|level1-normal"-->
+            <mem total="2" value="400|500|1000"/>
+            <mem total="3" value="500|600|1000"/>
+            <mem total="4" value="600|700|1500"/>
+            <mem total="6" value="800|900|1800"/>
+            <mem total="8" value="1000|1200|2000"/>
+            <mem total="12" value="1000|1200|2000"/>
+            <mem total="16" value="1000|1200|2000"/>
+            <mem total="24" value="1000|1700|2700"/>
+        </scene>
+        <scene name="bigAppPSI">
+            <mem total="2" value="600"/>
+            <mem total="3" value="1000"/>
+            <mem total="4" value="1100"/>
+            <mem total="6" value="1300"/>
+            <mem total="8" value="1500"/>
+            <mem total="12" value="1500"/>
+            <mem total="16" value="1500"/>
+            <mem total="24" value="2000"/>
+        </scene>
+        <scene name="gameAppPSI">
+            <mem total="2" value="600"/>
+            <mem total="3" value="1000"/>
+            <mem total="4" value="1100"/>
+            <mem total="6" value="1300"/>
+            <mem total="8" value="1500"/>
+            <mem total="12" value="1500"/>
+            <mem total="16" value="1500"/>
+            <mem total="24" value="2000"/>
+        </scene>
+        <scene name="threadPSI">
+            <mem total="24" value="5300"/>
+        </scene>
+    </config>
+	
+    <config name="memExHugepool_config">
+        <!-- used for memory leak-->
+        <!--avail_ex_hugepool = availmem - hugePagePool-->
+        <define value="triggerMemory"/>
+        <mem total="2" value="500"/>
+        <mem total="3" value="500"/>
+        <mem total="4" value="500"/>
+        <mem total="6" value="500"/>
+        <mem total="8" value="1200"/>
+        <mem total="12" value="1500"/>
+        <mem total="16" value="1500"/>
+        <mem total="24" value="1500"/>
+    </config>
+	
+    <config name="filemem_config">
+        <!-- used for memory leak-->
+        <!--filemem = activeFileMem + inactiveFileMem-->
+        <define value="triggerMemory"/>
+        <mem total="2" value="500"/>
+        <mem total="3" value="500"/>
+        <mem total="4" value="500"/>
+        <mem total="6" value="500"/>
+        <mem total="8" value="1200"/>
+        <mem total="12" value="1500"/>
+        <mem total="16" value="1500"/>
+        <mem total="24" value="1500"/>
+    </config>
+
+    <config name="freemem_config">
+        <!-- level2 - critical |level1 - normal"-->
+        <!--should has define node, if has not, using "triggerMemory" by default-->
+        <define value="triggerMemory"/>
+        <mem total="2" value="90|150"/>
+        <mem total="3" value="90|150"/>
+        <mem total="4" value="90|150"/>
+        <mem total="6" value="100|150"/>
+        <mem total="8" value="120|150"/>
+        <mem total="12" value="120|150"/>
+        <mem total="16" value="120|150"/>
+        <mem total="24" value="120|150"/>
+    </config>
+
+    <config name="zramload_config">
+        <define value="triggerUsedSwapPercent"/>
+        <mem total="2" value="90"/>
+        <mem total="3" value="90"/>
+        <mem total="4" value="90"/>
+        <mem total="6" value="90"/>
+        <mem total="8" value="90"/>
+        <mem total="12" value="90"/>
+        <mem total="16" value="90"/>
+        <mem total="24" value="90"/>
+    </config>
+
+    <config name="cpuload_config">
+        <level index="1" name="low" value="30"/>
+        <level index="2" name="mid" value="95"/>
+        <level index="3" name="high" value="100"/>
+    </config>
+
+    <!-- policies level ! -->
+    <config name="clear_level">
+        <scene name="lowmem">
+            <!-- must has define node ,define values' names-->
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="400-600-79|500-600-59|800-1000-0"/>
+            <mem total="3" value="500-700-79|600-700-59|900-1100-0"/>
+            <mem total="4" value="600-800-79|700-900-59|1000-1200-0"/>
+            <mem total="6" value="800-1000-79|900-1100-59|1200-1400-0"/>
+            <mem total="8" value="1000-1300-79|1200-1400-59|1600-1800-0"/>
+            <mem total="12" value="1000-1300-79|1200-1400-59|2000-2300-0"/>
+            <mem total="16" value="1000-1300-79|1200-1400-59|2200-2500-0"/>
+            <mem total="24" value="1000-1500-79|1700-2200-59|2700-3200-0"/>
+        </scene>
+        <scene name="lowmem_force_zram">
+            <define value="triggerMemory-purposeMemory-appcareThreshold-triggerUsedSwapPercent-purposeUsedSwapPercent-releaseSwapSize-swapAppcareThreshold"/>
+            <mem total="2" value="400-600-79-90-90-200-79|500-600-59-90-90-200-79"/>
+            <mem total="3" value="500-700-79-90-90-200-79|600-700-59-90-90-200-79"/>
+            <mem total="4" value="600-800-79-90-90-200-79|700-900-59-90-90-200-79"/>
+            <mem total="6" value="800-1000-79-90-90-200-79|900-1100-59-90-90-200-79"/>
+            <mem total="8" value="1000-1300-79-90-90-200-79|1200-1400-59-90-90-200-79"/>
+            <mem total="12" value="1000-1300-79-90-90-200-79|1200-1400-59-90-90-200-79"/>
+            <mem total="16" value="1000-1300-79-90-90-200-79|1200-1400-59-90-90-200-79"/>
+            <mem total="24" value="1000-1500-79-90-90-200-79|1700-2200-59-90-90-200-79"/>
+        </scene>
+        <scene name="lowmem_zram">
+            <define value="triggerUsedSwapPercent-purposeUsedSwapPercent-releaseSwapSize-swapAppcareThreshold"/>
+            <mem total="2" value="90-90-200-79"/>
+            <mem total="3" value="90-90-200-79"/>
+            <mem total="4" value="90-90-200-79"/>
+            <mem total="6" value="90-90-200-79"/>
+            <mem total="8" value="90-90-200-79"/>
+            <mem total="12" value="90-90-200-79"/>
+            <mem total="16" value="90-90-200-79"/>
+            <mem total="24" value="90-90-200-79"/>
+        </scene>
+        <scene name="bigAppPSI">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="600-800-69"/>
+            <mem total="3" value="1000-1200-69"/>
+            <mem total="4" value="1100-1300-69"/>
+            <mem total="6" value="1300-1500-69"/>
+            <mem total="8" value="1500-1600-69"/>
+            <mem total="12" value="1500-1600-69"/>
+            <mem total="16" value="1500-1600-69"/>
+            <mem total="24" value="2000-2500-59"/>
+        </scene>
+        <scene name="gameAppPSI">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="600-800-69"/>
+            <mem total="3" value="1000-1200-69"/>
+            <mem total="4" value="1100-1300-69"/>
+            <mem total="6" value="1300-1500-69"/>
+            <mem total="8" value="1500-1600-69"/>
+            <mem total="12" value="1500-1600-69"/>
+            <mem total="16" value="1500-1600-69"/>
+            <mem total="24" value="2000-2500-69"/>
+        </scene>
+        <scene name="threadPSI">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="24" value="5300-5800-19"/>
+        </scene>
+    </config>
+
+    <!-- rules_engine ! -->
+    <config name="rules_engine">
+        <scene id="1000" name="SCENE_SCREEN_STATUS">
+            <rule index = "1" tag = "delay" skip="delay" offset="1800000">
+                <policy name="compress" type="screenoff"/>
+            </rule>
+        </scene>
+
+        <!-- MEMORY_CRITICAL scene means psi or memory guard, can be used when in running app.-->
+        <scene id="1002" name="SCENE_RES_MEM_PSI_NORMAL">
+            <!--<rule index = "4" tag = "cpuload" skip="cpuload">
+                <condition cpuload="1"/>
+                <policy name="compress" type="force"/>
+            </rule>-->
+            <rule index = "6" tag = "memory" skip="memory">
+                <!--  memory < level3(1000)"  && zramload > 1(low)-->
+                <condition zramload="1+" memory_scene="lowmem_zram" memory="3"/>
+                <policy name="clear" type="force-speed" level_scene="lowmem_force_zram" level="2"/>
+            </rule>
+            <rule index = "5" tag = "memory" skip="memory">
+                <!--  memory < level2(1200)"  && zramload > 1(low)-->
+                <condition zramload="1+" memory_scene="lowmem_zram" memory="2"/>
+                <policy name="clear" type="force-speed" level_scene="lowmem_force_zram" level="1"/>
+            </rule>
+            <rule index = "4" tag = "memory" skip="memory">
+                <!--  memory < level3(1000)"-->
+                <condition memory_scene="lowmem" memory="3"/>
+                <policy name="clear" type="force-speed" level_scene="lowmem" level="3"/>
+            </rule>
+            <rule index = "3" tag = "memory" skip="memory">
+                <!--  memory < level2(1200)"-->
+                <condition memory_scene="lowmem" memory="2"/>
+                <policy name="clear" type="force-speed" level_scene="lowmem" level="2"/>
+            </rule>
+            <rule index = "2" tag = "memory" skip="memory">
+                <!--  memory < level1(2200)"-->
+                <condition memory_scene="lowmem" memory="1"/>
+                <policy name="clear" type="cached" level_scene="lowmem" level="1"/>
+            </rule>
+            <rule index = "1" tag = "memory" skip="memory">
+                <!--  memory < level1(2000)"  && free < level1 normal (150) && zramload > 1(low)-->
+                <condition zramload="1+" freemem="1" memory_scene="lowmem_zram" memory="1"/>
+                <policy name="clear" type="zram" level_scene="lowmem_zram" level="1"/>
+            </rule>
+        </scene>
+
+        <scene id="1003" name="SCENE_RES_MEM_PSI_CAMERA">
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="bigAppPSI" memory="1"/>
+                <policy name="clear" type="smart-force" level_scene="bigAppPSI" level="1"/>
+            </rule>
+        </scene>
+
+        <scene id="1004" name="SCENE_RES_MEM_PSI_GAME">
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="gameAppPSI" memory="1"/>
+                <policy name="clear" type="smart-force" level_scene="gameAppPSI" level="1"/>
+            </rule>
+        </scene>
+		
+        <scene id="1005" name="SCENE_RES_MEM_PSI_LEAK">
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memExHugepool="1" filemem="1"/>
+                <policy name="clear" type="mem_leak"/>
+            </rule>
+        </scene>
+		
+        <scene id="1006" name="SCENE_RES_MEM_PSI_THREAD">
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="threadPSI" memory="1"/>
+                <policy name="clear" type="smart-force" level_scene="threadPSI" level = "1"/>
+            </rule>
+        </scene>
+    </config>
+
+</resources>

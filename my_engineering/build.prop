@@ -1,0 +1,6 @@
+# build prop start
+ro.oplus.image.my_engineering.date=2025-05-30 23:21:22
+ro.oplus.image.my_engineering.date.utc=1748618482
+persist.vendor.oplus.radio.rpcreleasever=PKG_V1.9_AMT_20240726155322_O_24002_NV029_20240907112452.pkg
+ro.oplus.image.my_engineering.type=release
+ro.oplus.image.my_engineering.version=version_stub.25db1aef

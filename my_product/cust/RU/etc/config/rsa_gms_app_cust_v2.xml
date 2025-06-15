@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.google.android.apps.googleassistant" priority="9" />
+  <disable pkg="com.google.ambient.streaming" priority="9" />
+  <del_disable pkg="com.google.android.apps.adm" priority="9" name="GoogleFindMyDevice.apk"/>
+  <del_disable pkg="com.fitbit.FitbitMobile" priority="9" name="GoogleFitbit.apk"/>
+  <del_disable pkg="com.google.android.apps.chromecast.app" priority="9" name="GoogleHome.apk"/>
+  <del_disable pkg="com.google.android.apps.subscriptions.red" priority="9" name="GoogleOne.apk"/>
+  <disable pkg="com.google.android.apps.healthdata" priority="9" />
+  <del_disable pkg="com.facebook.katana" priority="9" name="Facebook.apk"/>
+</app>

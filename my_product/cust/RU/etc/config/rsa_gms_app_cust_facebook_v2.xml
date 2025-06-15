@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <del_disable pkg="com.facebook.katana" priority="9" name="Facebook.apk"/>
+  <disable pkg="com.facebook.appmanager" priority="9" />
+  <disable pkg="com.facebook.services" priority="9" />
+  <disable pkg="com.facebook.system" priority="9" />
+</app>

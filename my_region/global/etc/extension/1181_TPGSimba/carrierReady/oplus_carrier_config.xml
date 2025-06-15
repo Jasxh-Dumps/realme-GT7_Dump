@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<int name="vowifi_visible" value="0"/>
+	<boolean name="config_oplus_hide_3g_2g" value="true"/>
+</carrier_config>

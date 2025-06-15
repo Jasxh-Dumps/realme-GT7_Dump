@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="oplus_sim_switch_parameter" args="StringList:carrier">
+        <StringList name="carrier" args="name=my-celcom|display_name=Celcom|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+		<StringList name="carrier" args="name=my-digi|display_name=Digi|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+        <StringList name="carrier" args="name=my-maxis|display_name=Maxis|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+		<StringList name="carrier" args="name=my-umobile|display_name=U Mobile|switch_model=only_first|slot_model=physial_slot|clean_model=none_cleaned"/>
+    </app_feature>
+</extend_features>

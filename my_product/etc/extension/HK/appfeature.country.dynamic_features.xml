@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.incallui.play_busy_tone" />
+    <app_feature name="com.android.server.telecom.play_busy_tone" />
+    <app_feature name="com.android.phone.simsettings.check_location_status_for_vowifi" />
+    <app_feature name="com.android.settings.show_wfc_dialog" />
+    <!-- show dialog for wifi calling tip when click gps tile -->
+    <app_feature name="com.android.incallui.support_record_prompt" />
+    <app_feature name="oplus.call.summary.support_languages" args="StringList:language">
+        <StringList name="language" args="zh-TW"/>
+        <StringList name="language" args="en"/>
+        <StringList name="language" args="zh"/>
+        <StringList name="language" args="hi"/>
+        <StringList name="language" args="id"/>
+        <StringList name="language" args="ms"/>
+        <StringList name="language" args="th"/>
+        <StringList name="language" args="vi"/>
+    </app_feature>
+    <app_feature name="com.oplus.aicall.call_translate"/>
+</extend_features>

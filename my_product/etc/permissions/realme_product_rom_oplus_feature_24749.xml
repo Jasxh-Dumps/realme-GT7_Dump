@@ -1,0 +1,9 @@
+<oplus-config>
+
+
+    <oplus-feature name="oplus.software.support.gt.mode"/>
+    <oplus-feature name="oplus.software.notification_alert_support_fifo"/>
+    <oplus-feature name="oplus.software.game_scroff_act_preload"/>
+    <oplus-feature name="os.charge.endurance.mode.support"/>
+
+</oplus-config>

@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+page_size=861090870
+dt=dtb.img
+kernel_size=4
+ramdisk_size=1073741824
+second_size=60857349
+dtb_offset=0x00007000
+dtb_size=1311912748
+base_addr=0xffff9000
+kernel_offset=0x00008000
+ramdisk_offset=0x66f07000
+tags_offset=0x3d74e06f
+dtbo_offset=
+cmd_line=''
+board="N2"

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.android.contacts" priority="10"/>
+  <disable pkg="com.android.incallui" priority="10"/>
+  <disable pkg="com.applovin.array.apphub.vincere" priority="10"/>
+  <disable pkg="com.aura.oobe.appsettings" priority="10"/>
+  <disable pkg="com.coloros.movetosdcard" priority="10"/>
+  <disable pkg="com.finshell.fin" priority="10"/>
+  <disable pkg="com.fintech.doublewake.settings" priority="10"/>
+  <del_disable pkg="com.fintech.life" priority="10" name="Fineasy.apk"/>
+  <disable pkg="com.glance.internet" priority="10"/>
+  <disable pkg="com.haokan.pictorial" priority="10"/>
+  <disable pkg="com.heytap.cloud" priority="10"/>
+  <disable pkg="com.mediatek.ims.rcsua.service" priority="10"/>
+  <disable pkg="com.mediatek.presence" priority="10"/>
+  <disable pkg="com.mediatek.rcs.provisioning" priority="10"/>
+  <disable pkg="com.nearme.gamecenter" priority="10"/>
+  <disable pkg="com.oplus.accesscard" priority="10"/>
+  <disable pkg="com.oplus.aimemory" priority="10"/>
+  <disable pkg="com.oplus.aiwidgets" priority="10"/>
+  <disable pkg="com.oplus.blacklistapp" priority="10"/>
+  <disable pkg="com.oplus.doublewake.settings" priority="10"/>
+  <disable pkg="com.oplus.leftscreen" priority="10"/>
+  <disable pkg="com.oplus.omoji" priority="10"/>
+  <disable pkg="com.oplus.phonenoareainquire" priority="10"/>
+  <disable pkg="com.oplus.rsmcsatellite" priority="10"/>
+  <disable pkg="com.oplus.ttsatellite" priority="10"/>
+  <del_disable pkg="com.realmecomm.app" priority="10" name="RMCommEXP.apk"/>
+  <del_disable pkg="com.realmestore.app" priority="10" name="RMStoreExp.apk"/>
+  <disable pkg="com.redteamobile.roaming" priority="10"/>
+  <disable pkg="com.taboola.scoop" priority="10"/>
+  <disable pkg="com.ted.number" priority="10"/>
+  <disable pkg="ru.yandex.androidkeyboard" priority="10"/>
+</app>

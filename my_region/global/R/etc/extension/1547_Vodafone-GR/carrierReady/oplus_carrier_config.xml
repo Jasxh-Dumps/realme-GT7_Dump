@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_preferred_mode" value="10"/>
+	<int name="vowifi_roaming_preferred_mode" value="10"/>
+</carrier_config>
+<!-- Timestamp 2025-01-21T17:21:51 #531670 -->

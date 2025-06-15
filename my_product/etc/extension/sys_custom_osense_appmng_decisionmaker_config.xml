@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <!-- <project>8350R</project> -->
+        <version>2025010601</version>
+        <filter-name>sys_custom_osense_appmng_decisionmaker_config</filter-name>
+    </filter-conf>
+
+    <!-- conditions ! -->
+    <!-- available_memory_config ! -->
+    <config name="memory_config">
+        <!-- refer to clearlevelmanager memory_level_threshold -->
+        <!--should has define node, if has not, using "triggerMemory" by default-->
+        <!-- level4-critical |level3-low|level2-moderate|level1-normal"-->
+        <scene name="app_switch">
+            <define value="triggerMemory"/>
+            <mem total="2" value="400|500|600|800"/>
+            <mem total="3" value="400|600|800|1000|1200"/>
+            <mem total="4" value="400|700|1100|1400|1600"/>
+            <mem total="6" value="600|1000|1300|1600|1800"/>
+            <mem total="8" value="900|1100|1500|2000|2200"/>
+            <mem total="12" value="1000|1400|2200|2800|3200"/>
+            <mem total="16" value="1000|1400|2200|2800|3200"/>
+            <mem total="24" value="1000|1700|2700|4000|4300"/>
+        </scene>
+        <scene name="app_switch_C2">
+            <define value="triggerMemory"/>
+            <mem total="2" value="400|500|600|800"/>
+            <mem total="3" value="400|600|800|1000|1200"/>
+            <mem total="4" value="400|700|1100|1400|1600"/>
+            <mem total="6" value="600|1000|1300|1600|1800"/>
+            <mem total="8" value="900|1100|1500|2500|2700"/>
+            <mem total="12" value="1000|1400|2200|3500|4000"/>
+            <mem total="16" value="1000|1400|2200|4300|4500"/>
+            <mem total="24" value="1000|1700|2700|4000|4300"/>
+        </scene>
+        <scene name="launcher">
+            <mem total="2" value="400|500|600|800"/>
+            <mem total="3" value="400|600|800|1000|1200"/>
+            <mem total="4" value="400|700|1100|1400|1600"/>
+            <mem total="6" value="600|1000|1300|1600|1800"/>
+            <mem total="8" value="900|1100|1500|2000|2200"/>
+            <mem total="12" value="1000|1400|2200|2800|3200"/>
+            <mem total="16" value="1000|1400|2200|2800|3200"/>
+            <mem total="24" value="1000|1700|2700|4000|4300"/>
+        </scene>
+        <scene name="launcher_C2">
+            <define value="triggerMemory"/>
+            <mem total="2" value="400|500|600|800"/>
+            <mem total="3" value="400|600|800|1000|1200"/>
+            <mem total="4" value="400|700|1100|1400|1600"/>
+            <mem total="6" value="600|1000|1300|1600|1800"/>
+            <mem total="8" value="900|1100|1500|2500|2700"/>
+            <mem total="12" value="1000|1400|2200|3500|4000"/>
+            <mem total="16" value="1000|1400|2200|4300|4500"/>
+            <mem total="24" value="1000|1700|2700|4000|4300"/>
+        </scene>
+        <scene name="bigApp">
+            <mem total="2" value="400|500|600"/>
+            <mem total="3" value="400|600|800|1000"/>
+            <mem total="4" value="400|700|1100|1400"/>
+            <mem total="6" value="600|1000|1300|1600"/>
+            <mem total="8" value="1000|1500|2000|2300"/>
+            <mem total="12" value="1400|2200|2800|3300"/>
+            <mem total="16" value="1400|2200|2800|3300"/>
+            <mem total="24" value="1400|2200|2800|3300"/>
+        </scene>
+    </config>
+
+    <config name="cpuload_config">
+        <level index="1" name="low" value="30"/>
+        <level index="2" name="mid" value="95"/>
+        <level index="3" name="high" value="100"/>
+    </config>
+
+    <config name="hybridswap_avail_buffers_config">
+        <scene name="avail_buffers_C2">
+            <mem total="8" value="2800 2500 2800 1536"/>
+            <mem total="12" value="3800 3500 3800 1536"/>
+            <mem total="16" value="4600 4300 4600 1536"/>
+        </scene>
+    </config>
+
+    <!-- policies level ! -->
+    <config name="clear_level">
+        <!--triggerMemory-purposeMemory-appcareThreshold|trigger-pupose-appcare|...|...-->
+        <!-- level4-critical |level3-low|level2-moderate|level1-normal"-->
+        <!-- scene normal move to memory_config -->
+        <!--<scene name="normal">
+        </scene>-->
+        <!-- currently, scene_launcher is same to normal-->
+                <!-- refer to clearlevelmanager memory_level_threshold -->
+        <!--triggerMemory-purposeMemory-appcareThreshold|trigger-pupose-appcare|...|...-->
+        <!-- level4-critical |level3-low|level2-moderate|level1-normal"-->
+        <scene name="app_switch">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="400-500-79|500-600-59|600-800-39|800-900-0"/>
+            <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19|1200-1400-0"/>
+            <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19|1600-1800-0"/>
+            <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19|1800-2000-0"/>
+            <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2000-2200-19|2200-2400-0"/>
+            <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19|3200-3400-0"/>
+            <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19|3200-3400-0"/>
+            <mem total="24" value="1000-1500-79|1700-2200-59|2700-3200-39|4000-4500-19|4300-4800-0"/>
+        </scene>
+        <scene name="app_switch_C2">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="400-500-79|500-600-59|600-800-39|800-900-0"/>
+            <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19|1200-1400-0"/>
+            <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19|1600-1800-0"/>
+            <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19|1800-2000-0"/>
+            <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2500-2700-19|2700-2900-0"/>
+            <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|3500-3900-19|4000-4200-0"/>
+            <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|4300-4700-19|4500-4700-0"/>
+            <mem total="24" value="1000-1500-79|1700-2200-59|2700-3200-39|4000-4500-19|4300-4800-0"/>
+        </scene>
+        <scene name="launcher">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="400-500-79|500-600-59|600-800-39|800-900-0"/>
+            <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19|1200-1400-0"/>
+            <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19|1600-1800-0"/>
+            <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19|1800-2000-0"/>
+            <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2000-2200-19|2200-2400-0"/>
+            <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19|3200-3400-0"/>
+            <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|2800-3200-19|3200-3400-0"/>
+            <mem total="24" value="1000-1500-79|1700-2200-59|2700-3200-39|4000-4500-19|4300-4800-0"/>
+        </scene>
+        <scene name="launcher_C2">
+            <define value="triggerMemory-purposeMemory-appcareThreshold"/>
+            <mem total="2" value="400-500-79|500-600-59|600-800-39|800-900-0"/>
+            <mem total="3" value="400-500-79|600-700-59|800-900-39|1000-1200-19|1200-1400-0"/>
+            <mem total="4" value="400-500-79|700-900-59|1100-1300-39|1400-1600-19|1600-1800-0"/>
+            <mem total="6" value="600-800-79|1000-1200-59|1300-1500-39|1600-1800-19|1800-2000-0"/>
+            <mem total="8" value="900-1000-79|1100-1300-59|1500-1800-39|2500-2700-19|2700-2900-0"/>
+            <mem total="12" value="1000-1400-79|1400-1800-59|2200-2600-39|3500-3900-19|4000-4200-0"/>
+            <mem total="16" value="1000-1400-79|1400-1800-59|2200-2600-39|4300-4700-19|4500-4700-0"/>
+            <mem total="24" value="1000-1500-79|1700-2200-59|2700-3200-39|4000-4500-19|4300-4800-0"/>
+        </scene>
+        <!--triggerMemory-remainingCount|trigger-count|...|...-->
+        <!--not used-->
+        <scene name="bigApp">
+            <define value="triggerMemory-remainingCount"/>
+            <mem total="2" value="400-1|500-3|600-5"/>
+            <mem total="3" value="400-1|600-1|800-3|1000-5"/>
+            <mem total="4" value="400-1|700-1|1100-3|1400-5"/>
+            <mem total="6" value="600-1|1000-1|1300-3|1600-5"/>
+            <mem total="8" value="1000-1|1500-1|2000-3|2300-5"/>
+            <mem total="12" value="1400-1|2200-1|2800-3|3300-5"/>
+            <mem total="16" value="1400-1|2200-1|2800-3|3300-5"/>
+            <mem total="24" value="1400-1|2200-1|2800-3|3300-5"/>
+        </scene>
+        <scene name="respreload">
+            <!--level3-process_preload|level2-normal_activity_preload|level1-game_activity_preload"-->
+            <mem total="2" value="400|600|1000"/>
+            <mem total="3" value="600|800|1200"/>
+            <mem total="4" value="800|1000|1400"/>
+            <mem total="6" value="1000|1300|2048"/>
+            <mem total="8" value="1000|1700|2700"/>
+            <mem total="12" value="1500|2000|3000"/>
+            <mem total="16" value="2000|2000|3000"/>
+            <mem total="24" value="2000|2000|3000"/>
+        </scene>
+    </config>
+
+    <config name="freezer_level">
+        <!-- freezer duration, normal app launch 1.5s, big app launch 3s-->
+        <define value="freeze_duration"/>
+        <level index="1" value="1500"/>
+        <level index="2" value="3000"/>
+    </config>
+
+    <!-- rules_engine ! -->
+    <config name="rules_engine">
+        <scene id="1000" name="SCENE_APP_SWITCH">
+            <!-- tag: multi means multi conditions
+                skip: if conditions matched, skip some tag's rules, (all means skip all, the rule matched, just return)
+                if a policy should consider multi conditions, using this rule,
+                if a policy only consider single condition, using single tag(memory,cpuload,ioload) rule.
+                Also, multi tag rule, can resolve policies conflict/coordination problem-->
+
+            <!--clear Policy, now, may just consider memory condition, so using tag "memory"-->
+            <!--freezer Policy, now, may just consider cpuload condition, so using tag "cpuload"-->
+            <!--preload Policy, has 5000ms delay, special!!!! consider condition after 5000ms? -->
+            <!--compress Policy, may consider memory and cpuload -->
+            <!--pkg_disable Policy -->
+            <!--dropCache Policy, using when big app lunch, no conditions? -->
+            <!--<rule index = "6" tag = "delay_cpumemory" skip="delay_cpumemory" offset="5000">
+                <condition cpuload="1" memory_scene="compress" memory="1"/>
+                <policy name="compress" type="force"/>
+            </rule>-->
+            <!-- only when cpuload =2,  freezer policy can run! -->
+            <rule index = "6" tag = "cpuload" skip="cpuload">
+                <!--<condition cpuload="2"/>-->
+                <policy name="freezer" type="fast" level="1"/>
+            </rule>
+            <rule index = "5" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory_scene="app_switch" append_level="true" memory="5"/>
+                <policy name="clear" type="force-speed" level_scene="app_switch" append_level="true" level="5"/>
+            </rule>
+            <rule index = "4" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory_scene="app_switch" append_level="true" memory="4"/>
+                <policy name="clear" type="force-speed" level_scene="app_switch" append_level="true" level="4"/>
+            </rule>
+            <rule index = "3" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory_scene="app_switch" append_level="true" memory="3"/>
+                <policy name="clear" type="smart-force" level_scene="app_switch" append_level="true" level="3"/>
+            </rule>
+            <rule index = "2" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory_scene="app_switch" append_level="true" memory="2"/>
+                <policy name="clear" type="smart-force" level_scene="app_switch" append_level="true" level="2"/>
+            </rule>
+            <rule index = "1" tag = "delay_memory" skip="delay_memory" offset="2000">
+                <condition memory_scene="app_switch" append_level="true" memory="1"/>
+                <policy name="clear" type="cached" level_scene="app_switch" append_level="true" level="1"/>
+            </rule>
+        </scene>
+        <scene id="1001" name="SCENE_LAUNCHER">
+            <!--<rule index = "5" tag = "delay_cpumemory" skip="delay_cpumemory" offset="5000">
+                <condition cpuload="1" memory_scene="compress" memory="1"/>
+                <policy name="compress" type="force"/>
+            </rule>-->
+            <rule index = "5" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" append_level="true" memory="5"/>
+                <policy name="clear" type="force-speed" level_scene="launcher" append_level="true" level="5" />
+            </rule>
+            <rule index = "4" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" append_level="true" memory="4"/>
+                <policy name="clear" type="force-speed" level_scene="launcher" append_level="true" level="4"/>
+            </rule>
+            <rule index = "3" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" append_level="true" memory="3"/>
+                <policy name="clear" type="smart-force" level_scene="launcher" append_level="true" level="3"/>
+            </rule>
+            <rule index = "2" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" append_level="true" memory="2"/>
+                <policy name="clear" type="smart-force" level_scene="launcher" append_level="true" level="2"/>
+            </rule>
+            <rule index = "1" tag = "memory" skip="memory">
+                <condition memory_scene="launcher" append_level="true" memory="1"/>
+                <policy name="clear" type="cached" level_scene="launcher" append_level="true" level="1"/>
+            </rule>
+        </scene>
+        <scene id="1002" name="SCENE_BIG_APP_SWITCH">
+            <rule index = "1" tag = "cpuload" skip="cpuload">
+                <!--<condition cpuload="2"/>-->
+                <policy name="freezer" type="fast" level="2"/>
+            </rule>
+        </scene>
+        <scene id="1003" name="SCENE_GAME">
+            <rule index = "1">
+                <policy name="appstartup" type="strict"/>
+            </rule>
+        </scene>
+
+        <scene id="1011" name="SCENE_GAME_PREDICT">
+            <rule index = "1" tag = "retry_5" skip="retry" offset="5000">
+                <!--available memory >= level1(2000)"-->
+                <condition cpuload = "2" memory_scene="respreload" memory="1+" temperature="1"/>
+                <policy name="respreload" type="activity"/>
+            </rule>
+        </scene>
+    </config>
+
+</resources>

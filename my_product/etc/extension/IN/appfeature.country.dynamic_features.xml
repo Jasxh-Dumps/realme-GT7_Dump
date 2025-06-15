@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.mms.ted_smart_message_support" />
+    <app_feature name="com.android.mms.number_recognition" />
+    <app_feature name="com.oplus.number.recognition.number_recognition" />
+    <app_feature name="com.android.server.telecom.hangup_other_call_before_emergency_call" />
+    <app_feature name="com.android.contacts.number_recognition" />
+    <app_feature name="com.android.contacts.support_ride_mode"/>
+    <app_feature name="com.oplus.blacklistapp.number_recognition" />
+    <app_feature name="com.oplus.wirelesssettings.wifi_show_wfd_menu" />
+    <app_feature name="com.android.incallui.number_recognition" />
+    <app_feature name="com.android.phone.number_recognition" />
+    <app_feature name="com.android.settings.electronic_label"/>
+    <app_feature name="oplus.call.summary.support_languages" args="StringList:language">
+        <StringList name="language" args="hi"/>
+        <StringList name="language" args="en"/>
+        <StringList name="language" args="id"/>
+        <StringList name="language" args="ms"/>
+        <StringList name="language" args="zh"/>
+        <StringList name="language" args="th"/>
+        <StringList name="language" args="zh-TW"/>
+        <StringList name="language" args="vi"/>
+    </app_feature>
+    <app_feature name="com.oplus.assistant.quick.engine.enable"/>
+    <app_feature name="com.oplus.aicall.call_translate"/>
+</extend_features>

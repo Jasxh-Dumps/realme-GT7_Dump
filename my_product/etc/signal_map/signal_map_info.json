@@ -1,0 +1,8 @@
+﻿{
+  "urlAndesBrain": "https://andesbrain-ai-cn.heytapmobi.com/andesbrain/model/fetch",
+  "urlQosMapDev": "https://qos-api-cn-dev.wanyol.com/qosmap/download",
+  "urlQosMapTest": "https://qos-api-cn.allawntech.com/qosmap/download",
+  "urlLocationPressure": "https://rfloc-api-cn-dev.wanyol.com/pressure/",
+  "urlLocation": "https://rfloc-api-cn.allawntech.com/location/",
+  "urlLocationDatabase": "https://rfloc-api-cn.allawntech.com/data/"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WifiProductConfig>
+    <version>20231129</version>
+    <!--WIFI Coex BTC configuraion begin-->
+    <FDD_WIFI_GUARD_OFFSET>25</FDD_WIFI_GUARD_OFFSET>
+    <FDD_WIFI_GUARD_MIN_OFFSET>15</FDD_WIFI_GUARD_MIN_OFFSET>
+    <FDD_ANT_ISOLATION>32</FDD_ANT_ISOLATION>
+    <FDD_BT_TXPOWER>12</FDD_BT_TXPOWER>
+    <FDD_WIFI_GAME_RSSI_TH>-127:-128</FDD_WIFI_GAME_RSSI_TH>
+    <FDD_WIFI_NORMAL_RSSI_TH>-127:-128</FDD_WIFI_NORMAL_RSSI_TH>
+    <FDD_V2_FULL_SCENE_SUPPORT>true</FDD_V2_FULL_SCENE_SUPPORT>
+    <!--
+        // conditionA bt bad condition
+        1 fddBtRssiWifiHighDuty; // rssi
+        2 fddBtRssiWifiLowDuty; // rssi
+        3 fddBtRetx; // i.e 30 mean 30%
+        4 fddPer; // i.e 30 mean 30%
+        5 fddBtQueue; //queue data 0~100
+        // condition D bt good condition
+        6 tddBtRssiWifiHighDuty;  //rssi
+        7 tddBtRssiWifiLowDuty; // rssi
+        8 tddBtRetx;
+        9 tddPer;
+        10 tddBtQueue;
+        11 tddImprovementPercent;   // contition C not improvement
+    -->
+    <FDD_GAME_SCENE_PARAMS>-127:-127:100:100:100:-127:-127:100:100:100:5</FDD_GAME_SCENE_PARAMS>
+    <FDD_PRE_WF_SCENE_PARAMS>-127:-127:50:80:45:-127:-127:40:70:45:5</FDD_PRE_WF_SCENE_PARAMS>
+    <FDD_PRE_BT_SCENE_PARAMS>-78:-73:20:40:40:-73:-68:10:35:30:5</FDD_PRE_BT_SCENE_PARAMS>
+    <FDD_NORMAL_SCENE_PARAMS>-83:-78:20:40:40:-80:-75:10:35:40:5</FDD_NORMAL_SCENE_PARAMS>
+    <!--WIFI Coex BTC configuraion end-->
+</WifiProductConfig>

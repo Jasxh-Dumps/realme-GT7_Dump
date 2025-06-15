@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="oplus_default_app_parameter" args="StringList:place_packages">
+        <StringList name="place_packages" args="type=android.app.role.BROWSER|package_name=com.android.chrome|update_category=first_boot;type=android.app.role.SMS|package_name=com.google.android.apps.messaging|update_category=first_boot" />
+    </app_feature>
+</extend_features>

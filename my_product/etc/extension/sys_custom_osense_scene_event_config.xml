@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config name="scene_event">
+    <filter-conf>
+        <version>2025041021</version>
+        <filter-name>sys_osense_scene_event_config</filter-name>
+    </filter-conf>
+
+   	<event id="2025" name="LAUNCHER_RECENTS_APP" maxWorkDurationMs="2000" source_caller="launcher">
+        <key-thread name="UIThread" owner="launcher" sched_policy="ux" priority="SUPER_ANIMATOR" />
+        <key-thread name="RenderThread" owner="launcher" sched_policy="ux" priority="SUPER_ANIMATOR" />
+        <key-thread name="HwUiTask" owner="launcher" sched_policy="ux" priority="HIGH_ANIMATOR" />
+        <key-thread name="GLThread" owner="launcher" sched_policy="ux" priority="HIGH_ANIMATOR" />
+        <key-thread name="UrgentTransactionHelper" owner="launcher" sched_policy="ux" priority="LIGHT" />
+		<key-thread name="mali-cmar-backe" owner="launcher" sched_policy="ux" priority="SUPER_LIGHT" />
+    </event>
+    <!-- audio -->
+    <event id="4000" name="Mixer" maxWorkDurationMs="-1" source_caller="audioserver">
+        <key-thread name="mix0:0" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="mix0:1" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="mix1:0" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="mix1:1" owner="audioserver" sched_policy="audio"/>
+    </event>
+    <event id="4001" name="AUDIO_RECORD" maxWorkDurationMs="-1" source_caller="audioserver">
+        <key-thread name="readSingingDataRoutine" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="writeSingingDataRoutine" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="usbWrite_Thread" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="readThread" owner="audioserver" sched_policy="audio"/>
+        <key-thread name="processThread" owner="audioserver" sched_policy="audio"/>
+    </event>
+    <!-- audio end -->
+
+    <!-- CameraHal thread -->
+    <event id="6000" name="HAL_CAMERA_RUNNING" maxWorkDurationMs="-1" source_caller="cameraserver_vnd">
+        <key-thread name="CamHalThread" owner="cameraserver_vnd" sched_policy="ux" priority="LIGHT" />
+	    <key-thread name="OpenCamThread" owner="cameraserver_vnd" sched_policy="ux" priority="HEAVY" />
+	    <key-thread name="NodeThread" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+	    <key-thread name="CTMThread" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+	    <key-thread name="3AThread" owner="cameraserver_vnd" sched_policy="ux" priority="LISTPICK" />
+	    <key-thread name="HalTemporaryThread" owner="cameraserver_vnd" sched_policy="ux" priority="HEAVY" />
+    </event>
+	<!-- CamHalThread:1 OpenCamThread:1 NodeThread:1 CTMThread:16 3AThread:1 HalTemporaryThread:1-->
+	<!-- CameraHal thread end -->
+
+    <!-- CameraApp 线程 begin -->
+    <event id="6001" name="SYSTEM_CAMERA_APP_RUNNING" maxWorkDurationMs="-1" source_caller="system_app">
+        <key-thread name="UIBoosterUx" owner="self" sched_policy="ux" priority="ANIMATOR" />
+        <key-thread name="CustomGLThread" owner="self" sched_policy="ux" priority="HEAVY" />
+        <key-thread name="CameraHandlerThread" owner="self" sched_policy="ux" priority="LIGHT" />
+        <key-thread name="TaskBusThread" owner="self" sched_policy="ux" priority="HEAVY" />
+        <key-thread name="TemporaryThread" owner="self" sched_policy="ux" priority="HEAVY" />
+    </event>
+    <!-- CameraApp 线程 end -->
+
+    <!-- CameraUnit 线程 begin -->
+    <event id="6002" name="CAMERA_UNIT_RUNNING" maxWorkDurationMs="-1" source_caller="system_app">
+        <key-thread name="PreviewImageThread" owner="self" sched_policy="ux" priority="LIGHT" />
+        <key-thread name="ImageProcessThread" owner="self" sched_policy="ux" priority="LIGHT" />
+        <key-thread name="PreviewProcessThread" owner="self" sched_policy="ux" priority="LISTPICK" />
+        <key-thread name="PreviewFrameThread" owner="self" sched_policy="ux" priority="LISTPICK" />
+        <key-thread name="CaptureImageThread" owner="self" sched_policy="ux" priority="ANIMATOR" />
+        <key-thread name="PictureMetaArriveThread" owner="self" sched_policy="ux" priority="HEAVY" />
+        <key-thread name="ConfigInitThread" owner="self" sched_policy="ux" priority="LISTPICK" />
+        <key-thread name="UnitHandlerThread" owner="self" sched_policy="ux" priority="LIGHT" />
+        <key-thread name="ApsUxThread" owner="self" sched_policy="ux" priority="ANIMATOR" />
+    </event>
+    <!-- CameraUnit 线程 end -->
+	
+	<!-- 相机FW启动场景 -->
+    <event id="6003" name="FW_CAMERA_OPEN" maxWorkDurationMs="-1" source_caller="cameraserver_sys">
+        <key-thread name="cameraservice" owner="cameraserver_sys" sched_policy="ux" priority="HEAVY" />
+    </event>
+
+    <!-- GameOpt 线程 begin -->
+    <event id="7000" name="GAME_OPT" maxWorkDurationMs="-1" source_caller="gameopt">
+        <key-thread name="DynamicUxThread" owner="gameapp" sched_policy="ux" priority="HEAVY" />
+    </event>
+    <!-- GameOpt 线程 end -->
+  
+    <!-- vipbinder 配置 begin -->
+    <!-- 按 binder node 控制策略来调整 VIP Binder 的作用范围，每个控制策略可绑定到 1 至多个 scene_event -->
+    <vip-token name="default" id="0">
+        <token interface="android.app.IActivityManager" type="all">
+            <!-- finishReceiver  -->
+            <code>24</code>
+            <!-- attachApplication  -->
+            <code>25</code>
+            <!-- serviceDoneExecuting  -->
+            <code>61</code>
+            <!-- setHasTopUi -->
+            <code>196</code>
+            <server-proc>system_server</server-proc>
+        </token>
+        <token interface="com.oplus.osense.IOsenseResManager" type="all">
+            <!-- requestSysResource java接口 -->
+            <code>16</code>
+            <!-- releaseSysResource java接口 -->
+            <code>17</code>
+            <!-- requestSysResource native接口 -->
+            <code>10011</code>
+            <!-- releaseSysResource native接口 -->
+            <code>10012</code>
+            <server-proc>system_server</server-proc>
+        </token>
+    </vip-token>
+    
+    <!-- 桌面与负一屏滑动添加的vipbinder -->
+    <vip-token name="assisitscreen-slide-to-launcher" id="2">
+        <token interface="android.view.IWindowSession" type="all">
+            <!-- setWallpaperPosition -->
+            <code>18</code>
+            <!-- setWallpaperZoomOut -->
+            <code>19</code>
+            <server-proc>system_server</server-proc>
+        </token>
+        <token interface="android.gui.ITransactionComposerListener" type="all">
+            <!--  onTransactionCompleted -->
+            <code>1</code>
+            <server-proc>com.android.launcher</server-proc>
+            <client-proc>surfaceflinger</client-proc>
+        </token>
+    </vip-token>
+    
+    <!-- 转屏动画添加的vipbinder -->
+    <vip-token name="transition-change" id="4">
+        <token interface="android.window.ITransitionPlayer" type="all">
+            <!-- onTransitionReady -->
+            <!-- requestStartTransition -->
+            <client-proc>system_server</client-proc>
+            <server-proc>com.android.systemui</server-proc>
+        </token>
+        <token interface="android.view.IWindowSession" type="all">
+            <!-- finishDrawing -->
+            <code>9</code>
+            <server-proc>system_server</server-proc>
+        </token>
+        <token interface="android.app.IApplicationThread" type="all">
+            <!-- scheduleTransaction -->
+            <code>55</code>
+            <client-proc>system_server</client-proc>
+        </token>
+    </vip-token>
+    
+
+    <!-- 桌面窗口动画流程填加的vipbinder -->
+    <vip-token name="imms-focus-change" id="6">
+        <token interface="com.android.internal.view.IInputMethodManager" type="all">
+            <!-- startInputOrWindowGainedFocus -->
+            <code>9</code>
+            <server-proc>system_server</server-proc>
+            <client-proc>com.android.launcher</client-proc>
+        </token>
+    </vip-token>
+    
+    <!-- 桌面启动应用 -->
+    <vip-token name="launcher-app-start" id="7">
+        <token interface="android.window.IRemoteTransition" type="all">
+            <!-- startAnimation-->
+            <code>1</code>
+            <client-proc>com.android.systemui</client-proc>
+            <server-proc>com.android.launcher</server-proc>
+        </token>
+    </vip-token>
+<!-- vipbinder 配置 end -->
+
+</config>

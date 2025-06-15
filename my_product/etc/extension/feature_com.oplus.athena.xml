@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="athena.ams.max.cached.processes" args="String:12|128-8|96"/>
+    <app_feature name="athena.support.quick_boot_up" args="int:1"/>
+</extend_features>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneColors>
+        <!--PhoneColor.name：手机颜色的唯一标识，由项目、手软提供-->
+        <!--ColorDescription：手机颜色描述，描述手机颜色-->
+        <!--ColorDescriptionCN：手机颜色描述（中文），描述手机颜色-->
+        <!--DefaultWallpaper :对应的锁屏壁纸-->
+        <!--DefaultWallpaperLock :对应的桌面壁纸-->
+        <!--ThemeDescriptionCN：主题描述（中文），描述主题名称-->
+        <!--手机颜色唯一标识、手机颜色描述由项目或手软提供，对应主题由桌面主题组根据UI要求配置-->
+        <!--该文件由OS产品中心桌面主题组维护-->
+    <PhoneColor name="FFC0C4DE">
+        <ColorDescription>IceSense Blue</ColorDescription>
+        <ColorDescriptionCN>冰感蓝</ColorDescriptionCN>
+        <DefaultWallpaper>default_wallpaper_blue</DefaultWallpaper>
+        <DefaultWallpaperLock>default_wallpaper_blue</DefaultWallpaperLock>
+        <ThemeDescriptionCN>系统默认</ThemeDescriptionCN>
+    </PhoneColor>
+
+    <PhoneColor name="FF3E3E3E">
+        <ColorDescription>IceSense Balck</ColorDescription>
+        <ColorDescriptionCN>冰感黑</ColorDescriptionCN>
+        <DefaultWallpaper>default_wallpaper_black</DefaultWallpaper>
+        <DefaultWallpaperLock>default_wallpaper_black</DefaultWallpaperLock>
+        <ThemeDescriptionCN>系统默认</ThemeDescriptionCN>
+    </PhoneColor>
+    <PhoneColor name="FF00665E">
+        <ColorDescription>IceSense grd</ColorDescription>
+        <ColorDescriptionCN>默认色</ColorDescriptionCN>
+        <DefaultWallpaper>default_wallpaper_lock</DefaultWallpaper>
+        <DefaultWallpaperLock>default_wallpaper</DefaultWallpaperLock>
+        <ThemeDescriptionCN>系统默认</ThemeDescriptionCN>
+    </PhoneColor>
+
+</PhoneColors>

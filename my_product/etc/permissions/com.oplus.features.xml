@@ -1,0 +1,30 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oplus.hw.manufacturer.mtk" />
+    <feature name="mtk.gemini.support" />
+
+    <feature name="android.hardware.usb.host" />
+
+    <!-- Gaowenbo@Plf.Framework, 2017/12/15, add for safecenter settings security features collect -->
+    <feature name="oppo.security.collect.support" />
+    <!-- Zengpeng.Chen@CHG.BSP.Basic 2021/02/02, add for typec otg feature -->
+    <feature name="oplus.typecotg.connection.menu.support" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="android.hardware.biometrics.face" />
+    <!-- Tao.Hui@PSW.CN.WiFi.Basic.SoftAp.1181662, 2018/10/22, Add for AP_STA concurrency feature -->
+    <feature name="oppo.ap.sta.concurrency.support" />
+    <!-- Tao.Hui@PSW.CN.WiFi.Basic.SoftAp.1181662, 2018/10/22, Add for AP_STA concurrency feature -->
+    <feature name="oppo.ap.sta.concurrency.support" />
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24, Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!-- laizhijie@Plf.Comm, 2017/02/09, add for wlan assistant -->
+    <feature name="oppo.common_center.wlan.assistant" />
+	<!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add for wake up arouse -->
+    <oplus-feature name="oplus.software.wake_up_arouse_support" />
+    <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add end -->
+
+    <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add for blackgesture -->
+    <oplus-feature name="oplus.software.gesture_proximitysensor" />
+    <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add end -->
+</permissions>

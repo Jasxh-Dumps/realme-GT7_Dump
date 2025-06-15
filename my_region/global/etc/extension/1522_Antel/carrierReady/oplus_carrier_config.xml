@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="display_hd_audio_property_bool" value="false"/>
+	<int name="volte_visible" value="1"/>
+	<int name="volte_status" value="1"/>
+</carrier_config>
+<!-- Timestamp 2024-04-10T15:30:41 #109982 -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.settings.show_wfc_dialog"/>
+	<app_feature name="com.android.systemui.gps_tile_vowifi_dialog"/>
+</extend_features>
+<!-- Timestamp 2023-09-19T11:04:12 #47302 -->

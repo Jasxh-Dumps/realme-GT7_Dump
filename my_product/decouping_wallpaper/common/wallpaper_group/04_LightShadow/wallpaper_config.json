@@ -1,0 +1,23 @@
+{
+  "group": "LightShadow",
+  "title": "光影艺术",
+  "version": 1,
+  "wallpapers": [
+    {
+      "thumbPath": "./LightShadow01.webp",
+      "originPath": "./LightShadow01.webp"
+    },
+    {
+      "thumbPath": "./LightShadow02.webp",
+      "originPath": "./LightShadow02.webp"
+    },
+    {
+      "thumbPath": "./LightShadow03.webp",
+      "originPath": "./LightShadow03.webp"
+    },
+    {
+      "thumbPath": "./LightShadow04.webp",
+      "originPath": "./LightShadow04.webp"
+    }
+  ]
+}

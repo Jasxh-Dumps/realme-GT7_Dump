@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings_provider_key version="135">
+    <application package="com.android.settings">
+        <key category="global" new_name="oplus_customize_4g_switch_state"
+            old_name="color_4g_switch_state" />
+        <key category="global" new_name="oplus_customize_aod_curved_display_call_switch"
+            old_name="oppo_aod_curved_display_call_switch" />
+        <key category="global" new_name="oplus_customize_aod_curved_display_notification_switch"
+            old_name="oppo_aod_curved_display_notification_switch" />
+        <key category="global" new_name="oplus_customize_apk_prescan_switch"
+            old_name="oppo_apk_prescan_switch" />
+        <key category="global" new_name="oplus_customize_comm_incallui_curved_display_call_color"
+            old_name="oppo_comm_incallui_curved_display_call_color" />
+        <key category="global" new_name="oplus_customize_comm_incallui_curved_display_notification_color"
+            old_name="oppo_comm_incallui_curved_display_notification_color" />
+        <key category="global" new_name="oplus_customize_feedback_swtich"
+            old_name="oppo_feedback_swtich" />
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_enbale"
+            old_name="oppo_harass_intercept_mark_number_enbale" />
+        <key category="global" new_name="oplus_customize_settings_sim_type"
+            old_name="oppo_settings_sim_type" />
+        <key category="global" new_name="oplus_customize_wifi_smart_connect"
+            old_name="oppo_wifi_smart_connect" />
+
+
+        <key category="secure" new_name="oplus_customize_settings_dark_wallpaper"
+            old_name="color_settings_dark_wallpaper" />
+        <key category="secure" new_name="oplus_customize_encode_show"
+            old_name="coloros_encode_show" />
+        <key category="secure" new_name="oplus_customize_face_security_verify_switch"
+            old_name="coloros_face_security_verify_switch" />
+        <key category="secure" new_name="oplus_customize_face_unlock_auto_check_switch"
+            old_name="coloros_face_unlock_auto_check_switch" />
+        <key category="secure" new_name="oplus_customize_face_unlock_app_encryption_switch"
+            old_name="coloros_face_unlock_app_encryption_switch" />
+        <key category="secure" new_name="oplus_customize_face_unlock_eyes_condition"
+            old_name="coloros_face_unlock_eyes_condition" />
+        <key category="secure" new_name="oplus_customize_face_unlock_file_encryption_switch"
+            old_name="coloros_face_unlock_file_encryption_switch" />
+        <key category="secure" new_name="oplus_customize_face_unlock_force_status"
+            old_name="coloros_face_unlock_force_status" />
+        <key category="secure" new_name="oplus_customize_face_unlock_remain_unlock_switch"
+            old_name="coloros_face_unlock_remain_unlock_switch" />
+        <key category="secure" new_name="oplus_customize_face_unlock_screen_fill_light"
+            old_name="coloros_face_unlock_screen_fill_light" />
+
+        <key category="secure" new_name="oplus_customize_face_unlock_switch"
+            old_name="coloros_face_unlock_switch" />
+        <key category="secure" new_name="oplus_customize_finerprint_enrolled_count"
+            old_name="coloros_finerprint_enrolled_count" />
+        <key category="secure" new_name="oplus_customize_fingerprint_app_encryption_switch"
+            old_name="coloros_fingerprint_app_encryption_switch" />
+        <key category="secure" new_name="oplus_customize_fingerprint_file_encryption_switch"
+            old_name="coloros_fingerprint_file_encryption_switch" />
+        <key category="secure" new_name="oplus_customize_fingerprint_security_vertify_switch"
+            old_name="coloros_fingerprint_security_vertify_switch" />
+        <key category="secure" new_name="oplus_customize_fingerprint_unlock_force_status"
+            old_name="coloros_fingerprint_unlock_force_status" />
+        <key category="secure" new_name="oplus_customize_fingerprint_unlock_switch"
+            old_name="coloros_fingerprint_unlock_switch" />
+        <key category="secure" new_name="oplus_customize_screen_refresh_rate"
+            old_name="coloros_screen_refresh_rate" />
+
+        <key category="secure" new_name="oplus_customize_screen_resolution_adjust"
+            old_name="coloros_screen_resolution_adjust" />
+        <key category="secure" new_name="oplus_customize_settings_recommend_app_visibility"
+            old_name="coloros_settings_recommend_app_visibility" />
+        <key category="secure" new_name="oplus_customize_settings_recommend_oaps_link"
+            old_name="coloros_settings_recommend_oaps_link" />
+        <key category="secure" new_name="oplus_customize_sound_input_channel"
+            old_name="coloros_sound_input_channel" />
+        <key category="secure" new_name="oplus_customize_default_volume_type"
+            old_name="default_volume_type_coloros_six" />
+        <key category="secure" new_name="oplus_customize_color_mode" old_name="oppo_color_mode" />
+        <key category="secure" new_name="oplus_customize_default_input_method"
+            old_name="oppo_default_input_method" />
+        <key category="secure" new_name="oplus_customize_gesture_double_click_home"
+            old_name="oppo_gesture_double_click_home" />
+        <key category="secure" new_name="oplus_customize_gesture_open_type"
+            old_name="oppo_gesture_open_type" />
+        <key category="secure" new_name="oplus_customize_gesture_wake_up_arouse"
+            old_name="oppo_gesture_wake_up_arouse" />
+        <key category="secure" new_name="oplus_customize_customize_overlay_menu_invalid_list"
+            old_name="oppo_customize_overlay_menu_invalid_list" />
+        <key category="secure" new_name="oplus_customize_settings_main_menu_delete_list"
+            old_name="oppo_settings_main_menu_delete_list" />
+
+        <key category="system" new_name="oplus_customize_display_level"
+            old_name="color_display_level" />
+        <key category="system" new_name="oplus_customize_eyeprotect_saved_level"
+            old_name="color_eyeprotect_saved_level" />
+        <key category="system" new_name="oplus_customize_eyeprotect_start_level"
+            old_name="color_eyeprotect_start_level" />
+        <key category="system" new_name="oplus_customize_3g_switch_visible"
+            old_name="oppo_3g_switch_visible" />
+        <key category="system" new_name="oplus_customize_4g_2g_switch_visible"
+            old_name="oppo_4g_2g_switch_visible" />
+        <key category="system" new_name="oplus_customize_app_gesture_enable"
+            old_name="oppo_app_gesture_enable" />
+        <key category="system" new_name="oplus_customize_blank_screen_camera_enabled"
+            old_name="oppo_blank_screen_camera_enabled" />
+        <key category="system" new_name="oplus_customize_blank_screen_flashlight_enabled"
+            old_name="oppo_blank_screen_flashlight_enabled" />
+        <key category="system" new_name="oplus_customize_blank_screen_multi_touch_camera_enabled"
+            old_name="oppo_blank_screen_multi_touch_camera_enabled" />
+        <key category="system" new_name="oplus_customize_blank_screen_music_enabled"
+            old_name="oppo_blank_screen_music_enabled" />
+        <key category="system" new_name="oplus_customize_body_response_dail"
+            old_name="oppo_body_response_dail" />
+
+
+        <key category="system" new_name="oplus_customize_breath_led_charge"
+            old_name="oppo_breath_led_charge" />
+        <key category="system" new_name="oplus_customize_breath_led_low_power"
+            old_name="oppo_breath_led_low_power" />
+        <key category="system" new_name="oplus_customize_breath_led_notification"
+            old_name="oppo_breath_led_notification" />
+        <key category="system" new_name="oplus_customize_breath_led_phone_call"
+            old_name="oppo_breath_led_phone_call" />
+        <key category="system" new_name="oplus_customize_breath_led_phone_talk"
+            old_name="oppo_breath_led_phone_talk" />
+        <key category="system" new_name="oplus_customize_cta_auto_update_virus"
+            old_name="oppo_cta_auto_update_virus" />
+        <key category="system" new_name="oplus_customize_cta_update_pictorial"
+            old_name="oppo_cta_update_pictorial" />
+        <key category="system" new_name="oplus_customize_cta_update_service"
+            old_name="oppo_cta_update_service" />
+        <key category="system" new_name="oplus_customize_cta_user_experience"
+            old_name="oppo_cta_user_experience" />
+        <key category="system" new_name="oplus_customize_data_traffic_used"
+            old_name="oppo_data_traffic_used" />
+        <key category="system" new_name="oplus_customize_default_alarm"
+            old_name="oppo_default_alarm" />
+
+        <key category="system" new_name="oplus_customize_default_notification"
+            old_name="oppo_default_notification" />
+        <key category="system" new_name="oplus_customize_default_notification_sim2"
+            old_name="oppo_default_notification_sim2" />
+        <key category="system" new_name="oplus_customize_default_ringtone"
+            old_name="oppo_default_ringtone" />
+        <key category="system" new_name="oplus_customize_default_ringtone_sim2"
+            old_name="oppo_default_ringtone_sim2" />
+        <key category="system" new_name="oplus_customize_default_sms_notification_sound"
+            old_name="oppo_default_sms_notification_sound" />
+        <key category="system" new_name="oplus_customize_dirac_sound_effect"
+            old_name="oppo_dirac_sound_effect" />
+        <key category="system" new_name="oplus_customize_disaplay_calculate_data_traffic"
+            old_name="oppo_disaplay_calculate_data_traffic" />
+        <key category="system" new_name="oplus_customize_double_click_camera_on"
+            old_name="oppo_double_click_camera_on" />
+        <key category="system" new_name="oplus_customize_double_click_to_top_effect"
+            old_name="oppo_double_click_to_top_effect" />
+        <key category="system" new_name="oplus_customize_double_finger_control_volume_enabled"
+            old_name="oppo_double_finger_control_volume_enabled" />
+        <key category="system" new_name="oplus_customize_double_press_home_lock_screen"
+            old_name="oppo_double_press_home_lock_screen" />
+
+        <key category="system" new_name="oplus_customize_eye_tracking_enabled"
+            old_name="oppo_eye_tracking_enabled" />
+        <key category="system" new_name="oplus_customize_gesture_screen_hovering"
+            old_name="oppo_gesture_screen_hovering" />
+        <key category="system" new_name="oplus_customize_glove_mode_enabled"
+            old_name="oppo_glove_mode_enabled" />
+        <key category="system" new_name="oplus_customize_key_tone" old_name="oppo_key_tone" />
+        <key category="system" new_name="oplus_customize_key_vibrate" old_name="oppo_key_vibrate" />
+        <key category="system" new_name="oplus_customize_led_color_for_favorite_contacts"
+            old_name="oppo_led_color_for_favorite_contacts" />
+        <key category="system" new_name="oplus_customize_led_color_for_general_contacts"
+            old_name="oppo_led_color_for_general_contacts" />
+        <key category="system" new_name="oplus_customize_led_color_for_general_notificaions"
+            old_name="oppo_led_color_for_general_notificaions" />
+        <key category="system" new_name="oplus_customize_nfc_lightning_transfer"
+            old_name="oppo_nfc_lightning_transfer" />
+        <key category="system" new_name="oplus_customize_ota_patch" old_name="oppo_ota_patch" />
+
+
+        <key category="system" new_name="oplus_customize_pictorial_auto_play"
+            old_name="oppo_pictorial_auto_play" />
+        <key category="system" new_name="oplus_customize_prevent_misoperation_enabled"
+            old_name="oppo_prevent_misoperation_enabled" />
+        <key category="system" new_name="oplus_customize_quick_start_rotative_camera_enabled"
+            old_name="oppo_quick_start_rotative_camera_enabled" />
+        <key category="system" new_name="oplus_customize_screan_color_define"
+            old_name="oppo_screan_color_define" />
+        <key category="system" new_name="oplus_customize_show_4g_switch_visible"
+            old_name="oppo_show_4g_switch_visible" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_adjust_speaker"
+            old_name="oppo_smart_apperceive_adjust_speaker" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_auto_answer"
+            old_name="oppo_smart_apperceive_auto_answer" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_decrease_volume"
+            old_name="oppo_smart_apperceive_decrease_volume" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_dial"
+            old_name="oppo_smart_apperceive_dial" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_enabled"
+            old_name="oppo_smart_apperceive_enabled" />
+
+
+        <key category="system" new_name="oplus_customize_smart_apperceive_gesture_answer"
+            old_name="oppo_smart_apperceive_gesture_answer" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_gesture_op"
+            old_name="oppo_smart_apperceive_gesture_op" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_gesture_page"
+            old_name="oppo_smart_apperceive_gesture_page" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_gesture_sliding_desktop"
+            old_name="oppo_smart_apperceive_gesture_sliding_desktop" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_image"
+            old_name="oppo_smart_apperceive_image" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_notification"
+            old_name="oppo_smart_apperceive_notification" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_screen_capture"
+            old_name="oppo_smart_apperceive_screen_capture" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_screen_lock"
+            old_name="oppo_smart_apperceive_screen_lock" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_slient"
+            old_name="oppo_smart_apperceive_slient" />
+        <key category="system" new_name="oplus_customize_smart_screen_off"
+            old_name="oppo_smart_screen_off" />
+        <key category="system" new_name="oplus_customize_sms_notification_sound"
+            old_name="oppo_sms_notification_sound" />
+
+        <key category="system" new_name="oplus_customize_status_bar_enable_when_lock"
+            old_name="oppo_status_bar_enable_when_lock" />
+        <key category="system" new_name="oplus_customize_theme_change"
+            old_name="oppo_theme_change" />
+        <key category="system" new_name="oplus_customize_three_fingers_switch_app"
+            old_name="oppo_three_fingers_switch_app" />
+        <key category="system" new_name="oplus_customize_touchpad_ctrl_enabled"
+            old_name="oppo_touchpad_ctrl_enabled" />
+        <key category="system" new_name="oplus_customize_unlock_change"
+            old_name="oppo_unlock_change" />
+        <key category="system" new_name="oplus_customize_unlock_change_pkg"
+            old_name="oppo_unlock_change_pkg" />
+        <key category="system" new_name="oplus_customize_unlock_change_process"
+            old_name="oppo_unlock_change_process" />
+        <key category="system" new_name="oplus_customize_usbtether_enabled"
+            old_name="oppo_usbtether_enabled" />
+        <key category="system" new_name="oplus_customize_use_optimized_app_icon_enabled"
+            old_name="oppo_use_optimized_app_icon_enabled" />
+        <key category="system" new_name="oplus_customize_vistor_mode_password"
+            old_name="oppo_vistor_mode_password" />
+
+        <key category="system" new_name="oplus_customize_vistor_mode_password_state"
+            old_name="oppo_vistor_mode_password_state" />
+        <key category="system" new_name="oplus_customize_vistor_mode_pattern"
+            old_name="oppo_vistor_mode_pattern" />
+        <key category="system" new_name="oplus_customize_vistor_mode_state"
+            old_name="oppo_vistor_mode_state" />
+        <key category="system" new_name="oplus_customize_missed_calls_number"
+            old_name="oppo.missed.calls.number" />
+        <key category="system" new_name="oplus_customize_unread_mms_number"
+            old_name="oppo.unread.mms.number" />
+        <key category="system" new_name="oplus_customize_key_guard_switch_value"
+            old_name="oppo_key_guard_switch_value" />
+        <key category="system" new_name="oplus_customize_leather_mode_enabled"
+            old_name="oppo_leather_mode_enabled" />
+        <key category="system" new_name="oplus_customize_plmn_display_type"
+            old_name="oppo_plmn_display_type" />
+
+        <key category="secure" target_category="global" new_name="device_name"
+            old_name="oppo_device_name" force_covert="true" />
+        <key category="system" new_name="oplus_mode_ringer"
+            old_name="oppo_mode_ringer" />
+
+    </application>
+</settings_provider_key>

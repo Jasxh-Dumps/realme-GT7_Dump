@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--
+   Android S
+   Version: 50331659
+-->
+
+<!--
+   Region:Poland
+-->
+
+<channel_ready_stat_map mccmnc="26002" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="tmo-pl">
+<channel_ready_stat_map mccmnc="26001" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="play-pl">
+<channel_ready_stat_map mccmnc="26003" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="orange-pl">
+<channel_ready_stat_map mccmnc="26004" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="tele2-pl">
+<channel_ready_stat_map mccmnc="26005" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="orange-pl">
+<channel_ready_stat_map mccmnc="26006" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="play-pl">
+<channel_ready_stat_map mccmnc="26007" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="premium-pl">
+<channel_ready_stat_map mccmnc="26008" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="telko-pl">
+<channel_ready_stat_map mccmnc="26009" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="lycamobile-pl">
+<channel_ready_stat_map mccmnc="26010" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="oplenickie-pl">
+<channel_ready_stat_map mccmnc="26033" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="truphone-pl">
+<channel_ready_stat_map mccmnc="26044" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="rebtel-pl">
+<channel_ready_stat_map mccmnc="26098" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="play-pl">
+<channel_ready_stat_map mccmnc="26012" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="plus-pl">
+<channel_ready_stat_map mccmnc="26015" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="plus-pl">
+<channel_ready_stat_map mccmnc="26016" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="plus-pl">
+<channel_ready_stat_map mccmnc="26017" oplus_region_ready_stat_name= "pl" oplus_carrier_ready_stat_name="plus-pl">
+
+<!--
+   Region:Turkey
+-->
+<channel_ready_stat_map mccmnc="28601" oplus_region_ready_stat_name= "tr" oplus_carrier_ready_stat_name="turkcell-tr">
+<channel_ready_stat_map mccmnc="28602" oplus_region_ready_stat_name= "tr" oplus_carrier_ready_stat_name="vodafone-tr">
+<channel_ready_stat_map mccmnc="28603" oplus_region_ready_stat_name= "tr" oplus_carrier_ready_stat_name="telekom-tr">
+<channel_ready_stat_map mccmnc="28604" oplus_region_ready_stat_name= "tr" oplus_carrier_ready_stat_name="telekom-tr">
+<!--
+   Region:Croatia
+-->
+<channel_ready_stat_map mccmnc="21901" oplus_region_ready_stat_name= "cr" oplus_carrier_ready_stat_name="tmo-cr">
+<channel_ready_stat_map mccmnc="21920" oplus_region_ready_stat_name= "cr" oplus_carrier_ready_stat_name="tmo-cr">
+
+<!--
+   Region:Hungary
+-->
+<channel_ready_stat_map mccmnc="21630" oplus_region_ready_stat_name= "hu" oplus_carrier_ready_stat_name="telekom-hu">
+<channel_ready_stat_map mccmnc="21601" oplus_region_ready_stat_name= "hu" oplus_carrier_ready_stat_name="telenor-hu">
+
+<!--
+   Region:Greece
+-->
+<channel_ready_stat_map mccmnc="20201" oplus_region_ready_stat_name= "gr" oplus_carrier_ready_stat_name="cosmote-gr">
+
+<!--
+   Region:Romania
+-->
+<channel_ready_stat_map mccmnc="22603" oplus_region_ready_stat_name= "ro" oplus_carrier_ready_stat_name="telekom-ro">
+<channel_ready_stat_map mccmnc="22606" oplus_region_ready_stat_name= "ro" oplus_carrier_ready_stat_name="telekom-ro">
+
+<!--
+   Region:Slovakia
+-->
+<channel_ready_stat_map mccmnc="23102" oplus_region_ready_stat_name= "sk" oplus_carrier_ready_stat_name="telekom-sk">
+
+<!--
+   Region:Macedonia
+-->
+<channel_ready_stat_map mccmnc="29401" oplus_region_ready_stat_name= "mk" oplus_carrier_ready_stat_name="telecom-mk">
+
+<!--
+   Region:Montenegro
+-->
+<channel_ready_stat_map mccmnc="29702" oplus_region_ready_stat_name= "me" oplus_carrier_ready_stat_name="crnogorski-me">
+
+<!--
+   Region:Australia
+-->
+<channel_ready_stat_map mccmnc="50501" oplus_region_ready_stat_name= "au" oplus_carrier_ready_stat_name="telstra-au">
+<channel_ready_stat_map mccmnc="50571" oplus_region_ready_stat_name= "au" oplus_carrier_ready_stat_name="telstra-au">
+<channel_ready_stat_map mccmnc="50572" oplus_region_ready_stat_name= "au" oplus_carrier_ready_stat_name="telstra-au">
+<channel_ready_stat_map mccmnc="50503" oplus_region_ready_stat_name= "au" oplus_carrier_ready_stat_name="vodafone-au">
+
+<!--
+   Region:Germany
+-->
+<channel_ready_stat_map mccmnc="26201" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="telekom-de">
+<channel_ready_stat_map mccmnc="26206" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="telekom-de">
+<channel_ready_stat_map mccmnc="26298" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="telekom-de">
+<channel_ready_stat_map mccmnc="26203" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="o2-de">
+<channel_ready_stat_map mccmnc="26207" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="o2-de">
+<channel_ready_stat_map mccmnc="26211" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="o2-de">
+
+<!--
+   Region:Slovenia
+-->
+<channel_ready_stat_map mccmnc="29341" oplus_region_ready_stat_name= "slo" oplus_carrier_ready_stat_name="telekom-slo">
+
+<!--
+   Region:Czech
+-->
+<channel_ready_stat_map mccmnc="23001" oplus_region_ready_stat_name= "cz" oplus_carrier_ready_stat_name="tmo-cz">
+
+<!--
+   Region:Austria
+-->
+<channel_ready_stat_map mccmnc="23203" oplus_region_ready_stat_name= "at" oplus_carrier_ready_stat_name="tmo-at">
+<channel_ready_stat_map mccmnc="23207" oplus_region_ready_stat_name= "at" oplus_carrier_ready_stat_name="tmo-at">
+<channel_ready_stat_map mccmnc="23205" oplus_region_ready_stat_name= "at" oplus_carrier_ready_stat_name="h3g-at">
+<channel_ready_stat_map mccmnc="23210" oplus_region_ready_stat_name= "at" oplus_carrier_ready_stat_name="h3g-at">
+<channel_ready_stat_map mccmnc="23214" oplus_region_ready_stat_name= "at" oplus_carrier_ready_stat_name="h3g-at">
+
+<!--
+   Region:Guatemala
+-->
+<channel_ready_stat_map mccmnc="70401" oplus_region_ready_stat_name= "gt" oplus_carrier_ready_stat_name="claro-gt">
+
+<!--
+   Region:Costa Rica
+-->
+<channel_ready_stat_map mccmnc="71203" oplus_region_ready_stat_name= "cr" oplus_carrier_ready_stat_name="claro-cr">
+
+<!--
+   Region:Honduras
+-->
+<channel_ready_stat_map mccmnc="708001" oplus_region_ready_stat_name= "hn" oplus_carrier_ready_stat_name="claro-hn">
+
+<!--
+   Region:Dominicana
+-->
+<channel_ready_stat_map mccmnc="37002" oplus_region_ready_stat_name= "do" oplus_carrier_ready_stat_name="claro-do">
+<!--
+   Region:EL Salvador
+-->
+<channel_ready_stat_map mccmnc="70601" oplus_region_ready_stat_name= "sv" oplus_carrier_ready_stat_name="claro-sv">
+
+<!--
+   Region:Panama
+-->
+<channel_ready_stat_map mccmnc="71403" oplus_region_ready_stat_name= "pa" oplus_carrier_ready_stat_name="claro-pa">
+
+<!--
+   Region:Nicaragua
+-->
+<channel_ready_stat_map mccmnc="71021" oplus_region_ready_stat_name= "ni" oplus_carrier_ready_stat_name="claro-ni">
+<!--
+   Region:Netherland
+-->
+<channel_ready_stat_map mccmnc="20402" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="tmo-nl">
+<channel_ready_stat_map mccmnc="20416" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="tmo-nl">
+<channel_ready_stat_map mccmnc="20420" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="tmo-nl">
+<channel_ready_stat_map mccmnc="20408" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="kpn-nl">
+<channel_ready_stat_map mccmnc="20412" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="kpn-nl">
+<channel_ready_stat_map mccmnc="20469" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="kpn-nl">
+<!--
+   Region:Maxico
+-->
+<channel_ready_stat_map mccmnc="334020" oplus_region_ready_stat_name= "mx" oplus_carrier_ready_stat_name="telcel-mx">
+<channel_ready_stat_map mccmnc="334050" oplus_region_ready_stat_name= "mx" oplus_carrier_ready_stat_name="att-mx">
+<channel_ready_stat_map mccmnc="334070" oplus_region_ready_stat_name= "mx" oplus_carrier_ready_stat_name="att-mx">
+<channel_ready_stat_map mccmnc="334090" oplus_region_ready_stat_name= "mx" oplus_carrier_ready_stat_name="att-mx">
+
+<!--
+   Region:Peru
+-->
+<channel_ready_stat_map mccmnc="71610" oplus_region_ready_stat_name= "pe" oplus_carrier_ready_stat_name="claro-pe">
+
+<!--
+   Region:France
+-->
+<channel_ready_stat_map mccmnc="20801" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="orange-fr">
+<channel_ready_stat_map mccmnc="20802" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="orange-fr">
+<channel_ready_stat_map mccmnc="20820" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="bouygue-fr">
+<channel_ready_stat_map mccmnc="20821" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="bouygue-fr">
+<channel_ready_stat_map mccmnc="20888" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="bouygue-fr">
+<channel_ready_stat_map mccmnc="20809" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="sfr-fr">
+<channel_ready_stat_map mccmnc="20810" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="sfr-fr">
+<channel_ready_stat_map mccmnc="20811" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="sfr-fr">
+<channel_ready_stat_map mccmnc="20813" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="sfr-fr">
+<channel_ready_stat_map mccmnc="20827" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="coriolis-fr">
+<channel_ready_stat_map mccmnc="64700" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="orm-fr">
+<channel_ready_stat_map mccmnc="34001" oplus_region_ready_stat_name= "fr" oplus_carrier_ready_stat_name="oca-fr">
+
+<!--
+   Region:Spain
+-->
+<channel_ready_stat_map mccmnc="21403" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="orange-es">
+<channel_ready_stat_map mccmnc="21405" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="movistar-es">
+<channel_ready_stat_map mccmnc="21407" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="movistar-es">
+<channel_ready_stat_map mccmnc="21404" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="yoigo-es">
+<channel_ready_stat_map mccmnc="21422" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="digi-es">
+<channel_ready_stat_map mccmnc="21427" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="truphone-es">
+
+<!--
+   Region:HK
+-->
+<channel_ready_stat_map mccmnc="45403" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="3hk-hk">
+<channel_ready_stat_map mccmnc="45414" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="3hk-hk">
+<channel_ready_stat_map mccmnc="45412" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="cmhk-hk">
+<channel_ready_stat_map mccmnc="45430" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="cmhk-hk">
+<channel_ready_stat_map mccmnc="45400" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45402" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45418" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45416" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45419" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45420" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45410" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="csl-hk">
+<channel_ready_stat_map mccmnc="45406" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="smartone-hk">
+<channel_ready_stat_map mccmnc="45415" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="smartone-hk">
+<channel_ready_stat_map mccmnc="45417" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="smartone-hk">
+<channel_ready_stat_map mccmnc="45407" oplus_region_ready_stat_name= "hk" oplus_carrier_ready_stat_name="cuhk-hk">
+
+<!--
+   Region:La Reunion
+-->
+<channel_ready_stat_map mccmnc="64700" oplus_region_ready_stat_name= "re" oplus_carrier_ready_stat_name="orange-re">
+
+<!--
+   Region:GP/MQ
+-->
+<channel_ready_stat_map mccmnc="34001" oplus_region_ready_stat_name= "gp" oplus_carrier_ready_stat_name="orange-gp">
+
+<!--
+   Region:Chile
+-->
+<channel_ready_stat_map mccmnc="73003" oplus_region_ready_stat_name= "cl" oplus_carrier_ready_stat_name="claro-cl">
+<channel_ready_stat_map mccmnc="73023" oplus_region_ready_stat_name= "cl" oplus_carrier_ready_stat_name="claro-cl">
+
+<!--
+   Region:Columbia
+-->
+<channel_ready_stat_map mccmnc="732101" oplus_region_ready_stat_name= "co" oplus_carrier_ready_stat_name="claro-co">
+<channel_ready_stat_map mccmnc="52503" oplus_region_ready_stat_name= "sg" oplus_carrier_ready_stat_name="m1-sg">
+<channel_ready_stat_map mccmnc="52501" oplus_region_ready_stat_name= "sg" oplus_carrier_ready_stat_name="singtel-sg">
+
+
+<!--
+   Region:T-Mobile
+-->
+<channel_ready_stat_map mccmnc="310260" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-tmobile">
+<channel_ready_stat_map mccmnc="310310" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-tmobile">
+<channel_ready_stat_map mccmnc="310240" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-assurance">
+
+<!--
+   Region:US-Cellcom
+-->
+<channel_ready_stat_map mccmnc="311840" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-cellcom">
+
+<!--
+   Region:US-ATT
+-->
+<channel_ready_stat_map mccmnc="310280" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-att">
+<channel_ready_stat_map mccmnc="310950" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-att">
+<channel_ready_stat_map mccmnc="311180" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-att">
+
+<channel_ready_stat_map mccmnc="310410" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-att_410">
+
+<!--
+   Region:US-Cricket
+-->
+<channel_ready_stat_map mccmnc="310150" oplus_region_ready_stat_name= "us" oplus_carrier_ready_stat_name="us-cricket">
+
+<!--
+   Region:Italy
+-->
+<channel_ready_stat_map mccmnc="22201" oplus_region_ready_stat_name= "it" oplus_carrier_ready_stat_name="tim-it">
+<channel_ready_stat_map mccmnc="22288" oplus_region_ready_stat_name= "it" oplus_carrier_ready_stat_name="wind3-it">
+<channel_ready_stat_map mccmnc="22299" oplus_region_ready_stat_name= "it" oplus_carrier_ready_stat_name="wind3-it">
+
+<!--
+   Region:Belgium
+-->
+<channel_ready_stat_map mccmnc="20610" oplus_region_ready_stat_name= "be" oplus_carrier_ready_stat_name="orange-be">
+
+<!--
+   Region:Luxembourg
+-->
+<channel_ready_stat_map mccmnc="27099" oplus_region_ready_stat_name= "lu" oplus_carrier_ready_stat_name="orange-lu">
+
+<!--
+   Region:Moldova
+-->
+<channel_ready_stat_map mccmnc="25901" oplus_region_ready_stat_name= "md" oplus_carrier_ready_stat_name="orange-md">
+
+<!--
+   Region:Romania
+-->
+<channel_ready_stat_map mccmnc="22610" oplus_region_ready_stat_name= "ro" oplus_carrier_ready_stat_name="orange-ro">
+
+<!--
+   Region:Slovakia
+-->
+<channel_ready_stat_map mccmnc="23101" oplus_region_ready_stat_name= "sk" oplus_carrier_ready_stat_name="orange-sk">
+
+<!--
+   Region:Ireland
+-->
+<channel_ready_stat_map mccmnc="27202" oplus_region_ready_stat_name= "ie" oplus_carrier_ready_stat_name="three-ie">
+<channel_ready_stat_map mccmnc="27205" oplus_region_ready_stat_name= "ie" oplus_carrier_ready_stat_name="three-ie">
+
+<!--
+   Region:vodafone-cz
+-->
+<channel_ready_stat_map mccmnc="23003" oplus_region_ready_stat_name= "cz" oplus_carrier_ready_stat_name="vodafone-cz">
+<!--
+   Region:vodafone-cz
+-->
+<channel_ready_stat_map mccmnc="23099" oplus_region_ready_stat_name= "cz" oplus_carrier_ready_stat_name="vodafone-cz">
+<!--
+   Region:vodafone-de
+-->
+<channel_ready_stat_map mccmnc="26202" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="vodafone-de">
+<!--
+   Region:vodafone-de
+-->
+<channel_ready_stat_map mccmnc="26209" oplus_region_ready_stat_name= "de" oplus_carrier_ready_stat_name="vodafone-de">
+<!--
+   Region:vodafone-es
+-->
+<channel_ready_stat_map mccmnc="21401" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="vodafone-es">
+<channel_ready_stat_map mccmnc="21424" oplus_region_ready_stat_name= "es" oplus_carrier_ready_stat_name="vodafone-es">
+<!--
+   Region:vodafone-gr
+-->
+<channel_ready_stat_map mccmnc="20205" oplus_region_ready_stat_name= "gr" oplus_carrier_ready_stat_name="vodafone-gr">
+<!--
+   Region:vodafone-gb
+-->
+<channel_ready_stat_map mccmnc="23415" oplus_region_ready_stat_name= "gb" oplus_carrier_ready_stat_name="vodafone-gb">
+<!--
+   Region:vodafone-gb
+-->
+<channel_ready_stat_map mccmnc="23491" oplus_region_ready_stat_name= "gb" oplus_carrier_ready_stat_name="vodafone-gb">
+<!--
+   Region:vodafone-hu
+-->
+<channel_ready_stat_map mccmnc="21670" oplus_region_ready_stat_name= "hu" oplus_carrier_ready_stat_name="vodafone-hu">
+<!--
+   Region:vodafone-it
+-->
+<channel_ready_stat_map mccmnc="22210" oplus_region_ready_stat_name= "it" oplus_carrier_ready_stat_name="vodafone-it">
+<!--
+   Region:vodafone-ie
+-->
+<channel_ready_stat_map mccmnc="27201" oplus_region_ready_stat_name= "ie" oplus_carrier_ready_stat_name="vodafone-ie">
+<!--
+   Region:vodafone-nz
+-->
+<channel_ready_stat_map mccmnc="53001" oplus_region_ready_stat_name= "nz" oplus_carrier_ready_stat_name="vodafone-nz">
+<!--
+   Region:vodafone-pt
+-->
+<channel_ready_stat_map mccmnc="26801" oplus_region_ready_stat_name= "pt" oplus_carrier_ready_stat_name="vodafone-pt">
+<channel_ready_stat_map mccmnc="26891" oplus_region_ready_stat_name= "pt" oplus_carrier_ready_stat_name="vodafone-pt">
+<!--
+   Region:vodafone-ro
+-->
+<channel_ready_stat_map mccmnc="22601" oplus_region_ready_stat_name= "ro" oplus_carrier_ready_stat_name="vodafone-ro">
+<!--
+   Region:vodafone-nl
+-->
+<channel_ready_stat_map mccmnc="20404" oplus_region_ready_stat_name= "nl" oplus_carrier_ready_stat_name="vodafone-nl">
+<!--
+   Region:vodacom-za
+-->
+<channel_ready_stat_map mccmnc="65501" oplus_region_ready_stat_name= "za" oplus_carrier_ready_stat_name="vodacom-za">
+<!--
+   Region:Switzerland
+-->
+<channel_ready_stat_map mccmnc="22801" oplus_region_ready_stat_name= "ch" oplus_carrier_ready_stat_name="swisscom-ch">
+
+
+<!--
+   Region:UK
+-->
+<channel_ready_stat_map mccmnc="23594" oplus_region_ready_stat_name= "gb" oplus_carrier_ready_stat_name="3uk-gb">
+<channel_ready_stat_map mccmnc="23420" oplus_region_ready_stat_name= "gb" oplus_carrier_ready_stat_name="3uk-gb">
+<channel_ready_stat_map mccmnc="23410" oplus_region_ready_stat_name= "gb" oplus_carrier_ready_stat_name="o2-gb">
+
+
+<!--
+   Region:EST
+-->
+<channel_ready_stat_map mccmnc="24802" oplus_region_ready_stat_name= "est" oplus_carrier_ready_stat_name="elisa-est">
+<channel_ready_stat_map mccmnc="24803" oplus_region_ready_stat_name= "est" oplus_carrier_ready_stat_name="tele2-est">
+<channel_ready_stat_map mccmnc="24801" oplus_region_ready_stat_name= "est" oplus_carrier_ready_stat_name="telia-est">
+
+<!--
+   Region:FI
+-->
+<channel_ready_stat_map mccmnc="24405" oplus_region_ready_stat_name= "est" oplus_carrier_ready_stat_name="elisa-fi">
+<channel_ready_stat_map mccmnc="24421" oplus_region_ready_stat_name= "est" oplus_carrier_ready_stat_name="elisa-fi">
+<channel_ready_stat_map mccmnc="24491" oplus_region_ready_stat_name= "est" oplus_carrier_ready_stat_name="telia-fi">
+
+
+<!--
+   Region:PT
+-->
+<channel_ready_stat_map mccmnc="26806" oplus_region_ready_stat_name= "pt" oplus_carrier_ready_stat_name="meo-pt">
+<channel_ready_stat_map mccmnc="26803" oplus_region_ready_stat_name= "pt" oplus_carrier_ready_stat_name="nos-pt">
+<channel_ready_stat_map mccmnc="26899" oplus_region_ready_stat_name= "pt" oplus_carrier_ready_stat_name="nos-pt">
+
+
+
+
+<!--
+   Region:Denmark
+-->
+<channel_ready_stat_map mccmnc="23806" oplus_region_ready_stat_name= "dk" oplus_carrier_ready_stat_name="3-dk">
+<channel_ready_stat_map mccmnc="23802" oplus_region_ready_stat_name= "dk" oplus_carrier_ready_stat_name="telenor-dk">
+<channel_ready_stat_map mccmnc="23820" oplus_region_ready_stat_name= "dk" oplus_carrier_ready_stat_name="telia-dk">
+<channel_ready_stat_map mccmnc="23830" oplus_region_ready_stat_name= "dk" oplus_carrier_ready_stat_name="telia-dk">
+<channel_ready_stat_map mccmnc="23801" oplus_region_ready_stat_name= "dk" oplus_carrier_ready_stat_name="tdc-dk">
+<channel_ready_stat_map mccmnc="23810" oplus_region_ready_stat_name= "dk" oplus_carrier_ready_stat_name="tdc-dk">
+
+<!--
+   Region:vodafoneLab-pt vodafone-it
+-->
+<channel_ready_stat_map mccmnc="22206" oplus_region_ready_stat_name= "it" oplus_carrier_ready_stat_name="vodafone-it">
+<channel_ready_stat_map mccmnc="26889" oplus_region_ready_stat_name= "pt" oplus_carrier_ready_stat_name="vodafoneLab-pt">
+
+<!--
+   Region:Palestine
+-->
+<channel_ready_stat_map mccmnc="42505" oplus_region_ready_stat_name= "ps" oplus_carrier_ready_stat_name="jawwal-ps">
+<channel_ready_stat_map mccmnc="42506" oplus_region_ready_stat_name= "ps" oplus_carrier_ready_stat_name="jawwal-ps">
+
+<!--
+   Region:Lebanon
+-->
+<channel_ready_stat_map mccmnc="41501" oplus_region_ready_stat_name= "lb" oplus_carrier_ready_stat_name="alfa-lb">
+<channel_ready_stat_map mccmnc="41503" oplus_region_ready_stat_name= "lb" oplus_carrier_ready_stat_name="touch-lb">
+
+<!--
+   Region:Yemen
+-->
+<channel_ready_stat_map mccmnc="42102" oplus_region_ready_stat_name= "ye" oplus_carrier_ready_stat_name="mtn-ye">
+
+<!--
+   Region:Rakuten
+-->
+<channel_ready_stat_map mccmnc="44011" oplus_region_ready_stat_name= "jp" oplus_carrier_ready_stat_name="rakuten-jp">
+
+<channel_ready_stat_map mccmnc="44020" oplus_region_ready_stat_name= "jp" oplus_carrier_ready_stat_name="softbank-jp">
+
+
+
+
+<!--
+Region:Israel
+-->
+<channel_ready_stat_map mccmnc="42509" oplus_region_ready_stat_name= "il" oplus_carrier_ready_stat_name="we4g-il">
+
+
+<!--
+Region:Norway
+-->
+<channel_ready_stat_map mccmnc="24206" oplus_region_ready_stat_name= "no" oplus_carrier_ready_stat_name="ice-no">
+<channel_ready_stat_map mccmnc="24214" oplus_region_ready_stat_name= "no" oplus_carrier_ready_stat_name="ice-no">
+<channel_ready_stat_map mccmnc="24201" oplus_region_ready_stat_name= "no" oplus_carrier_ready_stat_name="telenor-no">
+<channel_ready_stat_map mccmnc="24202" oplus_region_ready_stat_name= "no" oplus_carrier_ready_stat_name="telia-no">
+<channel_ready_stat_map mccmnc="24205" oplus_region_ready_stat_name= "no" oplus_carrier_ready_stat_name="telia-no">
+
+<!--
+Region:Sweden
+-->
+<channel_ready_stat_map mccmnc="24002" oplus_region_ready_stat_name= "se" oplus_carrier_ready_stat_name="3-se">
+<channel_ready_stat_map mccmnc="24007" oplus_region_ready_stat_name= "se" oplus_carrier_ready_stat_name="tele2-se">
+<channel_ready_stat_map mccmnc="24008" oplus_region_ready_stat_name= "se" oplus_carrier_ready_stat_name="telenor-se">
+<channel_ready_stat_map mccmnc="24001" oplus_region_ready_stat_name= "se" oplus_carrier_ready_stat_name="telia-se">
+
+<!--
+Region:Latvia
+-->
+<channel_ready_stat_map mccmnc="24701" oplus_region_ready_stat_name= "lv" oplus_carrier_ready_stat_name="lmt-lv">
+
+<!--
+Region:Lithuania
+-->
+<channel_ready_stat_map mccmnc="24601" oplus_region_ready_stat_name= "lt" oplus_carrier_ready_stat_name="telia-lt">
+
+<!--
+Region:Ukraine
+-->
+<channel_ready_stat_map mccmnc="25501" oplus_region_ready_stat_name= "ua" oplus_carrier_ready_stat_name="vodafone-ua">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

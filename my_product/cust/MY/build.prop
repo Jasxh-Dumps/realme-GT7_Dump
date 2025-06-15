@@ -1,0 +1,4 @@
+setupwizard.feature.esim_enabled=false
+ro.oplus.audio.voip_record_white_app_support=true
+ro.oplus.audio.audiorecord_hook_support=true
+persist.sys.oplus.region=MY

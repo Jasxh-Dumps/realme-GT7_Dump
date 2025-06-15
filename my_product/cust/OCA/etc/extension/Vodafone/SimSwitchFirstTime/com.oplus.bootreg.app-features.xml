@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+    <app_feature name="com.heytap.pictorial.oversea_bootreg_strengthen_service_disable"/>
+	<app_feature name="com.oplus.bootreg.default_close_pictorial"/>
+</extend_features>

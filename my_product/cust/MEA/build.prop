@@ -1,0 +1,6 @@
+ro.oplus.radio.global_regionlockflag=7
+ro.oplus.radio.global_regionlock.cert=1661243252453,SG
+ro.oplus.radio.global_regionlock.log=true
+ro.oplus.radio.global_regionlock.info=ME
+ro.oplus.radio.global_regionlock.enabled=true
+setupwizard.feature.esim_enabled=false

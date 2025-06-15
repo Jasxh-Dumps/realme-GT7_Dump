@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<filter-conf>
+    <version>20250317</version>
+    <pkg pkgName="me.ele" />
+    <pkg pkgName="com.android.stk" />
+    <pkg pkgName="com.linkedin.android" />
+    <pkg pkgName="com.eg.android.AlipayGphone"/>
+    <pkg pkgName="com.wf.wellsfargomobile"/>
+</filter-conf>

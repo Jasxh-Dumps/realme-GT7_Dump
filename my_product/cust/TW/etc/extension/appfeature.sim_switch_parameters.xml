@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="oplus_sim_switch_parameter" args="StringList:carrier">
+        <StringList name="carrier" args="name=tw-twm|display_name=TWM|switch_model=only_first|slot_model=physial_slot"/>
+        <StringList name="carrier" args="name=tw-fet|display_name=FET|switch_model=only_first|slot_model=physial_slot"/>
+    </app_feature>
+</extend_features>

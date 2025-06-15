@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="1"/>
+	<int name="volte_status" value="1"/>
+	<int name="vowifi_status" value="0"/>
+	<int name="vowifi_visible" value="1"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<int name="vowifi_roaming_preferred_mode" value="2"/>
+</carrier_config>

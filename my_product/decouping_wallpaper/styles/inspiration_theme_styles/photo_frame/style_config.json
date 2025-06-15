@@ -1,0 +1,62 @@
+[
+  {
+    "themeName": "photo_frame",
+    "styleName": "square",
+    "rank": "0",
+    "depth": "photo_frame/square/photo_frame_depth_square.svg",
+    "sticky": "photo_frame/square/photo_frame_sticky_square.svg",
+    "shape": "photo_frame/square/photo_frame_shape_square.svg",
+    "shapeDark": "photo_frame/square/photo_frame_shape_dark_square.svg",
+    "width": "312",
+    "height": "416",
+    "marginTop": "248"
+  },
+  {
+    "themeName": "photo_frame",
+    "styleName": "diamond",
+    "rank": "1",
+    "depth": "photo_frame/diamond/photo_frame_depth_diamond.svg",
+    "sticky": "photo_frame/diamond/photo_frame_sticky_diamond.svg",
+    "shape": "photo_frame/diamond/photo_frame_shape_diamond.svg",
+    "shapeDark": "photo_frame/diamond/photo_frame_shape_dark_diamond.svg",
+    "width": "312",
+    "height": "416",
+    "marginTop": "248"
+  },
+  {
+    "themeName": "photo_frame",
+    "styleName": "circlesuperposition",
+    "rank": "2",
+    "depth": "photo_frame/circlesuperposition/photo_frame_depth_circlesuperposition.svg",
+    "sticky": "photo_frame/circlesuperposition/photo_frame_sticky_circlesuperposition.svg",
+    "shape": "photo_frame/circlesuperposition/photo_frame_shape_circlesuperposition.svg",
+    "shapeDark": "photo_frame/circlesuperposition/photo_frame_shape_dark_circlesuperposition.svg",
+    "width": "320",
+    "height": "454",
+    "marginTop": "235"
+  },
+  {
+    "themeName": "photo_frame",
+    "styleName": "leftsemicircle",
+    "rank": "3",
+    "depth": "photo_frame/leftsemicircle/photo_frame_depth_leftsemicircle.svg",
+    "sticky": "photo_frame/leftsemicircle/photo_frame_sticky_leftsemicircle.svg",
+    "shape": "photo_frame/leftsemicircle/photo_frame_shape_leftsemicircle.svg",
+    "shapeDark": "photo_frame/leftsemicircle/photo_frame_shape_dark_leftsemicircle.svg",
+    "width": "314",
+    "height": "454",
+    "marginTop": "235"
+  },
+  {
+    "themeName": "photo_frame",
+    "styleName": "special",
+    "rank": "4",
+    "depth": "photo_frame/special/photo_frame_depth_special.svg",
+    "sticky": "photo_frame/special/photo_frame_sticky_special.svg",
+    "shape": "photo_frame/special/photo_frame_shape_special.svg",
+    "shapeDark": "photo_frame/special/photo_frame_shape_dark_special.svg",
+    "width": "314",
+    "height": "454",
+    "marginTop": "235"
+  }
+]

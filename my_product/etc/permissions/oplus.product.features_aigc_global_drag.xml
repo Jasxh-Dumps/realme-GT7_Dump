@@ -1,0 +1,6 @@
+<oplus-config>
+    <!-- global drag feature start -->
+	<oplus-feature name="oplus.software.smart_loop_drag"/>
+    <!-- end -->
+</oplus-config>
+	

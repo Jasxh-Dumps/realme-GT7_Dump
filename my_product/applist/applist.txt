@@ -1,0 +1,13 @@
+com.oplus.consumerIRApp:ConsumerIRApp.apk::false
+com.oplus.camera:OplusCamera.apk::false
+com.oplus.ai.magicstudio:AIMagicStudio.apk::false
+com.aiunit.aon:AONService.apk::false
+com.oplus.heartrate.detect:HeartRateDetect.apk::false
+com.coloros.systemclone:SystemClone.apk::false
+com.oplus.audio.effectcenter:AudioEffectCenter.apk::false
+com.realme.colorx:Colorx.apk::false
+com.realme.smartdrive:SmartDrive.apk::false
+com.oplus.audiomonitor:OplusAudioMonitor.apk::false
+com.oplus.gtmode:GTMode.apk::false
+com.oplus.aiplaymate:AIPlaymate.apk::false
+com.oplus.calendar:Calendar.apk::false

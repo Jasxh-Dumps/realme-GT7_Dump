@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<string name="gps.supl_host">location2.kddi.ne.jp</string>
+	<string name="gps.supl_ver">0x20000</string>
+	<string name="gps.es_extension_sec">120</string>
+	<string name="gps.lpp_profile">3</string>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+	<int name="volte_visible" value="0"/>
+	<int name="vowifi_status" value="0"/>
+	<int name="vowifi_visible" value="1"/>
+</carrier_config>
+<!-- Timestamp 2023-08-09T11:15:40 #36555 -->

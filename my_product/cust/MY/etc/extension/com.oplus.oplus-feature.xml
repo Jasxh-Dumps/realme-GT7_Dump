@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<unavailable-oplus-feature name="oplus.software.radio.esim_support"/>
+</oplus-config>
+<!-- Timestamp 2025-02-14T19:48:18 #536695 -->

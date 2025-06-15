@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="0"/>
+	<int name="vowifi_status" value="0"/>
+	<boolean name="carrier_allow_transfer_ims_call_bool" value="true"/>
+	<int name="vowifi_preferred_mode" value="2"/>
+	<boolean name="config_oplus_hide_2g_only" value="true"/>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+	<boolean name="config_oplus_show_3g_only" value="false"/>
+	<int name="smart5g_status" value="0"/>
+	<int name="smart5g_visible" value="0"/>
+	<boolean name="carrier_allow_transfer_cs_call_bool" value="true"/>
+</carrier_config>

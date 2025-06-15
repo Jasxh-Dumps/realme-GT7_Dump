@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="config_oplus_hide_2g_only" value="true"/>
+</carrier_config>

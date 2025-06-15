@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="smart5g_visible" value="0"/>
+	<int name="vowifi_preferred_mode" value="2"/>
+	<int name="vowifi_roaming_preferred_mode" value="2"/>
+</carrier_config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<celluerNetworkConfig>
+    <version>2024101210</version>
+    <CHECK_NETWORK_SERVER_01>https://connectivitycheck.gstatic.com/generate_204</CHECK_NETWORK_SERVER_01>
+    <CHECK_NETWORK_SERVER_02>http://play.googleapis.com/generate_204</CHECK_NETWORK_SERVER_02>
+    <CHECK_NETWORK_SERVER_03>http://www.google.com/generate_204</CHECK_NETWORK_SERVER_03>
+    <CHECK_NETWORK_SERVER_04>http://developers.google.com/generate_204</CHECK_NETWORK_SERVER_04>
+    <CHECK_NETWORK_SERVER_05>https://connectivitycheck.gstatic.com/generate_204</CHECK_NETWORK_SERVER_05>
+    <CHECK_NETWORK_SERVER_06>http://play.googleapis.com/generate_204</CHECK_NETWORK_SERVER_06>
+    <CHECK_NETWORK_SERVER_07>http://www.google.com/generate_204</CHECK_NETWORK_SERVER_07>
+    <CHECK_NETWORK_SERVER_08>http://developers.google.com/generate_204</CHECK_NETWORK_SERVER_08>
+    <SIGNALMAP_SAAS_URL_CONFIG>https://andesbrain-ai-in.heytapmobi.com/andesbrain/model/fetch</SIGNALMAP_SAAS_URL_CONFIG>
+</celluerNetworkConfig>

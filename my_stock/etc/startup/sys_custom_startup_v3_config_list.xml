@@ -1,0 +1,1634 @@
+<filter-conf>
+    <version>2024030801</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_custom_startup_v3_config_list</filter-name>
+
+    <startup all = "11" type = "2" pkgName = "com.coloros.apprecover"/>
+    <startup all = "11" type = "1" pkgName = "com.coloros.apprecover"/>
+    <startup all = "1" type = "1" pkgName = "com.coloros.backuprestore"/>
+    <startup all = "1" type = "2" pkgName = "com.coloros.backuprestore"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.digitalwellbeing"/>
+    <startup all = "11" type = "1" pkgName = "com.coloros.digitalwellbeing"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.favorite"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.flashnote"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.gamedock"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.gamespaceui"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.lives"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.note"/>
+    <startup all = "11" type = "1" pkgName = "com.coloros.note"/>
+    <startup all = "1" type = "1" pkgName = "com.coloros.safe.service.framework"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.securityguard"/>
+    <startup all = "11" type = "1" pkgName = "com.coloros.securityguard"/>
+    <startup all = "11" type = "2" pkgName = "com.coloros.soundrecorder"/>
+    <startup all = "11" type = "2" pkgName = "com.oplus.aod"/>
+    <startup all = "11" type = "2" pkgName = "com.oplus.apprecover"/>
+    <startup all = "11" type = "1" pkgName = "com.oplus.apprecover"/>
+    <startup all = "1" type = "2" pkgName = "com.oplus.discolorshell"/>
+    <startup all = "11" type = "2" pkgName = "com.oplus.games"/>
+    <startup all = "1" type = "1" pkgName = "com.oplus.oscenter"/>
+    <startup all = "11" type = "1" pkgName = "com.coloros.calendar"/>
+    <startup all = "1" type = "1" pkgName = "com.realme.linkcn"/>
+    <startup all = "1" type = "2" pkgName = "com.realme.linkcn"/>
+    <startup all="1"  type="1" pkgName = "cn.xuexi.android"/>
+    <startup all="1"  type="1" pkgName = "com.aimi.knock"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.apprecover"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.apprecover"/>
+    <startup all="1"  type="1" pkgName = "com.coloros.backuprestore"/>
+    <startup all="1"  type="2" pkgName = "com.coloros.backuprestore"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.colorfilestand"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.digitalwellbeing"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.digitalwellbeing"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.familyguard"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.favorite"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.flashnote"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.gamedock"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.gamespaceui"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.lives"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.note"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.note"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.oppopods"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.oppopods"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.personalassistant"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.personalassistant"/>
+    <startup all="1"  type="1" pkgName = "com.coloros.safe.service.framework"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.screenrecorder"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.securityguard"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.securityguard"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.shortcuts"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.soundrecorder"/>
+    <startup all="11"  type="2" pkgName = "com.oplus.aod"/>
+    <startup all="11"  type="2" pkgName = "com.oplus.apprecover"/>
+    <startup all="11"  type="1" pkgName = "com.oplus.apprecover"/>
+    <startup all="1"  type="2" pkgName = "com.oplus.discolorshell"/>
+    <startup all="11"  type="2" pkgName = "com.oplus.games"/>
+    <startup all="1"  type="1" pkgName = "com.oplus.oscenter"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.videoeditor"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.wallet"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.wallet"/>
+    <startup all="11"  type="2" pkgName = "com.coloros.yoli"/>
+    <startup all="1"  type="1" pkgName = "com.discord"/>
+    <startup all="1"  type="1" pkgName = "com.facebook.katana"/>
+    <startup all="1"  type="2" pkgName = "com.facebook.katana"/>
+    <startup all="1"  type="1" pkgName = "com.facebook.lite"/>
+    <startup all="1"  type="1" pkgName = "com.facebook.mlite"/>
+    <startup all="1"  type="1" pkgName = "com.facebook.orca"/>
+    <startup all="1"  type="1" pkgName = "com.finshell.wallet"/>
+    <startup all="1"  type="1" pkgName = "com.google.android.marvin.talkback"/>
+    <startup all="1"  type="2" pkgName = "com.google.android.marvin.talkback"/>
+    <startup all="1"  type="1" pkgName = "com.google.android.talk"/>
+    <startup all="1"  type="1" pkgName = "com.google.android.voicesearch"/>
+    <startup all="11"  type="2" pkgName = "com.heytap.book"/>
+    <startup all="11"  type="2" pkgName = "com.heytap.gamecenter"/>
+    <startup all="11"  type="1" pkgName = "com.heytap.gamecenter"/>
+    <startup all="11"  type="2" pkgName = "com.heytap.health"/>
+    <startup all="11"  type="1" pkgName = "com.heytap.health"/>
+    <startup all="11"  type="2" pkgName = "com.heytap.opluscarlink"/>
+    <startup all="1"  type="1" pkgName = "com.heytap.wearable.retaildemo.phone"/>
+    <startup all="11"  type="2" pkgName = "com.heytap.xgame"/>
+    <startup all="1"  type="1" pkgName = "com.imo.android.imoim"/>
+    <startup all="1"  type="1" pkgName = "com.imo.android.imoimbeta"/>
+    <startup all="1"  type="1" pkgName = "com.imo.android.imoimlite"/>
+    <startup all="1"  type="1" pkgName = "com.instagram.android"/>
+    <startup all="1"  type="1" pkgName = "com.kakao.talk"/>
+    <startup all="1"  type="1" pkgName = "com.linkedin.android"/>
+    <startup all="1"  type="1" pkgName = "com.michatapp.im"/>
+    <startup all="11"  type="1" pkgName = "com.nearme.gamecenter"/>
+    <startup all="11"  type="2" pkgName = "com.nearme.note"/>
+    <startup all="11"  type="1" pkgName = "com.nearme.note"/>
+    <startup all="11"  type="2" pkgName = "com.nearme.play"/>
+    <startup all="1"  type="1" pkgName = "com.netease.mobimail"/>
+    <startup all="11"  type="1" pkgName = "com.oneplus.brickmode"/>
+    <startup all="11"  type="2" pkgName = "com.oneplus.market"/>
+    <startup all="11"  type="2" pkgName = "com.oneplus.screenrecord"/>
+    <startup all="11"  type="2" pkgName = "com.oneplus.soundrecorder"/>
+    <startup all="11"  type="2" pkgName = "com.oneplus.twspods"/>
+    <startup all="11"  type="1" pkgName = "com.oneplus.twspods"/>
+    <startup all="1"  type="1" pkgName = "com.oplus.earbuds.retaildemo"/>
+    <startup all="11"  type="2" pkgName = "com.oplus.melody"/>
+    <startup all="11"  type="1" pkgName = "com.oplus.melody"/>
+    <startup all="11"  type="2" pkgName = "com.oppo.book"/>
+    <startup all="11"  type="2" pkgName = "com.oppo.community"/>
+    <startup all="11"  type="2" pkgName = "com.oppo.im"/>
+    <startup all="11"  type="2" pkgName = "com.oppo.news"/>
+    <startup all="11"  type="2" pkgName = "com.oppo.reader"/>
+    <startup all="11"  type="2" pkgName = "com.oppo.store"/>
+    <startup all="1"  type="1" pkgName = "com.perm.kate_new_6"/>
+    <startup all="1"  type="1" pkgName = "com.pinterest"/>
+    <startup all="11"  type="2" pkgName = "com.redteamobile.oppo.roaming"/>
+    <startup all="11"  type="1" pkgName = "com.redteamobile.oppo.roaming"/>
+    <startup all="11"  type="2" pkgName = "com.redteamobile.roaming"/>
+    <startup all="11"  type="1" pkgName = "com.redteamobile.roaming"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.mvagent"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.mvagent1"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.rs.activity.oneplus"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.rs.activity.oppo"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.rs.activity.oppoglobal"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.rs.activity.rsupport"/>
+    <startup all="1"  type="1" pkgName = "com.rsupport.rsperm.ao.a1th"/>
+    <startup all="1"  type="1" pkgName = "com.samsung.android.geargplugin"/>
+    <startup all="1"  type="1" pkgName = "com.skype.raider"/>
+    <startup all="1"  type="1" pkgName = "com.snapchat.android"/>
+    <startup all="1"  type="1" pkgName = "com.sonyericsson.extras.smartwirelessheadsetpro"/>
+    <startup all="11"  type="2" pkgName = "com.standardar.service"/>
+    <startup all="1"  type="1" pkgName = "com.tencent.mm"/>
+    <startup all="1"  type="2" pkgName = "com.tencent.mm"/>
+    <startup all="1"  type="1" pkgName = "com.tencent.mobileqq"/>
+    <startup all="1"  type="2" pkgName = "com.tencent.mobileqq"/>
+    <startup all="1"  type="1" pkgName = "com.tencent.tim"/>
+    <startup all="1"  type="2" pkgName = "com.tencent.tim"/>
+    <startup all="1"  type="1" pkgName = "com.toprand.n5"/>
+    <startup all="1"  type="1" pkgName = "com.tumblr"/>
+    <startup all="1"  type="1" pkgName = "com.turkcell.bip"/>
+    <startup all="1"  type="1" pkgName = "com.viber.voip"/>
+    <startup all="1"  type="1" pkgName = "com.vkontakte.android"/>
+    <startup all="1"  type="1" pkgName = "com.whatsapp"/>
+    <startup all="1"  type="1" pkgName = "com.whatsapp.w4b"/>
+    <startup all="1"  type="1" pkgName = "com.xtc.watch"/>
+    <startup all="1"  type="2" pkgName = "com.xtc.watch"/>
+    <startup all="1"  type="1" pkgName = "com.xunmeng.im"/>
+    <startup all="1"  type="1" pkgName = "com.xunmeng.pinduoduo"/>
+    <startup all="1"  type="2" pkgName = "com.xunmeng.pinduoduo"/>
+    <startup all="1"  type="1" pkgName = "com.zing.zalo"/>
+    <startup all="1"  type="1" pkgName = "im.thebot.messenger"/>
+    <startup all="1"  type="1" pkgName = "jp.naver.line.android"/>
+    <startup all="1"  type="1" pkgName = "kik.android"/>
+    <startup all="1"  type="1" pkgName = "mobi.skred.app"/>
+    <startup all="1"  type="1" pkgName = "org.telegram.messenger"/>
+    <startup all="1"  type="1" pkgName = "org.thunderdog.challegram"/>
+    <startup all="1"  type="1" pkgName = "rsupport.AndroidViewer"/>
+    <startup all="1"  type="1" pkgName = "ru.ok.android"/>
+    <startup all="11"  type="1" pkgName = "com.coloros.calendar"/>
+    <startup all="1"  type="1" pkgName = "com.color.otaassistant"/>
+    <startup all="1"  type="1" pkgName = "com.oplus.game.empowerment.folder"/>
+    <startup all="1"  type="1" pkgName = "com.realme.linkcn"/>
+    <startup all="1"  type="2" pkgName = "com.realme.linkcn"/>
+    <startup all="1"  type="1" pkgName = "com.azure.authenticator"></startup>
+    <startup all="1"  type="2" pkgName = "com.azure.authenticator"></startup>
+    <startup all="1"  type="1" pkgName = "com.microsoft.windowsintune.companyportal"></startup>
+    <startup all="1"  type="2" pkgName = "com.microsoft.windowsintune.companyportal"></startup>
+    <startup all="1"  type="1" pkgName = "com.microsoft.teams"></startup>
+    <startup all="1"  type="2" pkgName = "com.microsoft.teams"></startup>
+
+    <!-- Activity caller 1-->
+    <!-- activityAssociateBlack -->
+    <startup type = "3"  mask = "1" pkgName = "com.oppo.im" flag = "1">
+        <item mask = "1" associatePkg = "com.tencent.karaoke" flag = "1"/>
+        <item mask = "1" associatePkg = "com.netease.newsreader.activity" flag = "1"/>
+    </startup>
+    <startup type = "3"  mask = "1" pkgName = "com.diyidan" flag = "1">
+        <item mask = "1" associatePkg = "com.tencent.karaoke" flag = "1"/>
+        <item mask = "1" associatePkg = "com.netease.newsreader.activity" flag = "1"/>
+    </startup>
+
+    <!-- bakcground activity 2-->
+    <!-- activityCallerPkgWhite -->
+    <startup type = "3"  mask = "130" pkgName = "com.heytap.opluscarlink">
+        <item mask = "128" subMask = "1" action = "oppo.intent.action.opluscarlink.INIT_OPLUS_SDK"/>
+    </startup>
+    <!-- activityAssociateWhite -->
+    <startup type = "3"  mask = "2" pkgName = "com.oplus.ovoicemanager.wakeup">
+        <item mask = "2" associatePkg = "com.heytap.speechassist"/>
+        <item mask = "2" associatePkg = "com.oplus.ai.assistant"/>
+    </startup>
+
+    <startup all = "11" type = "2"  mask = "18" pkgName = "com.coloros.alarmclock">
+        <item mask = "2" associatePkg = "com.coloros.alarmclock"/> <!--2022.03.29 -->
+    </startup>
+
+    <startup type = "3"  mask = "2" pkgName = "com.comprion.android.GSMA_AC_Mobile_App_SP1_signed">
+        <item mask = "2" associatePkg = "com.comprion.android.GSMA_AC_Mobile_App_SP1_signed"/>
+    </startup>
+    <startup type = "3"  mask = "2" pkgName = "com.daemon.shelper">
+        <item mask = "2" associatePkg = "com.daemon.shelper"/>
+    </startup>
+    <startup type = "3"  mask = "14" pkgName = "com.oplus.ocar">
+        <item mask = "2" associatePkg = "com.oplus.ocar"/>
+        <item mask = "4" associatePkg = "com.baidu.carlife.oppo" comp = "com.baidu.carlife.service.CarlifeConnectService"/>
+        <item mask = "8" action = "android.media.browse.MediaBrowserService"/>
+    </startup>
+    <startup all = "11" type = "2"  mask = "18" pkgName = "com.coloros.alarmclock">
+        <item mask = "2" associatePkg = "com.coloros.alarmclock"/> <!--2022.03.29 -->
+    </startup>
+    <startup all = "11" type = "2"  mask = "18" pkgName = "com.heytap.smarthome">
+        <item mask = "2" associatePkg = "com.heytap.smarthome"/> <!--2022.04.11 -->
+    </startup>
+    <startup all = "11" type = "2"  mask = "2" pkgName = "com.oppo.ohome">
+        <item mask = "2" associatePkg = "com.oppo.ohome"/> <!--2022.04.11 -->
+    </startup>
+    <!-- startService caller 4-->
+    <startup type = "3"  mask = "68" pkgName = "com.coloros.weather.service">
+        <item mask = "4" associatePkg = "com.coloros.weather2" comp = "com.oplus.weather.service.WarnService"/> <!--2022.04.11 -->
+        <item mask = "64" associatePkg = "com.coloros.weather2" comp = "com.oplus.weather.service.provider.WeatherProvider" />
+    </startup>
+    <!-- serviceCallerPkgAction -->
+    <startup type = "3"  mask = "8" pkgName = "com.coloros.backuprestore">
+        <item mask = "8" action = "com.coloros.br.service"/>
+        <item mask = "8" action = "com.heytap.br.service"/>
+        <item mask = "8" action = "com.oplus.br.service"/>
+    </startup>
+    <startup type = "3"  mask = "8" pkgName = "com.heytap.smarthome">
+        <item mask = "8" associatePkg = "com.oplus.matter" comp = "com.oplus.matter.DeviceManagerService"/>
+    </startup>
+    <!-- bindService called 8-->
+    <!-- notifyWhitePkg -->
+    <startup type = "2"  mask = "8" pkgName = "com.garmin.android.apps.connectmobile">
+        <item mask = "8"  subMask = "4"/>
+    </startup>
+    <!-- gcmBindServiceBlackPkg -->
+    <startup type = "2"  mask = "8" pkgName = "com.meteorandroid.server.ctsclean" flag = "1" priority = "800">
+        <item mask = "8"  subMask = "8" flag = "1" priority = "800"/>
+    </startup>
+    <startup type = "2"  mask = "8" pkgName = "com.connectandroid.server.ctseasy" flag = "1" priority = "800">
+        <item mask = "8"  subMask = "8" flag = "1" priority = "800"/>
+    </startup>
+    <startup type = "2"  mask = "8" pkgName = "cn.swifthawk.picku.free" flag = "1" priority = "800">
+        <item mask = "8"  subMask = "8" flag = "1" priority = "800"/>
+    </startup>
+    <startup type = "2"  mask = "8" pkgName = "com.linkandroid.server.ctsmate" flag = "1" priority = "800">
+        <item mask = "8"  subMask = "8" flag = "1" priority = "800"/>
+    </startup>
+    <startup type = "2"  mask = "8" pkgName = "com.cleandroid.server.ctsthor" flag = "1" priority = "800">
+        <item mask = "8"  subMask = "8" flag = "1" priority = "800"/>
+    </startup>
+    <startup type = "2"  mask = "8" pkgName = "com.netandroid.server.ctselves" flag = "1" priority = "800">
+        <item mask = "8"  subMask = "8" flag = "1" priority = "800"/>
+    </startup>
+    <!-- startService caller 4-->
+    <startup type = "3"  mask = "68" pkgName = "com.coloros.weather.service">
+        <item mask = "4" associatePkg = "com.coloros.weather2" comp = "com.oplus.weather.service.WarnService"/> <!--2022.04.11 -->
+        <item mask = "64" associatePkg = "com.coloros.weather2" comp = "com.oplus.weather.service.provider.WeatherProvider" />
+    </startup>
+    <!-- serviceCallerPkgAction -->
+    <startup type = "3"  mask = "8" pkgName = "com.coloros.backuprestore">
+        <item mask = "8" action = "com.coloros.br.service"/>
+        <item mask = "8" action = "com.heytap.br.service"/>
+        <item mask = "8" action = "com.oplus.br.service"/>
+    </startup>
+    <startup type = "3"  mask = "2" pkgName = "com.finshell.wallet">
+        <item mask = "2" associatePkg = "com.finshell.wallet"/>
+    </startup>
+    <startup all = "1" type = "2"  mask = "16" pkgName = "com.oplus.oscenter"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oppo.sos"></startup>
+    <startup all = "11" type = "2"  mask = "18" pkgName = "com.coloros.calendar">
+        <item mask = "2" associatePkg = "com.coloros.calendar"/> <!-- 2022.03.07 -->
+    </startup>
+    <startup type = "2"  mask = "16" pkgName = "com.coloros.smartlock"></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.lfeh" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.logkit" priority = "300" ></startup>
+
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.sauhelper" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.engineermode" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.engineernetwork" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oppo.daydreamvideo" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.postmanservice" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.engineercamera" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.healthservice" priority = "300" ></startup>
+    <startup type = "3"  mask = "8" pkgName = "com.oplus.exsystemservice"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.blacklistapp"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.blacklistapp"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.phonenoareainquire"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.phonenoareainquire"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.statistics.rom"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.statistics.rom"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.romupdate"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.romupdate"/>
+    <startup all = "1" type = "2"  mask = "16" pkgName = "com.eg.android.AlipayGphone"></startup>
+    <startup type = "3" mask = "64" pkgName = "com.android.settings"/>
+    <startup all = "1" type = "2"  mask = "16" pkgName = "com.oplus.cupid"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.android.traceur"></startup>
+    <startup all = "11" type = "2"  mask = "16" pkgName = "com.heytap.yoli"></startup>
+    <startup type = "1" mask = "716" pkgName = "com.coloros.regservice" />
+    <startup type = "2" mask = "716" pkgName = "com.coloros.regservice" />
+    <startup all = "1" type = "2"  mask = "16" pkgName = "com.oplus.oscenter"></startup>
+    <!--<startup type = "2"  mask = "16" pkgName = "com.oplus.ipemanager"></startup>-->
+    <startup all = "1" type = "2"  mask = "16" pkgName = "com.oplus.ipspace"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oplus.studycenter"></startup>
+    <startup all = "11" type = "2"  mask = "16" pkgName = "com.nearme.gamecenter"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oplus.themestore"></startup>
+    <startup all = "1" type = "2"  mask = "16" pkgName = "com.finshell.wallet"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.android.mms"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oppo.sos"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.android.contacts"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.android.providers.telephony"></startup>
+    <startup all = "11" type = "2"  mask = "18" pkgName = "com.coloros.calendar">
+        <item mask = "2" associatePkg = "com.coloros.calendar"/> <!-- 2022.03.07 -->
+    </startup>
+    <startup type = "2"  mask = "16" pkgName = "com.android.providers.calendar"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.coloros.smartlock"></startup>
+    <startup type = "2"  mask = "18" pkgName = "com.oplus.ai.assistant.extend">
+        <item mask = "2" associatePkg = "com.oplus.ai.assistant.extend"/> <!-- 2022.03.07 -->
+    </startup>
+    <startup type = "1" mask = "716" pkgName = "com.coloros.ocs.opencapabilityservice" />
+    <startup type = "2" mask = "716" pkgName = "com.coloros.ocs.opencapabilityservice" />
+    <!-- from crm 0831 -->
+    <startup type = "2"  mask = "16" pkgName = "com.teamtalk.ims"></startup>
+    <startup all = "11" type = "2" mask = "16" pkgName = "com.teamtalk.im"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.ocrm.im"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.ocrm.im.test"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oplus.owork"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oplus.member"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.heytap.member"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.oneplus.member"></startup>
+    <startup type = "2"  mask = "16" pkgName = "com.autotest.coveragegenerator" />
+    <startup type = "2"  mask = "16" pkgName = "com.microsoft.appmanager"></startup>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.ocs" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.ocs" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.gtmode" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.gtmode" />
+    <!-- self app config for mask -->
+
+    <startup type = "1" mask = "136" pkgName = "com.oplus.cosa">
+        <item mask = "8"  subMask = "1" />
+        <item mask = "128" action = "android.intent.action.BOOT_COMPLETED"/>
+    </startup>
+
+    <startup type = "2" mask = "28" pkgName = "com.oplus.cosa">
+        <item mask = "4"  associatePkg = "android" comp = "com.oplus.cosa.service.GameEventService"/>
+        <item mask = "4"  associatePkg = "android" comp = "com.oplus.cosa.service.GameDaemonService"/>
+        <item mask = "4"  comp = "com.oplus.cosa.service.COSAService"/>
+    </startup>
+    <!-- restartService	32-->
+    <!-- restartServiceWhite -->
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.cast" priority = "300" ></startup>
+    <startup type = "1"  mask = "36" pkgName = "com.heytap.themestore" ><!-- 2023.03.21-->
+        <item mask = "32" priority = "300" />
+        <item mask = "4" subMask = "1" comp = "com.nearme.themespace.polling.PollingService"/>
+    </startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.lfeh" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.logkit" priority = "300" ></startup>
+    <startup all = "11" type = "1"  mask = "32" pkgName = "com.coloros.alarmclock" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.sauhelper" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.tencent.soter.soterserver" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.engineermode" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.engineernetwork" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oppo.daydreamvideo" priority = "300" ></startup>
+    <startup all = "1" type = "1"  mask = "32" pkgName = "com.market.heydemo" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.postmanservice" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.engineercamera" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oplus.healthservice" priority = "300" ></startup>
+    <startup type = "1"  mask = "32" pkgName = "com.oppo.camera" priority = "300" ></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.ademo.one.oppo"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.ademo.two.oppo"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.rdemo.one.oppo"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.rdemo.two.oppo"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.teamtalk.im"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.coloros.calculator"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.coloros.videoeditor"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.ct2018"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.heytap.uwbconnect"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.coloros.soundrecorder"></startup>
+    <startup type = "1"  mask = "256" pkgName = "com.ss.android.auto">
+        <item mask = "256" action = "android.intent.action.USER_PRESENT"/>
+        <item mask = "256" action = "android.intent.action.SCREEN_ON"/>
+        <item mask = "256" action = "android.intent.action.SCREEN_OFF"/>
+    </startup>
+    <!-- provider 64-->
+    <!-- providerCallerPkg -->
+    <startup type = "3"  mask = "64" pkgName = "com.android.settings.intelligence"></startup>
+    <!-- providerCalleePkg -->
+    <startup type = "2"  mask = "64" pkgName = "com.coloros.shortcuts">
+        <item mask = "64" associatePkg = "com.android.launcher" comp = "com.coloros.shortcuts.basecard.provider.FunctionSpecProvider" />
+        <item mask = "64" associatePkg = "com.oppo.launcher" comp = "com.coloros.shortcuts.basecard.provider.FunctionSpecProvider" />
+        <item mask = "64" associatePkg = "com.coloros.assistantscreen" comp = "com.coloros.shortcuts.basecard.provider.FunctionSpecProvider" />
+    </startup>
+    <!-- broadcast 128-->
+    <!-- broadcastPkg -->
+    <startup type = "2"  mask = "128" pkgName = "com.idothing.zz">
+        <item mask = "128" submask = "1"/>
+    </startup>
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.stdsp" >
+        <item mask = "8"    subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "216" pkgName = "com.oplus.stdsp" >
+        <item mask = "128"    action = "oppo.intent.action.usercenter.ACCOUNT_LOGOUT"/>
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.eyeprotect">
+        <item mask = "128" comp = "com.oplus.eyeprotect.receiver.TimeChangeReceiver"/>
+        <item mask = "128" comp = "com.oplus.eyeprotect.receiver.EyeAlarmReceiver"/>
+    </startup>
+    <startup type = "2" mask = "64" pkgName = "com.oplus.eyeprotect">
+        <item mask = "64"   comp = "com.oplus.eyeprotect.provider.EyeprotectProvider"/>
+    </startup>
+
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.dmp">
+        <item mask = "8"  subMask = "1"/>
+    </startup>
+    <startup type = "2" mask = "64" pkgName = "com.oplus.dmp" />
+
+
+    <startup type = "2" mask = "64" pkgName = "com.oplus.wallpapers">
+        <item mask = "64"  associatePkg = "com.heytap.themestore"/>
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.eid">
+        <item mask = "8"  associatePkg = "com.finshell.wallet" />
+    </startup>
+
+
+    <startup type = "2" mask = "136" pkgName = "com.oplus.encryption">
+        <item mask = "8"  associatePkg = "com.heytap.cloud" comp = "com.oplus.encryption.cloud.service.PrivateSyncAgentService"/>
+        <item mask = "8"  associatePkg = "com.coloros.filemanager" comp = "com.oplus.encryption.service.EncryptionService"/>
+        <item mask = "8"  associatePkg = "com.coloros.gallery3d" comp = "com.oplus.encryption.service.EncryptionService"/>
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+    </startup>
+
+
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.screenrecorder">
+        <item mask = "8"   subMask = "1"/>
+    </startup>
+
+
+    <startup type = "1" mask = "136" pkgName = "com.oplus.sos">
+        <item mask = "8"  subMask = "1"/>
+        <item mask = "128"  action = "oplus.intent.action.BOOT_COMPLETED"/>
+    </startup>
+
+    <startup type = "2" mask = "144" pkgName = "com.oplus.sos">
+        <item mask = "128"  action = "oplus.action.phone.EMERGERCY_DIALING"/>
+    </startup>
+
+
+
+    <startup type = "2" mask = "8" pkgName = "com.coloros.filemanager">
+        <item mask = "8"  associatePkg = "com.oplus.owork" />
+    </startup>
+
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.scenemode">
+        <item mask = "128"  action = "oplus.intent.action.SCENE_MODE_CHANGED" />
+    </startup>
+
+    <startup type = "2" mask = "192" pkgName = "com.coloros.scenemode">
+        <item mask = "64"  associatePkg = "com.android.launcher" />
+    </startup>
+
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.floatassistant">
+        <item mask = "128" action = "android.intent.action.ACTION_SHUTDOWN" />
+    </startup>
+
+    <startup type = "2" mask = "24" pkgName = "com.coloros.floatassistant">
+        <item mask = "8"  comp = "com.coloros.airview.service.AirViewService" />
+    </startup>
+
+
+    <startup type = "2" mask = "12" pkgName = "com.coloros.ocrscanner">
+        <item mask = "4"  associatePkg = "com.coloros.smartsidebar" comp = "com.coloros.ocrscanner.translator.screen.ScreenTranslationService" />
+        <item mask = "8"  associatePkg = "com.coloros.directui" comp = "com.coloros.ocrscanner.repository.barcode.RemoteBarCodeService" />
+        <item mask = "8"  associatePkg = "com.finshell.wallet" comp = "com.oplus.scanengine.server.CodeScanService" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.smartlock" />
+
+    <startup type = "2" mask = "64" pkgName = "com.coloros.smartsidebar">
+        <item mask = "64" comp = "com.oplus.filebag.provider.FileBagProvider" />
+    </startup>
+
+
+    <startup type = "1" mask = "136" pkgName = "com.coloros.gallery3d">
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "216" pkgName = "com.coloros.gallery3d">
+        <item mask = "128"  associatePkg = "com.oplus.camera" />
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+        <item mask = "8"  associatePkg = "com.oplus.camera" />
+        <item mask = "64"  comp = "com.oplus.gallery.openabilitypage.SmartOpenProvider" />
+        <item mask = "64"  comp = "com.oplus.gallery.openabilitypage.GalleryOpenProvider" />
+        <item mask = "64"  comp = "com.oplus.gallery.foundation.util.multiprocess.MultiProcessSpProvider" />
+    </startup>
+
+
+    <!--<startup type = "2" mask = "192" pkgName = "com.coloros.securityguard">
+        <item mask = "64"  comp = "com.coloros.securityguard.data.SecurityEventProvider" />
+        <item mask = "128"  comp = "com.coloros.securityguard.communication.SecurityBroadcastReciever" />
+    </startup> -->
+
+    <startup type = "1" mask = "224" pkgName = "com.coloros.sceneservice">
+        <item mask = "128"  action = "android.intent.action.MY_PACKAGE_REPLACED" />
+        <item mask = "128"  action = "android.intent.action.MY_PACKAGE_SUSPENDED" />
+        <item mask = "128"  action = "android.intent.action.BOOT_COMPLETED" />
+        <item mask = "128"  action = "android.intent.action.PACKAGE_DATA_CLEARED" />
+        <item mask = "32" priority = "300"/>
+    </startup>
+
+    <startup type = "2" mask = "208" pkgName = "com.coloros.sceneservice">
+        <item mask = "128"  action = "oppo.intent.action.OPPO_DCS_PERIOD_UPLOAD" />
+        <item mask = "128"  action = "com.coloros.bootreg" />
+        <item mask = "128"  action = "com.oplus.metis.MetisService.SceneNotify" />
+    </startup>
+
+
+
+
+    <startup type = "1" mask = "140" pkgName = "com.heytap.cloud" >
+        <item mask = "4"  subMask = "1" comp = "com.cloud.base.commonsdk.syncmanager.alarm.AlarmService" />
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "220" pkgName = "com.heytap.cloud" >
+        <item mask = "128"  comp = "com.heytap.cloud.receiver.CloudNormalReceiver" />
+        <item mask = "128"  associatePkg = "com.oplus.encryption" /><!--only keep encryption for cloud sync -->
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+        <item mask = "8"  associatePkg = "com.oplus.encryption" comp = "com.cloud.base.commonsdk.syncmanager.agent.CloudDispatchService" />
+        <item mask = "8"  comp = "com.cloud.base.commonsdk.backup.module.system.BackupControlService" />
+        <item mask = "8"  comp = "com.heytap.cloud.usercenter.CloudGuideService" />
+        <item mask = "8"  comp = "com.nearme.clouddisk.service.CloudDiskService" />
+        <item mask = "8"  comp = "com.heytap.cloud.service.CloudTunnelService" />
+        <item mask = "64"  comp = "com.heytap.cloud.provider.CloudStatusProvider" />
+    </startup>
+
+    <startup type = "3"  mask = "8" pkgName = "com.heytap.cloud">
+    </startup>
+
+    <startup type = "2" mask = "72" pkgName = "com.heytap.openid" >
+        <item mask = "8"  comp = "com.heytap.openid.IdentifyService" />
+        <item mask = "64"  comp = "com.heytap.openid.StdProvider" />
+        <item mask = "64"  comp = "com.heytap.openid.oaidcontrolled.OAIDStatusProvider" />
+    </startup>
+
+
+    <startup type = "2" mask = "72" pkgName = "com.heytap.accessory" >
+        <item mask = "64"  associatePkg = "com.oplus.synergy" comp = "com.heytap.accessory.persistent.provider.OAFPersistentProvider" />
+    </startup>
+
+
+    <startup type = "2" mask = "64" pkgName = "com.coloros.weather2">
+        <item mask = "64"  associatePkg = "com.oplus.metis" comp = "com.oplus.weather.service.provider.WeatherProvider" />
+    </startup>
+
+
+    <startup type = "2" mask = "64" pkgName = "com.heytap.usercenter"><!-- My Realme-->
+        <item mask = "64"  comp = "com.platform.usercenter.RecoveryContentProvider" />
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.heytap.vip"> <!-- My Oneplus-->
+        <item mask = "64"  comp = "com.platform.usercenter.RecoveryContentProvider" />
+    </startup>
+
+    <startup type = "3"  mask = "128" pkgName = "android">
+        <item mask = "128"  action = "android.intent.action.MEDIA_BUTTON"/>
+    </startup>
+    <!-- self app config for pkg -->
+    <!-- flag all is parsed by app, use mask to config all -->
+    <startup type = "2" mask = "732" pkgName = "com.oplus.exserviceui"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.exserviceui"/>
+    <startup type = "3"  mask = "8" pkgName = "com.oplus.exsystemservice"/>
+    <startup type = "2" mask = "732" pkgName = "com.oplus.ota"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.ota"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.deepthinker"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.deepthinker"/>
+    <startup type = "2" mask = "732" pkgName = "com.oplus.gesture"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.gesture"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.location"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.location"/>
+    <startup type = "2" mask = "732" pkgName = "com.oplus.thirdkit"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.thirdkit"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.blacklistapp"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.blacklistapp"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.phonenoareainquire"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.phonenoareainquire"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.statistics.rom"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.statistics.rom"/>
+    <startup type = "1" mask = "748" pkgName = "com.oplus.camera">
+        <item mask = "32" priority = "300" />
+    </startup>
+    <startup type = "2" mask = "732" pkgName = "com.oplus.camera"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.romupdate"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.romupdate"/>
+    <startup type = "1" mask = "748" pkgName = "com.oppo.instant.local.service">
+        <item mask = "32" priority = "300" />
+    </startup>
+    <startup type = "2" mask = "732" pkgName = "com.oppo.instant.local.service"/>
+    <startup type = "1" mask = "716" pkgName = "com.oppo.ctautoregist"/>
+    <startup type = "2" mask = "716" pkgName = "com.oppo.ctautoregist"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.pantanal.ums"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.pantanal.ums"/>
+    <startup type = "3" mask = "64" pkgName = "com.oplus.pantanal.ums"/>
+    <startup type = "1" mask = "716" pkgName = "com.oplus.ndsf"/>
+    <startup type = "2" mask = "716" pkgName = "com.oplus.ndsf"/>
+    <startup type = "1" mask = "748" pkgName = "com.oppo.daydreamvideo" >
+        <item mask = "32" priority = "300" />
+    </startup>
+    <startup type = "2" mask = "716" pkgName = "com.oppo.daydreamvideo" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.padconnect" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.padconnect" />
+
+    <startup type = "1" mask = "716" pkgName = "com.heytap.tas" />
+    <startup type = "2" mask = "716" pkgName = "com.heytap.tas" />
+
+    <startup type = "3" mask = "64" pkgName = "com.android.settings"/>
+
+    <startup type = "1" mask = "716" pkgName = "com.coloros.regservice" />
+    <startup type = "2" mask = "716" pkgName = "com.coloros.regservice" />
+
+    <startup type = "1" mask = "716" pkgName = "com.coloros.ocs.opencapabilityservice" />
+    <startup type = "2" mask = "716" pkgName = "com.coloros.ocs.opencapabilityservice" />
+
+    <startup type = "1" mask = "716" pkgName = "com.oplus.ocs" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.ocs" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.promoniter" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.promoniter" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.gtmode" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.gtmode" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.heartrate.detect" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.heartrate.detect" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.commercial" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.commercial" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.leftscreen" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.leftscreen" />
+    <startup type = "1" mask = "716" pkgName = "com.oplus.audiomonitor" />
+    <startup type = "2" mask = "716" pkgName = "com.oplus.audiomonitor" />
+    <!-- self app config for mask -->
+    <startup type = "1" mask = "128" pkgName = "com.oplus.omoji">
+        <item mask = "128"  action = "android.intent.action.BOOT_COMPLETED"/>
+    </startup>
+    <startup type = "2" mask = "196" pkgName = "com.oplus.omoji">
+        <item mask = "4"    associatePkg = "com.coloros.smartsidebar" comp = "com.oplus.omoji.service.VideoGuideService"/>
+        <item mask = "4"    associatePkg = "com.heytap.speechassist"/>
+        <item mask = "64"   associatePkg = "com.android.contacts"/>
+        <item mask = "128"  associatePkg = "com.oplus.account"/>
+        <item mask = "128"  action = "com.oplus.engineermode.EngineerModeMain"/>
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.oplus.cosa">
+        <item mask = "8"  subMask = "1" />
+        <item mask = "128" action = "android.intent.action.BOOT_COMPLETED"/>
+    </startup>
+
+    <startup type = "2" mask = "28" pkgName = "com.oplus.cosa">
+        <item mask = "4"  associatePkg = "android" comp = "com.oplus.cosa.service.GameEventService"/>
+        <item mask = "4"  associatePkg = "android" comp = "com.oplus.cosa.service.GameDaemonService"/>
+        <item mask = "4"  comp = "com.oplus.cosa.service.COSAService"/>
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.oplus.aiunit">
+        <item mask = "8" subMask = "1"/>
+        <item mask = "128" action = "android.intent.action.BOOT_COMPLETED"/>
+    </startup>
+    <startup type = "2" mask = "72" pkgName = "com.oplus.aiunit">
+        <item mask = "8"    action = "oplus.intent.action.AIUNIT_SERVICE"/>
+        <item mask = "8"    action = "oplus.intent.action.AIUNIT_OCR_SERVICE"/>
+        <item mask = "64"   comp = "com.oplus.aiunit.AIUnitProvider"/>
+    </startup>
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.stdsp" >
+        <item mask = "8"    subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "216" pkgName = "com.oplus.stdsp" >
+        <item mask = "128"    action = "oppo.intent.action.usercenter.ACCOUNT_LOGOUT"/>
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.eyeprotect">
+        <item mask = "128" comp = "com.oplus.eyeprotect.receiver.TimeChangeReceiver"/>
+        <item mask = "128" comp = "com.oplus.eyeprotect.receiver.EyeAlarmReceiver"/>
+    </startup>
+    <startup type = "2" mask = "64" pkgName = "com.oplus.eyeprotect">
+        <item mask = "64"   comp = "com.oplus.eyeprotect.provider.EyeprotectProvider"/>
+    </startup>
+
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.dmp">
+        <item mask = "8"  subMask = "1"/>
+    </startup>
+    <startup type = "2" mask = "64" pkgName = "com.oplus.dmp" />
+
+    <startup type = "2" mask = "64" pkgName = "com.oplus.appdetail" >
+        <item mask = "64"  associatePkg = "com.heytap.market" comp = "com.oplus.appdetail.model.guide.safeguard.AppdetailProvider"/>
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.linker">
+        <item mask = "128"  comp = "com.oplus.linker.synergy.common.receiver.ExceptionHandlerReceiver"/>
+    </startup>
+    <startup type = "2" mask = "136" pkgName = "com.oplus.linker" >
+        <item mask = "8"  associatePkg = "com.oplus.synergy"/>
+        <item mask = "8"  associatePkg = "com.heytap.mydevices" comp = "com.oplus.linker.devicemanager.DeviceManagerService" />
+        <item mask = "128"  associatePkg = "com.android.systemui"/>
+        <item mask = "128"  action = "com.heytap.accessory.action.SERVICE_CONNECTION_REQUESTED"/>
+        <item mask = "128"  comp = "com.oplus.linker.synergy.common.receiver.SenselessConnectBroadcastReceiver"/>
+        <item mask = "128"  action = "com.oplus.linker.intent.tv.cast"/>
+    </startup>
+
+    <startup type = "3" mask = "8" pkgName = "com.oplus.linker">
+        <item mask = "8"  associatePkg = "com.coloros.filemanager" />
+    </startup>
+
+    <startup type = "2" mask = "204" pkgName = "com.oplus.synergy">
+        <item mask = "128"  associatePkg = "com.android.nfc" action = "com.oplus.nfc.action.FAST_DISCOVERED"/>
+        <item mask = "128"  associatePkg = "com.heytap.accessory" action = "com.oplus.synergy.action.synergy_4oaf"/>
+        <item mask = "128"  associatePkg = "com.heytap.accessory" action = "com.heytap.accessory.action.SERVICE_CONNECTION_REQUESTED"/>
+        <item mask = "128"  associatePkg = "com.oplus.metis" action = "com.oplus.metis.MetisService.SceneNotify"/>
+        <item mask = "128"  associatePkg = "com.oplus.onet"/>
+        <item mask = "64"  associatePkg = "com.android.launcher"/>
+        <item mask = "4"   associatePkg = "com.android.nfc" action = "com.oplus.nfc.action.DIRECT_DISCOVERED"/>
+    </startup>
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.ether">
+        <item mask = "8" subMask = "1"/>
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.ether">
+        <item mask = "8"  associatePkg = "com.oplus.cosa"/>
+    </startup>
+
+    <!--<startup type = "2" mask = "64" pkgName = "com.oplus.aod">
+        <item mask = "64" comp = "com.oplus.aod.entry.AodDynamicProvider"/>			
+    </startup>	-->
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.metis">
+        <item mask = "8"  associatePkg = "com.heytap.accessory" comp = "com.oplus.metis.OplusAppServicesManagerClient"/>
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.onet">
+        <item mask = "8"  associatePkg = "com.oplus.linker" comp = "com.oplus.onet.service.ONetService"/>
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.oplus.wallpapers">
+        <item mask = "64"  associatePkg = "com.heytap.themestore"/>
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.eid">
+        <item mask = "8"  associatePkg = "com.finshell.wallet" />
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.interconnectcollectkit">
+        <item mask = "8"  action = "com.oplus.interconnectcollectkit.INTENT_SDK_BIND_SERVICE"/>
+    </startup>
+
+    <startup type = "2" mask = "136" pkgName = "com.oplus.encryption">
+        <item mask = "8"  associatePkg = "com.heytap.cloud" comp = "com.oplus.encryption.cloud.service.PrivateSyncAgentService"/>
+        <item mask = "8"  associatePkg = "com.coloros.filemanager" comp = "com.oplus.encryption.service.EncryptionService"/>
+        <item mask = "8"  associatePkg = "com.coloros.gallery3d" comp = "com.oplus.encryption.service.EncryptionService"/>
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.account">
+        <item mask = "128"  action = "android.intent.action.PACKAGE_ADDED"/>
+    </startup>
+
+    <startup type = "2" mask = "88" pkgName = "com.oplus.account">
+        <item mask = "64"  comp = "com.platform.usercenter.newcommon.db.UserCenterContentProvider"/>
+        <item mask = "64"  comp = "com.heytap.usercenter.op.sdk.OPAccountProvider"/>
+        <item mask = "8"   comp = "com.platform.usercenter.service.UserInfoService"/>
+    </startup>
+
+    <startup type = "1" mask = "8" pkgName = "com.oplus.screenrecorder">
+        <item mask = "8"   subMask = "1"/>
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.cast">
+        <item mask = "8"   comp = "com.oplus.cast.service.CastService"/>
+        <item mask = "8" associatePkg = "com.heytap.yoli"  action = "com.oplus.cast.service.CrossScreenService"/>
+    </startup>
+
+    <startup type = "2" mask = "12" pkgName = "com.oplus.secondaryhome">
+        <item mask = "4"   comp = "com.oplus.secondaryhome.cardcontainer.cardmanager.CardContainerManagerService"/>
+        <item mask = "8"   comp = "com.oplus.secondaryhome.cardcontainer.cardmanager.CardContainerManagerService"/>
+    </startup>
+
+    <startup type = "3" mask = "8" pkgName = "com.oplus.secondaryhome" />
+
+    <startup type = "1" mask = "136" pkgName = "com.oplus.uxdesign">
+        <item mask = "128"   action = "android.intent.action.BOOT_COMPLETED"/>
+        <item mask = "8"   subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "92" pkgName = "com.oplus.uxdesign">
+        <item mask = "4"   associatePkg = "com.android.launcher" action = "com.oplus.uxdesign.action.ICON_LAUNCH"/>
+        <item mask = "8"   associatePkg = "com.heytap.themestore" action = "com.oplus.uxdesign.UXTHEME_APPLY_SERVICE"/>
+        <item mask = "8"   associatePkg = "com.oplus.themestore" action = "com.oplus.uxdesign.UXTHEME_APPLY_SERVICE"/>
+        <item mask = "64"   associatePkg = "com.oplus.wallpapers" comp = "com.oplus.uxdesign.uxcolor.UxColorSettingProvider"/>
+    </startup>
+
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.ocar">
+        <item mask = "128"  action = "oplus.intent.action.CARMODE.HALLDETECT"/>
+        <item mask = "128"  action = "oplus.intent.action.SMART_DRIVE_MODE"/>
+    </startup>
+
+    <startup type = "2" mask = "192" pkgName = "com.oplus.ocar">
+        <item mask = "128"  action = "oplus.intent.action.CONNECTION_STATE_CHANGED"/>
+        <item mask = "64"   associatePkg = "com.heytap.accessory" comp = "com.oplus.ocarlinkmanager.core.CarWebBleProvider"/>
+        <item mask = "64"   associatePkg = "com.heytap.speechassist" comp = "com.oplus.ocar.launcher.shell.OCarEntryProvider"/>
+    </startup>
+
+    <startup type = "2" mask = "80" pkgName = "com.oplus.upgradeguide">
+        <item mask = "64"   associatePkg = "com.oplus.ota" comp = "com.oplus.upgrade.coreservice.UpgradeGuideProvider"/>
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.oplus.sos">
+        <item mask = "8"  subMask = "1"/>
+        <item mask = "128"  action = "oplus.intent.action.BOOT_COMPLETED"/>
+    </startup>
+
+    <startup type = "2" mask = "144" pkgName = "com.oplus.sos">
+        <item mask = "128"  action = "oplus.action.phone.EMERGERCY_DIALING"/>
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.coloros.karaoke">
+        <item mask = "8"  comp = "com.oplus.karaoke.server.KaraokeService"/>
+    </startup>
+
+    <startup type = "2" mask = "72" pkgName = "com.coloros.filemanager">
+        <item mask = "8"  associatePkg = "com.oplus.owork" />
+        <item mask = "64"  associatePkg = "com.coloros.smartsidebar" comp = "com.oplus.filemanager.provider.FileManagerOpenProvider" />
+    </startup>
+
+    <startup type = "1" mask = "384" pkgName = "com.coloros.codebook">
+        <item mask = "128"  action = "oplus.intent.action.BOOT_COMPLETED" />
+        <item mask = "256" action = "android.intent.action.SCREEN_OFF"/>
+        <item mask = "256" action = "android.intent.action.CLOSE_SYSTEM_DIALOGS"/>
+    </startup>
+
+    <startup type = "2" mask = "88" pkgName = "com.coloros.codebook">
+        <item mask = "8"  associatePkg = "com.coloros.sceneservice" />
+        <item mask = "64"  associatePkg = "com.coloros.sceneservice" comp = "com.oplus.autofill.provider.SceneRuleProvider"/>
+        <item mask = "64"  associatePkg = "com.android.mms" comp = "com.oplus.autofill.provider.AutoFillProvider"/>
+        <item mask = "64"  associatePkg = "com.coloros.backuprestore" comp = "com.coloros.codebook.br.oplus.OplusPublicKeyProvider" />
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.coloros.phonemanager">
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "220" pkgName = "com.coloros.phonemanager">
+        <item mask = "128"  associatePkg = "com.heytap.market" action = "oplus.intent.market.PACKAGE_ADDED_INCREMENTAL" />
+        <item mask = "128"  associatePkg = "com.coloros.securepay" action = "oplus.intent.action.SECURE_PAY_VIRUS_SCAN" />
+        <item mask = "8"  associatePkg = "com.oplus.appdetail" action = "coloros.intent.safecenter.CHECK_APK_VIRUS" />
+        <item mask = "4"  associatePkg = "com.heytap.market" />
+        <item mask = "4"  comp = "com.coloros.phonemanager.examination.auto.UsbSwitchOffService" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.scenemode">
+        <item mask = "128"  action = "oplus.intent.action.SCENE_MODE_CHANGED" />
+    </startup>
+
+    <startup type = "2" mask = "192" pkgName = "com.coloros.scenemode">
+        <item mask = "64"  associatePkg = "com.android.launcher" />
+    </startup>
+
+    <!-- <startup type = "2" mask = "192" pkgName = "com.coloros.digitalwellbeing">
+        <item mask = "128"  associatePkg = "com.coloros.remoteguardservice" />
+        <item mask = "128"  associatePkg = "com.coloros.familyguard" />
+        <item mask = "128"  associatePkg = "com.oplus.metis" />
+        <item mask = "64"   comp = "com.coloros.digitalwellbeing.model.database.WellBeingProviderNew" />
+        <item mask = "64"   associatePkg = "com.android.launcher" />
+    </startup> -->
+
+    <startup type = "2" mask = "68" pkgName = "com.coloros.directui">
+        <item mask = "4"  associatePkg = "com.coloros.colordirectservice" comp = "com.coloros.directui.DirectUIServices" />
+        <item mask = "64"  associatePkg = "com.android.systemui" comp = "com.coloros.colordirectservice.seedling.SeedlingActionProvider" />
+    </startup>
+
+    <startup type = "2" mask = "76" pkgName = "com.coloros.colordirectservice">
+        <item mask = "4"  comp = "com.coloros.colordirectservice.InvokeEntranceService" />
+        <item mask = "4"  associatePkg = "com.oplus.screenshot" comp = "com.oplus.infocollection.service.CollectService" />
+        <item mask = "64"  associatePkg = "com.coloros.directui" />
+        <item mask = "64"  associatePkg = "com.oplus.screenshot" comp = "com.oplus.infocollection.provider.CollectProvider" />
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.coloros.ocrservice">
+        <item mask = "8"  comp = "com.coloros.ocrservice.service.OcrService" />
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.coloros.remoteguardservice">
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "72" pkgName = "com.coloros.remoteguardservice">
+        <item mask = "8"  associatePkg = "com.coloros.familyguard" comp = "com.coloros.ocrservice.service.OcrService" />
+        <item mask = "64"  associatePkg = "com.coloros.digitalwellbeing" />
+        <item mask = "64"  associatePkg = "com.coloros.familyguard" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.weather.service">
+        <item mask = "128"  action = "android.intent.action.LOCALE_CHANGED" />
+    </startup>
+
+    <startup type = "2" mask = "72" pkgName = "com.coloros.weather.service">
+        <item mask = "8"  comp = "com.oplus.weather.external.WeatherCommonService" />
+        <item mask = "8"  comp = "com.oplus.weather.service.WeatherAppService" />
+        <item mask = "8"  comp = "com.oplus.weather.external.ExternalWeatherWidgetService" />
+        <item mask = "64"  comp = "com.oplus.weather.provider.WeatherProvider" />
+        <item mask = "64"  comp = "com.oplus.weather.provider.OPWeatherProvider" />
+        <item mask = "64"  comp = "com.oplus.weather.provider.OPlusWeatherProvider" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.securepay">
+        <item mask = "128"  subMask = "2" action = "oplus.intent.action.BOOT_COMPLETED" />
+    </startup>
+
+    <startup type = "2" mask = "92" pkgName = "com.coloros.securepay">
+        <item mask = "4"  comp = "com.coloros.securepay.SecurityScanService" />
+        <item mask = "4"  associatePkg = "com.coloros.assistantscreen" comp = "com.coloros.securepay.SecurityScanService" />
+        <item mask = "8"  associatePkg = "com.android.packageinstaller" comp = "com.coloros.securepay.QueryProtectedAppService" />
+        <item mask = "64"  associatePkg = "com.android.launcher" comp = "com.coloros.securepay.provider.ProtectedAppProvider" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.floatassistant">
+        <item mask = "128" action = "android.intent.action.ACTION_SHUTDOWN" />
+    </startup>
+
+    <startup type = "2" mask = "24" pkgName = "com.coloros.floatassistant">
+        <item mask = "8"  comp = "com.coloros.airview.service.AirViewService" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.childrenspace">
+        <item mask = "128" action = "android.intent.action.BOOT_COMPLETED" />
+    </startup>
+
+    <startup type = "2" mask = "12" pkgName = "com.coloros.ocrscanner">
+        <item mask = "4"  associatePkg = "com.coloros.smartsidebar" comp = "com.coloros.ocrscanner.translator.screen.ScreenTranslationService" />
+        <item mask = "4"  associatePkg = "com.coloros.directui" action = "oplus.intent.action.GLOBAL_TRANSLATION" />
+        <item mask = "8"  associatePkg = "com.coloros.directui" comp = "com.coloros.ocrscanner.repository.barcode.RemoteBarCodeService" />
+        <item mask = "8"  associatePkg = "com.finshell.wallet" comp = "com.oplus.scanengine.server.CodeScanService" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.smartlock" />
+
+    <startup type = "2" mask = "64" pkgName = "com.coloros.smartsidebar">
+        <item mask = "64" comp = "com.oplus.filebag.provider.FileBagProvider" />
+        <item mask = "64" associatePkg = "com.android.launcher" comp = "com.oplus.smartsidebar.panelview.filebag.provider.FileBagProvider" />
+    </startup>
+
+    <startup type = "2" mask = "68" pkgName = "com.coloros.accessibilityassistant">
+        <item mask = "4"  associatePkg = "com.coloros.smartsidebar" />
+        <item mask = "64"  associatePkg = "com.android.systemui" comp = "com.coloros.accessibilityassistant.CardCommandProvider" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.coloros.healthcheck">
+        <item mask = "128"  action = "oplus.intent.action.STORAGE_HEALTH_INFO" />
+    </startup>
+
+    <startup type = "2" mask = "12" pkgName = "com.coloros.oshare">
+        <item mask = "4"  associatePkg = "com.heytap.speechassist" />
+        <item mask = "8"  associatePkg = "android" comp = "com.coloros.oshare.OShareClient" />
+        <item mask = "8"  associatePkg = "com.coloros.gallery3d" comp = "com.coloros.oshare.OShareClient" />
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.coloros.gallery3d">
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "216" pkgName = "com.coloros.gallery3d">
+        <item mask = "128"  associatePkg = "com.oplus.camera" />
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+        <item mask = "8"  associatePkg = "com.oplus.camera" />
+        <item mask = "64"  comp = "com.oplus.gallery.openabilitypage.SmartOpenProvider" />
+        <item mask = "64"  comp = "com.oplus.gallery.openabilitypage.GalleryOpenProvider" />
+        <item mask = "64"  comp = "com.oplus.gallery.foundation.util.multiprocess.MultiProcessSpProvider" />
+    </startup>
+
+    <startup type = "2" mask = "128" pkgName = "com.coloros.systemclone">
+        <item mask = "128"  action = "oplus.intent.action.systemclone.FIRST_ENTRY" />
+        <item mask = "128"  action = "coloros.intent.action.systemclone.FIRST_ENTRY" />
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.coloros.translate.engine">
+        <item mask = "8"  comp = "com.coloros.translate.engine.service.TranslateService" />
+    </startup>
+
+    <!--<startup type = "2" mask = "192" pkgName = "com.coloros.securityguard">
+        <item mask = "64"  comp = "com.coloros.securityguard.data.SecurityEventProvider" />
+        <item mask = "128"  comp = "com.coloros.securityguard.communication.SecurityBroadcastReciever" />
+    </startup> -->
+
+    <startup type = "1" mask = "224" pkgName = "com.coloros.sceneservice">
+        <item mask = "128"  action = "android.intent.action.MY_PACKAGE_REPLACED" />
+        <item mask = "128"  action = "android.intent.action.MY_PACKAGE_SUSPENDED" />
+        <item mask = "128"  action = "android.intent.action.BOOT_COMPLETED" />
+        <item mask = "128"  action = "android.intent.action.PACKAGE_DATA_CLEARED" />
+        <item mask = "32" priority = "300"/>
+    </startup>
+
+    <startup type = "2" mask = "208" pkgName = "com.coloros.sceneservice">
+        <item mask = "128"  action = "oppo.intent.action.OPPO_DCS_PERIOD_UPLOAD" />
+        <item mask = "128"  action = "com.coloros.bootreg" />
+        <item mask = "128"  action = "com.oplus.metis.MetisService.SceneNotify" />
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.coloros.assistantscreen">
+        <item mask = "128"  action = "android.intent.action.TIME_SET" />
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "200" pkgName = "com.coloros.assistantscreen">
+        <item mask = "128"  action = "oplus.intent.action.SMART_SCENE" />
+    </startup>
+
+    <startup type = "3" mask = "72" pkgName = "com.coloros.assistantscreen">
+        <item mask = "8"  action = "com.netease.cloudmusic.third.api.CMApiService" />
+        <item mask = "8"  action = "com.tencent.qqmusic.third.api.QQMusicApiService" />
+        <item mask = "8"  action = "com.kugou.android.thirdmap.KGMusicUnityService" />
+        <item mask = "8"  action = "com.allsaints.music.FlamingoService.aidl" />
+        <item mask = "8"  action = "com.ximalaya.ting.android.xiaoai.controll.action" />
+        <item mask = "8"  action = "org.hapjs.features.channel.action.BIND" />
+    </startup>
+
+    <startup type = "1" mask = "132" pkgName = "com.coloros.findmyphone" >
+    </startup>
+
+    <startup type = "2" mask = "204" pkgName = "com.coloros.findmyphone">
+        <item mask = "8"  comp = "com.oplus.findmyphone.service.FindPhoneMessagingService" />
+        <item mask = "8"  associatePkg = "com.heytap.accessory" />
+        <item mask = "8"  comp = "com.oplus.findmyphone.service.LogoutService" />
+        <item mask = "128"  associatePkg = "com.android.systemui" />
+        <item mask = "128"  associatePkg = "com.heytap.cloud" action = "oppo.intent.action.OPEN_FINDPHONE" />
+        <item mask = "128"  action = "android.intent.action.SIM_STATE_CHANGED" />
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+        <item mask = "64"   associatePkg = "com.coloros.bootreg" comp = "com.oplus.findmyphone.provider.SharedProvider" />
+        <item mask = "4"   subMask = "2" />
+    </startup>
+
+    <startup type = "1" mask = "164" pkgName = "com.nearme.instant.platform" >
+        <item mask = "4"  subMask = "1" />
+        <item mask = "128"  action = "android.intent.action.PACKAGE_FULLY_REMOVED" />
+    </startup>
+
+    <startup type = "2" mask = "92" pkgName = "com.nearme.instant.platform" >
+        <item mask = "4"  comp = "org.hapjs.features.geolocation.provider.CardBackgroundLocationService" />
+    </startup>
+
+    <startup type = "1" mask = "168" pkgName = "com.heytap.quicksearchbox" >
+        <item mask = "8"  subMask = "1" />
+        <item mask = "32"  priority = "300"/>
+    </startup>
+
+    <startup type = "2" mask = "80" pkgName = "com.heytap.quicksearchbox" >
+        <item mask = "64"  associatePkg = "com.heytap.browser" comp = "com.heytap.quicksearchbox.provider.WidgetUpdateProvider" />
+        <item mask = "64"  associatePkg = "com.heytap.browser" comp = "com.heytap.quicksearchbox.provider.GlobalSearchProvider" />
+        <item mask = "64"  associatePkg = "com.android.launcher" comp = "com.heytap.quicksearchbox.provider.GlobalSearchProvider" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.heytap.market" />
+
+    <startup type = "2" mask = "220" pkgName = "com.heytap.market" >
+        <item mask = "8"  associatePkg = "com.android.launcher" comp = "com.heytap.market.out.ExternalApiService" />
+        <item mask = "8"  comp = "com.heytap.cloudkit.libsync.service.CloudSyncService" />
+    </startup>
+
+    <startup type = "1" mask = "140" pkgName = "com.heytap.cloud" >
+        <item mask = "4"  subMask = "1" comp = "com.cloud.base.commonsdk.syncmanager.alarm.AlarmService" />
+        <item mask = "8"  subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "220" pkgName = "com.heytap.cloud" >
+        <item mask = "128"  comp = "com.heytap.cloud.receiver.CloudNormalReceiver" />
+        <item mask = "128"  associatePkg = "com.oplus.encryption" /><!--only keep encryption for cloud sync -->
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+        <item mask = "8"  associatePkg = "com.oplus.encryption" comp = "com.cloud.base.commonsdk.syncmanager.agent.CloudDispatchService" />
+        <item mask = "8"  comp = "com.cloud.base.commonsdk.backup.module.system.BackupControlService" />
+        <item mask = "8"  comp = "com.heytap.cloud.usercenter.CloudGuideService" />
+        <item mask = "8"  comp = "com.nearme.clouddisk.service.CloudDiskService" />
+        <item mask = "8"  comp = "com.heytap.cloud.service.CloudTunnelService" />
+        <item mask = "8"  comp = "com.heytap.cloud.ck.CloudAppCfaService" />
+        <item mask = "64"  comp = "com.heytap.cloud.provider.CloudStatusProvider" />
+    </startup>
+
+    <startup type = "3"  mask = "8" pkgName = "com.heytap.cloud">
+    </startup>
+
+    <startup type = "2" mask = "72" pkgName = "com.heytap.openid" >
+        <item mask = "8"  comp = "com.heytap.openid.IdentifyService" />
+        <item mask = "64"  comp = "com.heytap.openid.StdProvider" />
+        <item mask = "64"  comp = "com.heytap.openid.oaidcontrolled.OAIDStatusProvider" />
+    </startup>
+
+    <startup type = "2" mask = "76" pkgName = "com.heytap.htms" />
+
+    <startup type = "2" mask = "72" pkgName = "com.heytap.accessory" >
+        <item mask = "64"  associatePkg = "com.oplus.synergy" comp = "com.heytap.accessory.persistent.provider.OAFPersistentProvider" />
+    </startup>
+
+    <startup type = "2" mask = "72" pkgName = "com.heytap.colorfulengine" >
+        <item mask = "8"  associatePkg = "android" />
+        <item mask = "8"  associatePkg = "com.oplus.wallpapers" comp = "com.heytap.colorfulengine.wallpaper.CwpAidlService" />
+        <item mask = "8"  associatePkg = "com.heytap.themestore" comp = "com.heytap.colorfulengine.wallpaper.CwpAidlService" />
+        <item mask = "8"  associatePkg = "com.oplus.colorfulengine.demo" />
+        <item mask = "8"  associatePkg = "com.oplus.engine.test" />
+        <item mask = "64"  associatePkg = "com.oplus.secondaryhome" comp = "com.heytap.colorfulengine.ColorfulProvider" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.heytap.pictorial" >
+        <item mask = "128"  comp = "com.heytap.pictorial.PictorialAlarmReceiver" />
+    </startup>
+
+    <startup type = "2" mask = "208" pkgName = "com.heytap.pictorial" >
+        <item mask = "128"  action = "com.coloros.bootreg" />
+        <item mask = "64"  associatePkg = "com.android.systemui" comp = "com.heytap.pictorial.data.provider.PictorialProvider" />
+        <item mask = "64"  associatePkg = "com.android.launcher" />
+        <item mask = "64"  associatePkg = "com.oplus.wallpapers" comp = "com.heytap.pictorial.wallpaper.provider.WallpaperProvider" />
+    </startup>
+
+    <startup all = "1" type = "2" mask = "212" pkgName = "com.heytap.themestore" >
+        <item mask = "4" associatePkg = "com.android.systemui"/>
+        <item mask = "4" subMask = "1" comp = "com.nearme.themespace.polling.PollingService"/>
+        <item mask = "64" associatePkg = "com.oplus.uxdesign"/>
+        <item mask = "64" associatePkg = "com.oplus.wallpapers"/>
+        <item mask = "64" associatePkg = "com.oplus.aod"/>
+        <item mask = "64" associatePkg = "com.heytap.pictorial"/>
+        <item mask = "128" subMask = "1" comp = "com.nearme.themespace.trial.ThemeTrialExpireReceiver"/>
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.heytap.music" >
+        <item mask = "128" action = "android.intent.action.MEDIA_BUTTON" />
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.heytap.music" >
+        <item mask = "8"  associatePkg = "com.oplus.ocar" comp = "com.allsaints.music.player.thirdpart.ucar.MediaPlaybackService" />
+        <item mask = "8"  associatePkg = "com.heytap.speechassist" comp = "com.oppo.music.POPlayService" />
+        <item mask = "8"  associatePkg = "com.heytap.pictorial" action = "com.allsaints.music.playbackservice" />
+    </startup>
+
+    <startup type = "1" mask = "136" pkgName = "com.heytap.browser" >
+        <item mask = "128" action = "android.intent.action.BOOT_COMPLETED" />
+        <item mask = "8" subMask = "1" />
+    </startup>
+
+    <startup type = "2" mask = "208" pkgName = "com.heytap.browser" >
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+        <item mask = "128"  action = "com.oplus.engineermode.EngineerModeMain" />
+    </startup>
+
+    <startup type = "2" mask = "216" pkgName = "com.heytap.mydevices" >
+        <item mask = "64" comp = "com.oplus.mydevices.remotecards.provider.DeviceCardWidgetProvider" />
+        <item mask = "64" comp = "com.heytap.mydevices.core.persist.DeviceCenterProvider" />
+        <item mask = "8"  action = "com.heytap.mydevices.ProviderMonitor" />
+        <item mask = "128"  associatePkg = "com.oplus.account" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.heytap.speechassist" >
+        <item mask = "128" action = "android.intent.action.PHONE_STATE" />
+    </startup>
+
+    <startup type = "2" mask = "220" pkgName = "com.heytap.speechassist" >
+        <item mask = "4" comp = "com.heytap.speechassist.core.SpeechService" />
+    </startup>
+
+    <startup type = "3" mask = "8" pkgName = "com.heytap.speechassist" />
+
+    <startup type = "1" mask = "136" pkgName = "com.coloros.activation" >
+        <item mask = "8" subMask = "1" />
+    </startup>
+
+    <!--<startup type = "2" mask = "72" pkgName = "com.heytap.opluscarlink" >
+		<item mask = "64" associatePkg = "com.heytap.accessory" comp = "com.heytap.opluscarlink.CarLinkPluginProvider" />
+		<item mask = "64" associatePkg = "com.heytap.mydevices" comp = "com.heytap.opluscarlink.carcontrol.devicecenter.DeviceCenterProvider" />
+	</startup>
+	
+    <startup type = "3" mask = "8" pkgName = "com.heytap.opluscarlink" /> -->
+
+    <startup type = "2" mask = "24" pkgName = "com.oplus.travelengine" >
+        <item mask = "8"  action = "android.intent.action.RoamService" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.ovoicemanager.wakeup" >
+        <item mask = "128"  action = "android.intent.action.BOOT_COMPLETED" />
+    </startup>
+
+    <startup type = "2" mask = "136" pkgName = "com.oplus.vdc" >
+        <item mask = "128"  action = "com.heytap.accessory.action.SERVICE_CONNECTION_REQUESTED" />
+    </startup>
+
+    <startup type = "3" mask = "8" pkgName = "com.coloros.filemanager">
+        <item mask = "8"  associatePkg = "cn.wps.moffice.lite" />
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.oplus.cardigitalkey">
+        <item mask = "8"  comp = "com.oplus.cardigitalkey.CarDigitalKeyService" />
+    </startup>
+
+    <startup type = "1" mask = "128" pkgName = "com.oplus.ipemanager">
+        <item mask = "128"  associatePkg = "com.oplus.exsystemservice" />
+    </startup>
+
+    <startup type = "2" mask = "148" pkgName = "com.oplus.ipemanager">
+        <item mask = "128"  associatePkg = "com.heytap.accessory" action = "com.oplus.ipemanager.ACTION.BROADCAST.OAF_DEVICE_FOUND" />
+        <item mask = "4"  associatePkg = "com.oplus.exsystemservice" comp = "com.oplus.ipemanager.btadsorb.CoreService" />
+    </startup>
+
+    <startup type = "2" mask = "8" pkgName = "com.coloros.sharescreen">
+        <item mask = "8"  associatePkg = "com.coloros.familyguard" comp = "com.coloros.sharescreen.sharing.service.SdkBridgeService" />
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.coloros.weather2">
+        <item mask = "64"  associatePkg = "com.oplus.metis" comp = "com.oplus.weather.service.provider.WeatherProvider" />
+    </startup>
+
+    <startup type = "2" mask = "68" pkgName = "com.oplus.supertextinput">
+        <item mask = "64"  associatePkg = "com.oplus.aiunit" comp = "com.oplus.supertextinput.core.provider.SupertextInputMenuSettingProvider" />
+        <item mask = "4"  comp = "com.oplus.supertextinput.core.CameraScanService" />
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.coloros.operationManual">
+        <item mask = "64"  associatePkg = "com.coloros.backuprestore" comp = "com.coloros.operationManual.feedbackandtips.provider.TipsProvider" />
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.oplus.vip"><!-- My OPPO-->
+        <item mask = "64"  comp = "com.platform.usercenter.RecoveryContentProvider" />
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.heytap.usercenter"><!-- My Realme-->
+        <item mask = "64"  comp = "com.platform.usercenter.RecoveryContentProvider" />
+    </startup>
+
+    <startup type = "2" mask = "64" pkgName = "com.heytap.vip"> <!-- My Oneplus-->
+        <item mask = "64"  comp = "com.platform.usercenter.RecoveryContentProvider" />
+    </startup>
+
+    <startup type = "1"  mask = "128" pkgName = "com.oplus.themestore">
+        <item mask = "128"  action = "oplus.intent.action.PACKAGE_REMOVED" />
+    </startup>
+
+    <startup type = "2"  mask = "12" pkgName = "com.oplus.acc.gac">
+        <item mask = "4"  associatePkg = "com.oplus.statistics.rom" action = "com.oplus.dcc.action.RECEIVE_MESSAGE" />
+        <item mask = "8"  associatePkg = "com.oplus.statistics.rom" action = "com.oplus.dcc.action.RECEIVE_MESSAGE" />
+        <item mask = "8"  associatePkg = "com.oplus.games" comp = "com.oplus.acc.clouddecision.CloudDecisionService" />
+    </startup>
+
+    <startup type = "3"  mask = "8" pkgName = "com.oplus.acc.gac">
+        <item mask = "8"  associatePkg = "com.tencent.tmgp.sgame" action = "android.intent.action.tgpa.PREDOWNLOAD" />
+        <item mask = "8"  associatePkg = "com.tencent.tmgp.pubgmhd" action = "android.intent.action.tgpa.PREDOWNLOAD" />
+        <item mask = "8"  associatePkg = "com.tencent.tmgp.sgamece" action = "android.intent.action.tgpa.PREDOWNLOAD" />
+        <item mask = "8"  associatePkg = "com.tencent.tmgp.projectg" action = "android.intent.action.tgpa.PREDOWNLOAD" />
+    </startup>
+
+    <startup type = "1"  mask = "128" pkgName = "com.coloros.lockassistant">
+        <item mask = "128"  action = "android.intent.action.BOOT_COMPLETED" />
+    </startup>
+
+    <startup type = "2"  mask = "136" pkgName = "com.coloros.lockassistant">
+        <item mask = "128"  associatePkg = "com.android.phone" action = "android.telephony.action.SECRET_CODE" />
+        <item mask = "128"  associatePkg = "com.android.phone" action = "oplus.intent.action.GLOBAL_REGION_NETWORK_LOCK" />
+        <item mask = "8"    associatePkg = "com.android.phone" comp = "com.oplus.regionassistant.KeepAliveService" />
+    </startup>
+
+    <startup type = "2"  mask = "8" pkgName = "com.oplus.screenshot"><!-- User 0 launch User X-->
+        <item mask = "8"  associatePkg = "com.oplus.screenshot" comp = "com.oplus.screenshot.workprofile.ScreenshotCrossProfileService" />
+    </startup>
+
+    <startup type = "2"  mask = "64" pkgName = "com.coloros.calculator">
+        <item mask = "64"  comp = "com.android.calculator2.data.provider.CurrencyConvertProvider" />
+    </startup>
+
+    <startup type = "2"  mask = "8" pkgName = "com.unionpay.tsmservice">
+        <item mask = "8"  associatePkg = "com.oplus.pay" />
+    </startup>
+
+    <startup type = "2"  mask = "8" pkgName = "com.oplus.cfa">
+        <item mask = "8"  associatePkg = "com.heytap.cloud" action = "com.oplus.cfa.MgrService" />
+    </startup>
+
+    <!--nopkg -->
+    <!-- activity 1-->
+    <!-- blackguardActivity -->
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.richinfo.system.main.TransparentActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lantern.pseudo.charging.app.PseudoChargingActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.ots.present.PopupPresentActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.ots.lockscreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.lockscreen.LockScreenInfoFlowActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.ots.home.PopupWebViewActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xunmeng.pinduoduo.lock_screen_card.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.augeapps.locker.sdk.LockerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.abc.call.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo360.mobilesafe.lockscreen.LockScreenFingerprintListenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lantern.pseudo.app.PseudoLockFeedActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lantern.pseudo.app.PseudoGalleryFeedActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.lockscreen.LockScreenNewActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.lockscreen.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.smartdialer.feeds.lockscreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.optimizer.test.module.smartlocker.locker.screen.SmartLockerFeedsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.mtt.base.notification.LockScreenTipsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.augeapps.locker.sdk.SceneShowActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.appstore.loader.a.ActivityN1TA0STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.appstore.loader.a.ActivityN1TA0STNTS2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.appstore.loader.a.ActivityN1TA1STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.moji.mjlockscreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.komoxo.chocolateime.lockscreen.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ijinshan.browser.news.screenlocknews.activity.NewsLockNewActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.youloft.lock.ScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.appstore.loader.a.ActivityN1TA0STTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ijinshan.screensavernew.ScreenSaver2Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.augeapps.locker.sdk.WindowShowActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.main.brendan.BrendanActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.latinime.lockscreen.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.video.chargepromotion.ChargePromotionInfoFlowActivity2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "module.controller.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cashtoutiao.lock.ui.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.browser.chargingprotect.ChargingProtectActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ymnet.onekeyclean.cleanmore.phonemanager.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.browser.homepage.news.NewsScreenLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.margarette.MargaretteActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.geoffrey.GeoffreyActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.micheal.MichealActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.booker.BookerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.caravati.CaravatiActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "good.security.acz" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.cleaner.scene.mcclenty.McclentyActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo360.chargescreensdk.ChargeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.kenton.KentonActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xiaoniu.cleanking.ui.lockscreen.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.ley.FeliciteActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.lockscreen.LockeScreenDPActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.lockscreen.LockerNewActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.byteww.llqql.outside.ScreenLockMergeActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.byteww.llqql.outside.OutUnInstallActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.byteww.llqql.common.CommonFinishActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.syn.qlds365.activity.LockerActivity2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.nd.assistance.activity.chargescreen.ChargeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lionmobi.powerclean.smartlock.QuickChargingActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.funchar.safetyclean.mvp.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sprint.cltool.supreme.loader.a.ActivityN1NRNTS2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oz.notify.locker.NewLockerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.una.UnaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "org.trade.inland.uninstall_sdk.UninstallDialogActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mikeyaqi.fastclean.mvp.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.keniu.security.locker.WindowLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.eden.EdenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cache.files.clean.guard.activity.power.PowerLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.myhayo.superclean.mvp.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.optimizer.test.module.smartlocker.locker.screen.SmartLockerFeedActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.szcx.cleaner.ui.MsgActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.caishi.murphy.ui.screen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xiaoniu.cleanking.ui.lockscreen.NewsLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.augeapps.locker.sdk.ScreenSaverActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.fancyclean.boost.lockscreen.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xiya.appclear.ui.splash.ScreenLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xlhd.lock.activity.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.zxly.assist.lockScreen.view.LockScreenNewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.dn.lockscreen.brandnew.PresentLockscreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "cm.scene2.ui.lock.BaiduLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.drnet.clear.cleanmore.phonemanager.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.gmiles.cleaner.lockScreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.fanjun.keeplive.activity.OnePixelActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.android.sdk.realization.activity.PopupActionActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.main.ann.AnnActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "org.hulk.mediation.core.wrapperads.InterstitialAdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.locker.LActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.yann.FredaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.hannah.Hannahctivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.daisy.DaisyActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.sabel.GiacintaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ludashi.cooling.business.standbyassistant.gui.ChargePopActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.funqingli.locker.activity.LockerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.cleaner.scene.medwin.MedwinActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.howard.IvesActivit" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.howard.HowardActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.jiepier.NativeExpressActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xxwl.cleanmaster.CleanFinishActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.myhayo.cleanphone.mvp.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.fafa.homead.InstallAdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.liquid.box.home.lock.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sogou.interestclean.lockscreen.UnChargeLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sprint.cltool.smartsafe.loader.a.ActivityN1STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sprint.cltool.smartsafe.loader.a.ActivityN1NRTS1" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.magic.clmanager.loader.a.ActivityN1NRTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.magic.clmanager.loader.a.ActivityN1STNTS2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.magic.clmanager.loader.a.ActivityN1STNTS3" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.zxly.assist.lockScreen.view.SingleInstanceSplashAdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xialing.lightningcleaning.ui.home.activity.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.siyiniao.www.mobilesafe.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.zxly.assist.lockScreen.view.LockScreenImgActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sxnet.clean.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.phonecleaner.ui.activity.KAIPINGYEMISN_KPActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.kytech.clear.view.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qhll.weather.loader.a.ActivityN1TA0STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qhll.weather.loader.a.ActivityN1TA0NRTS3" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.myclean.mobilecleen.keeplive.ScreenLockChangeActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.myclean.mobilecleen.keeplive.InteractionADActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.myhayo.wyclean.mvp.ui.activity.PowerLowDialogActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xmiles.sceneadsdk.lockscreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oh.app.modules.smartlocker.screen.NewsScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.locker.activity.LockerActivity2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.nwkj.cleanmaster.chargescreen.ChargeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.dplatform.qlockscreen.QLockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.nwkj.cleanmaster.chargescreen.pullout.PulloutRemindActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo360.mobilesafe.keepalive.ShowOnScreenOffActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.smartdialer.feeds.lockscreen.LockScreenWallpaperActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.maibaapp.module.main.ui.lockScreen.view.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.appstore.loader.a.ActivityN1TA0STNTS1" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.cleandroid_lite.loader.a.ActivityN1STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.cleandroid_lite.loader.a.ActivityN1STNTS3" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.cleandroid_cn.loader.a.ActivityN1STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.cristine.CristineActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.iclicash.advlib.ui.front.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lockscreen.news.ui.LockScreenNewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "android.support.design.SmartCleanActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "android.support.design.SmartCleanWasteActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.moke.android.ui.MokeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.morton.MortonActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.tangela.TangelaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.harmony.HarmonyActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.main.fay.FayActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.mignon.MignonActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xmiles.sceneadsdk.lockscreen.SDKLockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.wifi.key.wifixx.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.myhayo.cleanphone.mvp.ui.activity.AdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.coconut.tree.proxy.CoconutInstanceProxyActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xmiles.sceneadsdk.lockscreen.LSActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.dn.lockscreen.brandnew.PresentUnLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.all.wifimaster.view.activity.FeedsLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.dn.lockscreen.brandnew.PresentLockscreenActivity2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.anbigvideocall.show.activitys.LockClearCacheActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xiaoniu.cleanking.ui.lockscreen.NewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xiaoniu.cleanking.ui.lockscreen.PopLayerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.lockscreen.midas.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.outscene.activity.FeaturesPopActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.screen.ScreenBdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.charge.activity.ChargeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xiaoniu.cleanking.ui.lockscreen.ChargingLockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.pedometer.money.cn.lockscreen.LockScreenTwoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.coohuaclient.business.lockscreen.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.clean.lockscreen.core.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.zxly.assist.lockScreen.view.ScreenNewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.lockscreen.LockActivityNew" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.screen.ScreenBdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.colorphone.lock.lockscreen.DismissActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.colorphone.lock.lockscreen.DismissKeyguradActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.koki.callshow.ui.lockscreen.LockScreenNewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.koki.callshow.ui.lockscreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.lockscreen.LockerNew1Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.activity.LockScreenShowActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.shyz.clean.lockScreen.LockScreenBaiduNewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yynova.cleanmaster.lock.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.optimizer.test.module.appprotect.lockscreen.LockAppActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cmcm.show.lockscreen.LockeScreenDP1Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qimiaoptu.camera.lockscreen.locker.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qimiaoptu.camera.lockscreen.activity.ExternalPopupActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.we.ui.NewLockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.universal.baselib.lockscreen.ScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.luck.calendar.app.module.lockscreen.sp1.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.luck.calendar.app.module.screensaver.ui.BatteryScreensaverActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.luck.calendar.app.module.lockscreen.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.dn.lockscreen.NullActivityForWBInit" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mg.phonecall.module.lock.ActLockScreen" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.gmiles.cleaner.lockScreen.SuoPingScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.coins.games.charge.LockScreenChargeActivity_v2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qukandian.video.qkdcontent.view.activity.LockScreenVideoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.outscene.activity.ChargingLockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.calendar2345.adLock.view.AdLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.vlocker.settings.DismissActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.kg.v1.screen_lock.ScreenLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.facebook.ads.LockAssistActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.nineton.weatherforecast.activity.ACLockScreen" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.wallpaper.xeffect.ui.chargelocker.ChargeLockerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sand.victory.clean.activity.LockerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.stkj.newclean.activity.UnlockWarningActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yzytmac.reward.UnlockRewardActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.stkj.newclean.activity.UnLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mmc.almanac.lockscreen.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.component.lockscreen.locker.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.module.lockscreenlibrary.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.abc.call.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cootek.ots.lockscreen.PopupWakeupActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lisa.power.clean.cache.activity.screenlock.ScreenLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.rj.adsdk.adLock.view.AdLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.dn.lockscreen.singlepixel.SinglePixelActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "screen.locker.ScreenLockerActivity2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yt.news.lockScreen.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.swifthawk.picku.free.activity.ChesterActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "org.mediatio.popkuplib.WifiPopupDialogActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.android.sdk.realization.activity.PopupVideoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.all.cleaner.view.activity.FeedsLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.keniu.security.locker.CtwzActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleancard.ui.CleanCardActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cashtoutiao.lock.ui.LockNewsOnScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mobi.inland.sdk.function.activity.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.outscene.activity.ChargingLockScreenNewActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.meet.cleanapps.ui.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ijinshan.screensavernew.LockerSdkScreenSaver2Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qhll.weather.loader.a.ActivityN1TA1STNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qhll.weather.loader.a.ActivityN1TA0NRNTS4" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.screen.ShowLCActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.activity.ChargeOutSideActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sktq.weather.business.lock.charging.ui.LockChargingActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.augeapps.locker.sdk.LockerWeatherSettingActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.swifthawk.picku.free.activity.KarlActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "org.hulk.mediation.core.wrapperads.NatAdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.syn.wifi.lockscreen.ShowLockActivity2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ddfun.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.optimizer.test.module.smartlocker.locker.screen.SmartLockerNativeActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sogou.androidtool.ChargeLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.wifibanlv.wifipartner.activity.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.louise.WarlikeActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.global.ads.components.Venus??" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.colorphone.lock.lockscreen.chargingscreen.ChargingScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.colorphone.lock.lockscreen.locker.LockerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.vi.a98yu.amd378" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qq.j.ad.luSs" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qq.j.ad.EvOi" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.OcDAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.OcBAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.OcJAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.OcYAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.OcWAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ui.Ala" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ui.Abnn" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ui.Aha" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.ChargeBDActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.lpower.PowerScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.pop.PowerBdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.charge.BatteryChargingActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.lisa.easy.clean.cache.activity.screenlock.ScreenLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.charge.activity.ChargeOppoScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.cleandroid_cn.loader.a.ActivityN1STNTS1" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.cleandroid_cn.loader.a.ActivityN1STPNTS0" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qihoo.cleandroid_lite.loader.a.ActivityN1STPNTS3" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.action.pww" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.secure.lockscreen.core.LockScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.beta.boost.function.screenonad.ui.FuseScreenOnAdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.beta.boost.function.homekey.HomeKActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ab.IodAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.khd.BedAc" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.droopy.Motorcar" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yynova.cleanmaster.baidu.news.NewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.charge.activity.ChargeScreenActivityNew" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.lockscreen.LockActivityOne" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.jk.weather.charge.activity.ChargeScreenActivityOne" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sun.ui.MokeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.luck.calendar.app.module.screensaver.ui.BatterySacreensaverActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.luck.calendar.app.module.lockscreen.sp1.LaockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "cm.scene2.ui.lock.LockBdActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.stkj.newclean.activity.PowerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yzytmac.reward.PowerRewardActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cache.files.clean.guard.activity.screenlock.ScreenLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mobi.inland.sdk.function.lock.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "cn.etouch.ecalendar.charging.ChargingActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mrkj.calendar.lock.BaiduNewsLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.android.sdk.realization.activity.LockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.android.sdk.realization.activity.ShellActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.android.sdk.realization.activity.SecondShellActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "org.qiyi.android.video.ui.UICompDebugActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanandroid.server.ctstar.ui.activity.LSUPActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.keniu.security.locker.WycmActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.android.sdk.realization.activity.SceneActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.youku.phone.wxapi.ShellActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.youku.phone.wxapi.SecondShellActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.meet.cleanapps.ui.activity.MercuryActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yynova.cleanmaster.baidu.news.News2Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.luck.calendar.app.module.sacreensaver.ui.BatterySacreensaverActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.mobi.inland.sdk.function.activity.NewsLSActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oh.app.zodiac.OxActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.safekey.ChargeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oppo.launch.SuoChargeBDActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ludashi.benchmark.business.standbyassistant.gui.activity.ChargePopActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.cleaner.scene.roger.RogerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qq.j.ad.xGwe" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.cleanerapp.filesgo.ui.lidia.KateActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.fast.charge.OcJAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.abcde.xmoss.ui.activity.XmossSysActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.geek.outapp.lockscreen.sp3.MidasLockActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xmiles.sceneadsdk.lockscreen.ui.activity.LSActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.meet.cleanapps.ui.activity.FinishActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.swifthawk.picku.free.activity.StephanActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oh.app.zodiac.Horse1Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.rj.adsdk.adLock.view.NewsActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.qhll.cleanmaster.plugin.clean.chargescreen.ChargeScreenActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.oh.app.zodiac.Pig2Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ludashi.function.watchdog.keepalive.OnePixelActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.jiguang.CuckooActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.jiguang.HawkActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.jiguang.MagpieActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.jiguang.OrioleActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.jiguang.CanaryActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.assist.KaraAssistV2Activity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "cn.jpush.android.service.DActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xingin.xhs.push.JPushDActivityV2" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.ct.client.push.jpush.PullUpActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.yidui.activity.JPushAliveActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.youxiang.soyoungapp.jpush.PushHelperActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.moji.push.MJPushDynamicActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.sinovatech.unicom.separatemodule.jiguang.CustomJGActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.pingan.lifeinsurance.framework.message.JGDActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xingin.cupid.getui.v.IActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.zhihu.android.push.getui.GetuiActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xmcy.hykb.app.ui.getuiforvivo.VivoAndOppoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.baidu.haokan.getui.APushActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tantanapp.push.getui.GetuiAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.baidu.haokan.getui.GtvoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xingin.cupid.getui.v.CAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.xingin.cupid.getui.v.HAct" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.netease.newsreader.support.push.gt.GPActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "cn.kuwo.mod.push.getui.KAriesActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "cn.kuwo.mod.push.getui.KVirgoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.assist.KaraEnhActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.magic.AriesActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.magic.TaurusActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.magic.GeminiActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.magic.CancerActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.magic.LeoActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.city.ui.CrocusActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.sword.PeonyActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.gateway.DahliaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.maindex.start.PinkActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.lockscreen.YuccaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.av.kapok.NewAzaleaActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "1" name = "com.tencent.karaoke.module.aloe.NewIrisActivity" flag = "1"/>
+    <startup_nopkg startType = "2" parameterType = "2" mask = "64" name = "com.coloros.scenemode.provider.SimpleModeProvider"/>
+</filter-conf>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.settings.application_manager_hide_apps" args="StringList:hideapps">
+        <StringList name="hideapps" args="com.android.dreams.basic" />
+        <StringList name="hideapps" args="com.mobilesystemservice.android" />
+        <StringList name="hideapps" args="com.android.providers.partnerbookmarks" />
+        <StringList name="hideapps" args="com.android.managedprovisioning" />
+        <StringList name="hideapps" args="se.dirac.acs" />
+        <StringList name="hideapps" args="com.oplus.uiengine" />
+        <StringList name="hideapps" args="com.google.android.apps.docs" />
+        <StringList name="hideapps" args="com.android.mms.service" />
+        <StringList name="hideapps" args="com.mobilesystemservice.install" />
+        <StringList name="hideapps" args="com.google.android.feedback" />
+        <StringList name="hideapps" args="com.android.captiveportallogin" />
+        <StringList name="hideapps" args="com.mediatek.omacp" />
+        <StringList name="hideapps" args="com.nearme.themespacelib" />
+        <StringList name="hideapps" args="com.nearme.sync" />
+        <StringList name="hideapps" args="com.oplus.sau" />
+        <StringList name="hideapps" args="com.google.android.tag" />
+        <StringList name="hideapps" args="com.google.android.configupdater" />
+        <StringList name="hideapps" args="com.dropboxchmod" />
+        <StringList name="hideapps" args="com.criticallog" />
+        <StringList name="hideapps" args="com.qti.qualcomm.datastatusnotification" />
+        <StringList name="hideapps" args="com.google.android.setupwizard" />
+        <StringList name="hideapps" args="com.android.carrierconfig" />
+        <StringList name="hideapps" args="com.qti.dpmserviceapp" />
+        <StringList name="hideapps" args="com.android.calllogbackup" />
+        <StringList name="hideapps" args="com.qualcomm.qti.modemtestmode" />
+        <StringList name="hideapps" args="com.wifi.rxsenstest" />
+        <StringList name="hideapps" args="com.qualcomm.uimremoteclient" />
+        <StringList name="hideapps" args="com.qualcomm.uimremoteserver" />
+        <StringList name="hideapps" args="co.sitic.pp" />
+        <StringList name="hideapps" args="mx.sitic.simkey" />
+        <StringList name="hideapps" args="com.coloros.bootreg" />
+        <StringList name="hideapps" args="com.oppo.dirac" />
+        <StringList name="hideapps" args="com.oppo.locationpicker" />
+        <StringList name="hideapps" args="com.oppo.marketcheck" />
+        <StringList name="hideapps" args="com.oppo.freefallingmonitor" />
+    </app_feature>
+</extend_features>

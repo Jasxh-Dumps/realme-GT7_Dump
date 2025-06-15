@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="smart5g_status" value="0"/>
+	<int name="smart5g_visible" value="0"/>
+	<int name="vowifi_status" value="0"/>
+</carrier_config>
+<!-- Timestamp 2024-10-23T10:53:01 #249316 -->

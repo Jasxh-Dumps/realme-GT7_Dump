@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+   
+    <favorite
+        launcher:className="com.fetself.MainActivity"
+        launcher:packageName="com.fetself"
+        launcher:screen="-1"
+        launcher:x="1"
+        launcher:y="0" />
+
+    <favorite
+        launcher:className="com.fe.gohappy.appinstaller.InstallerActivity"
+        launcher:packageName="com.gohappy.mobileapp"
+        launcher:screen="-1"
+        launcher:x="2"
+        launcher:y="0" />
+
+	<favorite
+        launcher:className="net.fetnet.fetvod.MainActivity"
+        launcher:packageName="net.fetnet.fetvod"
+        launcher:screen="-1"
+        launcher:x="3"
+        launcher:y="0" />
+
+</favorites>

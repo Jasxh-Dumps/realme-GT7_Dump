@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<regions>
+		<version>V2.11</version>
+		<region list="Region CE">HK,MO,PH,MY,ID,VN,KH,MM,NP,BD,LK,PK,LA,SG,TH,BH,QA,OM,AE,SA,KW,EG,TW,TZ,JP</region>
+		<region list="Region EU">BE,BG,CZ,DK,DE,EE,IE,GR,ES,FR,HR,IT,CY,LV,LT,LU,HU,NL,AT,PL,PT,RO,SI,SK,FI,SE,GB,CH,NO,IS,LI,TR,MD,RU,UA,KZ,UZ,AU,NZ,ZA,BR,DZ,LB,MA,NG,PS,TN,KE,IL,SY,IQ,AF,YE,ZM,JO,RS,BA,KV,MK,ME,MT,DT</region>
+		<region list="Region FCC">US,CL,CO,MX,PE,HN,UY,PY,VE,AR,BO,CR,DM,GT,EC,PA,CA</region>
+	</regions>
+	<SpecialScenario>
+		<SpecialScenario condition="Version">V1</SpecialScenario>
+	</SpecialScenario>
+
+	<indexs>
+		<index list="Scenario_Index_1">4,6</index>
+		<index list="Scenario_Index_2">6</index>
+		<index list="Scenario_Index_3">7</index>
+	</indexs>
+</configs>

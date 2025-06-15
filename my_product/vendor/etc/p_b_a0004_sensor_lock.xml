@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<Data>
+<Brightness_Threshold>
+240
+</Brightness_Threshold>
+<Upper_Limit>
+2.85
+</Upper_Limit>
+<Lower_Limit>
+1.2
+</Lower_Limit>
+</Data>

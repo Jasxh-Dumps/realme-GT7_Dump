@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<boolean name="config_oplus_hide_3g_2g" value="true"/>
+	<string name="gps.supl_host">supl.rm-n.jp</string>
+	<string name="gps.supl_ver">0x20000</string>
+	<string name="gps.supl_mode">3</string>
+	<string name="gps.lpp_profile">3</string>
+	<string name="gps.a_glonass_pos_protocol_select">15</string>
+</carrier_config>

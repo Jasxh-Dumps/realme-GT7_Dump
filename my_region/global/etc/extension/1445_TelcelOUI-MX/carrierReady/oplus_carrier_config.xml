@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<int name="vowifi_roaming_preferred_mode" value="1"/>
+	<boolean name="display_hd_audio_property_bool" value="false"/>
+	<boolean name="allow_hold_video_call_bool" value="true"/>
+	<boolean name="show_oplus_video_hold_bool" value="true"/>
+	<boolean name="display_call_type_icon_bool" value="true"/>
+	<int name="vowifi_preferred_hide_mode" value="1"/>
+	<boolean name="config_oplus_show_3g_only" value="true"/>
+	<boolean name="show_oplus_video_hold_bool" value="true"/>
+	<boolean name="enable_fixed_dialing_number_phone_lookup" value="true"/>
+	<boolean name="com.google.android.dialer.display_wifi_calling_button_bool" value="true"/>
+</carrier_config>

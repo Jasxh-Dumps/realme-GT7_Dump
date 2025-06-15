@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.show_notification_when_register_vowifi"/>
+	<app_feature name="com.android.phone.simsettings.hide_5G_switch_in_develop"/>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_switch_title_dynamic" args="String:de_vdf_vowifi_enable_title"/>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_dialog_dynamic" args="StringList:array">
+		<StringList name="array" args="key_title;wifi_calling_vodafone_title;key_message;wifi_calling_vodafone_message;key_positive_button;wifi_calling_positive_button;key_negative_button;wifi_calling_negative_button;key_dialog_type;not_ask_dialog"/>
+	</app_feature>
+	<app_feature name="com.android.phone.simsettings.disable_apn_preferences" args="StringList:array">
+		<StringList name="array" args="bearer"/>
+	</app_feature>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_notification_dynamic" args="StringList:array">
+		<StringList name="array" args="key_title;viwifi_notification_title_de;key_message;vodafone_vowifi_notification_content"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_name_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_5g_4g_3g_2g_auto;oplus_4g_3g_2g_auto"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="33;9"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_name_list_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_4g_3g_2g_auto"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_dynamic" args="StringList:type">
+		<StringList name="type" args="9"/>
+	</app_feature>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+	<app_feature name="com.android.systemui.show.pinpuk_func_support_carrier" args="String:vodafone"/>
+	<app_feature name="com.android.systemui.show_g_for_2g"/>
+	<app_feature name="com.android.systemui.keyguard_show_pinpukremains"/>
+	<app_feature name="com.android.systemui.keyguard_show_operatornotice"/>
+	<app_feature name="com.android.systemui.show_g_for_gprs"/>
+</extend_features>
+<!-- Timestamp 2023-09-19T11:04:07 #47302 -->

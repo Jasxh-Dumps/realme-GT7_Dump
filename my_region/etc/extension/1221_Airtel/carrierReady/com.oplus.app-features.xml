@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.omacp_apn_config" args="value">
+		<StringList name="value" args="apn;airtelgprs.com|airtelmms.com|airtelfun.com|ims;protocol;IPV4V6;protocol_roaming;IPV4V6"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2024-08-29T17:43:52 #208367 -->

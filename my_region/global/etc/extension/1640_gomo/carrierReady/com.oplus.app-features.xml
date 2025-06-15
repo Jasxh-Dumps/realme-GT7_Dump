@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.show_video_call_barring_dynamic"/>
+</extend_features>
+<!-- Timestamp 2024-01-23T14:46:43 #87438 -->

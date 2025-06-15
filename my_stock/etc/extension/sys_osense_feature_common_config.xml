@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <!-- <project>8350R</project> -->
+        <version>2025012401</version>
+        <filter-name>sys_osense_feature_common_config</filter-name>
+    </filter-conf>
+
+    <feature name="AppMng">
+        <config name="policyEnabled_config" type="bundle">
+            <item name="POLICY_CLEAN" type="bool" value="true"/>
+            <item name="POLICY_OFREEZER" type="bool" value="true"/>
+            <item name="POLICY_PRELOAD" type="bool" value="true"/>
+        </config>
+
+        <config name="appmngBqConfig" type="bundle">
+            <item name="maxHistoryFiles" type="int" value="30"/>
+            <item name="eventSize" type="int" value="3000"/>
+            <item name="tuningSwitch" type="bool" value="false"/>
+            <item name="DCSLog" type="bool" value="true"/>
+            <item name="zipTrigger" type="bool" value="false"/>
+            <item name="version" type="int" value="1"/>
+        </config>
+
+        <config name="defaultBigAppList_config" type="stringList">
+            <item name="com.oplus.camera"/>
+        </config>
+		
+		<config name="defaultTopAppList_config" type="stringList">
+            <item name="com.tencent.mm"/>
+            <item name="com.tencent.mobileqq"/>
+            <item name="com.ss.android.ugc.aweme"/>
+        </config>
+		
+		<config name="reentrantConfig" type="bundle">
+            <item name="reentrantSwitch" type="bool" value="true"/>
+        </config>
+
+        <config name="requestConfig" type="bundle">
+            <item name="dcsThreshold" type="int" value="300"/>
+            <item name="dcsPeriod" type="int" value="600000"/>
+        </config>
+		
+		<config name= "atomicCleanProcessWhiteList" type="stringList">
+            <item name="com.coloros.smartsidebar:edgepanel"/>
+            <item name="com.xunmeng.pinduoduo:titan"/>
+            <item name="com.tencent.mm:push"/>
+            <item name="com.taobao.taobao:channel"/>
+			<item name="com.oplus.trafficmonitor:network_control"/>
+            <item name="android.camera.cts"/>
+			<item name="android.process.media"/>
+        </config>
+
+        <config name="cpnProxyConfig" type="bundle">
+            <item name="FeatureSwitch" type="bool" value="true"/>
+            <item name="BroadcastSwitch" type="bool" value="true"/>
+            <item name="JobSwitch" type="bool" value="true"/>
+        </config>
+
+        <config name="BrProxyConfig" type="bundle">
+            <!-- scene AppStart|Camera|Game|CpuHighLoad -->
+            <item name="Scene" type="string" value="1"/>
+			
+            <!--defalut implicit broadcast -->
+            <item name="Action" type="stringList">
+                <item name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <item name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+                <item name="android.accounts.action.ACCOUNT_REMOVED"/>
+                <item name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"/>
+                <item name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+                <item name="android.hardware.usb.action.USB_ACCESSORY_DETACHED"/>
+                <item name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+                <item name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
+                <item name="android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"/>
+                <item name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"/>
+                <item name="android.bluetooth.device.action.ACL_CONNECTED"/>
+                <item name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+                <item name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <item name="android.intent.action.PACKAGE_REPLACED"/>
+            </item>
+
+            <!--scene support broadcast -->
+            <!-- scene AppStart|Camera|Game -->
+            <!--scene|action|action|... -->
+            <item name="SceneAction" type="stringList">
+                <item name="AppStart|action"/>
+                <item name="Camera|action"/>
+                <item name="Game|action"/>
+            </item>
+			
+            <!--scene support whiteList -->
+            <!-- scene Base|AppStart|Camera|Game -->
+            <!--scene|pkg|pkg|... -->
+            <item name="SceneWList" type="stringList">
+                <item name="Base|pkg"/>
+                <item name="AppStart|pkg"/>
+                <item name="Camera|pkg"/>
+                <item name="Game|pkg"/>
+            </item>
+			
+            <!--scene support blackList -->
+            <!-- scene Base|AppStart|Camera|Game -->
+            <!--scene|pkg|pkg|... -->
+            <item name="SceneBList" type="stringList">
+                <item name="Base|com.example.brproxy"/>
+                <item name="AppStart|pkg"/>
+                <item name="Camera|pkg"/>
+                <item name="Game|pkg"/>
+            </item>
+
+            <!-- scene CpuHighLoad|AppStart|Camera|Game -->
+			<!-- complex|action|pkg|pkg -->
+			<!-- white|pkg|pkg -->
+			<!-- black|pkg|pkg -->
+			<!-- trimwhite|action|action -->
+            <item name="CpuHighLoad" type="stringList">
+                <item name="white|com.android.launcher|com.android.systemui|com.oplus.camera|com.heytap.accessory"/>
+            </item>
+        </config>
+
+        <config name="JobProxyConfig" type="bundle">
+            <!-- scene AppStart|Camera|Game|CpuHighLoad -->
+            <item name="Scene" type="string" value="1"/>
+        </config>
+
+        <config name="osenseRefreshConfig" type="bundle">
+            <item name="switch" type="bool" value="true"/>
+        </config>
+		
+        <config name="skipLimitRefreshList" type="stringList">
+            <item name="com.android.launcher"/>
+			<item name="com.android.systemui"/>
+			<item name="com.qqgame.happymj"/>
+			<item name="com.coloros.assistantscreen"/>
+        </config>
+    </feature>
+    <feature name="Memory">
+	    <config name="psiConfig" type="bundle">
+            <item name="memConfig" type="string" value="0 50000 0 70000 1 50000 1 70000"/>
+            <item name="ioConfig" type="string" value="0 30000 0 50000 1 30000"/>
+        </config>
+    </feature>
+    <feature name="CPU">
+    </feature>
+    <feature name="IO">
+    </feature>
+</resources>

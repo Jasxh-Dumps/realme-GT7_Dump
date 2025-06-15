@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<string name="gps.supl_host">supl.google.com</string>
+	<string name="gps.supl_ver">0x20004</string>
+	<string name="gps.es_extension_sec">300</string>
+	<string name="gps.lpp_profile">0</string>
+	<string name="gps.use_emergency_pdn_for_emergency_supl">0</string>
+</carrier_config>
+<!-- Timestamp 2023-10-17T16:00:51 #56496 -->

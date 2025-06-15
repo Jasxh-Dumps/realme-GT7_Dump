@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="1"/>
+	<int name="vowifi_preferred_mode" value="2"/>
+	<int name="vowifi_roaming_preferred_mode" value="1"/>
+	<boolean name="display_hd_audio_property_bool" value="false"/>
+	<int name="smart5g_status" value="0"/>
+	<int name="smart5g_visible" value="1"/>
+	<boolean name="config_show_allow_2g_check_ims" value="true"/>
+	<int name="config_show_allow_2g" value="1"/>
+</carrier_config>
+<!-- Timestamp 2024-10-12T20:36:28 #239243 -->

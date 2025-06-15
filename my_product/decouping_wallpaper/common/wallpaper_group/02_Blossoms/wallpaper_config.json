@@ -1,0 +1,23 @@
+{
+  "group": "Blossoms",
+  "title": "盛放花朵",
+  "version": 3,
+  "wallpapers": [
+    {
+      "thumbPath": "./Blossoms01.webp",
+      "originPath": "./Blossoms01.webp"
+    },
+    {
+      "thumbPath": "./Blossoms02.webp",
+      "originPath": "./Blossoms02.webp"
+    },
+    {
+      "thumbPath": "./Blossoms03.webp",
+      "originPath": "./Blossoms03.webp"
+    },
+    {
+      "thumbPath": "./Blossoms04.webp",
+      "originPath": "./Blossoms04.webp"
+    }
+  ]
+}

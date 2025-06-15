@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="oplus_sim_switch_parameter" args="StringList:payjoy">
+        <StringList name="payjoy" args="name=com.payjoy.status|reboot_model=not_load_function|target_name=payjoy|clean_model=none_cleaned"/>
+    </app_feature>
+</extend_features>

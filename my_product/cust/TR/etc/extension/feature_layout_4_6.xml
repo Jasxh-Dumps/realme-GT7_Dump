@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.launcher.grid_layout_x_y" args="String:4|6"/>
+</extend_features>

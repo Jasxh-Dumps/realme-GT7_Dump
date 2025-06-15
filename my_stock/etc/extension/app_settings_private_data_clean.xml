@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<clean-config>
+    <!--data of SharedPreferences-->
+    <shared_prefs>
+        <!--rename file from sourcePath to targetPath-->
+        <renameFile sourcePath="oppo_region_select" targetPath="oplus_region_select" />
+        <!--rename key of SharedPreferences. convert the key as package name-->
+        <renameKey sourcePath="pref_app_state_config" matchRuler="package" valueType="Int"/>
+        <!--rename key from source to target. ** means any words-->
+        <renameKey sourcePath="settings_shared" oldKey="oppo.video.beauty." newKey="" matchRuler="contain"/>
+        <!--rename file and rename key-->
+        <renameFileAndKey sourcePath="oppo_settings_recent_sort" targetPath="oplus_settings_recent_sort" oldKey="oppo_settings_region_info_recent_v1.0" newKey="oplus_settings_region_info_recent_v1.0"/>
+    </shared_prefs>
+</clean-config>

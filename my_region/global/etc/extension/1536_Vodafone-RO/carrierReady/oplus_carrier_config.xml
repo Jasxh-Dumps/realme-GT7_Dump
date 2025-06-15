@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="0"/>
+	<boolean name="config_oplus_hide_2g_only" value="true"/>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+	<boolean name="allow_hold_video_call_bool" value="true"/>
+	<boolean name="show_oplus_video_hold_bool" value="true"/>
+	<boolean name="show_oplus_video_hold_bool" value="true"/>
+	<int name="smart5g_status" value="0"/>
+	<string name="gps.supl_host">supl.vodafone.com</string>
+	<string name="gps.supl_ver">0x20000</string>
+	<string name="gps.lpp_profile">3</string>
+	<string name="gps.a_glonass_pos_protocol_select">1</string>
+	<int name="smart5g_visible" value="0"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<int name="vowifi_roaming_preferred_mode" value="1"/>
+</carrier_config>
+<!-- Timestamp 2024-09-04T14:15:54 #212515 -->

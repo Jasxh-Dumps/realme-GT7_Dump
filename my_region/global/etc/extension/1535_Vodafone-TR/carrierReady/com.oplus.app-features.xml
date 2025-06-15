@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.hide_5G_switch_in_develop"/>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:hide"/>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:hide"/>
+	<app_feature name="com.android.phone.customize_network_name_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_5g_4_point_5g_3g_2g_auto;oplus_4point5g_3g_2g_auto;oplus_3g_2g_auto"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="33;9;0"/>
+	</app_feature>
+	<app_feature name="com.android.phone.network_mode_customize_5G_4G_3G_2G" args="String:oplus_5g_4_point_5g_3g_2g_auto"/>
+	<app_feature name="com.android.phone.network_mode_customize_4G_3G_2G" args="String:oplus_4point5g_3g_2g_auto"/>
+	<app_feature name="com.android.systemui.show_4dot5g_for_4gplus"/>
+	<app_feature name="com.android.systemui.show_4dot5g_for_4g"/>
+	<app_feature name="com.android.phone.simsettings.data_roaming_domestic_on_switch_control_national_dynamic"/>
+</extend_features>
+<!-- Timestamp 2024-08-01T19:29:55 #173467 -->

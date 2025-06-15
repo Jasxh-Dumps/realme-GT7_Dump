@@ -1,0 +1,6 @@
+<oplus-config>
+    <!-- OPLUS_FEATURE_AUDIOX -->
+    <oplus-feature name="oplus.software.audio.audioeffect_support"/>
+    <oplus-feature name="oplus.software.audio.audiox_support"/>
+</oplus-config>
+

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<AtomTracker>
+<version>1000</version>
+<atom>
+        <atomConfig appId="054502" appSide="1" enable="1" expired="ACTIVATION_DAYS:90" mask="2,21004" policy="0" rule="cellchange&amp;&amp;passivegps" version="1">
+            <parameter name="max_daily_size" value="819200" />
+            <parameter name="max_daily_count" value="5" />
+            <parameter name="atom_data_config" value="2" />
+            <parameter name="save_data_to_local" value="0" />
+            <parameter name="enable_debug_log" value="0" />
+            <parameter name="send_data_interval" value="300000" />
+        </atomConfig>
+</atom>
+</AtomTracker>

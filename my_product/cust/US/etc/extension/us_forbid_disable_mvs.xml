@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<extend_features>
+    <app_feature name="oplus_forbid_disabled_by_adb" args="StringList:forbid_disabled_pkg">
+        <StringList name="forbid_disabled_pkg" args="com.verizon.mips.services"/>
+    </app_feature>
+    <app_feature name="com.android.settings.disallow_force_stop_apps" args="StringList:apps">
+        <StringList name="apps" args="com.verizon.mips.services"/>
+    </app_feature>
+    <app_feature name="com.android.settings.disallow_disable_app" args="StringList:apps" >
+        <StringList name="apps" args="com.verizon.mips.services"/>
+    </app_feature>
+    <interface_feature name="oplus.software.android.add_persistent_app" type="twice" args="StringList:package">
+        <StringList name="package" args="com.verizon.mips.services"/>
+    </interface_feature>
+</extend_features>

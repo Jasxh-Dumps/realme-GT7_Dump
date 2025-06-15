@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+	<default-grant-ops-permissions package="com.oplus.camera" sha256-cert-digest="B0:A9:BB:FC:05:EE:E5:E7:D0:A2:C9:7C:03:05:86:E1:5B:B3:30:11:52:07:8F:54:47:3B:B8:2D:F6:D8:C8:18">
+		<permission name="android.permission.TURN_SCREEN_ON"/>
+	</default-grant-ops-permissions>
+</packages>
+<!-- Timestamp 2025-01-14T12:15:43 #527732 -->

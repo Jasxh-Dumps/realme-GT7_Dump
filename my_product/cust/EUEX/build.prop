@@ -1,0 +1,15 @@
+ro.vendor.oplus.radio.esim.feature=2
+setupwizard.feature.esim_enabled=true
+ro.oplus.radio.global_regionlock.cert=1661243390038,EU
+ro.oplus.radio.global_regionlock.log=true
+ro.oplus.radio.global_regionlock.enabled=true
+ro.oplus.radio.global_regionlock.info=EU
+ro.oplus.radio.global_regionlockflag=3
+ro.com.google.clientidbase.tx=android-realme-terr2-rso2
+ro.com.google.clientidbase.ms=android-realme-terr2-rso2
+ro.com.google.clientidbase.vs=android-realme-terr2-rso2
+ro.com.google.clientidbase.tx=android-realme-terr2-rso3
+ro.com.google.clientidbase.ms=android-realme-terr2-rso3
+ro.com.google.clientidbase.vs=android-realme-terr2-rso3
+ro.com.google.clientidbase.pg=android-realme-deo3
+ro.vendor.oplus.version=eu

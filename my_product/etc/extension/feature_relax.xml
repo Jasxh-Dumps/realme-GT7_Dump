@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- DeMing.Zhao@ANDROID.FRAMEWORK, 2021/11/02, add for feature of cnfidentiality requirements -->
+    <app_feature name="relax.show.spacevoice" args="boolean:true"/>
+    <!-- DeMing.Zhao@ANDROID.FRAMEWORK, 2021/11/02, add end -->
+</extend_features>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2025051201</version>
+    <filter-name>sys_athena_custom_config_list</filter-name>
+
+	<config_map key="clear_appcare_value" type="Integer">
+        <sub key="1" val="100" />
+        <sub key="103" val="99" />
+        <sub key="2" val="98" />
+        <sub key="3" val="96" />
+        <sub key="4" val="94" />
+        <sub key="101" val="92" />
+        <sub key="102" val="90" />
+        <sub key="104" val="90" />
+        <sub key="5" val="86" />
+        <sub key="108" val="78" />
+        <sub key="7" val="82" />
+        <sub key="8" val="80" />
+        <sub key="9" val="78" />
+        <sub key="10" val="66" />
+        <sub key="105" val="62" />
+        <sub key="111" val="60" />
+        <sub key="109" val="56" />
+        <sub key="123" val="54" />
+        <sub key="112" val="52" />
+        <sub key="130" val="51" />
+        <sub key="124" val="46" />
+        <sub key="12" val="44" />
+        <sub key="113" val="42" />
+        <sub key="125" val="38" />
+        <sub key="115" val="32" />
+        <sub key="120" val="30" />
+        <sub key="121" val="25" />
+        <sub key="122" val="24" />
+        <sub key="106" val="22" />
+        <sub key="110" val="20" />
+        <sub key="129" val="19" />
+        <sub key="128" val="19" />
+        <sub key="6" val="10" />
+        <sub key="114" val="8" />
+        <sub key="126" val="7" />
+        <sub key="107" val="6" />
+        <sub key="13" val="2" />
+        <sub key="127" val="1" />
+        <sub key="131" val="0" />
+    </config_map>
+
+    <config_map key="self_dev_startup_protect_threshold" type="Long">
+		<sub key="2" val="0" />
+		<sub key="3" val="0" />
+		<sub key="4" val="0" />
+		<sub key="6" val="0" />
+		<sub key="8" val="0" />
+		<sub key="12" val="180000" />
+	</config_map>
+</filter-conf>

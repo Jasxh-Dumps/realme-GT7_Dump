@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.heysynergy.func_brief_url_12.0" args="String:connect.realme.com"/>
+	<app_feature name="com.oplus.lockassistant.support_region_netlock_unlock"/>
+	<app_feature name="com.oplus.lockassistant.region_batch_unlock_default_url" args="String:https://phone-service.realme.com/"/>
+</extend_features>
+<!-- Timestamp 2024-07-22T19:04:57 #164756 -->

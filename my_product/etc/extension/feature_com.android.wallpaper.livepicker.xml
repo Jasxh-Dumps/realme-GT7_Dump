@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- DeMing.Zhao@ANDROID.FRAMEWORK, 2022/11/12, add for feature of cnfidentiality requirements -->
+    <app_feature name="oplus.wallpaper.time_wallpaper.support" args="int:1"/>
+    <!-- DeMing.Zhao@ANDROID.FRAMEWORK, 2022/11/12, add end -->
+</extend_features>

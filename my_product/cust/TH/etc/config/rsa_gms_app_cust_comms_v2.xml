@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.google.android.dialer" priority="9" />
+  <disable pkg="com.google.android.contacts" priority="9" />
+</app>

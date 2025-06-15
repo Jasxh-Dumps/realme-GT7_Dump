@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <filter-name>game_eye_protect_blacklist</filter-name>
+    <version>20240923</version>
+    <singlePulse>0</singlePulse>
+    <lowestCCT>4300</lowestCCT>
+    <amplitude>10</amplitude>
+    <smallAmplitude>5</smallAmplitude>
+    <adjustmentAfterFatigue>0</adjustmentAfterFatigue>
+    <day>120</day>
+    <night>60</night>
+    <fatigue>30</fatigue>
+    <breakTime>20</breakTime>
+</filter-conf>

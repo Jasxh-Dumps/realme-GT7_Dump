@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which preinstalled apps have Android Security Label data by declaring the
+path to the XML file containing this data.
+
+Example usage:
+    <asl-file package="com.foo.bar" path="/vendor/etc/asl/com.foo.bar.xml"/>
+-->
+
+<config>
+    <!-- <asl-file package="com.oplus.camera" path="/my_stock/etc/asl/com.oplus.camera-safetyLabel.xml"/> -->
+    <asl-file package="com.oplus.consumerIRApp" path="/my_stock/etc/asl/com.oplus.consumerIRApp-safetyLabel.xml"/>
+</config>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.vip_preload"/>
+	<oplus-feature name="oplus.software.parallel_preload"/>
+	<oplus-feature name="oplus.software.next_preload"/>
+	<oplus-feature name="oplus.software.sau_preload"/>
+	<oplus-feature name="oplus.software.key_quickoperate_torch"/>
+	<oplus-feature name="oplus.software.resolver_share_email"/>
+	<oplus-feature name="oplus.software.uxicon_exp"/>
+	<oplus-feature name="os.tool.midas"/>
+	<oplus-feature name="oplus.software.notify_wellbeing"/>
+	<oplus-feature name="oplus.software.pms_install_statistics_no_silent"/>
+	<oplus-feature name="oplus.software.pms_device_owner_uninstall_policy"/>
+	<oplus-feature name="oplus.software.multiapp_support_rlm"/>
+	<oplus-feature name="oplus.software.radio.custom_ecclist_writable"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<oplus-feature name="oplus.software.flexible_freeform.support"/>
+	<oplus-feature name="oplus.software.pocketstudio.support"/>
+	<oplus-feature name="os.tool.midas.midasd.enable"/>
+	<oplus-feature name="os.tool.midas.ostatsd.enable"/>
+	<oplus-feature name="os.tool.midas.ostats_tpd.enable"/>
+	<oplus-feature name="os.tool.midas.ostats_pullerd.enable"/>
+	<oplus-feature name="oplus.software.pms_oplus_otadexopt_disabled"/>
+	<oplus-feature name="oplus.software.gsa_gameload"/>
+	<oplus-feature name="oplus.software.gsa_refresh"/>
+	<oplus-feature name="oplus.software.forwardly_freeze"/>
+	<oplus-feature name="oplus.software.keep_alive_ext"/>
+	<oplus-feature name="oplus.software.keep_alive"/>
+</oplus-config>
+<!-- Timestamp 2025-01-06T18:10:19 #520373 -->

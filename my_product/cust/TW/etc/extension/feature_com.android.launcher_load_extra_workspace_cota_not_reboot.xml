@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.launcher.load_extra_workspace_cota_not_reboot" />
+</extend_features>

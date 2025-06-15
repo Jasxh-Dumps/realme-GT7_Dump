@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<boolean name="carrier_allow_transfer_ims_call_bool" value="false"/>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+	<boolean name="display_call_type_icon_bool" value="true"/>
+	<boolean name="carrier_allow_transfer_cs_call_bool" value="false"/>
+	<boolean name="config_oplus_2g_calls_can_be_hd_audio" value="false"/>
+</carrier_config>

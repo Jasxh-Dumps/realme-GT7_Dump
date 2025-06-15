@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- add for RUS lowvoltage temperature brightness limit. -->
+    <version>20250212</version>
+
+    <lowvoltage_brightness_limit support="1" name="P_3" temperatureRange="10,100">
+        <limitnit batteryRange="0, 5C">1000</limitnit>  <!--batteryRange (a,b]-->
+        <limitnit batteryRange="5, 15C">2273</limitnit>
+        <limitnit batteryRange="15, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_3" temperatureRange="5,10C">
+        <limitnit batteryRange="0, 10C">1000</limitnit> <!--batteryRange (a,b]-->
+        <limitnit batteryRange="10, 25C">2273</limitnit>
+        <limitnit batteryRange="25, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_3" temperatureRange="0,5C">
+        <limitnit batteryRange="0, 15C">1000</limitnit> <!--batteryRange (a,b]-->
+        <limitnit batteryRange="15, 32C">2273</limitnit>
+        <limitnit batteryRange="32, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_3" temperatureRange="-100,0C">
+        <limitnit batteryRange="0, 25C">1000</limitnit> <!--batteryRange (a,b]-->
+        <limitnit batteryRange="25, 50C">2273</limitnit>
+        <limitnit batteryRange="50, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_7" temperatureRange="10,100">
+        <limitnit batteryRange="0, 5C">1000</limitnit>  <!--batteryRange (a,b]-->
+        <limitnit batteryRange="5, 15C">2273</limitnit>
+        <limitnit batteryRange="15, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_7" temperatureRange="5,10C">
+        <limitnit batteryRange="0, 10C">1000</limitnit> <!--batteryRange (a,b]-->
+        <limitnit batteryRange="10, 25C">2273</limitnit>
+        <limitnit batteryRange="25, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_7" temperatureRange="0,5C">
+        <limitnit batteryRange="0, 15C">1000</limitnit> <!--batteryRange (a,b]-->
+        <limitnit batteryRange="15, 32C">2273</limitnit>
+        <limitnit batteryRange="32, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+
+    <lowvoltage_brightness_limit support="1" name="P_7" temperatureRange="-100,0C">
+        <limitnit batteryRange="0, 25C">1000</limitnit> <!--batteryRange (a,b]-->
+        <limitnit batteryRange="25, 50C">2273</limitnit>
+        <limitnit batteryRange="50, 100C">2273</limitnit>
+    </lowvoltage_brightness_limit>
+</root>

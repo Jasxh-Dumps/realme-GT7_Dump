@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="1"/>
+	<int name="vowifi_status" value="0"/>
+	<boolean name="carrier_allow_transfer_ims_call_bool" value="true"/>
+	<int name="vowifi_preferred_mode" value="2"/>
+	<boolean name="display_hd_audio_property_bool" value="false"/>
+	<boolean name="allow_hold_video_call_bool" value="true"/>
+	<boolean name="com.google.android.dialer.display_wifi_calling_button_bool" value="true"/>
+	<int name="smart5g_status" value="0"/>
+	<int name="smart5g_visible" value="1"/>
+	<boolean name="carrier_allow_transfer_cs_call_bool" value="true"/>
+	<boolean name="display_call_type_icon_bool" value="false"/>
+	<boolean name="oplus_hide_cancel_all_and_change_psw_when_utenable" value="true"/>
+	<boolean name="config_show_allow_2g_check_ims" value="true"/>
+	<int name="config_show_allow_2g" value="1"/>
+</carrier_config>
+<!-- Timestamp 2024-08-06T09:53:00 #178194 -->

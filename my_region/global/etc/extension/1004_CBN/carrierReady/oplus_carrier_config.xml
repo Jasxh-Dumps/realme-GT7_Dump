@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="0"/>
+	<int name="fiveg_visible" value="1"/>
+</carrier_config>

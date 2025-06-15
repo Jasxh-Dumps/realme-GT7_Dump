@@ -1,0 +1,1780 @@
+<filter-conf>
+    <!-- global config -->
+	<version>20250222</version>
+	<!-- 1:open 0:close -->
+	<open>1</open>
+	<filter-name>smart_loop_drag_extension</filter-name>
+	<!-- 1:Text 10:Image 100:WebView 1000:File View 10000:Normal View -->
+	<drag-type>31</drag-type>
+	<!-- 1:open 0:close -->
+	<log>1</log>
+	<!-- 1:open 0:close -->
+	<data-tracking>1</data-tracking>
+	<!-- ms -->
+	<press-timeout>1000</press-timeout>
+	<!-- px -->
+	<touch-slop>24</touch-slop>
+	<!-- 1\3\4\5\6\7\8 same with Bitmap.Config -->
+	<bitmap-config>4</bitmap-config>
+	<!-- 0~1, float -->
+	<bitmap-scale>1</bitmap-scale>
+	<!-- package config -->
+	<package>
+        <name>com.heytap.cloud</name>
+    </package>
+	<package>
+        <name>com.realmestore.app</name>
+    </package>
+	<package>
+        <name>com.heytap.pictorial</name>
+    </package>
+	<package>
+        <name>com.coloros.colordirectservice</name>
+    </package>
+	<package>
+        <name>com.heytap.music</name>
+    </package>
+	<package>
+        <name>com.coloros.calculator</name>
+    </package>
+	<package>
+        <name>com.coloros.alarmclock</name>
+    </package>
+	<package>
+        <name>com.android.providers.downloads.ui</name>
+    </package>
+	<package>
+        <name>com.android.wallpaper.livepicker</name>
+    </package>
+	<package>
+        <name>com.android.mms</name>
+		<drag-type>3</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.android.mms.ui.conversation.ConversationActivity</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,HeightLimitTextView,AsyncImageView,MaterialTextView,TextView</target-views>
+			<views>
+				<item class="androidx.appcompat.widget.AppCompatImageView" parentclass="android.widget.FrameLayout" parentid="record_button" count = "1" type = "0" />
+			</views>
+		</activity>
+    </package>
+	<package>
+        <name>com.realmecomm.app</name>
+		<activity>
+			<name>com.android.realme2.home.view.MainActivity</name>
+			<drag-type>3</drag-type>
+		</activity>
+		<activity>
+			<name>com.android.realme2.mine.view.HomepageActivity</name>
+			<drag-type>3</drag-type>
+		</activity>
+		<activity>
+			<name>com.android.realme2.board.view.BoardDetailActivity</name>
+			<drag-type>3</drag-type>
+		</activity>
+		<activity>
+			<name>com.android.realme2.post.view.PostDetailActivity</name>
+			<drag-type>7</drag-type>
+            <evaluate-js>evaluateJavascript</evaluate-js>
+			<target-views>WebView,RoundedImageView,AppCompatTextView,AppCompatImageView</target-views>
+		</activity>
+    </package>
+	<package>
+        <name>com.nearme.gamecenter</name>
+    </package>
+	<package>
+        <name>com.coloros.karaoke</name>
+    </package>
+	<package>
+        <name>com.heytap.usercenter</name>
+    </package>
+	<package>
+        <name>com.realme.movieshot</name>
+    </package>
+	<package>
+        <name>com.heytap.market</name>
+    </package>
+	<package>
+        <name>com.coloros.soundrecorder</name>
+    </package>
+	<package>
+        <name>com.coloros.video</name>
+    </package>
+	<package>
+        <name>com.coloros.assistantscreen</name>
+    </package>
+	<package>
+        <name>com.android.htmlviewer</name>
+    </package>
+	<package>
+        <name>com.oplus.viewtalk</name>
+    </package>
+	<package>
+        <name>com.realme.storecn</name>
+    </package>
+	<package>
+        <name>com.realme.store</name>
+    </package>
+	<package>
+        <name>com.realme.linkcn</name>
+    </package>
+	<package>
+        <name>com.realme.link</name>
+    </package>
+	<package>
+        <name>com.heytap.browser</name>
+        <press-timeout>700</press-timeout>
+        <activity>
+            <name>com.android.browser.BrowserActivity</name>
+            <drag-type>4</drag-type>
+            <target-views>KKWebView</target-views>
+            <evaluate-js>evaluateJavascript</evaluate-js>
+        </activity>
+        <activity>
+            <name>com.heytap.browser.app.news.content.NewsHomeActivity</name>
+            <drag-type>4</drag-type>
+            <target-views>KKWebView</target-views>
+            <evaluate-js>evaluateJavascript</evaluate-js>
+        </activity>
+    </package>
+	<package>
+		<name>com.google.android.youtube</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.google.android.apps.youtube.app.watchwhile.InternalMainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<skip-covered>1</skip-covered>
+			<data-tracking>1</data-tracking>
+			<target-views>hep,ComponentHost,hhb,feq,few,ComponentHost,ImageView</target-views>
+			<views><!--realme custom-->
+				<item class="android.widget.ImageView" id="" parentclass="com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView" parentid="results" count="6" type="2"/>
+			    <item class="com.facebook.litho.ComponentHost" id="" parentclass="android.widget.FrameLayout" parentid="metapanel" count="3" type="1" />
+			    <item class="com.facebook.litho.ComponentHost" id="" parentclass="android.widget.FrameLayout" parentid="metapanel" count="4" type="1" />
+			    <item class="com.facebook.litho.ComponentHost" id="" parentclass="com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView" parentid="results" count="2" type="1" />
+			    <item class="android.widget.ImageView" id="" parentclass="com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView" parentid="results" count="4" type="2"/>
+			    <item class="android.widget.ImageView" id="" parentclass="android.support.v7.widget.RecyclerView" parentid="watch_list" count="4" type="2"/>
+			    <item class="android.widget.ImageView" id="" parentclass="android.widget.FrameLayout" parentid="footer" count="3" type="2"/>
+				<item class="com.facebook.litho.ComponentHost" id="" parentclass="android.support.v7.widget.RecyclerView" parentid="watch_list" count = "2" type = "1" />
+				<item class="android.widget.ImageView" id="" parentclass="android.support.v7.widget.RecyclerView" parentid="watch_list" count = "8" type = "2" />
+				<item class="few" id="" parentclass="android.support.v7.widget.RecyclerView" parentid="conversation_list" count = "1" type = "1" />
+				<item class="feq" id="" parentclass="android.support.v7.widget.RecyclerView" parentid="conversation_list" count = "1" type = "1" />
+				<item class="android.widget.ImageView" id="" parentclass="android.support.v7.widget.RecyclerView" parentid="conversation_list" count = "2" type = "2" />
+				<item class="hhb" id="" parentclass="com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView" parentid="results" count = "9" type = "2" />
+				<item class="hep" id="" parentclass="com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView" parentid="results" count = "5" type = "2" />
+				<item class="hep" id="" parentclass="com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView" parentid="results" count = "9" type = "2" />
+			</views>
+		</activity>
+	</package>
+
+	<!-- package config -->
+	<package>
+		<name>com.tencent.mm</name>
+		<drag-type>3</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.tencent.mm.ui.LauncherUI</name>
+			<drag-type>31</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>NoMeasuredTextView,WeImageView,MMImageView,ImageView,ChattingEmojiView,X2CTextView,MMNeat7extView,MMTextView,LinearLayout,TextView,MultiTouchImageView,SubsamplingScaleImageView</target-views>
+			<views>
+				<item class="android.widget.ImageView"  parentclass="com.tencent.mm.ui.chatting.view.MMChattingListView"  count = "7" type = "2" />
+				<item class="android.widget.TextView"  parentclass="android.widget.LinearLayout"  count = "4" type = "1" />
+				<item class="com.tencent.mm.ui.widget.imageview.WeImageView"  parentclass="android.widget.PopupWindow$PopupDecorView" count = "7" type = "0" />
+				<item class="android.widget.LinearLayout"  parentclass="android.widget.FrameLayout" count = "1" type = "4" field="field_fileFullPath" target="longclick" targetField="tag" path="com.tencent.mm.storage;com.tencent.mm.storage;com.tencent.mm.pluginsdk.model.app" flag="3"/>
+				<item class="com.tencent.mm.pluginsdk.ui.emoji.ChattingEmojiView" count = "0" type = "2" />
+				<item class="com.tencent.mm.view.x2c.X2CTextView" parentclass="com.tencent.mm.ui.chatting.view.MMChattingListView" count = "3" type = "0" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.ui.chatting.ChattingUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>NoMeasuredTextView,WeImageView,MMImageView,ImageView,ChattingEmojiView,X2CTextView,MMNeat7extView,MMTextView</target-views>
+			<views>
+				<item class="android.widget.ImageView"  parentclass="com.tencent.mm.ui.chatting.view.MMChattingListView"  count = "7" type = "2" />
+				<item class="com.tencent.mm.pluginsdk.ui.emoji.ChattingEmojiView" count = "0" type = "2" />
+				<item class="com.tencent.mm.view.x2c.X2CTextView" parentclass="com.tencent.mm.ui.chatting.view.MMChattingListView" count = "3" type = "0" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.readerapp.ui.ReaderAppUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ImageView,MMNeat7extView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI</name>
+			<drag-type>7</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MMWebView,MMNeat7extView,ImageView,PinusWebView$CustomPsWeb</target-views>
+			<evaluate-js>evaluateJavascript</evaluate-js>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI</name>
+			<drag-type>7</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MMWebView,MMNeat7extView,ImageView,PinusWebView$CustomPsWeb</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MaskImageView,ImproveTextView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.ui.chatting.gallery.ImageGalleryUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>SubsamplingScaleImageView,MultiTouchImageView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.sns.ui.SnsBrowseUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MultiTouchImageView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.sns.ui.SnsUserUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>CornerMaskImageView,MMNeat7extView,TextView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.sns.ui.SnsGalleryUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MultiTouchImageView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ImproveTouchableTextView,TextView,MaskImageView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.plugin.profile.ui.ContactInfoUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ImageView,MMNeat7extView,TextView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.ui.chatting.TextPreviewUI</name>
+			<drag-type>3</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TextView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mm.pluginsdk.ui.tools.MiniQBReaderUI</name>
+			<drag-type>31</drag-type>
+			<type>1</type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>LinearLayout</target-views>
+			<views>
+				<item class="android.widget.LinearLayout"  parentclass="android.widget.RelativeLayout"  count = "1" type = "4" target= "context" targetField="intent" field="file_path"/>
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.tencent.mobileqq</name>
+		<drag-type>3</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.tencent.mobileqq.activity.SplashActivity</name>
+			<drag-type>31</drag-type>
+			<target-views>AIOMsgTextView,RoundBubbleImageView,QZoneRichTextView,ImageView,QZoneNickNameView,ConstraintLayout</target-views>
+			<views>
+                <item class="com.tencent.qqnt.aio.widget.AIOMsgTextView" count = "0" type = "1" />
+				<item class="com.tencent.mobileqq.qqui.widget.RoundBubbleImageView" count = "0" type = "2" />
+				<item class="androidx.constraintlayout.widget.ConstraintLayout" parentclass="android.widget.RelativeLayout" count = "1" type = "4" target="onclicklistener" path="com.tencent.mobileqq.aio.msglist.holder.component.file;com.tencent.qqnt.kernel.nativeinterface;com.tencent.qqnt.kernel.nativeinterface" field="filePath" flag="3"/>
+			</views>
+		</activity>
+		<activity>
+			<name>com.tencent.mobileqq.filebrowser.FileBrowserActivity</name>
+			<drag-type>31</drag-type>
+			<target-views>LinearLayout</target-views>
+			<views>
+				<item class="android.widget.LinearLayout" parentclass="android.widget.RelativeLayout" count = "1" type = "4" target = "context" path = "com.tencent.mobileqq;com.tencent.mobileqq.filemanager.data" field ="strFilePath"/>
+			</views>
+		</activity>
+		<activity>
+			<name>com.tencent.mobileqq.activity.ChatActivity</name>
+			<drag-type>3</drag-type>
+			<target-views>AIOMsgTextView,RoundBubbleImageView,QZoneRichTextView,ImageView,QZoneNickNameView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.mobileqq.activity.MultiForwardActivity</name>
+			<drag-type>3</drag-type>
+			<target-views>AIOMsgTextView,RoundBubbleImageView,QZoneRichTextView,ImageView,QZoneNickNameView</target-views>
+		</activity>
+		<activity>
+			<name>com.tencent.richframework.gallery.QQGalleryActivity</name>
+			<drag-type>3</drag-type>
+			<target-views>RFWMatrixImageView,SubsamplingScaleImageView</target-views>
+		</activity>
+		<activity>
+			<name>com.qzone.reborn.layer.part.QZoneFeedXGalleryActivity</name>
+			<drag-type>3</drag-type>
+			<target-views>RFWMatrixImageView,CellTextView</target-views>
+		</activity>
+	</package>
+	<package>
+		<name>com.whatsapp</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.whatsapp.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>26l,TextEmojiLabel</target-views>
+			<views><!--realme custom-->
+				 <item class="com.whatsapp.TextEmojiLabel" id="conversations_row_contact_name" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.whatsapp.Conversation</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>26l,TextEmojiLabel,WaImageView,RowImageView,ThumbnailButton,WaTextView,ConversationRowImage$RowImageView</target-views>
+			<views><!--realme custom-->
+				 <item class="X.26l" id="" parentclass="com.whatsapp.conversation.ConversationListView" parentid="list" count = "1" type = "1" />
+               <item class="com.whatsapp.TextEmojiLabel" id="message_text" parentclass="" parentid="" count = "0" type = "1" />
+               <item class="com.whatsapp.WaImageView" id="picture" parentclass="" parentid="" count = "0" type = "2" />
+               <item class="com.whatsapp.conversation.conversationrow.ConversationRowImage$RowImageView" id="image" parentclass="" parentid="" count = "0" type = "2" />
+			    <item class="com.whatsapp.components.button.ThumbnailButton" id="webPagePreviewImageLarge_thumb" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.whatsapp.WaTextView" id="snippet" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.whatsapp.WaTextView" id="voice_note_slide_to_cancel" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.whatsapp.TextEmojiLabel" id="caption" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.viber.voip</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.viber.voip.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AvatarWithInitialsView,ViberTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.viber.voip.core.ui.widget.AvatarWithInitialsView" id="icon" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.ViberTextView" id="from" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.viber.voip.messages.ui.ConversationActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AvatarWithInitialsView,ViberTextView,AppCompatTextView,MessageTextView,ShapeImageView,GifShapeImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.viber.voip.core.ui.widget.AvatarWithInitialsView" id="icon" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.ViberTextView" id="from" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="" parentclass="androidx.appcompat.widget.Toolbar" parentid="toolbar" count = "1" type = "1" />
+				<item class="com.viber.voip.widget.MessageTextView" id="textMessageView" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.viber.voip.core.ui.widget.AvatarWithInitialsView" id="avatarView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.ShapeImageView" id="imageView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.ShapeImageView" id="imageView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.widget.MessageTextView" id="" parentclass="com.viber.voip.core.ui.widget.FormattedMessageLayout" parentid="formattedMessageView" count = "1" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.GifShapeImageView" id="imageView" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.viber.voip.messages.comments.CommentsActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MessageTextView,ViberTextView,ShapeImageView,GifShapeImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.viber.voip.widget.MessageTextView" id="textMessageView" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.viber.voip.core.ui.widget.ViberTextView" id="emojiView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.ShapeImageView" id="imageView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.viber.voip.core.ui.widget.GifShapeImageView" id="imageView" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.instagram.android</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<skip-event>1</skip-event>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.instagram.mainactivity.InstagramMainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<skip-covered>1</skip-covered>
+			<data-tracking>1</data-tracking>
+			<target-views>CircularImageView,CommentTextView,IgTextView,LinkTextView,IgImageView,IgTextLayoutView</target-views>
+			<views><!--realme custom-->
+				<item class="com.instagram.common.ui.widget.imageview.CircularImageView" id="row_comment_imageview" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.ui.widget.textview.CommentTextView" id="row_comment_textview_comment" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.common.ui.widget.imageview.CircularImageView" id="row_profile_header_imageview" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="action_bar_title" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.feed.ui.text.LinkTextView" id="profile_header_bio_text" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="row_comment_textview_reply_button" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.common.ui.widget.imageview.IgImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.common.ui.widget.imageview.IgImageView" id="ar_effect_in_tray_icon" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="dial_ar_effect_title" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="cam_dest_story" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="" parentclass="com.instagram.igds.components.mediabutton.IgdsMediaButton" parentid="" count = "1" type = "0" />
+				<item class="com.instagram.ui.widget.textview.IgTextLayoutView" id="" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.instagram.modal.ModalActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>CircularImageView,CommentTextView,IgTextView,LinkTextView,IgImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.instagram.common.ui.widget.imageview.CircularImageView" id="row_comment_imageview" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.ui.widget.textview.CommentTextView" id="row_comment_textview_comment" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.common.ui.widget.imageview.CircularImageView" id="row_profile_header_imageview" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="action_bar_title" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.feed.ui.text.LinkTextView" id="profile_header_bio_text" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="row_comment_textview_reply_button" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.instagram.common.ui.widget.imageview.IgImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.instagram.common.ui.base.IgTextView" id="profile_header_full_name" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.mxtech.videoplayer.ad</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.mxtech.videoplayer.ad.LocalTabActivityMediaList</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="thumb" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="title" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.meesho.supply</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<skip-event>1</skip-event>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.meesho.supply.main.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,MaterialTextView,MeshShapeableImageView</target-views>
+			<views><!--realme custom-->
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="catalog_cover" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="search_icon" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="iv_mic" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="iv_camera" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.google.android.material.textview.MaterialTextView" id="original_price" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.meesho.mesh.android.molecules.MeshShapeableImageView" id="default_profile_image" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.meesho.discovery.catalog.impl.list.CatalogListActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,MaterialTextView,MeshShapeableImageView</target-views>
+			<views><!--realme custom-->
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="catalog_cover" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.google.android.material.textview.MaterialTextView" id="original_price" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.meesho.mesh.android.molecules.MeshShapeableImageView" id="default_profile_image" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.meesho.discovery.pdp.impl.SingleProductActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<skip-covered>1</skip-covered>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,MaterialTextView,ExpandableTextView,MeshShapeableImageView</target-views>
+			<views><!--realme custom-->
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="" parentclass="android.widget.FrameLayout" parentid="product_image" count = "1" type = "2" />
+				<item class="com.meesho.mesh.android.molecules.MeshShapeableImageView" id="review_image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.meesho.customviews.ExpandableTextView" id="review_description" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.google.android.material.textview.MaterialTextView" id="product_name_text_with_brand" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.meesho.discovery.pdp.impl.productpreview.FullScreenViewPagerActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<skip-covered>1</skip-covered>
+			<data-tracking>1</data-tracking>
+			<target-views>TouchImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.meesho.customviews.TouchImageView" id="" parentclass="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.meesho.discovery.reviewmedia.impl.ReviewCarouselActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ImageView,ExpandableTextView</target-views>
+			<views><!--realme custom-->
+				<item class="android.widget.ImageView" id="" parentclass="android.widget.FrameLayout" parentid="media_review_image_holder" count = "1" type = "2" />
+				<item class="com.meesho.customviews.ExpandableTextView" id="review_description" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.whatsapp.w4b</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.whatsapp.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>WDSProfilePhoto,TextEmojiLabel</target-views>
+			<views><!--realme custom-->
+				<item class="com.whatsapp.TextEmojiLabel" id="conversations_row_contact_name" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.whatsapp.wds.components.profilephoto.WDSProfilePhoto" id="contact_photo" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.whatsapp.Conversation</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>RowImageView,TextEmojiLabel,WaTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.whatsapp.conversation.conversationrow.ConversationRowImage$RowImageView" id="image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.whatsapp.TextEmojiLabel" id="message_text" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.whatsapp.WaTextView" id="title" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.whatsapp.contact.picker.ContactPicker</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TextEmojiLabel</target-views>
+			<views><!--realme custom-->
+				<item class="com.whatsapp.TextEmojiLabel" id="contactpicker_row_name" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.whatsapp.MessageQrActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>QrImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.whatsapp.QrImageView" id="qr_code" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.lazada.android</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.lazada.activities.EnterActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>LazHomePageRoundImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.lazada.android.homepage.widget.LazHomePageRoundImageView" id="iv_homepage_banner" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.lazada.android.pdp.module.detail.LazDetailActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TUrlImageView,FontTextView,OvalIconTextView,CommonDinamicImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.lazada.android.uikit.view.image.TUrlImageView" id="pdp_gallery_item_image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.lazada.core.view.FontTextView" id="title" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.lazada.android.pdp.ui.OvalIconTextView" id="" parentclass="android.widget.LinearLayout" parentid="ll_texts_container" count = "1" type = "1" />
+				<item class="com.lazada.android.chameleon.view.CommonDinamicImageView" id="" parentclass="com.lazada.android.chameleon.view.ChameleonContainer" parentid="chameleon_universal_container" count = "2" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.lenovo.anyshare.gps</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.lenovo.anyshare.share.ShareActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>NightImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.ushareit.theme.night.view.NightImageView" id="b09" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.ushareit.filemanager.main.media.photoviewer.PhotoViewerActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>PhotoView</target-views>
+			<views><!--realme custom-->
+				<item class="com.ushareit.photo.photoview.PhotoView" id="c4_" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.lenovo.anyshare.main.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>NightImageView,AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.ushareit.theme.night.view.NightImageView" id="b98" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="androidx.appcompat.widget.AppCompatTextView" id="b9m" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.shopee.id</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.shopee.app.ui.home.HomeActivity_</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>SimpleImgView,NativeImageImp,SPTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.shopee.app.ui.home.native_home.cell.SimpleImgView" id="TANGRAM_VIEW_CONTAINER_ID" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.shopee.leego.vaf.virtualview.view.image.NativeImageImp" id="" parentclass="com.shopee.leego.vaf.virtualview.view.nlayout.NativeLayoutImpl" parentid="TANGRAM_VIEW_CONTAINER_ID" count = "5" type = "2" />
+				<item class="com.shopee.leego.virtualview.views.sptext.SPTextView" id="" parentclass="com.shopee.leego.vaf.virtualview.view.nlayout.NativeLayoutImpl" parentid="TANGRAM_VIEW_CONTAINER_ID" count = "4" type = "2" />
+				<item class="com.shopee.leego.virtualview.views.sptext.SPTextView" id="" parentclass="com.shopee.leego.vaf.virtualview.view.nlayout.NativeLayoutImpl" parentid="TANGRAM_VIEW_CONTAINER_ID" count = "4" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.shopee.app.react.ReactActivity_</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ReactTextView,j</target-views>
+			<views><!--realme custom-->
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "13" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "9" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "8" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "16" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "17" type = "1" />
+				<item class="com.shopee.react.modules.imageview.j" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "11" type = "2" />
+				<item class="com.shopee.react.modules.imageview.j" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "13" type = "2" />
+				<item class="com.shopee.react.modules.imageview.j" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "14" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>us.zoom.videomeetings</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>us.zoom.zimmsg.MMChatActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ZmIMEmojiTextView,ZMGifView</target-views>
+			<views><!--realme custom-->
+				<item class="us.zoom.zimmsg.emoji.ZmIMEmojiTextView" id="inflatedtxtMessage" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.zipow.videobox.view.ZMGifView" id="imgPic" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.zipow.videobox.IMActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ZMCommonTextView</target-views>
+			<views><!--realme custom-->
+				<item class="us.zoom.uicommon.widget.view.ZMCommonTextView" id="txtMeetingId" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.zipow.videobox.conference.ui.ZmConfActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ZmIMEmojiTextView,ZmMeetEmojiTextView,ZMGifView</target-views>
+			<views><!--realme custom-->
+				<item class="us.zoom.zimmsg.emoji.ZmIMEmojiTextView" id="inflatedtxtMessage" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.zipow.videobox.view.ZmMeetEmojiTextView" id="inflatedtxtMessage" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.zipow.videobox.view.ZMGifView" id="imgPic" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>in.mohalla.sharechat</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>in.mohalla.sharechat.home.main.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ImageView,CustomImageView,CustomMentionTextView</target-views>
+			<views><!--realme custom-->
+				<item class="sharechat.library.ui.customImage.CustomImageView" id="iv_post_image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="in.mohalla.sharechat.common.views.mention.CustomMentionTextView" id="tv_comment" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>sharechat.feature.chatroom.TagChatActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>CustomTextView,CustomImageView</target-views>
+			<views><!--realme custom-->
+				 <item class="in.mohalla.sharechat.common.views.customText.CustomTextView" id="tv_message" parentclass="" parentid="" count = "0" type = "1" />
+				 <item class="sharechat.library.ui.customImage.CustomImageView" id="iv_image" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.pinterest</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.pinterest.activity.task.activity.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>GestaltText,GlideWebImageView,AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.pinterest.gestalt.text.GestaltText" id="comment_text" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="com.pinterest.ui.imageview.GlideWebImageView" id="user_avatar" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="androidx.appcompat.widget.AppCompatTextView" id="full_name" parentclass="" parentid="" count = "0" type = "1" />
+				 <item class="com.pinterest.ui.imageview.GlideWebImageView" id="pin_image_view" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="com.pinterest.gestalt.text.GestaltText" id="board_title" parentclass="" parentid="" count = "0" type = "1" />
+				 <item class="com.pinterest.gestalt.text.GestaltText" id="" parentclass="com.pinterest.activity.pin.view.modules.util.AvatarWithTitleAndSubtitleView" parentid="pin_closeup_avatar_with_right_text" count = "2" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name> com.pinterest.feature.pin.creation.CreationActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>GlideWebImageView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.pinterest.ui.imageview.GlideWebImageView" id="story_pin_media_cell_thumbnail" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.bsbportal.music</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.bsbportal.music.v2.features.main.ui.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>WynkImageView,WynkTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.wynk.feature.core.widget.WynkImageView" id="ivUniversal" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.wynk.feature.core.widget.WynkTextView" id="tvRailHeader" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.jio.media.jiobeats</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.jio.media.jiobeats.HomeActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>zzdkf,TextView,UserProfileChangeRequestBuilder</target-views>
+			<views><!--realme custom-->
+				<item class="o.zzdkf" id="2131365092" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="o.UserProfileChangeRequestBuilder" id="2131364823" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="o.zzdkf" id="2131364253" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.picsart.studio</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.picsart.createFlow.view.CreateFlowActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>SimpleDraweeView</target-views>
+			<views><!--realme custom-->
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="image" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.socialin.android.photo.picsinphoto.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>PicsartTextView,SimpleDraweeView</target-views>
+			<views><!--realme custom-->
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="zoomable_item_id" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.ds.picsart.view.text.PicsartTextView" id="description" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.picsart.challenge.activity.ChallengesActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MaterialTextView,SimpleDraweeView</target-views>
+			<views><!--realme custom-->
+				<item class="com.google.android.material.textview.MaterialTextView" id="description_text_view" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="challenge_landing_cover" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.picsart.studio.profile.view.ProfileActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>PicsartTextView,SimpleDraweeView</target-views>
+			<views><!--realme custom-->
+				<item class="com.ds.picsart.view.text.PicsartTextView" id="description" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="zoomable_item_id" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="history_result_next" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="history_result_next" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="" parentclass="com.picsart.imagebrowser.ui.ImageBrowserDraweeView" parentid="image_browser_main_image" count = "1" type = "2" />
+
+			</views>
+		</activity>
+		<activity>
+			<name>com.picsart.discovery.impl.ui.pills.details.DiscoverPillDetailsActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>SimpleDraweeView</target-views>
+			<views><!--realme custom-->
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="zoomable_item_id" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.facebook.drawee.view.SimpleDraweeView" id="" parentclass="com.picsart.imagebrowser.ui.ImageBrowserDraweeView" parentid="image_browser_main_image" count = "1" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.shopee.my</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.shopee.app.ui.home.HomeActivity_</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>SimpleImgView,NativeImageImp,SPTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.shopee.app.ui.home.native_home.cell.SimpleImgView" id="TANGRAM_VIEW_CONTAINER_ID" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.shopee.leego.vaf.virtualview.view.image.NativeImageImp" id="" parentclass="com.shopee.leego.vaf.virtualview.view.nlayout.NativeLayoutImpl" parentid="TANGRAM_VIEW_CONTAINER_ID" count = "5" type = "2" />
+				<item class="com.shopee.leego.vaf.virtualview.view.image.NativeImageImp" id="" parentclass="com.shopee.leego.vaf.virtualview.view.nlayout.NativeLayoutImpl" parentid="TANGRAM_VIEW_CONTAINER_ID" count = "4" type = "2" />
+				<item class="com.shopee.leego.virtualview.views.sptext.SPTextView" id="" parentclass="com.shopee.leego.vaf.virtualview.view.nlayout.NativeLayoutImpl" parentid="TANGRAM_VIEW_CONTAINER_ID" count = "4" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.shopee.app.react.ReactActivity_</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ReactTextView,i</target-views>
+			<views><!--realme custom-->
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "13" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "12" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "9" type = "1" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "8" type = "1" />
+				<item class="com.shopee.react.modules.imageview.i" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "11" type = "2" />
+				<item class="com.shopee.react.modules.imageview.i" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "13" type = "2" />
+				<item class="com.shopee.react.modules.imageview.i" id="" parentclass="androidx.appcompat.widget.ContentFrameLayout" parentid="content" count = "10" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.google.android.apps.youtube.music</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.google.android.apps.youtube.music.activities.MusicActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>YouTubeTextView,MusicAutoResizeTextView,RoundedImageView,AutoCropImageView,ImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.google.android.libraries.youtube.common.ui.YouTubeTextView" id="subtitle" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.google.android.apps.youtube.music.ui.text.MusicAutoResizeTextView" id="entity_header_title" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.makeramen.RoundedImageView" id="entity_thumbnail" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.google.android.libraries.youtube.common.ui.YouTubeTextView" id="title" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.google.android.apps.youtube.music.ui.image.AutoCropImageView" id="player_thumbnail" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.google.android.libraries.youtube.common.ui.YouTubeTextView" id="artist" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.wotransfer.pandaremit</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.wotransfer.pandaremit.activity.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				 <item class="androidx.appcompat.widget.AppCompatTextView" id="tv_rate" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>cn.wps.moffice_eng</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>cn.wps.moffice.main.AfterLoginActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatTextView,KColorfulImageView</target-views>
+			<views><!--realme custom-->
+				 <item class="androidx.appcompat.widget.AppCompatTextView" id="history_record_item_name" parentclass="" parentid="" count = "0" type = "1" />
+				 <item class="cn.wpsx.support.ui.KColorfulImageView" id="history_record_item_icon" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>cn.wps.moffice.main.local.HomeRootActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatTextView,KColorfulImageView</target-views>
+			<views><!--realme custom-->
+				 <item class="androidx.appcompat.widget.AppCompatTextView" id="history_record_item_name" parentclass="" parentid="" count = "0" type = "1" />
+				 <item class="cn.wpsx.support.ui.KColorfulImageView" id="history_record_item_icon" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.twitter.android</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.twitter.app.main.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TypefacesTextView,FrescoDraweeView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.twitter.ui.components.text.legacy.TypefacesTextView" id="" parentclass="android.widget.LinearLayout" parentid="notification_content_layout_wrapper" count = "1" type = "2" />
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.tweetview.core.TweetViewContentHostContainer" parentid="card_media_tweet_container" count = "3" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.twitter.tweetdetail.TweetDetailActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>QuoteView,FrescoDraweeView,TypefacesTextView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.twitter.tweetview.core.QuoteView" id="tweet_quote" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.media.ui.image.AspectRatioFrameLayout" parentid="images_container" count = "3" type = "2" />
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.tweetview.core.TweetViewContentHostContainer" parentid="card_media_tweet_container" count = "5" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.twitter.android.search.implementation.results.SearchActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TypefacesTextView,FrescoDraweeView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.twitter.ui.components.text.legacy.TypefacesTextView" id="birdwatch_pivot_subtitle" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.media.ui.video.PlayerView" parentid="player" count = "2" type = "2" />
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.tweetview.core.TweetViewContentHostContainer" parentid="card_media_tweet_container" count = "3" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.twitter.communities.detail.CommunitiesDetailActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>FrescoDraweeView,QuoteView,FrescoDraweeView</target-views>
+			<views><!--realme custom-->
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.tweetview.core.QuoteView" parentid="tweet_quote" count = "4" type = "2" />
+				 <item class="com.twitter.tweetview.core.QuoteView" id="tweet_quote" parentclass="" parentid="" count = "0" type = "2" />
+				 <item class="com.twitter.media.ui.fresco.FrescoDraweeView" id="" parentclass="com.twitter.tweetview.core.TweetViewContentHostContainer" parentid="card_media_tweet_container" count = "3" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.twitter.app.gallery.GalleryActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>GalleryDraweeView</target-views>
+		</activity>
+	</package>
+	<package>
+		<name>com.wotransfer.pandaremit</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.wotransfer.pandaremit.activity.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				  <item class="androidx.appcompat.widget.AppCompatTextView" id="tv_rate" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.facebook.orca</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.facebook.messenger.neue.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ComponentHost</target-views>
+			<views><!--realme custom-->
+				  <item class="com.facebook.litho.ComponentHost" id="" parentclass="com.facebook.litho.LithoView" parentid="" count = "5" type = "2" />
+				  <item class="com.facebook.litho.ComponentHost" id="" parentclass="com.facebook.litho.LithoView" parentid="" count = "4" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>in.amazon.mShop.android.shopping</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.amazon.mShop.navigation.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MShopWebView,ReactImageView</target-views>
+			<views><!--realme custom-->
+				  <item class="com.amazon.mShop.web.MShopWebView" id="" parentclass="android.widget.RelativeLayout" parentid="mash_web_fragment" count = "1" type = "3" />
+				  <item class="com.facebook.react.views.image.ReactImageView" id="" parentclass="android.widget.ViewSwitcher" parentid="layoutSwitcher" count = "8" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ReactTextView,ReactImageView</target-views>
+			<views><!--realme custom-->
+				  <item class="com.facebook.react.views.image.ReactImageView" id="" parentclass="com.facebook.react.views.scroll.ReactHorizontalScrollContainerView" parentid="" count = "4" type = "2" />
+				  <item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="android.widget.ViewSwitcher" parentid="layoutSwitcher" count = "19" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.amazon.mShop.android.shopping</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.amazon.mShop.navigation.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>MShopWebView,ReactImageView</target-views>
+			<views><!--realme custom-->
+				  <item class="com.amazon.mShop.web.MShopWebView" id="" parentclass="android.widget.RelativeLayout" parentid="mash_web_fragment" count = "1" type = "3" />
+				  <item class="com.facebook.react.views.image.ReactImageView" id="" parentclass="android.widget.ViewSwitcher" parentid="layoutSwitcher" count = "8" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ReactImageView,ReactTextView</target-views>
+			<views><!--realme custom-->
+				  <item class="com.facebook.react.views.image.ReactImageView" id="" parentclass="com.facebook.react.views.scroll.ReactHorizontalScrollContainerView" parentid="" count = "4" type = "2" />
+				  <item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="android.widget.ViewSwitcher" parentid="layoutSwitcher" count = "19" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.grabtaxi.passenger</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.grab.pax.food.home.Food</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>GrabTextView,GrabImageView,RoundedImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.duxton.widgets.GrabTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.grab.pax.deliveries.sdk.common.view.customView.RoundedImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="gf_menu_category_quick_add" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="search_icon" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.grab.duxton.widgets.GrabTextView" id="filter_text" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="order_history_entry_v2" parentclass="" parentid="" count = "0" type = "0" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="search_mag_icon" parentclass="" parentid="" count = "0" type = "0" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.grab.transport.root.TransportActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>GrabTextView,GrabImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.duxton.widgets.GrabTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.grab.pax.newface.presentation.newface.NewFace</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ScrollingTextView,GrabTextView,GrabImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.styles.ScrollingTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.grab.duxton.widgets.GrabTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.grab.pax.express.prebooking.ExpressPrebookingV2Activity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ScrollingTextView,GrabTextView,GrabImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.styles.ScrollingTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.grab.duxton.widgets.GrabTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.grab.duxton.widgets.GrabImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.grab.pax.express.prebooking.ExpressPrebookingV2Activity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>NestedScrollCxWebView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.grablet.webview.NestedScrollCxWebView" id="grabletWebView" parentclass="" parentid="" count = "0" type = "3" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.grab.grablet.webview.AuthWebGrabletActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>NestedScrollCxWebView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.grablet.webview.NestedScrollCxWebView" id="grabletWebView" parentclass="" parentid="" count = "0" type = "3" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.grab.insure.InsureHomeScreen</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>CxWebView</target-views>
+			<views><!--realme custom-->
+				<item class="com.grab.pax.webview.CxWebView" id="web_view" parentclass="" parentid="" count = "0" type = "3" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.google.android.apps.maps</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.google.android.maps.MapsActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>WebImageView,azey,azsk,bajl,lsm,bbcf,bbfs,azts,bbgb,baqs</target-views>
+			<views><!--realme custom-->
+				  <item class="azey" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="azsk" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="bajl" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="lsm" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="bbcf" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="bbfs" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="azts" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="bbgb" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="baqs" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="com.google.android.apps.gmm.base.views.webimageview.WebImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.ubercab</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+		
+			<name>com.ubercab.presidio.app.core.root.RootActivity</name>
+			
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>LabelView,UTextView</target-views>
+			<views>
+				  <item class="com.uber.sdui.uiv2.LabelView" id="" parentclass="com.ubercab.ui.core.ULinearLayout" parentid="ub__text_search_v2_results" count = "4" type = "1" />
+				  <item class="com.ubercab.ui.core.UTextView" id="ub__description" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="com.ubercab.ui.core.UTextView" id="ub__title" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.facebook.katana</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.facebook.katana.activity.FbMainTabActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ComponentHost,X.6e8,X.5ZK</target-views>
+			<views><!--realme custom-->
+				  <item class="X.6e8" id="" parentclass="" parentid="" count = "0" type = "2" />
+				  <item class="X.5ZK" id="" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="com.facebook.litho.ComponentHost" id="" parentclass="X.2rE" parentid="" count = "2" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.facebook.messaginginblue.inbox.activities.InboxActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ComponentHost,X.88s</target-views>
+			<views><!--realme custom-->
+				  <item class="com.facebook.litho.ComponentHost" id="" parentclass="X.2k1" parentid="" count = "6" type = "1" />
+				  <item class="X.88s" id="" parentclass="android.widget.FrameLayout" parentid="content" count = "2" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.facebook.messaginginblue.threadview.ui.activity.main.MibMainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ComponentHost</target-views>
+			<views><!--realme custom-->
+				  <item class="com.facebook.litho.ComponentHost" id="" parentclass="X.2k1" parentid="" count = "8" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.android.chrome</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>org.chromium.chrome.browser.customtabs.CustomTabActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,TextViewWithLeading</target-views>
+			<views><!--realme custom-->
+				  <item class="androidx.appcompat.widget.AppCompatImageView" id="menu_header_image" parentclass="" parentid="" count = "0" type = "2" />
+				  <item class="org.chromium.ui.widget.TextViewWithLeading" id="menu_header_url" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="org.chromium.ui.widget.TextViewWithLeading" id="menu_header_title" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>in.mohalla.video</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>in.mohalla.sharechat.mojvideoplayer.MojVideoPlayerActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>CustomMentionTextView,CustomTextView,UserBioTextView</target-views>
+			<views><!--realme custom-->
+				  <item class="moj.core.ui.mention.CustomMentionTextView" id="tv_comment" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="moj.core.ui.mention.CustomMentionTextView" id="tv_video_caption" parentclass="" parentid="" count = "0" type = "1" />
+				  <item class="moj.core.ui.custom.customText.CustomTextView" id="tv_user_handle" parentclass="" parentid="" count = "0" type = "2" />
+				  <item class="moj.core.ui.dark.UserBioTextView" id="tvUserBio" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.finshell.fin </name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.finshell.fin.activity.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AppCompatImageView,AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				  <item class="androidx.appcompat.widget.AppCompatImageView" id="iv_shop_list" parentclass="" parentid="" count = "0" type = "2" />
+				  <item class="androidx.appcompat.widget.AppCompatTextView" id="tv_content" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.myntra.android</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.myntra.android.activities.FullScreenPDPImagesActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>CustomImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.myntra.android.views.CustomImageView" id="" parentclass="com.myntra.android.views.FullScreenImageViewPager" parentid="pager2" count = "2" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.myntra.android.activities.react.ReactActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>ReactImageView,ReactTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.facebook.react.views.image.ReactImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.facebook.react.views.text.ReactTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.zhiliaoapp.musically</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.ss.android.ugc.aweme.main.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TuxTextView,X.ExA,SmartImageView,X.EuP,X.Eoh,X.CzI</target-views>
+			<views><!--realme custom-->
+				<item class="com.bytedance.tux.input.TuxTextView" id="k1a" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.lighten.loader.SmartImageView" id="cover" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="X.ExA" id="cei" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="X.EuP" id="cej" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.Eoh" id="cfr" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.CzI" id="" parentclass="" parentid="" count = "0" type = "1" /><!--35.7.3-->
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.ss.android.ugc.trill</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.ss.android.ugc.aweme.main.MainActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TuxTextView,X.AlF,SmartImageView,X.ExA,X.gVp,SmartImageView,SmartAvatarImageView,X.EuP,X.Eoh,X.DIy,X.CVp,X.CzI</target-views>
+			<views><!--realme custom-->
+				<item class="com.bytedance.tux.input.TuxTextView" id="k1a" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="X.AlF" id="cfs" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.lighten.loader.SmartImageView" id="cover" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="X.ExA" id="cei" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="" parentclass="android.widget.LinearLayout" parentid="k8g" count = "3" type = "2" />
+				<item class="X.gVp" id="" parentclass="android.widget.LinearLayout" parentid="k8g" count = "3" type = "1" />
+				<item class="com.bytedance.lighten.loader.SmartImageView" id="cover" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="title" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView" id="aku" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="k9i" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.EuP" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.Eoh" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.DIy" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.CVp" id="" parentclass="" parentid="" count = "0" type = "1" /><!--35.5.3-->
+				<item class="X.CzI" id="" parentclass="" parentid="" count = "0" type = "1" /><!--35.7.3-->
+			</views>
+		</activity>
+		<activity>
+			<name>com.ss.android.ugc.aweme.splash.SplashActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>TuxTextView,SmartImageView,SmartAvatarImageView</target-views>
+			<views><!--realme custom-->
+                <item class="com.bytedance.lighten.loader.SmartImageView" id="mkm" parentclass="com.ss.android.ugc.aweme.views.CheckHiddenFrameLayout" parentid="" count = "1" type = "0" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="k1a" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.lighten.loader.SmartImageView" id="cover" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="" parentclass="android.widget.LinearLayout" parentid="k8g" count = "3" type = "2" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="title" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView" id="aku" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.bytedance.tux.input.TuxTextView" id="k9i" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.ss.android.ugc.aweme.profile.enlarge.EnlargeAvatarActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AvatarComponentView</target-views>
+			<views><!--realme custom-->
+				<item class="com.ss.android.ugc.aweme.avatar.AvatarComponentView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.ss.android.ugc.profile.business.ur.enlarge.EnlargeAvatarActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>AvatarComponentView</target-views>
+			<views><!--realme custom-->
+				<item class="com.ss.android.ugc.aweme.avatar.AvatarComponentView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.ss.android.ugc.aweme.share.qrcode.UserQRCodeActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>X.eyt</target-views>
+			<views><!--realme custom-->
+				<item class="X.eyt" id="khq" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.ss.android.ugc.aweme.host.TikTokHostActivity</name>
+			<drag-type>31</drag-type>
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>SmartImageView,X.g9e,X.eLE</target-views>
+			<views><!--realme custom-->
+				<item class="X.g9e" id="i9p" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="X.eLE" id="" parentclass="" parentid="" count = "0" type = "1" /><!--35.7.3-->
+				<item class="com.bytedance.lighten.loader.SmartImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.alibaba.aliexpresshd</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.aliexpress.detailbase.ui.ProductDetailActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<target-views>RemoteImageViewExt,AppCompatTextView,ForegroundRemoteImageView,TextView,DXNativeTextView,RemoteImageView,SelectableRoundedImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageViewExt" id="cover_image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="tv_origin_text" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="recycler_view" count = "1" type = "2" />
+				<item class="com.aliexpress.framework.widget.ForegroundRemoteImageView" id="desc_image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.taobao.android.dinamicx.view.DXNativeTextView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="recycler_view" count = "5" type = "2" />
+				<item class="com.taobao.android.dinamicx.view.DXNativeTextView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="recycler_view" count = "6" type = "2" />
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="recycler_view" count = "6" type = "2" />
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="com.taobao.android.searchbaseframe.business.srp.list.uikit.PartnerRecyclerView" parentid="libsf_rcmd_recycler_view" count = "6" type = "2" />
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="android.widget.FrameLayout" parentid="dynamic_container" count = "2" type = "2" />
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="recycler_view" count = "5" type = "2" />
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="recycler_view" count = "9" type = "2" />
+				<item class="com.aliexpress.alibaba.component_search.view.SelectableRoundedImageView" id="rcmd_image" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.aliexpress.module.picview.PicViewActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>ZoomImageView,AppCompatTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.aliexpress.module.picview.widget.ZoomImageView" id="" parentclass="com.aliexpress.module.picview.widget.ZoomImageViewPager" parentid="vp_imgs" count = "1" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="tv_message_text" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.aliexpress.module.feedback.region.us.FeedbackActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>CustomTextView,ForegroundRemoteImageView,CustomTextView</target-views>
+			<views><!--realme custom-->
+				<item class="com.alibaba.felin.core.text.CustomTextView" id="tv_feedback_content" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.aliexpress.framework.widget.ForegroundRemoteImageView" id="iv_product" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.alibaba.felin.core.text.CustomTextView" id="tv_feedback_sku_info" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.aliexpress.module.aiqa.QuestionDetailActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>RemoteImageView,AppCompatTextView,RoundedImageView</target-views>
+			<views><!--realme custom-->
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="qa_list_item_content" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="qa_product_title" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.aliexpress.module.imagesearchv2.ImageSearchSimilarV3Activity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>RemoteImageView,AppCompatTextView,RoundedImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="android.widget.FrameLayout" parentid="dynamic_container" count = "2" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="tv_header_title" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.alibaba.aliexpress.res.widget.rounded.RoundedImageView" id="tag_icon" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatTextView" id="tv_price" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.alibaba.aliexpresshd.home.ui.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>RemoteImageView</target-views>
+			<views><!--realme custom-->
+				<item class="com.alibaba.aliexpress.painter.widget.RemoteImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>ru.ivi.client</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>ru.ivi.client.MainActivityAppIcon</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>AppCompatImageView,UiKitTextView,RoundedImageView</target-views>
+			<views><!--realme custom-->
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="poster" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ivi.uikit.UiKitTextView" id="meta1" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ivi.uikit.UiKitTextView" id="meta2" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ivi.uikit.UiKitTextView" id="synopsis" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ivi.tools.view.RoundedImageView" id="image" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="title_image" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>ru.ozon.app.android</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>ru.ozon.app.android.ui.start.AppHostActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>AdvBannerV2ImageView,AspectRatioImageView,AppCompatImageView,TextAtomV2View,ExpandableTextAtomView,AppCompatImageView,ImageView,PhotoView,RatingTextView,Image,TextAtomV2View,SquareByWidthImageView</target-views>
+			<views><!--realme custom-->
+				<item class="ru.ozon.app.android.ads.widgets.advBannerV2.presentation.plain.rv.view.AdvBannerV2ImageView" id="advBannerPlainView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ozon.app.android.uikit.view.image.AspectRatioImageView" id="imageIv" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="imageIv" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ozon.android.atom.text.TextAtomV2View" id="" parentclass="ru.ozon.app.android.atoms.af.layout.VerticalAtomsLayout" parentid="bodyAtomsVAL" count = "1" type = "1" />
+				<item class="ru.ozon.android.atom.text.expandable.ExpandableTextAtomView" id="" parentclass="androidx.recyclerview.widget.RecyclerView" parentid="widgetTextRootRV" count = "1" type = "1" />
+				<item class="androidx.appcompat.widget.AppCompatImageView" id="billboardIv" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="com.github.chrisbanes.photoview.PhotoView" id="photoView" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ozon.app.android.ugc.core.widgets.reviewGalleryV2.presentation.views.RatingTextView" id="ratingText" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="ru.ozon.android.atom.image.Image" id="reviewGalleryPreviewItemImage" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ozon.android.atom.text.TextAtomV2View" id="pdpTextDescriptionContentTav" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="ru.ozon.app.android.universalwidgets.widgets.uw.old.uobject.grid.SquareByWidthImageView" id="uwGridImageView" parentclass="" parentid="" count = "0" type = "2" />
+			</views>
+		</activity>
+	</package>
+	<package>
+		<name>com.snapchat.android</name>
+		<drag-type>31</drag-type>
+		<log>1</log>
+		<data-tracking>1</data-tracking>
+		<activity>
+			<name>com.snapchat.android.LandingPageActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>ComposerSnapTextView,ComposerImageView,TIh</target-views>
+			<views><!--realme custom-->
+				<item class="com.snap.composer.views.ComposerSnapTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.snap.composer.views.ComposerImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="TIh" id="" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+		<activity>
+			<name>com.snap.mushroom.MainActivity</name>
+			<drag-type>31</drag-type>
+			<type>0</type><!--black/white-->
+			<log>1</log>
+			<data-tracking>1</data-tracking>
+			<view-blacklist>COUITextView,COUIButton</view-blacklist><!--oppo origin-->
+			<target-views>ComposerSnapTextView,ComposerImageView,TIh</target-views>
+			<views><!--realme custom-->
+				<item class="com.snap.composer.views.ComposerSnapTextView" id="" parentclass="" parentid="" count = "0" type = "1" />
+				<item class="com.snap.composer.views.ComposerImageView" id="" parentclass="" parentid="" count = "0" type = "2" />
+				<item class="TIh" id="" parentclass="" parentid="" count = "0" type = "1" />
+			</views>
+		</activity>
+	</package>
+</filter-conf>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="smart5g_status" value="0"/>
+	<int name="smart5g_visible" value="0"/>
+</carrier_config>
+<!-- Timestamp 2023-08-03T21:05:54 #35086 -->

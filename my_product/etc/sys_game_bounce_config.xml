@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2024110615</version>
+    <filter-name>sys_game_bounce_config</filter-name>
+    <GameParams key="PREDICTION_COUNT" type="String" value="12-2|16-4|24-6" />
+    <!--package name list -->
+    <GameParams key="VIRTUAL_DISPLAY_SUPPORT_LIST" type="String"
+        value="com.miHoYo.GenshinImpact,com.mobile.legends,com.levelinfinite.sgameGlobal.midaspay,com.levelinfinite.sgameGlobal,com.tencent.ig,com.pubg.imobile,com.dts.freefireth,com.dts.freefiremax,com.activision.callofduty.shooter" />
+    <!--thermal limit-->
+    <GameParams key="VIRTUAL_DISPLAY_THERMAL_THRESHOLD" type="Float" value="47.0" />
+    <!--battery limit-->
+    <GameParams key="VIRTUAL_DISPLAY_BATTERY_LEVEL_THRESHOLD" type="Int" value="20" />
+    <!--persist time in minutes-->
+    <GameParams key="VIRTUAL_DISPLAY_PERSIST_DURATION_MINUTES" type="Int" value="5" />
+    <!--max time out-->
+    <GameParams key="VIRTUAL_DISPLAY_MAX_TIMEOUT_COUNT" type="Int" value="10" />
+
+</filter-conf>

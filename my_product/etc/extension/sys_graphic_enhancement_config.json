@@ -1,0 +1,99 @@
+{
+    "version": 2024102118,
+    "feature": {
+        "colorx": {
+            "cx_package_name": "com.realme.colorx",
+            "coolex_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.sgamece",
+                "com.tencent.tmgp.pubgmhd",
+                "com.tencent.tmgp.projectg",
+                "com.tencent.ig",
+                "com.netease.dwrg",
+                "com.netease.dwrg.nearme.gamecenter",
+                "com.tencent.lolm",
+                "com.netease.onmyoji.nearme.gamecenter"
+            ],
+            "ror_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.pubgmhd"
+            ],
+            "edr3_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.pubgmhd",
+                "com.tencent.tmgp.projectg",
+                "com.miHoYo.Yuanshen",
+                "com.miHoYo.ys.bilibili",
+                "com.miHoYo.GenshinImpact",
+                "com.miHoYo.ys.mi",
+                "com.miHoYo.yuanshencb",
+                "com.tencent.lolm",
+                "com.tencent.tmgp.cf",
+                "com.tencent.tmgp.speedmobile",
+                "com.netease.sky.nearme.gamecenter",
+                "com.netease.sky",
+                "com.miHoYo.hkrpg",
+                "com.miHoYo.hkrpg.bilibili",
+                "com.riotgames.league.wildrift",
+                "com.tencent.ig",
+                "com.mobile.legends",
+                "com.mobile.legends:UnityKillsMe",
+                "com.activision.callofduty.shooter"
+            ],
+            "rus_file": {
+                "sys_coolex_gamedata_yuanshen_hdr": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_wzry_hdr": [
+                    "com.tencent.tmgp.sgame"
+                ],
+                "sys_coolex_gamedata_pubg_hdr": [
+                    "com.tencent.tmgp.pubgmhd",
+                    "com.tencent.tmgp.projectg"
+                ],
+                "sys_coolex_gamedata_lolm_hdr": [
+                    "com.tencent.lolm"
+                ],
+                "sys_coolex_gamedata_speedmobile_hdr": [
+                    "com.tencent.tmgp.speedmobile"
+                ],
+                "sys_coolex_gamedata_guangyu_hdr": [
+                    "com.netease.sky.nearme.gamecenter",
+                    "com.netease.sky"
+                ],
+                "sys_coolex_gamedata_hkrpg_hdr": [
+                    "com.miHoYo.hkrpg",
+                    "com.miHoYo.hkrpg.bilibili"
+                ],
+                "sys_coolex_gamedata_cf_hdr": [
+                    "com.tencent.tmgp.cf"
+                ],
+                "sys_coolex_gamedata_mobilelegends_hdr": [
+                    "com.mobile.legends",
+                    "com.mobile.legends:UnityKillsMe"
+                ],
+                "sys_coolex_gamedata_wildrift_hdr": [
+                    "com.riotgames.league.wildrift"
+                ],
+                "sys_coolex_gamedata_callofduty_hdr": [
+                    "com.activision.callofduty.shooter"
+                ],
+                "sys_coolex_gamedata_ig_hdr": [
+                    "com.tencent.ig"
+                ]
+            }
+        },
+        "GPU": {
+            "mfrc_white_list": [
+                "com.miHoYo.hkrpg",
+                "com.miHoYo.hkrpg.bilibili",
+                "com.miHoYo.Nap",
+                "com.miHoYo.Nap.bilibili"
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2024102301</version>
+    <filter-name>sys_custom_memory_nirvana_config</filter-name>
+
+    <config name="baseConfig" type="bundle">
+        <item name="NirvanaSupportMinRam" type="int" value="12"/>
+    </config>
+
+    <config name="featureControlConfig" type="bundle">
+        <item name="ControlPreload" type="bool" value="false"/>
+    </config>
+
+    <config name="strategyConfig" type="subconfig">
+        <config name="HIGH_FREE" type="bundle">
+            <item name="ExpectedBgCountMap" type="string" value="8-18|12-24|16-30|24-42"/>
+            <item name="CamExpectedBgCount" type="string" value="8-18|12-18|16-25|24-37"/>
+        </config>
+        <config name="MORE_BACKGROUND" type="bundle">
+            <item name="ExpectedBgCountMap" type="string" value="8-18|12-24|16-44|24-54"/>
+            <item name="CamExpectedBgCount" type="string" value="8-18|12-18|16-39|24-49"/>
+        </config>
+    </config>
+</filter-conf>

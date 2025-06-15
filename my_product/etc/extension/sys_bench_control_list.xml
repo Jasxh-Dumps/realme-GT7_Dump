@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sys_bench_control_list>
+<version>2025031317</version>
+    <filter-name>sys_bench_control_list</filter-name>
+    <BenchfeatureConfigItem>
+        <feature_enable_item booleanVal="true" />
+        <feature_chp_enable_item booleanVal="true" />
+        <gpu_anim_delay_ms_seasons intVal="10000" />
+        <gpu_anim_delay_ms_coastline2 intVal="175000" />
+        <gpu_anim_timeout_seasons intVal="78000" />
+        <gpu_anim_timeout_coastline2 intVal="56000" />
+    </BenchfeatureConfigItem>
+
+    <BenchRuntimeConfigItem name="bench_config">
+        <bench_config index="7" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="30005"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="10" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="30004" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="11" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="16" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="295" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="18" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="10028" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="19" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="10029" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="13" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="299" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="20" refreshRate="3" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="35003" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="21" refreshRate="0" jpgmuti="1" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="25" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="4"/>
+        <bench_config index="26" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="4"/>
+        <bench_config index="27" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="1" xmlenhance="0"/>
+        <bench_config index="30" refreshRate="0" jpgmuti="1" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="44" refreshRate="2" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="0" pdfenhance="0" xmlenhance="0"/>
+        <bench_config index="46" refreshRate="0" jpgmuti="0" seqwrite="0" seqread="0" randwrite="0" randread="0" database="0" uilag="0" openmp="0"  mutiopt="0" gemmmuti="0" gpubench="0" finished="1" pdfenhance="0" xmlenhance="0"/>
+    </BenchRuntimeConfigItem>
+
+</sys_bench_control_list>

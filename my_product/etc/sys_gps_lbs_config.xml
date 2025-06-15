@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <Android-Version>15</Android-Version>
+    <version>20240715</version>
+
+    <!-- config for gnss power -->
+    <bool ID="2075">true</bool>
+
+    <!-- config for oplus global flp -->
+    <integer ID="3087">0</integer>
+</filter-conf>

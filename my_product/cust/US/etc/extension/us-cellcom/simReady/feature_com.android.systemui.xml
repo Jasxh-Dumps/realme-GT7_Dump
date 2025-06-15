@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<extend_features>
+    <app_feature name="com.android.systemui.show_lte_for_4g"/>
+    <app_feature name="com.android.systemui.show_lte_for_4gplus"/>
+</extend_features>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.google.android.calendar" priority="8" />
+  <enable pkg="com.google.android.syncadapters.calendar" priority="8" />
+</app>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="0"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<boolean name="allow_hold_video_call_bool" value="true"/>
+	<boolean name="mmsRoamingAutoRetrieveByDefault" value="true"/>
+	<boolean name="show_oplus_video_hold_bool" value="true"/>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+	<boolean name="display_hd_audio_property_bool" value="true"/>
+</carrier_config>
+<!-- Timestamp 2024-12-12T20:37:37 #289931 -->

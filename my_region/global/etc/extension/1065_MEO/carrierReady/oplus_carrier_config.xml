@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="volte_visible" value="0"/>
+	<int name="vowifi_status" value="0"/>
+	<boolean name="carrier_allow_transfer_ims_call_bool" value="true"/>
+	<boolean name="display_answered_elsewhere" value="true"/>
+	<boolean name="display_hd_plus_icon_bool" value="true"/>
+	<boolean name="display_call_type_icon_bool" value="false"/>
+	<boolean name="carrier_allow_transfer_cs_call_bool" value="true"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<int name="vowifi_roaming_preferred_mode" value="1"/>
+	<boolean name="display_hd_audio_property_bool" value="true"/>
+</carrier_config>
+<!-- Timestamp 2024-09-05T16:00:25 #212746 -->

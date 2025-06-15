@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="config_oplus_hide_2g_only" value="true"/>
+	<int name="volte_visible" value="0"/>
+</carrier_config>
+<!-- Timestamp 2024-09-04T14:14:32 #212521 -->

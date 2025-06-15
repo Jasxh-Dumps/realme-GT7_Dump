@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <!-- <project>8350R</project> -->
+        <version>2022030301</version>
+        <filter-name>sys_osense_common_config</filter-name>
+    </filter-conf>
+
+    <config name="policyEnabled_config" type="bundle">
+        <item name="POLICY_CLEAN" type="bool" value="true"/>
+        <item name="POLICY_OFREEZER" type="bool" value="true"/>
+        <item name="POLICY_PRELOAD" type="bool" value="true"/>
+    </config>
+
+    <config name="logCenterConfig" type="bundle">
+        <item name="maxHistoryFiles" type="int" value="30"/>
+        <item name="eventSize" type="int" value="5000"/>
+        <item name="tuningSwitch" type="bool" value="false"/>
+        <item name="DCSLog" type="bool" value="true"/>
+        <item name="zipTrigger" type="bool" value="false"/>
+    </config>
+
+    <config name="defaultBigAppList_config" type="stringList">
+        <item name="com.oppo.camera"/>
+        <item name="com.oplus.camera"/>
+        <item name="com.oneplus.camera"/>
+    </config>
+
+</resources>

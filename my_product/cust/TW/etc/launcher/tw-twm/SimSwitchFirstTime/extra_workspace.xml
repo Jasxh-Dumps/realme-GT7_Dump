@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+
+    <favorite
+        launcher:className="com.taiwanmobile.opscambuster.activity.LaunchActivity"
+        launcher:packageName="com.taiwanmobile.opscambuster"
+        launcher:screen="-1"
+        launcher:x="1"
+        launcher:y="0" />
+
+</favorites>

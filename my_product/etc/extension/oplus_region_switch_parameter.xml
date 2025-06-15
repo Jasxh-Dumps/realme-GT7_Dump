@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="oplus_region_switch_parameter" args="StringList:region">
+	<!-- 地理大区：亚太 start -->
+	    <!-- 孟巴斯三国：斯里兰卡(LK)、巴基斯坦(PK)、孟加拉(BD) -->
+	    <StringList name="region" args="name=LK"/>
+		<StringList name="region" args="name=PK"/>
+		<StringList name="region" args="name=BD"/>
+
+        <!-- 亚太：老挝(LA)、中国香港(HK)、柬埔寨(KH)、尼泊尔(NP)、缅甸(MM) -->
+		<StringList name="region" args="name=LA"/>
+		<StringList name="region" args="name=HK"/>
+		<StringList name="region" args="name=KH"/>
+		<StringList name="region" args="name=NP"/>
+		<StringList name="region" args="name=MM"/>
+
+        <!-- 中国台湾(TW) -->
+		<StringList name="region" args="name=TW"/>
+
+        <!-- 新加坡(SG) -->
+		<StringList name="region" args="name=SG"/>
+
+        <!-- 马来西亚(MY) -->
+		<StringList name="region" args="name=MY"/>
+
+        <!-- 菲律宾(PH) -->
+		<StringList name="region" args="name=PH"/>
+
+        <!-- 印度尼西亚(ID) -->
+		<StringList name="region" args="name=ID"/>
+
+        <!-- 越南(VN) -->
+		<StringList name="region" args="name=VN"/>
+
+        <!-- 泰国(TH) -->
+		<StringList name="region" args="name=TH"/>
+
+        <!-- 印度(IN) -->
+		<StringList name="region" args="name=IN"/>
+    <!-- 地理大区：亚太 end -->
+
+    <!-- 地理大区：中东非 start -->
+        <!-- 海湾多国：沙特阿拉伯(SA)、巴林(BH)、科威特(KW)、卡塔尔(QA)、阿曼(OM)、阿联酋(AE) -->
+		<StringList name="region" args="name=SA"/>
+		<StringList name="region" args="name=BH"/>
+		<StringList name="region" args="name=KW"/>
+		<StringList name="region" args="name=QA"/>
+		<StringList name="region" args="name=OM"/>
+		<StringList name="region" args="name=AE"/>
+
+        <!-- 中东非：肯尼亚(KE)、尼日利亚(NG)、 伊拉克(IQ)、也门(YE)、巴勒斯坦(PS)、阿富汗(AF)、黎巴嫩(LB)、叙利亚(SY)、约旦(JO)、
+		以色列(IL)、阿尔及利亚(DZ)、摩洛哥(MA)、突尼斯(TN)、南非(ZA)、哈萨克斯坦(KZ)、乌兹别克斯坦(UZ)、乌克兰(UA)、白俄罗斯(BY) 、加纳(GH)-->
+		<StringList name="region" args="name=KE"/>
+		<StringList name="region" args="name=NG"/>
+		<StringList name="region" args="name=IQ"/>
+		<StringList name="region" args="name=PS"/>
+		<StringList name="region" args="name=LB"/>
+		<StringList name="region" args="name=JO"/>
+		<StringList name="region" args="name=IL"/>
+		<StringList name="region" args="name=DZ"/>
+		<StringList name="region" args="name=MA"/>
+		<StringList name="region" args="name=TN"/>
+		<StringList name="region" args="name=ZA"/>
+		<StringList name="region" args="name=KZ"/>
+		<StringList name="region" args="name=UZ"/>
+		<StringList name="region" args="name=UA"/>
+		<StringList name="region" args="name=BY"/>
+        <StringList name="region" args="name=GH"/>
+        <StringList name="region" args="name=AF"/>
+        <StringList name="region" args="name=YE"/>
+        <StringList name="region" args="name=SY"/>
+
+        <!-- 埃及(EG) -->
+		<StringList name="region" args="name=EG"/>
+    <!-- 地理大区：中东非 end -->
+
+    <!-- 地理大区：欧洲 start -->
+	    <!-- 德国(DE) -->
+		<StringList name="region" args="name=DE"/>
+
+        <!-- 法国(FR) -->
+		<StringList name="region" args="name=FR"/>
+
+        <!-- 英国(GB) -->
+		<StringList name="region" args="name=GB"/>
+
+        <!-- 爱尔兰(IE) -->
+		<StringList name="region" args="name=IE"/>
+
+        <!-- 意大利(IT) -->
+		<StringList name="region" args="name=IT"/>
+
+        <!-- 西班牙(ES) -->
+		<StringList name="region" args="name=ES"/>
+
+        <!-- 葡萄牙(PT) -->
+		<StringList name="region" args="name=PT"/>
+
+        <!-- 荷兰(NL) -->
+		<StringList name="region" args="name=NL"/>
+
+        <!-- 丹麦(DK) -->
+		<StringList name="region" args="name=DK"/>
+
+        <!-- 瑞典(SE) -->
+		<StringList name="region" args="name=SE"/>
+
+        <!-- 芬兰(FI) -->
+		<StringList name="region" args="name=FI"/>
+
+        <!-- 挪威(NO) -->
+		<StringList name="region" args="name=NO"/>
+
+        <!-- 冰岛 -->
+        <StringList name="region" args="name=IS"/>
+
+        <!-- 卢森堡(LU) -->
+		<StringList name="region" args="name=LU"/>
+
+        <!-- 比利时(BE) -->
+		<StringList name="region" args="name=BE"/>
+
+        <!-- 奥地利(AT) -->
+		<StringList name="region" args="name=AT"/>
+
+        <!-- 瑞士(CH) -->
+		<StringList name="region" args="name=CH"/>
+
+        <!-- 希腊(GR) -->
+		<StringList name="region" args="name=GR"/>
+
+        <!-- 捷克(CZ) -->
+		<StringList name="region" args="name=CZ"/>
+
+        <!-- 斯洛伐克(SK) -->
+		<StringList name="region" args="name=SK"/>
+
+        <!-- 波兰(PL) -->
+		<StringList name="region" args="name=PL"/>
+
+        <!-- 罗马尼亚(RO) -->
+		<StringList name="region" args="name=RO"/>
+
+        <!-- 匈牙利(HU) -->
+		<StringList name="region" args="name=HU"/>
+
+        <!-- 摩尔多瓦(MD) -->
+		<StringList name="region" args="name=MD"/>
+
+        <!-- 塞尔维亚(RS) -->
+		<StringList name="region" args="name=RS"/>
+
+        <!-- 波黑(BA) -->
+		<StringList name="region" args="name=BA"/>
+
+        <!-- 科索沃 -->
+
+        <!-- 马其顿 -->
+
+        <!-- 北马其顿(MK) -->
+		<StringList name="region" args="name=MK"/>
+
+        <!-- 黑山(ME) -->
+		<StringList name="region" args="name=ME"/>
+
+        <!-- 俄罗斯(RU) -->
+		<StringList name="region" args="name=RU"/>
+
+        <!-- 土耳其(TR) -->
+		<StringList name="region" args="name=TR"/>
+
+        <!-- 克罗地亚(HR) -->
+        <StringList name="region" args="name=HR"/>
+
+        <!-- 保加利亚(BG) -->
+        <StringList name="region" args="name=BG"/>
+
+        <!-- 拉脱维亚(LV) -->
+        <StringList name="region" args="name=LV"/>
+
+        <!-- 立陶宛(LT) -->
+        <StringList name="region" args="name=LT"/>
+    <!-- 地理大区：欧洲 end -->
+
+    <!-- 地理大区：拉美 start -->
+        <!-- 哥伦比亚(CO) -->
+		<StringList name="region" args="name=CO"/>
+
+        <!-- 智利(CL) -->
+        <StringList name="region" args="name=CL"/>
+
+        <!-- 秘鲁(PE) -->
+	    <StringList name="region" args="name=PE"/>
+
+        <!-- 洪都拉斯(HN) -->
+		<StringList name="region" args="name=HN"/>
+
+        <!-- 乌拉圭(UY) -->
+		<StringList name="region" args="name=UY"/>
+
+        <!-- 巴拉圭(PY) -->
+		<StringList name="region" args="name=PY"/>
+
+        <!-- 委内瑞拉 -->
+
+        <!-- 阿根廷(AR) -->
+		<StringList name="region" args="name=AR"/>
+
+        <!-- 玻利维亚(BO) -->
+		<StringList name="region" args="name=BO"/>
+
+        <!-- 哥斯达黎加(CR) -->
+		<StringList name="region" args="name=CR"/>
+
+        <!-- 多米尼克 -->
+
+        <!-- 多米尼加(DO) -->
+		<StringList name="region" args="name=DO"/>
+
+        <!-- 危地马拉(GT) -->
+		<StringList name="region" args="name=GT"/>
+
+        <!-- 厄瓜多尔(EC) -->
+		<StringList name="region" args="name=EC"/>
+
+        <!-- 巴拿马(PA) -->
+		<StringList name="region" args="name=PA"/>
+
+        <!-- 萨尔瓦多(SV) -->
+		<StringList name="region" args="name=SV"/>
+
+        <!-- 墨西哥(MX) -->
+		<StringList name="region" args="name=MX"/>
+
+        <!-- 巴西(BR) -->
+		<StringList name="region" args="name=BR"/>
+    <!-- 地理大区：拉美 end -->
+
+    <!-- 地理大区：澳新 start -->
+        <!-- 澳大利亚(AU) -->
+		<StringList name="region" args="name=AU"/>
+
+        <!-- 新西兰(NZ) -->
+		<StringList name="region" args="name=NZ"/>
+    <!-- 地理大区：澳新 end -->
+
+        <!-- 日本 -->
+		<StringList name="region" args="name=JP"/>
+
+        <!-- 美国 -->
+		<StringList name="region" args="name=US"/>
+
+        <!-- 阿塞拜疆(AZ) -->
+        <StringList name="region" args="name=AZ"/>
+
+        <!-- 格鲁吉亚(GE) -->
+        <StringList name="region" args="name=GE"/>
+
+        <!-- 亚美尼亚(AM) -->
+        <StringList name="region" args="name=AM"/>
+
+        <!-- 乌干达(UG) -->
+        <StringList name="region" args="name=UG"/>
+
+        <!-- 中国(CN) -->
+        <StringList name="region" args="name=CN"/>
+
+        <!-- 塞浦路斯(CY) -->
+        <StringList name="region" args="name=CY"/>
+
+        <!-- 爱沙尼亚(EE) -->
+        <StringList name="region" args="name=EE"/>
+
+        <!-- 斯洛文尼亚(SI) -->
+        <StringList name="region" args="name=SI"/>
+
+        <!-- 利比亚(LY) -->
+        <StringList name="region" args="name=LY"/>
+
+        <!-- 坦桑尼亚(TZ) -->
+        <StringList name="region" args="name=TZ"/>
+
+        <!-- 埃塞俄比亚(ET) -->
+        <StringList name="region" args="name=ET"/>
+
+        <!-- 赞比亚(ZM) -->
+        <StringList name="region" args="name=ZM"/>
+
+        <!-- 蒙古(MN) -->
+        <StringList name="region" args="name=MN"/>
+
+        <!-- 塔吉克斯坦(TJ) -->
+        <StringList name="region" args="name=TJ"/>
+
+        <!-- 土库曼斯坦(TM) -->
+        <StringList name="region" args="name=TM"/>
+
+        <!-- 吉尔吉斯斯坦(KG) -->
+        <StringList name="region" args="name=KG"/>
+
+        <!-- 科索沃(KV) -->
+        <StringList name="region" args="name=KV"/>
+
+        <!-- 马里(ML) -->
+        <StringList name="region" args="name=ML"/>
+
+        <!-- 塞内加尔(SN) -->
+        <StringList name="region" args="name=SN"/>
+
+        <!-- 阿尔及利亚(DZ) -->
+        <StringList name="region" args="name=DZ"/>
+
+        <!-- 伊拉克(IQ) -->
+        <StringList name="region" args="name=IQ"/>
+	</app_feature>
+</extend_features>

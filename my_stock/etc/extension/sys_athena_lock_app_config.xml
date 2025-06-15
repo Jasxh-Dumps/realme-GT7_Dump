@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2024041601</version>
+    <filter-name>sys_athena_lock_app_config</filter-name>
+
+    <config_map key="default_lock_app" type="Integer">
+        <sub key="com.tencent.mm" val="0" />
+        <sub key="com.tencent.mobileqq" val="0" />
+
+        <sub key="com.tencent.mm#999" val="0" />
+        <sub key="com.tencent.mobileqq#999" val="0" />
+    </config_map>
+
+</filter-conf>

@@ -1,0 +1,8 @@
+persist.wm.extensions.enabled=true
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
+ro.dalvik.vm.enable_uffd_gc=true
+ro.oplus.image.product.version=.eaf20c57
+ro.product.ab_ota_partitions=boot,product,system,system_ext,vendor
+ro.product.build.16k_page.enabled=false
+ro.product.build.no_bionic_page_size_macro=true
+ro.product.cpu.pagesize.max=16384

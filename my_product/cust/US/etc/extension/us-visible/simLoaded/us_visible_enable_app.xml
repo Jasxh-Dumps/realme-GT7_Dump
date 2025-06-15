@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<extend_features>
+    <app_feature name="oplus_operator_enable_packages_for_specific_carrier" args="StringList:enable_packages_for_specific_carrier">
+        <StringList name="enable_packages_for_specific_carrier" args="com.verizon.mips.services"/>
+        <StringList name="enable_packages_for_specific_carrier" args="com.vzw.apnlib"/>
+    </app_feature>
+</extend_features>

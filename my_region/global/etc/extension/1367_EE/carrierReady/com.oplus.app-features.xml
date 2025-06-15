@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.server.telecom.not_save_call_log_for_operator" args="StringList:type">
+		<StringList name="type" args="112;911;999;9999;141999;1122;141112"/>
+	</app_feature>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:hide"/>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:hide"/>
+	<app_feature name="com.android.systemui.show_vonr" args="boolean:true"/>
+</extend_features>
+<!-- Timestamp 2024-11-29T17:58:05 #280182 -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_switch_title_dynamic" args="String:vowifi_title_for_ES_VDF"/>
+</extend_features>
+<!-- Timestamp 2024-05-09T17:01:28 #121785 -->

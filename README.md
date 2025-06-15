@@ -1,0 +1,20 @@
+## sys_mssi_64_64only_cn_armv82-user 15 AP3A.240617.008 1748617107928 release-keys
+- Manufacturer: oplus
+- Platform: common
+- Codename: ossi
+- Brand: oplus
+- Flavor: sys_mssi_64_64only_cn_armv82-user
+- Release Version: 15
+- Kernel Version: 6.1.115
+- Id: AP3A.240617.008
+- Incremental: 1748617107928
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: oplus/ossi/ossi:14/UKQ1.231108.001/1748617447238:user/release-keys
+- OTA version: 
+- Branch: sys_mssi_64_64only_cn_armv82-user-15-AP3A.240617.008-1748617107928-release-keys
+- Repo: oplus_ossi_dump

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<string name="gps.supl_host">supl.geo.t-mobile.com</string>
+	<string name="gps.supl_ver">0x20004</string>
+	<string name="gps.supl_mode">3</string>
+	<string name="gps.lpp_profile">15</string>
+</carrier_config>

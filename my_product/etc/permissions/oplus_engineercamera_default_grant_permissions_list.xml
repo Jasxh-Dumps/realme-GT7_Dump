@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ********************************************************************************
+ ** Copyright (C) 2018-2021 Oplus. All rights reserved.
+ ** All rights reserved.
+ **
+ ** File: - privapp-permission-oplus.xml
+ ** Description:
+ **     Customization of Android default_grant_permissions_list.xml
+ **
+ ** Version: 1.0
+ ** Date: 2024-05-17
+ ********************************************************************************/
+  -->
+<packages>
+    <default-grant-permissions package="com.oplus.engineercamera" >
+        <permission name="android.permission.CAMERA"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+    </default-grant-permissions>
+</packages>

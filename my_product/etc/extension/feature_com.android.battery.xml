@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- Intelligent temperature control delay lock frame-->
+    <app_feature name="com.oplus.battery.support.smart_refresh" />
+</extend_features>

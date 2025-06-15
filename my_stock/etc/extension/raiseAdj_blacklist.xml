@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20240130</version>
+    <isOpen>1</isOpen>
+    <filter-name>raiseAdj_blacklist</filter-name>
+    <rabl>YW5kcm9pZC5vcy5jdHMuYXV0b3Jldm9rZXNhcHA=</rabl><!--android.os.cts.autorevokesapp-->
+    <rabl>YW5kcm9pZC5vcy5jdHMuYXV0b3Jldm9rZXJhcHA=</rabl><!--android.os.cts.autorevokerapp-->
+    <rabl>YW5kcm9pZC5oaWJlcm5hdGlvbi5jdHMuYXV0b3Jldm9rZXJhcHA=</rabl><!--android.hibernation.cts.autorevokerapp-->
+    <rabl>YW5kcm9pZC5oaWJlcm5hdGlvbi5jdHMuYXV0b3Jldm9rZXNhcHA=</rabl><!--android.hibernation.cts.autorevokesapp-->
+    <rabl>YW5kcm9pZC5hcHAuc3R1YnM=</rabl><!--android.app.stubs-->
+    <rabl>YW5kcm9pZC5hcHAuc3R1YnM6aGJhY3Q=</rabl><!--android.app.stubs:hbact-->
+    <rabl>Y29tLmFuZHJvaWQubGF1bmNoZXI=</rabl><!--com.android.launcher-->
+    <rabl>Y29tLmFuZHJvaWQuY2hyb21l</rabl><!--com.android.chrome-->
+    <rabl>YW5kcm9pZC5zZXJ2ZXIud20uYXBw</rabl><!--android.server.wm.app-->
+	<rabl>Y29tLmFuZHJvaWQuY3RzLmxhdW5jaGVyYXBwcy5zaW1wbGVhcHA=</rabl><!--com.android.cts.launcherapps.simpleapp-->
+</filter-conf>

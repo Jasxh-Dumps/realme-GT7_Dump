@@ -1,0 +1,7 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+
+    <app_feature name="oplus_operator_chrome_homepage" args="String:https://www.google.com">
+    </app_feature>
+
+</extend_features>

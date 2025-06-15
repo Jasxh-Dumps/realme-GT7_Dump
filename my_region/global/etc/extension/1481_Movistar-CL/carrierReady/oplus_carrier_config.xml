@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_status" value="0"/>
+	<string name="display_lte_icon_type_string">voz4g</string>
+	<string name="display_wifi_icon_type_string">vozwifi</string>
+	<boolean name="display_call_type_icon_bool" value="true"/>
+</carrier_config>
+<!-- Timestamp 2024-09-20T19:43:21 #231284 -->

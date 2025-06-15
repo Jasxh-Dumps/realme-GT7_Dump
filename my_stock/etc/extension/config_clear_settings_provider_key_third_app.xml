@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings_provider_key version="135">
+    <application package="com.oplus.ota">
+        <key category="system" new_name="com.oplus.ota.downloaded_status" old_name="com.oppo.ota.downloaded_status" />
+    </application>
+    <application package="com.oplus.aod">
+        <key category="system" new_name="oplus_customize_aod_curved_display_notification_switch"
+            old_name="oppo_aod_curved_display_notification_switch" />
+        <key category="system" new_name="oplus_customize_comm_incallui_curved_display_notification_color"
+            old_name="oppo_comm_incallui_curved_display_notification_color" />
+    </application>
+    <application package="com.oplus.eyeprotect">
+        <key category="system" new_name="oplus_eye_protect_sunset_to_sunrise"
+            old_name="color_eye_protect_sunset_to_sunrise" />
+        <key category="system" new_name="oplus_customize_eye_protect_timer_active_time"
+            old_name="OppoEyeprotect_timer_active_time" />
+        <key category="system" new_name="oplus_customize_eye_protect_stop_change_level"
+            old_name="OppoEyeprotect_level" />
+        <key category="system" new_name="oplus_customize_eye_protect_changing_level"
+            old_name="color_eyeprotect_level" />
+        <key category="system" new_name="oplus_customize_eye_protect_enable"
+            old_name="color_eyeprotect_enable" />
+    </application>
+    <application package="com.android.incallui">
+        <key category="system" new_name="oplus_customize_sdcard_storage_switch_com_android_incallui"
+            old_name="oppo_sdcard_storage_switch_com_android_incallui" />
+        <key category="global" new_name="oplus_customize_rakuten_prefix_preference" old_name="oppo_rakuten_prefix_preference"/>
+        <key category="global" new_name="oplus_customize_rakuten_prefix" old_name="oppo_rakuten_prefix"/>
+        <key category="global" new_name="oplus_customize_incall_first_video_call_after_reset_phone_preference"
+            old_name="oppo_incall_first_video_call_after_reset_phone_preference"/>
+        <key category="global" new_name="oplus_customize_all_call_audio_record" old_name="oppo_all_call_audio_record"/>
+        <key category="global" new_name="oplus_customize_all_stranger_call_audio_record" old_name="oppo_all_stranger_call_audio_record"/>
+        <key category="global" new_name="oplus_customize_max_record_setting" old_name="oppo_max_record_setting"/>
+        <key category="global" new_name="oplus_customize_has_enter_auto_record_activity" old_name="oppo_has_enter_auto_record_activity"/>
+        <key category="global" new_name="oplus_comm_incallui_side_notification_incomming_type"
+            old_name="oppo_comm_incallui_side_notification_incomming_type"/>
+        <key category="global" new_name="oplus_customize_ai_audio_guide_shown_setting" old_name="oppo_ai_audio_guide_shown_setting"/>
+        <key category="global" new_name="oplus_common_center_incallui_floating_window_state"
+            old_name="oppo_common_center_incallui_floating_window_state"/>
+    </application>
+    <application package="com.android.server.telecom">
+        <key category="global" new_name="oplus_comm_telecom_massive_harassing_calls_notified"
+            old_name="oppo_comm_telecom_massive_harassing_calls_notified" />
+        <key category="global" new_name="oplus_comm_telecom_count_for_mark_info_call_log"
+            old_name="oppo_comm_telecom_count_for_mark_info_call_log" />
+        <key category="global" new_name="oplus_comm_telecom_count_for_stranger_call_log"
+            old_name="oppo_comm_telecom_count_for_stranger_call_log" />
+    </application>
+
+    <application package="com.oplus.server.wifi.hotspot">
+        <key category="system" new_name="wifi_ap_traffic_limit" old_name="oppo_wifi_ap_traffic_limit"/>
+        <key category="system" new_name="wifi_ap_max_devices_connect" old_name="oppo_wifi_ap_max_devices_connect"/>
+    </application>
+
+    <application package="com.oplus.bluetooth.opp">
+        <key category="system" new_name="oplus_sdcard_storage_switch_com_android_bluetooth" old_name="oppo_sdcard_storage_switch_com_android_bluetooth"/>
+    </application>
+
+    <application package="com.oplus.internal.telephony.dataconnection">
+        <key category="system" new_name="oplus_cta_update_service" old_name="oppo_cta_update_service"/>
+    </application>
+
+    <application package="com.oplus.internal.telephony.ddsswitch">
+        <key category="global" new_name="oplus_customize_multi_sim_network_primary_slot" old_name="oppo_multi_sim_network_primary_slot"/>
+    </application>
+
+    <application package="com.oplus.camera">
+        <key category="system" new_name="oplus_is_camera_recording" old_name="oppo_is_camera_recording"/>
+        <key category="secure" new_name="com.oplus.camera quick launch" old_name="com.oppo.camera quick launch"/>
+    </application>
+
+    <application package="com.oplus.wirelesssettings">
+        <key category="global" new_name="wireless.wifi.monitor.setting" old_name="oppo.comm.wifi.monitor.setting"/>
+        <key category="global" new_name="oplus_comm_trafficmonitor_traffic_limit_switch" old_name="oppo_comm_simsettings_traffic_limit_switch"/>
+        <key category="global" new_name="oplus_comm_wifi_auto_change_network_level" old_name="oppo_comm_wifi_auto_change_network_level"/>
+        <key category="global" new_name="wireless_lelink_feature" old_name="oppo_lelink_feature"/>
+        <key category="global" new_name="wifi_reset_password" old_name="oppo_wifi_reset_password"/>
+        <key category="system" new_name="oplus_usbtether_enabled" old_name="oppo_usbtether_enabled"/>
+        <key category="system" new_name="wifi_ap_traffic_limit" old_name="oppo_wifi_ap_traffic_limit"/>
+        <key category="system" new_name="wifi_ap_max_devices_connect" old_name="oppo_wifi_ap_max_devices_connect"/>
+        <key category="system" new_name="oplus_bt_scan_mode" old_name="oppo_bt_scan_mode"/>
+    </application>
+
+    <application package="com.oplus.trafficmonitor">
+        <key category="global" new_name="oplus_comm_trafficmonitor_gms_network_control" old_name="oppo_comm_simsettings_gms_network_control"/>
+        <key category="global" new_name="oplus_comm_trafficmonitor_daily_alert_change" old_name="oppo_comm_simsettings_daily_alert_change"/>
+    </application>
+
+    <application package="com.android.providers.contacts">
+        <key category="system" new_name="oplus_customize_missed_calls_number" old_name="oppo.missed.calls.number"/>
+    </application>
+
+    <application package="com.android.phone">
+        <key category="global" new_name="oplus_customize_ctautorg_esn_change_flag" old_name="oppo_ctautorg_esn_change_flag"/>
+        <key category="global" new_name="oplus_customize_hangup_emergencycall_not_interception_mode" old_name="oppo_hangup_emergencycall_not_interception_mode"/>
+        <key category="global" new_name="oplus_customize_comm_phone_auto_answer" old_name="oppo_comm_phone_auto_answer"/>
+        <key category="global" new_name="oplus_customize_comm_phone_auto_answer_delay" old_name="oppo_comm_phone_auto_answer_delay"/>
+        <key category="global" new_name="oplus_customize_had_started_harass_setting" old_name="oppo_had_started_harass_setting"/>
+        <key category="global" new_name="oplus_customize_ai_audio_polymorphic_setting" old_name="oppo_ai_audio_polymorphic_setting"/>
+        <key category="global" new_name="oplus_customize_network_auto_select" old_name="oppo_network_auto_select"/>
+        <key category="global" new_name="oplus_customize_comm_phone_power_button_ends_call" old_name="oppo_comm_phone_power_button_ends_call"/>
+        <key category="global" new_name="oplus_customize_dual_lte_switch" old_name="oppo_dual_lte_switch"/>
+        <key category="global" new_name="oplus_commcenter_simsettings_data_setting_changed_by_softsim" old_name="oppo_commcenter_simsettings_data_setting_changed_by_softsim"/>
+        <key category="global" new_name="oplus_customize_multi_sim_user_config_voice" old_name="oppo_multi_sim_user_config_voice"/>
+        <key category="global" new_name="oplus_customize_multi_sim_auto_call_back" old_name="oppo_multi_sim_auto_call_back"/>
+        <key category="global" new_name="oplus_customize_user_config_auto_call_back" old_name="color_user_config_auto_call_back"/>
+        <key category="global" new_name="oplus_customize_volte_change" old_name="oppo_volte_change"/>
+        <key category="secure" new_name="oplus_customize_call_flash_switch" old_name="oppo_call_flash_switch"/>
+    </application>
+
+    <application package="com.oplus.battery">
+        <key category="system" new_name="oplus_deep_sleep_status" old_name="oppoguaedelf_deep_sleep_status" />
+        <key category="system" new_name="oplus_deepsleep_network_type" old_name="oppoguardelf_deepsleep_network_type" />
+        <key category="system" new_name="deepsleep_network_disable_state" old_name="oppoguardelf_deepsleep_network_disable_state" />
+        <key category="system" new_name="deepsleep_reset_airplane" old_name="oppoguardelf_deepsleep_reset_airplane" />
+        <key category="system" new_name="oplusguardelf_inactive_status" old_name="oppoguardelf_inactive_status" />
+        <key category="system" new_name="oplusguardelf_super_sleep_status" old_name="oppoguardelf_super_sleep_status" />
+        <key category="system" new_name="power_save_screen_refresh_rate" old_name="power_save_coloros_screen_refresh_rate" />
+        <key category="secure" new_name="deepsleep_switch_state" old_name="oppoguardelf_deepsleep_switch_state" />
+    </application>
+
+    <application package="com.oplus.blacklistapp">
+        <key category="global" new_name="oplus_customize_harass_intercept_ringing" old_name="oppo_harass_intercept_ringing"/>
+        <key category="global" new_name="oplus_customize_auto_open_and_close_all_incoming" old_name="oppo_auto_open_and_close_all_incoming"/>
+        <key category="global" new_name="oplus_customize_open_days_all_incoming_0" old_name="oppo_open_days_all_incoming_0"/>
+        <key category="global" new_name="oplus_customize_open_days_all_incoming_1" old_name="oppo_open_days_all_incoming_1"/>
+        <key category="global" new_name="oplus_customize_open_start_hour_all_incoming_0" old_name="oppo_open_start_hour_all_incoming_0"/>
+        <key category="global" new_name="oplus_customize_open_start_hour_all_incoming_1" old_name="oppo_open_start_hour_all_incoming_1"/>
+        <key category="global" new_name="oplus_customize_open_start_minute_all_incoming_0" old_name="oppo_open_start_minute_all_incoming_0"/>
+        <key category="global" new_name="oplus_customize_open_start_minute_all_incoming_1" old_name="oppo_open_start_minute_all_incoming_1"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_unknown" old_name="oppo_harass_intercept_unknown"/>
+        <key category="global" new_name="oplus_customize_auto_open_and_close_all_strangers" old_name="oppo_auto_open_and_close_all_strangers"/>
+        <key category="global" new_name="oplus_customize_open_end_hour_all_incoming_0" old_name="oppo_open_end_hour_all_incoming_0"/>
+        <key category="global" new_name="oplus_customize_open_end_hour_all_incoming_1" old_name="oppo_open_end_hour_all_incoming_1"/>
+        <key category="global" new_name="oplus_customize_open_end_minute_all_incoming_0" old_name="oppo_open_end_minute_all_incoming_0"/>
+        <key category="global" new_name="oplus_customize_open_end_minute_all_incoming_1" old_name="oppo_open_end_minute_all_incoming_1"/>
+        <key category="global" new_name="oplus_customize_not_intercept_repeat_call" old_name="oppo_not_intercept_repeat_call"/>
+        <key category="global" new_name="oplus_customize_sim2_use_sim1_rules" old_name="oppo_sim2_use_sim1_rules"/>
+        <key category="global" new_name="oplus_customize_open_days_all_strangers_0" old_name="oppo_open_days_all_strangers_0"/>
+        <key category="global" new_name="oplus_customize_open_days_all_strangers_1" old_name="oppo_open_days_all_strangers_1"/>
+        <key category="global" new_name="oplus_customize_open_start_hour_all_strangers_0" old_name="oppo_open_start_hour_all_strangers_0"/>
+        <key category="global" new_name="oplus_customize_open_start_hour_all_strangers_1" old_name="oppo_open_start_hour_all_strangers_1"/>
+        <key category="global" new_name="oplus_customize_open_start_minute_all_strangers_0" old_name="oppo_open_start_minute_all_strangers_0"/>
+        <key category="global" new_name="oplus_customize_open_start_minute_all_strangers_1" old_name="oppo_open_start_minute_all_strangers_1"/>
+        <key category="global" new_name="oplus_customize_comm_phone_intercept_notify" old_name="oppo_comm_phone_intercept_notify"/>
+        <key category="global" new_name="oplus_customize_open_end_hour_all_strangers_0" old_name="oppo_open_end_hour_all_strangers_0"/>
+        <key category="global" new_name="oplus_customize_open_end_hour_all_strangers_1" old_name="oppo_open_end_hour_all_strangers_1"/>
+        <key category="global" new_name="oplus_customize_open_end_minute_all_strangers_0" old_name="oppo_open_end_minute_all_strangers_0"/>
+        <key category="global" new_name="oplus_customize_open_end_minute_all_strangers_1" old_name="oppo_open_end_minute_all_strangers_1"/>
+        <key category="global" new_name="oplus_customize_intercept_incoming_non_mainland_china" old_name="oppo_intercept_incoming_non_mainland_china"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_harassment" old_name="oppo_harass_intercept_mark_number_harassment"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_fraud" old_name="oppo_harass_intercept_mark_number_fraud"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_all_incoming_calls" old_name="oppo_harass_intercept_all_incoming_calls"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_advertising" old_name="oppo_harass_intercept_mark_number_advertising"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_all_strangers_calls" old_name="oppo_harass_intercept_all_strangers_calls"/>
+        <key category="global" new_name="oplus_customize_attribution_blocked_not_intercept_repeat" old_name="oppo_attribution_blocked_not_intercept_repeat"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_intermediary" old_name="oppo_harass_intercept_mark_number_intermediary"/>
+        <key category="global" new_name="oplus_customize_had_started_harass_setting" old_name="oppo_had_started_harass_setting"/>
+        <key category="global" new_name="oplus_customize_mark_number_blocked_not_intercept_repeat" old_name="oppo_mark_number_blocked_not_intercept_repeat"/>
+        <key category="global" new_name="oplus_customize_credible_strangers_number" old_name="oppo_credible_strangers_number"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_threshold" old_name="oppo_harass_intercept_mark_number_threshold"/>
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_threshold_1" old_name="oppo_harass_intercept_mark_number_threshold_1"/>
+        <key category="global" new_name="oplus_customize_attribution_blocked_not_intercept_credible_strangers" old_name="oppo_attribution_blocked_not_intercept_credible_strangers"/>
+        <key category="global" new_name="customize_blacklistapp_time_delay_ring_key" old_name="oppo_time_delay_ring_key"/>
+        <key category="secure" new_name="customize_blacklistapp_gov_blackwhite_pattern" old_name="oppo_comm_blacklistprovider_gov_blackwhite_pattern"/>
+        <key category="secure" new_name="customize_blacklistapp_gov_block_mode" old_name="oppo_comm_blacklistprovider_gov_block_mode"/>
+        <key category="secure" new_name="customize_blacklistapp_gov_out_or_income" old_name="oppo_comm_blacklistprovider_gov_out_or_income"/>
+        <key category="global" new_name="customize_blacklistapp_delay_type_count" old_name="oppo_delay_type_count"/>
+        <key category="global" new_name="customize_blacklistapp_unknown_type_count" old_name="oppo_unknown_type_count"/>
+        <key category="global" new_name="customize_blacklistapp_stranger_type_count" old_name="oppo_stranger_type_count"/>
+        <key category="global" new_name="customize_blacklistapp_intercept_call_count" old_name="oppo_comm_incallui_intercept_call_count"/>
+    </application>
+    <application package="com.android.contacts">
+        <key category="global" new_name="customize_contacts_need_block" old_name="oppo_comm_need_block" />
+        <key category="global" new_name="customize_contacts_criminal_number" old_name="oppo_comm_criminal_number" />
+        <key category="global" new_name="customize_contacts_calllog_date" old_name="oppo_comm_calllog_date" />
+        <key category="global" new_name="customize_contacts_hide_card_recognize" old_name="oppo_comm_contacts_hide_card_recognize" />
+        <key category="global" new_name="customize_contacts_contactsprovider_criminal_number" old_name="oppo_comm_contactsprovider_criminal_number" />
+        <key category="global" new_name="customize_contacts_need_show_block_tips" old_name="oppo_comm_need_show_block_tips" />
+        <key category="global" new_name="customize_contacts_show_device_locked" old_name="oppo_show_device_locked" />
+        <key category="global" new_name="customize_contacts_count_for_mark_info_call_log" old_name="oppo_contacts_count_for_mark_info_call_log" />
+        <key category="global" new_name="customize_contacts_count_for_stranger_call_log" old_name="oppo_contacts_count_for_stranger_call_log" />
+        <key category="global" new_name="customize_contacts_online_recognize_switch" old_name="oppo_comm_contacts_online_recognize_switch" />
+        <key category="global" new_name="customize_contacts_online_recognize_timeout" old_name="oppo_comm_contacts_online_recognize_timeout" />
+        <key category="global" new_name="customize_contacts_scan_namecard_url" old_name="oppo_comm_contacts_scan_namecard_url" />
+        <key category="global" new_name="customize_contacts_scan_namecard_username" old_name="oppo_comm_contacts_scan_namecard_username" />
+        <key category="global" new_name="customize_contacts_scan_namecard_password" old_name="oppo_comm_contacts_scan_namecard_password" />
+        <key category="system" new_name="customize_contacts_display_contacts_photo" old_name="oppo_display_contacts_photo" />
+        <key category="global" new_name="customize_contacts_support_online_card_recognize" old_name="oppo_comm_contacts_support_online_card_recognize" />
+        <key category="secure" new_name="customize_contacts_numbermask_switch" old_name="oppo_comm_contacts_numbermask_switch" />
+        <key category="secure" new_name="customize_contacts_numbermask_masktype" old_name="oppo_comm_contacts_numbermask_masktype" />
+        <key category="global" new_name="customize_contacts_kana_enable" old_name="oppo_comm_contacts_kana_enable" />
+        <key category="system" new_name="oplus_customize_assisted_dialing_switch" old_name="oppo_assisted_dialing_switch" />
+        <key category="secure" new_name="oplus_customize_simettings_network_mode_visible" old_name="oppo_simettings_network_mode_visible" />
+        <key category="system" new_name="oplus_customize_smart_apperceive_dial" old_name="oppo_smart_apperceive_dial" />
+        <key category="global" new_name="oplus_customize_phone_call_assistant_support" old_name="oppo.phone.call.assistant.support" />
+        <key category="global" new_name="oplus_customize_harass_intercept_mark_number_enbale" old_name="oppo_harass_intercept_mark_number_enbale" />
+        <key category="global" new_name="customize_blacklistapp_intercept_criminal" old_name="oppo_comm_phone_intercept_criminal" />
+    </application>
+
+    <application package="com.android.mms">
+        <key category="system" new_name="customize_mms_switch_ted_sms_parse_setting" old_name="oppo_comm_mms_switch_ted_sms_parse_setting" />
+        <key category="global" new_name="customize_mms_create_mapping_device_retry_frequency" old_name="oppo_comm_mms_create_mapping_device_retry_frequency" />
+        <key category="global" new_name="customize_mms_create_mapping_device_retry_time" old_name="oppo_comm_mms_create_mapping_device_retry_time" />
+        <key category="global" new_name="customize_mms_service_number_update_time" old_name="oppo_comm_mms_service_number_update_time" />
+        <key category="global" new_name="customize_mms_push_enable" old_name="oppo_comm_mms_oppo_push_enable" />
+        <key category="global" new_name="customize_mms_find_mapping_enable" old_name="oppo_comm_mms_oppo_find_mapping_enable" />
+        <key category="global" new_name="customize_mms_verification_code_pkg" old_name="oppo_comm_mms_verification_code_pkg" />
+        <key category="global" new_name="customize_mms_maap_ho" old_name="oppo_comm_mms_maap_ho" />
+        <key category="global" new_name="customize_mms_maap_version" old_name="oppo_comm_mms_maap_version" />
+        <key category="global" new_name="customize_mms_maap_channel" old_name="oppo_comm_mms_maap_channel" />
+        <key category="global" new_name="customize_mms_rcs_process_run_background" old_name="oppo_comm_mms_rcs_process_run_background" />
+        <key category="global" new_name="customize_mms_rcs_config_server_address" old_name="oppo_comm_mms_rcs_config_server_address" />
+        <key category="global" new_name="customize_mms_rcs_enable_config" old_name="oppo_comm_mms_rcs_enable_config" />
+    </application>
+
+    <application package="com.oplus.sos">
+        <key category="global" new_name="oplus_comm_soshelper_use_power_btn" old_name="oppo_comm_soshelper_use_power_btn" />
+        <key category="global" new_name="oplus_comm_soshelper_license" old_name="oppo_comm_soshelper_license" />
+        <key category="global" new_name="customize_soshelper_emergency_mode" old_name="oppo_comm_soshelper_emergency_mode" />
+    </application>
+
+    <application package="com.oplus.screenshot">
+        <key category="system" new_name="oplus_customize_smart_apperceive_screen_capture" old_name="oppo_smart_apperceive_screen_capture" />
+        <key category="system" new_name="oplus_customize_screenshot_enable_area_screenshot" old_name="coloros_screenshot_enable_area_screenshot" />
+        <key category="system" new_name="oplus_customize_screenshot_enable_physical_keys" old_name="coloros_screenshot_enable_physical_keys" />
+    </application>
+</settings_provider_key>

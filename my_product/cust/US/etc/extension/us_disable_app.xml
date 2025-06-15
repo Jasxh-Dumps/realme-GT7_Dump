@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<extend_features>
+    <app_feature name="oplus_operator_disable_packages" args="StringList:disable_package_list">
+        <StringList name="disable_package_list" args="com.verizon.mips.services"/>
+        <StringList name="disable_package_list" args="com.vzw.apnlib"/>
+    </app_feature>
+</extend_features>

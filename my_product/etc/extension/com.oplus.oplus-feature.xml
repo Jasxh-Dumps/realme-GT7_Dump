@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.view.spring_over_scroller"/>
+	<oplus-feature name="oplus.software.support_blockable_animation"/>
+	<oplus-feature name="oplus.software.support_quick_launchapp"/>
+	<oplus-feature name="oplus.software.pcconnect.support"/>
+	<oplus-feature name="oplus.software.support.zoom.multi_mode"/>
+	<oplus-feature name="oplus.software.preload.camera"/>
+	<oplus-feature name="oplus.software.camera_volume_quick_launch"/>
+	<oplus-feature name="oplus.software.aon_phone_camera_gesture_recognition"/>
+	<oplus-feature name="oplus.software.aon_enable"/>
+	<oplus-feature name="oplus.software.aon_phone_mute"/>
+	<oplus-feature name="oplus.software.aon_phone_enable"/>
+	<oplus-feature name="oplus.software.screenon_before_special_action_open_camera"/>
+	<oplus-feature name="oplus.software.smart_loop_drag"/>
+	<oplus-feature name="oplus.velocitytracker.strategy.support"/>
+	<oplus-feature name="oplus.software.lockscreen.enable.standard_refresh_rate"/>
+	<oplus-feature name="oplus.software.memory_nirvana.enable"/>
+	<oplus-feature name="oplus.software.activity_preload"/>
+	<oplus-feature name="oplus.software.game_scroff_act_preload"/>
+	<oplus-feature name="oplus.software.slc.dispatch"/>
+</oplus-config>
+<!-- Timestamp 2025-02-27T10:51:06 #567210 -->

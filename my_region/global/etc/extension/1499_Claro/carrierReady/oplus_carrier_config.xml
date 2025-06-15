@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<boolean name="display_hd_audio_property_bool" value="false"/>
+	<boolean name="display_call_type_icon_bool" value="true"/>
+	<int name="vowifi_preferred_hide_mode" value="1"/>
+	<boolean name="com.google.android.dialer.display_wifi_calling_button_bool" value="true"/>
+	<string name="gps.supl_host"></string>
+	<string name="gps.supl_ver">0x20000</string>
+	<string name="gps.lpp_profile">2</string>
+</carrier_config>

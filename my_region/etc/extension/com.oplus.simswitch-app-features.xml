@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.cota.cota_host_url" args="String:https://icota-service-in.allawnos.com"/>
+</extend_features>
+<!-- Timestamp 2024-09-23T15:21:58 #231846 -->

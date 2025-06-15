@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="oplus_sim_switch_parameter" args="StringList:carrier">
+        <StringList name="carrier" args="name=kh-mobitel|target_name=kh-all"/>
+        <StringList name="carrier" args="name=kh-smart|target_name=kh-all"/>
+        <StringList name="carrier" args="name=kh-st|target_name=kh-all"/>
+        <StringList name="carrier" args="name=kh-camshin|target_name=kh-all"/>
+        <StringList name="carrier" args="name=kh-qb|target_name=kh-all"/>
+        <StringList name="carrier" args="name=kh-metfone|target_name=kh-all"/>
+        <StringList name="carrier" args="name=kh-seatel|target_name=kh-all"/>
+        <StringList name="carrier" args="name=la-ltc|target_name=la-all"/>
+        <StringList name="carrier" args="name=la-etl|target_name=la-all"/>
+        <StringList name="carrier" args="name=la-millicom|target_name=la-all"/>
+        <StringList name="carrier" args="name=la-unitel|target_name=la-all"/>
+        <StringList name="carrier" args="name=hk-3hk|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-cmhk|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-csl|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-smartone|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-cu|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-trident|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-cm|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-nw|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-chktl|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-pccw|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-pm|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-citic|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-3|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-gfi|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-sun|target_name=hk-all"/>
+        <StringList name="carrier" args="name=hk-gfi3hk|target_name=hk-all"/>
+    </app_feature>
+</extend_features>

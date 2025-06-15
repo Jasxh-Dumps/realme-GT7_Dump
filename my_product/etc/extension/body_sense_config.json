@@ -1,0 +1,19 @@
+{
+  "version": 20250108,
+  "body_sense_config": {
+      "thres_right_1": -3,
+      "thres_right_2": 1,
+      "thres_left_1": 3,
+      "thres_left_2": -1,
+      "thres_front_1": -3,
+      "thres_front_2": 1,
+      "thres_back_1": 3,
+      "thres_back_2": -1,
+      "thres_count": 2,
+      "thres_time_count": 6,
+      "time_interval": 18,
+      "countdsa_max": 10,
+      "continuity_max": 20,
+      "sensor_delay_game": 1
+  }
+}

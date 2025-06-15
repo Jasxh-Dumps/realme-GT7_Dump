@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.keep_alive"/>
+	<oplus-feature name="oplus.software.face_closeeye_detect"/>
+	<oplus-feature name="oplus.software.hw.manufacturer.mtk"/>
+	<oplus-feature name="oplus.software.wake_up_arouse_support"/>
+	<oplus-feature name="oplus.software.gesture_proximitysensor"/>
+	<oplus-feature name="oplus.software.disable_smallwindow_leather"/>
+</oplus-config>

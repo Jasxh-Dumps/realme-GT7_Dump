@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+每一个完整的热点包含在一个AccessPoint标签内，配置的要求如下：
+- WifiConfiguration(必须)
+    - SSID(必须)：预置热点的SSID；
+    - keyMgmt(必须)：预置热点的加密方式，可以填写WPA_EAP或者NONE；
+    - eapConfig(可选)：热点的EAP方法，如果keyMgmt是WPA_EAP，必须填写eapConfig，可以填写SIM, AKA或AKA_PRIME；
+    - hidden(可选)：表示热点是否是隐藏的，可以填写1或者0，默认是0；
+    - enabled(可选)：表示热点是否需要被默认禁用，可以填写1或者0，默认是1；
+- PreCondition(可选)
+    - requiredProp(可选)：指定的系统属性，有系统属性满足要求时，热点才会被真正添加。每一个requiredProp包含两个attributes，分别是prop（系统属性的名字）和value（系统属性的值）；
+    - requiredPropLogic(可选)：当包含多个requiredProp时，需要包含requiredPropLogic，表示各个requiredProp的计算方式。requiredPropLogic仅包含一个attribute即logic，可以填写and或or，默认为or；
+    - requiredSimOperator(可选)：指定的SIM卡，某些虚拟运营商要求只有特定的SIM卡插入后，才需要预置热点。每一个requiredSimOperator包含一个attribute：mccmnc（MCC和MNC的组合）。
+e.g.
+<AccessPoint>
+	<WifiConfiguration>
+		<SSID>Test AKA</SSID>
+		<keyMgmt>WPA_EAP</keyMgmt>
+		<eapConfig>AKA</eapConfig>
+		<hidden>0</hidden>
+	</WifiConfiguration>
+	<PreCondition>
+		<requiredProp prop="persist.oplus.wifi.test1" value="1"/>
+		<requiredProp prop="persist.oplus.wifi.test2" value="1"/>
+		<requiredPropLogic logic="and"/>
+	</PreCondition>
+</AccessPoint>
+<AccessPoint>
+	<WifiConfiguration>
+		<SSID>Test Open</SSID>
+		<keyMgmt>NONE</keyMgmt>
+		<eapConfig></eapConfig>
+		<hidden>0</hidden>
+	</WifiConfiguration>
+	<PreCondition>
+		<requiredProp prop="persist.oplus.wifi.test1" value="1"/>
+		<requiredProp prop="persist.oplus.wifi.test2" value="1"/>
+		<requiredPropLogic logic="and"/>
+		<requiredSimOperator mccmnc="23410"/>
+	</PreCondition>
+</AccessPoint>
+////////////////////
+Revision History:
+<author>                        <data>       <version>   <desc>
+Haitao.Jiang@PSW.CN.WiFi.Operator.2528126    2019-12-13    1.0    wifi_operator_preset_ap_list.xml initial implementation
+Haitao.Jiang@PSW.CN.WiFi.Operator.2528126    2019-12-18    1.0    Add ro.vendor.oplus.operator judge for Telekom_SIM
+Haitao.Jiang@PSW.CN.WiFi.Operator.2056392    2019-12-25    1.0    Add SSID "Wifi Extra"
+Haitao.Jiang@PSW.CN.WiFi.Operator.2677666    2020-03-24    1.0    Add CPW preset access point and add support for "requiredSimOperator"
+JiangHaitao@CONNECTIVITY.WIFI.CUSTOMIZE.OPERATOR    2020-05-12    2.0    Decoupling for Android R
+Matt.Lang@CONNECTIVITY.WIFI.CUSTOMIZE.OPERATOR    2022-06-01   3.0    Decoupling for Android T + ColorOS13
+-->
+<WifiOperatorPresetApList>
+<AccessPoint>
+	<WifiConfiguration>
+		<SSID>Miatel</SSID>
+		<keyMgmt>WPA_EAP</keyMgmt>
+		<eapConfig>AKA</eapConfig>
+		<hidden>1</hidden>
+	</WifiConfiguration>
+</AccessPoint>
+</WifiOperatorPresetApList>

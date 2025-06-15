@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_preferred_hide_mode" value="1"/>
+	<int name="vowifi_preferred_mode" value="1"/>
+</carrier_config>
+<!-- Timestamp 2024-10-22T18:04:41 #249047 -->

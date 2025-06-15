@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  	<!--XiZhiChan@App.LinkToWindows,2023/08/01,add for LinkToWindows app to grant permission -->
+	<privapp-permissions package="com.microsoft.appmanager">
+		<permission name="android.permission.WHITELIST_AUTO_REVOKE_PERMISSIONS" />
+		<permission name="android.permission.READ_WALLPAPER_INTERNAL" />
+		<permission name="android.permission.REQUEST_COMPANION_PROFILE_COMPUTER"/>
+		<permission name="android.permission.REQUEST_COMPANION_SELF_MANAGED"/>
+		<deny-permission name="android.permission.CAPTURE_MEDIA_OUTPUT" />
+		<deny-permission name="android.permission.MODIFY_AUDIO_ROUTING" />
+		<deny-permission name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+	</privapp-permissions>
+
+	<!--XiZhiChan@App.DeviceIntegrationService,2023/08/01,add for DeviceIntegrationService app to grant permission -->
+	<privapp-permissions package="com.microsoft.deviceintegrationservice">
+		<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+		<permission name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+		<permission name="android.permission.MODIFY_AUDIO_ROUTING" />
+		<permission name="android.permission.REAL_GET_TASKS" />
+		<permission name="android.permission.TETHER_PRIVILEGED" />
+		<permission name="android.permission.OVERRIDE_WIFI_CONFIG" />
+	</privapp-permissions>
+</permissions>

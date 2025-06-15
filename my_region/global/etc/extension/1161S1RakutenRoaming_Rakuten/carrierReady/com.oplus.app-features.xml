@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.softbank_voice_type"/>
+</extend_features>
+<!-- Timestamp 2024-07-31T21:49:23 #173877 -->

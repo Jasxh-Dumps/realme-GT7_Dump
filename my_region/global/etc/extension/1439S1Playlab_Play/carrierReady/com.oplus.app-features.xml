@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.replace_network_title_dynamic" args="StringList:array">
+		<StringList name="array" args="4G;LTE"/>
+	</app_feature>
+	<app_feature name="com.android.phone.simsettings.data_roaming_type_domesic_national_dynamic"/>
+	<app_feature name="com.android.phone.data_roaming_type_domesic_national_dynamic"/>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.customize_network_name_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_5g_lte_3g_2g_auto;oplus_lte_3g_2g_auto;oplus_3g_2g_auto;oplus_2g_only"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_name_list_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_lte_3g_2g_auto;oplus_3g_2g_auto;oplus_2g_only"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="33;9;0;1"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_dynamic" args="StringList:type">
+		<StringList name="type" args="9;0;1"/>
+	</app_feature>
+	<app_feature name="com.android.phone.network_mode_customize_5G_4G_3G_2G" args="String:oplus_5g_lte_3g_2g_auto"/>
+	<app_feature name="com.android.phone.network_mode_customize_4G_3G_2G" args="String:oplus_lte_3g_2g_auto"/>
+	<app_feature name="com.android.systemui.show_lteplus_for_4gplus"/>
+	<app_feature name="com.android.systemui.show_lte_for_4g"/>
+</extend_features>
+<!-- Timestamp 2023-09-19T11:04:18 #47302 -->

@@ -1,0 +1,1550 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--Oplus_Product_SPN_Config_version=1.0.39 commitID=0d40cad3215603152d96db3f8a4d6a4e0d3c306e-->
+<!-- The modification of this file is mainly used, for a certain card,
+     when it is registered to a certain network, or manually searched
+     for a certain network, the name display overlay in different scenarios
+
+    Format of file configuration：
+    <carrier_config  operator="" gid1="">
+        <string-array name="simMccmnc" num="1">
+            <item value="" />
+        </string-array>
+        <string-array name="networkNuumeric" num="1">
+            <item value="rule,operatorName" />
+        </string-array>
+    </carrier_config>
+
+    Parameter interpretation：
+    1 operator        : used to identify regions and operators, not for logical judgment
+    2 gid1            : used to differentiate virtual cards
+    3 simMccmnc       : sim card's mccmnc
+    4 networkNuumeric : current registered operator numeric
+    5 operatorName    : the name to use for override, can be null
+    6 rule            : Scenarios for judging the display of operator names, currently there are the following categories:
+        1)  1001 OPLUS_SYSYTEMUI_SHOW_SPECIFIC_NAME_IN_VOWIFI
+             For the status bar, the name is displayed in the vowifi scene
+        2)  1002 OPLUS_SYSYTEMUI_SHOW_SPECIFIC_NAME_IN_SPECIFIC_NETWORK
+             For the status bar, the name is displayed in a specific network
+        3)  1003 OPLUS_SYSYTEMUI_SHOW_SPECIFIC_NAME_IN_SPECIFIC_LANGUAGE
+             For the status bar, the name is displayed in a specific system language
+        4)  1004 OPLUS_SYSYTEMUI_SHOW_SPN_ROAMING
+             For the status bar, use SPN to display in a sepcific network, operatorName should be null
+        5)  1005 OPLUS_SYSYTEMUI_SHOW_PLMN
+             For the status bar, use plmn to display in a sepcific network, operatorName should be null
+        6)  1006 OPLUS_SYSYTEMUI_SHOW_PLMN_SPN (need plmn != spn)
+             For the status bar, use plmn + spn to display in a sepcific network, operatorName should be null
+        7)  1007 OPLUS_SYSYTEMUI_SHOW_SPECIFIC_NAME_IN_VOWIFI_IN_AIRPLANE_MODE
+             For the status bar, the name is displayed in the vowifi scene and airplane mode enable
+        8)  1008 OPLUS_SYSYTEMUI_SHOW_EONS_IN_SPECIFIC_NETWORK
+             For the status bar, the EONS is displayed in a specific system language
+        9)  1009 OPLUS_SYSYTEMUI_SHOW_SPN_DOMESTIC_ROAMING
+             For the status bar, the SPN is displayed for all plmn of domestic roaming
+        10) 1010 OPLUS_SYSYTEMUI_SHOW_NITZ_FOR_MTK
+             For the status bar, use NITZ to display in a sepcific network for MTK
+        11) 1011 OPLUS_SYSYTEMUI_SHOW_SPN_PLMN
+             For the status bar, use spn + plmn to display in a sepcific network, operatorName should be null
+             The difference with 1006 is that the display order is different
+
+        12) 2001 OPLUS_MANUAL_SEARCH_SHOW_SPECIFIC_NAME
+            For the manual search, the name is displayed in a specific network
+        13) 2002 OPLUS_MANUAL_SEARCH_SHOW_SPECIFIC_NAME_IN_NR
+            For the manual search, the name is displayed in cellinfo of NR rat
+        14) 2003 OPLUS_MANUAL_SEARCH_SHOW_EONS
+            For the manual search, the EONS is displayed in a specific network
+        15) 2004 OPLUS_MANUAL_SEARCH_SHOW_SPN_PLMN
+            For the manual search, plmn + spn is displayed in a specific network
+        16) 2005 OPLUS_MANUAL_SEARCH_SHOW_SPECIFIC_NAME_IN_WCDMA
+            For the manual search, the name is displayed in cellinfo of WCDMA rat
+-->
+<carrier_config_list>
+    <carrier_config  operator="HU-Yettel">
+        <string-array name="mccmnc" num="1">
+            <item value="21601" />
+        </string-array>
+        <string-array name="21601" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+
+    <!-- Fengweiwei@NETWORK.REG.4488160, 2022/10/12, add for PL-Orange when register vowifi, [OCR.44310.1.Orange.PL.V0] -->
+    <carrier_config  operator="PL-Orange">
+        <string-array name="mccmnc" num="1">
+            <item value="26003" />
+        </string-array>
+        <string-array name="26003" num="1">
+            <item value="1001,Orange WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Orange WiFi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="PL-PLAY">
+        <string-array name="mccmnc" num="2">
+            <item value="26006" />
+            <item value="26098" />
+        </string-array>
+        <string-array name="26001" num="2">
+            <item value="2001,Play (Plus)" />
+            <item value="1001,Play WiFi Calling" />
+        </string-array>
+        <string-array name="26002" num="2">
+            <item value="2001,Play (T-Mobile)" />
+            <item value="1001,Play WiFi Calling" />
+        </string-array>
+        <string-array name="26003" num="2">
+            <item value="2001,Play (Orange)" />
+            <item value="1001,Play WiFi Calling" />
+        </string-array>
+        <string-array name="26006" num="1">
+            <item value="2001,Play" />
+        </string-array>
+        <string-array name="26098" num="1">
+            <item value="1001,Play WiFi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Zhubeibei@NETWORK.DATA.5166640, 2023/02/06, display orange as requirment -->
+    <carrier_config  operator="RO-Orange">
+        <string-array name="mccmnc" num="1">
+            <item value="22610" />
+        </string-array>
+        <string-array name="22610" num="1">
+            <item value="1002,orange" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Tianmi@NETWORK.REG.8032218, 2024/10/10, display CLARO BR as requirment -->
+    <carrier_config  operator="Brazil Claro">
+        <string-array name="mccmnc" num="2">
+            <item value="72405" />
+            <item value="72438" />
+        </string-array>
+        <string-array name="72405" num="1">
+            <item value="2001,CLARO BR" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <carrier_config  operator="CO-ETB">
+        <string-array name="mccmnc" num="1">
+            <item value="732187" />
+        </string-array>
+        <string-array name="732103" num="1">
+            <item value="2001,ETB" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Yingbo.Wang@NETWORK.REG.5789961, 2023/06/19, WOM carrier name display requirement -->
+    <carrier_config  operator="WOM">
+        <string-array name="mccmnc" num="1">
+            <item value="73009" />
+        </string-array>
+        <string-array name="73023" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif OPLUS_BUG_COMPATIBILITY -->
+
+    <carrier_config  operator="CL-Claro">
+        <string-array name="mccmnc" num="2">
+            <item value="73003" />
+            <item value="73023" />
+        </string-array>
+        <string-array name="73001" num="2">
+            <item value="1004" />
+            <item value="1001,Claro" />
+        </string-array>
+        <string-array name="73002" num="2">
+            <item value="1004" />
+            <item value="1001,Claro" />
+        </string-array>
+        <string-array name="73007" num="2">
+            <item value="1004" />
+            <item value="1001,Claro" />
+        </string-array>
+        <string-array name="73009" num="2">
+            <item value="1004" />
+            <item value="1001,Claro" />
+        </string-array>
+        <string-array name="73023" num="2">
+            <item value="1004" />
+            <item value="1001,Claro" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Yingbo.Wang@NETWORK.REG.6774660, 2024/01/02, Entel roaming requirement -->
+    <carrier_config operator="Entel">
+        <string-array name="mccmnc" num="1">
+            <item value="73001" />
+        </string-array>
+        <string-array name="73002" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73003" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73009" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73021" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73023" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73026" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- youcuncui@NETWORK.REG.5117776, 2023/01/30, change language SPN display not change for 73026-->
+    <carrier_config  operator="CL-Movistar">
+        <string-array name="mccmnc" num="2">
+            <item value="73002" />
+            <item value="73007" />
+        </string-array>
+        <string-array name="73001" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73003" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73009" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73023" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="73026" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="EG-Orange">
+        <string-array name="mccmnc" num="1">
+            <item value="60201" />
+        </string-array>
+        <string-array name="60201" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="EG-Vodafone">
+        <string-array name="mccmnc" num="1">
+            <item value="60202" />
+        </string-array>
+        <string-array name="60202" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="EG-Etisalat">
+        <string-array name="mccmnc" num="1">
+            <item value="60203" />
+        </string-array>
+        <string-array name="60203" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="60204" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="EG-WE">
+        <string-array name="mccmnc" num="1">
+            <item value="60204" />
+        </string-array>
+        <string-array name="60204" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="60203" num="1">
+            <item value="2001,Etisalat by e&amp;" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="RU-MTS Russia">
+        <string-array name="mccmnc" num="1">
+            <item value="25001" />
+        </string-array>
+        <string-array name="25001" num="1">
+            <item value="1001,MTS RUS VoWiFi" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="TW-GT">
+        <string-array name="mccmnc" num="2">
+            <item value="46605" />
+            <item value="46612" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,GT WIFI" />
+        </string-array>
+        <string-array name="46605" num="1">
+            <item value="1001,GT WIFI" />
+        </string-array>
+        <string-array name="46697" num="2">
+            <item value="1008" />
+            <item value="2003" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- jingyao@NETWORK.REG.5095373, 2023/01/14, change language SPN display not change-->
+    <carrier_config  operator="TW-FET">
+        <string-array name="mccmnc" num="3">
+            <item value="46601" />
+            <item value="46602" />
+            <item value="46603" />
+        </string-array>
+        <string-array name="46601" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="46602" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!--mtk platform spn low -->
+    <carrier_config  operator="BD-Airtel">
+        <string-array name="mccmnc" num="1">
+            <item value="47007" />
+        </string-array>
+        <string-array name="47002" num="2">
+            <item value="1002,airtel" />
+            <item value="2001,airtel" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="MA-Maroc Telecom">
+        <string-array name="mccmnc" num="1">
+            <item value="60401" />
+        </string-array>
+        <string-array name="60401" num="1">
+            <item value="1002,Maroc Telecom" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="IN-Airtel">
+        <string-array name="mccmnc" num="24">
+            <item value="40400" />
+            <item value="40402" />
+            <item value="40403" />
+            <item value="40410" />
+            <item value="40416" />
+            <item value="40431" />
+            <item value="40440" />
+            <item value="40445" />
+            <item value="40449" />
+            <item value="40470" />
+            <item value="40490" />
+            <item value="40492" />
+            <item value="40493" />
+            <item value="40494" />
+            <item value="40495" />
+            <item value="40496" />
+            <item value="40497" />
+            <item value="40498" />
+            <item value="40551" />
+            <item value="40552" />
+            <item value="40553" />
+            <item value="40554" />
+            <item value="40555" />
+            <item value="40556" />
+        </string-array>
+        <string-array name="40445" num="2">
+            <item value="1002,airtel" />
+            <item value="2001,airtel" />
+        </string-array>
+        <string-array name="40449" num="2">
+            <item value="1002,airtel" />
+            <item value="2001,airtel" />
+        </string-array>
+        <string-array name="40470" num="2">
+            <item value="1002,airtel" />
+            <item value="2001,airtel" />
+        </string-array>
+        <string-array name="40410" num="1">
+            <item value="1002,airtel" />
+        </string-array>
+        <string-array name="40431" num="1">
+            <item value="1002,airtel" />
+        </string-array>
+        <string-array name="40496" num="1">
+            <item value="2001,airtel" />
+        </string-array>
+        <string-array name="40497" num="1">
+            <item value="1002,airtel" />
+        </string-array>
+        <string-array name="40401" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40404" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40405" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40407" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40411" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40412" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40413" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40414" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40415" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40419" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40420" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40422" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40424" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40427" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40430" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40443" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40444" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40446" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40456" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40460" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40478" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40482" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40484" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40486" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40487" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40488" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40489" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40566" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40567" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+        <string-array name="40570" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+    </carrier_config>
+    <carrier_config  operator="BSNL MOBILE">
+        <string-array name="mccmnc" num="22">
+            <item value="40434" />
+            <item value="40438" />
+            <item value="40451" />
+            <item value="40453" />
+            <item value="40454" />
+            <item value="40455" />
+            <item value="40457" />
+            <item value="40458" />
+            <item value="40459" />
+            <item value="40462" />
+            <item value="40464" />
+            <item value="40466" />
+            <item value="40471" />
+            <item value="40472" />
+            <item value="40473" />
+            <item value="40474" />
+            <item value="40475" />
+            <item value="40476" />
+            <item value="40477" />
+            <item value="40479" />
+            <item value="40480" />
+            <item value="40481" />
+        </string-array>
+        <string-array name="40473" num="2">
+            <item value="1002,BSNL MOBILE" />
+            <item value="2001,BSNL MOBILE" />
+        </string-array>
+        <string-array name="40459" num="2">
+            <item value="1002,BSNL MOBILE" />
+            <item value="2001,BSNL MOBILE" />
+        </string-array>
+        <string-array name="40481" num="2">
+            <item value="1002,BSNL MOBILE" />
+            <item value="2001,BSNL MOBILE" />
+        </string-array>
+        <string-array name="40468" num="1">
+            <item value="1002,IN-DOLPHIN" />
+        </string-array>
+        <string-array name="40454" num="2">
+            <item value="1002,BSNL MOBILE" />
+            <item value="2001,BSNL MOBILE" />
+        </string-array>
+        <string-array name="405872" num="1">
+            <item value="2002,JIO" />
+        </string-array>
+        <string-array name="40411" num="1">
+            <item value="2001,VI India" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Altice">
+        <string-array name="mccmnc" num="1">
+            <item value="313390" />
+        </string-array>
+        <string-array name="310260" num="1">
+            <item value="1002,Optimum" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_FEAUTRE_CARRIER_NAME_DISPLAY -->
+    <!-- Yingbo.Wang@NETWORK.REG.3000195, 2023/07/19, carrier name diplay for windtre and very [OCR.5954131.1.Windtre.IT.V0] -->
+    <carrier_config  operator="IT WINDTRE">
+        <string-array name="mccmnc" num="1">
+            <item value="22288" />
+        </string-array>
+        <string-array name="22299" num="1">
+            <item value="2001,22299" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="IT WINDTRE">
+        <string-array name="mccmnc" num="1">
+            <item value="22299" />
+        </string-array>
+        <string-array name="22299" num="3">
+            <item value="1001,WINDTRE" />
+            <item value="1002,WINDTRE" />
+            <item value="2001,WINDTRE" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="IT WINDTRE">
+        <string-array name="mccmnc" num="2">
+            <item value="22288" />
+            <item value="22299" />
+        </string-array>
+        <string-array name="22288" num="3">
+            <item value="1001,WINDTRE" />
+            <item value="1002,WINDTRE" />
+            <item value="2001,WINDTRE" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WINDTRE" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="IT VERY" gid1="0000000099">
+        <string-array name="mccmnc" num="1">
+            <item value="22299" />
+        </string-array>
+        <string-array name="22299" num="3">
+            <item value="1001,VERY" />
+            <item value="1002,VERY" />
+            <item value="2001,VERY" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="IT VERY" gid1="0000000099">
+        <string-array name="mccmnc" num="2">
+            <item value="22288" />
+            <item value="22299" />
+        </string-array>
+        <string-array name="22288" num="3">
+            <item value="1001,VERY" />
+            <item value="1002,VERY" />
+            <item value="2001,VERY" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,VERY" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif OPLUS_FEAUTRE_CARRIER_NAME_DISPLAY -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Yingbo.Wang@NETWORK.REG.5984872, 2023/07/28, modify the display name for 44020 -->
+    <carrier_config  operator="Softbank">
+        <string-array name="mccmnc" num="1">
+            <item value="44020" />
+        </string-array>
+        <string-array name="44000" num="1">
+            <item value="1002,44000" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+
+    <carrier_config  operator="Drei">
+        <string-array name="mccmnc" num="3">
+            <item value="23205" />
+            <item value="23210" />
+            <!--#ifdef OPLUS_BUG_COMPATIBILITY-->
+            <!--Litingting@NETWORK.REG.5801300, 2023/06/21, add for operator requirement-->
+            <item value="23214" />
+            <!--#endif OPLUS_BUG_COMPATIBILITY-->
+        </string-array>
+        <string-array name="23203" num="2">
+            <item value="1002,MagentaT" />
+            <item value="2001,MagentaT" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Vi India">
+        <string-array name="mccmnc" num="28">
+            <item value="40404" />
+            <item value="40407" />
+            <item value="40412" />
+            <item value="40414" />
+            <item value="40419" />
+            <item value="40422" />
+            <item value="40424" />
+            <item value="40444" />
+            <item value="40456" />
+            <item value="40478" />
+            <item value="40482" />
+            <item value="40487" />
+            <item value="40489" />
+            <item value="40570" />
+            <item value="405799" />
+            <item value="405845" />
+            <item value="405846" />
+            <item value="405847" />
+            <item value="405848" />
+            <item value="405849" />
+            <item value="405850" />
+            <item value="405851" />
+            <item value="405852" />
+            <item value="405853" />
+            <item value="405908" />
+            <item value="405909" />
+            <item value="405910" />
+            <item value="405911" />
+        </string-array>
+        <string-array name="40411" num="3">
+            <item value="1001,Vi India" />
+            <item value="1002,Vi India" />
+            <item value="2001,Vi India" />
+        </string-array>
+        <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+        <!-- duzhaojun@NETWORK.REG.7178345,2024/04/18, SPN show Vi India-->
+        <string-array name="40420" num="3">
+            <item value="1001,Vi India" />
+            <item value="1002,Vi India" />
+            <item value="2001,Vi India" />
+        </string-array>
+        <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+        <string-array name="40456" num="1">
+            <item value="1002,Vi India" />
+        </string-array>
+        <string-array name="40487" num="1">
+            <item value="1002,Vi India" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!--songqingming@NETWORK.REG.5889535,2023/07/07, SPN for VI Operator to show Vi India-->
+    <carrier_config  operator="IN Vodafone">
+        <string-array name="mccmnc" num="23">
+            <item value="40401" />
+            <item value="40405" />
+            <item value="40411" />
+            <item value="40413" />
+            <item value="40415" />
+            <item value="40420" />
+            <item value="40427" />
+            <item value="40430" />
+            <item value="40443" />
+            <item value="40446" />
+            <item value="40460" />
+            <item value="40484" />
+            <item value="40486" />
+            <item value="40488" />
+            <item value="40566" />
+            <item value="40567" />
+            <item value="405750" />
+            <item value="405751" />
+            <item value="405752" />
+            <item value="405753" />
+            <item value="405754" />
+            <item value="405755" />
+            <item value="405756" />
+        </string-array>
+        <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+        <string-array name="40411" num="3">
+            <item value="1001,Vi India" />
+            <item value="1002,Vi India" />
+            <item value="2001,Vi India" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <carrier_config  operator="TRUE">
+        <string-array name="mccmnc" num="2">
+            <item value="52000" />
+            <item value="52004" />
+        </string-array>
+        <string-array name="52000" num="1">
+            <item value="2005,TH 3G+" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="2degrees" imsi="530240">
+        <string-array name="mccmnc" num="1">
+            <item value="53024" />
+        </string-array>
+        <string-array name="53001" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="One NZ">
+        <string-array name="mccmnc" num="1">
+            <item value="53001" />
+        </string-array>
+        <string-array name="53001" num="3">
+            <item value="1001,Wifi Calling" />
+            <item value="1005" />
+            <item value="2001,One NZ" />
+        </string-array>
+        <string-array name="53013" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Wifi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="KOGAN MOBILE"  imsi="5300114006|5300114007">
+        <string-array name="mccmnc" num="1">
+            <item value="53001" />
+        </string-array>
+        <string-array name="53001" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Cell C">
+        <string-array name="mccmnc" num="1">
+            <item value="65507" />
+        </string-array>
+        <string-array name="65501" num="1">
+            <item value="1004" />
+        </string-array>
+        <string-array name="65510" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Movistar">
+        <string-array name="mccmnc" num="1">
+            <item value="71606" />
+        </string-array>
+        <string-array name="71606" num="1">
+            <item value="1006" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Claro">
+        <string-array name="mccmnc" num="1">
+            <item value="71610" />
+        </string-array>
+        <string-array name="71610" num="1">
+            <item value="1010" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- ZHAOJINZHOU@NETWORK.DATA.4586147, 2022/10/31, Incorrect operator name shows on required pages while VoWiFi is registered -->
+    <carrier_config operator="Netherland-Ben" spn="Ben NL">
+        <string-array name="mccmnc" num="1">
+            <item value="20416" />
+        </string-array>
+        <string-array name="20416" num="1">
+            <item value="1001,Ben NL" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Ben NL" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Amit.Kawadkar@NETWORK.REG.6402626, 2023/10/26, [MVNO Fi] Service Name is not according with VVS -->
+    <carrier_config operator="ES-Finetwork" spn="finetwork">
+        <string-array name="mccmnc" num="1">
+            <item value="21406" />
+        </string-array>
+        <string-array name="21406" num="1">
+            <item value="1002,Finetwork" />
+        </string-array>
+        <string-array name="21401" num="1">
+            <item value="1002,Finetwork" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config operator="ES-Finetwork" spn="Mi Operador">
+        <string-array name="mccmnc" num="1">
+            <item value="21406" />
+        </string-array>
+        <string-array name="21406" num="1">
+            <item value="1002,Finetwork" />
+        </string-array>
+        <string-array name="21401" num="1">
+            <item value="1002,Finetwork" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- wuming@NETWORK.DATA.4616947, 2022/10/25, Konec displayed as "Konec" -->
+    <carrier_config  operator="Konec" imsi="505015615">
+        <string-array name="mccmnc" num="1">
+            <item value="50501" />
+        </string-array>
+        <string-array name="50501" num="2">
+            <item value="2001,Konec" />
+            <item value="1002,Konec" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <carrier_config  operator="optus">
+        <string-array name="mccmnc" num="2">
+            <item value="50502" />
+            <item value="50590" />
+        </string-array>
+        <string-array name="50501" num="1">
+            <item value="2001,Telstra Mobile" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_australia">
+        <string-array name="mccmnc" num="2">
+            <item value="50503" />
+            <item value="50506" />
+        </string-array>
+        <string-array name="50501" num="1">
+            <item value="2001,Telstra Mobile" />
+        </string-array>
+    </carrier_config>
+
+    <!--#ifdef OPLUS_BUG_COMPATIBILITY-->
+    <!--Litingting@NETWORK.REG.6662956, 2023/12/6, add for operator requirement-->
+    <carrier_config  operator="vodafone_germany">
+        <string-array name="mccmnc" num="1">
+            <item value="26202" />
+        </string-array>
+        <string-array name="26202" num="1">
+            <item value="1001,Vodafone WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone WiFi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_germany-lab">
+        <string-array name="mccmnc" num="1">
+            <item value="26209" />
+        </string-array>
+        <string-array name="26209" num="1">
+            <item value="1001,Vodafone WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone WiFi Calling" />
+        </string-array>
+    </carrier_config>
+    <!--#endif OPLUS_BUG_COMPATIBILITY-->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Amit.Kawadkar@NETWORK.REG.6439960, 2023/11/09, change VoWIFI spn for Vodafone IE as per requirement  -->
+    <carrier_config  operator="Vodafone-IE">
+        <string-array name="mccmnc" num="1">
+            <item value="27201" />
+        </string-array>
+        <string-array name="27201" num="1">
+            <item value="1001,Vodafone WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone WiFi Calling" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <carrier_config  operator="telefonica_germany">
+        <string-array name="mccmnc" num="3">
+            <item value="26207" />
+            <item value="26203" />
+            <!--#ifdef OPLUS_BUG_COMPATIBILITY-->
+            <!--Litingting@NETWORK.REG.5811332, 2023/06/27, add for operator requirement-->
+            <item value="26211" />
+            <!--#endif OPLUS_BUG_COMPATIBILITY-->
+        </string-array>
+        <string-array name="26203" num="1">
+            <item value="1001,o2 – de WLAN" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,o2 – de WLAN" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="telefonica_uk">
+        <string-array name="mccmnc" num="1">
+            <item value="23410" />
+        </string-array>
+        <string-array name="23410" num="1">
+            <item value="1001,O2 WiFiCall" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,O2 WiFiCall" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="tescomobile_uk" gid1="0A">
+        <string-array name="mccmnc" num="1">
+            <item value="23410" />
+        </string-array>
+        <string-array name="23410" num="1">
+            <item value="1001,TESCO WiFiCall" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,TESCO WiFiCall" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- santhosh.b@NETWORK.IMS.5113946, 2023/01/31, Vowifi SPN requirement for TalkMobile -->
+    <carrier_config  operator="TalkMobile" gid1="C1">
+        <string-array name="mccmnc" num="1">
+            <item value="23415" />
+        </string-array>
+        <string-array name="23415" num="1">
+            <item value="1001,WiFiCall" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WiFiCall" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <carrier_config  operator="Rakuten" iccid="8981090">
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1009" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Rakuten" spn="Rakuten">
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1009" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="AU">
+        <string-array name="mcc" num="1">
+            <item value="505" />
+        </string-array>
+        <string-array name="50502" num="1">
+            <item value="2002,Optus AU" />
+        </string-array>
+    </carrier_config>
+
+    <!-- Liangyun@Network.REG.4696074, 2022/11/1 Modify for TIM display carrier name -->
+    <carrier_config  operator="TIM">
+        <string-array name="mccmnc" num="1">
+            <item value="22201" />
+        </string-array>
+        <string-array name="22201" num="3">
+            <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+            <!-- Yingbo.Wang@Network.REG.7094897, 2022/11/1 Modify for TIM display carrier name -->
+            <item value="1001,TIM" />
+            <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+            <item value="1002,TIM" />
+            <item value="2001,TIM" />
+        </string-array>
+        <string-array name="22299" num="1">
+            <item value="2001,WINDTRE" />
+        </string-array>
+    </carrier_config>
+
+    <!-- Liangyun@Network.REG.4684436, 2022/11/1 Modify for vodafone display carrier name -->
+     <carrier_config  operator="BSNL MOBILE">
+        <string-array name="mccmnc" num="1">
+            <item value="40454" />
+        </string-array>
+        <string-array name="40411" num="1">
+            <item value="2001,Vi India" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_DEBUG -->
+    <!-- LiangLei@NETWORK.REG.4736863, 2022/11/14, modify U.S.Cellular display carrier name -->
+    <carrier_config  operator="U.S.Cellular">
+        <string-array name="mccmnc" num="1">
+            <item value="311580" />
+        </string-array>
+        <string-array name="311580" num="1">
+            <item value="1002,U.S.Cellular" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif/*OPLUS_BUG_DEBUG*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- liwei@NETWORK.REG.4631016, 2022/11/22, WIND GR rebranding  - PLMN changed to NOVA GR -->
+    <carrier_config  operator="GR_Wind">
+        <string-array name="mccmnc" num="2">
+            <item value="20209" />
+            <item value="20210" />
+        </string-array>
+        <string-array name="20209" num="2">
+            <item value="1002,NOVA GR" />
+            <item value="2001,NOVA GR" />
+        </string-array>
+        <string-array name="20210" num="2">
+            <item value="1002,NOVA GR" />
+            <item value="2001,NOVA GR" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Amit.Kawadkar@NETWORK.REG.4936004, 2022/12/13, Add for ATOM carrier name display -->
+    <carrier_config  operator="ATOM">
+        <string-array name="mccmnc" num="1">
+            <item value="41406" />
+        </string-array>
+        <string-array name="41406" num="1">
+            <item value="1002,ATOM" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- ZhangChenglin@NETWORK.REG.5136146, 2023/02/02, modifi the display name when cellcom connect to vowifi -->
+    <carrier_config  operator="Cellcom">
+        <string-array name="mccmnc" num="1">
+            <item value="311840" />
+        </string-array>
+        <string-array name="311840" num="1">
+            <item value="1001,Cellcom WiFi-Calling" />
+        </string-array>
+        <!-- #ifdef OPLUS_FEAUTRE_SHOW_PLMN -->
+        <!-- Yingbo.Wang@NETWORK.REG.5425996, 2023/04/12, add the rule to display PLMN regardless of roaming or non-roaming -->
+        <string-array name="carrier_unrelated_with_plmn" num="2">
+            <item value="1007,Cellcom WiFi-Calling" />
+            <item value="1005" />
+        </string-array>
+        <!-- #endif /*OPLUS_FEAUTRE_SHOW_PLMN*/ -->
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- Amit.Kawadkar@NETWORK.REG.5112730, 2023/01/19, Add for on language change display name not changed -->
+    <carrier_config  operator="TW-CHT">
+        <string-array name="mccmnc" num="1">
+            <item value="46692" />
+        </string-array>
+        <string-array name="46692" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="TW-TWM">
+        <string-array name="mccmnc" num="2">
+            <item value="46697" />
+            <item value="46699" />
+        </string-array>
+        <string-array name="46697" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- lijun@NETWORK.REG.5118058, 2023/01/30, display operator name as requirment -->
+     <carrier_config  operator="Dito">
+         <string-array name="mccmnc" num="1">
+             <item value="51566" />
+         </string-array>
+         <string-array name="51566" num="2">
+             <item value="1002,DITO" />
+             <item value="2001,DITO" />
+         </string-array>
+     </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <carrier_config  operator="CN-CMCC">
+        <string-array name="mccmnc" num="6">
+            <item value="46000" />
+            <item value="46002" />
+            <item value="46004" />
+            <item value="46007" />
+            <item value="46008" />
+            <item value="46099" />
+        </string-array>
+        <string-array name="46000" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="46002" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="46004" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="46007" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="46008" num="1">
+            <item value="1005" />
+        </string-array>
+        <string-array name="46003" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46011" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46005" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46012" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46099" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46050" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46001" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46006" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46009" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46031" num="1">
+            <item value="1011" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="CN-CU">
+        <string-array name="mccmnc" num="4">
+            <item value="46001" />
+            <item value="46006" />
+            <item value="46009" />
+            <item value="46030" />
+        </string-array>
+        <string-array name="46000" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46002" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46004" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46007" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46008" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46022" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46015" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46061" num="1">
+            <item value="1011" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="CN-CT">
+        <string-array name="mccmnc" num="4">
+            <item value="46003" />
+            <item value="46011" />
+            <item value="46005" />
+            <item value="46012" />
+        </string-array>
+        <string-array name="46000" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46002" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46004" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46007" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46008" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46021" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46015" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46060" num="1">
+            <item value="1011" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="CN-CBN">
+        <string-array name="mccmnc" num="1">
+            <item value="46015" />
+        </string-array>
+        <string-array name="46003" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46011" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46005" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46012" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46099" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46051" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46001" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46006" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46009" num="1">
+            <item value="1011" />
+        </string-array>
+        <string-array name="46032" num="1">
+            <item value="1011" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="dt_austria">
+        <string-array name="mccmnc" num="3">
+            <item value="23203" />
+            <item value="23204" />
+            <item value="23207" />
+        </string-array>
+        <string-array name="23203" num="1">
+            <item value="1001,WLAN-Call" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WLAN-Call" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="dt_czech">
+        <string-array name="mccmnc" num="1">
+            <item value="23001" />
+        </string-array>
+        <string-array name="23001" num="1">
+            <item value="1001,T-Mobile CZ Wi-Fi" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,T-Mobile CZ Wi-Fi" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="dt_hungary">
+        <string-array name="mccmnc" num="1">
+            <item value="21630" />
+        </string-array>
+        <string-array name="21630" num="1">
+            <item value="1001,WiFi Hang" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WiFi Hang" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="sky_uk">
+        <string-array name="mccmnc" num="1">
+            <item value="23457" />
+        </string-array>
+        <string-array name="23410" num="1">
+            <item value="1001,Sky WiFiCall" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Sky WiFiCall" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="sky_uk" gid1="0C">
+        <string-array name="mccmnc" num="1">
+            <item value="24007" />
+        </string-array>
+        <string-array name="23410" num="1">
+            <item value="1001,Sky WiFiCall" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Sky WiFiCall" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="virgin_uk" gid1="2800000000000000">
+        <string-array name="mccmnc" num="1">
+            <item value="23438" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="2">
+            <item value="1001,WiFiCall" />
+            <item value="1007,WiFiCall" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodacom_southafrica">
+        <string-array name="mccmnc" num="1">
+            <item value="65501" />
+        </string-array>
+        <string-array name="65501" num="1">
+            <item value="1001,WiFi call" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WiFi call" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_czech">
+        <string-array name="mccmnc" num="2">
+            <item value="23003" />
+            <item value="23099" />
+        </string-array>
+        <string-array name="23003" num="1">
+            <item value="1001,Vodafone WiFi volání" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone WiFi volání" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_netherlands">
+        <string-array name="mccmnc" num="1">
+            <item value="20404" />
+        </string-array>
+        <string-array name="20404" num="1">
+            <item value="1001,Vodafone NL Wifi" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone NL Wifi" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_romania">
+        <string-array name="mccmnc" num="1">
+            <item value="22601" />
+        </string-array>
+        <string-array name="22601" num="1">
+            <item value="1001,Vodafone WiFi calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone WiFi calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_greece">
+        <string-array name="mccmnc" num="1">
+            <item value="20205" />
+        </string-array>
+        <string-array name="20205" num="1">
+            <item value="1001,Vodafone WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Vodafone WiFi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone UK">
+        <string-array name="mccmnc" num="1">
+            <item value="23415" />
+        </string-array>
+        <string-array name="23415" num="1">
+            <item value="1001,WiFi Call" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WiFi Call" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="vodafone_spain">
+        <string-array name="mccmnc" num="2">
+            <item value="21401" />
+            <item value="21424" />
+        </string-array>
+        <string-array name="21401" num="1">
+            <item value="1001,vodafone ES WiFi Call" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,vodafone ES WiFi Call" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="upc_switzerland" gid1="75">
+        <string-array name="mccmnc" num="1">
+            <item value="22853" />
+        </string-array>
+        <string-array name="22802" num="1">
+            <item value="1001,WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WiFi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="dt_greece">
+        <string-array name="mccmnc" num="1">
+            <item value="20201" />
+        </string-array>
+        <string-array name="20201" num="1">
+            <item value="1001,COSMOTE WiFi Calling" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,COSMOTE WiFi Calling" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Orange_slovakia">
+        <string-array name="mccmnc" num="1">
+            <item value="23101" />
+        </string-array>
+        <string-array name="23101" num="1">
+            <item value="1001,Orange Wi-Fi" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,Wi-Fi" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="Telekom_Croatia">
+        <string-array name="mccmnc" num="2">
+            <item value="21901" />
+            <item value="21920" />
+        </string-array>
+        <string-array name="21901" num="1">
+            <item value="1001,HT HR WiFi" />
+        </string-array>
+        <string-array name="21920" num="1">
+            <item value="1001,HT HR WiFi" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,HT HR WiFi" />
+        </string-array>
+    </carrier_config>
+
+    <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+    <!-- ZhangJiahao@NETWORK.REG.7954174, 2024/10/08, Orange should display Telekom when register 26201  -->
+    <carrier_config  operator="Orange">
+        <string-array name="mccmnc" num="8">
+            <item value="25901" />
+            <item value="23101" />
+            <item value="26003" />
+            <item value="22610" />
+            <item value="20610" />
+            <item value="27099" />
+            <item value="20801" />
+            <item value="21403" />
+        </string-array>
+        <string-array name="26201" num="1">
+            <item value="1002,Telekom" />
+        </string-array>
+    </carrier_config>
+    <!-- #endif /*OPLUS_BUG_COMPATIBILITY*/ -->
+
+    <!-- ZhangJiahao@NETWORK.REG.8099196, 2024/10/18, Orange-FR 20801 should display ORANGE when register 22610  -->
+    <carrier_config  operator="Orange-FR">
+        <string-array name="mccmnc" num="1">
+            <item value="20801" />
+        </string-array>
+        <string-array name="22610" num="1">
+            <item value="1002,ORANGE" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config  operator="T-Mobile">
+        <string-array name="mccmnc" num="2">
+            <item value="26201" />
+            <item value="26206" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,WLAN Call" />
+        </string-array>
+    </carrier_config>
+
+    <carrier_config operator="DT-Poland">
+        <string-array name="mccmnc" num="1">
+            <item value="26002" />
+        </string-array>
+        <string-array name="26002" num="1">
+            <item value="1001,T-Mobile.pl WiFi" />
+        </string-array>
+        <string-array name="carrier_unrelated_with_plmn" num="1">
+            <item value="1007,T-Mobile.pl WiFi" />
+        </string-array>
+    </carrier_config>
+
+    <!-- ZhangJiahao@NETWORK.REG.8194913, 2024/11/11, Spectranet SPN name should be Spectranet  -->
+    <carrier_config  operator="Spectranet">
+        <string-array name="mccmnc" num="1">
+            <item value="62124" />
+        </string-array>
+        <string-array name="62124" num="1">
+            <item value="1004" />
+        </string-array>
+    </carrier_config>
+
+    <!-- ZhangJiahao@NETWORK.REG.8377646, 2024/12/04, STC request to display plmn-->
+    <carrier_config  operator="STC">
+        <string-array name="mccmnc" num="1">
+            <item value="42001" />
+        </string-array>
+        <string-array name="42001" num="1">
+            <item value="1005" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

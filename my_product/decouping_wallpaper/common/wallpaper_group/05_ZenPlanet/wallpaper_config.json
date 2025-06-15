@@ -1,0 +1,23 @@
+{
+  "group": "ZenPlanet",
+  "title": "冥想星系",
+  "version": 1,
+  "wallpapers": [
+    {
+      "thumbPath": "./ZenPlanet01.webp",
+      "originPath": "./ZenPlanet01.webp"
+    },
+    {
+      "thumbPath": "./ZenPlanet02.webp",
+      "originPath": "./ZenPlanet02.webp"
+    },
+    {
+      "thumbPath": "./ZenPlanet03.webp",
+      "originPath": "./ZenPlanet03.webp"
+    },
+    {
+      "thumbPath": "./ZenPlanet04.webp",
+      "originPath": "./ZenPlanet04.webp"
+    }
+  ]
+}

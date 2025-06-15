@@ -1,0 +1,4 @@
+<!-- Adds the feature indicating support for the Third party -->
+<permissions>
+    <feature name="oplus.software.audio.karaoke_v2.support"/>
+</permissions>

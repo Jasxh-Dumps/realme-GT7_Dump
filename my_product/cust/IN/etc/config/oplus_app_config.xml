@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+	<disable pkg="com.ses.entitlement.o2" name="entitlement.apk" priority="7" memory="8"/>
+</app>
+<!-- Timestamp 2025-05-19T23:51:33 #7f792a99-274b-4a84-98c7-c183fe252516 -->

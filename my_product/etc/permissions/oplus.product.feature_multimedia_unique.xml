@@ -1,0 +1,73 @@
+<oplus-config>
+    <!-- HanGaojun@MULTIMEDIA.DISPLAY.SERVICE, 2020/06/19, Add for display feature end -->
+    <!-- tianli@MULTIMEDIA.AUDIOSERVER.BASE.2020/9/1. Add for voice wakeup features start-->
+    <oplus-feature name="oplus.software.audio.voice_wakeup_support"/>
+    <oplus-feature name="oplus.software.audio.voice_wakeup_3words_support"/>
+    <!-- Haizhou.Ma@MULTIMEDIA.AUDIODRIVER.AUDIOPARAMS.Porting.2022/11/11. Add for oneshot start-->
+    <oplus-feature name="oplus.software.speechassist.oneshot.support"/>
+    <!-- tianli@MULTIMEDIA.AUDIOSERVER.BASE.2020/9/1. Add for voice wakeup features end-->
+
+    <!-- yang.y.liu@GAMEECO.Touch, 2020/09/07, Add for touch adjuster feature start -->
+    <oplus-feature name="oplus.software.game.touch_adjuster_support"/>
+    <!-- end -->
+    <!-- LuoZhicheng@MULTIMEDIA.AUDIOSERVER.BASE.2020/10/18. Add for magicvociev2 features start-->
+    <oplus-feature name="oplus.software.audio.magicvoice_v2_basic_support"/>
+    <!-- LuoZhicheng@MULTIMEDIA.AUDIOSERVER.BASE.2020/10/18. Add for magicvociev2 features end-->
+    <!-- end -->
+    <!-- end -->
+    <!-- zhanglixia, 2023/05/30, Add for bluetooth volume sync -->
+    <oplus-feature name="oplus.software.bluetooth_volume_sync"/>
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for media control -->
+    <oplus-feature name="oplus.software.audio.media_control"/>
+    <!-- #endif /* OPLUS_FEATURE_OPLUS_MEDIA_CONTROL */ -->
+    <!-- #ifdef OPLUS_FEATURE_SPATIALIZER_AUDIO -->
+    <!-- zhanglixia@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/19. Add for spk oplus spatializer -->
+    <oplus-feature name="oplus.software.spatializer_speaker"/>
+    <!-- #endif /* OPLUS_FEATURE_SPATIALIZER_AUDIO */ -->
+    <!-- CaiHuiyue@MULTIMEDIA, 2020/12/8, Add for ADFR -->
+    <oplus-feature name="oplus.software.display.adfr"/>
+    <!-- nigaopeng@MM.MEDIASERVER.IMAGE, 2020/06/15, Add for heif capture feature start -->
+    <oplus-feature name="oplus.software.camera.heic_support" />
+    <!-- nigaopeng@MM.MEDIASERVER.IMAGE, 2020/06/15, Add for heif capture feature end -->
+    <!-- wangbuqing@MULTIMEDIA.MEDIASERVER.RECORDER, 2021/11/12, Add for osie and sr feature start -->
+    <oplus-feature name="oplus.software.video.sr_support"/>
+    <oplus-feature name="oplus.software.video.osie_support"/>
+    <!-- wangbuqing@MULTIMEDIA.MEDIASERVER.RECORDER, 2021/11/12, Add for osie and sr feature end -->
+    <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/10/15, Add for lvacfs surround record -->
+    <oplus-feature name="oplus.software.video.surround_record_support"/>
+    <!-- end -->
+    <!-- Add for display calbrication 100APL   -->
+    <oplus-feature name="oplus.software.display.screen_calibrate_100apl"/>
+    <!-- Taber.huang@MULTIMEDIA.DISPLAY.LCD 2023/09/20  Add for sharpness-->
+    <oplus-feature name="oplus.software.display.sharpness_switch"/>
+
+    <!-- wukangbao@ANDROID.PERFORMANCE.GAME, 2025/01/24, Add for FourD Vibrate feature start -->
+    <oplus-feature name="oplus.software.haptic_vibrator_v1.support"/>
+    <oplus-feature name="oplus.software.game_engine_vibrator_v1.support"/>
+    <!-- wukangbao@ANDROID.PERFORMANCE.GAME, 2025/01/24, Add for FourD Vibrate feature end-->
+
+    <!-- Lvhongzhou@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/8/17. Add for speaker channel reserve -->
+    <oplus-feature name="oplus.software.audio.dualspk_support"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+
+    <!-- WangDong4@MULTIMEDIA.AUDIOSERVER.BASE, 2024/03/06, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for volume default adjust -->
+    <oplus-feature name="oplus.software.audio.volume_default_adjust"/>
+    <!-- Mengdie.Zhou@MULTIMEDIA.AUDIOSERVER.EFFECT.2024/06/29. Add for audio effect combined -->
+    <oplus-feature name="oplus.software.audio.effect.combined"/>
+	<!-- Miao.Hu@MULTIMEDIA.AUDIOSERVER.HAL.2023/12/14. Add for voice denoise -->
+    <oplus-feature name="oplus.hardware.audio.voice_denoise_support"/>
+    <!--WangPingYuan@MULTIMEDIA.DISPLAY.SERVICE, 2023/11/1, add for max brightness 600nit -->
+    <oplus-feature name="oplus.software.display.sec_max_brightness_rm"/>
+    <!-- Lvqiangjian@MULTIMEDIA, 2024/9/24, Add for Resolution -->
+    <oplus-feature name="oplus.software.display.resolution_switch_support" />
+    <oplus-feature name="oplus.software.display.resolution_switch_disableauto_support" />
+    <oplus-feature name="oplus.software.display.1.5k_resolution_switch_support" />
+    <!--Zhoubeifen@Multimedia.AUDIO.FEATURE, 2025/01/14, Add for dual headphone feature start -->
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+    <!-- LiYong@MULTIMEDIA, 2025/2/11, Add for face fill light -->
+    <oplus-feature name="oplus.software.display.ui_disable_fill_light_animation" />
+</oplus-config>

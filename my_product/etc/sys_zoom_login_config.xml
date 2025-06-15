@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <feature name = "sys_login_zoom_window" enable = "true" />
+    <version>20241202</version>
+
+    <package_list>
+        <package name = "com.tencent.mm" is_black = "false" />
+        <package name = "com.tencent.mobileqq" is_black = "false" />
+        <package name = "com.android.intentresolver" is_black = "false" support_new_task = "true"/>
+        <package name = "com.oplus.safecenter" is_black = "false" support_new_task = "true"/>
+
+
+        <package name = "com.tencent.mf.uam" is_black = "true" />
+        <package name = "com.qqgame.happymj" is_black = "true" />
+        <package name = "com.netease.party" is_black = "true" />
+        <package name = "com.tencent.tmgp.dfm" is_black = "true" />
+        <package name = "com.netease.race" is_black = "true" />
+        <package name = "com.tencent.pao" is_black = "true" />
+        <package name = "com.c2vl.kgamebox" is_black = "true" />
+        <package name = "com.gof.china" is_black = "true" />
+        <package name = "com.yongshi.tenojo.ys" is_black = "true" />
+        <package name = "com.hortor.mwdl" is_black = "true" />
+        <package name = "com.netease.allstar" is_black = "true" />
+        <package name = "com.netease.moba" is_black = "true" />
+        <package name = "com.cmplay.tiles2_cn" is_black = "true" />
+        <package name = "com.wedobest.xiangqi.nearme.gamecenter" is_black = "true" />
+        <package name = "com.tencent.peng" is_black = "true" />
+        <package name = "com.rsg.wdyz" is_black = "true" />
+        <package name = "com.tencent.tmgp.qqx5" is_black = "true" />
+        <package name = "com.tencent.tmgp.pubgmhd" is_black = "true" />
+    </package_list>
+
+    <activity_list>
+        <activity name = "com.tencent.mm.plugin.account.ui.SimpleLoginUI" final_activity = "true"/>
+        <activity name = "com.tencent.mm.plugin.base.stub.UIEntryStub" />
+        <activity name = "com.tencent.mm.plugin.webview.ui.tools.SDKOAuthUI" final_activity = "true"/>
+        <activity name = "com.tencent.mm.plugin.base.stub.WXEntryActivity" new_task = "true"/>
+        <activity name = "com.tencent.mobileqq.activity.LoginActivity" final_activity = "true"/>
+        <activity name = "com.tencent.mobileqq.activity.QQBrowserActivity" />
+        <activity name = "com.tencent.open.agent.AgentActivity" new_task = "true"/>
+        <activity name = "com.tencent.open.agent.PublicFragmentActivityForOpenSDK" final_activity = "true"/>
+        <activity name = "com.oplus.safecenter.privacy.view.password.AppUnlockPasswordActivity" new_task = "true"/>
+        <activity name = "com.android.intentresolver.ChooserActivity" is_ban = "true" mid_stop = "true"/>
+        <activity name = "com.tencent.connect.common.AssistActivity" is_ban = "true" need_finish = "true" />
+    </activity_list>
+</filter-conf>

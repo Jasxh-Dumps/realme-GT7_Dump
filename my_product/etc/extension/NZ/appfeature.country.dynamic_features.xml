@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<extend_features>
+    <app_feature name="com.android.mms.cellbroadcast_show" />
+    <app_feature name="com.oplus.aicall.call_translate"/>
+</extend_features>

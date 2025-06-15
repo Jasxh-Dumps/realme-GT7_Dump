@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.customize_gr_vdf_vowifi_pref_dynamic">
+		<StringList args="en;Operator network preferred;Wi-Fi preferred"/>
+		<StringList args="el;Προτίμηση δικτύου παρόχου;Προτίμηση δικτύων Wi-Fi"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2024-11-23T08:59:01 #275695 -->

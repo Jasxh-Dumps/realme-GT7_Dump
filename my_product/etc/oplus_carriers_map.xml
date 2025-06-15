@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- Android T Version: 1.0 -->
+
+<!--
+    Format:
+    <carrier_id
+        carrier_name=""
+        carrier_region="">
+        <string-array name="">
+            <item>aaa</item>
+            <item>bbb</item>
+        </string-array>
+        <string-array name="gid1">
+            <item>ccc</item>
+            <item>ddd</item>
+        </string-array>
+    </carrier_id>
+
+    string-array name : "mccmnc", "gid1", "gid2", "spn",
+						"imsi_prefix", "imsi_range", "imsi_index",
+						"iccid_prefix", "iccid_range", "iccid_index"
+-->
+
+<oplus_carriers>
+
+    <carrier_id
+        carrier_name="us-tmobile"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>00101</item>
+            <item>310240</item>
+            <item>310260</item>
+            <item>310160</item>
+            <item>310200</item>
+            <item>310210</item>
+            <item>310220</item>
+            <item>310230</item>
+            <item>310250</item>
+            <item>310270</item>
+            <item>310490</item>
+            <item>310660</item>
+            <item>310800</item>
+            <item>311490</item>
+            <item>311660</item>
+            <item>311882</item>
+            <item>312250</item>
+        </string-array>
+
+        <string-array name="gid1">
+            <item>544D</item>
+        </string-array>
+    </carrier_id>
+
+    <carrier_id
+        carrier_name="us-tmobile"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>310310</item>
+        </string-array>
+    </carrier_id>
+
+    <carrier_id
+        carrier_name="us-metropcs"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>00101</item>
+            <item>310240</item>
+            <item>310260</item>
+            <item>310160</item>
+            <item>310200</item>
+            <item>310210</item>
+            <item>310220</item>
+            <item>310230</item>
+            <item>310250</item>
+            <item>310270</item>
+            <item>310490</item>
+            <item>310660</item>
+            <item>310800</item>
+        </string-array>
+
+        <string-array name="gid1">
+            <item>6D38</item>
+        </string-array>
+    </carrier_id>
+
+    <carrier_id
+        carrier_name="us-assurance"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>00101</item>
+            <item>310240</item>
+            <item>310260</item>
+            <item>310160</item>
+            <item>310200</item>
+            <item>310210</item>
+            <item>310220</item>
+            <item>310230</item>
+            <item>310250</item>
+            <item>310270</item>
+            <item>310490</item>
+            <item>310660</item>
+            <item>310800</item>
+        </string-array>
+
+        <string-array name="gid1">
+            <item>1A53</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for us-att 310410 ALM:2011855 -->
+    <carrier_id
+        carrier_name="us-att_410"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>310410</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for us-att5gsa ALM:3514596 -->
+    <carrier_id
+        carrier_name="us-att"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>310280</item>
+            <item>310950</item>
+            <item>311180</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for us-visible ALM:4471377 -->
+    <carrier_id
+        carrier_name="us-visible"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>311480</item>
+        </string-array>
+        <string-array name="gid1">
+            <item>BAE1000000000000</item>
+            <item>BAE2000000000000</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for us-cricket ALM:5163375 -->
+    <carrier_id
+        carrier_name="us-cricket"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>310150</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for us-verizon ALM:3514596 -->
+    <carrier_id
+        carrier_name="us-verizon"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>311480</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for es-lycamobile ALM:597951 -->
+    <carrier_id
+        carrier_name="es-lycamobile"
+        carrier_region="es">
+        <string-array name="mccmnc">
+            <item>21404</item>
+        </string-array>
+        <string-array name="imsi_prefix">
+            <item>2140426</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for nz-warehouse ALM:2429132 -->
+    <carrier_id
+        carrier_name="nz-warehouse"
+        carrier_region="nz">
+        <string-array name="mccmnc">
+            <item>53024</item>
+        </string-array>
+        <string-array name="imsi_prefix">
+            <item>5302410</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- ganhuiliang@NETWORK.SIM.4106469, 2022/08/03, spark lab SIM [OCR.4132231.1.Spark.NZ.V0] -->
+    <carrier_id
+        carrier_name="nz-spark"
+        carrier_region="nz">
+        <string-array name="mccmnc">
+            <item>53099</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for sg-tpg -->
+    <carrier_id
+        carrier_name="sg-tpg"
+        carrier_region="sg">
+        <string-array name="mccmnc">
+            <item>52510</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for cl-claro -->
+    <carrier_id
+        carrier_name="cl-claro"
+        carrier_region="cl">
+        <string-array name="mccmnc">
+            <item>73023</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for sg-myrepublic -->
+    <carrier_id
+        carrier_name="sg-myrepublic"
+        carrier_region="sg">
+        <string-array name="mccmnc">
+            <item>52505</item>
+        </string-array>
+        <string-array name="imsi_prefix">
+            <item>52505292</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for mx-att 334070 ALM:44209 -->
+    <carrier_id
+        carrier_name="mx-att_070"
+        carrier_region="mx">
+        <string-array name="mccmnc">
+            <item>334070</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for mx-unefon ALM:3287501 -->
+    <carrier_id
+        carrier_name="mx-unefon"
+        carrier_region="mx">
+        <string-array name="mccmnc">
+            <item>334090</item>
+            <item>334050</item>
+        </string-array>
+
+        <string-array name="iccid_index">
+            <item>8,1</item>
+            <item>8,3</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for mx-att 334090 ALM:44068 -->
+    <carrier_id
+        carrier_name="mx-att_090"
+        carrier_region="mx">
+        <string-array name="mccmnc">
+            <item>334090</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- ganhuiliang@NETWORK.SIM.4186364, 2022/08/11, JP Rakuten [OCR.4193199.1.Rakuten.JP.V0] -->
+    <carrier_id
+        carrier_name="jp-rakuten"
+        carrier_region="jp">
+        <string-array name="mccmnc">
+            <item>20801</item>
+        </string-array>
+        <string-array name="iccid_prefix">
+            <item>8981090</item>
+        </string-array>
+    </carrier_id>
+
+    <carrier_id
+        carrier_name=""
+        carrier_region="de">
+        <string-array name="mccmnc">
+            <item>26202</item>
+        </string-array>
+
+        <string-array name="imsi_range">
+            <item>262021915688022, 262021915689721</item>
+            <item>262021916728922, 262021916753921</item>
+            <item>262021916844422, 262021916869421</item>
+            <item>262021505517152, 262021505518151</item>
+            <item>262021605721605, 262021605722104</item>
+            <item>262021913520022, 262021914085021</item>
+            <item>262021914583022, 262021914843021</item>
+            <item>262021704060033, 262021704075032</item>
+            <item>262021705178075, 262021705185574</item>
+            <item>262021706006477, 262021706046476</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for pl-play 26098 -->
+    <carrier_id
+        carrier_name="pl-play"
+        carrier_region="pl">
+        <string-array name="mccmnc">
+            <item>26098</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for Croatia Hrvatski Telekom -->
+    <carrier_id
+        carrier_name="hr-telekom"
+        carrier_region="hr">
+        <string-array name="mccmnc">
+            <item>21901</item>
+            <item>21920</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for China CBN -->
+    <carrier_id
+        carrier_name="cn-cbn"
+        carrier_region="cn">
+        <string-array name="mccmnc">
+            <item>46015</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for US Cellcom -->
+    <carrier_id
+        carrier_name="us-cellcom"
+        carrier_region="us">
+        <string-array name="mccmnc">
+            <item>311840</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for jp-au -->
+    <carrier_id
+        carrier_name="jp-au"
+        carrier_region="jp">
+        <string-array name="mccmnc">
+            <item>44054</item>
+        </string-array>
+
+        <string-array name="gid1">
+            <item>10</item>
+        </string-array>
+    </carrier_id>
+
+    <!-- Customized for jp-uq -->
+    <carrier_id
+        carrier_name="jp-uq"
+        carrier_region="jp">
+        <string-array name="mccmnc">
+            <item>44054</item>
+        </string-array>
+
+        <string-array name="gid1">
+            <item>20</item>
+        </string-array>
+    </carrier_id>
+</oplus_carriers>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configs>
+  <version>1</version>
+  <Policys>
+    <Policy condition="TESTCARD &amp;&amp; OTA">16</Policy>
+    <Policy condition="TESTCARD &amp;&amp; !OTA">0</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; !WIFI2G &amp;&amp; !WIFI5G">1</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; !WIFI2G &amp;&amp; !WIFI5G">2</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; WIFI2G &amp;&amp; !WIFI5G">3</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; !WIFI2G &amp;&amp; WIFI5G">3</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; WIFI2G &amp;&amp; !WIFI5G">4</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; !WIFI2G &amp;&amp; WIFI5G">4</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; WIFI2G &amp;&amp; WIFI5G">5</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; WIFI2G &amp;&amp; WIFI5G">6</Policy>
+  </Policys>
+  <Events>
+    <Event class="HeadNearEvent" name="HEAD">1</Event>
+    <Event class="WIFI2p4GEvent" name="WIFI2G">3</Event>
+    <Event class="WIFI5GEvent" name="WIFI5G">2</Event>
+    <Event class="TestCardEvent" name="TESTCARD">0</Event>
+    <Event class="SwtpEvent" name="OTA">4</Event>
+  </Events>
+  <ScenarioMap>
+    <Scenario event_mask="0" sns_channel="-1">1</Scenario>
+    <Scenario event_mask="2" sns_channel="-1">2</Scenario>
+    <Scenario event_mask="8" sns_channel="-1">3</Scenario>
+    <Scenario event_mask="4" sns_channel="-1">3</Scenario>
+    <Scenario event_mask="10" sns_channel="-1">4</Scenario>
+    <Scenario event_mask="6" sns_channel="-1">4</Scenario>
+    <Scenario event_mask="12" sns_channel="-1">5</Scenario>
+    <Scenario event_mask="14" sns_channel="-1">6</Scenario>
+    <Scenario event_mask="1" sns_channel="-1">16</Scenario>
+  </ScenarioMap>
+</Configs>

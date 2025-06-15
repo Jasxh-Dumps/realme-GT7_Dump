@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vibration_effect_map>
+<effect effect_id="409" waveform_id="318" duration="197" type="RTP" usage="TOUCH" desc="effect_screenshot_feedback"/>
+</vibration_effect_map>

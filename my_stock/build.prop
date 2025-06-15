@@ -1,0 +1,21 @@
+# build prop start
+ro.oplus.image.my_stock.type=export_realme
+ro.oplus.image.my_stock.date=2025-05-30 22:49:06
+ro.oplus.image.my_stock.date.utc=1748616546
+ro.config.notification_sound=notification_002.ogg
+ro.config.calendar_sound=notification_003.ogg
+ro.config.alarm_alert=ringtone_008.ogg
+ro.config.notification_sim2=notification_002.ogg
+ro.config.notification_sms=notification_002.ogg
+ro.config.ringtone_sim2=ringtone_000.ogg
+ro.config.ringtone=ringtone_000.ogg
+ro.config.omoji_path=/my_stock/etc/Omoji
+ro.oplus.system.camera.flashlight=com.oplus.motor.flashlight
+ro.camera.privileged.3rdpartyApp=com.mediatek.expert.mtkcamhelper;com.aiunit.aon;com.oplus.gesture;
+ro.oplus.camera.video_beauty.prefix=oplus.video.beauty.
+ro.oplus.camera.video.beauty.switch=oplus.switch.video.beauty
+ro.opa.device_model_id=ga-oplus-skill-os121-211011
+persist.sys.gfxtrim.enable=true
+dalvik.vm.madvise.odexfile.size=104857600
+dalvik.vm.madvise.vdexfile.size=104857600
+ro.oplus.image.my_stock.version=4.0.0.80.2025053022452931504859.ec7ca395

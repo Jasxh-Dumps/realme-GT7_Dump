@@ -1,0 +1,57 @@
+<oplus-config>
+
+    <!-- ZhangZhiLin@CONNECTIVITY.BT.Basic.Feature, 2021/06/30,add for bt sar feature  -->
+    <oplus-feature name="oplus.software.wlan.dbs" />
+
+    <oplus-feature name="oplus.software.wlan.wifi6" />
+
+    <!--oplus-feature name="oplus.software.wlan.smart_gear" /-->
+    <oplus-feature name="oplus.software.wlan.smart_gear" />
+
+    <!-- LiXiong@CONNECTIVITY.WIFI.NETWORK.ROUTERBOOST, 2020/09/27   -->
+    <oplus-feature name="oplus.software.wlan.routerboost" />
+
+    <!-- Zhouhuiquan@CONNECTIVITY.WIFI.CONNECT.3574191, 2022/10/20, Add for wifi connection self cure v3 -->
+    <oplus-feature name="oplus.software.wlan.connection_selfcure_v3" />
+
+    <!-- XiaSong@CONNECTIVITY.WIFI.HARDWARE.PKAT.1460037, 2021/12/3 -->
+    <oplus-feature name="oplus.software.wlan.pkat" />
+
+    <!-- NormanLiu@CONNECTIVITY.WIFI.NETWORK, 2021/10/14 -->
+    <oplus-feature name="oplus.software.wlan.fdd_v3_mode" />
+
+    <!-- XiaSong@CONNECTIVITY.WIFI.HARDWARE.POWER.2792204, 2021/12/19, add for MTK BAR -->
+    <!--
+    <oplus-feature name="oplus.software.wlan.bar" />
+    -->
+
+    <!-- Zhouhuiquan@CONNECTIVITY.WIFI.CONNECT.SMARTANTENNA, 2022/12/09, Add for wifi SmartAntenna implement -->
+    <oplus-feature name="oplus.software.wlan.smart_antenna" />
+
+    <!-- SunZhao@CONNECTIVITY.WIFI.NETSHARE, 2022/12/03, add for netshare -->
+    <oplus-feature name="oplus.software.wlan.net_share" />
+
+    <!-- Liuzuofa@CONNECTIVITY.WIFI.SOFTAP.4470594, 2023/6/12 -->
+    <oplus-feature name="oplus.software.wlan.atpc" />
+
+    <!-- ZhengDeng@CONNECTIVITY.WIFI.BASIC.P2P.3615099, 2022/09/15, add for AP-GC CONNECT -->
+    <oplus-feature name="oplus.software.wlan.ap_gc_connect" />
+
+    <!-- YuanZhiqiang@CONNECTIVITY.WIFI.HARDWARE.POWER.6267506, 2023/09/21, add for CCK fix rate -->
+    <oplus-feature name="oplus.software.wlan.fixedrate" />
+
+    <!-- CaoShifeng@CONNECTIVITY.WIFI.QOE, 2023/10/17, add for wifi qoe -->
+    <oplus-feature name="oplus.software.wlan.qoe_estimate" />
+
+    <!-- wangcheng@CONNECTIVITY.WIFI.NETWORK, 2024/04/9 -->
+    <oplus-feature name="oplus.software.wlan.sar.txduty" />
+
+    <oplus-feature name="oplus.software.wlan.dynamic_edcca" />
+
+    <!-- JinXuexue@CONNECTIVITY.WIFI.NETWORK.7059396, 2024/05/28 -->
+    <oplus-feature name="oplus.software.wlan.roam_opt" />
+
+<!-- SunZhao@CONNECTIVITY.WIFI.CONNECTION.7757711, 2024/08/19, add for game assistant network strength scan -->
+    <oplus-feature name="oplus.software.wlan.game_network_strength_scan" />
+
+</oplus-config>

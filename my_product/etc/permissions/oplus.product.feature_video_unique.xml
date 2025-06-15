@@ -1,0 +1,10 @@
+<permissions>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2022/1/13, Add for osie and sr feature start -->
+    <feature name="oplus.software.video.sr_support"/>
+    <feature name="oplus.software.video.osie_support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2022/1/13, Add for osie and sr feature end -->
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2022/5/12, Add for osie and sr feature start -->
+    <feature name="oplus.video.hdr10_support"/>
+    <feature name="oplus.video.hdr10plus_support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2022/5/12, Add for osie and sr feature end -->
+</permissions>

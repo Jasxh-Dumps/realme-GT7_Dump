@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?><!--
+    *  Device processor config like this:
+    *
+    *  <settings_device_processor_config>
+    *      <processor model_name="SM8475" name_cn="第一代骁龙&#174;8+\n移动平台"  name_en=“Snapdragon&#174; 8+\nGen 1\nMobile Platform”/>
+    *      <processor model_name="SM8550" name_cn="第二代骁龙&#174;8\n移动平台"  name_en=“Snapdragon&#174; 8\nGen 2\nMobile Platform”/>
+    *  </settings_device_processor_config>
+    */
+-->
+<settings_device_processor_config>
+    <processor model_name="MT6989" name_cn="MediaTek 天玑 9300 旗舰5G生成式 AI 移动芯片" name_en="MediaTek Dimensity 9300"/>
+    <processor model_name="MT6985T" name_cn="天玑 9200+ 八核" name_en="Dimensity 9200+ Octa-core"/>
+    <processor model_name="MT6878" name_cn="MediaTek 天玑 7300" name_en="MediaTek Dimensity 7300"/>
+    <processor model_name="SM8650" name_cn="第三代骁龙&#174;8 移动平台" name_en="Snapdragon&#174; 8 Gen 3 Mobile Platform"/>
+	<processor model_name="SM6450" name_cn="第一代骁龙&#174;6 移动平台" name_en="Snapdragon&#174; 6 Gen 1 Mobile Platform"/>
+	<processor model_name="SM7435" name_cn="第二代骁龙&#174;7s 移动平台" name_en="Snapdragon&#174; 7s Gen 2 Mobile Platform"/>
+	<processor model_name="MT6769" name_cn="MediaTek Helio G85" name_en="MediaTek Helio G85"/>
+	<processor model_name="SM7675" name_cn="第三代骁龙&#174;7+ 移动平台" name_en="Snapdragon&#174; 7+ Gen 3 Mobile Platform"/>
+	<processor model_name="SM7550" name_cn="第三代骁龙&#174;7 移动平台" name_en="Snapdragon&#174; 7 Gen 3 Mobile Platform"/>
+	<processor model_name="SM8635" name_cn="第三代骁龙&#174;8s 移动平台" name_en="Snapdragon&#174; 8s Gen 3 Mobile Platform"/>
+	<processor model_name="MT6835T" name_cn="MediaTek 天玑 6300" name_en="MediaTek Dimensity 6300"/>
+	<processor model_name="D8250" name_cn="天玑 8250 星速版" name_en="Dimensity 8250 HyperEngine Edition"/>
+	<processor model_name="D9200+" name_cn="天玑 9200+ 星速版" name_en="Dimensity 9200+ HyperEngine Edition"/>
+	<processor model_name="D7300-Energy" name_cn="天玑 7300-Energy" name_en="Dimensity 7300-Energy"/>
+	<processor model_name="SM6225Pro" name_cn="高通骁龙 685 八核" name_en="Qualcomm&#174; Snapdragon&#8482;685 Octa-core"/>
+	<processor model_name="SM6115_AC" name_cn="高通骁龙 6s 4G Gen1 八核" name_en="Qualcomm® Snapdragon® 6s 4G Gen1 Octa-core"/>
+	<processor model_name="SM7675_AVALON" name_cn="第三代骁龙™ 7 Plus 移动平台" name_en="Snapdragon™ 7 Plus Gen 3 Mobile Platform"/>
+	<processor model_name="MT6991" name_cn="MediaTek 天玑 9400" name_en="MediaTek Dimensity 9400"/>
+	<processor model_name="SM8750" name_cn="骁龙&#174;8至尊版移动平台" name_en="Snapdragon&#174; 8 Elite Mobile Platform"/>
+	<processor model_name="D7300 Energy" name_cn="天玑 7300 Energy" name_en="Dimensity 7300 Energy"/>
+	<processor model_name="MT6897" name_cn="MediaTek 天玑 8350" name_en="MediaTek Dimensity 8350"/>
+	<processor model_name="SM8650AC" name_cn="第三代骁龙&#174;8 移动平台 领先版" name_en="Snapdragon&#174; 8 Gen 3 Mobile Platform Leading Version"/>
+	<processor model_name="MT6769I" name_cn="MediaTek Helio G92 Max" name_en="MediaTek Helio G92 Max"/>
+	<processor model_name="MT6989T" name_cn="MediaTek 天玑 9300+" name_en="MediaTek Dimensity 9300+"/>
+    <processor model_name="MT6789H" name_cn="联发科 曦力G100" name_en="MediaTek Helio G100"/>
+    <processor model_name="MT6769S" name_cn="MediaTek Helio G81 Ultra" name_en="MediaTek Helio G81 Ultra"/>
+	<processor model_name="SM7635" name_cn="第三代骁龙&#174;7s 移动平台" name_en="Snapdragon&#174; 7s Gen 3 Mobile Platform"/>
+	<processor model_name="MT6991T" name_cn="MediaTek 天玑 9400+" name_en="MediaTek Dimensity 9400+"/>
+	<processor model_name="MT6835TT" name_cn="联发科天玑6400" name_en="MediaTek Dimensity 6400"/>
+	<processor model_name="MT6989T_SUBARU" name_cn="MediaTek 天玑 9400e" name_en="MediaTek Dimensity 9400e"/>
+	<processor model_name="MT6899" name_cn="MediaTek 天玑 8400-MAX" name_en="MediaTek Dimensity 8400-MAX"/>
+	<processor model_name="MT8781X" name_cn="联发科 曦力G100" name_en="MediaTek Helio G100"/>
+	<processor model_name="SM6650" name_cn="第四代骁龙&#174;6 移动平台" name_en="Snapdragon&#174; 6 Gen 4"/>
+	<processor model_name="MT6897-Ultra" name_cn="MediaTek 天玑 8350 Ultra" name_en="MediaTek Dimensity 8350 Ultra"/>
+	<processor model_name="D7400" name_cn="MediaTek 天玑 7400" name_en="MediaTek Dimensity 7400"/>
+	<processor model_name="MT6989T_CAYMAN" name_cn="MediaTek 天玑 9400e" name_en="MediaTek Dimensity 9400e"/>
+	<processor model_name="MT6899_ZK" name_cn="MediaTek 天玑 8450" name_en="MediaTek Dimensity 8450"/>
+	<processor model_name="SM8735" name_cn="第四代骁龙&#174;8s 移动平台" name_en="Snapdragon&#174; 8s Gen 4 Mobile Platform"/>
+</settings_device_processor_config>

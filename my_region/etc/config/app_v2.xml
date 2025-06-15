@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <enable pkg="com.applovin.array.apphub.vincere" priority="9"/>
+  <del_disable pkg="com.fin.topkredit" priority="9" name="Finmart.apk"/>
+  <enable pkg="com.finshell.fin" priority="9"/>
+  <del_disable pkg="com.fintech.uangmudah" priority="9" name="UangMudah.apk"/>
+  <enable pkg="com.glance.internet" priority="9"/>
+  <enable pkg="com.heytap.cloud" priority="9"/>
+  <del_enable pkg="com.heytap.store" priority="9" name="INOppoStore.apk"/>
+  <enable pkg="com.nearme.gamecenter" priority="9"/>
+  <del_enable pkg="com.oneplus.mall" priority="9" name="INOnePlusStore.apk"/>
+  <disable pkg="com.oplus.appbooster" priority="9"/>
+  <enable pkg="com.oplus.pay" priority="9"/>
+  <enable pkg="com.oplus.themestore" priority="9"/>
+  <del_enable pkg="com.realmecomm.app" priority="9" name="RMCommEXP.apk"/>
+  <del_enable pkg="com.realmestore.app" priority="9" name="RMStoreExp.apk"/>
+  <enable pkg="com.redteamobile.roaming" priority="9"/>
+</app>

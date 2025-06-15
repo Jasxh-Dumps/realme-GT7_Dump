@@ -1,0 +1,43 @@
+[
+  {
+    "rank": "4",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_ai_2.webp",
+    "aiUnitOriginWallpaper": "color_os/color_os_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/color_os/color_os_wallpaper_ai_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/00_ColorOS15/ColorOS1501.webp",
+    "lockWallpaper": "common/wallpaper_group/00_ColorOS15/ColorOS1501.webp",
+    "thumbnail": "inspiration_theme_templates/color_os/color_os_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/color_os/color_os_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/color_os/color_os_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": ""
+  },
+  {
+    "rank": "1",
+    "type": "1",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/blossoms/blossoms_wallpaper_ai_2.webp",
+    "aiUnitOriginWallpaper": "blossoms/blossoms_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/blossoms/blossoms_wallpaper_ai_2_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/02_Blossoms/Blossoms04.webp",
+    "lockWallpaper": "common/wallpaper_group/02_Blossoms/Blossoms04.webp",
+    "wallpaperWithSupplement": "common/wallpaper_group/02_Blossoms/Blossoms04.webp",
+    "thumbnail": "inspiration_theme_templates/blossoms/blossoms_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/blossoms/blossoms_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/blossoms/blossoms_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": "low_devices_default_themes/3/blossoms_wallpaper_ai_2.webp",
+    "photoBackMask": "low_devices_default_themes/1/photo_back_mask",
+    "photoFrontMask": "low_devices_default_themes/1/photo_front_mask"
+  },
+  {
+    "rank": "0",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_3.webp",
+    "aiUnitOriginWallpaper": "mountain/mountain_wallpaper_ai_3.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_3_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/01_Nature/Nature02.webp",
+    "lockWallpaper": "common/wallpaper_group/01_Nature/Nature02.webp",
+    "thumbnail": "inspiration_theme_templates/mountain/mountain_preview_3.webp",
+    "thumbnailEng": "inspiration_theme_templates/mountain/mountain_preview_eng_3.webp",
+    "thumbnailHk": "inspiration_theme_templates/mountain/mountain_preview_traditional_3.webp"
+  }
+]

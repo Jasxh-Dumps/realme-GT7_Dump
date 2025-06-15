@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.oplus.pm.custom_uninstall_apps" args="StringList:packages">
+        <StringList name="packages" args="package=com.oplus.onet|uninstall_category=setupwizard_complete"/>
+    </app_feature>
+</extend_features>

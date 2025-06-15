@@ -1,0 +1,32 @@
+<filter-conf>
+<version>2024112201</version>
+<isOpen>1</isOpen>
+<filter-name>sys_startup_policy_config</filter-name>	
+	<ForbidRestartService>1</ForbidRestartService>	
+	<DelayRestartService>
+        <delay_rs name = "activity_starting" time = "5:6" mem = "8" enable = "1" window = "5000" />
+    </DelayRestartService>
+	<DelayRestartService>
+        <delay_rs name = "screen_turning_on" time = "5:6" lightos="2" enable = "1" window = "5000" />
+    </DelayRestartService>
+
+	<LightOsFeatureConfig>
+	    <FeatureConfig name = "adjust_mem_level_switch"  intVal = "2" />
+	    <FeatureConfig name = "adjust_mem_level_interval"  longVal = "15000" />
+	    <FeatureConfig name = "normal_startup_switch"  intVal = "2"/>
+	    <FeatureConfig name = "JobExecIntervalRestricted"  intVal = "2" />
+	    <FeatureConfig name = "JobProcStartRestricted"  intVal = "2" />
+	    <FeatureConfig name = "JobExecInterval"  longVal= "30000" />
+	    <FeatureConfig name = "JobProcStartInterval"  longVal= "60000" />
+	    <FeatureConfig name = "JobProcStartQuota"  intVal= "2" />
+        <FeatureConfig name = "JobScreenOnRestriction"  intVal= "2" />
+	    <FeatureConfig name = "JobWizardRestricted"  intVal= "2" />
+	    <FeatureConfig name = "BootPressureExpEnable"  intVal = "2" />
+	    <FeatureConfig name = "prevent_not_used_startup_switch"  intVal = "2"/>
+		<FeatureConfig name = "remove_duplicate_boot_receivers_switch"  intVal = "2"/>
+	    <FeatureConfig name = "lightos_oplus_boot_completed_delay_time"  longVal = "260000"/>
+	    <FeatureConfig name = "appStandbyRestrictSysAppSwitch"  intVal = "2" />
+        <FeatureConfig name = "dream_fast_switch"  intVal = "2" />
+        <FeatureConfig name = "remove_pre_boot_receiver_before_wizard_switch"  intVal = "2" />
+	</LightOsFeatureConfig>
+</filter-conf>

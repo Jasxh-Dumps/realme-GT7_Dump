@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="feature.support.game.AI_PLAY_version4_mlbb"/>
+    <app_feature name="feature.support.game.AI_PLAY_version4"/>
+    <app_feature name="feature.support.game.AI_PLAY_version4_audio"/>
+    <app_feature name="com.oplus.aiplaymate.pubg_url" args="String:https://r12gl.realme.net/aiplaymate/audio/v20250410/audio_pubg.zip"/>
+    <app_feature name="com.oplus.aiplaymate.audio_mlbb_url" args="String:https://r12gl.realme.net/aiplaymate/audio/v20250410/audio_mlbb.zip"/>
+</extend_features>

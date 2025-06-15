@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<int name="vowifi_preferred_mode" value="1"/>
+	<boolean name="config_oplus_hide_2g_only" value="true"/>
+	<int name="vowifi_roaming_preferred_mode" value="1"/>
+	<long name="oplus_display_text_show_time" value="30000"/>
+	<string-array name="stk_dialog_duration_string_array" num="2">
+		<item value="all"/>
+		<item value="30000"/>
+	</string-array>
+</carrier_config>
+<!-- Timestamp 2024-07-04T20:07:03 #157348 -->

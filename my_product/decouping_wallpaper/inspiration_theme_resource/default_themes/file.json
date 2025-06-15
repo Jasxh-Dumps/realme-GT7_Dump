@@ -1,0 +1,61 @@
+[
+  {
+    "rank": "4",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/color_os/color_os_wallpaper_ai_2.webp",
+    "aiUnitOriginWallpaper": "color_os/color_os_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/color_os/color_os_wallpaper_ai_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/00_ColorOS15/ColorOS1501.webp",
+    "lockWallpaper": "common/wallpaper_group/00_ColorOS15/ColorOS1501.webp",
+    "thumbnail": "inspiration_theme_templates/color_os/color_os_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/color_os/color_os_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/color_os/color_os_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": ""
+  },
+  {
+    "rank": "3",
+    "type": "3",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/rhythm/rhythm_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/rhythm/rhythm_wallpaper_ai_2_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/08_Rhythm/Rhythm02.webp",
+    "lockWallpaper": "common/wallpaper_group/08_Rhythm/Rhythm02.webp",
+    "wallpaperWithSupplement": "default_themes/3/cropped_lockscreen_wallpaper_with_supplement",
+    "thumbnail": "inspiration_theme_templates/rhythm/rhythm_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/rhythm/rhythm_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/rhythm/rhythm_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": "default_themes/3/ai_unit_core_wallpaper_with_supplement",
+    "photoBackMask": "inspiration_theme_styles/graffiti/game_on/depth_game_on.webp",
+    "photoFrontMask": "",
+    "lock2aodCute": "inspiration_theme_styles/graffiti/game_on/lock2aod_game_on.mp4",
+    "aod2lockCute": "inspiration_theme_styles/graffiti/game_on/aod2lock_game_on.mp4"
+  },
+  {
+    "rank": "1",
+    "type": "3",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/healing/healing_wallpaper_ai_2.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/healing/healing_wallpaper_ai_2_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/07_Healing/Healing02.webp",
+    "lockWallpaper": "common/wallpaper_group/07_Healing/Healing02.webp",
+    "wallpaperWithSupplement": "default_themes/1/cropped_lockscreen_wallpaper_with_supplement",
+    "thumbnail": "inspiration_theme_templates/healing/healing_preview_2.webp",
+    "thumbnailEng": "inspiration_theme_templates/healing/healing_preview_eng_2.webp",
+    "thumbnailHk": "inspiration_theme_templates/healing/healing_preview_traditional_2.webp",
+    "aiUnitCoreWallpaperWithSupplement": "default_themes/1/ai_unit_core_wallpaper_with_supplement",
+    "photoBackMask": "inspiration_theme_styles/graffiti/cute/depth_cute.webp",
+    "photoFrontMask": "inspiration_theme_styles/graffiti/cute/sticky_cute.webp",
+    "lock2aodCute": "inspiration_theme_styles/graffiti/cute/lock2aod_cute.mp4",
+    "aod2lockCute": "inspiration_theme_styles/graffiti/cute/aod2lock_cute.mp4"
+  },
+  {
+    "rank": "0",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_3.webp",
+    "aiUnitOriginWallpaper": "mountain/mountain_wallpaper_ai_3.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_3_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/01_Nature/Nature02.webp",
+    "lockWallpaper": "common/wallpaper_group/01_Nature/Nature02.webp",
+    "thumbnail": "inspiration_theme_templates/mountain/mountain_preview_3.webp",
+    "thumbnailEng": "inspiration_theme_templates/mountain/mountain_preview_eng_3.webp",
+    "thumbnailHk": "inspiration_theme_templates/mountain/mountain_preview_traditional_3.webp"
+  }
+]

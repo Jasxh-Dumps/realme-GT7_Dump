@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feature id="0">
+    <function>FIX Asdiv</function>
+    <atcmd index="0"><!--838-->
+        <!--AT + ETXANT = 4,RAT,ANT UP STATE,BAND,0-->
+        <!--GSM-->
+        <cmd command = "rat-4">1,0,5,0</cmd>  <!-- GSM850 sn0 state1 ant1 -->
+        <cmd command = "rat-4">1,0,8,0</cmd>  <!-- GSM900 sn0 state1 ant1 -->
+        <cmd command = "rat-4">1,0,3,0</cmd>  <!-- GSM1800 sn0 state4 ant1 -->
+        <cmd command = "rat-4">1,0,2,0</cmd>  <!-- GSM1800 sn0 state4 ant1 -->
+        <!--UMTS-->
+        <cmd command = "rat-4">5,1,1,0</cmd>  <!-- ant4 -->
+        <cmd command = "rat-4">5,1,2,0</cmd>
+        <cmd command = "rat-4">5,1,4,0</cmd>
+        <cmd command = "rat-4">5,1,5,0</cmd>
+        <cmd command = "rat-4">5,1,6,0</cmd>
+        <cmd command = "rat-4">5,1,8,0</cmd>
+        <cmd command = "rat-4">5,1,19,0</cmd>
+        <!--LTE-->
+        <cmd command = "rat-4">3,1,1,0</cmd>  <!-- ant4 -->
+        <cmd command = "rat-4">3,1,2,0</cmd>
+        <cmd command = "rat-4">3,1,3,0</cmd>
+        <cmd command = "rat-4">3,1,4,0</cmd>
+        <cmd command = "rat-4">3,1,5,0</cmd>
+        <cmd command = "rat-4">3,1,7,0</cmd>
+        <cmd command = "rat-4">3,1,8,0</cmd>
+        <cmd command = "rat-4">3,1,12,0</cmd>
+        <cmd command = "rat-4">3,1,13,0</cmd>
+        <cmd command = "rat-4">3,1,17,0</cmd>
+        <cmd command = "rat-4">3,1,18,0</cmd>
+        <cmd command = "rat-4">3,1,19,0</cmd>
+        <cmd command = "rat-4">3,1,20,0</cmd>
+        <cmd command = "rat-4">3,1,26,0</cmd>
+        <cmd command = "rat-4">3,1,28,0</cmd>
+        <cmd command = "rat-4">3,1,34,0</cmd>
+        <cmd command = "rat-4">3,1,38,0</cmd>
+        <cmd command = "rat-4">3,1,39,0</cmd>
+        <cmd command = "rat-4">3,1,40,0</cmd>
+        <cmd command = "rat-4">3,1,41,0</cmd>
+        <cmd command = "rat-4">3,1,66,0</cmd>
+        <cmd command = "rat-4">3,1,71,0</cmd>
+        <!--C2K-->
+        <cmd command = "rat-4">4,1,0,0</cmd>
+    </atcmd>
+    <atcmd index="1"><!--818-->
+        <!--AT + ETXANT = 4,RAT,ANT DOWM STATE,BAND,0-->
+        <!--GSM-->
+        <cmd command = "rat-4">1,0,5,0</cmd>  <!-- ant0 -->
+        <cmd command = "rat-4">1,0,8,0</cmd>
+        <cmd command = "rat-4">1,0,3,0</cmd>
+        <cmd command = "rat-4">1,0,2,0</cmd>
+        <!--UMTS-->
+        <cmd command = "rat-4">5,0,1,0</cmd>
+        <cmd command = "rat-4">5,0,2,0</cmd>
+        <cmd command = "rat-4">5,0,4,0</cmd>
+        <cmd command = "rat-4">5,0,5,0</cmd>
+        <cmd command = "rat-4">5,0,6,0</cmd>
+        <cmd command = "rat-4">5,0,8,0</cmd>
+        <cmd command = "rat-4">5,0,19,0</cmd>
+        <!--LTE-->
+        <cmd command = "rat-4">3,0,1,0</cmd>  <!-- ant4/5 -->
+        <cmd command = "rat-4">3,0,2,0</cmd>
+        <cmd command = "rat-4">3,0,3,0</cmd>
+        <cmd command = "rat-4">3,0,4,0</cmd>
+        <cmd command = "rat-4">3,0,5,0</cmd>
+        <cmd command = "rat-4">3,0,7,0</cmd>
+        <cmd command = "rat-4">3,0,8,0</cmd>
+        <cmd command = "rat-4">3,0,12,0</cmd>
+        <cmd command = "rat-4">3,0,13,0</cmd>
+        <cmd command = "rat-4">3,0,17,0</cmd>
+        <cmd command = "rat-4">3,0,18,0</cmd>
+        <cmd command = "rat-4">3,0,19,0</cmd>
+        <cmd command = "rat-4">3,0,20,0</cmd>
+        <cmd command = "rat-4">3,0,26,0</cmd>
+        <cmd command = "rat-4">3,0,28,0</cmd>
+        <cmd command = "rat-4">3,0,34,0</cmd>
+        <cmd command = "rat-4">3,0,38,0</cmd>
+        <cmd command = "rat-4">3,0,39,0</cmd>
+        <cmd command = "rat-4">3,0,40,0</cmd>
+        <cmd command = "rat-4">3,0,41,0</cmd>
+        <cmd command = "rat-4">3,0,66,0</cmd>
+        <cmd command = "rat-4">3,0,71,0</cmd>
+        <!--C2K-->
+        <cmd command = "rat-4">4,0,0,0</cmd>
+    </atcmd>
+    <atcmd index="2"><!--858-->
+        <cmd command = "rat-4">3,2,1,0</cmd>  <!-- ant5 -->
+        <cmd command = "rat-4">3,2,3,0</cmd>
+        <cmd command = "rat-4">3,2,4,0</cmd>
+        <cmd command = "rat-4">3,2,7,0</cmd>
+        <cmd command = "rat-4">3,2,38,0</cmd>
+        <cmd command = "rat-4">3,2,40,0</cmd>
+        <cmd command = "rat-4">3,2,41,0</cmd>
+        <cmd command = "rat-4">3,2,66,0</cmd>
+    </atcmd>
+    <atcmd index="3"><!--878-->
+        <cmd command = "rat-4">3,3,1,0</cmd>  <!-- ant1 -->
+        <cmd command = "rat-4">3,3,3,0</cmd>
+        <cmd command = "rat-4">3,3,4,0</cmd>
+        <cmd command = "rat-4">3,3,7,0</cmd>
+        <cmd command = "rat-4">3,3,38,0</cmd>
+        <cmd command = "rat-4">3,3,40,0</cmd>
+        <cmd command = "rat-4">3,3,41,0</cmd>
+        <cmd command = "rat-4">3,3,66,0</cmd>
+    </atcmd>
+    <atcmd index="4"><!--618-->
+        <!--AT + EGMC = 1,"NrForceTxRx",4,NR ANT TX/PRX STATE,NR RX STATE,BAND-->
+        <cmd command = "rat-5">0,0,1</cmd>  <!--ANT0-->
+        <cmd command = "rat-5">0,0,2</cmd>		
+        <cmd command = "rat-5">0,0,3</cmd>
+        <cmd command = "rat-5">0,0,5</cmd>  <!--ANT0-->
+        <cmd command = "rat-5">0,0,7</cmd>
+        <cmd command = "rat-5">0,0,8</cmd>
+        <cmd command = "rat-5">0,0,20</cmd>
+        <cmd command = "rat-5">0,0,26</cmd>
+        <cmd command = "rat-5">0,0,28</cmd>
+        <cmd command = "rat-5">0,0,38</cmd>
+        <cmd command = "rat-5">0,0,40</cmd>
+        <cmd command = "rat-5">0,0,66</cmd>
+        <cmd command = "rat-5">0,0,41</cmd>
+        <cmd command = "rat-5">0,0,71</cmd>
+        <cmd command = "rat-5">0,1,77</cmd>  <!--ANT8-->
+        <cmd command = "rat-5">0,1,78</cmd>
+    </atcmd>
+    <atcmd index="5"><!--638-->
+        <!--AT + EGMC = 1,"NrForceTxRx",4,NR ANT TX/DRX STATE,NR RX STATE,BAND-->
+        <cmd command = "rat-5">1,1,1</cmd>  <!--ANT1-->
+        <cmd command = "rat-5">1,1,2</cmd>
+        <cmd command = "rat-5">1,1,3</cmd>
+        <cmd command = "rat-5">1,1,5</cmd>  <!--ANT4-->
+        <cmd command = "rat-5">1,1,7</cmd>
+        <cmd command = "rat-5">1,1,8</cmd>
+        <cmd command = "rat-5">1,1,20</cmd>
+        <cmd command = "rat-5">1,1,26</cmd>
+        <cmd command = "rat-5">1,1,28</cmd>
+        <cmd command = "rat-5">1,1,38</cmd>
+        <cmd command = "rat-5">1,1,40</cmd>
+        <cmd command = "rat-5">1,1,66</cmd>
+        <cmd command = "rat-5">1,1,41</cmd>
+        <cmd command = "rat-5">1,1,71</cmd>
+        <cmd command = "rat-5">2,1,77</cmd>  <!--ANT9-->
+        <cmd command = "rat-5">2,1,78</cmd>
+    </atcmd>
+    <atcmd index="6"><!--658-->
+        <!--AT + EGMC = 1,"NrForceTxRx",4,NR ANT TX/PRXMIMO STATE,NR RX STATE,BAND-->
+        <cmd command = "rat-5">2,2,1</cmd>  <!--ANT5-->
+        <cmd command = "rat-5">2,2,3</cmd>
+        <cmd command = "rat-5">2,2,7</cmd>
+        <cmd command = "rat-5">2,2,38</cmd>
+        <cmd command = "rat-5">2,2,40</cmd>
+        <cmd command = "rat-5">2,2,66</cmd>
+        <cmd command = "rat-5">2,2,41</cmd>
+        <cmd command = "rat-5">3,1,77</cmd>  <!--ANT10-->
+        <cmd command = "rat-5">3,1,78</cmd>
+    </atcmd>
+    <atcmd index="7"><!--678-->
+        <!--AT + EGMC = 1,"NrForceTxRx",4,NR ANT TX/DRXMIMO STATE,NR RX STATE,BAND-->
+        <cmd command = "rat-5">3,3,1</cmd>  <!--ANT1-->
+        <cmd command = "rat-5">3,3,3</cmd>
+        <cmd command = "rat-5">3,3,7</cmd>
+        <cmd command = "rat-5">3,3,38</cmd>
+        <cmd command = "rat-5">3,3,40</cmd>
+        <cmd command = "rat-5">3,3,66</cmd>
+        <cmd command = "rat-5">3,3,41</cmd>
+        <cmd command = "rat-5">4,1,77</cmd>  <!--ANT11-->
+        <cmd command = "rat-5">4,1,78</cmd>
+    </atcmd>
+</feature>

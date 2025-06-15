@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.click_control_center_vowifi_intent_dynamic"/>
+	<app_feature name="com.android.phone.simsettings.update_volte_switch_title_dynamic"/>
+	<app_feature name="com.android.phone.simsettings.show_guide_to_vowifi_help_dynamic"/>
+	<app_feature name="com.android.phone.simsettings.show_vowifi_help_menu_dynamic"/>
+	<app_feature name="com.android.phone.simsettings.show_vowifi_tile_in_control_center_dynamic"/>
+	<app_feature name="com.android.phone.simsettings.customize_vowifi_dialog_dynamic" args="StringList:array">
+		<StringList name="array" args="key_title;wifi_calling_enable_dialog_title;key_message;wifi_calling_enable_dialog_msg;key_positive_button;wifi_calling_positive_button;key_negative_button;wifi_calling_negative_button;key_dialog_type;first_ask_dialog"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_name_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_5g_4g_3g_2g_auto;oplus_4g_3g_2g_auto;oplus_3g_2g_auto;oplus_3g_only;oplus_2g_only"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_name_list_dynamic" args="StringList:type">
+		<StringList name="type" args="oplus_4g_3g_2g_auto;oplus_3g_2g_auto;oplus_3g_only;oplus_2g_only"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_5g_dynamic" args="StringList:type">
+		<StringList name="type" args="33;9;0;2;1"/>
+	</app_feature>
+	<app_feature name="com.android.phone.customize_network_value_list_dynamic" args="StringList:type">
+		<StringList name="type" args="9;0;2;1"/>
+	</app_feature>
+	<app_feature name="com.android.phone.network_list_visible_dynamic" args="String:show"/>
+	<app_feature name="com.android.phone.network_list_visible_5G_dynamic" args="String:show"/>
+	<app_feature name="com.android.systemui.show_3gplus_for_h"/>
+	<app_feature name="com.android.systemui.show_g_for_2g"/>
+</extend_features>
+<!-- Timestamp 2023-09-19T11:03:53 #47302 -->

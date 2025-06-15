@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.launcher.lock_app_limit" args="String:32|10-24|10-16|10-12|10"/>
+	<app_feature name="com.oplus.eyeprotect.ai_intelligent_eye_protect_support"/>
+	<app_feature name="com.oplus.infocollection.screen.recognition"/>
+	<app_feature name="com.oplus.commercial_product_series" args="String:G"/>
+	<app_feature name="com.android.launcher.rm_disable_folder_footer_ad" args="boolean:true"/>
+	<app_feature name="com.android.launcher.folder_content_recommend_disable"/>
+	<app_feature name="com.oplus.bootreg.disable_market_page" args="boolean:true"/>
+	<app_feature name="com.oplus.gesture.camera_space_gesture_support"/>
+	<app_feature name="com.oplus.gesture.gaze_fade_ringtone_no_support"/>
+	<app_feature name="com.oplus.gesture.intelligent_perception"/>
+	<app_feature name="athena.fastclear.from.launcher"/>
+	<app_feature name="oplus.osense.appmng.hyb_level" args="String:8-2"/>
+	<app_feature name="camera.scene.notify.max.target.mem" args="String:8|3072-12|3072"/>
+	<app_feature name="com.coloros.support_gt_boost" args="boolean:true"/>
+	<app_feature name="com.oplus.smartsidebar.space.roulette.bootreg"/>
+	<app_feature name="com.oplus.smartsidebar.space.roulette.support"/>
+	<app_feature name="com.oplus.gallery3d.aihd_support"/>
+	<app_feature name="com.oplus.gesture.sidebar_space_gesture"/>
+	<app_feature name="com.oplus.directservice.aitoolbox_enable" args="boolean:true"/>
+	<app_feature name="feature.support_hottouch_anim" args="boolean:true"/>
+	<app_feature name="com.oplus.calendar.ai_planner_status" args="int:3"/>
+	<app_feature name="com.oplus.games.show_bypass_charging_when_gameapps" args="boolean:true"/>
+	<app_feature name="com.android.settings.rmfeedback"/>
+	<app_feature name="com.oplus.rom.antitheft_support" args="boolean:true"/>
+	<app_feature name="com.coloros.gamespace_game_support_body_sensation" args="boolean:true"/>
+	<app_feature name="com.oplus.lockassistant.support_region_batch_unlock"/>
+	<app_feature name="com.oplus.reversecharge" args="boolean:true"/>
+	<app_feature name="com.coloros.gamespace_game_support_fourd_vibration"/>
+	<app_feature name="com.android.launcher.search_entry_disable"/>
+	<app_feature name="com.android.systemui.statusbar_icon_rightpadding">
+		<StringList args="1"/>
+	</app_feature>
+	<app_feature name="com.oplus.plc_charge.support">
+		<StringList args="true"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2025-04-27T00:47:33 #9eaf3f3f-06ff-4d51-8334-50211d6629fe -->

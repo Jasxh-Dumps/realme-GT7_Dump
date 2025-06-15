@@ -1,0 +1,14 @@
+[
+  {
+    "rank": "1",
+    "type": "0",
+    "aiUnitCoreWallpaper": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_4.webp",
+    "aiUnitOriginWallpaper": "mountain/mountain_wallpaper_ai_4.webp",
+    "aiUnitCoreWallpaperContours": "inspiration_theme_templates/mountain/mountain_wallpaper_ai_4_contours.txt",
+    "homeWallpaper": "common/wallpaper_group/01_Nature/Nature04.webp",
+    "lockWallpaper": "common/wallpaper_group/01_Nature/Nature04.webp",
+    "thumbnail": "inspiration_theme_templates/mountain/mountain_preview_4.webp",
+    "thumbnailEng": "inspiration_theme_templates/mountain/mountain_preview_eng_4.webp",
+    "thumbnailHk": "inspiration_theme_templates/mountain/mountain_preview_traditional_4.webp"
+  }
+]

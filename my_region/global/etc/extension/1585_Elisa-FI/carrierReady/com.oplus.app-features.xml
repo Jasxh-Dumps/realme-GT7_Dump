@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.systemui.hide_volte_icon"/>
+	<app_feature name="com.android.phone.simsettings.customize_sa_switch_dynamic">
+		<StringList args="key_sa_switch_title;oplus_5g_sa_switch"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2024-08-16T17:27:48 #189720 -->

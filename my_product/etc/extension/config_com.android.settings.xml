@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings-config>
+    <string-array name="realme_app_hide_kol" allowMerge="true">
+        <item>com.coloros.childrenspace</item><!-- 儿童空间 -->
+        <item>com.redteamobile.roaming</item><!-- 国际上网 -->
+        <item>com.coloros.systemclone</item><!-- 系统分身 -->
+        <item>com.heytap.usercenter</item><!-- 我的realme -->
+        <item>com.android.stk</item><!-- sim卡工具包 -->
+    </string-array>
+</settings-config>

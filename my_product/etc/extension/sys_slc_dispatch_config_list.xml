@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <version>2025021101</version>
+        <filter-name>sys_slc_dispatch_config_list</filter-name>
+    </filter-conf>
+	
+    <config name="switch">
+        <item slc="enable" scene="enable"/>
+    </config>
+	
+    <config name="normal" app="default">
+        <item index="-1" size="6" arg0="C" arg1="0" arg2="G" arg3="0" arg4="W" arg5="0"/>
+    </config>  
+    <config name="normal" app="com.google.android.youtube">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.whatsapp">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.instagram.android">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.facebook.katana">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.google.android.dialer">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.android.chrome">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.coloros.gallery3d">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.google.android.googlequicksearchbox">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.google.android.apps.messaging">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.amazon.mShop.android.shopping">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.snapchat.android">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.oplus.camera">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.flipkart.android">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="org.telegram.messenger">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	<config name="normal" app="com.google.android.apps.maps">
+        <item index="13" size="6" arg0="C" arg1="0" arg2="G" arg3="0" arg4="W" arg5="1"/>
+    </config>
+	<config name="normal" app="com.google.android.apps.docs">
+        <item index="13" size="6" arg0="C" arg1="10" arg2="G" arg3="0" arg4="W" arg5="1"/>
+	</config>
+	
+</resources>
