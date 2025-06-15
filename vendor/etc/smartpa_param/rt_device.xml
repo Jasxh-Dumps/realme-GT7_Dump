@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<config>
+	<scenario name = "init" >
+		<ctl name="Left Audio Input Selection" val="0"></ctl>
+		<ctl name="Right Audio Input Selection" val="2"></ctl>
+		<ctl name="Left Data Output Left Channel Selection" val="1"></ctl>
+		<ctl name="Left Data Output Right Channel Selection" val="3"></ctl>
+		<ctl name="Right Data Output Left Channel Selection" val="2"></ctl>
+		<ctl name="Right Data Output Right Channel Selection" val="2"></ctl>
+		<ctl name="Left VBAT BIT OUT EN" val="1"></ctl>
+		<ctl name="Right VBAT BIT OUT EN" val="1"></ctl>
+		<ctl name="Left I2S Mux" val="1"></ctl>
+		<ctl name="Right I2S Mux" val="1"></ctl>
+	</scenario>
+	<scenario name = "deinit" />
+	<scenario name="speaker_on_normal">
+		<ctl name="Left Volume_Ctrl" val="231"></ctl>
+		<ctl name="Left Boost Mode" val="3"></ctl>
+		<ctl name="Left IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Left I2S Mux" val="0"></ctl>
+		<ctl name="Right Volume_Ctrl" val="202"></ctl>
+		<ctl name="Right IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Right Boost Mode" val="3"></ctl>
+		<ctl name="Right I2S Mux" val="0"></ctl>
+	</scenario>
+	<scenario name="speaker_on_ringtone">
+		<ctl name="Left Volume_Ctrl" val="231"></ctl>
+		<ctl name="Left Boost Mode" val="3"></ctl>
+		<ctl name="Left IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Left I2S Mux" val="0"></ctl>
+		<ctl name="Right Volume_Ctrl" val="202"></ctl>
+		<ctl name="Right IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Right Boost Mode" val="3"></ctl>
+		<ctl name="Right I2S Mux" val="0"></ctl>
+	</scenario>
+	<scenario name="speaker_on_phonecall">
+		<ctl name="Left Volume_Ctrl" val="231"></ctl>
+		<ctl name="Left Boost Mode" val="3"></ctl>
+		<ctl name="Left IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Left I2S Mux" val="0"></ctl>
+		<ctl name="Right Volume_Ctrl" val="202"></ctl>
+		<ctl name="Right IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Right Boost Mode" val="3"></ctl>
+		<ctl name="Right I2S Mux" val="0"></ctl>
+	</scenario>
+	<scenario name="speaker_on_voip">
+		<ctl name="Left Volume_Ctrl" val="231"></ctl>
+		<ctl name="Left Boost Mode" val="3"></ctl>
+		<ctl name="Left IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Left I2S Mux" val="0"></ctl>
+		<ctl name="Right Volume_Ctrl" val="202"></ctl>
+		<ctl name="Right IDAC Gain Selection" val="18"></ctl>
+		<ctl name="Right Boost Mode" val="3"></ctl>
+		<ctl name="Right I2S Mux" val="0"></ctl>
+	</scenario>
+	<scenario name="receiver_on_phonecall">
+		<ctl name="Right Volume_Ctrl" val="231"></ctl>
+		<ctl name="Right Boost Mode" val="1"></ctl>
+		<ctl name="Right IDAC Gain Selection" val="2"></ctl>
+		<ctl name="Right I2S Mux" val="0"></ctl>
+	</scenario>
+	<scenario name="receiver_on_voip">
+		<ctl name="Right Volume_Ctrl" val="231"></ctl>
+		<ctl name="Right Boost Mode" val="1"></ctl>
+		<ctl name="Right IDAC Gain Selection" val="2"></ctl>
+		<ctl name="Right I2S Mux" val="0"></ctl>
+	</scenario>
+	<scenario name="amp_off">
+		<ctl name="Left I2S Mux" val="1"></ctl>
+		<ctl name="Right I2S Mux" val="1"></ctl>
+	</scenario>
+</config>
+

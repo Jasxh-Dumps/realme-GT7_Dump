@@ -1,0 +1,29 @@
+{
+    "Release_Version": [{"model_version": "A-NK1_A-AK1_V4-7_M3w2"}],
+    "Fallback" : [ {
+        "conf_scale" : 0.000030517578125,
+        "green_thres" : 1,
+        "diff_thres" : 0.01362185517,
+        "green_scale" : 0.000007631557309650816,
+        "diff_scale" : 0.00047964436816982925,
+        "motion_scale" : 0.0007131522870622575
+    } ],
+    "MC" : [ {
+        "mc_correct_enable" : 1.0,
+        "boundary_u" : 250,
+        "boundary_d" : 250,
+        "boundary_l" : 300,
+        "boundary_r" : 300,
+        "blend_boundary_u" : 250,
+        "blend_boundary_d" : 250,
+        "blend_boundary_l" : 300,
+        "blend_boundary_r" : 300,
+        "error_alpha" : 8,
+        "error_thres" : 0.7,
+        "vmap_low_thres" : 0.6,
+        "vmap_high_thres" : 0.8,
+        "vmap_low_val" : 0.0,
+        "vmap_mid_val" : 0.25,
+        "vmap_high_val" : 1.0
+    } ]
+}

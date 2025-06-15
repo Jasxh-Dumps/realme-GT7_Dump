@@ -1,0 +1,43 @@
+#line 1 "system/sepolicy/vendor/vndservice_contexts"
+manager                 u:object_r:service_manager_vndservice:s0
+*                       u:object_r:default_android_vndservice:s0
+#line 1 "out_hal/soong/.intermediates/system/sepolicy/contexts/vndservice_contexts/android_common/gen/newline"
+
+#line 1 "device/mediatek/sepolicy/base/vendor/vndservice_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+android.IRemosaicDaemon u:object_r:remosaic_daemon_service:s0
+#line 1 "out_hal/soong/.intermediates/system/sepolicy/contexts/vndservice_contexts/android_common/gen/newline"
+
+#line 1 "vendor/oplus/system/sepolicy/ossi_generic/vendor/vndservice_contexts"
+###############################################################################
+## Copyright 2017 OPLUS Mobile Comm Corp., Ltd.
+## 
+## File: hwservice_contexts
+## Description : add for vndservice
+## Version: 1.0
+## Date : 2017/11/10
+## Author:Hongbo.dai@Camera,for support AndroidO remsoaic
+################################################################################
+
+#ifdef OPLUS_FEATURE_DISPLAY_PANEL
+#lisheng@MULTIMEDIA.DISPLAY.LCD, 2020/07/23, add for hidl test service
+dp.service u:object_r:dp_service:s0
+# Shaw@MULTIMEDIA.DISPLAY.LCD, 2023/5/20 Add for displaypanel Aidl
+dpa.service u:object_r:dpa_service:s0
+#endif
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#Xuhang.Li@OPLUS.BSP.TP, 2023/01/06, add for touch dameon binder
+touchDeamonBinder u:object_r:touchDeamonBinder_service:s0
+#endif
+
+vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon u:object_r:goodix_fingerprint_vndservice:s0
+vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt u:object_r:goodix_fingerprint_vndservice:s0
+vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonHbd u:object_r:goodix_fingerprint_vndservice:s0
+vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonFido u:object_r:goodix_fingerprint_vndservice:s0
+
+#line 1 "out_hal/soong/.intermediates/system/sepolicy/contexts/vndservice_contexts/android_common/gen/newline"
+

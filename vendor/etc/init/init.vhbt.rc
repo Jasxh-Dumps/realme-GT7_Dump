@@ -1,0 +1,21 @@
+# HBT binfmt_misc for 64-bit only devices
+on late-fs && property:ro.product.device=generic_arm64 && property:ro.vendor.mtk.app32_boost_support=* && property:ro.vendor.mtk.hbt_binfmt_misc_support=1
+    mount binfmt_misc none /proc/sys/fs/binfmt_misc
+    write /proc/sys/fs/binfmt_misc/register ":hbt:M::\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x28\x00:\xff\xff\xff\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfe\xff\xff\xff:/vendor/bin/vhbt_translator:POC"
+
+service zygote_VHBT /vendor/bin/vhbt_translator /system/bin/app_process32 -Xzygote /system/bin --zygote --socket-name=zygote_secondary
+    class main
+    priority -20
+    user root
+    group root readproc reserved_disk
+    socket zygote_secondary stream 660 root system
+    socket usap_pool_secondary stream 660 root system
+    onrestart restart zygote
+    task_profiles ProcessCapacityHigh MaxPerformance
+    disabled
+
+on zygote-start && property:ro.vendor.mtk.app32_boost_support=* && property:ro.product.name=gsi_arm64 && property:ro.zygote=zygote64 && property:ro.product.cpu.abilist32=*
+    start zygote_VHBT
+
+on property:sys.boot_completed=1 && property:ro.vendor.mtk.app32_boost_support=* && property:ro.product.name=gsi_arm64 && property:ro.zygote=zygote64 && property:ro.product.cpu.abilist32=*
+    chmod 666 /dev/vhbt

@@ -1,0 +1,44 @@
+{
+    "ConfidenceFallback": [
+        {
+            "hard_fallback": 0.73828125,
+			"soft_fallback_low": 0.73828125,
+            "soft_fallback": 0.7578125
+        },
+        {
+            "hard_fallback": 0.78125,
+			"soft_fallback_low": 0.78125,
+            "soft_fallback": 0.808593
+        },
+        {
+            "hard_fallback": 0.8203125,
+			"soft_fallback_low": 0.8203125,
+            "soft_fallback": 0.82421875
+        },
+        {
+            "hard_fallback": 0.73828125,
+			"soft_fallback_low": 0.1953125,
+            "soft_fallback": 0.91015625
+        },
+        {
+            "hard_fallback": 0.8203125,
+			"soft_fallback_low": 0.8203125,
+            "soft_fallback": 0.859375
+        },
+        {
+            "hard_fallback": 0.82421875,
+			"soft_fallback_low": 0.82421875,
+            "soft_fallback": 0.875
+        },
+        {
+            "hard_fallback": 0.828125,
+			"soft_fallback_low": 0.828125,
+            "soft_fallback": 0.88671875
+        },  
+        {
+            "hard_fallback": 0.8203125,
+			"soft_fallback_low": 0.828125,
+            "soft_fallback": 0.83984325
+        }
+    ]
+}

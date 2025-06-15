@@ -1,0 +1,7 @@
+libOpenCL.so
+libnir_neon_driver_ndk.mtk.vndk.so
+libcmdl_ndk.mtk.vndk.so
+libarmnn_ndk.mtk.vndk.so
+libneuron_adapter_mgvi.so
+libneuron_runtime.7.so
+libtflite_mtk_vnd.so

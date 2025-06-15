@@ -1,0 +1,77 @@
+#ifdef OPLUS_FEATURE_AGINGTEST
+on early-init
+    mount debugfs debugfs /sys/kernel/debug
+    write /dev/kmsg "init_agingtest.rc called by meta"
+
+service dramaging /vendor/bin/dramagingftm
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
+
+service bsp_cpu_dvfs /vendor/bin/sh /vendor/bin/init.oplus.bsp_cpu_dvfs.sh
+    class core
+    user root
+    group root system
+    stdio_to_kmsg
+    disabled
+    oneshot
+    seclabel u:r:init:s0
+
+service bsp_ddr_vcorefs /vendor/bin/sh /vendor/bin/init.oplus.bsp_ddr_vcorefs.sh
+    class core
+    user root
+    group root system log
+    stdio_to_kmsg
+    disabled
+    oneshot
+    seclabel u:r:init:s0
+
+service bsp_gpu_dvfs /vendor/bin/sh /system/bin/init.oplus.bsp_gpu_dvfs.sh
+    class core
+    user root
+    group root system log
+    stdio_to_kmsg
+    disabled
+    oneshot
+    seclabel u:r:init:s0
+
+service flashaging /vendor/bin/flashagingftm
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
+
+service sbltest /vendor/bin/sbltestreportftm
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
+
+service vndservicemanager /vendor/bin/vndservicemanager /dev/vndbinder
+    class core
+    user system
+    group system readproc
+    writepid /dev/cpuset/system-background/tasks
+    onrestart class_restart main
+    onrestart class_restart hal
+    onrestart class_restart early_hal
+    shutdown critical
+
+on property:debug.is_aging_test=1
+    mount ext4 /mnt/vendor/oplusreserve /cache bind
+    start servicemanager
+    start vndservicemanager
+    write  /dev/kmsg "init_agingtest.rc is_aging_test=1"
+    mkdir /cache/factory 0777 system system
+on property:debug.is_aging_test=1 && property:init.svc.vndservicemanager=running
+    write  /dev/kmsg "init_agingtest.rc is_aging_test=1 property:init.svc.vndservicemanager=running"
+    wait /cache/factory/factory_test_Preferences.xml
+    chmod 0666 /cache/factory/factory_test_Preferences.xml
+    wait /cache/factory/agingtest_ui.log
+    wait /cache/factory/mode.txt
+    chmod 0666 /cache/factory/mode.txt
+    start dramaging
+    start bsp_cpu_dvfs
+    start bsp_ddr_vcorefs
+    start bsp_gpu_dvfs
+    start flashaging
+    start sbltest
+#endif
